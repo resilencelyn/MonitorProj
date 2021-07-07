@@ -29,53 +29,45 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevComponents.Instrumentation.GaugeCircularScale gaugeCircularScale25 = new DevComponents.Instrumentation.GaugeCircularScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer45 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GaugeSection gaugeSection25 = new DevComponents.Instrumentation.GaugeSection();
-            DevComponents.Instrumentation.GaugeCircularScale gaugeCircularScale26 = new DevComponents.Instrumentation.GaugeCircularScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer46 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GaugeSection gaugeSection26 = new DevComponents.Instrumentation.GaugeSection();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor65 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor66 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor67 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor68 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale21 = new DevComponents.Instrumentation.GaugeLinearScale();
+            DevComponents.Instrumentation.GaugeCircularScale gaugeCircularScale1 = new DevComponents.Instrumentation.GaugeCircularScale();
+            DevComponents.Instrumentation.GaugePointer gaugePointer1 = new DevComponents.Instrumentation.GaugePointer();
+            DevComponents.Instrumentation.GaugeSection gaugeSection1 = new DevComponents.Instrumentation.GaugeSection();
+            DevComponents.Instrumentation.GaugeCircularScale gaugeCircularScale2 = new DevComponents.Instrumentation.GaugeCircularScale();
+            DevComponents.Instrumentation.GaugePointer gaugePointer2 = new DevComponents.Instrumentation.GaugePointer();
+            DevComponents.Instrumentation.GaugeSection gaugeSection2 = new DevComponents.Instrumentation.GaugeSection();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor1 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor2 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor3 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor4 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale1 = new DevComponents.Instrumentation.GaugeLinearScale();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMainUserA));
-            DevComponents.Instrumentation.GaugePointer gaugePointer47 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor69 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor70 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale22 = new DevComponents.Instrumentation.GaugeLinearScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer48 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor71 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor72 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale23 = new DevComponents.Instrumentation.GaugeLinearScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer49 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor73 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor74 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale24 = new DevComponents.Instrumentation.GaugeLinearScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer50 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor75 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor76 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale25 = new DevComponents.Instrumentation.GaugeLinearScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer51 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GaugeCircularScale gaugeCircularScale27 = new DevComponents.Instrumentation.GaugeCircularScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer52 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GaugeSection gaugeSection27 = new DevComponents.Instrumentation.GaugeSection();
-            DevComponents.Instrumentation.GaugeCircularScale gaugeCircularScale28 = new DevComponents.Instrumentation.GaugeCircularScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer53 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GaugeSection gaugeSection28 = new DevComponents.Instrumentation.GaugeSection();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor77 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor78 = new DevComponents.Instrumentation.GradientFillColor();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            DevComponents.Instrumentation.GaugeCircularScale gaugeCircularScale29 = new DevComponents.Instrumentation.GaugeCircularScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer54 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GaugeSection gaugeSection29 = new DevComponents.Instrumentation.GaugeSection();
-            DevComponents.Instrumentation.GaugeCircularScale gaugeCircularScale30 = new DevComponents.Instrumentation.GaugeCircularScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer55 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GaugeSection gaugeSection30 = new DevComponents.Instrumentation.GaugeSection();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor79 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor80 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GaugePointer gaugePointer3 = new DevComponents.Instrumentation.GaugePointer();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor5 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor6 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale2 = new DevComponents.Instrumentation.GaugeLinearScale();
+            DevComponents.Instrumentation.GaugePointer gaugePointer4 = new DevComponents.Instrumentation.GaugePointer();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor7 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor8 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale3 = new DevComponents.Instrumentation.GaugeLinearScale();
+            DevComponents.Instrumentation.GaugePointer gaugePointer5 = new DevComponents.Instrumentation.GaugePointer();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor9 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor10 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale4 = new DevComponents.Instrumentation.GaugeLinearScale();
+            DevComponents.Instrumentation.GaugePointer gaugePointer6 = new DevComponents.Instrumentation.GaugePointer();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor11 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor12 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale5 = new DevComponents.Instrumentation.GaugeLinearScale();
+            DevComponents.Instrumentation.GaugePointer gaugePointer7 = new DevComponents.Instrumentation.GaugePointer();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            DevComponents.Instrumentation.GaugeCircularScale gaugeCircularScale3 = new DevComponents.Instrumentation.GaugeCircularScale();
+            DevComponents.Instrumentation.GaugePointer gaugePointer8 = new DevComponents.Instrumentation.GaugePointer();
+            DevComponents.Instrumentation.GaugeSection gaugeSection3 = new DevComponents.Instrumentation.GaugeSection();
+            DevComponents.Instrumentation.GaugeCircularScale gaugeCircularScale4 = new DevComponents.Instrumentation.GaugeCircularScale();
+            DevComponents.Instrumentation.GaugePointer gaugePointer9 = new DevComponents.Instrumentation.GaugePointer();
+            DevComponents.Instrumentation.GaugeSection gaugeSection4 = new DevComponents.Instrumentation.GaugeSection();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor13 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor14 = new DevComponents.Instrumentation.GradientFillColor();
             this.GroupBox_MainMon = new System.Windows.Forms.GroupBox();
             this.groupBox27 = new System.Windows.Forms.GroupBox();
             this.label173 = new System.Windows.Forms.Label();
@@ -321,31 +313,9 @@
             this.trackBar_Light_7 = new System.Windows.Forms.TrackBar();
             this.trackBar_Light_6 = new System.Windows.Forms.TrackBar();
             this.trackBar_Light_5 = new System.Windows.Forms.TrackBar();
-            this.textBox_HeadingCircle_2 = new System.Windows.Forms.TextBox();
-            this.label192 = new System.Windows.Forms.Label();
             this.groupBox_SoftRuningInfo = new System.Windows.Forms.GroupBox();
             this.textBox_Communication = new System.Windows.Forms.TextBox();
             this.richTextBox_InfoShow = new System.Windows.Forms.RichTextBox();
-            this.groupBox32 = new System.Windows.Forms.GroupBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.textBox_TankDetectBoardCH3_2_2 = new System.Windows.Forms.TextBox();
-            this.label55 = new System.Windows.Forms.Label();
-            this.textBox_RotatePanel_Yaw_2 = new System.Windows.Forms.TextBox();
-            this.label190 = new System.Windows.Forms.Label();
-            this.textBox_RotatePanel_Pitch_2 = new System.Windows.Forms.TextBox();
-            this.label191 = new System.Windows.Forms.Label();
-            this.textBox_RotatePanel_Roll_2 = new System.Windows.Forms.TextBox();
-            this.label193 = new System.Windows.Forms.Label();
-            this.textBox_RotatePanel_HZ_2 = new System.Windows.Forms.TextBox();
-            this.label194 = new System.Windows.Forms.Label();
-            this.textBox_RotatePanel_HY_2 = new System.Windows.Forms.TextBox();
-            this.label195 = new System.Windows.Forms.Label();
-            this.textBox_RotatePanel_HX_2 = new System.Windows.Forms.TextBox();
-            this.label196 = new System.Windows.Forms.Label();
-            this.textBox_HeightMeasure_Hight_2 = new System.Windows.Forms.TextBox();
-            this.label197 = new System.Windows.Forms.Label();
-            this.btn_HeadingCircleClear_2 = new System.Windows.Forms.Button();
-            this.gaugeControl2 = new DevComponents.Instrumentation.GaugeControl();
             this.groupBox49 = new System.Windows.Forms.GroupBox();
             this.textBox_Communication_FaXiang16 = new System.Windows.Forms.TextBox();
             this.label305 = new System.Windows.Forms.Label();
@@ -876,7 +846,7 @@
             this.label89 = new System.Windows.Forms.Label();
             this.label94 = new System.Windows.Forms.Label();
             this.timer_Communication = new System.Windows.Forms.Timer(this.components);
-            this.gaugeControl3 = new DevComponents.Instrumentation.GaugeControl();
+            this.gyroAngle1 = new GyroAngle.GyroAngle();
             this.GroupBox_MainMon.SuspendLayout();
             this.groupBox27.SuspendLayout();
             this.GroupBox_MainCtl.SuspendLayout();
@@ -928,8 +898,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_Light_6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_Light_5)).BeginInit();
             this.groupBox_SoftRuningInfo.SuspendLayout();
-            this.groupBox32.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl2)).BeginInit();
             this.groupBox49.SuspendLayout();
             this.groupBox_BoardA_Mon.SuspendLayout();
             this.groupBox19.SuspendLayout();
@@ -984,12 +952,12 @@
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gaugeControl1)).BeginInit();
             this.groupBox23.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl3)).BeginInit();
             this.SuspendLayout();
             // 
             // GroupBox_MainMon
             // 
             this.GroupBox_MainMon.Controls.Add(this.groupBox27);
+            this.GroupBox_MainMon.Controls.Add(this.GroupBox_MainCtl);
             this.GroupBox_MainMon.Controls.Add(this.groupBox49);
             this.GroupBox_MainMon.Controls.Add(this.groupBox_BoardA_Mon);
             this.GroupBox_MainMon.Controls.Add(this.tabControl1);
@@ -1381,6 +1349,7 @@
             // 
             // GroupBox_MainCtl
             // 
+            this.GroupBox_MainCtl.Controls.Add(this.gyroAngle1);
             this.GroupBox_MainCtl.Controls.Add(this.groupBox33);
             this.GroupBox_MainCtl.Controls.Add(this.groupBox34);
             this.GroupBox_MainCtl.Controls.Add(this.GroupBox_FaXiang_Space);
@@ -1406,19 +1375,15 @@
             this.GroupBox_MainCtl.Controls.Add(this.gaugeControl_BuChang_2);
             this.GroupBox_MainCtl.Controls.Add(this.gaugeControl_BuChang_1);
             this.GroupBox_MainCtl.Controls.Add(this.GroupBox_CtlBtns);
-            this.GroupBox_MainCtl.Controls.Add(this.textBox_HeadingCircle_2);
-            this.GroupBox_MainCtl.Controls.Add(this.label192);
             this.GroupBox_MainCtl.Controls.Add(this.groupBox_SoftRuningInfo);
-            this.GroupBox_MainCtl.Controls.Add(this.groupBox32);
-            this.GroupBox_MainCtl.Controls.Add(this.btn_HeadingCircleClear_2);
-            this.GroupBox_MainCtl.Controls.Add(this.gaugeControl2);
-            this.GroupBox_MainCtl.Location = new System.Drawing.Point(18, 8);
+            this.GroupBox_MainCtl.Location = new System.Drawing.Point(9, 2);
             this.GroupBox_MainCtl.Margin = new System.Windows.Forms.Padding(2);
             this.GroupBox_MainCtl.Name = "GroupBox_MainCtl";
             this.GroupBox_MainCtl.Padding = new System.Windows.Forms.Padding(2);
             this.GroupBox_MainCtl.Size = new System.Drawing.Size(1900, 930);
             this.GroupBox_MainCtl.TabIndex = 0;
             this.GroupBox_MainCtl.TabStop = false;
+            this.GroupBox_MainCtl.Enter += new System.EventHandler(this.GroupBox_MainCtl_Enter);
             // 
             // groupBox33
             // 
@@ -2445,76 +2410,76 @@
             // 
             // gaugeControl4
             // 
-            gaugeCircularScale25.MajorTickMarks.Interval = 30D;
-            gaugeCircularScale25.MaxPin.Name = "MaxPin";
-            gaugeCircularScale25.MaxValue = 360D;
-            gaugeCircularScale25.MinorTickMarks.Interval = 6D;
-            gaugeCircularScale25.MinPin.Name = "MinPin";
-            gaugeCircularScale25.Name = "Scale1";
-            gaugePointer45.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer45.CapFillColor.BorderWidth = 1;
-            gaugePointer45.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer45.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer45.DampeningSweepTime = 0.0001D;
-            gaugePointer45.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer45.FillColor.BorderWidth = 1;
-            gaugePointer45.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer45.FillColor.Color2 = System.Drawing.Color.Red;
-            gaugePointer45.Length = 0.358F;
-            gaugePointer45.Name = "Pointer1";
-            gaugePointer45.Style = DevComponents.Instrumentation.PointerStyle.Needle;
-            gaugePointer45.Value = 0D;
-            gaugeCircularScale25.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer45});
-            gaugeCircularScale25.Radius = 0.45F;
-            gaugeSection25.FillColor.Color1 = System.Drawing.Color.CornflowerBlue;
-            gaugeSection25.FillColor.Color2 = System.Drawing.Color.Purple;
-            gaugeSection25.Name = "Section1";
-            gaugeCircularScale25.Sections.AddRange(new DevComponents.Instrumentation.GaugeSection[] {
-            gaugeSection25});
-            gaugeCircularScale25.StartAngle = 90F;
-            gaugeCircularScale25.SweepAngle = 360F;
-            gaugeCircularScale26.Labels.Layout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            gaugeCircularScale26.MajorTickMarks.Interval = 30D;
-            gaugeCircularScale26.MaxPin.Name = "MaxPin";
-            gaugeCircularScale26.MaxValue = 360D;
-            gaugeCircularScale26.MinorTickMarks.Interval = 6D;
-            gaugeCircularScale26.MinPin.Name = "MinPin";
-            gaugeCircularScale26.Name = "Scale2";
-            gaugePointer46.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer46.CapFillColor.BorderWidth = 1;
-            gaugePointer46.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer46.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer46.DampeningSweepTime = 0.0001D;
-            gaugePointer46.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer46.FillColor.BorderWidth = 1;
-            gaugePointer46.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer46.FillColor.Color2 = System.Drawing.Color.Green;
-            gaugePointer46.Length = 0.358F;
-            gaugePointer46.Name = "Pointer2";
-            gaugePointer46.Style = DevComponents.Instrumentation.PointerStyle.Needle;
-            gaugePointer46.Value = 0D;
-            gaugeCircularScale26.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer46});
-            gaugeCircularScale26.Radius = 0.45F;
-            gaugeSection26.FillColor.Color1 = System.Drawing.Color.CornflowerBlue;
-            gaugeSection26.FillColor.Color2 = System.Drawing.Color.Purple;
-            gaugeSection26.Name = "Section1";
-            gaugeCircularScale26.Sections.AddRange(new DevComponents.Instrumentation.GaugeSection[] {
-            gaugeSection26});
-            gaugeCircularScale26.StartAngle = 90F;
-            gaugeCircularScale26.SweepAngle = 360F;
+            gaugeCircularScale1.MajorTickMarks.Interval = 30D;
+            gaugeCircularScale1.MaxPin.Name = "MaxPin";
+            gaugeCircularScale1.MaxValue = 360D;
+            gaugeCircularScale1.MinorTickMarks.Interval = 6D;
+            gaugeCircularScale1.MinPin.Name = "MinPin";
+            gaugeCircularScale1.Name = "Scale1";
+            gaugePointer1.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer1.CapFillColor.BorderWidth = 1;
+            gaugePointer1.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer1.CapFillColor.Color2 = System.Drawing.Color.DimGray;
+            gaugePointer1.DampeningSweepTime = 0.0001D;
+            gaugePointer1.FillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer1.FillColor.BorderWidth = 1;
+            gaugePointer1.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer1.FillColor.Color2 = System.Drawing.Color.Red;
+            gaugePointer1.Length = 0.358F;
+            gaugePointer1.Name = "Pointer1";
+            gaugePointer1.Style = DevComponents.Instrumentation.PointerStyle.Needle;
+            gaugePointer1.Value = 0D;
+            gaugeCircularScale1.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
+            gaugePointer1});
+            gaugeCircularScale1.Radius = 0.45F;
+            gaugeSection1.FillColor.Color1 = System.Drawing.Color.CornflowerBlue;
+            gaugeSection1.FillColor.Color2 = System.Drawing.Color.Purple;
+            gaugeSection1.Name = "Section1";
+            gaugeCircularScale1.Sections.AddRange(new DevComponents.Instrumentation.GaugeSection[] {
+            gaugeSection1});
+            gaugeCircularScale1.StartAngle = 90F;
+            gaugeCircularScale1.SweepAngle = 360F;
+            gaugeCircularScale2.Labels.Layout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            gaugeCircularScale2.MajorTickMarks.Interval = 30D;
+            gaugeCircularScale2.MaxPin.Name = "MaxPin";
+            gaugeCircularScale2.MaxValue = 360D;
+            gaugeCircularScale2.MinorTickMarks.Interval = 6D;
+            gaugeCircularScale2.MinPin.Name = "MinPin";
+            gaugeCircularScale2.Name = "Scale2";
+            gaugePointer2.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer2.CapFillColor.BorderWidth = 1;
+            gaugePointer2.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer2.CapFillColor.Color2 = System.Drawing.Color.DimGray;
+            gaugePointer2.DampeningSweepTime = 0.0001D;
+            gaugePointer2.FillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer2.FillColor.BorderWidth = 1;
+            gaugePointer2.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer2.FillColor.Color2 = System.Drawing.Color.Green;
+            gaugePointer2.Length = 0.358F;
+            gaugePointer2.Name = "Pointer2";
+            gaugePointer2.Style = DevComponents.Instrumentation.PointerStyle.Needle;
+            gaugePointer2.Value = 0D;
+            gaugeCircularScale2.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
+            gaugePointer2});
+            gaugeCircularScale2.Radius = 0.45F;
+            gaugeSection2.FillColor.Color1 = System.Drawing.Color.CornflowerBlue;
+            gaugeSection2.FillColor.Color2 = System.Drawing.Color.Purple;
+            gaugeSection2.Name = "Section1";
+            gaugeCircularScale2.Sections.AddRange(new DevComponents.Instrumentation.GaugeSection[] {
+            gaugeSection2});
+            gaugeCircularScale2.StartAngle = 90F;
+            gaugeCircularScale2.SweepAngle = 360F;
             this.gaugeControl4.CircularScales.AddRange(new DevComponents.Instrumentation.GaugeCircularScale[] {
-            gaugeCircularScale25,
-            gaugeCircularScale26});
-            gradientFillColor65.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor65.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl4.Frame.BackColor = gradientFillColor65;
-            gradientFillColor66.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor66.BorderWidth = 1;
-            gradientFillColor66.Color1 = System.Drawing.Color.White;
-            gradientFillColor66.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl4.Frame.FrameColor = gradientFillColor66;
+            gaugeCircularScale1,
+            gaugeCircularScale2});
+            gradientFillColor1.Color1 = System.Drawing.Color.Gainsboro;
+            gradientFillColor1.Color2 = System.Drawing.Color.DarkGray;
+            this.gaugeControl4.Frame.BackColor = gradientFillColor1;
+            gradientFillColor2.BorderColor = System.Drawing.Color.Gainsboro;
+            gradientFillColor2.BorderWidth = 1;
+            gradientFillColor2.Color1 = System.Drawing.Color.White;
+            gradientFillColor2.Color2 = System.Drawing.Color.DimGray;
+            this.gaugeControl4.Frame.FrameColor = gradientFillColor2;
             this.gaugeControl4.Location = new System.Drawing.Point(301, 14);
             this.gaugeControl4.Name = "gaugeControl4";
             this.gaugeControl4.Size = new System.Drawing.Size(115, 115);
@@ -3133,52 +3098,52 @@
             // gaugeControl_YouXiang
             // 
             this.gaugeControl_YouXiang.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            gradientFillColor67.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor67.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl_YouXiang.Frame.BackColor = gradientFillColor67;
-            gradientFillColor68.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor68.BorderWidth = 1;
-            gradientFillColor68.Color1 = System.Drawing.Color.White;
-            gradientFillColor68.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl_YouXiang.Frame.FrameColor = gradientFillColor68;
+            gradientFillColor3.Color1 = System.Drawing.Color.Gainsboro;
+            gradientFillColor3.Color2 = System.Drawing.Color.DarkGray;
+            this.gaugeControl_YouXiang.Frame.BackColor = gradientFillColor3;
+            gradientFillColor4.BorderColor = System.Drawing.Color.Gainsboro;
+            gradientFillColor4.BorderWidth = 1;
+            gradientFillColor4.Color1 = System.Drawing.Color.White;
+            gradientFillColor4.Color2 = System.Drawing.Color.DimGray;
+            this.gaugeControl_YouXiang.Frame.FrameColor = gradientFillColor4;
             this.gaugeControl_YouXiang.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Rectangular;
-            gaugeLinearScale21.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale21.Location")));
-            gaugeLinearScale21.MajorTickMarks.Interval = 2D;
-            gaugeLinearScale21.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale21.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
-            gaugeLinearScale21.MajorTickMarks.Layout.Width = 0.044F;
-            gaugeLinearScale21.MaxPin.Name = "MaxPin";
-            gaugeLinearScale21.MaxPin.Visible = false;
-            gaugeLinearScale21.MaxValue = 10D;
-            gaugeLinearScale21.MinorTickMarks.Interval = 0.4D;
-            gaugeLinearScale21.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale21.MinorTickMarks.Layout.Width = 0.025F;
-            gaugeLinearScale21.MinPin.Name = "MinPin";
-            gaugeLinearScale21.MinPin.Visible = false;
-            gaugeLinearScale21.Name = "Scale1";
-            gaugeLinearScale21.Orientation = System.Windows.Forms.Orientation.Vertical;
-            gaugePointer47.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
-            gaugePointer47.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer47.CapFillColor.BorderWidth = 1;
-            gaugePointer47.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer47.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer47.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer47.FillColor.BorderWidth = 1;
-            gaugePointer47.FillColor.Color1 = System.Drawing.Color.Green;
-            gaugePointer47.Name = "Pointer1";
-            gaugePointer47.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
-            gaugePointer47.ScaleOffset = 0.022F;
-            gaugePointer47.Style = DevComponents.Instrumentation.PointerStyle.Bar;
-            gaugePointer47.Tooltip = "";
-            gaugePointer47.Value = 1D;
-            gaugePointer47.Width = 0.12F;
-            gaugeLinearScale21.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer47});
-            gaugeLinearScale21.Reversed = true;
-            gaugeLinearScale21.Size = new System.Drawing.SizeF(1.3F, 0.7F);
-            gaugeLinearScale21.Width = 0F;
+            gaugeLinearScale1.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale1.Location")));
+            gaugeLinearScale1.MajorTickMarks.Interval = 2D;
+            gaugeLinearScale1.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale1.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
+            gaugeLinearScale1.MajorTickMarks.Layout.Width = 0.044F;
+            gaugeLinearScale1.MaxPin.Name = "MaxPin";
+            gaugeLinearScale1.MaxPin.Visible = false;
+            gaugeLinearScale1.MaxValue = 10D;
+            gaugeLinearScale1.MinorTickMarks.Interval = 0.4D;
+            gaugeLinearScale1.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale1.MinorTickMarks.Layout.Width = 0.025F;
+            gaugeLinearScale1.MinPin.Name = "MinPin";
+            gaugeLinearScale1.MinPin.Visible = false;
+            gaugeLinearScale1.Name = "Scale1";
+            gaugeLinearScale1.Orientation = System.Windows.Forms.Orientation.Vertical;
+            gaugePointer3.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
+            gaugePointer3.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer3.CapFillColor.BorderWidth = 1;
+            gaugePointer3.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer3.CapFillColor.Color2 = System.Drawing.Color.DimGray;
+            gaugePointer3.FillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer3.FillColor.BorderWidth = 1;
+            gaugePointer3.FillColor.Color1 = System.Drawing.Color.Green;
+            gaugePointer3.Name = "Pointer1";
+            gaugePointer3.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
+            gaugePointer3.ScaleOffset = 0.022F;
+            gaugePointer3.Style = DevComponents.Instrumentation.PointerStyle.Bar;
+            gaugePointer3.Tooltip = "";
+            gaugePointer3.Value = 1D;
+            gaugePointer3.Width = 0.12F;
+            gaugeLinearScale1.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
+            gaugePointer3});
+            gaugeLinearScale1.Reversed = true;
+            gaugeLinearScale1.Size = new System.Drawing.SizeF(1.3F, 0.7F);
+            gaugeLinearScale1.Width = 0F;
             this.gaugeControl_YouXiang.LinearScales.AddRange(new DevComponents.Instrumentation.GaugeLinearScale[] {
-            gaugeLinearScale21});
+            gaugeLinearScale1});
             this.gaugeControl_YouXiang.Location = new System.Drawing.Point(1198, 578);
             this.gaugeControl_YouXiang.Margin = new System.Windows.Forms.Padding(2);
             this.gaugeControl_YouXiang.Name = "gaugeControl_YouXiang";
@@ -3189,51 +3154,51 @@
             // gaugeControl_BuChang_4
             // 
             this.gaugeControl_BuChang_4.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            gradientFillColor69.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor69.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl_BuChang_4.Frame.BackColor = gradientFillColor69;
-            gradientFillColor70.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor70.BorderWidth = 1;
-            gradientFillColor70.Color1 = System.Drawing.Color.White;
-            gradientFillColor70.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl_BuChang_4.Frame.FrameColor = gradientFillColor70;
+            gradientFillColor5.Color1 = System.Drawing.Color.Gainsboro;
+            gradientFillColor5.Color2 = System.Drawing.Color.DarkGray;
+            this.gaugeControl_BuChang_4.Frame.BackColor = gradientFillColor5;
+            gradientFillColor6.BorderColor = System.Drawing.Color.Gainsboro;
+            gradientFillColor6.BorderWidth = 1;
+            gradientFillColor6.Color1 = System.Drawing.Color.White;
+            gradientFillColor6.Color2 = System.Drawing.Color.DimGray;
+            this.gaugeControl_BuChang_4.Frame.FrameColor = gradientFillColor6;
             this.gaugeControl_BuChang_4.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Rectangular;
-            gaugeLinearScale22.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale22.Location")));
-            gaugeLinearScale22.MajorTickMarks.Interval = 0.5D;
-            gaugeLinearScale22.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale22.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
-            gaugeLinearScale22.MajorTickMarks.Layout.Width = 0.044F;
-            gaugeLinearScale22.MaxPin.Name = "MaxPin";
-            gaugeLinearScale22.MaxPin.Visible = false;
-            gaugeLinearScale22.MaxValue = 2.5D;
-            gaugeLinearScale22.MinorTickMarks.Interval = 0.1D;
-            gaugeLinearScale22.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale22.MinorTickMarks.Layout.Width = 0.025F;
-            gaugeLinearScale22.MinPin.Name = "MinPin";
-            gaugeLinearScale22.MinPin.Visible = false;
-            gaugeLinearScale22.Name = "Scale1";
-            gaugeLinearScale22.Orientation = System.Windows.Forms.Orientation.Vertical;
-            gaugePointer48.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
-            gaugePointer48.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer48.CapFillColor.BorderWidth = 1;
-            gaugePointer48.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer48.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer48.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer48.FillColor.BorderWidth = 1;
-            gaugePointer48.FillColor.Color1 = System.Drawing.Color.Green;
-            gaugePointer48.Name = "Pointer1";
-            gaugePointer48.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
-            gaugePointer48.ScaleOffset = 0.022F;
-            gaugePointer48.Style = DevComponents.Instrumentation.PointerStyle.Bar;
-            gaugePointer48.Value = 1D;
-            gaugePointer48.Width = 0.12F;
-            gaugeLinearScale22.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer48});
-            gaugeLinearScale22.Reversed = true;
-            gaugeLinearScale22.Size = new System.Drawing.SizeF(1.3F, 0.7F);
-            gaugeLinearScale22.Width = 0F;
+            gaugeLinearScale2.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale2.Location")));
+            gaugeLinearScale2.MajorTickMarks.Interval = 0.5D;
+            gaugeLinearScale2.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale2.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
+            gaugeLinearScale2.MajorTickMarks.Layout.Width = 0.044F;
+            gaugeLinearScale2.MaxPin.Name = "MaxPin";
+            gaugeLinearScale2.MaxPin.Visible = false;
+            gaugeLinearScale2.MaxValue = 2.5D;
+            gaugeLinearScale2.MinorTickMarks.Interval = 0.1D;
+            gaugeLinearScale2.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale2.MinorTickMarks.Layout.Width = 0.025F;
+            gaugeLinearScale2.MinPin.Name = "MinPin";
+            gaugeLinearScale2.MinPin.Visible = false;
+            gaugeLinearScale2.Name = "Scale1";
+            gaugeLinearScale2.Orientation = System.Windows.Forms.Orientation.Vertical;
+            gaugePointer4.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
+            gaugePointer4.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer4.CapFillColor.BorderWidth = 1;
+            gaugePointer4.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer4.CapFillColor.Color2 = System.Drawing.Color.DimGray;
+            gaugePointer4.FillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer4.FillColor.BorderWidth = 1;
+            gaugePointer4.FillColor.Color1 = System.Drawing.Color.Green;
+            gaugePointer4.Name = "Pointer1";
+            gaugePointer4.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
+            gaugePointer4.ScaleOffset = 0.022F;
+            gaugePointer4.Style = DevComponents.Instrumentation.PointerStyle.Bar;
+            gaugePointer4.Value = 1D;
+            gaugePointer4.Width = 0.12F;
+            gaugeLinearScale2.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
+            gaugePointer4});
+            gaugeLinearScale2.Reversed = true;
+            gaugeLinearScale2.Size = new System.Drawing.SizeF(1.3F, 0.7F);
+            gaugeLinearScale2.Width = 0F;
             this.gaugeControl_BuChang_4.LinearScales.AddRange(new DevComponents.Instrumentation.GaugeLinearScale[] {
-            gaugeLinearScale22});
+            gaugeLinearScale2});
             this.gaugeControl_BuChang_4.Location = new System.Drawing.Point(1109, 578);
             this.gaugeControl_BuChang_4.Margin = new System.Windows.Forms.Padding(2);
             this.gaugeControl_BuChang_4.Name = "gaugeControl_BuChang_4";
@@ -3244,51 +3209,51 @@
             // gaugeControl_BuChang_3
             // 
             this.gaugeControl_BuChang_3.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            gradientFillColor71.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor71.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl_BuChang_3.Frame.BackColor = gradientFillColor71;
-            gradientFillColor72.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor72.BorderWidth = 1;
-            gradientFillColor72.Color1 = System.Drawing.Color.White;
-            gradientFillColor72.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl_BuChang_3.Frame.FrameColor = gradientFillColor72;
+            gradientFillColor7.Color1 = System.Drawing.Color.Gainsboro;
+            gradientFillColor7.Color2 = System.Drawing.Color.DarkGray;
+            this.gaugeControl_BuChang_3.Frame.BackColor = gradientFillColor7;
+            gradientFillColor8.BorderColor = System.Drawing.Color.Gainsboro;
+            gradientFillColor8.BorderWidth = 1;
+            gradientFillColor8.Color1 = System.Drawing.Color.White;
+            gradientFillColor8.Color2 = System.Drawing.Color.DimGray;
+            this.gaugeControl_BuChang_3.Frame.FrameColor = gradientFillColor8;
             this.gaugeControl_BuChang_3.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Rectangular;
-            gaugeLinearScale23.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale23.Location")));
-            gaugeLinearScale23.MajorTickMarks.Interval = 0.5D;
-            gaugeLinearScale23.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale23.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
-            gaugeLinearScale23.MajorTickMarks.Layout.Width = 0.044F;
-            gaugeLinearScale23.MaxPin.Name = "MaxPin";
-            gaugeLinearScale23.MaxPin.Visible = false;
-            gaugeLinearScale23.MaxValue = 2.5D;
-            gaugeLinearScale23.MinorTickMarks.Interval = 0.1D;
-            gaugeLinearScale23.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale23.MinorTickMarks.Layout.Width = 0.025F;
-            gaugeLinearScale23.MinPin.Name = "MinPin";
-            gaugeLinearScale23.MinPin.Visible = false;
-            gaugeLinearScale23.Name = "Scale1";
-            gaugeLinearScale23.Orientation = System.Windows.Forms.Orientation.Vertical;
-            gaugePointer49.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
-            gaugePointer49.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer49.CapFillColor.BorderWidth = 1;
-            gaugePointer49.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer49.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer49.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer49.FillColor.BorderWidth = 1;
-            gaugePointer49.FillColor.Color1 = System.Drawing.Color.Green;
-            gaugePointer49.Name = "Pointer1";
-            gaugePointer49.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
-            gaugePointer49.ScaleOffset = 0.022F;
-            gaugePointer49.Style = DevComponents.Instrumentation.PointerStyle.Bar;
-            gaugePointer49.Value = 1D;
-            gaugePointer49.Width = 0.12F;
-            gaugeLinearScale23.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer49});
-            gaugeLinearScale23.Reversed = true;
-            gaugeLinearScale23.Size = new System.Drawing.SizeF(1.3F, 0.7F);
-            gaugeLinearScale23.Width = 0F;
+            gaugeLinearScale3.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale3.Location")));
+            gaugeLinearScale3.MajorTickMarks.Interval = 0.5D;
+            gaugeLinearScale3.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale3.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
+            gaugeLinearScale3.MajorTickMarks.Layout.Width = 0.044F;
+            gaugeLinearScale3.MaxPin.Name = "MaxPin";
+            gaugeLinearScale3.MaxPin.Visible = false;
+            gaugeLinearScale3.MaxValue = 2.5D;
+            gaugeLinearScale3.MinorTickMarks.Interval = 0.1D;
+            gaugeLinearScale3.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale3.MinorTickMarks.Layout.Width = 0.025F;
+            gaugeLinearScale3.MinPin.Name = "MinPin";
+            gaugeLinearScale3.MinPin.Visible = false;
+            gaugeLinearScale3.Name = "Scale1";
+            gaugeLinearScale3.Orientation = System.Windows.Forms.Orientation.Vertical;
+            gaugePointer5.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
+            gaugePointer5.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer5.CapFillColor.BorderWidth = 1;
+            gaugePointer5.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer5.CapFillColor.Color2 = System.Drawing.Color.DimGray;
+            gaugePointer5.FillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer5.FillColor.BorderWidth = 1;
+            gaugePointer5.FillColor.Color1 = System.Drawing.Color.Green;
+            gaugePointer5.Name = "Pointer1";
+            gaugePointer5.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
+            gaugePointer5.ScaleOffset = 0.022F;
+            gaugePointer5.Style = DevComponents.Instrumentation.PointerStyle.Bar;
+            gaugePointer5.Value = 1D;
+            gaugePointer5.Width = 0.12F;
+            gaugeLinearScale3.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
+            gaugePointer5});
+            gaugeLinearScale3.Reversed = true;
+            gaugeLinearScale3.Size = new System.Drawing.SizeF(1.3F, 0.7F);
+            gaugeLinearScale3.Width = 0F;
             this.gaugeControl_BuChang_3.LinearScales.AddRange(new DevComponents.Instrumentation.GaugeLinearScale[] {
-            gaugeLinearScale23});
+            gaugeLinearScale3});
             this.gaugeControl_BuChang_3.Location = new System.Drawing.Point(1014, 578);
             this.gaugeControl_BuChang_3.Margin = new System.Windows.Forms.Padding(2);
             this.gaugeControl_BuChang_3.Name = "gaugeControl_BuChang_3";
@@ -3299,51 +3264,51 @@
             // gaugeControl_BuChang_2
             // 
             this.gaugeControl_BuChang_2.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            gradientFillColor73.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor73.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl_BuChang_2.Frame.BackColor = gradientFillColor73;
-            gradientFillColor74.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor74.BorderWidth = 1;
-            gradientFillColor74.Color1 = System.Drawing.Color.White;
-            gradientFillColor74.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl_BuChang_2.Frame.FrameColor = gradientFillColor74;
+            gradientFillColor9.Color1 = System.Drawing.Color.Gainsboro;
+            gradientFillColor9.Color2 = System.Drawing.Color.DarkGray;
+            this.gaugeControl_BuChang_2.Frame.BackColor = gradientFillColor9;
+            gradientFillColor10.BorderColor = System.Drawing.Color.Gainsboro;
+            gradientFillColor10.BorderWidth = 1;
+            gradientFillColor10.Color1 = System.Drawing.Color.White;
+            gradientFillColor10.Color2 = System.Drawing.Color.DimGray;
+            this.gaugeControl_BuChang_2.Frame.FrameColor = gradientFillColor10;
             this.gaugeControl_BuChang_2.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Rectangular;
-            gaugeLinearScale24.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale24.Location")));
-            gaugeLinearScale24.MajorTickMarks.Interval = 0.5D;
-            gaugeLinearScale24.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale24.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
-            gaugeLinearScale24.MajorTickMarks.Layout.Width = 0.044F;
-            gaugeLinearScale24.MaxPin.Name = "MaxPin";
-            gaugeLinearScale24.MaxPin.Visible = false;
-            gaugeLinearScale24.MaxValue = 2.5D;
-            gaugeLinearScale24.MinorTickMarks.Interval = 0.1D;
-            gaugeLinearScale24.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale24.MinorTickMarks.Layout.Width = 0.025F;
-            gaugeLinearScale24.MinPin.Name = "MinPin";
-            gaugeLinearScale24.MinPin.Visible = false;
-            gaugeLinearScale24.Name = "Scale1";
-            gaugeLinearScale24.Orientation = System.Windows.Forms.Orientation.Vertical;
-            gaugePointer50.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
-            gaugePointer50.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer50.CapFillColor.BorderWidth = 1;
-            gaugePointer50.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer50.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer50.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer50.FillColor.BorderWidth = 1;
-            gaugePointer50.FillColor.Color1 = System.Drawing.Color.Green;
-            gaugePointer50.Name = "Pointer1";
-            gaugePointer50.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
-            gaugePointer50.ScaleOffset = 0.022F;
-            gaugePointer50.Style = DevComponents.Instrumentation.PointerStyle.Bar;
-            gaugePointer50.Value = 1D;
-            gaugePointer50.Width = 0.12F;
-            gaugeLinearScale24.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer50});
-            gaugeLinearScale24.Reversed = true;
-            gaugeLinearScale24.Size = new System.Drawing.SizeF(1.3F, 0.7F);
-            gaugeLinearScale24.Width = 0F;
+            gaugeLinearScale4.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale4.Location")));
+            gaugeLinearScale4.MajorTickMarks.Interval = 0.5D;
+            gaugeLinearScale4.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale4.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
+            gaugeLinearScale4.MajorTickMarks.Layout.Width = 0.044F;
+            gaugeLinearScale4.MaxPin.Name = "MaxPin";
+            gaugeLinearScale4.MaxPin.Visible = false;
+            gaugeLinearScale4.MaxValue = 2.5D;
+            gaugeLinearScale4.MinorTickMarks.Interval = 0.1D;
+            gaugeLinearScale4.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale4.MinorTickMarks.Layout.Width = 0.025F;
+            gaugeLinearScale4.MinPin.Name = "MinPin";
+            gaugeLinearScale4.MinPin.Visible = false;
+            gaugeLinearScale4.Name = "Scale1";
+            gaugeLinearScale4.Orientation = System.Windows.Forms.Orientation.Vertical;
+            gaugePointer6.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
+            gaugePointer6.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer6.CapFillColor.BorderWidth = 1;
+            gaugePointer6.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer6.CapFillColor.Color2 = System.Drawing.Color.DimGray;
+            gaugePointer6.FillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer6.FillColor.BorderWidth = 1;
+            gaugePointer6.FillColor.Color1 = System.Drawing.Color.Green;
+            gaugePointer6.Name = "Pointer1";
+            gaugePointer6.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
+            gaugePointer6.ScaleOffset = 0.022F;
+            gaugePointer6.Style = DevComponents.Instrumentation.PointerStyle.Bar;
+            gaugePointer6.Value = 1D;
+            gaugePointer6.Width = 0.12F;
+            gaugeLinearScale4.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
+            gaugePointer6});
+            gaugeLinearScale4.Reversed = true;
+            gaugeLinearScale4.Size = new System.Drawing.SizeF(1.3F, 0.7F);
+            gaugeLinearScale4.Width = 0F;
             this.gaugeControl_BuChang_2.LinearScales.AddRange(new DevComponents.Instrumentation.GaugeLinearScale[] {
-            gaugeLinearScale24});
+            gaugeLinearScale4});
             this.gaugeControl_BuChang_2.Location = new System.Drawing.Point(917, 578);
             this.gaugeControl_BuChang_2.Margin = new System.Windows.Forms.Padding(2);
             this.gaugeControl_BuChang_2.Name = "gaugeControl_BuChang_2";
@@ -3354,51 +3319,51 @@
             // gaugeControl_BuChang_1
             // 
             this.gaugeControl_BuChang_1.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            gradientFillColor75.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor75.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl_BuChang_1.Frame.BackColor = gradientFillColor75;
-            gradientFillColor76.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor76.BorderWidth = 1;
-            gradientFillColor76.Color1 = System.Drawing.Color.White;
-            gradientFillColor76.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl_BuChang_1.Frame.FrameColor = gradientFillColor76;
+            gradientFillColor11.Color1 = System.Drawing.Color.Gainsboro;
+            gradientFillColor11.Color2 = System.Drawing.Color.DarkGray;
+            this.gaugeControl_BuChang_1.Frame.BackColor = gradientFillColor11;
+            gradientFillColor12.BorderColor = System.Drawing.Color.Gainsboro;
+            gradientFillColor12.BorderWidth = 1;
+            gradientFillColor12.Color1 = System.Drawing.Color.White;
+            gradientFillColor12.Color2 = System.Drawing.Color.DimGray;
+            this.gaugeControl_BuChang_1.Frame.FrameColor = gradientFillColor12;
             this.gaugeControl_BuChang_1.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Rectangular;
-            gaugeLinearScale25.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale25.Location")));
-            gaugeLinearScale25.MajorTickMarks.Interval = 0.5D;
-            gaugeLinearScale25.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale25.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
-            gaugeLinearScale25.MajorTickMarks.Layout.Width = 0.044F;
-            gaugeLinearScale25.MaxPin.Name = "MaxPin";
-            gaugeLinearScale25.MaxPin.Visible = false;
-            gaugeLinearScale25.MaxValue = 2.5D;
-            gaugeLinearScale25.MinorTickMarks.Interval = 0.1D;
-            gaugeLinearScale25.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale25.MinorTickMarks.Layout.Width = 0.025F;
-            gaugeLinearScale25.MinPin.Name = "MinPin";
-            gaugeLinearScale25.MinPin.Visible = false;
-            gaugeLinearScale25.Name = "Scale1";
-            gaugeLinearScale25.Orientation = System.Windows.Forms.Orientation.Vertical;
-            gaugePointer51.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
-            gaugePointer51.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer51.CapFillColor.BorderWidth = 1;
-            gaugePointer51.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer51.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer51.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer51.FillColor.BorderWidth = 1;
-            gaugePointer51.FillColor.Color1 = System.Drawing.Color.Green;
-            gaugePointer51.Name = "Pointer1";
-            gaugePointer51.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
-            gaugePointer51.ScaleOffset = 0.022F;
-            gaugePointer51.Style = DevComponents.Instrumentation.PointerStyle.Bar;
-            gaugePointer51.Value = 1D;
-            gaugePointer51.Width = 0.12F;
-            gaugeLinearScale25.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer51});
-            gaugeLinearScale25.Reversed = true;
-            gaugeLinearScale25.Size = new System.Drawing.SizeF(1.3F, 0.7F);
-            gaugeLinearScale25.Width = 0F;
+            gaugeLinearScale5.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale5.Location")));
+            gaugeLinearScale5.MajorTickMarks.Interval = 0.5D;
+            gaugeLinearScale5.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale5.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
+            gaugeLinearScale5.MajorTickMarks.Layout.Width = 0.044F;
+            gaugeLinearScale5.MaxPin.Name = "MaxPin";
+            gaugeLinearScale5.MaxPin.Visible = false;
+            gaugeLinearScale5.MaxValue = 2.5D;
+            gaugeLinearScale5.MinorTickMarks.Interval = 0.1D;
+            gaugeLinearScale5.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale5.MinorTickMarks.Layout.Width = 0.025F;
+            gaugeLinearScale5.MinPin.Name = "MinPin";
+            gaugeLinearScale5.MinPin.Visible = false;
+            gaugeLinearScale5.Name = "Scale1";
+            gaugeLinearScale5.Orientation = System.Windows.Forms.Orientation.Vertical;
+            gaugePointer7.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
+            gaugePointer7.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer7.CapFillColor.BorderWidth = 1;
+            gaugePointer7.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer7.CapFillColor.Color2 = System.Drawing.Color.DimGray;
+            gaugePointer7.FillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer7.FillColor.BorderWidth = 1;
+            gaugePointer7.FillColor.Color1 = System.Drawing.Color.Green;
+            gaugePointer7.Name = "Pointer1";
+            gaugePointer7.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
+            gaugePointer7.ScaleOffset = 0.022F;
+            gaugePointer7.Style = DevComponents.Instrumentation.PointerStyle.Bar;
+            gaugePointer7.Value = 1D;
+            gaugePointer7.Width = 0.12F;
+            gaugeLinearScale5.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
+            gaugePointer7});
+            gaugeLinearScale5.Reversed = true;
+            gaugeLinearScale5.Size = new System.Drawing.SizeF(1.3F, 0.7F);
+            gaugeLinearScale5.Width = 0F;
             this.gaugeControl_BuChang_1.LinearScales.AddRange(new DevComponents.Instrumentation.GaugeLinearScale[] {
-            gaugeLinearScale25});
+            gaugeLinearScale5});
             this.gaugeControl_BuChang_1.Location = new System.Drawing.Point(820, 578);
             this.gaugeControl_BuChang_1.Margin = new System.Windows.Forms.Padding(2);
             this.gaugeControl_BuChang_1.Name = "gaugeControl_BuChang_1";
@@ -4336,29 +4301,6 @@
             this.trackBar_Light_5.Value = 15;
             this.trackBar_Light_5.MouseUp += new System.Windows.Forms.MouseEventHandler(this.trackBar_Light_5_8_MouseUp);
             // 
-            // textBox_HeadingCircle_2
-            // 
-            this.textBox_HeadingCircle_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_HeadingCircle_2.Location = new System.Drawing.Point(278, 138);
-            this.textBox_HeadingCircle_2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_HeadingCircle_2.Name = "textBox_HeadingCircle_2";
-            this.textBox_HeadingCircle_2.ReadOnly = true;
-            this.textBox_HeadingCircle_2.Size = new System.Drawing.Size(65, 29);
-            this.textBox_HeadingCircle_2.TabIndex = 122;
-            this.textBox_HeadingCircle_2.Text = "0";
-            this.textBox_HeadingCircle_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label192
-            // 
-            this.label192.AutoSize = true;
-            this.label192.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label192.Location = new System.Drawing.Point(286, 100);
-            this.label192.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label192.Name = "label192";
-            this.label192.Size = new System.Drawing.Size(57, 19);
-            this.label192.TabIndex = 121;
-            this.label192.Text = "圈数:";
-            // 
             // groupBox_SoftRuningInfo
             // 
             this.groupBox_SoftRuningInfo.Controls.Add(this.textBox_Communication);
@@ -4395,304 +4337,6 @@
             this.richTextBox_InfoShow.Size = new System.Drawing.Size(337, 350);
             this.richTextBox_InfoShow.TabIndex = 0;
             this.richTextBox_InfoShow.Text = "";
-            // 
-            // groupBox32
-            // 
-            this.groupBox32.Controls.Add(this.label33);
-            this.groupBox32.Controls.Add(this.textBox_TankDetectBoardCH3_2_2);
-            this.groupBox32.Controls.Add(this.label55);
-            this.groupBox32.Controls.Add(this.textBox_RotatePanel_Yaw_2);
-            this.groupBox32.Controls.Add(this.label190);
-            this.groupBox32.Controls.Add(this.textBox_RotatePanel_Pitch_2);
-            this.groupBox32.Controls.Add(this.label191);
-            this.groupBox32.Controls.Add(this.textBox_RotatePanel_Roll_2);
-            this.groupBox32.Controls.Add(this.label193);
-            this.groupBox32.Controls.Add(this.textBox_RotatePanel_HZ_2);
-            this.groupBox32.Controls.Add(this.label194);
-            this.groupBox32.Controls.Add(this.textBox_RotatePanel_HY_2);
-            this.groupBox32.Controls.Add(this.label195);
-            this.groupBox32.Controls.Add(this.textBox_RotatePanel_HX_2);
-            this.groupBox32.Controls.Add(this.label196);
-            this.groupBox32.Controls.Add(this.textBox_HeightMeasure_Hight_2);
-            this.groupBox32.Controls.Add(this.label197);
-            this.groupBox32.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
-            this.groupBox32.Location = new System.Drawing.Point(13, 288);
-            this.groupBox32.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox32.Name = "groupBox32";
-            this.groupBox32.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox32.Size = new System.Drawing.Size(339, 235);
-            this.groupBox32.TabIndex = 152;
-            this.groupBox32.TabStop = false;
-            this.groupBox32.Text = "高度计与罗盘";
-            this.groupBox32.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint);
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("宋体", 12.8F);
-            this.label33.Location = new System.Drawing.Point(322, 165);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(17, 18);
-            this.label33.TabIndex = 164;
-            this.label33.Text = "m";
-            // 
-            // textBox_TankDetectBoardCH3_2_2
-            // 
-            this.textBox_TankDetectBoardCH3_2_2.Font = new System.Drawing.Font("宋体", 12.8F);
-            this.textBox_TankDetectBoardCH3_2_2.Location = new System.Drawing.Point(240, 157);
-            this.textBox_TankDetectBoardCH3_2_2.Name = "textBox_TankDetectBoardCH3_2_2";
-            this.textBox_TankDetectBoardCH3_2_2.ReadOnly = true;
-            this.textBox_TankDetectBoardCH3_2_2.Size = new System.Drawing.Size(80, 27);
-            this.textBox_TankDetectBoardCH3_2_2.TabIndex = 163;
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("宋体", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label55.Location = new System.Drawing.Point(152, 161);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(72, 17);
-            this.label55.TabIndex = 162;
-            this.label55.Text = "深度计:";
-            // 
-            // textBox_RotatePanel_Yaw_2
-            // 
-            this.textBox_RotatePanel_Yaw_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_RotatePanel_Yaw_2.Location = new System.Drawing.Point(238, 110);
-            this.textBox_RotatePanel_Yaw_2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_RotatePanel_Yaw_2.Name = "textBox_RotatePanel_Yaw_2";
-            this.textBox_RotatePanel_Yaw_2.ReadOnly = true;
-            this.textBox_RotatePanel_Yaw_2.Size = new System.Drawing.Size(65, 29);
-            this.textBox_RotatePanel_Yaw_2.TabIndex = 124;
-            // 
-            // label190
-            // 
-            this.label190.AutoSize = true;
-            this.label190.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label190.Location = new System.Drawing.Point(157, 115);
-            this.label190.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label190.Name = "label190";
-            this.label190.Size = new System.Drawing.Size(57, 19);
-            this.label190.TabIndex = 123;
-            this.label190.Text = "艏向:";
-            // 
-            // textBox_RotatePanel_Pitch_2
-            // 
-            this.textBox_RotatePanel_Pitch_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_RotatePanel_Pitch_2.Location = new System.Drawing.Point(238, 69);
-            this.textBox_RotatePanel_Pitch_2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_RotatePanel_Pitch_2.Name = "textBox_RotatePanel_Pitch_2";
-            this.textBox_RotatePanel_Pitch_2.ReadOnly = true;
-            this.textBox_RotatePanel_Pitch_2.Size = new System.Drawing.Size(65, 29);
-            this.textBox_RotatePanel_Pitch_2.TabIndex = 122;
-            // 
-            // label191
-            // 
-            this.label191.AutoSize = true;
-            this.label191.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label191.Location = new System.Drawing.Point(157, 36);
-            this.label191.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label191.Name = "label191";
-            this.label191.Size = new System.Drawing.Size(80, 16);
-            this.label191.TabIndex = 121;
-            this.label191.Text = "前后倾角:";
-            // 
-            // textBox_RotatePanel_Roll_2
-            // 
-            this.textBox_RotatePanel_Roll_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_RotatePanel_Roll_2.Location = new System.Drawing.Point(239, 31);
-            this.textBox_RotatePanel_Roll_2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_RotatePanel_Roll_2.Name = "textBox_RotatePanel_Roll_2";
-            this.textBox_RotatePanel_Roll_2.ReadOnly = true;
-            this.textBox_RotatePanel_Roll_2.Size = new System.Drawing.Size(65, 29);
-            this.textBox_RotatePanel_Roll_2.TabIndex = 120;
-            // 
-            // label193
-            // 
-            this.label193.AutoSize = true;
-            this.label193.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label193.Location = new System.Drawing.Point(157, 77);
-            this.label193.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label193.Name = "label193";
-            this.label193.Size = new System.Drawing.Size(80, 16);
-            this.label193.TabIndex = 119;
-            this.label193.Text = "前后倾角:";
-            // 
-            // textBox_RotatePanel_HZ_2
-            // 
-            this.textBox_RotatePanel_HZ_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_RotatePanel_HZ_2.Location = new System.Drawing.Point(75, 110);
-            this.textBox_RotatePanel_HZ_2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_RotatePanel_HZ_2.Name = "textBox_RotatePanel_HZ_2";
-            this.textBox_RotatePanel_HZ_2.ReadOnly = true;
-            this.textBox_RotatePanel_HZ_2.Size = new System.Drawing.Size(65, 29);
-            this.textBox_RotatePanel_HZ_2.TabIndex = 118;
-            // 
-            // label194
-            // 
-            this.label194.AutoSize = true;
-            this.label194.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label194.Location = new System.Drawing.Point(34, 116);
-            this.label194.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label194.Name = "label194";
-            this.label194.Size = new System.Drawing.Size(39, 19);
-            this.label194.TabIndex = 117;
-            this.label194.Text = "HZ:";
-            // 
-            // textBox_RotatePanel_HY_2
-            // 
-            this.textBox_RotatePanel_HY_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_RotatePanel_HY_2.Location = new System.Drawing.Point(74, 69);
-            this.textBox_RotatePanel_HY_2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_RotatePanel_HY_2.Name = "textBox_RotatePanel_HY_2";
-            this.textBox_RotatePanel_HY_2.ReadOnly = true;
-            this.textBox_RotatePanel_HY_2.Size = new System.Drawing.Size(65, 29);
-            this.textBox_RotatePanel_HY_2.TabIndex = 116;
-            // 
-            // label195
-            // 
-            this.label195.AutoSize = true;
-            this.label195.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label195.Location = new System.Drawing.Point(34, 75);
-            this.label195.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label195.Name = "label195";
-            this.label195.Size = new System.Drawing.Size(39, 19);
-            this.label195.TabIndex = 115;
-            this.label195.Text = "HY:";
-            // 
-            // textBox_RotatePanel_HX_2
-            // 
-            this.textBox_RotatePanel_HX_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_RotatePanel_HX_2.Location = new System.Drawing.Point(75, 31);
-            this.textBox_RotatePanel_HX_2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_RotatePanel_HX_2.Name = "textBox_RotatePanel_HX_2";
-            this.textBox_RotatePanel_HX_2.ReadOnly = true;
-            this.textBox_RotatePanel_HX_2.Size = new System.Drawing.Size(65, 29);
-            this.textBox_RotatePanel_HX_2.TabIndex = 114;
-            // 
-            // label196
-            // 
-            this.label196.AutoSize = true;
-            this.label196.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label196.Location = new System.Drawing.Point(34, 36);
-            this.label196.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label196.Name = "label196";
-            this.label196.Size = new System.Drawing.Size(39, 19);
-            this.label196.TabIndex = 113;
-            this.label196.Text = "HX:";
-            // 
-            // textBox_HeightMeasure_Hight_2
-            // 
-            this.textBox_HeightMeasure_Hight_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_HeightMeasure_Hight_2.Location = new System.Drawing.Point(76, 154);
-            this.textBox_HeightMeasure_Hight_2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_HeightMeasure_Hight_2.Name = "textBox_HeightMeasure_Hight_2";
-            this.textBox_HeightMeasure_Hight_2.ReadOnly = true;
-            this.textBox_HeightMeasure_Hight_2.Size = new System.Drawing.Size(64, 29);
-            this.textBox_HeightMeasure_Hight_2.TabIndex = 112;
-            this.textBox_HeightMeasure_Hight_2.TextChanged += new System.EventHandler(this.textBox_HeightMeasure_Hight_2_TextChanged);
-            // 
-            // label197
-            // 
-            this.label197.AutoSize = true;
-            this.label197.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label197.Location = new System.Drawing.Point(15, 159);
-            this.label197.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label197.Name = "label197";
-            this.label197.Size = new System.Drawing.Size(57, 19);
-            this.label197.TabIndex = 111;
-            this.label197.Text = "高度:";
-            // 
-            // btn_HeadingCircleClear_2
-            // 
-            this.btn_HeadingCircleClear_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_HeadingCircleClear_2.Location = new System.Drawing.Point(273, 218);
-            this.btn_HeadingCircleClear_2.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_HeadingCircleClear_2.Name = "btn_HeadingCircleClear_2";
-            this.btn_HeadingCircleClear_2.Size = new System.Drawing.Size(71, 63);
-            this.btn_HeadingCircleClear_2.TabIndex = 150;
-            this.btn_HeadingCircleClear_2.Text = "圈数\r\n清零";
-            this.btn_HeadingCircleClear_2.UseVisualStyleBackColor = true;
-            this.btn_HeadingCircleClear_2.Click += new System.EventHandler(this.btn_HeadingCircleClear_Click);
-            // 
-            // gaugeControl2
-            // 
-            gaugeCircularScale27.MajorTickMarks.Interval = 30D;
-            gaugeCircularScale27.MaxPin.Name = "MaxPin";
-            gaugeCircularScale27.MaxValue = 360D;
-            gaugeCircularScale27.MinorTickMarks.Interval = 6D;
-            gaugeCircularScale27.MinPin.Name = "MinPin";
-            gaugeCircularScale27.Name = "Scale1";
-            gaugePointer52.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer52.CapFillColor.BorderWidth = 1;
-            gaugePointer52.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer52.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer52.DampeningSweepTime = 0.0001D;
-            gaugePointer52.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer52.FillColor.BorderWidth = 1;
-            gaugePointer52.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer52.FillColor.Color2 = System.Drawing.Color.Red;
-            gaugePointer52.Length = 0.358F;
-            gaugePointer52.Name = "Pointer1";
-            gaugePointer52.Style = DevComponents.Instrumentation.PointerStyle.Needle;
-            gaugePointer52.Value = 0D;
-            gaugeCircularScale27.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer52});
-            gaugeSection27.FillColor.Color1 = System.Drawing.Color.CornflowerBlue;
-            gaugeSection27.FillColor.Color2 = System.Drawing.Color.Purple;
-            gaugeSection27.Name = "Section1";
-            gaugeCircularScale27.Sections.AddRange(new DevComponents.Instrumentation.GaugeSection[] {
-            gaugeSection27});
-            gaugeCircularScale27.StartAngle = 90F;
-            gaugeCircularScale27.SweepAngle = 360F;
-            gaugeCircularScale28.MajorTickMarks.Interval = 2D;
-            gaugeCircularScale28.MaxPin.Name = "MaxPin";
-            gaugeCircularScale28.MaxValue = 10D;
-            gaugeCircularScale28.MinorTickMarks.Interval = 4D;
-            gaugeCircularScale28.MinPin.Name = "MinPin";
-            gaugeCircularScale28.MinValue = -10D;
-            gaugeCircularScale28.Name = "Scale2";
-            gaugePointer53.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer53.CapFillColor.BorderWidth = 1;
-            gaugePointer53.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer53.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer53.DampeningSweepTime = 0.0001D;
-            gaugePointer53.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer53.FillColor.BorderWidth = 1;
-            gaugePointer53.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer53.FillColor.Color2 = System.Drawing.Color.Lime;
-            gaugePointer53.Name = "Pointer2";
-            gaugePointer53.Origin = DevComponents.Instrumentation.PointerOrigin.Custom;
-            gaugePointer53.Style = DevComponents.Instrumentation.PointerStyle.Needle;
-            gaugePointer53.ThermoBackColor.BorderColor = System.Drawing.Color.Black;
-            gaugePointer53.ThermoBackColor.BorderWidth = 1;
-            gaugePointer53.ThermoBackColor.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            gaugePointer53.Value = 0D;
-            gaugeCircularScale28.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer53});
-            gaugeCircularScale28.Radius = 0.24F;
-            gaugeSection28.FillColor.Color1 = System.Drawing.Color.CornflowerBlue;
-            gaugeSection28.Name = "Section1";
-            gaugeCircularScale28.Sections.AddRange(new DevComponents.Instrumentation.GaugeSection[] {
-            gaugeSection28});
-            gaugeCircularScale28.StartAngle = 135F;
-            gaugeCircularScale28.SweepAngle = 270F;
-            this.gaugeControl2.CircularScales.AddRange(new DevComponents.Instrumentation.GaugeCircularScale[] {
-            gaugeCircularScale27,
-            gaugeCircularScale28});
-            gradientFillColor77.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor77.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl2.Frame.BackColor = gradientFillColor77;
-            gradientFillColor78.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor78.BorderWidth = 1;
-            gradientFillColor78.Color1 = System.Drawing.Color.White;
-            gradientFillColor78.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl2.Frame.FrameColor = gradientFillColor78;
-            this.gaugeControl2.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Circular;
-            this.gaugeControl2.Location = new System.Drawing.Point(30, 33);
-            this.gaugeControl2.Name = "gaugeControl2";
-            this.gaugeControl2.Size = new System.Drawing.Size(224, 224);
-            this.gaugeControl2.TabIndex = 151;
             // 
             // groupBox49
             // 
@@ -7897,14 +7541,14 @@
             this.DataGridView_SysAlarmInfo.Name = "DataGridView_SysAlarmInfo";
             this.DataGridView_SysAlarmInfo.ReadOnly = true;
             this.DataGridView_SysAlarmInfo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGridView_SysAlarmInfo.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridView_SysAlarmInfo.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.DataGridView_SysAlarmInfo.RowHeadersVisible = false;
             this.DataGridView_SysAlarmInfo.RowHeadersWidth = 51;
             this.DataGridView_SysAlarmInfo.RowTemplate.Height = 27;
@@ -7914,10 +7558,10 @@
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle1;
             this.Column1.HeaderText = "";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
@@ -7931,24 +7575,24 @@
             this.toolStripSeparator1,
             this.toolStripMenuItem_ClearAll});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(179, 54);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(173, 54);
             // 
             // toolStripMenuItem_DeleteSelected
             // 
             this.toolStripMenuItem_DeleteSelected.Name = "toolStripMenuItem_DeleteSelected";
-            this.toolStripMenuItem_DeleteSelected.Size = new System.Drawing.Size(178, 22);
+            this.toolStripMenuItem_DeleteSelected.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem_DeleteSelected.Text = "清除当前报警信息";
             this.toolStripMenuItem_DeleteSelected.Click += new System.EventHandler(this.toolStripMenuItem_DeleteSelected_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(175, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(169, 6);
             // 
             // toolStripMenuItem_ClearAll
             // 
             this.toolStripMenuItem_ClearAll.Name = "toolStripMenuItem_ClearAll";
-            this.toolStripMenuItem_ClearAll.Size = new System.Drawing.Size(178, 22);
+            this.toolStripMenuItem_ClearAll.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem_ClearAll.Text = "清除所有报警信息";
             this.toolStripMenuItem_ClearAll.Click += new System.EventHandler(this.toolStripMenuItem_ClearAll_Click);
             // 
@@ -10414,77 +10058,77 @@
             // 
             // gaugeControl1
             // 
-            gaugeCircularScale29.MajorTickMarks.Interval = 30D;
-            gaugeCircularScale29.MaxPin.Name = "MaxPin";
-            gaugeCircularScale29.MaxValue = 360D;
-            gaugeCircularScale29.MinorTickMarks.Interval = 6D;
-            gaugeCircularScale29.MinPin.Name = "MinPin";
-            gaugeCircularScale29.Name = "Scale1";
-            gaugePointer54.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer54.CapFillColor.BorderWidth = 1;
-            gaugePointer54.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer54.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer54.DampeningSweepTime = 0.0001D;
-            gaugePointer54.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer54.FillColor.BorderWidth = 1;
-            gaugePointer54.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer54.FillColor.Color2 = System.Drawing.Color.Red;
-            gaugePointer54.Length = 0.358F;
-            gaugePointer54.Name = "Pointer1";
-            gaugePointer54.Style = DevComponents.Instrumentation.PointerStyle.Needle;
-            gaugePointer54.Value = 0D;
-            gaugeCircularScale29.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer54});
-            gaugeSection29.FillColor.Color1 = System.Drawing.Color.CornflowerBlue;
-            gaugeSection29.FillColor.Color2 = System.Drawing.Color.Purple;
-            gaugeSection29.Name = "Section1";
-            gaugeCircularScale29.Sections.AddRange(new DevComponents.Instrumentation.GaugeSection[] {
-            gaugeSection29});
-            gaugeCircularScale29.StartAngle = 90F;
-            gaugeCircularScale29.SweepAngle = 360F;
-            gaugeCircularScale30.MajorTickMarks.Interval = 2D;
-            gaugeCircularScale30.MaxPin.Name = "MaxPin";
-            gaugeCircularScale30.MaxValue = 10D;
-            gaugeCircularScale30.MinorTickMarks.Interval = 4D;
-            gaugeCircularScale30.MinPin.Name = "MinPin";
-            gaugeCircularScale30.MinValue = -10D;
-            gaugeCircularScale30.Name = "Scale2";
-            gaugePointer55.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer55.CapFillColor.BorderWidth = 1;
-            gaugePointer55.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer55.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer55.DampeningSweepTime = 0.0001D;
-            gaugePointer55.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer55.FillColor.BorderWidth = 1;
-            gaugePointer55.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer55.FillColor.Color2 = System.Drawing.Color.Lime;
-            gaugePointer55.Name = "Pointer2";
-            gaugePointer55.Origin = DevComponents.Instrumentation.PointerOrigin.Custom;
-            gaugePointer55.Style = DevComponents.Instrumentation.PointerStyle.Needle;
-            gaugePointer55.ThermoBackColor.BorderColor = System.Drawing.Color.Black;
-            gaugePointer55.ThermoBackColor.BorderWidth = 1;
-            gaugePointer55.ThermoBackColor.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            gaugePointer55.Value = 0D;
-            gaugeCircularScale30.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer55});
-            gaugeCircularScale30.Radius = 0.24F;
-            gaugeSection30.FillColor.Color1 = System.Drawing.Color.CornflowerBlue;
-            gaugeSection30.Name = "Section1";
-            gaugeCircularScale30.Sections.AddRange(new DevComponents.Instrumentation.GaugeSection[] {
-            gaugeSection30});
-            gaugeCircularScale30.StartAngle = 135F;
-            gaugeCircularScale30.SweepAngle = 270F;
+            gaugeCircularScale3.MajorTickMarks.Interval = 30D;
+            gaugeCircularScale3.MaxPin.Name = "MaxPin";
+            gaugeCircularScale3.MaxValue = 360D;
+            gaugeCircularScale3.MinorTickMarks.Interval = 6D;
+            gaugeCircularScale3.MinPin.Name = "MinPin";
+            gaugeCircularScale3.Name = "Scale1";
+            gaugePointer8.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer8.CapFillColor.BorderWidth = 1;
+            gaugePointer8.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer8.CapFillColor.Color2 = System.Drawing.Color.DimGray;
+            gaugePointer8.DampeningSweepTime = 0.0001D;
+            gaugePointer8.FillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer8.FillColor.BorderWidth = 1;
+            gaugePointer8.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer8.FillColor.Color2 = System.Drawing.Color.Red;
+            gaugePointer8.Length = 0.358F;
+            gaugePointer8.Name = "Pointer1";
+            gaugePointer8.Style = DevComponents.Instrumentation.PointerStyle.Needle;
+            gaugePointer8.Value = 0D;
+            gaugeCircularScale3.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
+            gaugePointer8});
+            gaugeSection3.FillColor.Color1 = System.Drawing.Color.CornflowerBlue;
+            gaugeSection3.FillColor.Color2 = System.Drawing.Color.Purple;
+            gaugeSection3.Name = "Section1";
+            gaugeCircularScale3.Sections.AddRange(new DevComponents.Instrumentation.GaugeSection[] {
+            gaugeSection3});
+            gaugeCircularScale3.StartAngle = 90F;
+            gaugeCircularScale3.SweepAngle = 360F;
+            gaugeCircularScale4.MajorTickMarks.Interval = 2D;
+            gaugeCircularScale4.MaxPin.Name = "MaxPin";
+            gaugeCircularScale4.MaxValue = 10D;
+            gaugeCircularScale4.MinorTickMarks.Interval = 4D;
+            gaugeCircularScale4.MinPin.Name = "MinPin";
+            gaugeCircularScale4.MinValue = -10D;
+            gaugeCircularScale4.Name = "Scale2";
+            gaugePointer9.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer9.CapFillColor.BorderWidth = 1;
+            gaugePointer9.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer9.CapFillColor.Color2 = System.Drawing.Color.DimGray;
+            gaugePointer9.DampeningSweepTime = 0.0001D;
+            gaugePointer9.FillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer9.FillColor.BorderWidth = 1;
+            gaugePointer9.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer9.FillColor.Color2 = System.Drawing.Color.Lime;
+            gaugePointer9.Name = "Pointer2";
+            gaugePointer9.Origin = DevComponents.Instrumentation.PointerOrigin.Custom;
+            gaugePointer9.Style = DevComponents.Instrumentation.PointerStyle.Needle;
+            gaugePointer9.ThermoBackColor.BorderColor = System.Drawing.Color.Black;
+            gaugePointer9.ThermoBackColor.BorderWidth = 1;
+            gaugePointer9.ThermoBackColor.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            gaugePointer9.Value = 0D;
+            gaugeCircularScale4.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
+            gaugePointer9});
+            gaugeCircularScale4.Radius = 0.24F;
+            gaugeSection4.FillColor.Color1 = System.Drawing.Color.CornflowerBlue;
+            gaugeSection4.Name = "Section1";
+            gaugeCircularScale4.Sections.AddRange(new DevComponents.Instrumentation.GaugeSection[] {
+            gaugeSection4});
+            gaugeCircularScale4.StartAngle = 135F;
+            gaugeCircularScale4.SweepAngle = 270F;
             this.gaugeControl1.CircularScales.AddRange(new DevComponents.Instrumentation.GaugeCircularScale[] {
-            gaugeCircularScale29,
-            gaugeCircularScale30});
-            gradientFillColor79.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor79.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl1.Frame.BackColor = gradientFillColor79;
-            gradientFillColor80.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor80.BorderWidth = 1;
-            gradientFillColor80.Color1 = System.Drawing.Color.White;
-            gradientFillColor80.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl1.Frame.FrameColor = gradientFillColor80;
+            gaugeCircularScale3,
+            gaugeCircularScale4});
+            gradientFillColor13.Color1 = System.Drawing.Color.Gainsboro;
+            gradientFillColor13.Color2 = System.Drawing.Color.DarkGray;
+            this.gaugeControl1.Frame.BackColor = gradientFillColor13;
+            gradientFillColor14.BorderColor = System.Drawing.Color.Gainsboro;
+            gradientFillColor14.BorderWidth = 1;
+            gradientFillColor14.Color1 = System.Drawing.Color.White;
+            gradientFillColor14.Color2 = System.Drawing.Color.DimGray;
+            this.gaugeControl1.Frame.FrameColor = gradientFillColor14;
             this.gaugeControl1.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Circular;
             this.gaugeControl1.Location = new System.Drawing.Point(478, 464);
             this.gaugeControl1.Name = "gaugeControl1";
@@ -10696,18 +10340,28 @@
             this.timer_Communication.Interval = 7000;
             this.timer_Communication.Tick += new System.EventHandler(this.timer_Communication_Tick);
             // 
-            // gaugeControl3
+            // gyroAngle1
             // 
-            this.gaugeControl3.Location = new System.Drawing.Point(0, 0);
-            this.gaugeControl3.Name = "gaugeControl3";
-            this.gaugeControl3.TabIndex = 0;
+            this.gyroAngle1.BackColor = System.Drawing.Color.Black;
+            this.gyroAngle1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.gyroAngle1.HX = 0F;
+            this.gyroAngle1.HY = 0F;
+            this.gyroAngle1.HZ = 0F;
+            this.gyroAngle1.Location = new System.Drawing.Point(18, 40);
+            this.gyroAngle1.Margin = new System.Windows.Forms.Padding(4);
+            this.gyroAngle1.Model = "07061.obj";
+            this.gyroAngle1.Name = "gyroAngle1";
+            this.gyroAngle1.Pitch = 0F;
+            this.gyroAngle1.Roll = 0F;
+            this.gyroAngle1.Size = new System.Drawing.Size(320, 480);
+            this.gyroAngle1.TabIndex = 206;
+            this.gyroAngle1.Yaw = 0F;
             // 
             // FormMainUserA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(1924, 849);
-            this.Controls.Add(this.GroupBox_MainCtl);
             this.Controls.Add(this.GroupBox_MainMon);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -10786,9 +10440,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_Light_5)).EndInit();
             this.groupBox_SoftRuningInfo.ResumeLayout(false);
             this.groupBox_SoftRuningInfo.PerformLayout();
-            this.groupBox32.ResumeLayout(false);
-            this.groupBox32.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl2)).EndInit();
             this.groupBox49.ResumeLayout(false);
             this.groupBox49.PerformLayout();
             this.groupBox_BoardA_Mon.ResumeLayout(false);
@@ -10873,7 +10524,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.gaugeControl1)).EndInit();
             this.groupBox23.ResumeLayout(false);
             this.groupBox23.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -11442,87 +11092,75 @@
         private System.Windows.Forms.Label label308;
         private System.Windows.Forms.Label label309;
         private System.Windows.Forms.Label label310;
-        private DevComponents.Instrumentation.GaugeControl gaugeControl2;
-        private System.Windows.Forms.Button btn_HeadingCircleClear_2;
-        private System.Windows.Forms.GroupBox groupBox32;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.TextBox textBox_TankDetectBoardCH3_2_2;
-        private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.TextBox textBox_RotatePanel_Yaw_2;
-        private System.Windows.Forms.Label label190;
-        private System.Windows.Forms.TextBox textBox_RotatePanel_Pitch_2;
-        private System.Windows.Forms.Label label191;
-        private System.Windows.Forms.TextBox textBox_RotatePanel_Roll_2;
-        private System.Windows.Forms.Label label193;
-        private System.Windows.Forms.TextBox textBox_RotatePanel_HZ_2;
-        private System.Windows.Forms.Label label194;
-        private System.Windows.Forms.TextBox textBox_RotatePanel_HY_2;
-        private System.Windows.Forms.Label label195;
-        private System.Windows.Forms.TextBox textBox_RotatePanel_HX_2;
-        private System.Windows.Forms.Label label196;
-        private System.Windows.Forms.TextBox textBox_HeightMeasure_Hight_2;
-        private System.Windows.Forms.Label label197;
-        private System.Windows.Forms.GroupBox groupBox_SoftRuningInfo;
-        public System.Windows.Forms.RichTextBox richTextBox_InfoShow;
-        private System.Windows.Forms.Label label192;
-        private System.Windows.Forms.TextBox textBox_HeadingCircle_2;
-        private System.Windows.Forms.GroupBox GroupBox_CtlBtns;
-        private System.Windows.Forms.Button btn_FaBox_Space;
-        private System.Windows.Forms.Button btn_FaBox_72;
+        public System.Windows.Forms.GroupBox GroupBox_MainCtl;
+        public System.Windows.Forms.GroupBox groupBox33;
+        public System.Windows.Forms.Button button30;
+        public System.Windows.Forms.Button button31;
+        private System.Windows.Forms.Label label313;
+        private System.Windows.Forms.Label label314;
+        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown numericUpDown4;
+        public System.Windows.Forms.Button button32;
+        private System.Windows.Forms.Label label316;
+        private System.Windows.Forms.Label label318;
+        public System.Windows.Forms.Button button33;
+        public System.Windows.Forms.Button button34;
+        public System.Windows.Forms.Button button35;
+        private System.Windows.Forms.GroupBox groupBox34;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.GroupBox GroupBox_FaXiang_Space;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button27;
+        private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button button29;
+        private System.Windows.Forms.Button btn24v_10;
+        private System.Windows.Forms.Button btn24v_9;
+        private System.Windows.Forms.Button btn24v_8;
+        private System.Windows.Forms.Button btn24v_7;
+        private System.Windows.Forms.Button btn24v_6;
+        private System.Windows.Forms.Button btn24v_5;
+        private System.Windows.Forms.Button btn24v_4;
+        private System.Windows.Forms.Button btn24v_3;
+        private System.Windows.Forms.Button btn24v_2;
+        private System.Windows.Forms.Button btn24v_1;
+        private System.Windows.Forms.Label label_BuChang_5;
         public System.Windows.Forms.GroupBox groupBox31;
-        public System.Windows.Forms.GroupBox groupBox30;
-        private System.Windows.Forms.Button btn_Camera_8;
-        private System.Windows.Forms.Button btn_Camera_7;
-        private System.Windows.Forms.Button btn_Camera_6;
-        private System.Windows.Forms.Button btn_Camera_5;
-        private System.Windows.Forms.Button btn_Camera_4;
-        private System.Windows.Forms.Button btn_Camera_3;
-        private System.Windows.Forms.Button btn_Camera_2;
-        private System.Windows.Forms.Button btn_Camera_1;
-        private System.Windows.Forms.GroupBox groupBox29;
-        private System.Windows.Forms.Button btn_DetectPanel_Space_Bak2;
-        private System.Windows.Forms.Button btn_DetectPanel_Space_Bak1;
-        private System.Windows.Forms.Button btn_DetectPanel_Deep;
-        private System.Windows.Forms.Button btn_DetectPanel_Hight;
-        private System.Windows.Forms.Button btn_DetectPanel_Space_12V3;
-        private System.Windows.Forms.Button btn_DetectPanel_Space_12V2;
-        private System.Windows.Forms.Button btn_DetectPanel_Space_12V1;
-        private System.Windows.Forms.Button btn_DetectPanel_Rotate;
-        private System.Windows.Forms.GroupBox groupBox28;
-        private System.Windows.Forms.Button btn_Light_2;
-        private System.Windows.Forms.Button btn_Light_8;
-        private System.Windows.Forms.Button btn_Light_4;
-        private System.Windows.Forms.Button btn_Light_7;
-        private System.Windows.Forms.Button btn_Light_3;
-        private System.Windows.Forms.Button btn_Light_6;
-        private System.Windows.Forms.Button btn_Light_5;
-        private System.Windows.Forms.Button btn_Light_1;
-        private System.Windows.Forms.TrackBar trackBar_Light_2;
-        private System.Windows.Forms.TrackBar trackBar_Light_1;
-        private System.Windows.Forms.TrackBar trackBar_Light_4;
-        private System.Windows.Forms.TrackBar trackBar_Light_3;
-        private System.Windows.Forms.TrackBar trackBar_Light_8;
-        private System.Windows.Forms.TrackBar trackBar_Light_7;
-        private System.Windows.Forms.TrackBar trackBar_Light_6;
-        private System.Windows.Forms.TrackBar trackBar_Light_5;
-        private DevComponents.Instrumentation.GaugeControl gaugeControl_BuChang_1;
-        private DevComponents.Instrumentation.GaugeControl gaugeControl_BuChang_2;
-        private DevComponents.Instrumentation.GaugeControl gaugeControl_BuChang_4;
-        private DevComponents.Instrumentation.GaugeControl gaugeControl_YouXiang;
-        private System.Windows.Forms.Label label225;
-        private System.Windows.Forms.GroupBox groupBox_WaterCtlBox_BoardD_Ctl;
-        private System.Windows.Forms.Button btn_WaterCtlBox_SerialClose;
-        private System.Windows.Forms.Button btn_WaterCtlBox_SerialOpen;
-        private System.Windows.Forms.ComboBox comboBox_WaterCtlBox_SerialPort;
-        private System.Windows.Forms.Label label235;
-        private System.Windows.Forms.Label label224;
-        private System.Windows.Forms.Label label222;
-        private System.Windows.Forms.Label label221;
-        private System.Windows.Forms.GroupBox groupBox38;
-        private System.Windows.Forms.Button btn_ROVPower_SerialClose;
-        private System.Windows.Forms.Button btn_ROVPower_SerialOpen;
-        private System.Windows.Forms.ComboBox comboBox_ROVPower_SerialPort;
-        private System.Windows.Forms.Label label233;
+        public System.Windows.Forms.Button button2;
+        public System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label317;
+        private System.Windows.Forms.Label label315;
+        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        public System.Windows.Forms.Button btn_DianJiA_kaiGuang;
+        private System.Windows.Forms.Label label312;
+        private System.Windows.Forms.Label label311;
+        public System.Windows.Forms.Button btn_DianJiA_Space;
+        public System.Windows.Forms.Button btn_DianJiA_FanZhuan;
+        public System.Windows.Forms.Button btn_DianJiA_ZhengZhuan;
+        private System.Windows.Forms.Label label_BuChang_4;
+        private System.Windows.Forms.Label label_BuChang_3;
+        private System.Windows.Forms.Label label_BuChang_2;
+        private System.Windows.Forms.Label label_BuChang_1;
+        private System.Windows.Forms.GroupBox groupBox45;
+        private System.Windows.Forms.Button btn_JuYuanJianCe_2_SerialClose;
+        private System.Windows.Forms.Button btn_JuYuanJianCe_2_SerialOpen;
+        private System.Windows.Forms.ComboBox comboBox_JuYuanJianCe_2_SerialPort;
+        private System.Windows.Forms.Label label288;
+        private System.Windows.Forms.GroupBox groupBox_JuYuanJianCe_1_BoardD_Ctl;
+        private System.Windows.Forms.Button btn_JuYuanJianCe_1_SerialClose;
+        private System.Windows.Forms.Button btn_JuYuanJianCe_1_SerialOpen;
+        private System.Windows.Forms.ComboBox comboBox_JuYuanJianCe_1_SerialPort;
+        private System.Windows.Forms.Label label290;
         private System.Windows.Forms.GroupBox groupBox39;
         private System.Windows.Forms.GroupBox GroupBox_TuiJinQi;
         private System.Windows.Forms.GroupBox groupBox_TuiJinQi_AutoHigh;
@@ -11570,56 +11208,29 @@
         private System.Windows.Forms.NumericUpDown numericUpDown_TuiJinQi_HMove_ZengLiang;
         private System.Windows.Forms.CheckBox checkBox_AutoCtl;
         private System.Windows.Forms.Label label237;
-        private System.Windows.Forms.GroupBox groupBox_JuYuanJianCe_1_BoardD_Ctl;
-        private System.Windows.Forms.Button btn_JuYuanJianCe_1_SerialClose;
-        private System.Windows.Forms.Button btn_JuYuanJianCe_1_SerialOpen;
-        private System.Windows.Forms.ComboBox comboBox_JuYuanJianCe_1_SerialPort;
-        private System.Windows.Forms.Label label290;
-        private System.Windows.Forms.GroupBox groupBox45;
-        private System.Windows.Forms.Button btn_JuYuanJianCe_2_SerialClose;
-        private System.Windows.Forms.Button btn_JuYuanJianCe_2_SerialOpen;
-        private System.Windows.Forms.ComboBox comboBox_JuYuanJianCe_2_SerialPort;
-        private System.Windows.Forms.Label label288;
-        private System.Windows.Forms.Label label_BuChang_1;
-        private System.Windows.Forms.Label label_BuChang_2;
-        private System.Windows.Forms.Label label_BuChang_4;
-        private System.Windows.Forms.Label label_BuChang_5;
-        public System.Windows.Forms.GroupBox GroupBox_MainCtl;
-        private System.Windows.Forms.Label label_BuChang_3;
+        private System.Windows.Forms.GroupBox groupBox38;
+        private System.Windows.Forms.Button btn_ROVPower_SerialClose;
+        private System.Windows.Forms.Button btn_ROVPower_SerialOpen;
+        private System.Windows.Forms.ComboBox comboBox_ROVPower_SerialPort;
+        private System.Windows.Forms.Label label233;
+        private System.Windows.Forms.Label label221;
+        private System.Windows.Forms.Label label222;
         private System.Windows.Forms.Label label223;
+        private System.Windows.Forms.Label label224;
+        private System.Windows.Forms.GroupBox groupBox_WaterCtlBox_BoardD_Ctl;
+        private System.Windows.Forms.Button btn_WaterCtlBox_SerialClose;
+        private System.Windows.Forms.Button btn_WaterCtlBox_SerialOpen;
+        private System.Windows.Forms.ComboBox comboBox_WaterCtlBox_SerialPort;
+        private System.Windows.Forms.Label label235;
+        private System.Windows.Forms.Label label225;
+        private DevComponents.Instrumentation.GaugeControl gaugeControl_YouXiang;
+        private DevComponents.Instrumentation.GaugeControl gaugeControl_BuChang_4;
         private DevComponents.Instrumentation.GaugeControl gaugeControl_BuChang_3;
-        public System.Windows.Forms.Button btn_DianJiA_Space;
-        public System.Windows.Forms.Button btn_DianJiA_FanZhuan;
-        public System.Windows.Forms.Button btn_DianJiA_ZhengZhuan;
-        private System.Windows.Forms.Label label312;
-        private System.Windows.Forms.Label label311;
-        public System.Windows.Forms.Button btn_DianJiA_kaiGuang;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        public System.Windows.Forms.Button button2;
-        public System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label317;
-        private System.Windows.Forms.Label label315;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private DevComponents.Instrumentation.GaugeControl gaugeControl_BuChang_2;
+        private DevComponents.Instrumentation.GaugeControl gaugeControl_BuChang_1;
+        private System.Windows.Forms.GroupBox GroupBox_CtlBtns;
+        private System.Windows.Forms.Button btn_FaBox_Space;
         private System.Windows.Forms.GroupBox groupBox_JXS;
-        private System.Windows.Forms.Button btn_JXS_QIDONG;
-        private System.Windows.Forms.Button btn_JXS_CHUSHIHUA;
-        private System.Windows.Forms.GroupBox groupBox54;
-        private System.Windows.Forms.Button btn_JXS_ZHUAJIN;
-        private System.Windows.Forms.Button btn_JXS_FANSONG;
-        private System.Windows.Forms.Label label325;
-        private System.Windows.Forms.Label label324;
-        private System.Windows.Forms.Label label323;
-        private System.Windows.Forms.Label label322;
-        private System.Windows.Forms.Label label321;
-        private System.Windows.Forms.Label label320;
-        private System.Windows.Forms.Label label319;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button13;
@@ -11638,47 +11249,64 @@
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.GroupBox groupBox34;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label325;
+        private System.Windows.Forms.Label label324;
+        private System.Windows.Forms.Label label323;
+        private System.Windows.Forms.Label label322;
+        private System.Windows.Forms.Label label321;
+        private System.Windows.Forms.Label label320;
+        private System.Windows.Forms.Label label319;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Button btn_JXS_QIDONG;
+        private System.Windows.Forms.Button btn_JXS_CHUSHIHUA;
+        private System.Windows.Forms.GroupBox groupBox54;
+        private System.Windows.Forms.Button btn_JXS_ZHUAJIN;
+        private System.Windows.Forms.Button btn_JXS_FANSONG;
+        private System.Windows.Forms.Button btn_FaBox_72;
+        public System.Windows.Forms.GroupBox groupBox30;
+        private System.Windows.Forms.Button btn_Camera_8;
+        private System.Windows.Forms.Button btn_Camera_7;
+        private System.Windows.Forms.Button btn_Camera_6;
+        private System.Windows.Forms.Button btn_Camera_5;
+        private System.Windows.Forms.Button btn_Camera_4;
+        private System.Windows.Forms.Button btn_Camera_3;
+        private System.Windows.Forms.Button btn_Camera_2;
+        private System.Windows.Forms.Button btn_Camera_1;
+        private System.Windows.Forms.GroupBox groupBox29;
+        private System.Windows.Forms.Button btn_DetectPanel_Space_Bak2;
+        private System.Windows.Forms.Button btn_DetectPanel_Space_Bak1;
+        private System.Windows.Forms.Button btn_DetectPanel_Deep;
+        private System.Windows.Forms.Button btn_DetectPanel_Hight;
+        private System.Windows.Forms.Button btn_DetectPanel_Space_12V3;
+        private System.Windows.Forms.Button btn_DetectPanel_Space_12V2;
+        private System.Windows.Forms.Button btn_DetectPanel_Space_12V1;
+        private System.Windows.Forms.Button btn_DetectPanel_Rotate;
+        private System.Windows.Forms.GroupBox groupBox28;
+        private System.Windows.Forms.Button btn_Light_2;
+        private System.Windows.Forms.Button btn_Light_8;
+        private System.Windows.Forms.Button btn_Light_4;
+        private System.Windows.Forms.Button btn_Light_7;
+        private System.Windows.Forms.Button btn_Light_3;
+        private System.Windows.Forms.Button btn_Light_6;
+        private System.Windows.Forms.Button btn_Light_5;
+        private System.Windows.Forms.Button btn_Light_1;
+        private System.Windows.Forms.TrackBar trackBar_Light_2;
+        private System.Windows.Forms.TrackBar trackBar_Light_1;
+        private System.Windows.Forms.TrackBar trackBar_Light_4;
+        private System.Windows.Forms.TrackBar trackBar_Light_3;
+        private System.Windows.Forms.TrackBar trackBar_Light_8;
+        private System.Windows.Forms.TrackBar trackBar_Light_7;
+        private System.Windows.Forms.TrackBar trackBar_Light_6;
+        private System.Windows.Forms.TrackBar trackBar_Light_5;
+        private System.Windows.Forms.GroupBox groupBox_SoftRuningInfo;
         private System.Windows.Forms.TextBox textBox_Communication;
-        public System.Windows.Forms.GroupBox groupBox33;
-        public System.Windows.Forms.Button button30;
-        public System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Label label313;
-        private System.Windows.Forms.Label label314;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
-        public System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Label label316;
-        private System.Windows.Forms.Label label318;
-        public System.Windows.Forms.Button button33;
-        public System.Windows.Forms.Button button34;
-        public System.Windows.Forms.Button button35;
-        private System.Windows.Forms.GroupBox GroupBox_FaXiang_Space;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button btn24v_10;
-        private System.Windows.Forms.Button btn24v_9;
-        private System.Windows.Forms.Button btn24v_8;
-        private System.Windows.Forms.Button btn24v_7;
-        private System.Windows.Forms.Button btn24v_6;
-        private System.Windows.Forms.Button btn24v_5;
-        private System.Windows.Forms.Button btn24v_4;
-        private System.Windows.Forms.Button btn24v_3;
-        private System.Windows.Forms.Button btn24v_2;
-        private System.Windows.Forms.Button btn24v_1;
-        private DevComponents.Instrumentation.GaugeControl gaugeControl3;
+        public System.Windows.Forms.RichTextBox richTextBox_InfoShow;
+        private GyroAngle.GyroAngle gyroAngle1;
     }
 }

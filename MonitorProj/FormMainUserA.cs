@@ -2250,7 +2250,7 @@ namespace MonitorProj
 
                         flag_Communication_40 = true;
 
-                        textBox_TankDetectBoardCH3_2_2.Text = Math.Round(myStruct.CH3_2, 2).ToString();
+                        //textBox_TankDetectBoardCH3_2_2.Text = Math.Round(myStruct.CH3_2, 2).ToString();
 
                         //补偿1
                         if (myStruct.CH3_3 >= 0 && myStruct.CH3_3 <= 2.5)
@@ -2864,7 +2864,7 @@ namespace MonitorProj
                     {
                         Struct_HightMeasureDevice myStruct = (Struct_HightMeasureDevice)gEventArgs.objParse;
                         textBox_HeightMeasure_Hight.Text = myStruct.sHight;
-                        textBox_HeightMeasure_Hight_2.Text = myStruct.sHight;
+                        //textBox_HeightMeasure_Hight_2.Text = myStruct.sHight;
 
                         value_High_Now = myStruct.Height;
                         if (flag_AutoHigh_Oper == false)
@@ -3166,21 +3166,22 @@ namespace MonitorProj
                     #region 罗盘
                     else if (gEventArgs.addressBoard == enum_AddressBoard.Rotate_Panel_Device)//罗盘
                     {
+                        
                         Struct_RotatePanelDevice myStruct = (Struct_RotatePanelDevice)gEventArgs.objParse;
-                        textBox_RotatePanel_HX.Text = Math.Round(myStruct.HX, 2).ToString();
-                        textBox_RotatePanel_HY.Text = Math.Round(myStruct.HY, 2).ToString();
-                        textBox_RotatePanel_HZ.Text = Math.Round(myStruct.HZ, 2).ToString();
-                        textBox_RotatePanel_Roll.Text = Math.Round(myStruct.Roll, 2).ToString();
-                        textBox_RotatePanel_Pitch.Text = Math.Round(myStruct.Pitch, 2).ToString();
-                        textBox_RotatePanel_Yaw.Text = Math.Round(myStruct.Yaw, 2).ToString();
-
+                        gyroAngle1.HX = (float)Math.Round(myStruct.HX, 2);
+                        gyroAngle1.HY = (float)Math.Round(myStruct.HY, 2);
+                        gyroAngle1.HZ = (float)Math.Round(myStruct.HZ, 2);
+                        gyroAngle1.Roll = (float)Math.Round(myStruct.Roll, 2);
+                        gyroAngle1.Pitch = (float)Math.Round(myStruct.Pitch, 2);
+                        gyroAngle1.Yaw = (float)Math.Round(myStruct.Yaw, 2);
+                        /*
                         textBox_RotatePanel_HX_2.Text = Math.Round(myStruct.HX, 2).ToString();
                         textBox_RotatePanel_HY_2.Text = Math.Round(myStruct.HY, 2).ToString();
                         textBox_RotatePanel_HZ_2.Text = Math.Round(myStruct.HZ, 2).ToString();
                         textBox_RotatePanel_Roll_2.Text = Math.Round(myStruct.Roll, 2).ToString();
                         textBox_RotatePanel_Pitch_2.Text = Math.Round(myStruct.Pitch, 2).ToString();
                         textBox_RotatePanel_Yaw_2.Text = Math.Round(myStruct.Yaw, 2).ToString();
-
+                        */
                         flag_Communication_LuoPan = true;
 
                         value_DiCiJiaJiao_Now = myStruct.Yaw;//地磁夹角目前方位
@@ -3208,12 +3209,13 @@ namespace MonitorProj
                             dHeadingLast = myStruct.Yaw;
                         }
                         textBox_HeadingCircle.Text = iHeadingCircle.ToString();
-                        textBox_HeadingCircle_2.Text = iHeadingCircle.ToString();
+                        //textBox_HeadingCircle_2.Text = iHeadingCircle.ToString();
 
                         gaugeControl1.SetPointerValue("Pointer1", myStruct.Yaw);
                         gaugeControl1.SetPointerValue("Pointer2", iHeadingCircle);
-                        gaugeControl2.SetPointerValue("Pointer1", myStruct.Yaw);
-                        gaugeControl2.SetPointerValue("Pointer2", iHeadingCircle);
+                        //gaugeControl2.SetPointerValue("Pointer1", myStruct.Yaw);
+                        //gaugeControl2.SetPointerValue("Pointer2", iHeadingCircle);
+                        
                     }
                     #endregion
 
@@ -6560,9 +6562,8 @@ namespace MonitorProj
             { }
         }
 
-
         private void btn_HeadingCircleClear_Click(object sender, EventArgs e)
-        {
+        {/*
             try
             {
                 if (MessageBox.Show("圈数清零提示", "提示", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
@@ -6576,7 +6577,7 @@ namespace MonitorProj
                 }
             }
             catch (Exception ex)
-            { }
+            { }*/
         }
 
 
@@ -11032,7 +11033,7 @@ namespace MonitorProj
 
         }
 
-        private void textBox_HeightMeasure_Hight_2_TextChanged(object sender, EventArgs e)
+        private void GroupBox_MainCtl_Enter(object sender, EventArgs e)
         {
 
         }

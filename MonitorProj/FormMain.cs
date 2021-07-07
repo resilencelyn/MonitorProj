@@ -198,7 +198,7 @@ namespace MonitorProj
             #endregion
 
             InitializeComponent();
-            this.skinEngine1.SkinFile = "Page.ssk";
+            //this.skinEngine1.SkinFile = "Page.ssk";
 
             Global.logFilePathSaved = System.Windows.Forms.Application.StartupPath + "\\Log\\操作记录";
             if (!Directory.Exists(Global.logFilePathSaved))
@@ -210,13 +210,13 @@ namespace MonitorProj
             {
                 Directory.CreateDirectory(Global.statusFilePathSaved);
             }
-
+            
             StartLog();
 
             string configPath = System.Windows.Forms.Application.StartupPath + "\\configure\\configure.xml";
 
             readXML(configPath);
-
+            
             //数据状态记录
             Global.myDataRecvToSaveClass = new DataRecvToSaveClass();
         }
@@ -1970,7 +1970,7 @@ namespace MonitorProj
                     Global.myFormAutoCtlHighParas = new FormAutoCtlHighParas();
                     Global.myFormAutoCtlHighParas.Show();
                 }
-                Global.myFormAutoCtlDirParas.Show();
+                Global.myFormAutoCtlHighParas.Show();
             }
             catch (Exception ex)
             { }
