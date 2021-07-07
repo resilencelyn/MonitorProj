@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{64C009BC-85F5-4C9F-8447-F975C7675CA4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MonitorProj</RootNamespace>
+    <AssemblyName>MonitorProj</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>.\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=12.7.0.10, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=12.7.0.10, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IrisSkin4">
+      <HintPath>I:\db020dc258155152e17e7b1bfcd7bf08\IrisSkin4.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BoardMonCtlClass.cs" />
+    <Compile Include="BoardSerialMonCtlClass.cs" />
+    <Compile Include="BoardServoValvePackIClass.cs" />
+    <Compile Include="BoardServoValvePackIIClass.cs" />
+    <Compile Include="DataRecvToSaveClass.cs" />
+    <Compile Include="FormAutoCtlDirParas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAutoCtlDirParas.designer.cs">
+      <DependentUpon>FormAutoCtlDirParas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAutoCtlHighParas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAutoCtlHighParas.Designer.cs">
+      <DependentUpon>FormAutoCtlHighParas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBoardI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBoardI.Designer.cs">
+      <DependentUpon>FormBoardI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBoardII.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBoardII.Designer.cs">
+      <DependentUpon>FormBoardII.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBoardIIB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBoardIIB.Designer.cs">
+      <DependentUpon>FormBoardIIB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainModeI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainModeI.Designer.cs">
+      <DependentUpon>FormMainModeI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainUserA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainUserA.Designer.cs">
+      <DependentUpon>FormMainUserA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMobileDrillMonCtl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMobileDrillMonCtl.Designer.cs">
+      <DependentUpon>FormMobileDrillMonCtl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSerialWaterBoxCtl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSerialWaterBoxCtl.Designer.cs">
+      <DependentUpon>FormSerialWaterBoxCtl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormSerialRovPowerCtl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSerialRovPowerCtl.Designer.cs">
+      <DependentUpon>FormSerialRovPowerCtl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSerialJuYuanJianCe1Ctl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSerialJuYuanJianCe1Ctl.Designer.cs">
+      <DependentUpon>FormSerialJuYuanJianCe1Ctl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSerialJuYuanJianCe2Ctl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSerialJuYuanJianCe2Ctl.Designer.cs">
+      <DependentUpon>FormSerialJuYuanJianCe2Ctl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bak_BoardSerialMonCtlClass.cs" />
+    <EmbeddedResource Include="FormAutoCtlDirParas.resx">
+      <DependentUpon>FormAutoCtlDirParas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAutoCtlHighParas.resx">
+      <DependentUpon>FormAutoCtlHighParas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBoardI.resx">
+      <DependentUpon>FormBoardI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBoardII.resx">
+      <DependentUpon>FormBoardII.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBoardIIB.resx">
+      <DependentUpon>FormBoardIIB.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainModeI.resx">
+      <DependentUpon>FormMainModeI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainUserA.resx">
+      <DependentUpon>FormMainUserA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMobileDrillMonCtl.resx">
+      <DependentUpon>FormMobileDrillMonCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSerialWaterBoxCtl.resx">
+      <DependentUpon>FormSerialWaterBoxCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="FormSerialRovPowerCtl.resx">
+      <DependentUpon>FormSerialRovPowerCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSerialJuYuanJianCe1Ctl.resx">
+      <DependentUpon>FormSerialJuYuanJianCe1Ctl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSerialJuYuanJianCe2Ctl.resx">
+      <DependentUpon>FormSerialJuYuanJianCe2Ctl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\itemCollapsedIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Range2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Range1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\ajax-loader.gif" />
+    <Content Include="Resources\arrow.png" />
+    <Content Include="Resources\Back.gif" />
+    <Content Include="Resources\BD10264_.GIF" />
+    <Content Include="Resources\BD10266_.GIF" />
+    <Content Include="Resources\BD10268_.GIF" />
+    <Content Include="Resources\BD14565_.GIF" />
+    <Content Include="Resources\BD15132_.GIF" />
+    <Content Include="Resources\BD15134_.GIF" />
+    <Content Include="Resources\BD21433_.GIF" />
+    <Content Include="Resources\id_error.png" />
+    <Content Include="Resources\id_ok.png" />
+    <Content Include="Resources\itemCollapsedDarkThemeIcon.png" />
+    <Content Include="Resources\i_usermark.png" />
+    <Content Include="Resources\J0115834.GIF" />
+    <Content Include="Resources\J0115835.GIF" />
+    <Content Include="Resources\J0115844.GIF" />
+    <Content Include="Resources\msls-loader-dark.gif" />
+    <Content Include="Resources\PgFirst.gif" />
+    <Content Include="Resources\PgLast.gif" />
+    <Content Include="Resources\PgNext.gif" />
+    <Content Include="Resources\PgPrev.gif" />
+    <Content Include="Resources\Run_24x.png" />
+    <Content Include="Resources\SecurityAndMaintenance.png" />
+    <Content Include="Resources\SecurityAndMaintenance_Alert.png" />
+    <Content Include="Resources\SecurityAndMaintenance_Error.png" />
+    <Content Include="Resources\Splashscreen.png" />
+    <Content Include="Resources\Square150x150Logo.png" />
+    <Content Include="Resources\Square44x44Logo.png" />
+    <Content Include="Resources\StoreLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxBGV2ActiveXLib">
+      <Guid>{71D75C77-4682-4723-83E6-BD07E1D80111}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="BGV2ActiveXLib">
+      <Guid>{71D75C77-4682-4723-83E6-BD07E1D80111}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
