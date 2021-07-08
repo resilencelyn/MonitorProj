@@ -2196,7 +2196,12 @@
             // 
             // btn_Light_DensitySet_24
             // 
-            this.btn_Light_DensitySet_24.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Light_DensitySet_24.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Light_DensitySet_24.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_DensitySet_24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Light_DensitySet_24.FlatAppearance.BorderSize = 0;
+            this.btn_Light_DensitySet_24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Light_DensitySet_24.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_DensitySet_24.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_DensitySet_24.Location = new System.Drawing.Point(297, 266);
             this.btn_Light_DensitySet_24.Name = "btn_Light_DensitySet_24";
@@ -2208,7 +2213,12 @@
             // 
             // btn_Light_DensitySet_23
             // 
-            this.btn_Light_DensitySet_23.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Light_DensitySet_23.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Light_DensitySet_23.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_DensitySet_23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Light_DensitySet_23.FlatAppearance.BorderSize = 0;
+            this.btn_Light_DensitySet_23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Light_DensitySet_23.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_DensitySet_23.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_DensitySet_23.Location = new System.Drawing.Point(15, 262);
             this.btn_Light_DensitySet_23.Name = "btn_Light_DensitySet_23";
@@ -2220,7 +2230,12 @@
             // 
             // btn_Light_2
             // 
-            this.btn_Light_2.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Light_2.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Light_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Light_2.FlatAppearance.BorderSize = 0;
+            this.btn_Light_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Light_2.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_2.Location = new System.Drawing.Point(15, 80);
             this.btn_Light_2.Name = "btn_Light_2";
@@ -2232,7 +2247,12 @@
             // 
             // btn_Light_8
             // 
-            this.btn_Light_8.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Light_8.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Light_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Light_8.FlatAppearance.BorderSize = 0;
+            this.btn_Light_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Light_8.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_8.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_8.Location = new System.Drawing.Point(297, 201);
             this.btn_Light_8.Name = "btn_Light_8";
@@ -2244,7 +2264,12 @@
             // 
             // btn_Light_4
             // 
-            this.btn_Light_4.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Light_4.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Light_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Light_4.FlatAppearance.BorderSize = 0;
+            this.btn_Light_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Light_4.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_4.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_4.Location = new System.Drawing.Point(15, 201);
             this.btn_Light_4.Name = "btn_Light_4";
@@ -2256,7 +2281,12 @@
             // 
             // btn_Light_7
             // 
-            this.btn_Light_7.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Light_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Light_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Light_7.FlatAppearance.BorderSize = 0;
+            this.btn_Light_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Light_7.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_7.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_7.Location = new System.Drawing.Point(297, 140);
             this.btn_Light_7.Name = "btn_Light_7";
@@ -2268,7 +2298,12 @@
             // 
             // btn_Light_3
             // 
-            this.btn_Light_3.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Light_3.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Light_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Light_3.FlatAppearance.BorderSize = 0;
+            this.btn_Light_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Light_3.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_3.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_3.Location = new System.Drawing.Point(15, 140);
             this.btn_Light_3.Name = "btn_Light_3";
@@ -2280,7 +2315,12 @@
             // 
             // btn_Light_6
             // 
-            this.btn_Light_6.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Light_6.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Light_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Light_6.FlatAppearance.BorderSize = 0;
+            this.btn_Light_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Light_6.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_6.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_6.Location = new System.Drawing.Point(297, 80);
             this.btn_Light_6.Name = "btn_Light_6";
@@ -2292,7 +2332,12 @@
             // 
             // btn_Light_5
             // 
-            this.btn_Light_5.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Light_5.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Light_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Light_5.FlatAppearance.BorderSize = 0;
+            this.btn_Light_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Light_5.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_5.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_5.Location = new System.Drawing.Point(297, 23);
             this.btn_Light_5.Name = "btn_Light_5";
@@ -2304,7 +2349,12 @@
             // 
             // btn_Light_1
             // 
-            this.btn_Light_1.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Light_1.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Light_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Light_1.FlatAppearance.BorderSize = 0;
+            this.btn_Light_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Light_1.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_1.Location = new System.Drawing.Point(15, 23);
             this.btn_Light_1.Name = "btn_Light_1";
@@ -2399,7 +2449,12 @@
             // 
             // btn_FaBox_Space
             // 
-            this.btn_FaBox_Space.BackColor = System.Drawing.Color.LightGray;
+            this.btn_FaBox_Space.BackColor = System.Drawing.Color.Transparent;
+            this.btn_FaBox_Space.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_FaBox_Space.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_FaBox_Space.FlatAppearance.BorderSize = 0;
+            this.btn_FaBox_Space.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_FaBox_Space.ForeColor = System.Drawing.Color.Transparent;
             this.btn_FaBox_Space.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_FaBox_Space.Location = new System.Drawing.Point(233, 832);
             this.btn_FaBox_Space.Name = "btn_FaBox_Space";
@@ -2411,7 +2466,12 @@
             // 
             // btn_FaBox_72
             // 
-            this.btn_FaBox_72.BackColor = System.Drawing.Color.LightGray;
+            this.btn_FaBox_72.BackColor = System.Drawing.Color.Transparent;
+            this.btn_FaBox_72.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_FaBox_72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_FaBox_72.FlatAppearance.BorderSize = 0;
+            this.btn_FaBox_72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_FaBox_72.ForeColor = System.Drawing.Color.Transparent;
             this.btn_FaBox_72.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_FaBox_72.Location = new System.Drawing.Point(21, 832);
             this.btn_FaBox_72.Name = "btn_FaBox_72";
@@ -2442,7 +2502,12 @@
             // 
             // btn_DetectPanel_Space_Bak2
             // 
-            this.btn_DetectPanel_Space_Bak2.BackColor = System.Drawing.Color.LightGray;
+            this.btn_DetectPanel_Space_Bak2.BackColor = System.Drawing.Color.Transparent;
+            this.btn_DetectPanel_Space_Bak2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_DetectPanel_Space_Bak2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_DetectPanel_Space_Bak2.FlatAppearance.BorderSize = 0;
+            this.btn_DetectPanel_Space_Bak2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_DetectPanel_Space_Bak2.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_Bak2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DetectPanel_Space_Bak2.Location = new System.Drawing.Point(438, 84);
             this.btn_DetectPanel_Space_Bak2.Name = "btn_DetectPanel_Space_Bak2";
@@ -2454,7 +2519,12 @@
             // 
             // btn_DetectPanel_Space_Bak1
             // 
-            this.btn_DetectPanel_Space_Bak1.BackColor = System.Drawing.Color.LightGray;
+            this.btn_DetectPanel_Space_Bak1.BackColor = System.Drawing.Color.Transparent;
+            this.btn_DetectPanel_Space_Bak1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_DetectPanel_Space_Bak1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_DetectPanel_Space_Bak1.FlatAppearance.BorderSize = 0;
+            this.btn_DetectPanel_Space_Bak1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_DetectPanel_Space_Bak1.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_Bak1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DetectPanel_Space_Bak1.Location = new System.Drawing.Point(297, 84);
             this.btn_DetectPanel_Space_Bak1.Name = "btn_DetectPanel_Space_Bak1";
@@ -2466,7 +2536,12 @@
             // 
             // btn_DetectPanel_Deep
             // 
-            this.btn_DetectPanel_Deep.BackColor = System.Drawing.Color.LightGray;
+            this.btn_DetectPanel_Deep.BackColor = System.Drawing.Color.Transparent;
+            this.btn_DetectPanel_Deep.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_DetectPanel_Deep.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_DetectPanel_Deep.FlatAppearance.BorderSize = 0;
+            this.btn_DetectPanel_Deep.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_DetectPanel_Deep.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Deep.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DetectPanel_Deep.Location = new System.Drawing.Point(156, 84);
             this.btn_DetectPanel_Deep.Name = "btn_DetectPanel_Deep";
@@ -2478,7 +2553,12 @@
             // 
             // btn_DetectPanel_Hight
             // 
-            this.btn_DetectPanel_Hight.BackColor = System.Drawing.Color.LightGray;
+            this.btn_DetectPanel_Hight.BackColor = System.Drawing.Color.Transparent;
+            this.btn_DetectPanel_Hight.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_DetectPanel_Hight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_DetectPanel_Hight.FlatAppearance.BorderSize = 0;
+            this.btn_DetectPanel_Hight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_DetectPanel_Hight.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Hight.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DetectPanel_Hight.Location = new System.Drawing.Point(15, 84);
             this.btn_DetectPanel_Hight.Name = "btn_DetectPanel_Hight";
@@ -2490,7 +2570,12 @@
             // 
             // btn_DetectPanel_Space_12V3
             // 
-            this.btn_DetectPanel_Space_12V3.BackColor = System.Drawing.Color.LightGray;
+            this.btn_DetectPanel_Space_12V3.BackColor = System.Drawing.Color.Transparent;
+            this.btn_DetectPanel_Space_12V3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_DetectPanel_Space_12V3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_DetectPanel_Space_12V3.FlatAppearance.BorderSize = 0;
+            this.btn_DetectPanel_Space_12V3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_DetectPanel_Space_12V3.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_12V3.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DetectPanel_Space_12V3.Location = new System.Drawing.Point(438, 23);
             this.btn_DetectPanel_Space_12V3.Name = "btn_DetectPanel_Space_12V3";
@@ -2502,7 +2587,12 @@
             // 
             // btn_DetectPanel_Space_12V2
             // 
-            this.btn_DetectPanel_Space_12V2.BackColor = System.Drawing.Color.LightGray;
+            this.btn_DetectPanel_Space_12V2.BackColor = System.Drawing.Color.Transparent;
+            this.btn_DetectPanel_Space_12V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_DetectPanel_Space_12V2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_DetectPanel_Space_12V2.FlatAppearance.BorderSize = 0;
+            this.btn_DetectPanel_Space_12V2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_DetectPanel_Space_12V2.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_12V2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DetectPanel_Space_12V2.Location = new System.Drawing.Point(297, 23);
             this.btn_DetectPanel_Space_12V2.Name = "btn_DetectPanel_Space_12V2";
@@ -2514,7 +2604,12 @@
             // 
             // btn_DetectPanel_Space_12V1
             // 
-            this.btn_DetectPanel_Space_12V1.BackColor = System.Drawing.Color.LightGray;
+            this.btn_DetectPanel_Space_12V1.BackColor = System.Drawing.Color.Transparent;
+            this.btn_DetectPanel_Space_12V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_DetectPanel_Space_12V1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_DetectPanel_Space_12V1.FlatAppearance.BorderSize = 0;
+            this.btn_DetectPanel_Space_12V1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_DetectPanel_Space_12V1.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_12V1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DetectPanel_Space_12V1.Location = new System.Drawing.Point(156, 23);
             this.btn_DetectPanel_Space_12V1.Name = "btn_DetectPanel_Space_12V1";
@@ -2526,7 +2621,12 @@
             // 
             // btn_DetectPanel_Rotate
             // 
-            this.btn_DetectPanel_Rotate.BackColor = System.Drawing.Color.LightGray;
+            this.btn_DetectPanel_Rotate.BackColor = System.Drawing.Color.Transparent;
+            this.btn_DetectPanel_Rotate.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_DetectPanel_Rotate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_DetectPanel_Rotate.FlatAppearance.BorderSize = 0;
+            this.btn_DetectPanel_Rotate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_DetectPanel_Rotate.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Rotate.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DetectPanel_Rotate.Location = new System.Drawing.Point(15, 23);
             this.btn_DetectPanel_Rotate.Name = "btn_DetectPanel_Rotate";
@@ -2569,7 +2669,12 @@
             // 
             // btn_Camera_8
             // 
-            this.btn_Camera_8.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Camera_8.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Camera_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Camera_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Camera_8.FlatAppearance.BorderSize = 0;
+            this.btn_Camera_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Camera_8.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Camera_8.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Camera_8.Location = new System.Drawing.Point(438, 83);
             this.btn_Camera_8.Name = "btn_Camera_8";
@@ -2581,7 +2686,12 @@
             // 
             // btn_Camera_7
             // 
-            this.btn_Camera_7.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Camera_7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Camera_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Camera_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Camera_7.FlatAppearance.BorderSize = 0;
+            this.btn_Camera_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Camera_7.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Camera_7.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Camera_7.Location = new System.Drawing.Point(297, 83);
             this.btn_Camera_7.Name = "btn_Camera_7";
@@ -2593,7 +2703,12 @@
             // 
             // btn_Camera_6
             // 
-            this.btn_Camera_6.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Camera_6.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Camera_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Camera_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Camera_6.FlatAppearance.BorderSize = 0;
+            this.btn_Camera_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Camera_6.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Camera_6.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Camera_6.Location = new System.Drawing.Point(156, 83);
             this.btn_Camera_6.Name = "btn_Camera_6";
@@ -2605,7 +2720,12 @@
             // 
             // btn_Camera_5
             // 
-            this.btn_Camera_5.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Camera_5.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Camera_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Camera_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Camera_5.FlatAppearance.BorderSize = 0;
+            this.btn_Camera_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Camera_5.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Camera_5.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Camera_5.Location = new System.Drawing.Point(15, 83);
             this.btn_Camera_5.Name = "btn_Camera_5";
@@ -2617,7 +2737,12 @@
             // 
             // btn_Camera_4
             // 
-            this.btn_Camera_4.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Camera_4.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Camera_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Camera_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Camera_4.FlatAppearance.BorderSize = 0;
+            this.btn_Camera_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Camera_4.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Camera_4.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Camera_4.Location = new System.Drawing.Point(438, 23);
             this.btn_Camera_4.Name = "btn_Camera_4";
@@ -2629,7 +2754,12 @@
             // 
             // btn_Camera_3
             // 
-            this.btn_Camera_3.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Camera_3.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Camera_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Camera_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Camera_3.FlatAppearance.BorderSize = 0;
+            this.btn_Camera_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Camera_3.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Camera_3.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Camera_3.Location = new System.Drawing.Point(297, 23);
             this.btn_Camera_3.Name = "btn_Camera_3";
@@ -2641,7 +2771,12 @@
             // 
             // btn_Camera_2
             // 
-            this.btn_Camera_2.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Camera_2.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Camera_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Camera_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Camera_2.FlatAppearance.BorderSize = 0;
+            this.btn_Camera_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Camera_2.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Camera_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Camera_2.Location = new System.Drawing.Point(156, 23);
             this.btn_Camera_2.Name = "btn_Camera_2";
@@ -2653,7 +2788,12 @@
             // 
             // btn_Camera_1
             // 
-            this.btn_Camera_1.BackColor = System.Drawing.Color.LightGray;
+            this.btn_Camera_1.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Camera_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Camera_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Camera_1.FlatAppearance.BorderSize = 0;
+            this.btn_Camera_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Camera_1.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Camera_1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Camera_1.Location = new System.Drawing.Point(15, 23);
             this.btn_Camera_1.Name = "btn_Camera_1";
@@ -2696,7 +2836,12 @@
             // 
             // btn_InboardBackupPRB_24V4
             // 
-            this.btn_InboardBackupPRB_24V4.BackColor = System.Drawing.Color.LightGray;
+            this.btn_InboardBackupPRB_24V4.BackColor = System.Drawing.Color.Transparent;
+            this.btn_InboardBackupPRB_24V4.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_InboardBackupPRB_24V4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_InboardBackupPRB_24V4.FlatAppearance.BorderSize = 0;
+            this.btn_InboardBackupPRB_24V4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_InboardBackupPRB_24V4.ForeColor = System.Drawing.Color.Transparent;
             this.btn_InboardBackupPRB_24V4.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_InboardBackupPRB_24V4.Location = new System.Drawing.Point(438, 24);
             this.btn_InboardBackupPRB_24V4.Name = "btn_InboardBackupPRB_24V4";
@@ -2708,7 +2853,12 @@
             // 
             // btn_InboardBackupPRB_24V3
             // 
-            this.btn_InboardBackupPRB_24V3.BackColor = System.Drawing.Color.LightGray;
+            this.btn_InboardBackupPRB_24V3.BackColor = System.Drawing.Color.Transparent;
+            this.btn_InboardBackupPRB_24V3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_InboardBackupPRB_24V3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_InboardBackupPRB_24V3.FlatAppearance.BorderSize = 0;
+            this.btn_InboardBackupPRB_24V3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_InboardBackupPRB_24V3.ForeColor = System.Drawing.Color.Transparent;
             this.btn_InboardBackupPRB_24V3.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_InboardBackupPRB_24V3.Location = new System.Drawing.Point(297, 24);
             this.btn_InboardBackupPRB_24V3.Name = "btn_InboardBackupPRB_24V3";
@@ -2720,7 +2870,12 @@
             // 
             // btn_InboardBackupPRB_24V2
             // 
-            this.btn_InboardBackupPRB_24V2.BackColor = System.Drawing.Color.LightGray;
+            this.btn_InboardBackupPRB_24V2.BackColor = System.Drawing.Color.Transparent;
+            this.btn_InboardBackupPRB_24V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_InboardBackupPRB_24V2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_InboardBackupPRB_24V2.FlatAppearance.BorderSize = 0;
+            this.btn_InboardBackupPRB_24V2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_InboardBackupPRB_24V2.ForeColor = System.Drawing.Color.Transparent;
             this.btn_InboardBackupPRB_24V2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_InboardBackupPRB_24V2.Location = new System.Drawing.Point(156, 24);
             this.btn_InboardBackupPRB_24V2.Name = "btn_InboardBackupPRB_24V2";
@@ -2732,7 +2887,12 @@
             // 
             // btn_InboardBackupPRB_24V1
             // 
-            this.btn_InboardBackupPRB_24V1.BackColor = System.Drawing.Color.LightGray;
+            this.btn_InboardBackupPRB_24V1.BackColor = System.Drawing.Color.Transparent;
+            this.btn_InboardBackupPRB_24V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_InboardBackupPRB_24V1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_InboardBackupPRB_24V1.FlatAppearance.BorderSize = 0;
+            this.btn_InboardBackupPRB_24V1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_InboardBackupPRB_24V1.ForeColor = System.Drawing.Color.Transparent;
             this.btn_InboardBackupPRB_24V1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_InboardBackupPRB_24V1.Location = new System.Drawing.Point(15, 24);
             this.btn_InboardBackupPRB_24V1.Name = "btn_InboardBackupPRB_24V1";
@@ -2744,7 +2904,12 @@
             // 
             // btn_InboardBackupPRB_12V2
             // 
-            this.btn_InboardBackupPRB_12V2.BackColor = System.Drawing.Color.LightGray;
+            this.btn_InboardBackupPRB_12V2.BackColor = System.Drawing.Color.Transparent;
+            this.btn_InboardBackupPRB_12V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_InboardBackupPRB_12V2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_InboardBackupPRB_12V2.FlatAppearance.BorderSize = 0;
+            this.btn_InboardBackupPRB_12V2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_InboardBackupPRB_12V2.ForeColor = System.Drawing.Color.Transparent;
             this.btn_InboardBackupPRB_12V2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_InboardBackupPRB_12V2.Location = new System.Drawing.Point(438, 85);
             this.btn_InboardBackupPRB_12V2.Name = "btn_InboardBackupPRB_12V2";
@@ -2756,7 +2921,12 @@
             // 
             // btn_InboardBackupPRB_12V1
             // 
-            this.btn_InboardBackupPRB_12V1.BackColor = System.Drawing.Color.LightGray;
+            this.btn_InboardBackupPRB_12V1.BackColor = System.Drawing.Color.Transparent;
+            this.btn_InboardBackupPRB_12V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_InboardBackupPRB_12V1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_InboardBackupPRB_12V1.FlatAppearance.BorderSize = 0;
+            this.btn_InboardBackupPRB_12V1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_InboardBackupPRB_12V1.ForeColor = System.Drawing.Color.Transparent;
             this.btn_InboardBackupPRB_12V1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_InboardBackupPRB_12V1.Location = new System.Drawing.Point(297, 85);
             this.btn_InboardBackupPRB_12V1.Name = "btn_InboardBackupPRB_12V1";
@@ -2768,7 +2938,12 @@
             // 
             // btn_InboardBackupPRB_W
             // 
-            this.btn_InboardBackupPRB_W.BackColor = System.Drawing.Color.LightGray;
+            this.btn_InboardBackupPRB_W.BackColor = System.Drawing.Color.Transparent;
+            this.btn_InboardBackupPRB_W.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_InboardBackupPRB_W.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_InboardBackupPRB_W.FlatAppearance.BorderSize = 0;
+            this.btn_InboardBackupPRB_W.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_InboardBackupPRB_W.ForeColor = System.Drawing.Color.Transparent;
             this.btn_InboardBackupPRB_W.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_InboardBackupPRB_W.Location = new System.Drawing.Point(156, 85);
             this.btn_InboardBackupPRB_W.Name = "btn_InboardBackupPRB_W";
@@ -2780,7 +2955,12 @@
             // 
             // btn_InboardBackupPRB_Camera
             // 
-            this.btn_InboardBackupPRB_Camera.BackColor = System.Drawing.Color.LightGray;
+            this.btn_InboardBackupPRB_Camera.BackColor = System.Drawing.Color.Transparent;
+            this.btn_InboardBackupPRB_Camera.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_InboardBackupPRB_Camera.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_InboardBackupPRB_Camera.FlatAppearance.BorderSize = 0;
+            this.btn_InboardBackupPRB_Camera.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_InboardBackupPRB_Camera.ForeColor = System.Drawing.Color.Transparent;
             this.btn_InboardBackupPRB_Camera.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_InboardBackupPRB_Camera.Location = new System.Drawing.Point(15, 85);
             this.btn_InboardBackupPRB_Camera.Name = "btn_InboardBackupPRB_Camera";

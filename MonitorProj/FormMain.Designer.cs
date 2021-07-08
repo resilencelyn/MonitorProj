@@ -55,7 +55,7 @@
             this.TabControl_Main = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.skinEngine1 = new Sunisoft.IrisSkin.SkinEngine();
+            //this.skinEngine1 = new Sunisoft.IrisSkin.SkinEngine();
             this.MenuStrip_Main.SuspendLayout();
             this.TabControl_Debug.SuspendLayout();
             this.TabControl_Main.SuspendLayout();
@@ -300,12 +300,14 @@
             // 
             // skinEngine1
             // 
+            /*
             this.skinEngine1.@__DrawButtonFocusRectangle = true;
             this.skinEngine1.DisabledButtonTextColor = System.Drawing.Color.Gray;
             this.skinEngine1.DisabledMenuFontColor = System.Drawing.SystemColors.GrayText;
             this.skinEngine1.InactiveCaptionColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.skinEngine1.SerialNumber = "";
             this.skinEngine1.SkinFile = null;
+            */
             // 
             // FormMain
             // 
@@ -365,6 +367,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_AutoCtlHighParas;
-        private Sunisoft.IrisSkin.SkinEngine skinEngine1;
+        //private Sunisoft.IrisSkin.SkinEngine skinEngine1;
     }
 }

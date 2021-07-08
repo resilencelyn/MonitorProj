@@ -831,7 +831,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard61_VA.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard61_VA.BackColor = Color.Transparent;
                             }
                         }
 
@@ -857,7 +857,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard61_IA.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard61_IA.BackColor = Color.Transparent;
                             }
                         }
 
@@ -883,7 +883,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard61_GA.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard61_GA.BackColor = Color.Transparent;
                             }
                         }
 
@@ -909,7 +909,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard61_TA.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard61_TA.BackColor = Color.Transparent;
                             }
                         }
 
@@ -935,7 +935,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard61_VB.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard61_VB.BackColor = Color.Transparent;
                             }
                         }
 
@@ -961,7 +961,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard61_IB.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard61_IB.BackColor = Color.Transparent;
                             }
                         }
 
@@ -987,7 +987,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard61_GB.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard61_GB.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1013,7 +1013,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard61_TB.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard61_TB.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1039,7 +1039,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard61_TO.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard61_TO.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1088,7 +1088,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard62_VA.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard62_VA.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1114,7 +1114,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard62_IA.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard62_IA.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1140,7 +1140,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard62_GA.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard62_GA.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1166,7 +1166,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard62_TA.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard62_TA.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1192,7 +1192,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard62_VB.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard62_VB.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1218,7 +1218,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard62_IB.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard62_IB.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1244,7 +1244,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard62_GB.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard62_GB.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1270,7 +1270,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard62_TB.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard62_TB.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1296,7 +1296,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard62_TO.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard62_TO.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1345,7 +1345,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard63_VA.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard63_VA.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1371,7 +1371,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard63_IA.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard63_IA.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1397,7 +1397,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard63_GA.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard63_GA.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1423,7 +1423,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard63_TA.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard63_TA.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1449,7 +1449,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard63_VB.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard63_VB.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1475,7 +1475,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard63_IB.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard63_IB.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1501,7 +1501,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard63_GB.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard63_GB.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1527,7 +1527,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard63_TB.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard63_TB.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1553,7 +1553,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DCDetectBoard63_TO.BackColor = SystemColors.Control;
+                                textBox_DCDetectBoard63_TO.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1598,7 +1598,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_HPDCDetectBoard70_V.BackColor = SystemColors.Control;
+                                textBox_HPDCDetectBoard70_V.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1624,7 +1624,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_HPDCDetectBoard70_I.BackColor = SystemColors.Control;
+                                textBox_HPDCDetectBoard70_I.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1650,7 +1650,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_HPDCDetectBoard70_G.BackColor = SystemColors.Control;
+                                textBox_HPDCDetectBoard70_G.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1676,7 +1676,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_HPDCDetectBoard70_T.BackColor = SystemColors.Control;
+                                textBox_HPDCDetectBoard70_T.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1720,7 +1720,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_HPDCDetectBoard71_V.BackColor = SystemColors.Control;
+                                textBox_HPDCDetectBoard71_V.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1746,7 +1746,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_HPDCDetectBoard71_I.BackColor = SystemColors.Control;
+                                textBox_HPDCDetectBoard71_I.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1772,7 +1772,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_HPDCDetectBoard71_G.BackColor = SystemColors.Control;
+                                textBox_HPDCDetectBoard71_G.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1798,7 +1798,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_HPDCDetectBoard71_T.BackColor = SystemColors.Control;
+                                textBox_HPDCDetectBoard71_T.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1842,7 +1842,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_HPDCDetectBoard72_V.BackColor = SystemColors.Control;
+                                textBox_HPDCDetectBoard72_V.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1868,7 +1868,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_HPDCDetectBoard72_I.BackColor = SystemColors.Control;
+                                textBox_HPDCDetectBoard72_I.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1894,7 +1894,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_HPDCDetectBoard72_G.BackColor = SystemColors.Control;
+                                textBox_HPDCDetectBoard72_G.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1920,7 +1920,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_HPDCDetectBoard72_T.BackColor = SystemColors.Control;
+                                textBox_HPDCDetectBoard72_T.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1963,7 +1963,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_HPDCDetectBoardCtl_V.BackColor = SystemColors.Control;
+                                textBox_HPDCDetectBoardCtl_V.BackColor = Color.Transparent;
                             }
                         }
 
@@ -1989,7 +1989,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_HPDCDetectBoardCtl_I.BackColor = SystemColors.Control;
+                                textBox_HPDCDetectBoardCtl_I.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2032,7 +2032,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_ACDetectBoard_V.BackColor = SystemColors.Control;
+                                textBox_ACDetectBoard_V.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2058,7 +2058,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_ACDetectBoard_I.BackColor = SystemColors.Control;
+                                textBox_ACDetectBoard_I.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2099,7 +2099,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_CameraPowerRelayBoard1_V.BackColor = SystemColors.Control;
+                                textBox_CameraPowerRelayBoard1_V.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2140,7 +2140,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_CameraPowerRelayBoard2_V.BackColor = SystemColors.Control;
+                                textBox_CameraPowerRelayBoard2_V.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2181,7 +2181,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_SensorPowerRelayBoard1_V.BackColor = SystemColors.Control;
+                                textBox_SensorPowerRelayBoard1_V.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2222,7 +2222,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_SensorPowerRelayBoard2_V.BackColor = SystemColors.Control;
+                                textBox_SensorPowerRelayBoard2_V.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2382,7 +2382,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_TankDetectBoardCH1_1.BackColor = SystemColors.Control;
+                                textBox_TankDetectBoardCH1_1.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2408,7 +2408,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_TankDetectBoardCH1_2.BackColor = SystemColors.Control;
+                                textBox_TankDetectBoardCH1_2.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2434,7 +2434,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_TankDetectBoardCH1_3.BackColor = SystemColors.Control;
+                                textBox_TankDetectBoardCH1_3.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2460,7 +2460,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_TankDetectBoardCH1_4.BackColor = SystemColors.Control;
+                                textBox_TankDetectBoardCH1_4.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2486,7 +2486,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_TankDetectBoardCH2_1.BackColor = SystemColors.Control;
+                                textBox_TankDetectBoardCH2_1.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2512,7 +2512,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_TankDetectBoardCH2_2.BackColor = SystemColors.Control;
+                                textBox_TankDetectBoardCH2_2.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2538,7 +2538,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_TankDetectBoardCH2_3.BackColor = SystemColors.Control;
+                                textBox_TankDetectBoardCH2_3.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2564,7 +2564,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_TankDetectBoardCH2_4.BackColor = SystemColors.Control;
+                                textBox_TankDetectBoardCH2_4.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2590,7 +2590,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_TankDetectBoardCH3_1.BackColor = SystemColors.Control;
+                                textBox_TankDetectBoardCH3_1.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2616,7 +2616,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_TankDetectBoardCH3_2.BackColor = SystemColors.Control;
+                                textBox_TankDetectBoardCH3_2.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2642,7 +2642,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_TankDetectBoardCH3_3.BackColor = SystemColors.Control;
+                                textBox_TankDetectBoardCH3_3.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2668,7 +2668,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_TankDetectBoardCH3_4.BackColor = SystemColors.Control;
+                                textBox_TankDetectBoardCH3_4.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2694,7 +2694,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_TankDetectBoardCH4_1.BackColor = SystemColors.Control;
+                                textBox_TankDetectBoardCH4_1.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2720,7 +2720,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_TankDetectBoardCH4_2.BackColor = SystemColors.Control;
+                                textBox_TankDetectBoardCH4_2.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2746,7 +2746,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_TankDetectBoardCH4_3.BackColor = SystemColors.Control;
+                                textBox_TankDetectBoardCH4_3.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2772,7 +2772,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_TankDetectBoardCH4_4.BackColor = SystemColors.Control;
+                                textBox_TankDetectBoardCH4_4.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2813,7 +2813,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_LightRelayBoard1.BackColor = SystemColors.Control;
+                                textBox_LightRelayBoard1.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2854,7 +2854,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_LightRelayBoard2.BackColor = SystemColors.Control;
+                                textBox_LightRelayBoard2.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2886,7 +2886,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBoxWork_Station_Quire_Board_1.BackColor = SystemColors.Control; ;
+                            textBoxWork_Station_Quire_Board_1.BackColor = Color.Transparent; ;
                         }
                         if (myStruct.WorkStation_C == 1)
                         {
@@ -2894,7 +2894,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBoxWork_Station_Quire_Board_2.BackColor = SystemColors.Control; ;
+                            textBoxWork_Station_Quire_Board_2.BackColor = Color.Transparent; ;
                         }
                         if (myStruct.WorkStation_D == 1)
                         {
@@ -2902,7 +2902,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBoxWork_Station_Quire_Board_3.BackColor = SystemColors.Control; ;
+                            textBoxWork_Station_Quire_Board_3.BackColor = Color.Transparent; ;
                         }
                         if (myStruct.WorkStation_E == 1)
                         {
@@ -2910,7 +2910,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBoxWork_Station_Quire_Board_4.BackColor = SystemColors.Control; ;
+                            textBoxWork_Station_Quire_Board_4.BackColor = Color.Transparent; ;
                         }
                         if (myStruct.WorkStation_F == 1)
                         {
@@ -2918,7 +2918,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBoxWork_Station_Quire_Board_5.BackColor = SystemColors.Control; ;
+                            textBoxWork_Station_Quire_Board_5.BackColor = Color.Transparent; ;
                         }
                         if (myStruct.WorkStation_G == 1)
                         {
@@ -2926,7 +2926,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBoxWork_Station_Quire_Board_6.BackColor = SystemColors.Control; ;
+                            textBoxWork_Station_Quire_Board_6.BackColor = Color.Transparent; ;
                         }
 
                         flag_Communication_30 = true;
@@ -2972,7 +2972,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DianJi_Detecte_Para1.BackColor = SystemColors.Control;
+                                textBox_DianJi_Detecte_Para1.BackColor = Color.Transparent;
                             }
                         }
 
@@ -2998,7 +2998,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_DianJi_Detecte_Para2.BackColor = SystemColors.Control;
+                                textBox_DianJi_Detecte_Para2.BackColor = Color.Transparent;
                             }
 
                             if (listStatusParasKeys.Exists((string x) => x == "DanJi_T_Para_3" ? true : false))
@@ -3023,7 +3023,7 @@ namespace MonitorProj
                                 }
                                 else
                                 {
-                                    textBox_DianJi_Detecte_Para3.BackColor = SystemColors.Control;
+                                    textBox_DianJi_Detecte_Para3.BackColor = Color.Transparent;
                                 }
                             }
 
@@ -3049,7 +3049,7 @@ namespace MonitorProj
                                 }
                                 else
                                 {
-                                    textBox_DianJi_Detecte_Para4.BackColor = SystemColors.Control;
+                                    textBox_DianJi_Detecte_Para4.BackColor = Color.Transparent;
                                 }
                             }
 
@@ -3075,7 +3075,7 @@ namespace MonitorProj
                                 }
                                 else
                                 {
-                                    textBox_DianJi_Detecte_Para5.BackColor = SystemColors.Control;
+                                    textBox_DianJi_Detecte_Para5.BackColor = Color.Transparent;
                                 }
                             }
 
@@ -3101,7 +3101,7 @@ namespace MonitorProj
                                 }
                                 else
                                 {
-                                    textBox_DianJi_Detecte_Para6.BackColor = SystemColors.Control;
+                                    textBox_DianJi_Detecte_Para6.BackColor = Color.Transparent;
                                 }
                             }
 
@@ -3127,7 +3127,7 @@ namespace MonitorProj
                                 }
                                 else
                                 {
-                                    textBox_DianJi_Detecte_Para7.BackColor = SystemColors.Control;
+                                    textBox_DianJi_Detecte_Para7.BackColor = Color.Transparent;
                                 }
                             }
 
@@ -3153,7 +3153,7 @@ namespace MonitorProj
                                 }
                                 else
                                 {
-                                    textBox_DianJi_Detecte_Para8.BackColor = SystemColors.Control;
+                                    textBox_DianJi_Detecte_Para8.BackColor = Color.Transparent;
                                 }
                             }
                         }
@@ -3249,7 +3249,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBox_Fun16_DIN8.BackColor = Color.LightGray;
+                            textBox_Fun16_DIN8.BackColor = Color.Transparent;
                         }
                         if (myStructBoardIIStatus.bDIN7 == 1)
                         {
@@ -3257,7 +3257,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBox_Fun16_DIN7.BackColor = Color.LightGray;
+                            textBox_Fun16_DIN7.BackColor = Color.Transparent;
                         }
                         if (myStructBoardIIStatus.bDIN6 == 1)
                         {
@@ -3265,7 +3265,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBox_Fun16_DIN6.BackColor = Color.LightGray;
+                            textBox_Fun16_DIN6.BackColor = Color.Transparent;
                         }
                         if (myStructBoardIIStatus.bDIN5 == 1)
                         {
@@ -3273,7 +3273,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBox_Fun16_DIN5.BackColor = Color.LightGray;
+                            textBox_Fun16_DIN5.BackColor = Color.Transparent;
                         }
                         if (myStructBoardIIStatus.bDIN4 == 1)
                         {
@@ -3281,7 +3281,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBox_Fun16_DIN4.BackColor = Color.LightGray;
+                            textBox_Fun16_DIN4.BackColor = Color.Transparent;
                         }
                         if (myStructBoardIIStatus.bDIN3 == 1)
                         {
@@ -3289,7 +3289,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBox_Fun16_DIN3.BackColor = Color.LightGray;
+                            textBox_Fun16_DIN3.BackColor = Color.Transparent;
                         }
                         if (myStructBoardIIStatus.bDIN2 == 1)
                         {
@@ -3297,7 +3297,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBox_Fun16_DIN2.BackColor = Color.LightGray;
+                            textBox_Fun16_DIN2.BackColor = Color.Transparent;
                         }
                         if (myStructBoardIIStatus.bDIN1 == 1)
                         {
@@ -3305,7 +3305,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBox_Fun16_DIN1.BackColor = Color.LightGray;
+                            textBox_Fun16_DIN1.BackColor = Color.Transparent;
                         }
 
                         textBox_PWM_1_2.Text = myStructBoardIIStatus.Current_Feedback_PWM_1_2.ToString();
@@ -3369,7 +3369,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBox_Fun8_DIN8.BackColor = Color.LightGray;
+                            textBox_Fun8_DIN8.BackColor = Color.Transparent;
                         }
                         if (myStructBoardIStatus.bDIN7 == 1)
                         {
@@ -3377,7 +3377,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBox_Fun8_DIN7.BackColor = Color.LightGray;
+                            textBox_Fun8_DIN7.BackColor = Color.Transparent;
                         }
                         if (myStructBoardIStatus.bDIN6 == 1)
                         {
@@ -3385,7 +3385,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBox_Fun8_DIN6.BackColor = Color.LightGray;
+                            textBox_Fun8_DIN6.BackColor = Color.Transparent;
                         }
                         if (myStructBoardIStatus.bDIN5 == 1)
                         {
@@ -3393,7 +3393,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBox_Fun8_DIN5.BackColor = Color.LightGray;
+                            textBox_Fun8_DIN5.BackColor = Color.Transparent;
                         }
                         if (myStructBoardIStatus.bDIN4 == 1)
                         {
@@ -3401,7 +3401,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBox_Fun8_DIN4.BackColor = Color.LightGray;
+                            textBox_Fun8_DIN4.BackColor = Color.Transparent;
                         }
                         if (myStructBoardIStatus.bDIN3 == 1)
                         {
@@ -3409,7 +3409,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBox_Fun8_DIN3.BackColor = Color.LightGray;
+                            textBox_Fun8_DIN3.BackColor = Color.Transparent;
                         }
                         if (myStructBoardIStatus.bDIN2 == 1)
                         {
@@ -3417,7 +3417,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBox_Fun8_DIN2.BackColor = Color.LightGray;
+                            textBox_Fun8_DIN2.BackColor = Color.Transparent;
                         }
                         if (myStructBoardIStatus.bDIN1 == 1)
                         {
@@ -3425,7 +3425,7 @@ namespace MonitorProj
                         }
                         else
                         {
-                            textBox_Fun8_DIN1.BackColor = Color.LightGray;
+                            textBox_Fun8_DIN1.BackColor = Color.Transparent;
                         }
 
                         textBox_24V.Text = myStructBoardIStatus.Main_Supply_Voltage_24V.ToString();
@@ -3630,7 +3630,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_I_First_A.BackColor = SystemColors.Control;
+                                textBox_I_First_A.BackColor = Color.Transparent;
                             }
                         }
 
@@ -3656,7 +3656,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_I_First_B.BackColor = SystemColors.Control;
+                                textBox_I_First_B.BackColor = Color.Transparent;
                             }
                         }
 
@@ -3682,7 +3682,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_I_First_C.BackColor = SystemColors.Control;
+                                textBox_I_First_C.BackColor = Color.Transparent;
                             }
                         }
 
@@ -3708,7 +3708,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_V_First_AB.BackColor = SystemColors.Control;
+                                textBox_V_First_AB.BackColor = Color.Transparent;
                             }
                         }
 
@@ -3734,7 +3734,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_V_First_BC.BackColor = SystemColors.Control;
+                                textBox_V_First_BC.BackColor = Color.Transparent;
                             }
                         }
 
@@ -3760,7 +3760,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_I_First_S.BackColor = SystemColors.Control;
+                                textBox_I_First_S.BackColor = Color.Transparent;
                             }
                         }
 
@@ -3786,7 +3786,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_I_Next_ABC.BackColor = SystemColors.Control;
+                                textBox_I_Next_ABC.BackColor = Color.Transparent;
                             }
                         }
 
@@ -3812,7 +3812,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_I_Next_S.BackColor = SystemColors.Control;
+                                textBox_I_Next_S.BackColor = Color.Transparent;
                             }
                         }
 
@@ -3838,7 +3838,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_V_Next_ABC.BackColor = SystemColors.Control;
+                                textBox_V_Next_ABC.BackColor = Color.Transparent;
                             }
                         }
 
@@ -3864,7 +3864,7 @@ namespace MonitorProj
                             }
                             else
                             {
-                                textBox_V_Next_S.BackColor = SystemColors.Control;
+                                textBox_V_Next_S.BackColor = Color.Transparent;
                             }
                         }
 
@@ -4051,9 +4051,9 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_ZuanJin.BackColor = Color.Green;
-                                    //btn_ZuanJin_Step.BackColor = Color.LightGray;
-                                    //btn_TiZuan.BackColor = Color.LightGray;
-                                    //btn_TiZuan_Step.BackColor = Color.LightGray;
+                                    //btn_ZuanJin_Step.BackColor = Color.Transparent;
+                                    //btn_TiZuan.BackColor = Color.Transparent;
+                                    //btn_TiZuan_Step.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4081,10 +4081,10 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM8, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin.BackColor = Color.LightGray;
+                                    //btn_ZuanJin.BackColor = Color.Transparent;
                                     //btn_ZuanJin_Step.BackColor = Color.Green;
-                                    //btn_TiZuan.BackColor = Color.LightGray;
-                                    //btn_TiZuan_Step.BackColor = Color.LightGray;
+                                    //btn_TiZuan.BackColor = Color.Transparent;
+                                    //btn_TiZuan_Step.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4101,10 +4101,10 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM8, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin.BackColor = Color.LightGray;
-                                    //btn_ZuanJin_Step.BackColor = Color.LightGray;
-                                    //btn_TiZuan.BackColor = Color.LightGray;
-                                    //btn_TiZuan_Step.BackColor = Color.LightGray;
+                                    //btn_ZuanJin.BackColor = Color.Transparent;
+                                    //btn_ZuanJin_Step.BackColor = Color.Transparent;
+                                    //btn_TiZuan.BackColor = Color.Transparent;
+                                    //btn_TiZuan_Step.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4129,10 +4129,10 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM7, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin.BackColor = Color.LightGray;
-                                    //btn_ZuanJin_Step.BackColor = Color.LightGray;
+                                    //btn_ZuanJin.BackColor = Color.Transparent;
+                                    //btn_ZuanJin_Step.BackColor = Color.Transparent;
                                     //btn_TiZuan.BackColor = Color.Green;
-                                    //btn_TiZuan_Step.BackColor = Color.LightGray;
+                                    //btn_TiZuan_Step.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4160,9 +4160,9 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM7, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin.BackColor = Color.LightGray;
-                                    //btn_ZuanJin_Step.BackColor = Color.LightGray;
-                                    //btn_TiZuan.BackColor = Color.LightGray;
+                                    //btn_ZuanJin.BackColor = Color.Transparent;
+                                    //btn_ZuanJin_Step.BackColor = Color.Transparent;
+                                    //btn_TiZuan.BackColor = Color.Transparent;
                                     //btn_TiZuan_Step.BackColor = Color.Green;
 
                                     return null;
@@ -4180,10 +4180,10 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM8, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin.BackColor = Color.LightGray;
-                                    //btn_ZuanJin_Step.BackColor = Color.LightGray;
-                                    //btn_TiZuan.BackColor = Color.LightGray;
-                                    //btn_TiZuan_Step.BackColor = Color.LightGray;
+                                    //btn_ZuanJin.BackColor = Color.Transparent;
+                                    //btn_ZuanJin_Step.BackColor = Color.Transparent;
+                                    //btn_TiZuan.BackColor = Color.Transparent;
+                                    //btn_TiZuan_Step.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4208,10 +4208,10 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM8, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin.BackColor = Color.LightGray;
-                                    //btn_ZuanJin_Step.BackColor = Color.LightGray;
-                                    //btn_TiZuan.BackColor = Color.LightGray;
-                                    //btn_TiZuan_Step.BackColor = Color.LightGray;
+                                    //btn_ZuanJin.BackColor = Color.Transparent;
+                                    //btn_ZuanJin_Step.BackColor = Color.Transparent;
+                                    //btn_TiZuan.BackColor = Color.Transparent;
+                                    //btn_TiZuan_Step.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4242,7 +4242,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_ZuanJin_ZhengZhuan.BackColor = Color.Green;
-                                    //btn_ZuanJin_FanZhuan.BackColor = Color.LightGray;
+                                    //btn_ZuanJin_FanZhuan.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4270,7 +4270,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM6, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin_ZhengZhuan.BackColor = Color.LightGray;
+                                    //btn_ZuanJin_ZhengZhuan.BackColor = Color.Transparent;
                                     //btn_ZuanJin_FanZhuan.BackColor = Color.Green;
 
                                     return null;
@@ -4299,8 +4299,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM6, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin_ZhengZhuan.BackColor = Color.LightGray;
-                                    //btn_ZuanJin_FanZhuan.BackColor = Color.LightGray;
+                                    //btn_ZuanJin_ZhengZhuan.BackColor = Color.Transparent;
+                                    //btn_ZuanJin_FanZhuan.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4331,7 +4331,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_YunTai_ShunZhuan.BackColor = Color.Green;
-                                    //btn_YunTai_NiZhuan.BackColor = Color.LightGray;
+                                    //btn_YunTai_NiZhuan.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4346,8 +4346,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM10, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_ShunZhuan.BackColor = Color.LightGray;
-                                    //btn_YunTai_NiZhuan.BackColor = Color.LightGray;
+                                    //btn_YunTai_ShunZhuan.BackColor = Color.Transparent;
+                                    //btn_YunTai_NiZhuan.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4372,7 +4372,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM10, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_ShunZhuan.BackColor = Color.LightGray;
+                                    //btn_YunTai_ShunZhuan.BackColor = Color.Transparent;
                                     //btn_YunTai_NiZhuan.BackColor = Color.Green;
 
                                     return null;
@@ -4388,8 +4388,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM10, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_ShunZhuan.BackColor = Color.LightGray;
-                                    //btn_YunTai_NiZhuan.BackColor = Color.LightGray;
+                                    //btn_YunTai_ShunZhuan.BackColor = Color.Transparent;
+                                    //btn_YunTai_NiZhuan.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4414,8 +4414,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM10, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_ShunZhuan.BackColor = Color.LightGray;
-                                    //btn_YunTai_NiZhuan.BackColor = Color.LightGray;
+                                    //btn_YunTai_ShunZhuan.BackColor = Color.Transparent;
+                                    //btn_YunTai_NiZhuan.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4446,7 +4446,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_YunTai_Fu.BackColor = Color.Green;
-                                    //btn_YunTai_Yang.BackColor = Color.LightGray;
+                                    //btn_YunTai_Yang.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4461,8 +4461,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM12, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_Fu.BackColor = Color.LightGray;
-                                    //btn_YunTai_Yang.BackColor = Color.LightGray;
+                                    //btn_YunTai_Fu.BackColor = Color.Transparent;
+                                    //btn_YunTai_Yang.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4487,7 +4487,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM12, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_Fu.BackColor = Color.LightGray;
+                                    //btn_YunTai_Fu.BackColor = Color.Transparent;
                                     //btn_YunTai_Yang.BackColor = Color.Green;
 
                                     return null;
@@ -4503,8 +4503,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM12, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_Fu.BackColor = Color.LightGray;
-                                    //btn_YunTai_Yang.BackColor = Color.LightGray;
+                                    //btn_YunTai_Fu.BackColor = Color.Transparent;
+                                    //btn_YunTai_Yang.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4529,8 +4529,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM12, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_Fu.BackColor = Color.LightGray;
-                                    //btn_YunTai_Yang.BackColor = Color.LightGray;
+                                    //btn_YunTai_Fu.BackColor = Color.Transparent;
+                                    //btn_YunTai_Yang.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4603,7 +4603,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM2, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YouYuanGaoYa_1.BackColor = Color.LightGray;
+                                    //btn_YouYuanGaoYa_1.BackColor = Color.Transparent;
 
 
                                     return null;
@@ -4675,7 +4675,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM4, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    // btn_YouYuanGaoYa.BackColor = Color.LightGray;
+                                    // btn_YouYuanGaoYa.BackColor = Color.Transparent;
 
 
                                     return null;
@@ -4749,7 +4749,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_DOUT16, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ShuiBengKai.BackColor = Color.LightGray;
+                                    //btn_ShuiBengKai.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -4775,9 +4775,9 @@ namespace MonitorProj
 
                                 //减压阀低压开，中压、高压对面阀上电2s后再断电
 
-                                if (color_Button_JianYaFa_DiYa == Color.LightGray &&
-                                        color_Button_JianYaFa_ZhongYa == Color.LightGray &&
-                                        color_Button_JianYaFa_GaoYa == Color.LightGray)    //首次上电
+                                if (color_Button_JianYaFa_DiYa == Color.Transparent &&
+                                        color_Button_JianYaFa_ZhongYa == Color.Transparent &&
+                                        color_Button_JianYaFa_GaoYa == Color.Transparent)    //首次上电
                                 {
                                     this.BeginInvoke(new Func<object>(() =>
                                     {
@@ -4799,15 +4799,15 @@ namespace MonitorProj
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                         //btn_JianYaFa_DiYa.BackColor = Color.Green;
-                                        //btn_JianYaFa_ZhongYa.BackColor = Color.LightGray;
-                                        //btn_JianYaFa_GaoYa.BackColor = Color.LightGray;
+                                        //btn_JianYaFa_ZhongYa.BackColor = Color.Transparent;
+                                        //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
 
                                         return null;
                                     }));
                                 }
-                                else if (color_Button_JianYaFa_DiYa == Color.LightGray &&
+                                else if (color_Button_JianYaFa_DiYa == Color.Transparent &&
                                         color_Button_JianYaFa_ZhongYa == Color.Green &&
-                                        color_Button_JianYaFa_GaoYa == Color.LightGray)
+                                        color_Button_JianYaFa_GaoYa == Color.Transparent)
                                 {
                                     this.BeginInvoke(new Func<object>(() =>
                                     {
@@ -4829,8 +4829,8 @@ namespace MonitorProj
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                         //btn_JianYaFa_DiYa.BackColor = Color.Green;
-                                        //btn_JianYaFa_ZhongYa.BackColor = Color.LightGray;
-                                        //btn_JianYaFa_GaoYa.BackColor = Color.LightGray;
+                                        //btn_JianYaFa_ZhongYa.BackColor = Color.Transparent;
+                                        //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
 
                                         return null;
                                     }));
@@ -4857,14 +4857,14 @@ namespace MonitorProj
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                         //btn_JianYaFa_DiYa.BackColor = Color.Green;
-                                        //btn_JianYaFa_ZhongYa.BackColor = Color.LightGray;
-                                        //btn_JianYaFa_GaoYa.BackColor = Color.LightGray;
+                                        //btn_JianYaFa_ZhongYa.BackColor = Color.Transparent;
+                                        //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
 
                                         return null;
                                     }));
                                 }
-                                else if (color_Button_JianYaFa_DiYa == Color.LightGray &&
-                                       color_Button_JianYaFa_ZhongYa == Color.LightGray &&
+                                else if (color_Button_JianYaFa_DiYa == Color.Transparent &&
+                                       color_Button_JianYaFa_ZhongYa == Color.Transparent &&
                                        color_Button_JianYaFa_GaoYa == Color.Green)
                                 {
                                     this.BeginInvoke(new Func<object>(() =>
@@ -4887,8 +4887,8 @@ namespace MonitorProj
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                         //btn_JianYaFa_DiYa.BackColor = Color.Green;
-                                        //btn_JianYaFa_ZhongYa.BackColor = Color.LightGray;
-                                        //btn_JianYaFa_GaoYa.BackColor = Color.LightGray;
+                                        //btn_JianYaFa_ZhongYa.BackColor = Color.Transparent;
+                                        //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
 
                                         return null;
                                     }));
@@ -4915,8 +4915,8 @@ namespace MonitorProj
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                         //btn_JianYaFa_DiYa.BackColor = Color.Green;
-                                        //btn_JianYaFa_ZhongYa.BackColor = Color.LightGray;
-                                        //btn_JianYaFa_GaoYa.BackColor = Color.LightGray;
+                                        //btn_JianYaFa_ZhongYa.BackColor = Color.Transparent;
+                                        //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
 
 
                                         return null;
@@ -4940,7 +4940,7 @@ namespace MonitorProj
                             {
                                 bSerialValvePackOperOK = false;
 
-                                if (color_Button_JianYaFa_GaoYa == Color.LightGray)
+                                if (color_Button_JianYaFa_GaoYa == Color.Transparent)
                                 {
                                     this.BeginInvoke(new Func<object>(() =>
                                     {
@@ -4961,9 +4961,9 @@ namespace MonitorProj
 
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                        //btn_JianYaFa_DiYa.BackColor = Color.LightGray;
+                                        //btn_JianYaFa_DiYa.BackColor = Color.Transparent;
                                         //btn_JianYaFa_ZhongYa.BackColor = Color.Green;
-                                        //btn_JianYaFa_GaoYa.BackColor = Color.LightGray;
+                                        //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
 
                                         return null;
                                     }));
@@ -4991,9 +4991,9 @@ namespace MonitorProj
 
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                        //btn_JianYaFa_DiYa.BackColor = Color.LightGray;
+                                        //btn_JianYaFa_DiYa.BackColor = Color.Transparent;
                                         //btn_JianYaFa_ZhongYa.BackColor = Color.Green;
-                                        //btn_JianYaFa_GaoYa.BackColor = Color.LightGray;
+                                        //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
 
                                         return null;
                                     }));
@@ -5019,9 +5019,9 @@ namespace MonitorProj
 
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                        //btn_JianYaFa_DiYa.BackColor = Color.LightGray;
+                                        //btn_JianYaFa_DiYa.BackColor = Color.Transparent;
                                         //btn_JianYaFa_ZhongYa.BackColor = Color.Green;
-                                        //btn_JianYaFa_GaoYa.BackColor = Color.LightGray;
+                                        //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
 
                                         return null;
                                     }));
@@ -5063,8 +5063,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_DOUT12, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_JianYaFa_DiYa.BackColor = Color.LightGray;
-                                    //btn_JianYaFa_ZhongYa.BackColor = Color.LightGray;
+                                    //btn_JianYaFa_DiYa.BackColor = Color.Transparent;
+                                    //btn_JianYaFa_ZhongYa.BackColor = Color.Transparent;
                                     //btn_JianYaFa_GaoYa.BackColor = Color.Green;
 
 
@@ -5133,9 +5133,9 @@ namespace MonitorProj
 
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_JianYaFa_DiYa.BackColor = Color.LightGray;
-                                    //btn_JianYaFa_ZhongYa.BackColor = Color.LightGray;
-                                    //btn_JianYaFa_GaoYa.BackColor = Color.LightGray;
+                                    //btn_JianYaFa_DiYa.BackColor = Color.Transparent;
+                                    //btn_JianYaFa_ZhongYa.BackColor = Color.Transparent;
+                                    //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -5209,7 +5209,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_DOUT14, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJinFa_GaoSu.BackColor = Color.LightGray;
+                                    //btn_ZuanJinFa_GaoSu.BackColor = Color.Transparent;
 
                                     return null;
                                 }));
@@ -5251,8 +5251,8 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A7.BackColor = Color.Green;
-                        //                btn_B7.BackColor = Color.LightGray;
-                        //                btn_AB7_Stop.BackColor = Color.LightGray;
+                        //                btn_B7.BackColor = Color.Transparent;
+                        //                btn_AB7_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5261,8 +5261,8 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A7.BackColor = Color.Yellow;
-                        //                btn_B7.BackColor = Color.LightGray;
-                        //                btn_AB7_Stop.BackColor = Color.LightGray;
+                        //                btn_B7.BackColor = Color.Transparent;
+                        //                btn_AB7_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5298,9 +5298,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A7.BackColor = Color.LightGray;
+                        //                btn_A7.BackColor = Color.Transparent;
                         //                btn_B7.BackColor = Color.Green;
-                        //                btn_AB7_Stop.BackColor = Color.LightGray;
+                        //                btn_AB7_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5308,9 +5308,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A7.BackColor = Color.LightGray;
+                        //                btn_A7.BackColor = Color.Transparent;
                         //                btn_B7.BackColor = Color.Yellow;
-                        //                btn_AB7_Stop.BackColor = Color.LightGray;
+                        //                btn_AB7_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5346,8 +5346,8 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A7.BackColor = Color.LightGray;
-                        //                btn_B7.BackColor = Color.LightGray;
+                        //                btn_A7.BackColor = Color.Transparent;
+                        //                btn_B7.BackColor = Color.Transparent;
                         //                btn_AB7_Stop.BackColor = Color.Green;
                         //                return null;
                         //            }));
@@ -5356,8 +5356,8 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A7.BackColor = Color.LightGray;
-                        //                btn_B7.BackColor = Color.LightGray;
+                        //                btn_A7.BackColor = Color.Transparent;
+                        //                btn_B7.BackColor = Color.Transparent;
                         //                btn_AB7_Stop.BackColor = Color.Yellow;
                         //                return null;
                         //            }));
@@ -5398,8 +5398,8 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A8.BackColor = Color.Green;
-                        //                btn_B8.BackColor = Color.LightGray;
-                        //                btn_AB8_Stop.BackColor = Color.LightGray;
+                        //                btn_B8.BackColor = Color.Transparent;
+                        //                btn_AB8_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5408,8 +5408,8 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A8.BackColor = Color.Yellow;
-                        //                btn_B8.BackColor = Color.LightGray;
-                        //                btn_AB8_Stop.BackColor = Color.LightGray;
+                        //                btn_B8.BackColor = Color.Transparent;
+                        //                btn_AB8_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5445,9 +5445,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A8.BackColor = Color.LightGray;
+                        //                btn_A8.BackColor = Color.Transparent;
                         //                btn_B8.BackColor = Color.Green;
-                        //                btn_AB8_Stop.BackColor = Color.LightGray;
+                        //                btn_AB8_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5455,9 +5455,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A8.BackColor = Color.LightGray;
+                        //                btn_A8.BackColor = Color.Transparent;
                         //                btn_B8.BackColor = Color.Yellow;
-                        //                btn_AB8_Stop.BackColor = Color.LightGray;
+                        //                btn_AB8_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5493,8 +5493,8 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A8.BackColor = Color.LightGray;
-                        //                btn_B8.BackColor = Color.LightGray;
+                        //                btn_A8.BackColor = Color.Transparent;
+                        //                btn_B8.BackColor = Color.Transparent;
                         //                btn_AB8_Stop.BackColor = Color.Green;
                         //                return null;
                         //            }));
@@ -5503,8 +5503,8 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A8.BackColor = Color.LightGray;
-                        //                btn_B8.BackColor = Color.LightGray;
+                        //                btn_A8.BackColor = Color.Transparent;
+                        //                btn_B8.BackColor = Color.Transparent;
                         //                btn_AB8_Stop.BackColor = Color.Yellow;
                         //                return null;
                         //            }));
@@ -5544,8 +5544,8 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A9.BackColor = Color.Green;
-                        //                btn_B9.BackColor = Color.LightGray;
-                        //                btn_AB9_Stop.BackColor = Color.LightGray;
+                        //                btn_B9.BackColor = Color.Transparent;
+                        //                btn_AB9_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5554,8 +5554,8 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A9.BackColor = Color.Yellow;
-                        //                btn_B9.BackColor = Color.LightGray;
-                        //                btn_AB9_Stop.BackColor = Color.LightGray;
+                        //                btn_B9.BackColor = Color.Transparent;
+                        //                btn_AB9_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5591,9 +5591,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A9.BackColor = Color.LightGray;
+                        //                btn_A9.BackColor = Color.Transparent;
                         //                btn_B9.BackColor = Color.Green;
-                        //                btn_AB9_Stop.BackColor = Color.LightGray;
+                        //                btn_AB9_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5601,9 +5601,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A9.BackColor = Color.LightGray;
+                        //                btn_A9.BackColor = Color.Transparent;
                         //                btn_B9.BackColor = Color.Yellow;
-                        //                btn_AB9_Stop.BackColor = Color.LightGray;
+                        //                btn_AB9_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5639,8 +5639,8 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A9.BackColor = Color.LightGray;
-                        //                btn_B9.BackColor = Color.LightGray;
+                        //                btn_A9.BackColor = Color.Transparent;
+                        //                btn_B9.BackColor = Color.Transparent;
                         //                btn_AB9_Stop.BackColor = Color.Green;
                         //                return null;
                         //            }));
@@ -5649,8 +5649,8 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A9.BackColor = Color.LightGray;
-                        //                btn_B9.BackColor = Color.LightGray;
+                        //                btn_A9.BackColor = Color.Transparent;
+                        //                btn_B9.BackColor = Color.Transparent;
                         //                btn_AB9_Stop.BackColor = Color.Yellow;
                         //                return null;
                         //            }));
@@ -5691,8 +5691,8 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A10.BackColor = Color.Green;
-                        //                btn_B10.BackColor = Color.LightGray;
-                        //                btn_AB10_Stop.BackColor = Color.LightGray;
+                        //                btn_B10.BackColor = Color.Transparent;
+                        //                btn_AB10_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5701,8 +5701,8 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A10.BackColor = Color.Yellow;
-                        //                btn_B10.BackColor = Color.LightGray;
-                        //                btn_AB10_Stop.BackColor = Color.LightGray;
+                        //                btn_B10.BackColor = Color.Transparent;
+                        //                btn_AB10_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5738,9 +5738,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A10.BackColor = Color.LightGray;
+                        //                btn_A10.BackColor = Color.Transparent;
                         //                btn_B10.BackColor = Color.Green;
-                        //                btn_AB10_Stop.BackColor = Color.LightGray;
+                        //                btn_AB10_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5748,9 +5748,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A10.BackColor = Color.LightGray;
+                        //                btn_A10.BackColor = Color.Transparent;
                         //                btn_B10.BackColor = Color.Yellow;
-                        //                btn_AB10_Stop.BackColor = Color.LightGray;
+                        //                btn_AB10_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5786,8 +5786,8 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A10.BackColor = Color.LightGray;
-                        //                btn_B10.BackColor = Color.LightGray;
+                        //                btn_A10.BackColor = Color.Transparent;
+                        //                btn_B10.BackColor = Color.Transparent;
                         //                btn_AB10_Stop.BackColor = Color.Green;
                         //                return null;
                         //            }));
@@ -5796,8 +5796,8 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A10.BackColor = Color.LightGray;
-                        //                btn_B10.BackColor = Color.LightGray;
+                        //                btn_A10.BackColor = Color.Transparent;
+                        //                btn_B10.BackColor = Color.Transparent;
                         //                btn_AB10_Stop.BackColor = Color.Yellow;
                         //                return null;
                         //            }));
@@ -5836,8 +5836,8 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A11.BackColor = Color.Green;
-                        //                btn_B11.BackColor = Color.LightGray;
-                        //                btn_AB11_Stop.BackColor = Color.LightGray;
+                        //                btn_B11.BackColor = Color.Transparent;
+                        //                btn_AB11_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5846,8 +5846,8 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A11.BackColor = Color.Yellow;
-                        //                btn_B11.BackColor = Color.LightGray;
-                        //                btn_AB11_Stop.BackColor = Color.LightGray;
+                        //                btn_B11.BackColor = Color.Transparent;
+                        //                btn_AB11_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5883,9 +5883,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A11.BackColor = Color.LightGray;
+                        //                btn_A11.BackColor = Color.Transparent;
                         //                btn_B11.BackColor = Color.Green;
-                        //                btn_AB11_Stop.BackColor = Color.LightGray;
+                        //                btn_AB11_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5893,9 +5893,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A11.BackColor = Color.LightGray;
+                        //                btn_A11.BackColor = Color.Transparent;
                         //                btn_B11.BackColor = Color.Yellow;
-                        //                btn_AB11_Stop.BackColor = Color.LightGray;
+                        //                btn_AB11_Stop.BackColor = Color.Transparent;
                         //                return null;
                         //            }));
                         //        }
@@ -5931,8 +5931,8 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A11.BackColor = Color.LightGray;
-                        //                btn_B11.BackColor = Color.LightGray;
+                        //                btn_A11.BackColor = Color.Transparent;
+                        //                btn_B11.BackColor = Color.Transparent;
                         //                btn_AB11_Stop.BackColor = Color.Green;
                         //                return null;
                         //            }));
@@ -5941,8 +5941,8 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A11.BackColor = Color.LightGray;
-                        //                btn_B11.BackColor = Color.LightGray;
+                        //                btn_A11.BackColor = Color.Transparent;
+                        //                btn_B11.BackColor = Color.Transparent;
                         //                btn_AB11_Stop.BackColor = Color.Yellow;
                         //                return null;
                         //            }));
@@ -8021,7 +8021,7 @@ namespace MonitorProj
                 if (Global.isSerialOpenedOK_WaterCtlBox)
                 {
                     btn_WaterCtlBox_SerialOpen.BackColor = Color.Green;
-                    btn_WaterCtlBox_SerialClose.BackColor = Color.LightGray;
+                    btn_WaterCtlBox_SerialClose.BackColor = Color.Transparent;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "水面控制盒串口打开成功！";
                         sInfo += "\t\n";
@@ -8031,7 +8031,7 @@ namespace MonitorProj
                 else
                 {
                     btn_WaterCtlBox_SerialOpen.BackColor = Color.Yellow;
-                    btn_WaterCtlBox_SerialClose.BackColor = Color.LightGray;
+                    btn_WaterCtlBox_SerialClose.BackColor = Color.Transparent;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "水面控制盒串口打开失败！";
                         sInfo += "\t\n";
@@ -8051,7 +8051,7 @@ namespace MonitorProj
             {
                 Global.m_FormSerialWaterBoxCtl.btn_Perform_Click(Global.m_FormSerialWaterBoxCtl.btn_SerialClose, null);
 
-                btn_WaterCtlBox_SerialOpen.BackColor = Color.LightGray;
+                btn_WaterCtlBox_SerialOpen.BackColor = Color.Transparent;
                 btn_WaterCtlBox_SerialClose.BackColor = Color.Green;
                 {
                     string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "水面控制盒串口关闭成功！";
@@ -8075,7 +8075,7 @@ namespace MonitorProj
                 if (Global.isSerialOpenedOK_ROVPower)
                 {
                     btn_ROVPower_SerialOpen.BackColor = Color.Green;
-                    btn_ROVPower_SerialClose.BackColor = Color.LightGray;
+                    btn_ROVPower_SerialClose.BackColor = Color.Transparent;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "ROV供电柜串口打开成功！";
                         sInfo += "\t\n";
@@ -8085,7 +8085,7 @@ namespace MonitorProj
                 else
                 {
                     btn_ROVPower_SerialOpen.BackColor = Color.Yellow;
-                    btn_ROVPower_SerialClose.BackColor = Color.LightGray;
+                    btn_ROVPower_SerialClose.BackColor = Color.Transparent;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "ROV供电柜串口打开失败！";
                         sInfo += "\t\n";
@@ -8105,7 +8105,7 @@ namespace MonitorProj
             {
                 Global.m_FormSerialRovPowerCtl.btn_Perform_Click(Global.m_FormSerialRovPowerCtl.btn_SerialClose, null);
 
-                btn_ROVPower_SerialOpen.BackColor = Color.LightGray;
+                btn_ROVPower_SerialOpen.BackColor = Color.Transparent;
                 btn_ROVPower_SerialClose.BackColor = Color.Green;
                 {
                     string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "ROV供电柜串口关闭成功！";
@@ -8129,7 +8129,7 @@ namespace MonitorProj
                 if (Global.isSerialOpenedOK_JuYuanJianCe_1)
                 {
                     btn_JuYuanJianCe_1_SerialOpen.BackColor = Color.Green;
-                    btn_JuYuanJianCe_1_SerialClose.BackColor = Color.LightGray;
+                    btn_JuYuanJianCe_1_SerialClose.BackColor = Color.Transparent;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪1串口打开成功！";
                         sInfo += "\t\n";
@@ -8139,7 +8139,7 @@ namespace MonitorProj
                 else
                 {
                     btn_JuYuanJianCe_1_SerialOpen.BackColor = Color.Yellow;
-                    btn_JuYuanJianCe_1_SerialClose.BackColor = Color.LightGray;
+                    btn_JuYuanJianCe_1_SerialClose.BackColor = Color.Transparent;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪1串口打开失败！";
                         sInfo += "\t\n";
@@ -8159,7 +8159,7 @@ namespace MonitorProj
             {
                 Global.m_FormSerialJuYuanJianCe1Ctl.btn_Perform_Click(Global.m_FormSerialJuYuanJianCe1Ctl.btn_SerialClose, null);
 
-                btn_JuYuanJianCe_1_SerialOpen.BackColor = Color.LightGray;
+                btn_JuYuanJianCe_1_SerialOpen.BackColor = Color.Transparent;
                 btn_JuYuanJianCe_1_SerialClose.BackColor = Color.Green;
                 {
                     string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪1串口关闭成功！";
@@ -8183,7 +8183,7 @@ namespace MonitorProj
                 if (Global.isSerialOpenedOK_JuYuanJianCe_2)
                 {
                     btn_JuYuanJianCe_2_SerialOpen.BackColor = Color.Green;
-                    btn_JuYuanJianCe_2_SerialClose.BackColor = Color.LightGray;
+                    btn_JuYuanJianCe_2_SerialClose.BackColor = Color.Transparent;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪2串口打开成功！";
                         sInfo += "\t\n";
@@ -8193,7 +8193,7 @@ namespace MonitorProj
                 else
                 {
                     btn_JuYuanJianCe_2_SerialOpen.BackColor = Color.Yellow;
-                    btn_JuYuanJianCe_2_SerialClose.BackColor = Color.LightGray;
+                    btn_JuYuanJianCe_2_SerialClose.BackColor = Color.Transparent;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪2串口打开失败！";
                         sInfo += "\t\n";
@@ -8213,7 +8213,7 @@ namespace MonitorProj
             {
                 Global.m_FormSerialJuYuanJianCe2Ctl.btn_Perform_Click(Global.m_FormSerialJuYuanJianCe2Ctl.btn_SerialClose, null);
 
-                btn_JuYuanJianCe_2_SerialOpen.BackColor = Color.LightGray;
+                btn_JuYuanJianCe_2_SerialOpen.BackColor = Color.Transparent;
                 btn_JuYuanJianCe_2_SerialClose.BackColor = Color.Green;
                 {
                     string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪2串口关闭成功！";
@@ -8239,7 +8239,7 @@ namespace MonitorProj
                 {
 
                     //停止界面浮潜
-                    btn_FuQian.BackColor = Color.LightGray;
+                    btn_FuQian.BackColor = Color.Transparent;
                     flag_FuQian_Oper = false;
 
                     //停止界面自动定向
@@ -8324,7 +8324,7 @@ namespace MonitorProj
         {
             try
             {
-                btn_FuQian.BackColor = Color.LightGray;
+                btn_FuQian.BackColor = Color.Transparent;
                 flag_FuQian_Oper = false;
             }
             catch (Exception ex)
@@ -8719,7 +8719,7 @@ namespace MonitorProj
                 else
                 {
                     isAddParasToAutoDir = 0;
-                    btn_TuiJinQin_ZhengZhuan.BackColor = Color.LightGray;
+                    btn_TuiJinQin_ZhengZhuan.BackColor = Color.Transparent;
                 }
             }
             catch (Exception ex)
@@ -8766,7 +8766,7 @@ namespace MonitorProj
                 else
                 {
                     isAddParasToAutoDir = 0;
-                    btn_TuiJinQin_FanZhuan.BackColor = Color.LightGray;
+                    btn_TuiJinQin_FanZhuan.BackColor = Color.Transparent;
                 }
             }
             catch (Exception ex)
@@ -8799,9 +8799,9 @@ namespace MonitorProj
                             this.BeginInvoke(new Func<object>(() =>
                             {
                                 btn_DiCiJiaJiaoSet.BackColor = Color.Green;
-                                btn_DiCiJiaJiaoSet_Stop.BackColor = Color.LightGray;
-                                btn_TuiJinQin_ZhengZhuan.BackColor = Color.LightGray;
-                                btn_TuiJinQin_FanZhuan.BackColor = Color.LightGray;
+                                btn_DiCiJiaJiaoSet_Stop.BackColor = Color.Transparent;
+                                btn_TuiJinQin_ZhengZhuan.BackColor = Color.Transparent;
+                                btn_TuiJinQin_FanZhuan.BackColor = Color.Transparent;
 
                                 //btn_TuiJinQin_ZhengZhuan.Enabled = false;
                                 //btn_TuiJinQin_FanZhuan.Enabled = false;
@@ -8948,10 +8948,10 @@ namespace MonitorProj
 
                                 Global.m_FormBoardI.SetDataIntoPCB();
 
-                                btn_TuiJinQin_ZhengZhuan.BackColor = Color.LightGray;
-                                btn_TuiJinQin_FanZhuan.BackColor = Color.LightGray;
-                                btn_DiCiJiaJiaoSet.BackColor = Color.LightGray;
-                                btn_DiCiJiaJiaoSet_Stop.BackColor = Color.LightGray;
+                                btn_TuiJinQin_ZhengZhuan.BackColor = Color.Transparent;
+                                btn_TuiJinQin_FanZhuan.BackColor = Color.Transparent;
+                                btn_DiCiJiaJiaoSet.BackColor = Color.Transparent;
+                                btn_DiCiJiaJiaoSet_Stop.BackColor = Color.Transparent;
 
                                 btn_TuiJinQin_ZhengZhuan.Enabled = true;
                                 btn_TuiJinQin_FanZhuan.Enabled = true;
@@ -9194,9 +9194,9 @@ namespace MonitorProj
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.Qian;
                 btn_TuiJinQi_HMove_QianJin.BackColor = Color.Green;
-                btn_TuiJinQi_HMove_HouTui.BackColor = Color.LightGray;
-                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.LightGray;
-                btn_TuiJinQi_HMove_YouYi.BackColor = Color.LightGray;
+                btn_TuiJinQi_HMove_HouTui.BackColor = Color.Transparent;
+                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.Transparent;
+                btn_TuiJinQi_HMove_YouYi.BackColor = Color.Transparent;
                 flag_TuiJinQi_HMove_Oper = true;
             }
             catch (Exception ex)
@@ -9208,10 +9208,10 @@ namespace MonitorProj
             try
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.Hou;
-                btn_TuiJinQi_HMove_QianJin.BackColor = Color.LightGray;
+                btn_TuiJinQi_HMove_QianJin.BackColor = Color.Transparent;
                 btn_TuiJinQi_HMove_HouTui.BackColor = Color.Green;
-                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.LightGray;
-                btn_TuiJinQi_HMove_YouYi.BackColor = Color.LightGray;
+                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.Transparent;
+                btn_TuiJinQi_HMove_YouYi.BackColor = Color.Transparent;
                 flag_TuiJinQi_HMove_Oper = true;
 
             }
@@ -9224,10 +9224,10 @@ namespace MonitorProj
             try
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.Zuo;
-                btn_TuiJinQi_HMove_QianJin.BackColor = Color.LightGray;
-                btn_TuiJinQi_HMove_HouTui.BackColor = Color.LightGray;
+                btn_TuiJinQi_HMove_QianJin.BackColor = Color.Transparent;
+                btn_TuiJinQi_HMove_HouTui.BackColor = Color.Transparent;
                 btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.Green;
-                btn_TuiJinQi_HMove_YouYi.BackColor = Color.LightGray;
+                btn_TuiJinQi_HMove_YouYi.BackColor = Color.Transparent;
                 flag_TuiJinQi_HMove_Oper = true;
             }
             catch (Exception ex)
@@ -9239,9 +9239,9 @@ namespace MonitorProj
             try
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.You;
-                btn_TuiJinQi_HMove_QianJin.BackColor = Color.LightGray;
-                btn_TuiJinQi_HMove_HouTui.BackColor = Color.LightGray;
-                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.LightGray;
+                btn_TuiJinQi_HMove_QianJin.BackColor = Color.Transparent;
+                btn_TuiJinQi_HMove_HouTui.BackColor = Color.Transparent;
+                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.Transparent;
                 btn_TuiJinQi_HMove_YouYi.BackColor = Color.Green;
                 flag_TuiJinQi_HMove_Oper = true;
             }
@@ -9254,10 +9254,10 @@ namespace MonitorProj
             try
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.Stop;
-                btn_TuiJinQi_HMove_QianJin.BackColor = Color.LightGray;
-                btn_TuiJinQi_HMove_HouTui.BackColor = Color.LightGray;
-                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.LightGray;
-                btn_TuiJinQi_HMove_YouYi.BackColor = Color.LightGray;
+                btn_TuiJinQi_HMove_QianJin.BackColor = Color.Transparent;
+                btn_TuiJinQi_HMove_HouTui.BackColor = Color.Transparent;
+                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.Transparent;
+                btn_TuiJinQi_HMove_YouYi.BackColor = Color.Transparent;
                 flag_TuiJinQi_HMove_Oper = false;
             }
             catch (Exception ex)
@@ -9488,9 +9488,9 @@ namespace MonitorProj
         #endregion
 
 
-        private Color color_Button_JianYaFa_DiYa = Color.LightGray;
-        private Color color_Button_JianYaFa_ZhongYa = Color.LightGray;
-        private Color color_Button_JianYaFa_GaoYa = Color.LightGray;
+        private Color color_Button_JianYaFa_DiYa = Color.Transparent;
+        private Color color_Button_JianYaFa_ZhongYa = Color.Transparent;
+        private Color color_Button_JianYaFa_GaoYa = Color.Transparent;
         //private void btn_JianYaFa_DiYa_BackColorChanged(object sender, EventArgs e)
         //{
         //    try
@@ -9594,11 +9594,11 @@ namespace MonitorProj
                             this.BeginInvoke(new Func<object>(() =>
                             {
                                 btn_AutoHigh_Start.BackColor = Color.Green;
-                                btn_AutoHigh_Stop.BackColor = Color.LightGray;
-                                btn_TuiJinQi_HMove_QianJin.BackColor = Color.LightGray;
-                                btn_TuiJinQi_HMove_HouTui.BackColor = Color.LightGray;
-                                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.LightGray;
-                                btn_TuiJinQi_HMove_YouYi.BackColor = Color.LightGray;
+                                btn_AutoHigh_Stop.BackColor = Color.Transparent;
+                                btn_TuiJinQi_HMove_QianJin.BackColor = Color.Transparent;
+                                btn_TuiJinQi_HMove_HouTui.BackColor = Color.Transparent;
+                                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.Transparent;
+                                btn_TuiJinQi_HMove_YouYi.BackColor = Color.Transparent;
 
                                 groupBox_TuiJinQi_PingYi.Enabled = false;
 
@@ -9682,12 +9682,12 @@ namespace MonitorProj
                             //停止
                             this.BeginInvoke(new Func<object>(() =>
                             {
-                                btn_AutoHigh_Start.BackColor = Color.LightGray;
-                                btn_AutoHigh_Stop.BackColor = Color.LightGray;
-                                btn_TuiJinQi_HMove_QianJin.BackColor = Color.LightGray;
-                                btn_TuiJinQi_HMove_HouTui.BackColor = Color.LightGray;
-                                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.LightGray;
-                                btn_TuiJinQi_HMove_YouYi.BackColor = Color.LightGray;
+                                btn_AutoHigh_Start.BackColor = Color.Transparent;
+                                btn_AutoHigh_Stop.BackColor = Color.Transparent;
+                                btn_TuiJinQi_HMove_QianJin.BackColor = Color.Transparent;
+                                btn_TuiJinQi_HMove_HouTui.BackColor = Color.Transparent;
+                                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.Transparent;
+                                btn_TuiJinQi_HMove_YouYi.BackColor = Color.Transparent;
 
                                 groupBox_TuiJinQi_PingYi.Enabled = true;
 
