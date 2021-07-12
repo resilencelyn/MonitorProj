@@ -2250,7 +2250,7 @@ namespace MonitorProj
 
                         flag_Communication_40 = true;
 
-                        //textBox_TankDetectBoardCH3_2_2.Text = Math.Round(myStruct.CH3_2, 2).ToString();
+                        gyroAngle1.Depth = Math.Round(myStruct.CH3_2, 2).ToString();
 
                         //补偿1
                         if (myStruct.CH3_3 >= 0 && myStruct.CH3_3 <= 2.5)
@@ -2864,7 +2864,7 @@ namespace MonitorProj
                     {
                         Struct_HightMeasureDevice myStruct = (Struct_HightMeasureDevice)gEventArgs.objParse;
                         textBox_HeightMeasure_Hight.Text = myStruct.sHight;
-                        //textBox_HeightMeasure_Hight_2.Text = myStruct.sHight;
+                        gyroAngle1.HeightData = myStruct.Height;
 
                         value_High_Now = myStruct.Height;
                         if (flag_AutoHigh_Oper == false)
@@ -11035,6 +11035,17 @@ namespace MonitorProj
 
         private void GroupBox_MainCtl_Enter(object sender, EventArgs e)
         {
+
+        }
+
+        private void textBox_Communication_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label33_Click(object sender, EventArgs e)
+        {
+
 
         }
     }

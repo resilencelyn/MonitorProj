@@ -176,6 +176,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMainUserA.resx">
       <DependentUpon>FormMainUserA.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMobileDrillMonCtl.resx">
       <DependentUpon>FormMobileDrillMonCtl.cs</DependentUpon>
@@ -257,6 +258,25 @@
     <Content Include="Resources\Square150x150Logo.png" />
     <Content Include="Resources\Square44x44Logo.png" />
     <Content Include="Resources\StoreLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxBGV2ActiveXLib">
+      <Guid>{71D75C77-4682-4723-83E6-BD07E1D80111}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="BGV2ActiveXLib">
+      <Guid>{71D75C77-4682-4723-83E6-BD07E1D80111}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
