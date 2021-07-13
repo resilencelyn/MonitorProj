@@ -29,37 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevComponents.Instrumentation.GaugeCircularScale gaugeCircularScale7 = new DevComponents.Instrumentation.GaugeCircularScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer22 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GaugeSection gaugeSection7 = new DevComponents.Instrumentation.GaugeSection();
-            DevComponents.Instrumentation.GaugeCircularScale gaugeCircularScale8 = new DevComponents.Instrumentation.GaugeCircularScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer23 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GaugeSection gaugeSection8 = new DevComponents.Instrumentation.GaugeSection();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor37 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor38 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor39 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor40 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale16 = new DevComponents.Instrumentation.GaugeLinearScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer24 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor41 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor42 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale17 = new DevComponents.Instrumentation.GaugeLinearScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer25 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor43 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor44 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale18 = new DevComponents.Instrumentation.GaugeLinearScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer26 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor45 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor46 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale19 = new DevComponents.Instrumentation.GaugeLinearScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer27 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor47 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor48 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale20 = new DevComponents.Instrumentation.GaugeLinearScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer28 = new DevComponents.Instrumentation.GaugePointer();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMainUserA));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.GroupBox_MainMon = new System.Windows.Forms.GroupBox();
             this.GroupBox_MainCtl = new System.Windows.Forms.GroupBox();
             this.button40 = new System.Windows.Forms.Button();
@@ -146,7 +118,6 @@
             this.btn_AutoHigh_Stop = new System.Windows.Forms.Button();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.groupBox41 = new System.Windows.Forms.GroupBox();
-            this.gaugeControl4 = new DevComponents.Instrumentation.GaugeControl();
             this.label238 = new System.Windows.Forms.Label();
             this.numericUpDown_DiCiJiaJiaoSet = new System.Windows.Forms.NumericUpDown();
             this.btn_DiCiJiaJiaoSet = new System.Windows.Forms.Button();
@@ -197,11 +168,6 @@
             this.comboBox_WaterCtlBox_SerialPort = new System.Windows.Forms.ComboBox();
             this.label235 = new System.Windows.Forms.Label();
             this.label225 = new System.Windows.Forms.Label();
-            this.gaugeControl_YouXiang = new DevComponents.Instrumentation.GaugeControl();
-            this.gaugeControl_BuChang_4 = new DevComponents.Instrumentation.GaugeControl();
-            this.gaugeControl_BuChang_3 = new DevComponents.Instrumentation.GaugeControl();
-            this.gaugeControl_BuChang_2 = new DevComponents.Instrumentation.GaugeControl();
-            this.gaugeControl_BuChang_1 = new DevComponents.Instrumentation.GaugeControl();
             this.GroupBox_CtlBtns = new System.Windows.Forms.GroupBox();
             this.btn_FaBox_Space = new System.Windows.Forms.Button();
             this.groupBox_JXS = new System.Windows.Forms.GroupBox();
@@ -289,7 +255,6 @@
             this.trackBar_Light_6 = new System.Windows.Forms.TrackBar();
             this.trackBar_Light_5 = new System.Windows.Forms.TrackBar();
             this.groupBox_SoftRuningInfo = new System.Windows.Forms.GroupBox();
-            this.Ch1WorkLight = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
             this.richTextBox_InfoShow = new System.Windows.Forms.RichTextBox();
             this.groupBox49 = new System.Windows.Forms.GroupBox();
             this.Light_Communication_0x61 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
@@ -851,6 +816,13 @@
             this.label309 = new System.Windows.Forms.Label();
             this.label310 = new System.Windows.Forms.Label();
             this.timer_Communication = new System.Windows.Forms.Timer(this.components);
+            this.axBeauGaugeCtrl9 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.axBeauGaugeCtrl0 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.axBeauGaugeCtrl1 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.axBeauGaugeCtrl2 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.axBeauGaugeCtrl3 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.axBeauGaugeCtrl4 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.axBeauGaugeCtrl10 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
             this.GroupBox_MainMon.SuspendLayout();
             this.GroupBox_MainCtl.SuspendLayout();
             this.groupBox33.SuspendLayout();
@@ -869,7 +841,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_AutoHigh)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.groupBox41.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_DiCiJiaJiaoSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_DiCiJiaJiaoSet)).BeginInit();
             this.groupBox42.SuspendLayout();
@@ -881,11 +852,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_TuiJinQi_HMove_ZengLiang)).BeginInit();
             this.groupBox38.SuspendLayout();
             this.groupBox_WaterCtlBox_BoardD_Ctl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl_YouXiang)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl_BuChang_4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl_BuChang_3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl_BuChang_2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl_BuChang_1)).BeginInit();
             this.GroupBox_CtlBtns.SuspendLayout();
             this.groupBox_JXS.SuspendLayout();
             this.groupBox54.SuspendLayout();
@@ -901,7 +867,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_Light_6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_Light_5)).BeginInit();
             this.groupBox_SoftRuningInfo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Ch1WorkLight)).BeginInit();
             this.groupBox49.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x61)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_FaXiang16)).BeginInit();
@@ -997,11 +962,19 @@
             this.groupBox2.SuspendLayout();
             this.groupBox23.SuspendLayout();
             this.groupBox27.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl10)).BeginInit();
             this.SuspendLayout();
             // 
             // GroupBox_MainMon
             // 
             this.GroupBox_MainMon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.GroupBox_MainMon.Controls.Add(this.GroupBox_MainCtl);
             this.GroupBox_MainMon.Controls.Add(this.groupBox49);
             this.GroupBox_MainMon.Controls.Add(this.groupBox_BoardA_Mon);
             this.GroupBox_MainMon.Controls.Add(this.tabControl1);
@@ -1030,6 +1003,11 @@
             // GroupBox_MainCtl
             // 
             this.GroupBox_MainCtl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.GroupBox_MainCtl.Controls.Add(this.axBeauGaugeCtrl4);
+            this.GroupBox_MainCtl.Controls.Add(this.axBeauGaugeCtrl3);
+            this.GroupBox_MainCtl.Controls.Add(this.axBeauGaugeCtrl2);
+            this.GroupBox_MainCtl.Controls.Add(this.axBeauGaugeCtrl1);
+            this.GroupBox_MainCtl.Controls.Add(this.axBeauGaugeCtrl0);
             this.GroupBox_MainCtl.Controls.Add(this.button40);
             this.GroupBox_MainCtl.Controls.Add(this.label192);
             this.GroupBox_MainCtl.Controls.Add(this.label191);
@@ -1054,15 +1032,10 @@
             this.GroupBox_MainCtl.Controls.Add(this.label224);
             this.GroupBox_MainCtl.Controls.Add(this.groupBox_WaterCtlBox_BoardD_Ctl);
             this.GroupBox_MainCtl.Controls.Add(this.label225);
-            this.GroupBox_MainCtl.Controls.Add(this.gaugeControl_YouXiang);
-            this.GroupBox_MainCtl.Controls.Add(this.gaugeControl_BuChang_4);
-            this.GroupBox_MainCtl.Controls.Add(this.gaugeControl_BuChang_3);
-            this.GroupBox_MainCtl.Controls.Add(this.gaugeControl_BuChang_2);
-            this.GroupBox_MainCtl.Controls.Add(this.gaugeControl_BuChang_1);
             this.GroupBox_MainCtl.Controls.Add(this.GroupBox_CtlBtns);
             this.GroupBox_MainCtl.Controls.Add(this.groupBox_SoftRuningInfo);
             this.GroupBox_MainCtl.ForeColor = System.Drawing.SystemColors.Control;
-            this.GroupBox_MainCtl.Location = new System.Drawing.Point(358, 99);
+            this.GroupBox_MainCtl.Location = new System.Drawing.Point(0, 1);
             this.GroupBox_MainCtl.Margin = new System.Windows.Forms.Padding(2);
             this.GroupBox_MainCtl.Name = "GroupBox_MainCtl";
             this.GroupBox_MainCtl.Padding = new System.Windows.Forms.Padding(2);
@@ -1816,10 +1789,10 @@
             // 
             // label_BuChang_5
             // 
-            this.label_BuChang_5.BackColor = System.Drawing.Color.DarkGray;
+            this.label_BuChang_5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label_BuChang_5.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_BuChang_5.ForeColor = System.Drawing.Color.Red;
-            this.label_BuChang_5.Location = new System.Drawing.Point(1208, 752);
+            this.label_BuChang_5.ForeColor = System.Drawing.Color.White;
+            this.label_BuChang_5.Location = new System.Drawing.Point(1205, 797);
             this.label_BuChang_5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_BuChang_5.Name = "label_BuChang_5";
             this.label_BuChang_5.Size = new System.Drawing.Size(60, 19);
@@ -2031,10 +2004,10 @@
             // 
             // label_BuChang_4
             // 
-            this.label_BuChang_4.BackColor = System.Drawing.Color.DarkGray;
+            this.label_BuChang_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label_BuChang_4.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_BuChang_4.ForeColor = System.Drawing.Color.Red;
-            this.label_BuChang_4.Location = new System.Drawing.Point(1119, 752);
+            this.label_BuChang_4.ForeColor = System.Drawing.Color.White;
+            this.label_BuChang_4.Location = new System.Drawing.Point(1118, 797);
             this.label_BuChang_4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_BuChang_4.Name = "label_BuChang_4";
             this.label_BuChang_4.Size = new System.Drawing.Size(60, 19);
@@ -2044,10 +2017,10 @@
             // 
             // label_BuChang_3
             // 
-            this.label_BuChang_3.BackColor = System.Drawing.Color.DarkGray;
+            this.label_BuChang_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label_BuChang_3.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_BuChang_3.ForeColor = System.Drawing.Color.Red;
-            this.label_BuChang_3.Location = new System.Drawing.Point(1024, 752);
+            this.label_BuChang_3.ForeColor = System.Drawing.Color.White;
+            this.label_BuChang_3.Location = new System.Drawing.Point(1022, 797);
             this.label_BuChang_3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_BuChang_3.Name = "label_BuChang_3";
             this.label_BuChang_3.Size = new System.Drawing.Size(60, 19);
@@ -2057,10 +2030,10 @@
             // 
             // label_BuChang_2
             // 
-            this.label_BuChang_2.BackColor = System.Drawing.Color.DarkGray;
+            this.label_BuChang_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label_BuChang_2.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_BuChang_2.ForeColor = System.Drawing.Color.Red;
-            this.label_BuChang_2.Location = new System.Drawing.Point(928, 752);
+            this.label_BuChang_2.ForeColor = System.Drawing.Color.White;
+            this.label_BuChang_2.Location = new System.Drawing.Point(925, 797);
             this.label_BuChang_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_BuChang_2.Name = "label_BuChang_2";
             this.label_BuChang_2.Size = new System.Drawing.Size(60, 19);
@@ -2070,10 +2043,10 @@
             // 
             // label_BuChang_1
             // 
-            this.label_BuChang_1.BackColor = System.Drawing.Color.DarkGray;
+            this.label_BuChang_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label_BuChang_1.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_BuChang_1.ForeColor = System.Drawing.Color.Red;
-            this.label_BuChang_1.Location = new System.Drawing.Point(830, 750);
+            this.label_BuChang_1.ForeColor = System.Drawing.Color.White;
+            this.label_BuChang_1.Location = new System.Drawing.Point(829, 797);
             this.label_BuChang_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_BuChang_1.Name = "label_BuChang_1";
             this.label_BuChang_1.Size = new System.Drawing.Size(60, 19);
@@ -2377,7 +2350,7 @@
             // 
             // groupBox41
             // 
-            this.groupBox41.Controls.Add(this.gaugeControl4);
+            this.groupBox41.Controls.Add(this.axBeauGaugeCtrl10);
             this.groupBox41.Controls.Add(this.label238);
             this.groupBox41.Controls.Add(this.numericUpDown_DiCiJiaJiaoSet);
             this.groupBox41.Controls.Add(this.btn_DiCiJiaJiaoSet);
@@ -2393,84 +2366,6 @@
             this.groupBox41.TabStop = false;
             this.groupBox41.Text = "自动定向";
             this.groupBox41.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint);
-            // 
-            // gaugeControl4
-            // 
-            gaugeCircularScale7.MajorTickMarks.Interval = 30D;
-            gaugeCircularScale7.MaxPin.Name = "MaxPin";
-            gaugeCircularScale7.MaxValue = 360D;
-            gaugeCircularScale7.MinorTickMarks.Interval = 6D;
-            gaugeCircularScale7.MinPin.Name = "MinPin";
-            gaugeCircularScale7.Name = "Scale1";
-            gaugePointer22.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer22.CapFillColor.BorderWidth = 1;
-            gaugePointer22.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer22.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer22.DampeningSweepTime = 0.0001D;
-            gaugePointer22.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer22.FillColor.BorderWidth = 1;
-            gaugePointer22.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer22.FillColor.Color2 = System.Drawing.Color.Red;
-            gaugePointer22.Length = 0.358F;
-            gaugePointer22.Name = "Pointer1";
-            gaugePointer22.Style = DevComponents.Instrumentation.PointerStyle.Needle;
-            gaugePointer22.Value = 0D;
-            gaugeCircularScale7.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer22});
-            gaugeCircularScale7.Radius = 0.45F;
-            gaugeSection7.FillColor.Color1 = System.Drawing.Color.CornflowerBlue;
-            gaugeSection7.FillColor.Color2 = System.Drawing.Color.Purple;
-            gaugeSection7.Name = "Section1";
-            gaugeCircularScale7.Sections.AddRange(new DevComponents.Instrumentation.GaugeSection[] {
-            gaugeSection7});
-            gaugeCircularScale7.StartAngle = 90F;
-            gaugeCircularScale7.SweepAngle = 360F;
-            gaugeCircularScale8.Labels.Layout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            gaugeCircularScale8.MajorTickMarks.Interval = 30D;
-            gaugeCircularScale8.MaxPin.Name = "MaxPin";
-            gaugeCircularScale8.MaxValue = 360D;
-            gaugeCircularScale8.MinorTickMarks.Interval = 6D;
-            gaugeCircularScale8.MinPin.Name = "MinPin";
-            gaugeCircularScale8.Name = "Scale2";
-            gaugePointer23.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer23.CapFillColor.BorderWidth = 1;
-            gaugePointer23.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer23.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer23.DampeningSweepTime = 0.0001D;
-            gaugePointer23.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer23.FillColor.BorderWidth = 1;
-            gaugePointer23.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer23.FillColor.Color2 = System.Drawing.Color.Green;
-            gaugePointer23.Length = 0.358F;
-            gaugePointer23.Name = "Pointer2";
-            gaugePointer23.Style = DevComponents.Instrumentation.PointerStyle.Needle;
-            gaugePointer23.Value = 0D;
-            gaugeCircularScale8.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer23});
-            gaugeCircularScale8.Radius = 0.45F;
-            gaugeSection8.FillColor.Color1 = System.Drawing.Color.CornflowerBlue;
-            gaugeSection8.FillColor.Color2 = System.Drawing.Color.Purple;
-            gaugeSection8.Name = "Section1";
-            gaugeCircularScale8.Sections.AddRange(new DevComponents.Instrumentation.GaugeSection[] {
-            gaugeSection8});
-            gaugeCircularScale8.StartAngle = 90F;
-            gaugeCircularScale8.SweepAngle = 360F;
-            this.gaugeControl4.CircularScales.AddRange(new DevComponents.Instrumentation.GaugeCircularScale[] {
-            gaugeCircularScale7,
-            gaugeCircularScale8});
-            this.gaugeControl4.ForeColor = System.Drawing.SystemColors.Control;
-            gradientFillColor37.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor37.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl4.Frame.BackColor = gradientFillColor37;
-            gradientFillColor38.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor38.BorderWidth = 1;
-            gradientFillColor38.Color1 = System.Drawing.Color.White;
-            gradientFillColor38.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl4.Frame.FrameColor = gradientFillColor38;
-            this.gaugeControl4.Location = new System.Drawing.Point(301, 14);
-            this.gaugeControl4.Name = "gaugeControl4";
-            this.gaugeControl4.Size = new System.Drawing.Size(115, 115);
-            this.gaugeControl4.TabIndex = 152;
             // 
             // label238
             // 
@@ -3198,282 +3093,6 @@
             this.label225.Size = new System.Drawing.Size(93, 16);
             this.label225.TabIndex = 179;
             this.label225.Text = "阀箱补偿器";
-            // 
-            // gaugeControl_YouXiang
-            // 
-            this.gaugeControl_YouXiang.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            gradientFillColor39.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor39.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl_YouXiang.Frame.BackColor = gradientFillColor39;
-            gradientFillColor40.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor40.BorderWidth = 1;
-            gradientFillColor40.Color1 = System.Drawing.Color.White;
-            gradientFillColor40.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl_YouXiang.Frame.FrameColor = gradientFillColor40;
-            this.gaugeControl_YouXiang.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Rectangular;
-            gaugeLinearScale16.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale16.Location")));
-            gaugeLinearScale16.MajorTickMarks.Interval = 2D;
-            gaugeLinearScale16.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale16.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
-            gaugeLinearScale16.MajorTickMarks.Layout.Width = 0.044F;
-            gaugeLinearScale16.MaxPin.Name = "MaxPin";
-            gaugeLinearScale16.MaxPin.Visible = false;
-            gaugeLinearScale16.MaxValue = 10D;
-            gaugeLinearScale16.MinorTickMarks.Interval = 0.4D;
-            gaugeLinearScale16.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale16.MinorTickMarks.Layout.Width = 0.025F;
-            gaugeLinearScale16.MinPin.Name = "MinPin";
-            gaugeLinearScale16.MinPin.Visible = false;
-            gaugeLinearScale16.Name = "Scale1";
-            gaugeLinearScale16.Orientation = System.Windows.Forms.Orientation.Vertical;
-            gaugePointer24.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
-            gaugePointer24.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer24.CapFillColor.BorderWidth = 1;
-            gaugePointer24.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer24.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer24.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer24.FillColor.BorderWidth = 1;
-            gaugePointer24.FillColor.Color1 = System.Drawing.Color.Green;
-            gaugePointer24.Name = "Pointer1";
-            gaugePointer24.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
-            gaugePointer24.ScaleOffset = 0.022F;
-            gaugePointer24.Style = DevComponents.Instrumentation.PointerStyle.Bar;
-            gaugePointer24.Tooltip = "";
-            gaugePointer24.Value = 1D;
-            gaugePointer24.Width = 0.12F;
-            gaugeLinearScale16.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer24});
-            gaugeLinearScale16.Reversed = true;
-            gaugeLinearScale16.Size = new System.Drawing.SizeF(1.3F, 0.7F);
-            gaugeLinearScale16.Width = 0F;
-            this.gaugeControl_YouXiang.LinearScales.AddRange(new DevComponents.Instrumentation.GaugeLinearScale[] {
-            gaugeLinearScale16});
-            this.gaugeControl_YouXiang.Location = new System.Drawing.Point(1198, 578);
-            this.gaugeControl_YouXiang.Margin = new System.Windows.Forms.Padding(2);
-            this.gaugeControl_YouXiang.Name = "gaugeControl_YouXiang";
-            this.gaugeControl_YouXiang.Size = new System.Drawing.Size(80, 200);
-            this.gaugeControl_YouXiang.TabIndex = 178;
-            this.gaugeControl_YouXiang.Text = "gaugeControl7";
-            // 
-            // gaugeControl_BuChang_4
-            // 
-            this.gaugeControl_BuChang_4.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            gradientFillColor41.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor41.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl_BuChang_4.Frame.BackColor = gradientFillColor41;
-            gradientFillColor42.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor42.BorderWidth = 1;
-            gradientFillColor42.Color1 = System.Drawing.Color.White;
-            gradientFillColor42.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl_BuChang_4.Frame.FrameColor = gradientFillColor42;
-            this.gaugeControl_BuChang_4.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Rectangular;
-            gaugeLinearScale17.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale17.Location")));
-            gaugeLinearScale17.MajorTickMarks.Interval = 0.5D;
-            gaugeLinearScale17.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale17.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
-            gaugeLinearScale17.MajorTickMarks.Layout.Width = 0.044F;
-            gaugeLinearScale17.MaxPin.Name = "MaxPin";
-            gaugeLinearScale17.MaxPin.Visible = false;
-            gaugeLinearScale17.MaxValue = 2.5D;
-            gaugeLinearScale17.MinorTickMarks.Interval = 0.1D;
-            gaugeLinearScale17.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale17.MinorTickMarks.Layout.Width = 0.025F;
-            gaugeLinearScale17.MinPin.Name = "MinPin";
-            gaugeLinearScale17.MinPin.Visible = false;
-            gaugeLinearScale17.Name = "Scale1";
-            gaugeLinearScale17.Orientation = System.Windows.Forms.Orientation.Vertical;
-            gaugePointer25.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
-            gaugePointer25.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer25.CapFillColor.BorderWidth = 1;
-            gaugePointer25.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer25.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer25.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer25.FillColor.BorderWidth = 1;
-            gaugePointer25.FillColor.Color1 = System.Drawing.Color.Green;
-            gaugePointer25.Name = "Pointer1";
-            gaugePointer25.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
-            gaugePointer25.ScaleOffset = 0.022F;
-            gaugePointer25.Style = DevComponents.Instrumentation.PointerStyle.Bar;
-            gaugePointer25.Value = 1D;
-            gaugePointer25.Width = 0.12F;
-            gaugeLinearScale17.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer25});
-            gaugeLinearScale17.Reversed = true;
-            gaugeLinearScale17.Size = new System.Drawing.SizeF(1.3F, 0.7F);
-            gaugeLinearScale17.Width = 0F;
-            this.gaugeControl_BuChang_4.LinearScales.AddRange(new DevComponents.Instrumentation.GaugeLinearScale[] {
-            gaugeLinearScale17});
-            this.gaugeControl_BuChang_4.Location = new System.Drawing.Point(1109, 578);
-            this.gaugeControl_BuChang_4.Margin = new System.Windows.Forms.Padding(2);
-            this.gaugeControl_BuChang_4.Name = "gaugeControl_BuChang_4";
-            this.gaugeControl_BuChang_4.Size = new System.Drawing.Size(80, 200);
-            this.gaugeControl_BuChang_4.TabIndex = 177;
-            this.gaugeControl_BuChang_4.Text = "gaugeControl6";
-            // 
-            // gaugeControl_BuChang_3
-            // 
-            this.gaugeControl_BuChang_3.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            gradientFillColor43.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor43.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl_BuChang_3.Frame.BackColor = gradientFillColor43;
-            gradientFillColor44.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor44.BorderWidth = 1;
-            gradientFillColor44.Color1 = System.Drawing.Color.White;
-            gradientFillColor44.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl_BuChang_3.Frame.FrameColor = gradientFillColor44;
-            this.gaugeControl_BuChang_3.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Rectangular;
-            gaugeLinearScale18.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale18.Location")));
-            gaugeLinearScale18.MajorTickMarks.Interval = 0.5D;
-            gaugeLinearScale18.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale18.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
-            gaugeLinearScale18.MajorTickMarks.Layout.Width = 0.044F;
-            gaugeLinearScale18.MaxPin.Name = "MaxPin";
-            gaugeLinearScale18.MaxPin.Visible = false;
-            gaugeLinearScale18.MaxValue = 2.5D;
-            gaugeLinearScale18.MinorTickMarks.Interval = 0.1D;
-            gaugeLinearScale18.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale18.MinorTickMarks.Layout.Width = 0.025F;
-            gaugeLinearScale18.MinPin.Name = "MinPin";
-            gaugeLinearScale18.MinPin.Visible = false;
-            gaugeLinearScale18.Name = "Scale1";
-            gaugeLinearScale18.Orientation = System.Windows.Forms.Orientation.Vertical;
-            gaugePointer26.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
-            gaugePointer26.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer26.CapFillColor.BorderWidth = 1;
-            gaugePointer26.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer26.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer26.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer26.FillColor.BorderWidth = 1;
-            gaugePointer26.FillColor.Color1 = System.Drawing.Color.Green;
-            gaugePointer26.Name = "Pointer1";
-            gaugePointer26.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
-            gaugePointer26.ScaleOffset = 0.022F;
-            gaugePointer26.Style = DevComponents.Instrumentation.PointerStyle.Bar;
-            gaugePointer26.Value = 1D;
-            gaugePointer26.Width = 0.12F;
-            gaugeLinearScale18.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer26});
-            gaugeLinearScale18.Reversed = true;
-            gaugeLinearScale18.Size = new System.Drawing.SizeF(1.3F, 0.7F);
-            gaugeLinearScale18.Width = 0F;
-            this.gaugeControl_BuChang_3.LinearScales.AddRange(new DevComponents.Instrumentation.GaugeLinearScale[] {
-            gaugeLinearScale18});
-            this.gaugeControl_BuChang_3.Location = new System.Drawing.Point(1014, 578);
-            this.gaugeControl_BuChang_3.Margin = new System.Windows.Forms.Padding(2);
-            this.gaugeControl_BuChang_3.Name = "gaugeControl_BuChang_3";
-            this.gaugeControl_BuChang_3.Size = new System.Drawing.Size(80, 200);
-            this.gaugeControl_BuChang_3.TabIndex = 176;
-            this.gaugeControl_BuChang_3.Text = "gaugeControl5";
-            // 
-            // gaugeControl_BuChang_2
-            // 
-            this.gaugeControl_BuChang_2.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            gradientFillColor45.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor45.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl_BuChang_2.Frame.BackColor = gradientFillColor45;
-            gradientFillColor46.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor46.BorderWidth = 1;
-            gradientFillColor46.Color1 = System.Drawing.Color.White;
-            gradientFillColor46.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl_BuChang_2.Frame.FrameColor = gradientFillColor46;
-            this.gaugeControl_BuChang_2.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Rectangular;
-            gaugeLinearScale19.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale19.Location")));
-            gaugeLinearScale19.MajorTickMarks.Interval = 0.5D;
-            gaugeLinearScale19.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale19.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
-            gaugeLinearScale19.MajorTickMarks.Layout.Width = 0.044F;
-            gaugeLinearScale19.MaxPin.Name = "MaxPin";
-            gaugeLinearScale19.MaxPin.Visible = false;
-            gaugeLinearScale19.MaxValue = 2.5D;
-            gaugeLinearScale19.MinorTickMarks.Interval = 0.1D;
-            gaugeLinearScale19.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale19.MinorTickMarks.Layout.Width = 0.025F;
-            gaugeLinearScale19.MinPin.Name = "MinPin";
-            gaugeLinearScale19.MinPin.Visible = false;
-            gaugeLinearScale19.Name = "Scale1";
-            gaugeLinearScale19.Orientation = System.Windows.Forms.Orientation.Vertical;
-            gaugePointer27.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
-            gaugePointer27.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer27.CapFillColor.BorderWidth = 1;
-            gaugePointer27.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer27.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer27.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer27.FillColor.BorderWidth = 1;
-            gaugePointer27.FillColor.Color1 = System.Drawing.Color.Green;
-            gaugePointer27.Name = "Pointer1";
-            gaugePointer27.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
-            gaugePointer27.ScaleOffset = 0.022F;
-            gaugePointer27.Style = DevComponents.Instrumentation.PointerStyle.Bar;
-            gaugePointer27.Value = 1D;
-            gaugePointer27.Width = 0.12F;
-            gaugeLinearScale19.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer27});
-            gaugeLinearScale19.Reversed = true;
-            gaugeLinearScale19.Size = new System.Drawing.SizeF(1.3F, 0.7F);
-            gaugeLinearScale19.Width = 0F;
-            this.gaugeControl_BuChang_2.LinearScales.AddRange(new DevComponents.Instrumentation.GaugeLinearScale[] {
-            gaugeLinearScale19});
-            this.gaugeControl_BuChang_2.Location = new System.Drawing.Point(917, 578);
-            this.gaugeControl_BuChang_2.Margin = new System.Windows.Forms.Padding(2);
-            this.gaugeControl_BuChang_2.Name = "gaugeControl_BuChang_2";
-            this.gaugeControl_BuChang_2.Size = new System.Drawing.Size(80, 200);
-            this.gaugeControl_BuChang_2.TabIndex = 175;
-            this.gaugeControl_BuChang_2.Text = "gaugeControl3";
-            // 
-            // gaugeControl_BuChang_1
-            // 
-            this.gaugeControl_BuChang_1.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            gradientFillColor47.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor47.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl_BuChang_1.Frame.BackColor = gradientFillColor47;
-            gradientFillColor48.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor48.BorderWidth = 1;
-            gradientFillColor48.Color1 = System.Drawing.Color.White;
-            gradientFillColor48.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl_BuChang_1.Frame.FrameColor = gradientFillColor48;
-            this.gaugeControl_BuChang_1.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Rectangular;
-            gaugeLinearScale20.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale20.Location")));
-            gaugeLinearScale20.MajorTickMarks.Interval = 0.5D;
-            gaugeLinearScale20.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale20.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
-            gaugeLinearScale20.MajorTickMarks.Layout.Width = 0.044F;
-            gaugeLinearScale20.MaxPin.Name = "MaxPin";
-            gaugeLinearScale20.MaxPin.Visible = false;
-            gaugeLinearScale20.MaxValue = 2.5D;
-            gaugeLinearScale20.MinorTickMarks.Interval = 0.1D;
-            gaugeLinearScale20.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale20.MinorTickMarks.Layout.Width = 0.025F;
-            gaugeLinearScale20.MinPin.Name = "MinPin";
-            gaugeLinearScale20.MinPin.Visible = false;
-            gaugeLinearScale20.Name = "Scale1";
-            gaugeLinearScale20.Orientation = System.Windows.Forms.Orientation.Vertical;
-            gaugePointer28.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
-            gaugePointer28.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer28.CapFillColor.BorderWidth = 1;
-            gaugePointer28.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer28.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer28.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer28.FillColor.BorderWidth = 1;
-            gaugePointer28.FillColor.Color1 = System.Drawing.Color.Green;
-            gaugePointer28.Name = "Pointer1";
-            gaugePointer28.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
-            gaugePointer28.ScaleOffset = 0.022F;
-            gaugePointer28.Style = DevComponents.Instrumentation.PointerStyle.Bar;
-            gaugePointer28.Value = 1D;
-            gaugePointer28.Width = 0.12F;
-            gaugeLinearScale20.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer28});
-            gaugeLinearScale20.Reversed = true;
-            gaugeLinearScale20.Size = new System.Drawing.SizeF(1.3F, 0.7F);
-            gaugeLinearScale20.Width = 0F;
-            this.gaugeControl_BuChang_1.LinearScales.AddRange(new DevComponents.Instrumentation.GaugeLinearScale[] {
-            gaugeLinearScale20});
-            this.gaugeControl_BuChang_1.Location = new System.Drawing.Point(820, 578);
-            this.gaugeControl_BuChang_1.Margin = new System.Windows.Forms.Padding(2);
-            this.gaugeControl_BuChang_1.Name = "gaugeControl_BuChang_1";
-            this.gaugeControl_BuChang_1.Size = new System.Drawing.Size(80, 200);
-            this.gaugeControl_BuChang_1.TabIndex = 174;
-            this.gaugeControl_BuChang_1.Text = "gaugeControl4";
             // 
             // GroupBox_CtlBtns
             // 
@@ -4806,7 +4425,7 @@
             // 
             // groupBox_SoftRuningInfo
             // 
-            this.groupBox_SoftRuningInfo.Controls.Add(this.Ch1WorkLight);
+            this.groupBox_SoftRuningInfo.Controls.Add(this.axBeauGaugeCtrl9);
             this.groupBox_SoftRuningInfo.Controls.Add(this.richTextBox_InfoShow);
             this.groupBox_SoftRuningInfo.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
             this.groupBox_SoftRuningInfo.ForeColor = System.Drawing.SystemColors.Control;
@@ -4820,24 +4439,17 @@
             this.groupBox_SoftRuningInfo.Text = "运行状态";
             this.groupBox_SoftRuningInfo.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint_2);
             // 
-            // Ch1WorkLight
-            // 
-            this.Ch1WorkLight.Enabled = true;
-            this.Ch1WorkLight.Location = new System.Drawing.Point(302, 27);
-            this.Ch1WorkLight.Name = "Ch1WorkLight";
-            this.Ch1WorkLight.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Ch1WorkLight.OcxState")));
-            this.Ch1WorkLight.Size = new System.Drawing.Size(34, 25);
-            this.Ch1WorkLight.TabIndex = 207;
-            // 
             // richTextBox_InfoShow
             // 
             this.richTextBox_InfoShow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.richTextBox_InfoShow.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox_InfoShow.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.richTextBox_InfoShow.ForeColor = System.Drawing.SystemColors.Info;
+            this.richTextBox_InfoShow.HideSelection = false;
             this.richTextBox_InfoShow.Location = new System.Drawing.Point(2, 23);
             this.richTextBox_InfoShow.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox_InfoShow.Name = "richTextBox_InfoShow";
+            this.richTextBox_InfoShow.ReadOnly = true;
             this.richTextBox_InfoShow.Size = new System.Drawing.Size(337, 350);
             this.richTextBox_InfoShow.TabIndex = 0;
             this.richTextBox_InfoShow.Text = "";
@@ -5409,7 +5021,7 @@
             // Light_Fun8_DIN1
             // 
             this.Light_Fun8_DIN1.Enabled = true;
-            this.Light_Fun8_DIN1.Location = new System.Drawing.Point(623, 54);
+            this.Light_Fun8_DIN1.Location = new System.Drawing.Point(623, 55);
             this.Light_Fun8_DIN1.Name = "Light_Fun8_DIN1";
             this.Light_Fun8_DIN1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun8_DIN1.OcxState")));
             this.Light_Fun8_DIN1.Size = new System.Drawing.Size(27, 29);
@@ -5418,7 +5030,7 @@
             // Light_Fun8_DIN2
             // 
             this.Light_Fun8_DIN2.Enabled = true;
-            this.Light_Fun8_DIN2.Location = new System.Drawing.Point(575, 55);
+            this.Light_Fun8_DIN2.Location = new System.Drawing.Point(570, 55);
             this.Light_Fun8_DIN2.Name = "Light_Fun8_DIN2";
             this.Light_Fun8_DIN2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun8_DIN2.OcxState")));
             this.Light_Fun8_DIN2.Size = new System.Drawing.Size(27, 29);
@@ -5427,7 +5039,7 @@
             // Light_Fun8_DIN3
             // 
             this.Light_Fun8_DIN3.Enabled = true;
-            this.Light_Fun8_DIN3.Location = new System.Drawing.Point(520, 54);
+            this.Light_Fun8_DIN3.Location = new System.Drawing.Point(518, 55);
             this.Light_Fun8_DIN3.Name = "Light_Fun8_DIN3";
             this.Light_Fun8_DIN3.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun8_DIN3.OcxState")));
             this.Light_Fun8_DIN3.Size = new System.Drawing.Size(27, 29);
@@ -5436,7 +5048,7 @@
             // Light_Fun8_DIN4
             // 
             this.Light_Fun8_DIN4.Enabled = true;
-            this.Light_Fun8_DIN4.Location = new System.Drawing.Point(468, 54);
+            this.Light_Fun8_DIN4.Location = new System.Drawing.Point(465, 55);
             this.Light_Fun8_DIN4.Name = "Light_Fun8_DIN4";
             this.Light_Fun8_DIN4.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun8_DIN4.OcxState")));
             this.Light_Fun8_DIN4.Size = new System.Drawing.Size(27, 29);
@@ -5445,7 +5057,7 @@
             // Light_Fun8_DIN5
             // 
             this.Light_Fun8_DIN5.Enabled = true;
-            this.Light_Fun8_DIN5.Location = new System.Drawing.Point(416, 54);
+            this.Light_Fun8_DIN5.Location = new System.Drawing.Point(414, 55);
             this.Light_Fun8_DIN5.Name = "Light_Fun8_DIN5";
             this.Light_Fun8_DIN5.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun8_DIN5.OcxState")));
             this.Light_Fun8_DIN5.Size = new System.Drawing.Size(27, 29);
@@ -5454,7 +5066,7 @@
             // Light_Fun8_DIN6
             // 
             this.Light_Fun8_DIN6.Enabled = true;
-            this.Light_Fun8_DIN6.Location = new System.Drawing.Point(364, 55);
+            this.Light_Fun8_DIN6.Location = new System.Drawing.Point(359, 55);
             this.Light_Fun8_DIN6.Name = "Light_Fun8_DIN6";
             this.Light_Fun8_DIN6.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun8_DIN6.OcxState")));
             this.Light_Fun8_DIN6.Size = new System.Drawing.Size(27, 29);
@@ -5463,7 +5075,7 @@
             // Light_Fun8_DIN7
             // 
             this.Light_Fun8_DIN7.Enabled = true;
-            this.Light_Fun8_DIN7.Location = new System.Drawing.Point(313, 54);
+            this.Light_Fun8_DIN7.Location = new System.Drawing.Point(309, 55);
             this.Light_Fun8_DIN7.Name = "Light_Fun8_DIN7";
             this.Light_Fun8_DIN7.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun8_DIN7.OcxState")));
             this.Light_Fun8_DIN7.Size = new System.Drawing.Size(27, 29);
@@ -5472,7 +5084,7 @@
             // Light_Fun8_DIN8
             // 
             this.Light_Fun8_DIN8.Enabled = true;
-            this.Light_Fun8_DIN8.Location = new System.Drawing.Point(260, 54);
+            this.Light_Fun8_DIN8.Location = new System.Drawing.Point(260, 55);
             this.Light_Fun8_DIN8.Name = "Light_Fun8_DIN8";
             this.Light_Fun8_DIN8.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun8_DIN8.OcxState")));
             this.Light_Fun8_DIN8.Size = new System.Drawing.Size(27, 29);
@@ -5732,7 +5344,6 @@
             // 
             // groupBox18
             // 
-            this.groupBox18.Controls.Add(this.GroupBox_MainCtl);
             this.groupBox18.Controls.Add(this.textBox_AI20);
             this.groupBox18.Controls.Add(this.textBox_Fun8_BadCRCS);
             this.groupBox18.Controls.Add(this.label109);
@@ -8252,14 +7863,14 @@
             this.DataGridView_SysAlarmInfo.Name = "DataGridView_SysAlarmInfo";
             this.DataGridView_SysAlarmInfo.ReadOnly = true;
             this.DataGridView_SysAlarmInfo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGridView_SysAlarmInfo.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridView_SysAlarmInfo.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.DataGridView_SysAlarmInfo.RowHeadersVisible = false;
             this.DataGridView_SysAlarmInfo.RowHeadersWidth = 51;
             this.DataGridView_SysAlarmInfo.RowTemplate.Height = 27;
@@ -8269,10 +7880,10 @@
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle1;
             this.Column1.HeaderText = "";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
@@ -11533,6 +11144,69 @@
             this.timer_Communication.Interval = 7000;
             this.timer_Communication.Tick += new System.EventHandler(this.timer_Communication_Tick);
             // 
+            // axBeauGaugeCtrl9
+            // 
+            this.axBeauGaugeCtrl9.Enabled = true;
+            this.axBeauGaugeCtrl9.Location = new System.Drawing.Point(208, -3);
+            this.axBeauGaugeCtrl9.Name = "axBeauGaugeCtrl9";
+            this.axBeauGaugeCtrl9.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl9.OcxState")));
+            this.axBeauGaugeCtrl9.Size = new System.Drawing.Size(34, 25);
+            this.axBeauGaugeCtrl9.TabIndex = 208;
+            // 
+            // axBeauGaugeCtrl0
+            // 
+            this.axBeauGaugeCtrl0.Enabled = true;
+            this.axBeauGaugeCtrl0.Location = new System.Drawing.Point(820, 580);
+            this.axBeauGaugeCtrl0.Name = "axBeauGaugeCtrl0";
+            this.axBeauGaugeCtrl0.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl0.OcxState")));
+            this.axBeauGaugeCtrl0.Size = new System.Drawing.Size(80, 200);
+            this.axBeauGaugeCtrl0.TabIndex = 211;
+            // 
+            // axBeauGaugeCtrl1
+            // 
+            this.axBeauGaugeCtrl1.Enabled = true;
+            this.axBeauGaugeCtrl1.Location = new System.Drawing.Point(915, 580);
+            this.axBeauGaugeCtrl1.Name = "axBeauGaugeCtrl1";
+            this.axBeauGaugeCtrl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl1.OcxState")));
+            this.axBeauGaugeCtrl1.Size = new System.Drawing.Size(80, 200);
+            this.axBeauGaugeCtrl1.TabIndex = 212;
+            // 
+            // axBeauGaugeCtrl2
+            // 
+            this.axBeauGaugeCtrl2.Enabled = true;
+            this.axBeauGaugeCtrl2.Location = new System.Drawing.Point(1010, 580);
+            this.axBeauGaugeCtrl2.Name = "axBeauGaugeCtrl2";
+            this.axBeauGaugeCtrl2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl2.OcxState")));
+            this.axBeauGaugeCtrl2.Size = new System.Drawing.Size(80, 200);
+            this.axBeauGaugeCtrl2.TabIndex = 213;
+            // 
+            // axBeauGaugeCtrl3
+            // 
+            this.axBeauGaugeCtrl3.Enabled = true;
+            this.axBeauGaugeCtrl3.Location = new System.Drawing.Point(1105, 580);
+            this.axBeauGaugeCtrl3.Name = "axBeauGaugeCtrl3";
+            this.axBeauGaugeCtrl3.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl3.OcxState")));
+            this.axBeauGaugeCtrl3.Size = new System.Drawing.Size(80, 200);
+            this.axBeauGaugeCtrl3.TabIndex = 214;
+            // 
+            // axBeauGaugeCtrl4
+            // 
+            this.axBeauGaugeCtrl4.Enabled = true;
+            this.axBeauGaugeCtrl4.Location = new System.Drawing.Point(1195, 580);
+            this.axBeauGaugeCtrl4.Name = "axBeauGaugeCtrl4";
+            this.axBeauGaugeCtrl4.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl4.OcxState")));
+            this.axBeauGaugeCtrl4.Size = new System.Drawing.Size(80, 200);
+            this.axBeauGaugeCtrl4.TabIndex = 215;
+            // 
+            // axBeauGaugeCtrl10
+            // 
+            this.axBeauGaugeCtrl10.Enabled = true;
+            this.axBeauGaugeCtrl10.Location = new System.Drawing.Point(302, 12);
+            this.axBeauGaugeCtrl10.Name = "axBeauGaugeCtrl10";
+            this.axBeauGaugeCtrl10.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl10.OcxState")));
+            this.axBeauGaugeCtrl10.Size = new System.Drawing.Size(115, 115);
+            this.axBeauGaugeCtrl10.TabIndex = 166;
+            // 
             // FormMainUserA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -11574,7 +11248,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.groupBox41.ResumeLayout(false);
             this.groupBox41.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_DiCiJiaJiaoSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_DiCiJiaJiaoSet)).EndInit();
             this.groupBox42.ResumeLayout(false);
@@ -11591,11 +11264,6 @@
             this.groupBox38.PerformLayout();
             this.groupBox_WaterCtlBox_BoardD_Ctl.ResumeLayout(false);
             this.groupBox_WaterCtlBox_BoardD_Ctl.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl_YouXiang)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl_BuChang_4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl_BuChang_3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl_BuChang_2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl_BuChang_1)).EndInit();
             this.GroupBox_CtlBtns.ResumeLayout(false);
             this.groupBox_JXS.ResumeLayout(false);
             this.groupBox_JXS.PerformLayout();
@@ -11613,7 +11281,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_Light_6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_Light_5)).EndInit();
             this.groupBox_SoftRuningInfo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Ch1WorkLight)).EndInit();
             this.groupBox49.ResumeLayout(false);
             this.groupBox49.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x61)).EndInit();
@@ -11740,6 +11407,13 @@
             this.groupBox23.PerformLayout();
             this.groupBox27.ResumeLayout(false);
             this.groupBox27.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl10)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -12339,7 +12013,6 @@
         private System.Windows.Forms.Button btn_AutoHigh_Stop;
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.GroupBox groupBox41;
-        private DevComponents.Instrumentation.GaugeControl gaugeControl4;
         private System.Windows.Forms.Label label238;
         private System.Windows.Forms.NumericUpDown numericUpDown_DiCiJiaJiaoSet;
         private System.Windows.Forms.Button btn_DiCiJiaJiaoSet;
@@ -12390,11 +12063,6 @@
         private System.Windows.Forms.ComboBox comboBox_WaterCtlBox_SerialPort;
         private System.Windows.Forms.Label label235;
         private System.Windows.Forms.Label label225;
-        private DevComponents.Instrumentation.GaugeControl gaugeControl_YouXiang;
-        private DevComponents.Instrumentation.GaugeControl gaugeControl_BuChang_4;
-        private DevComponents.Instrumentation.GaugeControl gaugeControl_BuChang_3;
-        private DevComponents.Instrumentation.GaugeControl gaugeControl_BuChang_2;
-        private DevComponents.Instrumentation.GaugeControl gaugeControl_BuChang_1;
         private System.Windows.Forms.GroupBox GroupBox_CtlBtns;
         private System.Windows.Forms.Button btn_FaBox_Space;
         private System.Windows.Forms.GroupBox groupBox_JXS;
@@ -12474,7 +12142,6 @@
         private System.Windows.Forms.GroupBox groupBox_SoftRuningInfo;
         public System.Windows.Forms.RichTextBox richTextBox_InfoShow;
         private GyroAngle.GyroAngle gyroAngle1;
-        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Ch1WorkLight;
         private System.Windows.Forms.Button button38;
         private System.Windows.Forms.Button button39;
         private System.Windows.Forms.TextBox textBox15;
@@ -12536,5 +12203,12 @@
         private System.Windows.Forms.Label label192;
         private System.Windows.Forms.Label label191;
         private System.Windows.Forms.Label label190;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl axBeauGaugeCtrl4;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl axBeauGaugeCtrl3;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl axBeauGaugeCtrl2;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl axBeauGaugeCtrl1;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl axBeauGaugeCtrl0;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl axBeauGaugeCtrl9;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl axBeauGaugeCtrl10;
     }
 }

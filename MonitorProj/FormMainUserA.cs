@@ -452,11 +452,16 @@ namespace MonitorProj
                 btn_Camera_7.Text = Global.sName_Camera_7;
                 btn_Camera_8.Text = Global.sName_Camera_8;
 
-                gaugeControl_BuChang_1.SetPointerValue("Pointer1", 0);
-                gaugeControl_BuChang_2.SetPointerValue("Pointer1", 0);
-                gaugeControl_BuChang_3.SetPointerValue("Pointer1", 0);
-                gaugeControl_BuChang_4.SetPointerValue("Pointer1", 0);
-                gaugeControl_YouXiang.SetPointerValue("Pointer1", 0);
+                axBeauGaugeCtrl0.SetValue("Pointer1", 0);
+                axBeauGaugeCtrl1.SetValue("Pointer1", 0);
+                axBeauGaugeCtrl2.SetValue("Pointer1", 0);
+                axBeauGaugeCtrl3.SetValue("Pointer1", 0);
+                axBeauGaugeCtrl4.SetValue("Pointer1", 0);
+                //gaugeControl_BuChang_1.SetPointerValue("Pointer1", 0);
+                //gaugeControl_BuChang_2.SetPointerValue("Pointer1", 0);
+                //gaugeControl_BuChang_3.SetPointerValue("Pointer1", 0);
+                //gaugeControl_BuChang_4.SetPointerValue("Pointer1", 0);
+                //gaugeControl_YouXiang.SetPointerValue("Pointer1", 0);
 
                 textBox_XuanFuJiZhun.Text = Global.TuiJinQiBuChang_XuanFu.ToString();
                 numericUpDown_FuQian.Value = Convert.ToDecimal(Global.TuiJinQiBuChang_XuanFu);
@@ -2264,85 +2269,100 @@ namespace MonitorProj
                         //补偿1
                         if (myStruct.CH3_3 >= 0 && myStruct.CH3_3 <= 2.5)
                         {
-                            gaugeControl_BuChang_1.SetPointerValue("Pointer1", myStruct.CH3_3);
+                            axBeauGaugeCtrl0.SetValue("Pointer1", myStruct.CH3_3);
+                            //gaugeControl_BuChang_1.SetPointerValue("Pointer1", myStruct.CH3_3);
                             label_BuChang_1.Text = Math.Round(myStruct.CH3_3, 2).ToString();
                         }
                         else if (myStruct.CH3_3 < 0)
                         {
-                            gaugeControl_BuChang_1.SetPointerValue("Pointer1", 0);
+                            axBeauGaugeCtrl0.SetValue("Pointer1", 0);
+                            //gaugeControl_BuChang_1.SetPointerValue("Pointer1", 0);
                             label_BuChang_1.Text = "0";
                         }
                         else if (myStruct.CH3_3 > 2.5)
                         {
-                            gaugeControl_BuChang_1.SetPointerValue("Pointer1", 2.5);
+                            axBeauGaugeCtrl0.SetValue("Pointer1", 2.5);
+                            //gaugeControl_BuChang_1.SetPointerValue("Pointer1", 2.5);
                             label_BuChang_1.Text = "2.5";
                         }
 
                         //补偿2
                         if (myStruct.CH3_4 >= 0 && myStruct.CH3_4 <= 2.5)
                         {
-                            gaugeControl_BuChang_2.SetPointerValue("Pointer1", myStruct.CH3_4);
+                            axBeauGaugeCtrl1.SetValue("Pointer1", myStruct.CH3_4);
+                            //gaugeControl_BuChang_2.SetPointerValue("Pointer1", myStruct.CH3_4);
                             label_BuChang_2.Text = Math.Round(myStruct.CH3_4, 2).ToString();
                         }
                         else if (myStruct.CH3_4 < 0)
                         {
-                            gaugeControl_BuChang_2.SetPointerValue("Pointer1", 0);
+                            axBeauGaugeCtrl1.SetValue("Pointer1", 0);
+                            //gaugeControl_BuChang_2.SetPointerValue("Pointer1", 0);
                             label_BuChang_2.Text = "0";
                         }
                         else if (myStruct.CH3_4 > 2.5)
                         {
-                            gaugeControl_BuChang_2.SetPointerValue("Pointer1", 2.5);
+                            axBeauGaugeCtrl1.SetValue("Pointer1", 2.5);
+                            //gaugeControl_BuChang_2.SetPointerValue("Pointer1", 2.5);
                             label_BuChang_2.Text = "2.5";
                         }
 
                         //补偿3
                         if (myStruct.CH4_1 >= 0 && myStruct.CH4_1 <= 2.5)
                         {
-                            gaugeControl_BuChang_3.SetPointerValue("Pointer1", myStruct.CH4_1);
+                            axBeauGaugeCtrl2.SetValue("Pointer1", myStruct.CH4_1);
+                            //gaugeControl_BuChang_3.SetPointerValue("Pointer1", myStruct.CH4_1);
                             label_BuChang_3.Text = Math.Round(myStruct.CH4_1, 2).ToString();
                         }
                         else if (myStruct.CH4_1 < 0)
                         {
-                            gaugeControl_BuChang_3.SetPointerValue("Pointer1", 0);
+                            axBeauGaugeCtrl2.SetValue("Pointer1", 0);
+                            //gaugeControl_BuChang_3.SetPointerValue("Pointer1", 0);
                             label_BuChang_3.Text = "0";
                         }
                         else if (myStruct.CH4_1 > 2.5)
                         {
-                            gaugeControl_BuChang_3.SetPointerValue("Pointer1", 2.5);
+                            axBeauGaugeCtrl2.SetValue("Pointer1", 2.5);
+                            //gaugeControl_BuChang_3.SetPointerValue("Pointer1", 2.5);
                             label_BuChang_3.Text = "2.5";
                         }
 
                         //补偿4
                         if (myStruct.CH4_2 >= 0 && myStruct.CH4_2 <= 2.5)
                         {
-                            gaugeControl_BuChang_4.SetPointerValue("Pointer1", myStruct.CH4_2);
+                            axBeauGaugeCtrl3.SetValue("Pointer1", myStruct.CH4_2);
+                            //gaugeControl_BuChang_4.SetPointerValue("Pointer1", myStruct.CH4_2);
                             label_BuChang_4.Text = Math.Round(myStruct.CH4_2, 2).ToString();
                         }
                         else if (myStruct.CH4_2 < 0)
                         {
-                            gaugeControl_BuChang_4.SetPointerValue("Pointer1", 0);
+                            axBeauGaugeCtrl3.SetValue("Pointer1", 0);
+                            //gaugeControl_BuChang_4.SetPointerValue("Pointer1", 0);
                             label_BuChang_4.Text = "0";
                         }
                         else if (myStruct.CH4_2 > 2.5)
                         {
-                            gaugeControl_BuChang_4.SetPointerValue("Pointer1", 2.5);
+                            axBeauGaugeCtrl3.SetValue("Pointer1", 2.5);
+                            //gaugeControl_BuChang_4.SetPointerValue("Pointer1", 2.5);
                             label_BuChang_4.Text = "2.5";
                         }
 
                         //油箱补偿
                         if (myStruct.CH2_2 >= 0 && myStruct.CH2_2 <= 10)
                         {
-                            gaugeControl_YouXiang.SetPointerValue("Pointer1", myStruct.CH2_2);
+                            axBeauGaugeCtrl4.SetValue("Pointer1", myStruct.CH2_2);
+                            //gaugeControl_YouXiang.SetPointerValue("Pointer1", myStruct.CH2_2);
                             label_BuChang_5.Text = Math.Round(myStruct.CH2_2, 2).ToString();
                         }
                         else if (myStruct.CH2_2 < 0)
                         {
-                            gaugeControl_YouXiang.SetPointerValue("Pointer1", 0);
+                            axBeauGaugeCtrl4.SetValue("Pointer1", 0);
+                            //gaugeControl_YouXiang.SetPointerValue("Pointer1", 0);
                             label_BuChang_5.Text = "0";
                         }
                         else if (myStruct.CH2_2 > 10)
                         {
-                            gaugeControl_YouXiang.SetPointerValue("Pointer1", 10);
+                            axBeauGaugeCtrl4.SetValue("Pointer1", 10);
+                            //gaugeControl_YouXiang.SetPointerValue("Pointer1", 10);
                             label_BuChang_5.Text = "2.5";
                         }
 
@@ -3206,7 +3226,8 @@ namespace MonitorProj
                         flag_Communication_LuoPan = true;
 
                         value_DiCiJiaJiao_Now = myStruct.Yaw;//地磁夹角目前方位
-                        gaugeControl4.SetPointerValue("Pointer1", value_DiCiJiaJiao_Now);
+                        axBeauGaugeCtrl10.SetValue("Pointer1", value_DiCiJiaJiao_Now);
+                        //gaugeControl4.SetPointerValue("Pointer1", value_DiCiJiaJiao_Now);
 
                         //自动定向目标跟随值
                         if (flag_AutoDirCtl_Oper == false)
@@ -6069,10 +6090,12 @@ namespace MonitorProj
             {
                 if (Global.isCommucationOK)
                 {
+                    axBeauGaugeCtrl9.SetValue("ImageStateIndicator1", 1);
                     //textBox_Communication.BackColor = Color.Green;
                 }
                 else
                 {
+                    axBeauGaugeCtrl9.SetValue("ImageStateIndicator1", 0);
                     //textBox_Communication.BackColor = Color.Red;
 
 
@@ -8349,6 +8372,7 @@ namespace MonitorProj
                     btn_AutoHigh_Stop.Enabled = false;
                     groupBox_TuiJinQ_Rotate.Enabled = false;
                     groupBox_TuiJinQi_PingYi.Enabled = false;
+                    numericUpDown_FuQian.Enabled = false;
 
                     isWaterBoxCtl = true;
                 }
@@ -8366,6 +8390,7 @@ namespace MonitorProj
                     btn_AutoHigh_Stop.Enabled = true;
                     groupBox_TuiJinQ_Rotate.Enabled = true;
                     groupBox_TuiJinQi_PingYi.Enabled = true;
+                    numericUpDown_FuQian.Enabled = true;
                 }
             }
             catch (Exception ex)
@@ -8388,7 +8413,8 @@ namespace MonitorProj
                     return;
                 }
                 value_DiCiJiaJiaoSet = (double)numericUpDown_DiCiJiaJiaoSet.Value;
-                gaugeControl4.SetPointerValue("Pointer2", value_DiCiJiaJiaoSet);
+                //gaugeControl4.SetPointerValue("Pointer2", value_DiCiJiaJiaoSet);
+                axBeauGaugeCtrl10.SetValue("Pointer2", value_DiCiJiaJiaoSet);
             }
             catch (Exception ex)
             { }
