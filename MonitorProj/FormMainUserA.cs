@@ -65,13 +65,22 @@ namespace MonitorProj
 
                 var vSize = e.Graphics.MeasureString(gBox.Text, gBox.Font);
 
-                e.Graphics.DrawString(gBox.Text, gBox.Font, Brushes.Blue, gBox.Width / 2 - vSize.Width / 2, 1);
+                //e.Graphics.DrawString(gBox.Text, gBox.Font, Brushes.Blue, gBox.Width / 2 - vSize.Width / 2, 1);
 
-                e.Graphics.DrawLine(Pens.Red, 1, 7, gBox.Width / 2 - vSize.Width / 2, 7);
-                e.Graphics.DrawLine(Pens.Red, gBox.Width / 2 + vSize.Width / 2, 7, gBox.Width - 2, 7);
-                e.Graphics.DrawLine(Pens.Red, 1, 7, 1, gBox.Height - 2);
-                e.Graphics.DrawLine(Pens.Red, 1, gBox.Height - 2, gBox.Width - 2, gBox.Height - 2);
-                e.Graphics.DrawLine(Pens.Red, gBox.Width - 2, 7, gBox.Width - 2, gBox.Height - 2);
+                //e.Graphics.DrawLine(Pens.Red, 1, 7, gBox.Width / 2 - vSize.Width / 2, 7);
+                //e.Graphics.DrawLine(Pens.Red, gBox.Width / 2 + vSize.Width / 2, 7, gBox.Width - 2, 7);
+                //e.Graphics.DrawLine(Pens.Red, 1, 7, 1, gBox.Height - 2);
+                //e.Graphics.DrawLine(Pens.Red, 1, gBox.Height - 2, gBox.Width - 2, gBox.Height - 2);
+                //e.Graphics.DrawLine(Pens.Red, gBox.Width - 2, 7, gBox.Width - 2, gBox.Height - 2);
+
+                e.Graphics.DrawString(gBox.Text, gBox.Font, Brushes.DodgerBlue, gBox.Width / 2 - vSize.Width / 2, 1);
+
+                e.Graphics.DrawLine(Pens.White, 1, 7, gBox.Width / 2 - vSize.Width / 2, 7);
+                e.Graphics.DrawLine(Pens.White, gBox.Width / 2 + vSize.Width / 2, 7, gBox.Width - 2, 7);
+                e.Graphics.DrawLine(Pens.White, 1, 7, 1, gBox.Height - 2);
+                e.Graphics.DrawLine(Pens.White, 1, gBox.Height - 2, gBox.Width - 2, gBox.Height - 2);
+                e.Graphics.DrawLine(Pens.White, gBox.Width - 2, 7, gBox.Width - 2, gBox.Height - 2);
+
             }
             catch (Exception ex)
             { }
@@ -87,13 +96,13 @@ namespace MonitorProj
 
                 var vSize = e.Graphics.MeasureString(gBox.Text, gBox.Font);
 
-                e.Graphics.DrawString(gBox.Text, gBox.Font, Brushes.Red, gBox.Width / 2 - vSize.Width / 2, 1);
+                e.Graphics.DrawString(gBox.Text, gBox.Font, Brushes.Tomato, gBox.Width / 2 - vSize.Width / 2, 1);
 
-                e.Graphics.DrawLine(Pens.Green, 1, 7, gBox.Width / 2 - vSize.Width / 2, 7);
-                e.Graphics.DrawLine(Pens.Green, gBox.Width / 2 + vSize.Width / 2, 7, gBox.Width - 2, 7);
-                e.Graphics.DrawLine(Pens.Green, 1, 7, 1, gBox.Height - 2);
-                e.Graphics.DrawLine(Pens.Green, 1, gBox.Height - 2, gBox.Width - 2, gBox.Height - 2);
-                e.Graphics.DrawLine(Pens.Green, gBox.Width - 2, 7, gBox.Width - 2, gBox.Height - 2);
+                e.Graphics.DrawLine(Pens.Lime, 1, 7, gBox.Width / 2 - vSize.Width / 2, 7);
+                e.Graphics.DrawLine(Pens.Lime, gBox.Width / 2 + vSize.Width / 2, 7, gBox.Width - 2, 7);
+                e.Graphics.DrawLine(Pens.Lime, 1, 7, 1, gBox.Height - 2);
+                e.Graphics.DrawLine(Pens.Lime, 1, gBox.Height - 2, gBox.Width - 2, gBox.Height - 2);
+                e.Graphics.DrawLine(Pens.Lime, gBox.Width - 2, 7, gBox.Width - 2, gBox.Height - 2);
             }
             catch (Exception ex)
             { }
@@ -2250,7 +2259,7 @@ namespace MonitorProj
 
                         flag_Communication_40 = true;
 
-                        gyroAngle1.Depth = Math.Round(myStruct.CH3_2, 2).ToString();
+                        label191.Text = "深度  : " + Math.Round(myStruct.CH3_2, 2).ToString();
 
                         //补偿1
                         if (myStruct.CH3_3 >= 0 && myStruct.CH3_3 <= 2.5)
@@ -2864,7 +2873,7 @@ namespace MonitorProj
                     {
                         Struct_HightMeasureDevice myStruct = (Struct_HightMeasureDevice)gEventArgs.objParse;
                         textBox_HeightMeasure_Hight.Text = myStruct.sHight;
-                        gyroAngle1.HeightData = myStruct.Height;
+                        label190.Text = "高度  : " + myStruct.sHight;
 
                         value_High_Now = myStruct.Height;
                         if (flag_AutoHigh_Oper == false)
@@ -2882,51 +2891,63 @@ namespace MonitorProj
 
                         if (myStruct.WorkStation_B == 1)
                         {
-                            textBoxWork_Station_Quire_Board_1.BackColor = Color.Green;
+                            LightWork_Station_Quire_Board_1.SetValue("ImageStateIndicator1", 0);
+                            //textBoxWorkWork_Station_Quire_Board_1.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBoxWork_Station_Quire_Board_1.BackColor = Color.Transparent; ;
+                            LightWork_Station_Quire_Board_1.SetValue("ImageStateIndicator1", 1);
+                            //textBoxWorkWork_Station_Quire_Board_1.BackColor = SystemColors.Control; 
                         }
                         if (myStruct.WorkStation_C == 1)
                         {
-                            textBoxWork_Station_Quire_Board_2.BackColor = Color.Green;
+                            LightWork_Station_Quire_Board_2.SetValue("ImageStateIndicator1", 0);
+                            //textBoxWork_Station_Quire_Board_2.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBoxWork_Station_Quire_Board_2.BackColor = Color.Transparent; ;
+                            LightWork_Station_Quire_Board_2.SetValue("ImageStateIndicator1", 1);
+                            //textBoxWork_Station_Quire_Board_2.BackColor = SystemColors.Control;
                         }
                         if (myStruct.WorkStation_D == 1)
                         {
-                            textBoxWork_Station_Quire_Board_3.BackColor = Color.Green;
+                            LightWork_Station_Quire_Board_3.SetValue("ImageStateIndicator1", 0);
+                            //textBoxWork_Station_Quire_Board_3.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBoxWork_Station_Quire_Board_3.BackColor = Color.Transparent; ;
+                            LightWork_Station_Quire_Board_3.SetValue("ImageStateIndicator1", 1);
+                            //textBoxWork_Station_Quire_Board_3.BackColor = SystemColors.Control;
                         }
                         if (myStruct.WorkStation_E == 1)
                         {
-                            textBoxWork_Station_Quire_Board_4.BackColor = Color.Green;
+                            LightWork_Station_Quire_Board_4.SetValue("ImageStateIndicator1", 0);
+                            //textBoxWork_Station_Quire_Board_4.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBoxWork_Station_Quire_Board_4.BackColor = Color.Transparent; ;
+                            LightWork_Station_Quire_Board_4.SetValue("ImageStateIndicator1", 1);
+                            //textBoxWork_Station_Quire_Board_4.BackColor = SystemColors.Control;
                         }
                         if (myStruct.WorkStation_F == 1)
                         {
-                            textBoxWork_Station_Quire_Board_5.BackColor = Color.Green;
+                            LightWork_Station_Quire_Board_5.SetValue("ImageStateIndicator1", 0);
+                            //textBoxWork_Station_Quire_Board_5.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBoxWork_Station_Quire_Board_5.BackColor = Color.Transparent; ;
+                            LightWork_Station_Quire_Board_5.SetValue("ImageStateIndicator1", 1);
+                            //textBoxWork_Station_Quire_Board_5.BackColor = SystemColors.Control;
                         }
                         if (myStruct.WorkStation_G == 1)
                         {
-                            textBoxWork_Station_Quire_Board_6.BackColor = Color.Green;
+                            LightWork_Station_Quire_Board_6.SetValue("ImageStateIndicator1", 0);
+                            //textBoxWork_Station_Quire_Board_6.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBoxWork_Station_Quire_Board_6.BackColor = Color.Transparent; ;
+                            LightWork_Station_Quire_Board_6.SetValue("ImageStateIndicator1", 1);
+                            //textBoxWork_Station_Quire_Board_6.BackColor = SystemColors.Control;
                         }
 
                         flag_Communication_30 = true;
@@ -3211,8 +3232,8 @@ namespace MonitorProj
                         textBox_HeadingCircle.Text = iHeadingCircle.ToString();
                         //textBox_HeadingCircle_2.Text = iHeadingCircle.ToString();
 
-                        gaugeControl1.SetPointerValue("Pointer1", myStruct.Yaw);
-                        gaugeControl1.SetPointerValue("Pointer2", iHeadingCircle);
+                        //gaugeControl1.SetPointerValue("Pointer1", myStruct.Yaw);
+                        //gaugeControl1.SetPointerValue("Pointer2", iHeadingCircle);
                         //gaugeControl2.SetPointerValue("Pointer1", myStruct.Yaw);
                         //gaugeControl2.SetPointerValue("Pointer2", iHeadingCircle);
                         
@@ -3245,67 +3266,83 @@ namespace MonitorProj
 
                         if (myStructBoardIIStatus.bDIN8 == 1)
                         {
-                            textBox_Fun16_DIN8.BackColor = Color.Green;
+                            Light_Fun16_DIN8.SetValue("ImageStateIndicator1", 0);
+                            //textBox_Fun16_DIN8.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBox_Fun16_DIN8.BackColor = Color.Transparent;
+                            Light_Fun16_DIN8.SetValue("ImageStateIndicator1", 1);
+                            //textBox_Fun16_DIN8.BackColor = Color.LightGray;
                         }
                         if (myStructBoardIIStatus.bDIN7 == 1)
                         {
-                            textBox_Fun16_DIN7.BackColor = Color.Green;
+                            Light_Fun16_DIN7.SetValue("ImageStateIndicator1", 0);
+                            //textBox_Fun16_DIN7.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBox_Fun16_DIN7.BackColor = Color.Transparent;
+                            Light_Fun16_DIN7.SetValue("ImageStateIndicator1", 1);
+                            //textBox_Fun16_DIN7.BackColor = Color.LightGray;
                         }
                         if (myStructBoardIIStatus.bDIN6 == 1)
                         {
-                            textBox_Fun16_DIN6.BackColor = Color.Green;
+                            Light_Fun16_DIN6.SetValue("ImageStateIndicator1", 0);
+                            //textBox_Fun16_DIN6.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBox_Fun16_DIN6.BackColor = Color.Transparent;
+                            Light_Fun16_DIN6.SetValue("ImageStateIndicator1", 1);
+                            //textBox_Fun16_DIN6.BackColor = Color.LightGray;
                         }
                         if (myStructBoardIIStatus.bDIN5 == 1)
                         {
-                            textBox_Fun16_DIN5.BackColor = Color.Green;
+                            Light_Fun16_DIN5.SetValue("ImageStateIndicator1", 0);
+                            //textBox_Fun16_DIN5.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBox_Fun16_DIN5.BackColor = Color.Transparent;
+                            Light_Fun16_DIN5.SetValue("ImageStateIndicator1", 1);
+                            //textBox_Fun16_DIN5.BackColor = Color.LightGray;
                         }
                         if (myStructBoardIIStatus.bDIN4 == 1)
                         {
-                            textBox_Fun16_DIN4.BackColor = Color.Green;
+                            Light_Fun16_DIN4.SetValue("ImageStateIndicator1", 0);
+                            //textBox_Fun16_DIN4.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBox_Fun16_DIN4.BackColor = Color.Transparent;
+                            Light_Fun16_DIN4.SetValue("ImageStateIndicator1", 1);
+                            //textBox_Fun16_DIN4.BackColor = Color.LightGray;
                         }
                         if (myStructBoardIIStatus.bDIN3 == 1)
                         {
-                            textBox_Fun16_DIN3.BackColor = Color.Green;
+                            Light_Fun16_DIN3.SetValue("ImageStateIndicator1", 0);
+                            //textBox_Fun16_DIN3.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBox_Fun16_DIN3.BackColor = Color.Transparent;
+                            Light_Fun16_DIN3.SetValue("ImageStateIndicator1", 1);
+                            //textBox_Fun16_DIN3.BackColor = Color.LightGray;
                         }
                         if (myStructBoardIIStatus.bDIN2 == 1)
                         {
-                            textBox_Fun16_DIN2.BackColor = Color.Green;
+                            Light_Fun16_DIN2.SetValue("ImageStateIndicator1", 0);
+                            //textBox_Fun16_DIN2.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBox_Fun16_DIN2.BackColor = Color.Transparent;
+                            Light_Fun16_DIN2.SetValue("ImageStateIndicator1", 1);
+                            //textBox_Fun16_DIN2.BackColor = Color.LightGray;
                         }
                         if (myStructBoardIIStatus.bDIN1 == 1)
                         {
-                            textBox_Fun16_DIN1.BackColor = Color.Green;
+                            Light_Fun16_DIN1.SetValue("ImageStateIndicator1", 0);
+                            //textBox_Fun16_DIN1.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBox_Fun16_DIN1.BackColor = Color.Transparent;
+                            Light_Fun16_DIN1.SetValue("ImageStateIndicator1", 1);
+                            //textBox_Fun16_DIN1.BackColor = Color.LightGray;
                         }
 
                         textBox_PWM_1_2.Text = myStructBoardIIStatus.Current_Feedback_PWM_1_2.ToString();
@@ -3365,67 +3402,83 @@ namespace MonitorProj
 
                         if (myStructBoardIStatus.bDIN8 == 1)
                         {
-                            textBox_Fun8_DIN8.BackColor = Color.Green;
+                            Light_Fun8_DIN8.SetValue("ImageStateIndicator1", 0);
+                            //textBox_Fun8_DIN8.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBox_Fun8_DIN8.BackColor = Color.Transparent;
+                            Light_Fun8_DIN8.SetValue("ImageStateIndicator1", 1);
+                            //textBox_Fun8_DIN8.BackColor = Color.LightGray;
                         }
                         if (myStructBoardIStatus.bDIN7 == 1)
                         {
-                            textBox_Fun8_DIN7.BackColor = Color.Green;
+                            Light_Fun8_DIN7.SetValue("ImageStateIndicator1", 0);
+                            //textBox_Fun8_DIN7.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBox_Fun8_DIN7.BackColor = Color.Transparent;
+                            Light_Fun8_DIN7.SetValue("ImageStateIndicator1", 1);
+                            //textBox_Fun8_DIN7.BackColor = Color.LightGray;
                         }
                         if (myStructBoardIStatus.bDIN6 == 1)
                         {
-                            textBox_Fun8_DIN6.BackColor = Color.Green;
+                            Light_Fun8_DIN6.SetValue("ImageStateIndicator1", 0);
+                            //textBox_Fun8_DIN6.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBox_Fun8_DIN6.BackColor = Color.Transparent;
+                            Light_Fun8_DIN6.SetValue("ImageStateIndicator1", 1);
+                            //textBox_Fun8_DIN6.BackColor = Color.LightGray;
                         }
                         if (myStructBoardIStatus.bDIN5 == 1)
                         {
-                            textBox_Fun8_DIN5.BackColor = Color.Green;
+                            Light_Fun8_DIN5.SetValue("ImageStateIndicator1", 0);
+                            //textBox_Fun8_DIN5.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBox_Fun8_DIN5.BackColor = Color.Transparent;
+                            Light_Fun8_DIN5.SetValue("ImageStateIndicator1", 1);
+                            //textBox_Fun8_DIN5.BackColor = Color.LightGray;
                         }
                         if (myStructBoardIStatus.bDIN4 == 1)
                         {
-                            textBox_Fun8_DIN4.BackColor = Color.Green;
+                            Light_Fun8_DIN4.SetValue("ImageStateIndicator1", 0);
+                            //textBox_Fun8_DIN4.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBox_Fun8_DIN4.BackColor = Color.Transparent;
+                            Light_Fun8_DIN4.SetValue("ImageStateIndicator1", 1);
+                            //textBox_Fun8_DIN4.BackColor = Color.LightGray;
                         }
                         if (myStructBoardIStatus.bDIN3 == 1)
                         {
-                            textBox_Fun8_DIN3.BackColor = Color.Green;
+                            Light_Fun8_DIN3.SetValue("ImageStateIndicator1", 0);
+                            //textBox_Fun8_DIN3.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBox_Fun8_DIN3.BackColor = Color.Transparent;
+                            Light_Fun8_DIN3.SetValue("ImageStateIndicator1", 1);
+                            //textBox_Fun8_DIN3.BackColor = Color.LightGray;
                         }
                         if (myStructBoardIStatus.bDIN2 == 1)
                         {
-                            textBox_Fun8_DIN2.BackColor = Color.Green;
+                            Light_Fun8_DIN2.SetValue("ImageStateIndicator1", 0);
+                            //textBox_Fun8_DIN2.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBox_Fun8_DIN2.BackColor = Color.Transparent;
+                            Light_Fun8_DIN2.SetValue("ImageStateIndicator1", 1);
+                            //textBox_Fun8_DIN2.BackColor = Color.LightGray;
                         }
                         if (myStructBoardIStatus.bDIN1 == 1)
                         {
-                            textBox_Fun8_DIN1.BackColor = Color.Green;
+                            Light_Fun8_DIN1.SetValue("ImageStateIndicator1", 0);
+                            //textBox_Fun8_DIN1.BackColor = Color.Green;
                         }
                         else
                         {
-                            textBox_Fun8_DIN1.BackColor = Color.Transparent;
+                            Light_Fun8_DIN1.SetValue("ImageStateIndicator1", 1);
+                            //textBox_Fun8_DIN1.BackColor = Color.LightGray;
                         }
 
                         textBox_24V.Text = myStructBoardIStatus.Main_Supply_Voltage_24V.ToString();
@@ -6016,11 +6069,11 @@ namespace MonitorProj
             {
                 if (Global.isCommucationOK)
                 {
-                    textBox_Communication.BackColor = Color.Green;
+                    //textBox_Communication.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication.BackColor = Color.Red;
+                    //textBox_Communication.BackColor = Color.Red;
 
 
                     #region Btn的状态变化事件
@@ -6157,42 +6210,50 @@ namespace MonitorProj
                 #region 各板卡的通信状态检测显示
                 if (flag_Communication_61)
                 {
-                    textBox_Communication_0x61.BackColor = Color.Green;
+                    Light_Communication_0x61.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x61.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x61.BackColor = Color.Red;
+                    Light_Communication_0x61.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x61.BackColor = Color.Red;
                 }
                 flag_Communication_61 = false;
 
 
                 if (flag_Communication_62)
                 {
-                    textBox_Communication_0x62.BackColor = Color.Green;
+                    Light_Communication_0x62.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x62.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x62.BackColor = Color.Red;
+                    Light_Communication_0x62.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x62.BackColor = Color.Red;
                 }
                 flag_Communication_62 = false;
 
                 if (flag_Communication_63)
                 {
-                    textBox_Communication_0x63.BackColor = Color.Green;
+                    Light_Communication_0x63.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x63.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x63.BackColor = Color.Red;
+                    Light_Communication_0x63.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x63.BackColor = Color.Red;
                 }
                 flag_Communication_63 = false;
 
                 if (flag_Communication_70)
                 {
-                    textBox_Communication_0x70.BackColor = Color.Green;
+                    Light_Communication_0x70.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x70.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x70.BackColor = Color.Red;
+                    Light_Communication_0x70.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x70.BackColor = Color.Red;
 
                     #region 灯1~4
                     if (btn_Light_1.BackColor == Color.Green)
@@ -6217,11 +6278,13 @@ namespace MonitorProj
 
                 if (flag_Communication_71)
                 {
-                    textBox_Communication_0x71.BackColor = Color.Green;
+                    Light_Communication_0x71.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x71.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x71.BackColor = Color.Red;
+                    Light_Communication_0x71.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x71.BackColor = Color.Red;
 
                     #region 灯5~8
                     if (btn_Light_5.BackColor == Color.Green)
@@ -6246,141 +6309,169 @@ namespace MonitorProj
 
                 if (flag_Communication_72)
                 {
-                    textBox_Communication_0x72.BackColor = Color.Green;
+                    Light_Communication_0x72.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x72.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x72.BackColor = Color.Red;
+                    Light_Communication_0x72.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x72.BackColor = Color.Red;
                 }
                 flag_Communication_72 = false;
 
                 if (flag_Communication_79)
                 {
-                    textBox_Communication_0x79.BackColor = Color.Green;
+                    Light_Communication_0x79.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x79.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x79.BackColor = Color.Red;
+                    Light_Communication_0x79.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x79.BackColor = Color.Red;
                 }
                 flag_Communication_79 = false;
 
                 if (flag_Communication_80)
                 {
-                    textBox_Communication_0x80.BackColor = Color.Green;
+                    Light_Communication_0x80.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x80.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x80.BackColor = Color.Red;
+                    Light_Communication_0x80.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x80.BackColor = Color.Red;
                 }
                 flag_Communication_80 = false;
 
                 if (flag_Communication_25)
                 {
-                    textBox_Communication_0x25.BackColor = Color.Green;
+                    Light_Communication_0x25.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x25.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x25.BackColor = Color.Red;
+                    Light_Communication_0x25.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x25.BackColor = Color.Red;
                 }
                 flag_Communication_25 = false;
 
                 if (flag_Communication_26)
                 {
-                    textBox_Communication_0x26.BackColor = Color.Green;
+                    Light_Communication_0x26.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x26.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x26.BackColor = Color.Red;
+                    Light_Communication_0x26.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x26.BackColor = Color.Red;
                 }
                 flag_Communication_26 = false;
 
                 if (flag_Communication_28)
                 {
-                    textBox_Communication_0x28.BackColor = Color.Green;
+                    Light_Communication_0x28.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x28.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x28.BackColor = Color.Red;
+                    Light_Communication_0x28.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x28.BackColor = Color.Red;
                 }
                 flag_Communication_28 = false;
 
                 if (flag_Communication_29)
                 {
-                    textBox_Communication_0x29.BackColor = Color.Green;
+                    Light_Communication_0x29.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x29.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x29.BackColor = Color.Red;
+                    Light_Communication_0x29.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x29.BackColor = Color.Red;
                 }
                 flag_Communication_29 = false;
 
                 if (flag_Communication_40)
                 {
-                    textBox_Communication_0x40.BackColor = Color.Green;
+                    Light_Communication_0x40.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x40.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x40.BackColor = Color.Red;
+                    Light_Communication_0x40.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x40.BackColor = Color.Red;
                 }
                 flag_Communication_40 = false;
 
                 if (flag_Communication_50)
                 {
-                    textBox_Communication_0x50.BackColor = Color.Green;
+                    Light_Communication_0x50.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x50.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x50.BackColor = Color.Red;
+                    Light_Communication_0x50.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x50.BackColor = Color.Red;
                 }
                 flag_Communication_50 = false;
 
                 if (flag_Communication_30)
                 {
-                    textBox_Communication_0x30.BackColor = Color.Green;
+                    Light_Communication_0x30.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x30.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x30.BackColor = Color.Red;
+                    Light_Communication_0x30.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x30.BackColor = Color.Red;
                 }
                 flag_Communication_30 = false;
 
                 if (flag_Communication_21)
                 {
-                    textBox_Communication_0x21.BackColor = Color.Green;
+                    Light_Communication_0x21.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x21.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x21.BackColor = Color.Red;
+                    Light_Communication_0x21.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x21.BackColor = Color.Red;
                 }
                 flag_Communication_21 = false;
 
                 if (flag_Communication_22)
                 {
-                    textBox_Communication_0x22.BackColor = Color.Green;
+                    Light_Communication_0x22.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_0x22.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_0x22.BackColor = Color.Red;
+                    Light_Communication_0x22.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_0x22.BackColor = Color.Red;
                 }
                 flag_Communication_22 = false;
 
                 if (flag_Communication_LuoPan)
                 {
-                    textBox_Communication_LuoPan.BackColor = Color.Green;
+                    Light_Communication_LuoPan.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_LuoPan.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_LuoPan.BackColor = Color.Red;
+                    Light_Communication_LuoPan.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_LuoPan.BackColor = Color.Red;
                 }
                 flag_Communication_LuoPan = false;
 
                 if (flag_Communication_FaXiang16)
                 {
-                    textBox_Communication_FaXiang16.BackColor = Color.Green;
+                    Light_Communication_FaXiang16.SetValue("ImageStateIndicator1", 1);
+                    //textBox_Communication_FaXiang16.BackColor = Color.Green;
                 }
                 else
                 {
-                    textBox_Communication_FaXiang16.BackColor = Color.Red;
+                    Light_Communication_FaXiang16.SetValue("ImageStateIndicator1", 0);
+                    //textBox_Communication_FaXiang16.BackColor = Color.Red;
 
                     #region 阀箱通信错误，将显示为绿色的阀箱相关按钮显示为黄色
                     //if (btn_ZuanJin_ZhengZhuan.BackColor == Color.Green)
@@ -6562,25 +6653,21 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_HeadingCircleClear_Click(object sender, EventArgs e)
-        {/*
+        private void button40_Click(object sender, EventArgs e)
+        {
             try
             {
                 if (MessageBox.Show("圈数清零提示", "提示", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
                 {
                     iHeadingCircle = 0;
                     textBox_HeadingCircle.Text = iHeadingCircle.ToString();
-                    gaugeControl2.SetPointerValue("Pointer2", 0);
 
-                    textBox_HeadingCircle_2.Text = iHeadingCircle.ToString();
-                    gaugeControl2.SetPointerValue("Pointer2", 0);
+                    label192.Text = "圈数  : " + iHeadingCircle.ToString();
                 }
             }
             catch (Exception ex)
-            { }*/
+            { }
         }
-
-
 
         //5.12 舱内备用电源继电器板
 
@@ -10998,55 +11085,6 @@ namespace MonitorProj
             }
             catch (Exception ex)
             { }
-        }
-
-        private void GroupBox_FaXiang_Space_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-       
-
-        private void btn24v_10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label311_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_DianJiA_kaiGuang_Click_1(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void label312_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void GroupBox_MainCtl_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox_Communication_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label33_Click(object sender, EventArgs e)
-        {
-
-
         }
     }
 }

@@ -30,46 +30,42 @@
         {
             this.components = new System.ComponentModel.Container();
             DevComponents.Instrumentation.GaugeCircularScale gaugeCircularScale7 = new DevComponents.Instrumentation.GaugeCircularScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer17 = new DevComponents.Instrumentation.GaugePointer();
+            DevComponents.Instrumentation.GaugePointer gaugePointer22 = new DevComponents.Instrumentation.GaugePointer();
             DevComponents.Instrumentation.GaugeSection gaugeSection7 = new DevComponents.Instrumentation.GaugeSection();
             DevComponents.Instrumentation.GaugeCircularScale gaugeCircularScale8 = new DevComponents.Instrumentation.GaugeCircularScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer18 = new DevComponents.Instrumentation.GaugePointer();
+            DevComponents.Instrumentation.GaugePointer gaugePointer23 = new DevComponents.Instrumentation.GaugePointer();
             DevComponents.Instrumentation.GaugeSection gaugeSection8 = new DevComponents.Instrumentation.GaugeSection();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor27 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor28 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor15 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor16 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale6 = new DevComponents.Instrumentation.GaugeLinearScale();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor37 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor38 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor39 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor40 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale16 = new DevComponents.Instrumentation.GaugeLinearScale();
+            DevComponents.Instrumentation.GaugePointer gaugePointer24 = new DevComponents.Instrumentation.GaugePointer();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor41 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor42 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale17 = new DevComponents.Instrumentation.GaugeLinearScale();
+            DevComponents.Instrumentation.GaugePointer gaugePointer25 = new DevComponents.Instrumentation.GaugePointer();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor43 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor44 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale18 = new DevComponents.Instrumentation.GaugeLinearScale();
+            DevComponents.Instrumentation.GaugePointer gaugePointer26 = new DevComponents.Instrumentation.GaugePointer();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor45 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor46 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale19 = new DevComponents.Instrumentation.GaugeLinearScale();
+            DevComponents.Instrumentation.GaugePointer gaugePointer27 = new DevComponents.Instrumentation.GaugePointer();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor47 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GradientFillColor gradientFillColor48 = new DevComponents.Instrumentation.GradientFillColor();
+            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale20 = new DevComponents.Instrumentation.GaugeLinearScale();
+            DevComponents.Instrumentation.GaugePointer gaugePointer28 = new DevComponents.Instrumentation.GaugePointer();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMainUserA));
-            DevComponents.Instrumentation.GaugePointer gaugePointer10 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor17 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor18 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale7 = new DevComponents.Instrumentation.GaugeLinearScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer11 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor19 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor20 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale8 = new DevComponents.Instrumentation.GaugeLinearScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer12 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor21 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor22 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale9 = new DevComponents.Instrumentation.GaugeLinearScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer13 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor23 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor24 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GaugeLinearScale gaugeLinearScale10 = new DevComponents.Instrumentation.GaugeLinearScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer14 = new DevComponents.Instrumentation.GaugePointer();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            DevComponents.Instrumentation.GaugeCircularScale gaugeCircularScale5 = new DevComponents.Instrumentation.GaugeCircularScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer15 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GaugeSection gaugeSection5 = new DevComponents.Instrumentation.GaugeSection();
-            DevComponents.Instrumentation.GaugeCircularScale gaugeCircularScale6 = new DevComponents.Instrumentation.GaugeCircularScale();
-            DevComponents.Instrumentation.GaugePointer gaugePointer16 = new DevComponents.Instrumentation.GaugePointer();
-            DevComponents.Instrumentation.GaugeSection gaugeSection6 = new DevComponents.Instrumentation.GaugeSection();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor25 = new DevComponents.Instrumentation.GradientFillColor();
-            DevComponents.Instrumentation.GradientFillColor gradientFillColor26 = new DevComponents.Instrumentation.GradientFillColor();
             this.GroupBox_MainMon = new System.Windows.Forms.GroupBox();
             this.GroupBox_MainCtl = new System.Windows.Forms.GroupBox();
+            this.button40 = new System.Windows.Forms.Button();
+            this.label192 = new System.Windows.Forms.Label();
+            this.label191 = new System.Windows.Forms.Label();
+            this.label190 = new System.Windows.Forms.Label();
             this.gyroAngle1 = new GyroAngle.GyroAngle();
             this.groupBox33 = new System.Windows.Forms.GroupBox();
             this.button30 = new System.Windows.Forms.Button();
@@ -209,6 +205,16 @@
             this.GroupBox_CtlBtns = new System.Windows.Forms.GroupBox();
             this.btn_FaBox_Space = new System.Windows.Forms.Button();
             this.groupBox_JXS = new System.Windows.Forms.GroupBox();
+            this.button38 = new System.Windows.Forms.Button();
+            this.button39 = new System.Windows.Forms.Button();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.label55 = new System.Windows.Forms.Label();
+            this.button36 = new System.Windows.Forms.Button();
+            this.button37 = new System.Windows.Forms.Button();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
@@ -284,41 +290,40 @@
             this.trackBar_Light_5 = new System.Windows.Forms.TrackBar();
             this.groupBox_SoftRuningInfo = new System.Windows.Forms.GroupBox();
             this.Ch1WorkLight = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
-            this.textBox_Communication = new System.Windows.Forms.TextBox();
             this.richTextBox_InfoShow = new System.Windows.Forms.RichTextBox();
             this.groupBox49 = new System.Windows.Forms.GroupBox();
-            this.textBox_Communication_FaXiang16 = new System.Windows.Forms.TextBox();
+            this.Light_Communication_0x61 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_FaXiang16 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_LuoPan = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_0x22 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_0x21 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_0x30 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_0x50 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_0x40 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_0x29 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_0x28 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_0x26 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_0x25 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_0x80 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_0x79 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_0x72 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_0x71 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_0x70 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_0x63 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Communication_0x62 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
             this.label305 = new System.Windows.Forms.Label();
-            this.textBox_Communication_0x30 = new System.Windows.Forms.TextBox();
             this.label262 = new System.Windows.Forms.Label();
-            this.textBox_Communication_0x22 = new System.Windows.Forms.TextBox();
-            this.textBox_Communication_0x29 = new System.Windows.Forms.TextBox();
             this.lable255 = new System.Windows.Forms.Label();
-            this.textBox_Communication_0x21 = new System.Windows.Forms.TextBox();
             this.label287 = new System.Windows.Forms.Label();
             this.label289 = new System.Windows.Forms.Label();
-            this.textBox_Communication_0x28 = new System.Windows.Forms.TextBox();
             this.label234 = new System.Windows.Forms.Label();
-            this.textBox_Communication_0x26 = new System.Windows.Forms.TextBox();
             this.label232 = new System.Windows.Forms.Label();
-            this.textBox_Communication_0x25 = new System.Windows.Forms.TextBox();
             this.label231 = new System.Windows.Forms.Label();
-            this.textBox_Communication_0x72 = new System.Windows.Forms.TextBox();
             this.label220 = new System.Windows.Forms.Label();
-            this.textBox_Communication_0x63 = new System.Windows.Forms.TextBox();
             this.label217 = new System.Windows.Forms.Label();
-            this.textBox_Communication_0x62 = new System.Windows.Forms.TextBox();
             this.label214 = new System.Windows.Forms.Label();
             this.textBox_Communication_FaXiang16B = new System.Windows.Forms.TextBox();
             this.textBox_Communication_FaXiang16A = new System.Windows.Forms.TextBox();
-            this.textBox_Communication_LuoPan = new System.Windows.Forms.TextBox();
-            this.textBox_Communication_0x50 = new System.Windows.Forms.TextBox();
-            this.textBox_Communication_0x40 = new System.Windows.Forms.TextBox();
-            this.textBox_Communication_0x80 = new System.Windows.Forms.TextBox();
-            this.textBox_Communication_0x79 = new System.Windows.Forms.TextBox();
-            this.textBox_Communication_0x71 = new System.Windows.Forms.TextBox();
-            this.textBox_Communication_0x70 = new System.Windows.Forms.TextBox();
-            this.textBox_Communication_0x61 = new System.Windows.Forms.TextBox();
             this.label187 = new System.Windows.Forms.Label();
             this.label188 = new System.Windows.Forms.Label();
             this.label198 = new System.Windows.Forms.Label();
@@ -330,6 +335,14 @@
             this.label204 = new System.Windows.Forms.Label();
             this.label212 = new System.Windows.Forms.Label();
             this.groupBox_BoardA_Mon = new System.Windows.Forms.GroupBox();
+            this.Light_Fun8_DIN1 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Fun8_DIN2 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Fun8_DIN3 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Fun8_DIN4 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Fun8_DIN5 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Fun8_DIN6 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Fun8_DIN7 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Fun8_DIN8 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
             this.groupBox19 = new System.Windows.Forms.GroupBox();
             this.label171 = new System.Windows.Forms.Label();
             this.label184 = new System.Windows.Forms.Label();
@@ -437,21 +450,13 @@
             this.label245 = new System.Windows.Forms.Label();
             this.numericUpDown_HL = new System.Windows.Forms.NumericUpDown();
             this.label244 = new System.Windows.Forms.Label();
-            this.textBox_Fun8_DIN1 = new System.Windows.Forms.TextBox();
             this.label83 = new System.Windows.Forms.Label();
-            this.textBox_Fun8_DIN2 = new System.Windows.Forms.TextBox();
             this.label84 = new System.Windows.Forms.Label();
-            this.textBox_Fun8_DIN3 = new System.Windows.Forms.TextBox();
             this.label85 = new System.Windows.Forms.Label();
-            this.textBox_Fun8_DIN4 = new System.Windows.Forms.TextBox();
             this.label86 = new System.Windows.Forms.Label();
-            this.textBox_Fun8_DIN5 = new System.Windows.Forms.TextBox();
             this.label87 = new System.Windows.Forms.Label();
-            this.textBox_Fun8_DIN6 = new System.Windows.Forms.TextBox();
             this.label97 = new System.Windows.Forms.Label();
-            this.textBox_Fun8_DIN7 = new System.Windows.Forms.TextBox();
             this.label98 = new System.Windows.Forms.Label();
-            this.textBox_Fun8_DIN8 = new System.Windows.Forms.TextBox();
             this.label99 = new System.Windows.Forms.Label();
             this.textBox_5VAnalog = new System.Windows.Forms.TextBox();
             this.textBox_Fun8_Temperature = new System.Windows.Forms.TextBox();
@@ -522,17 +527,17 @@
             this.label295 = new System.Windows.Forms.Label();
             this.label296 = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.textBoxWork_Station_Quire_Board_6 = new System.Windows.Forms.TextBox();
+            this.LightWork_Station_Quire_Board_6 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.LightWork_Station_Quire_Board_5 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.LightWork_Station_Quire_Board_4 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.LightWork_Station_Quire_Board_3 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.LightWork_Station_Quire_Board_2 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.LightWork_Station_Quire_Board_1 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
             this.label49 = new System.Windows.Forms.Label();
-            this.textBoxWork_Station_Quire_Board_5 = new System.Windows.Forms.TextBox();
             this.label50 = new System.Windows.Forms.Label();
-            this.textBoxWork_Station_Quire_Board_4 = new System.Windows.Forms.TextBox();
             this.label51 = new System.Windows.Forms.Label();
-            this.textBoxWork_Station_Quire_Board_3 = new System.Windows.Forms.TextBox();
             this.label52 = new System.Windows.Forms.Label();
-            this.textBoxWork_Station_Quire_Board_2 = new System.Windows.Forms.TextBox();
             this.label53 = new System.Windows.Forms.Label();
-            this.textBoxWork_Station_Quire_Board_1 = new System.Windows.Forms.TextBox();
             this.label54 = new System.Windows.Forms.Label();
             this.textBoxWork_Station_Quire_Board_RotateSpeed = new System.Windows.Forms.TextBox();
             this.label62 = new System.Windows.Forms.Label();
@@ -617,14 +622,14 @@
             this.textBox_PWM_1_2 = new System.Windows.Forms.TextBox();
             this.label156 = new System.Windows.Forms.Label();
             this.groupBox25 = new System.Windows.Forms.GroupBox();
-            this.textBox_Fun16_DIN1 = new System.Windows.Forms.TextBox();
-            this.textBox_Fun16_DIN4 = new System.Windows.Forms.TextBox();
-            this.textBox_Fun16_DIN5 = new System.Windows.Forms.TextBox();
-            this.textBox_Fun16_DIN6 = new System.Windows.Forms.TextBox();
-            this.textBox_Fun16_DIN2 = new System.Windows.Forms.TextBox();
-            this.textBox_Fun16_DIN7 = new System.Windows.Forms.TextBox();
-            this.textBox_Fun16_DIN8 = new System.Windows.Forms.TextBox();
-            this.textBox_Fun16_DIN3 = new System.Windows.Forms.TextBox();
+            this.Light_Fun16_DIN1 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Fun16_DIN2 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Fun16_DIN3 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Fun16_DIN4 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Fun16_DIN5 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Fun16_DIN6 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Fun16_DIN7 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.Light_Fun16_DIN8 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
             this.label159 = new System.Windows.Forms.Label();
             this.label160 = new System.Windows.Forms.Label();
             this.label161 = new System.Windows.Forms.Label();
@@ -643,7 +648,6 @@
             this.label168 = new System.Windows.Forms.Label();
             this.label169 = new System.Windows.Forms.Label();
             this.label170 = new System.Windows.Forms.Label();
-            this.btn_HeadingCircleClear = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.textBox_DCDetectBoard63_TO = new System.Windows.Forms.TextBox();
@@ -797,7 +801,6 @@
             this.textBox_CameraPowerRelayBoard1_V = new System.Windows.Forms.TextBox();
             this.label56 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
-            this.gaugeControl1 = new DevComponents.Instrumentation.GaugeControl();
             this.groupBox23 = new System.Windows.Forms.GroupBox();
             this.textBox_RotatePanel_Yaw = new System.Windows.Forms.TextBox();
             this.label93 = new System.Windows.Forms.Label();
@@ -848,16 +851,6 @@
             this.label309 = new System.Windows.Forms.Label();
             this.label310 = new System.Windows.Forms.Label();
             this.timer_Communication = new System.Windows.Forms.Timer(this.components);
-            this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.label55 = new System.Windows.Forms.Label();
             this.GroupBox_MainMon.SuspendLayout();
             this.GroupBox_MainCtl.SuspendLayout();
             this.groupBox33.SuspendLayout();
@@ -910,7 +903,34 @@
             this.groupBox_SoftRuningInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Ch1WorkLight)).BeginInit();
             this.groupBox49.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x61)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_FaXiang16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_LuoPan)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x50)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x40)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x29)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x80)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x79)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x72)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x71)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x70)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x63)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x62)).BeginInit();
             this.groupBox_BoardA_Mon.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun8_DIN1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun8_DIN2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun8_DIN3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun8_DIN4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun8_DIN5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun8_DIN6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun8_DIN7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun8_DIN8)).BeginInit();
             this.groupBox19.SuspendLayout();
             this.groupBox18.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_VRB_Zero)).BeginInit();
@@ -933,6 +953,12 @@
             this.tabPage3.SuspendLayout();
             this.groupBox46.SuspendLayout();
             this.groupBox10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.LightWork_Station_Quire_Board_6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LightWork_Station_Quire_Board_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LightWork_Station_Quire_Board_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LightWork_Station_Quire_Board_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LightWork_Station_Quire_Board_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LightWork_Station_Quire_Board_1)).BeginInit();
             this.groupBox11.SuspendLayout();
             this.groupBox13.SuspendLayout();
             this.groupBox36.SuspendLayout();
@@ -946,6 +972,14 @@
             this.groupBox22.SuspendLayout();
             this.groupBox24.SuspendLayout();
             this.groupBox25.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun16_DIN1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun16_DIN2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun16_DIN3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun16_DIN4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun16_DIN5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun16_DIN6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun16_DIN7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun16_DIN8)).BeginInit();
             this.groupBox26.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -961,14 +995,13 @@
             this.groupBox15.SuspendLayout();
             this.groupBox14.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl1)).BeginInit();
             this.groupBox23.SuspendLayout();
             this.groupBox27.SuspendLayout();
             this.SuspendLayout();
             // 
             // GroupBox_MainMon
             // 
-            this.GroupBox_MainMon.Controls.Add(this.GroupBox_MainCtl);
+            this.GroupBox_MainMon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.GroupBox_MainMon.Controls.Add(this.groupBox49);
             this.GroupBox_MainMon.Controls.Add(this.groupBox_BoardA_Mon);
             this.GroupBox_MainMon.Controls.Add(this.tabControl1);
@@ -979,15 +1012,14 @@
             this.GroupBox_MainMon.Controls.Add(this.groupBox_BoardD_Mon);
             this.GroupBox_MainMon.Controls.Add(this.groupBox_AlarmInfo);
             this.GroupBox_MainMon.Controls.Add(this.groupBox_BoardB_Mon);
-            this.GroupBox_MainMon.Controls.Add(this.btn_HeadingCircleClear);
             this.GroupBox_MainMon.Controls.Add(this.groupBox1);
             this.GroupBox_MainMon.Controls.Add(this.groupBox6);
             this.GroupBox_MainMon.Controls.Add(this.groupBox12);
             this.GroupBox_MainMon.Controls.Add(this.groupBox2);
-            this.GroupBox_MainMon.Controls.Add(this.gaugeControl1);
             this.GroupBox_MainMon.Controls.Add(this.groupBox23);
             this.GroupBox_MainMon.Controls.Add(this.groupBox27);
-            this.GroupBox_MainMon.Location = new System.Drawing.Point(9, 9);
+            this.GroupBox_MainMon.ForeColor = System.Drawing.SystemColors.Control;
+            this.GroupBox_MainMon.Location = new System.Drawing.Point(0, 0);
             this.GroupBox_MainMon.Margin = new System.Windows.Forms.Padding(2);
             this.GroupBox_MainMon.Name = "GroupBox_MainMon";
             this.GroupBox_MainMon.Padding = new System.Windows.Forms.Padding(2);
@@ -998,6 +1030,10 @@
             // GroupBox_MainCtl
             // 
             this.GroupBox_MainCtl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.GroupBox_MainCtl.Controls.Add(this.button40);
+            this.GroupBox_MainCtl.Controls.Add(this.label192);
+            this.GroupBox_MainCtl.Controls.Add(this.label191);
+            this.GroupBox_MainCtl.Controls.Add(this.label190);
             this.GroupBox_MainCtl.Controls.Add(this.gyroAngle1);
             this.GroupBox_MainCtl.Controls.Add(this.groupBox33);
             this.GroupBox_MainCtl.Controls.Add(this.groupBox34);
@@ -1026,14 +1062,60 @@
             this.GroupBox_MainCtl.Controls.Add(this.GroupBox_CtlBtns);
             this.GroupBox_MainCtl.Controls.Add(this.groupBox_SoftRuningInfo);
             this.GroupBox_MainCtl.ForeColor = System.Drawing.SystemColors.Control;
-            this.GroupBox_MainCtl.Location = new System.Drawing.Point(9, 2);
+            this.GroupBox_MainCtl.Location = new System.Drawing.Point(358, 99);
             this.GroupBox_MainCtl.Margin = new System.Windows.Forms.Padding(2);
             this.GroupBox_MainCtl.Name = "GroupBox_MainCtl";
             this.GroupBox_MainCtl.Padding = new System.Windows.Forms.Padding(2);
             this.GroupBox_MainCtl.Size = new System.Drawing.Size(1900, 930);
             this.GroupBox_MainCtl.TabIndex = 0;
             this.GroupBox_MainCtl.TabStop = false;
-            this.GroupBox_MainCtl.Enter += new System.EventHandler(this.GroupBox_MainCtl_Enter);
+            // 
+            // button40
+            // 
+            this.button40.BackColor = System.Drawing.Color.Transparent;
+            this.button40.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.button40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button40.FlatAppearance.BorderSize = 0;
+            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button40.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button40.ForeColor = System.Drawing.Color.Transparent;
+            this.button40.Location = new System.Drawing.Point(190, 459);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(125, 50);
+            this.button40.TabIndex = 210;
+            this.button40.Text = "圈数清零";
+            this.button40.UseVisualStyleBackColor = false;
+            this.button40.Click += new System.EventHandler(this.button40_Click);
+            // 
+            // label192
+            // 
+            this.label192.AutoSize = true;
+            this.label192.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label192.Location = new System.Drawing.Point(48, 496);
+            this.label192.Name = "label192";
+            this.label192.Size = new System.Drawing.Size(100, 22);
+            this.label192.TabIndex = 209;
+            this.label192.Text = "圈数  : 0";
+            // 
+            // label191
+            // 
+            this.label191.AutoSize = true;
+            this.label191.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label191.Location = new System.Drawing.Point(48, 472);
+            this.label191.Name = "label191";
+            this.label191.Size = new System.Drawing.Size(100, 22);
+            this.label191.TabIndex = 208;
+            this.label191.Text = "深度  : 0";
+            // 
+            // label190
+            // 
+            this.label190.AutoSize = true;
+            this.label190.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label190.Location = new System.Drawing.Point(48, 448);
+            this.label190.Name = "label190";
+            this.label190.Size = new System.Drawing.Size(100, 22);
+            this.label190.TabIndex = 207;
+            this.label190.Text = "高度  : 0";
             // 
             // gyroAngle1
             // 
@@ -1048,7 +1130,7 @@
             this.gyroAngle1.Name = "gyroAngle1";
             this.gyroAngle1.Pitch = 0F;
             this.gyroAngle1.Roll = 0F;
-            this.gyroAngle1.Size = new System.Drawing.Size(320, 480);
+            this.gyroAngle1.Size = new System.Drawing.Size(320, 400);
             this.gyroAngle1.TabIndex = 206;
             this.gyroAngle1.Yaw = 0F;
             // 
@@ -1066,7 +1148,8 @@
             this.groupBox33.Controls.Add(this.button33);
             this.groupBox33.Controls.Add(this.button34);
             this.groupBox33.Controls.Add(this.button35);
-            this.groupBox33.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox33.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox33.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox33.Location = new System.Drawing.Point(374, 455);
             this.groupBox33.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox33.Name = "groupBox33";
@@ -1084,9 +1167,9 @@
             this.button30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button30.FlatAppearance.BorderSize = 0;
             this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button30.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button30.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button30.ForeColor = System.Drawing.Color.Transparent;
-            this.button30.Location = new System.Drawing.Point(280, 86);
+            this.button30.Location = new System.Drawing.Point(254, 83);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(150, 50);
             this.button30.TabIndex = 172;
@@ -1100,9 +1183,9 @@
             this.button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button31.FlatAppearance.BorderSize = 0;
             this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button31.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button31.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button31.ForeColor = System.Drawing.Color.Transparent;
-            this.button31.Location = new System.Drawing.Point(280, 28);
+            this.button31.Location = new System.Drawing.Point(254, 28);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(150, 50);
             this.button31.TabIndex = 171;
@@ -1112,7 +1195,7 @@
             // label313
             // 
             this.label313.AutoSize = true;
-            this.label313.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label313.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label313.Location = new System.Drawing.Point(239, 192);
             this.label313.Name = "label313";
             this.label313.Size = new System.Drawing.Size(28, 19);
@@ -1122,7 +1205,7 @@
             // label314
             // 
             this.label314.AutoSize = true;
-            this.label314.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label314.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label314.Location = new System.Drawing.Point(239, 161);
             this.label314.Name = "label314";
             this.label314.Size = new System.Drawing.Size(28, 19);
@@ -1132,7 +1215,7 @@
             // numericUpDown3
             // 
             this.numericUpDown3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.numericUpDown3.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown3.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.numericUpDown3.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown3.Location = new System.Drawing.Point(154, 190);
             this.numericUpDown3.Maximum = new decimal(new int[] {
@@ -1152,7 +1235,7 @@
             // numericUpDown4
             // 
             this.numericUpDown4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.numericUpDown4.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown4.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.numericUpDown4.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown4.Location = new System.Drawing.Point(154, 156);
             this.numericUpDown4.Maximum = new decimal(new int[] {
@@ -1176,7 +1259,7 @@
             this.button32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button32.FlatAppearance.BorderSize = 0;
             this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button32.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button32.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button32.ForeColor = System.Drawing.Color.Transparent;
             this.button32.Location = new System.Drawing.Point(55, 29);
             this.button32.Name = "button32";
@@ -1188,7 +1271,7 @@
             // label316
             // 
             this.label316.AutoSize = true;
-            this.label316.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label316.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label316.Location = new System.Drawing.Point(57, 192);
             this.label316.Name = "label316";
             this.label316.Size = new System.Drawing.Size(95, 19);
@@ -1198,7 +1281,7 @@
             // label318
             // 
             this.label318.AutoSize = true;
-            this.label318.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label318.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label318.Location = new System.Drawing.Point(57, 160);
             this.label318.Name = "label318";
             this.label318.Size = new System.Drawing.Size(95, 19);
@@ -1212,7 +1295,7 @@
             this.button33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button33.FlatAppearance.BorderSize = 0;
             this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button33.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button33.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button33.ForeColor = System.Drawing.Color.Transparent;
             this.button33.Location = new System.Drawing.Point(314, 157);
             this.button33.Name = "button33";
@@ -1228,7 +1311,7 @@
             this.button34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button34.FlatAppearance.BorderSize = 0;
             this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button34.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button34.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button34.ForeColor = System.Drawing.Color.Transparent;
             this.button34.Location = new System.Drawing.Point(54, 103);
             this.button34.Name = "button34";
@@ -1244,7 +1327,7 @@
             this.button35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button35.FlatAppearance.BorderSize = 0;
             this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button35.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button35.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button35.ForeColor = System.Drawing.Color.Transparent;
             this.button35.Location = new System.Drawing.Point(54, 65);
             this.button35.Name = "button35";
@@ -1265,7 +1348,8 @@
             this.groupBox34.Controls.Add(this.button18);
             this.groupBox34.Controls.Add(this.button17);
             this.groupBox34.Controls.Add(this.button26);
-            this.groupBox34.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold);
+            this.groupBox34.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold);
+            this.groupBox34.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox34.Location = new System.Drawing.Point(372, 304);
             this.groupBox34.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox34.Name = "groupBox34";
@@ -1283,9 +1367,9 @@
             this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button21.FlatAppearance.BorderSize = 0;
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button21.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button21.ForeColor = System.Drawing.Color.Transparent;
-            this.button21.Location = new System.Drawing.Point(333, 77);
+            this.button21.Location = new System.Drawing.Point(342, 76);
             this.button21.Margin = new System.Windows.Forms.Padding(2);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(75, 28);
@@ -1300,9 +1384,9 @@
             this.button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button22.FlatAppearance.BorderSize = 0;
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button22.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button22.ForeColor = System.Drawing.Color.Transparent;
-            this.button22.Location = new System.Drawing.Point(252, 77);
+            this.button22.Location = new System.Drawing.Point(261, 76);
             this.button22.Margin = new System.Windows.Forms.Padding(2);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(75, 28);
@@ -1317,9 +1401,9 @@
             this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button23.FlatAppearance.BorderSize = 0;
             this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button23.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button23.ForeColor = System.Drawing.Color.Transparent;
-            this.button23.Location = new System.Drawing.Point(172, 77);
+            this.button23.Location = new System.Drawing.Point(181, 76);
             this.button23.Margin = new System.Windows.Forms.Padding(2);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(75, 28);
@@ -1334,9 +1418,9 @@
             this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button24.FlatAppearance.BorderSize = 0;
             this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button24.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button24.ForeColor = System.Drawing.Color.Transparent;
-            this.button24.Location = new System.Drawing.Point(91, 76);
+            this.button24.Location = new System.Drawing.Point(100, 75);
             this.button24.Margin = new System.Windows.Forms.Padding(2);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(75, 28);
@@ -1351,9 +1435,9 @@
             this.button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button25.FlatAppearance.BorderSize = 0;
             this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button25.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button25.ForeColor = System.Drawing.Color.Transparent;
-            this.button25.Location = new System.Drawing.Point(9, 76);
+            this.button25.Location = new System.Drawing.Point(18, 75);
             this.button25.Margin = new System.Windows.Forms.Padding(2);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(75, 28);
@@ -1368,9 +1452,9 @@
             this.button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button20.FlatAppearance.BorderSize = 0;
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button20.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button20.ForeColor = System.Drawing.Color.Transparent;
-            this.button20.Location = new System.Drawing.Point(333, 34);
+            this.button20.Location = new System.Drawing.Point(342, 33);
             this.button20.Margin = new System.Windows.Forms.Padding(2);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(75, 28);
@@ -1385,9 +1469,9 @@
             this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button19.FlatAppearance.BorderSize = 0;
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button19.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button19.ForeColor = System.Drawing.Color.Transparent;
-            this.button19.Location = new System.Drawing.Point(252, 34);
+            this.button19.Location = new System.Drawing.Point(261, 33);
             this.button19.Margin = new System.Windows.Forms.Padding(2);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(75, 28);
@@ -1402,9 +1486,9 @@
             this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button18.FlatAppearance.BorderSize = 0;
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button18.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button18.ForeColor = System.Drawing.Color.Transparent;
-            this.button18.Location = new System.Drawing.Point(172, 34);
+            this.button18.Location = new System.Drawing.Point(181, 33);
             this.button18.Margin = new System.Windows.Forms.Padding(2);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(75, 28);
@@ -1419,9 +1503,9 @@
             this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button17.FlatAppearance.BorderSize = 0;
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button17.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button17.ForeColor = System.Drawing.Color.Transparent;
-            this.button17.Location = new System.Drawing.Point(91, 33);
+            this.button17.Location = new System.Drawing.Point(100, 32);
             this.button17.Margin = new System.Windows.Forms.Padding(2);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(75, 28);
@@ -1436,9 +1520,9 @@
             this.button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button26.FlatAppearance.BorderSize = 0;
             this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button26.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button26.ForeColor = System.Drawing.Color.Transparent;
-            this.button26.Location = new System.Drawing.Point(9, 33);
+            this.button26.Location = new System.Drawing.Point(18, 32);
             this.button26.Margin = new System.Windows.Forms.Padding(2);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(75, 28);
@@ -1463,7 +1547,8 @@
             this.GroupBox_FaXiang_Space.Controls.Add(this.btn24v_3);
             this.GroupBox_FaXiang_Space.Controls.Add(this.btn24v_2);
             this.GroupBox_FaXiang_Space.Controls.Add(this.btn24v_1);
-            this.GroupBox_FaXiang_Space.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold);
+            this.GroupBox_FaXiang_Space.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold);
+            this.GroupBox_FaXiang_Space.ForeColor = System.Drawing.SystemColors.Control;
             this.GroupBox_FaXiang_Space.Location = new System.Drawing.Point(362, 699);
             this.GroupBox_FaXiang_Space.Margin = new System.Windows.Forms.Padding(2);
             this.GroupBox_FaXiang_Space.Name = "GroupBox_FaXiang_Space";
@@ -1473,7 +1558,6 @@
             this.GroupBox_FaXiang_Space.TabStop = false;
             this.GroupBox_FaXiang_Space.Text = "阀箱备用通路";
             this.GroupBox_FaXiang_Space.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint);
-            this.GroupBox_FaXiang_Space.Enter += new System.EventHandler(this.GroupBox_FaXiang_Space_Enter);
             // 
             // button3
             // 
@@ -1482,9 +1566,9 @@
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button3.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button3.ForeColor = System.Drawing.Color.Transparent;
-            this.button3.Location = new System.Drawing.Point(348, 89);
+            this.button3.Location = new System.Drawing.Point(352, 84);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(80, 28);
@@ -1499,9 +1583,9 @@
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button4.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button4.ForeColor = System.Drawing.Color.Transparent;
-            this.button4.Location = new System.Drawing.Point(259, 87);
+            this.button4.Location = new System.Drawing.Point(268, 84);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(80, 28);
@@ -1516,9 +1600,9 @@
             this.button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button27.FlatAppearance.BorderSize = 0;
             this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button27.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button27.ForeColor = System.Drawing.Color.Transparent;
-            this.button27.Location = new System.Drawing.Point(166, 86);
+            this.button27.Location = new System.Drawing.Point(184, 84);
             this.button27.Margin = new System.Windows.Forms.Padding(2);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(80, 28);
@@ -1533,12 +1617,12 @@
             this.button28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button28.FlatAppearance.BorderSize = 0;
             this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button28.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button28.ForeColor = System.Drawing.Color.Transparent;
-            this.button28.Location = new System.Drawing.Point(87, 86);
+            this.button28.Location = new System.Drawing.Point(100, 84);
             this.button28.Margin = new System.Windows.Forms.Padding(2);
             this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(75, 28);
+            this.button28.Size = new System.Drawing.Size(80, 28);
             this.button28.TabIndex = 151;
             this.button28.Text = "9B";
             this.button28.UseVisualStyleBackColor = false;
@@ -1550,12 +1634,12 @@
             this.button29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button29.FlatAppearance.BorderSize = 0;
             this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button29.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button29.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button29.ForeColor = System.Drawing.Color.Transparent;
-            this.button29.Location = new System.Drawing.Point(8, 85);
+            this.button29.Location = new System.Drawing.Point(16, 84);
             this.button29.Margin = new System.Windows.Forms.Padding(2);
             this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(75, 28);
+            this.button29.Size = new System.Drawing.Size(80, 28);
             this.button29.TabIndex = 150;
             this.button29.Text = "9A";
             this.button29.UseVisualStyleBackColor = false;
@@ -1567,16 +1651,15 @@
             this.btn24v_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_10.FlatAppearance.BorderSize = 0;
             this.btn24v_10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn24v_10.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn24v_10.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn24v_10.ForeColor = System.Drawing.Color.Transparent;
-            this.btn24v_10.Location = new System.Drawing.Point(348, 58);
+            this.btn24v_10.Location = new System.Drawing.Point(352, 53);
             this.btn24v_10.Margin = new System.Windows.Forms.Padding(2);
             this.btn24v_10.Name = "btn24v_10";
             this.btn24v_10.Size = new System.Drawing.Size(80, 28);
             this.btn24v_10.TabIndex = 149;
             this.btn24v_10.Text = "11AB停";
             this.btn24v_10.UseVisualStyleBackColor = false;
-            this.btn24v_10.Click += new System.EventHandler(this.btn24v_10_Click);
             // 
             // btn24v_9
             // 
@@ -1585,9 +1668,9 @@
             this.btn24v_9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_9.FlatAppearance.BorderSize = 0;
             this.btn24v_9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn24v_9.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn24v_9.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn24v_9.ForeColor = System.Drawing.Color.Transparent;
-            this.btn24v_9.Location = new System.Drawing.Point(259, 56);
+            this.btn24v_9.Location = new System.Drawing.Point(268, 53);
             this.btn24v_9.Margin = new System.Windows.Forms.Padding(2);
             this.btn24v_9.Name = "btn24v_9";
             this.btn24v_9.Size = new System.Drawing.Size(80, 28);
@@ -1602,9 +1685,9 @@
             this.btn24v_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_8.FlatAppearance.BorderSize = 0;
             this.btn24v_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn24v_8.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn24v_8.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn24v_8.ForeColor = System.Drawing.Color.Transparent;
-            this.btn24v_8.Location = new System.Drawing.Point(166, 55);
+            this.btn24v_8.Location = new System.Drawing.Point(184, 53);
             this.btn24v_8.Margin = new System.Windows.Forms.Padding(2);
             this.btn24v_8.Name = "btn24v_8";
             this.btn24v_8.Size = new System.Drawing.Size(80, 28);
@@ -1619,12 +1702,12 @@
             this.btn24v_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_7.FlatAppearance.BorderSize = 0;
             this.btn24v_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn24v_7.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn24v_7.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn24v_7.ForeColor = System.Drawing.Color.Transparent;
-            this.btn24v_7.Location = new System.Drawing.Point(87, 55);
+            this.btn24v_7.Location = new System.Drawing.Point(100, 53);
             this.btn24v_7.Margin = new System.Windows.Forms.Padding(2);
             this.btn24v_7.Name = "btn24v_7";
-            this.btn24v_7.Size = new System.Drawing.Size(75, 28);
+            this.btn24v_7.Size = new System.Drawing.Size(80, 28);
             this.btn24v_7.TabIndex = 146;
             this.btn24v_7.Text = "8B";
             this.btn24v_7.UseVisualStyleBackColor = false;
@@ -1636,12 +1719,12 @@
             this.btn24v_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_6.FlatAppearance.BorderSize = 0;
             this.btn24v_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn24v_6.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn24v_6.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn24v_6.ForeColor = System.Drawing.Color.Transparent;
-            this.btn24v_6.Location = new System.Drawing.Point(8, 54);
+            this.btn24v_6.Location = new System.Drawing.Point(16, 53);
             this.btn24v_6.Margin = new System.Windows.Forms.Padding(2);
             this.btn24v_6.Name = "btn24v_6";
-            this.btn24v_6.Size = new System.Drawing.Size(75, 28);
+            this.btn24v_6.Size = new System.Drawing.Size(80, 28);
             this.btn24v_6.TabIndex = 145;
             this.btn24v_6.Text = "8A";
             this.btn24v_6.UseVisualStyleBackColor = false;
@@ -1653,9 +1736,9 @@
             this.btn24v_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_5.FlatAppearance.BorderSize = 0;
             this.btn24v_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn24v_5.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn24v_5.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn24v_5.ForeColor = System.Drawing.Color.Transparent;
-            this.btn24v_5.Location = new System.Drawing.Point(348, 26);
+            this.btn24v_5.Location = new System.Drawing.Point(352, 22);
             this.btn24v_5.Margin = new System.Windows.Forms.Padding(2);
             this.btn24v_5.Name = "btn24v_5";
             this.btn24v_5.Size = new System.Drawing.Size(80, 28);
@@ -1670,9 +1753,9 @@
             this.btn24v_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_4.FlatAppearance.BorderSize = 0;
             this.btn24v_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn24v_4.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn24v_4.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn24v_4.ForeColor = System.Drawing.Color.Transparent;
-            this.btn24v_4.Location = new System.Drawing.Point(259, 25);
+            this.btn24v_4.Location = new System.Drawing.Point(268, 22);
             this.btn24v_4.Margin = new System.Windows.Forms.Padding(2);
             this.btn24v_4.Name = "btn24v_4";
             this.btn24v_4.Size = new System.Drawing.Size(80, 28);
@@ -1687,9 +1770,9 @@
             this.btn24v_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_3.FlatAppearance.BorderSize = 0;
             this.btn24v_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn24v_3.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn24v_3.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn24v_3.ForeColor = System.Drawing.Color.Transparent;
-            this.btn24v_3.Location = new System.Drawing.Point(166, 24);
+            this.btn24v_3.Location = new System.Drawing.Point(184, 22);
             this.btn24v_3.Margin = new System.Windows.Forms.Padding(2);
             this.btn24v_3.Name = "btn24v_3";
             this.btn24v_3.Size = new System.Drawing.Size(80, 28);
@@ -1704,12 +1787,12 @@
             this.btn24v_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_2.FlatAppearance.BorderSize = 0;
             this.btn24v_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn24v_2.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn24v_2.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn24v_2.ForeColor = System.Drawing.Color.Transparent;
-            this.btn24v_2.Location = new System.Drawing.Point(87, 24);
+            this.btn24v_2.Location = new System.Drawing.Point(100, 22);
             this.btn24v_2.Margin = new System.Windows.Forms.Padding(2);
             this.btn24v_2.Name = "btn24v_2";
-            this.btn24v_2.Size = new System.Drawing.Size(75, 28);
+            this.btn24v_2.Size = new System.Drawing.Size(80, 28);
             this.btn24v_2.TabIndex = 141;
             this.btn24v_2.Text = "7B";
             this.btn24v_2.UseVisualStyleBackColor = false;
@@ -1721,12 +1804,12 @@
             this.btn24v_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_1.FlatAppearance.BorderSize = 0;
             this.btn24v_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn24v_1.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn24v_1.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn24v_1.ForeColor = System.Drawing.Color.Transparent;
-            this.btn24v_1.Location = new System.Drawing.Point(8, 23);
+            this.btn24v_1.Location = new System.Drawing.Point(16, 22);
             this.btn24v_1.Margin = new System.Windows.Forms.Padding(2);
             this.btn24v_1.Name = "btn24v_1";
-            this.btn24v_1.Size = new System.Drawing.Size(75, 28);
+            this.btn24v_1.Size = new System.Drawing.Size(80, 28);
             this.btn24v_1.TabIndex = 140;
             this.btn24v_1.Text = "7A";
             this.btn24v_1.UseVisualStyleBackColor = false;
@@ -1734,7 +1817,7 @@
             // label_BuChang_5
             // 
             this.label_BuChang_5.BackColor = System.Drawing.Color.DarkGray;
-            this.label_BuChang_5.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_BuChang_5.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_BuChang_5.ForeColor = System.Drawing.Color.Red;
             this.label_BuChang_5.Location = new System.Drawing.Point(1208, 752);
             this.label_BuChang_5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -1758,7 +1841,8 @@
             this.groupBox31.Controls.Add(this.btn_DianJiA_Space);
             this.groupBox31.Controls.Add(this.btn_DianJiA_FanZhuan);
             this.groupBox31.Controls.Add(this.btn_DianJiA_ZhengZhuan);
-            this.groupBox31.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox31.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox31.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox31.Location = new System.Drawing.Point(372, 33);
             this.groupBox31.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox31.Name = "groupBox31";
@@ -1776,9 +1860,9 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button2.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button2.ForeColor = System.Drawing.Color.Transparent;
-            this.button2.Location = new System.Drawing.Point(280, 86);
+            this.button2.Location = new System.Drawing.Point(245, 86);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(150, 50);
             this.button2.TabIndex = 172;
@@ -1792,9 +1876,9 @@
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button1.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button1.ForeColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(280, 28);
+            this.button1.Location = new System.Drawing.Point(245, 28);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 50);
             this.button1.TabIndex = 171;
@@ -1804,7 +1888,7 @@
             // label317
             // 
             this.label317.AutoSize = true;
-            this.label317.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label317.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label317.Location = new System.Drawing.Point(239, 192);
             this.label317.Name = "label317";
             this.label317.Size = new System.Drawing.Size(28, 19);
@@ -1814,7 +1898,7 @@
             // label315
             // 
             this.label315.AutoSize = true;
-            this.label315.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label315.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label315.Location = new System.Drawing.Point(239, 161);
             this.label315.Name = "label315";
             this.label315.Size = new System.Drawing.Size(28, 19);
@@ -1824,7 +1908,7 @@
             // numericUpDown2
             // 
             this.numericUpDown2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.numericUpDown2.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown2.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.numericUpDown2.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown2.Location = new System.Drawing.Point(154, 190);
             this.numericUpDown2.Maximum = new decimal(new int[] {
@@ -1844,7 +1928,7 @@
             // numericUpDown1
             // 
             this.numericUpDown1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.numericUpDown1.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown1.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.numericUpDown1.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown1.Location = new System.Drawing.Point(154, 156);
             this.numericUpDown1.Maximum = new decimal(new int[] {
@@ -1868,7 +1952,7 @@
             this.btn_DianJiA_kaiGuang.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DianJiA_kaiGuang.FlatAppearance.BorderSize = 0;
             this.btn_DianJiA_kaiGuang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_DianJiA_kaiGuang.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_DianJiA_kaiGuang.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DianJiA_kaiGuang.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DianJiA_kaiGuang.Location = new System.Drawing.Point(55, 29);
             this.btn_DianJiA_kaiGuang.Name = "btn_DianJiA_kaiGuang";
@@ -1876,29 +1960,26 @@
             this.btn_DianJiA_kaiGuang.TabIndex = 119;
             this.btn_DianJiA_kaiGuang.Text = "连接电机";
             this.btn_DianJiA_kaiGuang.UseVisualStyleBackColor = false;
-            this.btn_DianJiA_kaiGuang.Click += new System.EventHandler(this.btn_DianJiA_kaiGuang_Click_1);
             // 
             // label312
             // 
             this.label312.AutoSize = true;
-            this.label312.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label312.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label312.Location = new System.Drawing.Point(57, 192);
             this.label312.Name = "label312";
             this.label312.Size = new System.Drawing.Size(95, 19);
             this.label312.TabIndex = 167;
             this.label312.Text = "转动时长:";
-            this.label312.Click += new System.EventHandler(this.label312_Click);
             // 
             // label311
             // 
             this.label311.AutoSize = true;
-            this.label311.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label311.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label311.Location = new System.Drawing.Point(57, 160);
             this.label311.Name = "label311";
             this.label311.Size = new System.Drawing.Size(95, 19);
             this.label311.TabIndex = 166;
             this.label311.Text = "转动圈数:";
-            this.label311.Click += new System.EventHandler(this.label311_Click);
             // 
             // btn_DianJiA_Space
             // 
@@ -1907,9 +1988,9 @@
             this.btn_DianJiA_Space.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DianJiA_Space.FlatAppearance.BorderSize = 0;
             this.btn_DianJiA_Space.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_DianJiA_Space.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_DianJiA_Space.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DianJiA_Space.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_DianJiA_Space.Location = new System.Drawing.Point(314, 157);
+            this.btn_DianJiA_Space.Location = new System.Drawing.Point(305, 157);
             this.btn_DianJiA_Space.Name = "btn_DianJiA_Space";
             this.btn_DianJiA_Space.Size = new System.Drawing.Size(75, 50);
             this.btn_DianJiA_Space.TabIndex = 118;
@@ -1923,7 +2004,7 @@
             this.btn_DianJiA_FanZhuan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DianJiA_FanZhuan.FlatAppearance.BorderSize = 0;
             this.btn_DianJiA_FanZhuan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_DianJiA_FanZhuan.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_DianJiA_FanZhuan.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DianJiA_FanZhuan.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DianJiA_FanZhuan.Location = new System.Drawing.Point(54, 103);
             this.btn_DianJiA_FanZhuan.Name = "btn_DianJiA_FanZhuan";
@@ -1931,7 +2012,6 @@
             this.btn_DianJiA_FanZhuan.TabIndex = 117;
             this.btn_DianJiA_FanZhuan.Text = "电机反转";
             this.btn_DianJiA_FanZhuan.UseVisualStyleBackColor = false;
-            this.btn_DianJiA_FanZhuan.Click += new System.EventHandler(this.button2_Click);
             // 
             // btn_DianJiA_ZhengZhuan
             // 
@@ -1940,7 +2020,7 @@
             this.btn_DianJiA_ZhengZhuan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DianJiA_ZhengZhuan.FlatAppearance.BorderSize = 0;
             this.btn_DianJiA_ZhengZhuan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_DianJiA_ZhengZhuan.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_DianJiA_ZhengZhuan.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DianJiA_ZhengZhuan.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DianJiA_ZhengZhuan.Location = new System.Drawing.Point(54, 65);
             this.btn_DianJiA_ZhengZhuan.Name = "btn_DianJiA_ZhengZhuan";
@@ -1952,7 +2032,7 @@
             // label_BuChang_4
             // 
             this.label_BuChang_4.BackColor = System.Drawing.Color.DarkGray;
-            this.label_BuChang_4.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_BuChang_4.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_BuChang_4.ForeColor = System.Drawing.Color.Red;
             this.label_BuChang_4.Location = new System.Drawing.Point(1119, 752);
             this.label_BuChang_4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -1965,7 +2045,7 @@
             // label_BuChang_3
             // 
             this.label_BuChang_3.BackColor = System.Drawing.Color.DarkGray;
-            this.label_BuChang_3.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_BuChang_3.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_BuChang_3.ForeColor = System.Drawing.Color.Red;
             this.label_BuChang_3.Location = new System.Drawing.Point(1024, 752);
             this.label_BuChang_3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -1978,7 +2058,7 @@
             // label_BuChang_2
             // 
             this.label_BuChang_2.BackColor = System.Drawing.Color.DarkGray;
-            this.label_BuChang_2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_BuChang_2.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_BuChang_2.ForeColor = System.Drawing.Color.Red;
             this.label_BuChang_2.Location = new System.Drawing.Point(928, 752);
             this.label_BuChang_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -1991,7 +2071,7 @@
             // label_BuChang_1
             // 
             this.label_BuChang_1.BackColor = System.Drawing.Color.DarkGray;
-            this.label_BuChang_1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_BuChang_1.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_BuChang_1.ForeColor = System.Drawing.Color.Red;
             this.label_BuChang_1.Location = new System.Drawing.Point(830, 750);
             this.label_BuChang_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -2007,7 +2087,8 @@
             this.groupBox45.Controls.Add(this.btn_JuYuanJianCe_2_SerialOpen);
             this.groupBox45.Controls.Add(this.comboBox_JuYuanJianCe_2_SerialPort);
             this.groupBox45.Controls.Add(this.label288);
-            this.groupBox45.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold);
+            this.groupBox45.Font = new System.Drawing.Font("SimSun", 13F, System.Drawing.FontStyle.Bold);
+            this.groupBox45.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox45.Location = new System.Drawing.Point(1750, 802);
             this.groupBox45.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox45.Name = "groupBox45";
@@ -2025,7 +2106,7 @@
             this.btn_JuYuanJianCe_2_SerialClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_JuYuanJianCe_2_SerialClose.FlatAppearance.BorderSize = 0;
             this.btn_JuYuanJianCe_2_SerialClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_JuYuanJianCe_2_SerialClose.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.btn_JuYuanJianCe_2_SerialClose.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.btn_JuYuanJianCe_2_SerialClose.ForeColor = System.Drawing.Color.Transparent;
             this.btn_JuYuanJianCe_2_SerialClose.Location = new System.Drawing.Point(76, 62);
             this.btn_JuYuanJianCe_2_SerialClose.Margin = new System.Windows.Forms.Padding(2);
@@ -2043,7 +2124,7 @@
             this.btn_JuYuanJianCe_2_SerialOpen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_JuYuanJianCe_2_SerialOpen.FlatAppearance.BorderSize = 0;
             this.btn_JuYuanJianCe_2_SerialOpen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_JuYuanJianCe_2_SerialOpen.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.btn_JuYuanJianCe_2_SerialOpen.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.btn_JuYuanJianCe_2_SerialOpen.ForeColor = System.Drawing.Color.Transparent;
             this.btn_JuYuanJianCe_2_SerialOpen.Location = new System.Drawing.Point(6, 62);
             this.btn_JuYuanJianCe_2_SerialOpen.Margin = new System.Windows.Forms.Padding(2);
@@ -2057,7 +2138,7 @@
             // comboBox_JuYuanJianCe_2_SerialPort
             // 
             this.comboBox_JuYuanJianCe_2_SerialPort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.comboBox_JuYuanJianCe_2_SerialPort.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.comboBox_JuYuanJianCe_2_SerialPort.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.comboBox_JuYuanJianCe_2_SerialPort.ForeColor = System.Drawing.SystemColors.Control;
             this.comboBox_JuYuanJianCe_2_SerialPort.FormattingEnabled = true;
             this.comboBox_JuYuanJianCe_2_SerialPort.Location = new System.Drawing.Point(60, 27);
@@ -2069,7 +2150,7 @@
             // label288
             // 
             this.label288.AutoSize = true;
-            this.label288.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label288.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label288.Location = new System.Drawing.Point(6, 30);
             this.label288.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label288.Name = "label288";
@@ -2083,7 +2164,8 @@
             this.groupBox_JuYuanJianCe_1_BoardD_Ctl.Controls.Add(this.btn_JuYuanJianCe_1_SerialOpen);
             this.groupBox_JuYuanJianCe_1_BoardD_Ctl.Controls.Add(this.comboBox_JuYuanJianCe_1_SerialPort);
             this.groupBox_JuYuanJianCe_1_BoardD_Ctl.Controls.Add(this.label290);
-            this.groupBox_JuYuanJianCe_1_BoardD_Ctl.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold);
+            this.groupBox_JuYuanJianCe_1_BoardD_Ctl.Font = new System.Drawing.Font("SimSun", 13F, System.Drawing.FontStyle.Bold);
+            this.groupBox_JuYuanJianCe_1_BoardD_Ctl.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox_JuYuanJianCe_1_BoardD_Ctl.Location = new System.Drawing.Point(1597, 802);
             this.groupBox_JuYuanJianCe_1_BoardD_Ctl.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox_JuYuanJianCe_1_BoardD_Ctl.Name = "groupBox_JuYuanJianCe_1_BoardD_Ctl";
@@ -2101,7 +2183,7 @@
             this.btn_JuYuanJianCe_1_SerialClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_JuYuanJianCe_1_SerialClose.FlatAppearance.BorderSize = 0;
             this.btn_JuYuanJianCe_1_SerialClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_JuYuanJianCe_1_SerialClose.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.btn_JuYuanJianCe_1_SerialClose.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.btn_JuYuanJianCe_1_SerialClose.ForeColor = System.Drawing.Color.Transparent;
             this.btn_JuYuanJianCe_1_SerialClose.Location = new System.Drawing.Point(74, 62);
             this.btn_JuYuanJianCe_1_SerialClose.Margin = new System.Windows.Forms.Padding(2);
@@ -2119,7 +2201,7 @@
             this.btn_JuYuanJianCe_1_SerialOpen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_JuYuanJianCe_1_SerialOpen.FlatAppearance.BorderSize = 0;
             this.btn_JuYuanJianCe_1_SerialOpen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_JuYuanJianCe_1_SerialOpen.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.btn_JuYuanJianCe_1_SerialOpen.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.btn_JuYuanJianCe_1_SerialOpen.ForeColor = System.Drawing.Color.Transparent;
             this.btn_JuYuanJianCe_1_SerialOpen.Location = new System.Drawing.Point(5, 62);
             this.btn_JuYuanJianCe_1_SerialOpen.Margin = new System.Windows.Forms.Padding(2);
@@ -2133,7 +2215,7 @@
             // comboBox_JuYuanJianCe_1_SerialPort
             // 
             this.comboBox_JuYuanJianCe_1_SerialPort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.comboBox_JuYuanJianCe_1_SerialPort.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.comboBox_JuYuanJianCe_1_SerialPort.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.comboBox_JuYuanJianCe_1_SerialPort.ForeColor = System.Drawing.SystemColors.Control;
             this.comboBox_JuYuanJianCe_1_SerialPort.FormattingEnabled = true;
             this.comboBox_JuYuanJianCe_1_SerialPort.Location = new System.Drawing.Point(59, 27);
@@ -2145,7 +2227,7 @@
             // label290
             // 
             this.label290.AutoSize = true;
-            this.label290.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label290.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label290.Location = new System.Drawing.Point(6, 30);
             this.label290.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label290.Name = "label290";
@@ -2158,7 +2240,7 @@
             this.groupBox39.Controls.Add(this.GroupBox_TuiJinQi);
             this.groupBox39.Controls.Add(this.checkBox_AutoCtl);
             this.groupBox39.Controls.Add(this.label237);
-            this.groupBox39.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox39.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
             this.groupBox39.Location = new System.Drawing.Point(820, 18);
             this.groupBox39.Name = "groupBox39";
             this.groupBox39.Size = new System.Drawing.Size(461, 530);
@@ -2188,6 +2270,7 @@
             this.groupBox_TuiJinQi_AutoHigh.Controls.Add(this.label107);
             this.groupBox_TuiJinQi_AutoHigh.Controls.Add(this.btn_AutoHigh_Stop);
             this.groupBox_TuiJinQi_AutoHigh.Controls.Add(this.trackBar1);
+            this.groupBox_TuiJinQi_AutoHigh.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox_TuiJinQi_AutoHigh.Location = new System.Drawing.Point(6, 273);
             this.groupBox_TuiJinQi_AutoHigh.Name = "groupBox_TuiJinQi_AutoHigh";
             this.groupBox_TuiJinQi_AutoHigh.Size = new System.Drawing.Size(436, 70);
@@ -2199,7 +2282,7 @@
             // label90
             // 
             this.label90.AutoSize = true;
-            this.label90.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label90.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label90.Location = new System.Drawing.Point(9, 31);
             this.label90.Name = "label90";
             this.label90.Size = new System.Drawing.Size(114, 19);
@@ -2209,7 +2292,7 @@
             // numericUpDown_AutoHigh
             // 
             this.numericUpDown_AutoHigh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.numericUpDown_AutoHigh.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_AutoHigh.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.numericUpDown_AutoHigh.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_AutoHigh.Location = new System.Drawing.Point(125, 26);
             this.numericUpDown_AutoHigh.Maximum = new decimal(new int[] {
@@ -2234,7 +2317,7 @@
             this.btn_AutoHigh_Start.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_AutoHigh_Start.FlatAppearance.BorderSize = 0;
             this.btn_AutoHigh_Start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_AutoHigh_Start.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_AutoHigh_Start.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_AutoHigh_Start.ForeColor = System.Drawing.Color.Transparent;
             this.btn_AutoHigh_Start.Location = new System.Drawing.Point(220, 20);
             this.btn_AutoHigh_Start.Margin = new System.Windows.Forms.Padding(2);
@@ -2248,7 +2331,7 @@
             // label104
             // 
             this.label104.AutoSize = true;
-            this.label104.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label104.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label104.Location = new System.Drawing.Point(247, 210);
             this.label104.Name = "label104";
             this.label104.Size = new System.Drawing.Size(29, 19);
@@ -2258,7 +2341,7 @@
             // label107
             // 
             this.label107.AutoSize = true;
-            this.label107.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label107.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label107.Location = new System.Drawing.Point(20, 210);
             this.label107.Name = "label107";
             this.label107.Size = new System.Drawing.Size(57, 19);
@@ -2272,7 +2355,7 @@
             this.btn_AutoHigh_Stop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_AutoHigh_Stop.FlatAppearance.BorderSize = 0;
             this.btn_AutoHigh_Stop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_AutoHigh_Stop.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_AutoHigh_Stop.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_AutoHigh_Stop.ForeColor = System.Drawing.Color.Transparent;
             this.btn_AutoHigh_Stop.Location = new System.Drawing.Point(328, 20);
             this.btn_AutoHigh_Stop.Margin = new System.Windows.Forms.Padding(2);
@@ -2302,6 +2385,7 @@
             this.groupBox41.Controls.Add(this.label257);
             this.groupBox41.Controls.Add(this.btn_DiCiJiaJiaoSet_Stop);
             this.groupBox41.Controls.Add(this.trackBar_DiCiJiaJiaoSet);
+            this.groupBox41.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox41.Location = new System.Drawing.Point(5, 136);
             this.groupBox41.Name = "groupBox41";
             this.groupBox41.Size = new System.Drawing.Size(436, 131);
@@ -2318,21 +2402,21 @@
             gaugeCircularScale7.MinorTickMarks.Interval = 6D;
             gaugeCircularScale7.MinPin.Name = "MinPin";
             gaugeCircularScale7.Name = "Scale1";
-            gaugePointer17.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer17.CapFillColor.BorderWidth = 1;
-            gaugePointer17.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer17.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer17.DampeningSweepTime = 0.0001D;
-            gaugePointer17.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer17.FillColor.BorderWidth = 1;
-            gaugePointer17.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer17.FillColor.Color2 = System.Drawing.Color.Red;
-            gaugePointer17.Length = 0.358F;
-            gaugePointer17.Name = "Pointer1";
-            gaugePointer17.Style = DevComponents.Instrumentation.PointerStyle.Needle;
-            gaugePointer17.Value = 0D;
+            gaugePointer22.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer22.CapFillColor.BorderWidth = 1;
+            gaugePointer22.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer22.CapFillColor.Color2 = System.Drawing.Color.DimGray;
+            gaugePointer22.DampeningSweepTime = 0.0001D;
+            gaugePointer22.FillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer22.FillColor.BorderWidth = 1;
+            gaugePointer22.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer22.FillColor.Color2 = System.Drawing.Color.Red;
+            gaugePointer22.Length = 0.358F;
+            gaugePointer22.Name = "Pointer1";
+            gaugePointer22.Style = DevComponents.Instrumentation.PointerStyle.Needle;
+            gaugePointer22.Value = 0D;
             gaugeCircularScale7.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer17});
+            gaugePointer22});
             gaugeCircularScale7.Radius = 0.45F;
             gaugeSection7.FillColor.Color1 = System.Drawing.Color.CornflowerBlue;
             gaugeSection7.FillColor.Color2 = System.Drawing.Color.Purple;
@@ -2348,21 +2432,21 @@
             gaugeCircularScale8.MinorTickMarks.Interval = 6D;
             gaugeCircularScale8.MinPin.Name = "MinPin";
             gaugeCircularScale8.Name = "Scale2";
-            gaugePointer18.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer18.CapFillColor.BorderWidth = 1;
-            gaugePointer18.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer18.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer18.DampeningSweepTime = 0.0001D;
-            gaugePointer18.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer18.FillColor.BorderWidth = 1;
-            gaugePointer18.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer18.FillColor.Color2 = System.Drawing.Color.Green;
-            gaugePointer18.Length = 0.358F;
-            gaugePointer18.Name = "Pointer2";
-            gaugePointer18.Style = DevComponents.Instrumentation.PointerStyle.Needle;
-            gaugePointer18.Value = 0D;
+            gaugePointer23.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer23.CapFillColor.BorderWidth = 1;
+            gaugePointer23.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer23.CapFillColor.Color2 = System.Drawing.Color.DimGray;
+            gaugePointer23.DampeningSweepTime = 0.0001D;
+            gaugePointer23.FillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer23.FillColor.BorderWidth = 1;
+            gaugePointer23.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer23.FillColor.Color2 = System.Drawing.Color.Green;
+            gaugePointer23.Length = 0.358F;
+            gaugePointer23.Name = "Pointer2";
+            gaugePointer23.Style = DevComponents.Instrumentation.PointerStyle.Needle;
+            gaugePointer23.Value = 0D;
             gaugeCircularScale8.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer18});
+            gaugePointer23});
             gaugeCircularScale8.Radius = 0.45F;
             gaugeSection8.FillColor.Color1 = System.Drawing.Color.CornflowerBlue;
             gaugeSection8.FillColor.Color2 = System.Drawing.Color.Purple;
@@ -2374,14 +2458,15 @@
             this.gaugeControl4.CircularScales.AddRange(new DevComponents.Instrumentation.GaugeCircularScale[] {
             gaugeCircularScale7,
             gaugeCircularScale8});
-            gradientFillColor27.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor27.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl4.Frame.BackColor = gradientFillColor27;
-            gradientFillColor28.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor28.BorderWidth = 1;
-            gradientFillColor28.Color1 = System.Drawing.Color.White;
-            gradientFillColor28.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl4.Frame.FrameColor = gradientFillColor28;
+            this.gaugeControl4.ForeColor = System.Drawing.SystemColors.Control;
+            gradientFillColor37.Color1 = System.Drawing.Color.Gainsboro;
+            gradientFillColor37.Color2 = System.Drawing.Color.DarkGray;
+            this.gaugeControl4.Frame.BackColor = gradientFillColor37;
+            gradientFillColor38.BorderColor = System.Drawing.Color.Gainsboro;
+            gradientFillColor38.BorderWidth = 1;
+            gradientFillColor38.Color1 = System.Drawing.Color.White;
+            gradientFillColor38.Color2 = System.Drawing.Color.DimGray;
+            this.gaugeControl4.Frame.FrameColor = gradientFillColor38;
             this.gaugeControl4.Location = new System.Drawing.Point(301, 14);
             this.gaugeControl4.Name = "gaugeControl4";
             this.gaugeControl4.Size = new System.Drawing.Size(115, 115);
@@ -2390,7 +2475,7 @@
             // label238
             // 
             this.label238.AutoSize = true;
-            this.label238.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label238.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label238.Location = new System.Drawing.Point(22, 30);
             this.label238.Name = "label238";
             this.label238.Size = new System.Drawing.Size(114, 19);
@@ -2400,7 +2485,7 @@
             // numericUpDown_DiCiJiaJiaoSet
             // 
             this.numericUpDown_DiCiJiaJiaoSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.numericUpDown_DiCiJiaJiaoSet.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_DiCiJiaJiaoSet.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.numericUpDown_DiCiJiaJiaoSet.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_DiCiJiaJiaoSet.Location = new System.Drawing.Point(191, 25);
             this.numericUpDown_DiCiJiaJiaoSet.Maximum = new decimal(new int[] {
@@ -2425,7 +2510,7 @@
             this.btn_DiCiJiaJiaoSet.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DiCiJiaJiaoSet.FlatAppearance.BorderSize = 0;
             this.btn_DiCiJiaJiaoSet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_DiCiJiaJiaoSet.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_DiCiJiaJiaoSet.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DiCiJiaJiaoSet.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DiCiJiaJiaoSet.Location = new System.Drawing.Point(18, 62);
             this.btn_DiCiJiaJiaoSet.Margin = new System.Windows.Forms.Padding(2);
@@ -2439,7 +2524,7 @@
             // label_DiCiJiaJiaoSet
             // 
             this.label_DiCiJiaJiaoSet.AutoSize = true;
-            this.label_DiCiJiaJiaoSet.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label_DiCiJiaJiaoSet.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label_DiCiJiaJiaoSet.Location = new System.Drawing.Point(247, 210);
             this.label_DiCiJiaJiaoSet.Name = "label_DiCiJiaJiaoSet";
             this.label_DiCiJiaJiaoSet.Size = new System.Drawing.Size(29, 19);
@@ -2449,7 +2534,7 @@
             // label257
             // 
             this.label257.AutoSize = true;
-            this.label257.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label257.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label257.Location = new System.Drawing.Point(20, 210);
             this.label257.Name = "label257";
             this.label257.Size = new System.Drawing.Size(57, 19);
@@ -2463,7 +2548,7 @@
             this.btn_DiCiJiaJiaoSet_Stop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DiCiJiaJiaoSet_Stop.FlatAppearance.BorderSize = 0;
             this.btn_DiCiJiaJiaoSet_Stop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_DiCiJiaJiaoSet_Stop.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_DiCiJiaJiaoSet_Stop.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DiCiJiaJiaoSet_Stop.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DiCiJiaJiaoSet_Stop.Location = new System.Drawing.Point(162, 63);
             this.btn_DiCiJiaJiaoSet_Stop.Margin = new System.Windows.Forms.Padding(2);
@@ -2497,6 +2582,7 @@
             this.groupBox42.Controls.Add(this.label260);
             this.groupBox42.Controls.Add(this.trackBar_FuQian);
             this.groupBox42.Controls.Add(this.label282);
+            this.groupBox42.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox42.Location = new System.Drawing.Point(6, 12);
             this.groupBox42.Name = "groupBox42";
             this.groupBox42.Size = new System.Drawing.Size(435, 120);
@@ -2509,7 +2595,7 @@
             // 
             this.numericUpDown_FuQian.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_FuQian.DecimalPlaces = 2;
-            this.numericUpDown_FuQian.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_FuQian.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.numericUpDown_FuQian.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_FuQian.Location = new System.Drawing.Point(321, 73);
             this.numericUpDown_FuQian.Minimum = new decimal(new int[] {
@@ -2529,7 +2615,7 @@
             this.btn_FuQian_QuCanShu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_FuQian_QuCanShu.FlatAppearance.BorderSize = 0;
             this.btn_FuQian_QuCanShu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_FuQian_QuCanShu.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_FuQian_QuCanShu.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_FuQian_QuCanShu.ForeColor = System.Drawing.Color.Transparent;
             this.btn_FuQian_QuCanShu.Location = new System.Drawing.Point(7, 153);
             this.btn_FuQian_QuCanShu.Margin = new System.Windows.Forms.Padding(2);
@@ -2547,9 +2633,9 @@
             this.btn_FuQian.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_FuQian.FlatAppearance.BorderSize = 0;
             this.btn_FuQian.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_FuQian.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_FuQian.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_FuQian.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_FuQian.Location = new System.Drawing.Point(31, 69);
+            this.btn_FuQian.Location = new System.Drawing.Point(17, 70);
             this.btn_FuQian.Margin = new System.Windows.Forms.Padding(2);
             this.btn_FuQian.Name = "btn_FuQian";
             this.btn_FuQian.Size = new System.Drawing.Size(120, 40);
@@ -2561,7 +2647,7 @@
             // label__XiaQian
             // 
             this.label__XiaQian.AutoSize = true;
-            this.label__XiaQian.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label__XiaQian.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label__XiaQian.Location = new System.Drawing.Point(375, 23);
             this.label__XiaQian.Name = "label__XiaQian";
             this.label__XiaQian.Size = new System.Drawing.Size(24, 16);
@@ -2575,9 +2661,9 @@
             this.btn_ShangFu_XiaQIan_Stop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_ShangFu_XiaQIan_Stop.FlatAppearance.BorderSize = 0;
             this.btn_ShangFu_XiaQIan_Stop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ShangFu_XiaQIan_Stop.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_ShangFu_XiaQIan_Stop.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_ShangFu_XiaQIan_Stop.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_ShangFu_XiaQIan_Stop.Location = new System.Drawing.Point(167, 69);
+            this.btn_ShangFu_XiaQIan_Stop.Location = new System.Drawing.Point(161, 70);
             this.btn_ShangFu_XiaQIan_Stop.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ShangFu_XiaQIan_Stop.Name = "btn_ShangFu_XiaQIan_Stop";
             this.btn_ShangFu_XiaQIan_Stop.Size = new System.Drawing.Size(120, 40);
@@ -2589,7 +2675,7 @@
             // label259
             // 
             this.label259.AutoSize = true;
-            this.label259.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label259.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label259.Location = new System.Drawing.Point(14, 53);
             this.label259.Name = "label259";
             this.label259.Size = new System.Drawing.Size(35, 14);
@@ -2599,7 +2685,7 @@
             // label261
             // 
             this.label261.AutoSize = true;
-            this.label261.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label261.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label261.Location = new System.Drawing.Point(191, 50);
             this.label261.Name = "label261";
             this.label261.Size = new System.Drawing.Size(14, 14);
@@ -2609,7 +2695,7 @@
             // label260
             // 
             this.label260.AutoSize = true;
-            this.label260.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label260.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label260.Location = new System.Drawing.Point(343, 50);
             this.label260.Name = "label260";
             this.label260.Size = new System.Drawing.Size(35, 14);
@@ -2632,7 +2718,7 @@
             // label282
             // 
             this.label282.AutoSize = true;
-            this.label282.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label282.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label282.Location = new System.Drawing.Point(407, 78);
             this.label282.Name = "label282";
             this.label282.Size = new System.Drawing.Size(19, 19);
@@ -2647,6 +2733,7 @@
             this.groupBox_TuiJinQ_Rotate.Controls.Add(this.numericUpDown_ZhuanDong_YiDong_Speed);
             this.groupBox_TuiJinQ_Rotate.Controls.Add(this.btn_TuiJinQin_FanZhuan);
             this.groupBox_TuiJinQ_Rotate.Controls.Add(this.btn_TuiJinQin_ZhengZhuan);
+            this.groupBox_TuiJinQ_Rotate.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox_TuiJinQ_Rotate.Location = new System.Drawing.Point(6, 347);
             this.groupBox_TuiJinQ_Rotate.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox_TuiJinQ_Rotate.Name = "groupBox_TuiJinQ_Rotate";
@@ -2660,7 +2747,7 @@
             // label63
             // 
             this.label63.AutoSize = true;
-            this.label63.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label63.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label63.Location = new System.Drawing.Point(16, 68);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(57, 19);
@@ -2671,7 +2758,7 @@
             // 
             this.checkBox_ZhuanDong_YiDong.AutoSize = true;
             this.checkBox_ZhuanDong_YiDong.BackColor = System.Drawing.Color.Transparent;
-            this.checkBox_ZhuanDong_YiDong.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.checkBox_ZhuanDong_YiDong.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.checkBox_ZhuanDong_YiDong.ForeColor = System.Drawing.SystemColors.Control;
             this.checkBox_ZhuanDong_YiDong.Location = new System.Drawing.Point(17, 33);
             this.checkBox_ZhuanDong_YiDong.Name = "checkBox_ZhuanDong_YiDong";
@@ -2684,7 +2771,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label1.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label1.Location = new System.Drawing.Point(176, 68);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(19, 19);
@@ -2695,7 +2782,7 @@
             // 
             this.numericUpDown_ZhuanDong_YiDong_Speed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_ZhuanDong_YiDong_Speed.DecimalPlaces = 2;
-            this.numericUpDown_ZhuanDong_YiDong_Speed.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_ZhuanDong_YiDong_Speed.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.numericUpDown_ZhuanDong_YiDong_Speed.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_ZhuanDong_YiDong_Speed.Location = new System.Drawing.Point(112, 63);
             this.numericUpDown_ZhuanDong_YiDong_Speed.Name = "numericUpDown_ZhuanDong_YiDong_Speed";
@@ -2710,7 +2797,7 @@
             this.btn_TuiJinQin_FanZhuan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_TuiJinQin_FanZhuan.FlatAppearance.BorderSize = 0;
             this.btn_TuiJinQin_FanZhuan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_TuiJinQin_FanZhuan.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_TuiJinQin_FanZhuan.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_TuiJinQin_FanZhuan.ForeColor = System.Drawing.Color.Transparent;
             this.btn_TuiJinQin_FanZhuan.Location = new System.Drawing.Point(104, 103);
             this.btn_TuiJinQin_FanZhuan.Margin = new System.Windows.Forms.Padding(2);
@@ -2730,7 +2817,7 @@
             this.btn_TuiJinQin_ZhengZhuan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_TuiJinQin_ZhengZhuan.FlatAppearance.BorderSize = 0;
             this.btn_TuiJinQin_ZhengZhuan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_TuiJinQin_ZhengZhuan.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_TuiJinQin_ZhengZhuan.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_TuiJinQin_ZhengZhuan.ForeColor = System.Drawing.Color.Transparent;
             this.btn_TuiJinQin_ZhengZhuan.Location = new System.Drawing.Point(7, 103);
             this.btn_TuiJinQin_ZhengZhuan.Margin = new System.Windows.Forms.Padding(2);
@@ -2752,6 +2839,7 @@
             this.groupBox_TuiJinQi_PingYi.Controls.Add(this.label263);
             this.groupBox_TuiJinQi_PingYi.Controls.Add(this.btn_TuiJinQi_HMove_YouYi);
             this.groupBox_TuiJinQi_PingYi.Controls.Add(this.numericUpDown_TuiJinQi_HMove_ZengLiang);
+            this.groupBox_TuiJinQi_PingYi.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox_TuiJinQi_PingYi.Location = new System.Drawing.Point(222, 347);
             this.groupBox_TuiJinQi_PingYi.Name = "groupBox_TuiJinQi_PingYi";
             this.groupBox_TuiJinQi_PingYi.Size = new System.Drawing.Size(219, 155);
@@ -2767,7 +2855,7 @@
             this.btn_TuiJinQi_HMove_QianJin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_TuiJinQi_HMove_QianJin.FlatAppearance.BorderSize = 0;
             this.btn_TuiJinQi_HMove_QianJin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_TuiJinQi_HMove_QianJin.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_TuiJinQi_HMove_QianJin.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_TuiJinQi_HMove_QianJin.ForeColor = System.Drawing.Color.Transparent;
             this.btn_TuiJinQi_HMove_QianJin.Location = new System.Drawing.Point(75, 23);
             this.btn_TuiJinQi_HMove_QianJin.Margin = new System.Windows.Forms.Padding(2);
@@ -2785,7 +2873,7 @@
             this.btn_TuiJinQi_HMove_ZuoYi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_TuiJinQi_HMove_ZuoYi.FlatAppearance.BorderSize = 0;
             this.btn_TuiJinQi_HMove_ZuoYi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_TuiJinQi_HMove_ZuoYi.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_TuiJinQi_HMove_ZuoYi.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_TuiJinQi_HMove_ZuoYi.ForeColor = System.Drawing.Color.Transparent;
             this.btn_TuiJinQi_HMove_ZuoYi.Location = new System.Drawing.Point(8, 67);
             this.btn_TuiJinQi_HMove_ZuoYi.Margin = new System.Windows.Forms.Padding(2);
@@ -2803,7 +2891,7 @@
             this.btn_TuiJinQi_HMove_Stop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_TuiJinQi_HMove_Stop.FlatAppearance.BorderSize = 0;
             this.btn_TuiJinQi_HMove_Stop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_TuiJinQi_HMove_Stop.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_TuiJinQi_HMove_Stop.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_TuiJinQi_HMove_Stop.ForeColor = System.Drawing.Color.Transparent;
             this.btn_TuiJinQi_HMove_Stop.Location = new System.Drawing.Point(75, 67);
             this.btn_TuiJinQi_HMove_Stop.Margin = new System.Windows.Forms.Padding(2);
@@ -2821,7 +2909,7 @@
             this.btn_TuiJinQi_HMove_HouTui.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_TuiJinQi_HMove_HouTui.FlatAppearance.BorderSize = 0;
             this.btn_TuiJinQi_HMove_HouTui.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_TuiJinQi_HMove_HouTui.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_TuiJinQi_HMove_HouTui.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_TuiJinQi_HMove_HouTui.ForeColor = System.Drawing.Color.Transparent;
             this.btn_TuiJinQi_HMove_HouTui.Location = new System.Drawing.Point(75, 111);
             this.btn_TuiJinQi_HMove_HouTui.Margin = new System.Windows.Forms.Padding(2);
@@ -2836,7 +2924,7 @@
             // 
             this.label263.AutoSize = true;
             this.label263.BackColor = System.Drawing.Color.Transparent;
-            this.label263.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label263.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label263.Location = new System.Drawing.Point(200, 32);
             this.label263.Name = "label263";
             this.label263.Size = new System.Drawing.Size(19, 19);
@@ -2850,7 +2938,7 @@
             this.btn_TuiJinQi_HMove_YouYi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_TuiJinQi_HMove_YouYi.FlatAppearance.BorderSize = 0;
             this.btn_TuiJinQi_HMove_YouYi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_TuiJinQi_HMove_YouYi.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_TuiJinQi_HMove_YouYi.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_TuiJinQi_HMove_YouYi.ForeColor = System.Drawing.Color.Transparent;
             this.btn_TuiJinQi_HMove_YouYi.Location = new System.Drawing.Point(142, 67);
             this.btn_TuiJinQi_HMove_YouYi.Margin = new System.Windows.Forms.Padding(2);
@@ -2865,7 +2953,7 @@
             // 
             this.numericUpDown_TuiJinQi_HMove_ZengLiang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_TuiJinQi_HMove_ZengLiang.DecimalPlaces = 2;
-            this.numericUpDown_TuiJinQi_HMove_ZengLiang.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_TuiJinQi_HMove_ZengLiang.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.numericUpDown_TuiJinQi_HMove_ZengLiang.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_TuiJinQi_HMove_ZengLiang.Location = new System.Drawing.Point(142, 27);
             this.numericUpDown_TuiJinQi_HMove_ZengLiang.Name = "numericUpDown_TuiJinQi_HMove_ZengLiang";
@@ -2889,7 +2977,7 @@
             // label237
             // 
             this.label237.AutoSize = true;
-            this.label237.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label237.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label237.ForeColor = System.Drawing.SystemColors.Control;
             this.label237.Location = new System.Drawing.Point(128, 2);
             this.label237.Name = "label237";
@@ -2903,7 +2991,8 @@
             this.groupBox38.Controls.Add(this.btn_ROVPower_SerialOpen);
             this.groupBox38.Controls.Add(this.comboBox_ROVPower_SerialPort);
             this.groupBox38.Controls.Add(this.label233);
-            this.groupBox38.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold);
+            this.groupBox38.Font = new System.Drawing.Font("SimSun", 13F, System.Drawing.FontStyle.Bold);
+            this.groupBox38.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox38.Location = new System.Drawing.Point(1444, 802);
             this.groupBox38.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox38.Name = "groupBox38";
@@ -2921,7 +3010,7 @@
             this.btn_ROVPower_SerialClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_ROVPower_SerialClose.FlatAppearance.BorderSize = 0;
             this.btn_ROVPower_SerialClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ROVPower_SerialClose.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.btn_ROVPower_SerialClose.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.btn_ROVPower_SerialClose.ForeColor = System.Drawing.Color.Transparent;
             this.btn_ROVPower_SerialClose.Location = new System.Drawing.Point(76, 62);
             this.btn_ROVPower_SerialClose.Margin = new System.Windows.Forms.Padding(2);
@@ -2939,7 +3028,7 @@
             this.btn_ROVPower_SerialOpen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_ROVPower_SerialOpen.FlatAppearance.BorderSize = 0;
             this.btn_ROVPower_SerialOpen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ROVPower_SerialOpen.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.btn_ROVPower_SerialOpen.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.btn_ROVPower_SerialOpen.ForeColor = System.Drawing.Color.Transparent;
             this.btn_ROVPower_SerialOpen.Location = new System.Drawing.Point(6, 62);
             this.btn_ROVPower_SerialOpen.Margin = new System.Windows.Forms.Padding(2);
@@ -2953,7 +3042,7 @@
             // comboBox_ROVPower_SerialPort
             // 
             this.comboBox_ROVPower_SerialPort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.comboBox_ROVPower_SerialPort.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.comboBox_ROVPower_SerialPort.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.comboBox_ROVPower_SerialPort.ForeColor = System.Drawing.SystemColors.Control;
             this.comboBox_ROVPower_SerialPort.FormattingEnabled = true;
             this.comboBox_ROVPower_SerialPort.Location = new System.Drawing.Point(62, 27);
@@ -2965,7 +3054,7 @@
             // label233
             // 
             this.label233.AutoSize = true;
-            this.label233.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label233.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label233.Location = new System.Drawing.Point(5, 30);
             this.label233.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label233.Name = "label233";
@@ -2976,8 +3065,8 @@
             // label221
             // 
             this.label221.AutoSize = true;
-            this.label221.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label221.ForeColor = System.Drawing.Color.Blue;
+            this.label221.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label221.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label221.Location = new System.Drawing.Point(1213, 557);
             this.label221.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label221.Name = "label221";
@@ -2988,8 +3077,8 @@
             // label222
             // 
             this.label222.AutoSize = true;
-            this.label222.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label222.ForeColor = System.Drawing.Color.Blue;
+            this.label222.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label222.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label222.Location = new System.Drawing.Point(1104, 557);
             this.label222.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label222.Name = "label222";
@@ -3000,8 +3089,8 @@
             // label223
             // 
             this.label223.AutoSize = true;
-            this.label223.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label223.ForeColor = System.Drawing.Color.Blue;
+            this.label223.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label223.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label223.Location = new System.Drawing.Point(1005, 557);
             this.label223.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label223.Name = "label223";
@@ -3012,8 +3101,8 @@
             // label224
             // 
             this.label224.AutoSize = true;
-            this.label224.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label224.ForeColor = System.Drawing.Color.Blue;
+            this.label224.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label224.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label224.Location = new System.Drawing.Point(910, 557);
             this.label224.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label224.Name = "label224";
@@ -3027,7 +3116,8 @@
             this.groupBox_WaterCtlBox_BoardD_Ctl.Controls.Add(this.btn_WaterCtlBox_SerialOpen);
             this.groupBox_WaterCtlBox_BoardD_Ctl.Controls.Add(this.comboBox_WaterCtlBox_SerialPort);
             this.groupBox_WaterCtlBox_BoardD_Ctl.Controls.Add(this.label235);
-            this.groupBox_WaterCtlBox_BoardD_Ctl.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold);
+            this.groupBox_WaterCtlBox_BoardD_Ctl.Font = new System.Drawing.Font("SimSun", 13F, System.Drawing.FontStyle.Bold);
+            this.groupBox_WaterCtlBox_BoardD_Ctl.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox_WaterCtlBox_BoardD_Ctl.Location = new System.Drawing.Point(1291, 802);
             this.groupBox_WaterCtlBox_BoardD_Ctl.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox_WaterCtlBox_BoardD_Ctl.Name = "groupBox_WaterCtlBox_BoardD_Ctl";
@@ -3045,7 +3135,7 @@
             this.btn_WaterCtlBox_SerialClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_WaterCtlBox_SerialClose.FlatAppearance.BorderSize = 0;
             this.btn_WaterCtlBox_SerialClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_WaterCtlBox_SerialClose.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.btn_WaterCtlBox_SerialClose.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.btn_WaterCtlBox_SerialClose.ForeColor = System.Drawing.Color.Transparent;
             this.btn_WaterCtlBox_SerialClose.Location = new System.Drawing.Point(75, 62);
             this.btn_WaterCtlBox_SerialClose.Margin = new System.Windows.Forms.Padding(2);
@@ -3063,7 +3153,7 @@
             this.btn_WaterCtlBox_SerialOpen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_WaterCtlBox_SerialOpen.FlatAppearance.BorderSize = 0;
             this.btn_WaterCtlBox_SerialOpen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_WaterCtlBox_SerialOpen.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.btn_WaterCtlBox_SerialOpen.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.btn_WaterCtlBox_SerialOpen.ForeColor = System.Drawing.Color.Transparent;
             this.btn_WaterCtlBox_SerialOpen.Location = new System.Drawing.Point(5, 62);
             this.btn_WaterCtlBox_SerialOpen.Margin = new System.Windows.Forms.Padding(2);
@@ -3077,7 +3167,7 @@
             // comboBox_WaterCtlBox_SerialPort
             // 
             this.comboBox_WaterCtlBox_SerialPort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.comboBox_WaterCtlBox_SerialPort.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.comboBox_WaterCtlBox_SerialPort.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.comboBox_WaterCtlBox_SerialPort.ForeColor = System.Drawing.SystemColors.Control;
             this.comboBox_WaterCtlBox_SerialPort.FormattingEnabled = true;
             this.comboBox_WaterCtlBox_SerialPort.Location = new System.Drawing.Point(63, 27);
@@ -3089,7 +3179,7 @@
             // label235
             // 
             this.label235.AutoSize = true;
-            this.label235.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label235.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label235.Location = new System.Drawing.Point(6, 30);
             this.label235.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label235.Name = "label235";
@@ -3100,8 +3190,8 @@
             // label225
             // 
             this.label225.AutoSize = true;
-            this.label225.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label225.ForeColor = System.Drawing.Color.Blue;
+            this.label225.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label225.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label225.Location = new System.Drawing.Point(814, 557);
             this.label225.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label225.Name = "label225";
@@ -3111,53 +3201,53 @@
             // 
             // gaugeControl_YouXiang
             // 
-            this.gaugeControl_YouXiang.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            gradientFillColor15.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor15.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl_YouXiang.Frame.BackColor = gradientFillColor15;
-            gradientFillColor16.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor16.BorderWidth = 1;
-            gradientFillColor16.Color1 = System.Drawing.Color.White;
-            gradientFillColor16.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl_YouXiang.Frame.FrameColor = gradientFillColor16;
+            this.gaugeControl_YouXiang.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            gradientFillColor39.Color1 = System.Drawing.Color.Gainsboro;
+            gradientFillColor39.Color2 = System.Drawing.Color.DarkGray;
+            this.gaugeControl_YouXiang.Frame.BackColor = gradientFillColor39;
+            gradientFillColor40.BorderColor = System.Drawing.Color.Gainsboro;
+            gradientFillColor40.BorderWidth = 1;
+            gradientFillColor40.Color1 = System.Drawing.Color.White;
+            gradientFillColor40.Color2 = System.Drawing.Color.DimGray;
+            this.gaugeControl_YouXiang.Frame.FrameColor = gradientFillColor40;
             this.gaugeControl_YouXiang.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Rectangular;
-            gaugeLinearScale6.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale6.Location")));
-            gaugeLinearScale6.MajorTickMarks.Interval = 2D;
-            gaugeLinearScale6.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale6.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
-            gaugeLinearScale6.MajorTickMarks.Layout.Width = 0.044F;
-            gaugeLinearScale6.MaxPin.Name = "MaxPin";
-            gaugeLinearScale6.MaxPin.Visible = false;
-            gaugeLinearScale6.MaxValue = 10D;
-            gaugeLinearScale6.MinorTickMarks.Interval = 0.4D;
-            gaugeLinearScale6.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale6.MinorTickMarks.Layout.Width = 0.025F;
-            gaugeLinearScale6.MinPin.Name = "MinPin";
-            gaugeLinearScale6.MinPin.Visible = false;
-            gaugeLinearScale6.Name = "Scale1";
-            gaugeLinearScale6.Orientation = System.Windows.Forms.Orientation.Vertical;
-            gaugePointer10.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
-            gaugePointer10.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer10.CapFillColor.BorderWidth = 1;
-            gaugePointer10.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer10.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer10.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer10.FillColor.BorderWidth = 1;
-            gaugePointer10.FillColor.Color1 = System.Drawing.Color.Green;
-            gaugePointer10.Name = "Pointer1";
-            gaugePointer10.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
-            gaugePointer10.ScaleOffset = 0.022F;
-            gaugePointer10.Style = DevComponents.Instrumentation.PointerStyle.Bar;
-            gaugePointer10.Tooltip = "";
-            gaugePointer10.Value = 1D;
-            gaugePointer10.Width = 0.12F;
-            gaugeLinearScale6.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer10});
-            gaugeLinearScale6.Reversed = true;
-            gaugeLinearScale6.Size = new System.Drawing.SizeF(1.3F, 0.7F);
-            gaugeLinearScale6.Width = 0F;
+            gaugeLinearScale16.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale16.Location")));
+            gaugeLinearScale16.MajorTickMarks.Interval = 2D;
+            gaugeLinearScale16.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale16.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
+            gaugeLinearScale16.MajorTickMarks.Layout.Width = 0.044F;
+            gaugeLinearScale16.MaxPin.Name = "MaxPin";
+            gaugeLinearScale16.MaxPin.Visible = false;
+            gaugeLinearScale16.MaxValue = 10D;
+            gaugeLinearScale16.MinorTickMarks.Interval = 0.4D;
+            gaugeLinearScale16.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale16.MinorTickMarks.Layout.Width = 0.025F;
+            gaugeLinearScale16.MinPin.Name = "MinPin";
+            gaugeLinearScale16.MinPin.Visible = false;
+            gaugeLinearScale16.Name = "Scale1";
+            gaugeLinearScale16.Orientation = System.Windows.Forms.Orientation.Vertical;
+            gaugePointer24.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
+            gaugePointer24.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer24.CapFillColor.BorderWidth = 1;
+            gaugePointer24.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer24.CapFillColor.Color2 = System.Drawing.Color.DimGray;
+            gaugePointer24.FillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer24.FillColor.BorderWidth = 1;
+            gaugePointer24.FillColor.Color1 = System.Drawing.Color.Green;
+            gaugePointer24.Name = "Pointer1";
+            gaugePointer24.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
+            gaugePointer24.ScaleOffset = 0.022F;
+            gaugePointer24.Style = DevComponents.Instrumentation.PointerStyle.Bar;
+            gaugePointer24.Tooltip = "";
+            gaugePointer24.Value = 1D;
+            gaugePointer24.Width = 0.12F;
+            gaugeLinearScale16.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
+            gaugePointer24});
+            gaugeLinearScale16.Reversed = true;
+            gaugeLinearScale16.Size = new System.Drawing.SizeF(1.3F, 0.7F);
+            gaugeLinearScale16.Width = 0F;
             this.gaugeControl_YouXiang.LinearScales.AddRange(new DevComponents.Instrumentation.GaugeLinearScale[] {
-            gaugeLinearScale6});
+            gaugeLinearScale16});
             this.gaugeControl_YouXiang.Location = new System.Drawing.Point(1198, 578);
             this.gaugeControl_YouXiang.Margin = new System.Windows.Forms.Padding(2);
             this.gaugeControl_YouXiang.Name = "gaugeControl_YouXiang";
@@ -3167,52 +3257,52 @@
             // 
             // gaugeControl_BuChang_4
             // 
-            this.gaugeControl_BuChang_4.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            gradientFillColor17.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor17.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl_BuChang_4.Frame.BackColor = gradientFillColor17;
-            gradientFillColor18.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor18.BorderWidth = 1;
-            gradientFillColor18.Color1 = System.Drawing.Color.White;
-            gradientFillColor18.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl_BuChang_4.Frame.FrameColor = gradientFillColor18;
+            this.gaugeControl_BuChang_4.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            gradientFillColor41.Color1 = System.Drawing.Color.Gainsboro;
+            gradientFillColor41.Color2 = System.Drawing.Color.DarkGray;
+            this.gaugeControl_BuChang_4.Frame.BackColor = gradientFillColor41;
+            gradientFillColor42.BorderColor = System.Drawing.Color.Gainsboro;
+            gradientFillColor42.BorderWidth = 1;
+            gradientFillColor42.Color1 = System.Drawing.Color.White;
+            gradientFillColor42.Color2 = System.Drawing.Color.DimGray;
+            this.gaugeControl_BuChang_4.Frame.FrameColor = gradientFillColor42;
             this.gaugeControl_BuChang_4.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Rectangular;
-            gaugeLinearScale7.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale7.Location")));
-            gaugeLinearScale7.MajorTickMarks.Interval = 0.5D;
-            gaugeLinearScale7.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale7.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
-            gaugeLinearScale7.MajorTickMarks.Layout.Width = 0.044F;
-            gaugeLinearScale7.MaxPin.Name = "MaxPin";
-            gaugeLinearScale7.MaxPin.Visible = false;
-            gaugeLinearScale7.MaxValue = 2.5D;
-            gaugeLinearScale7.MinorTickMarks.Interval = 0.1D;
-            gaugeLinearScale7.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale7.MinorTickMarks.Layout.Width = 0.025F;
-            gaugeLinearScale7.MinPin.Name = "MinPin";
-            gaugeLinearScale7.MinPin.Visible = false;
-            gaugeLinearScale7.Name = "Scale1";
-            gaugeLinearScale7.Orientation = System.Windows.Forms.Orientation.Vertical;
-            gaugePointer11.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
-            gaugePointer11.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer11.CapFillColor.BorderWidth = 1;
-            gaugePointer11.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer11.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer11.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer11.FillColor.BorderWidth = 1;
-            gaugePointer11.FillColor.Color1 = System.Drawing.Color.Green;
-            gaugePointer11.Name = "Pointer1";
-            gaugePointer11.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
-            gaugePointer11.ScaleOffset = 0.022F;
-            gaugePointer11.Style = DevComponents.Instrumentation.PointerStyle.Bar;
-            gaugePointer11.Value = 1D;
-            gaugePointer11.Width = 0.12F;
-            gaugeLinearScale7.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer11});
-            gaugeLinearScale7.Reversed = true;
-            gaugeLinearScale7.Size = new System.Drawing.SizeF(1.3F, 0.7F);
-            gaugeLinearScale7.Width = 0F;
+            gaugeLinearScale17.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale17.Location")));
+            gaugeLinearScale17.MajorTickMarks.Interval = 0.5D;
+            gaugeLinearScale17.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale17.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
+            gaugeLinearScale17.MajorTickMarks.Layout.Width = 0.044F;
+            gaugeLinearScale17.MaxPin.Name = "MaxPin";
+            gaugeLinearScale17.MaxPin.Visible = false;
+            gaugeLinearScale17.MaxValue = 2.5D;
+            gaugeLinearScale17.MinorTickMarks.Interval = 0.1D;
+            gaugeLinearScale17.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale17.MinorTickMarks.Layout.Width = 0.025F;
+            gaugeLinearScale17.MinPin.Name = "MinPin";
+            gaugeLinearScale17.MinPin.Visible = false;
+            gaugeLinearScale17.Name = "Scale1";
+            gaugeLinearScale17.Orientation = System.Windows.Forms.Orientation.Vertical;
+            gaugePointer25.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
+            gaugePointer25.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer25.CapFillColor.BorderWidth = 1;
+            gaugePointer25.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer25.CapFillColor.Color2 = System.Drawing.Color.DimGray;
+            gaugePointer25.FillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer25.FillColor.BorderWidth = 1;
+            gaugePointer25.FillColor.Color1 = System.Drawing.Color.Green;
+            gaugePointer25.Name = "Pointer1";
+            gaugePointer25.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
+            gaugePointer25.ScaleOffset = 0.022F;
+            gaugePointer25.Style = DevComponents.Instrumentation.PointerStyle.Bar;
+            gaugePointer25.Value = 1D;
+            gaugePointer25.Width = 0.12F;
+            gaugeLinearScale17.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
+            gaugePointer25});
+            gaugeLinearScale17.Reversed = true;
+            gaugeLinearScale17.Size = new System.Drawing.SizeF(1.3F, 0.7F);
+            gaugeLinearScale17.Width = 0F;
             this.gaugeControl_BuChang_4.LinearScales.AddRange(new DevComponents.Instrumentation.GaugeLinearScale[] {
-            gaugeLinearScale7});
+            gaugeLinearScale17});
             this.gaugeControl_BuChang_4.Location = new System.Drawing.Point(1109, 578);
             this.gaugeControl_BuChang_4.Margin = new System.Windows.Forms.Padding(2);
             this.gaugeControl_BuChang_4.Name = "gaugeControl_BuChang_4";
@@ -3222,52 +3312,52 @@
             // 
             // gaugeControl_BuChang_3
             // 
-            this.gaugeControl_BuChang_3.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            gradientFillColor19.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor19.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl_BuChang_3.Frame.BackColor = gradientFillColor19;
-            gradientFillColor20.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor20.BorderWidth = 1;
-            gradientFillColor20.Color1 = System.Drawing.Color.White;
-            gradientFillColor20.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl_BuChang_3.Frame.FrameColor = gradientFillColor20;
+            this.gaugeControl_BuChang_3.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            gradientFillColor43.Color1 = System.Drawing.Color.Gainsboro;
+            gradientFillColor43.Color2 = System.Drawing.Color.DarkGray;
+            this.gaugeControl_BuChang_3.Frame.BackColor = gradientFillColor43;
+            gradientFillColor44.BorderColor = System.Drawing.Color.Gainsboro;
+            gradientFillColor44.BorderWidth = 1;
+            gradientFillColor44.Color1 = System.Drawing.Color.White;
+            gradientFillColor44.Color2 = System.Drawing.Color.DimGray;
+            this.gaugeControl_BuChang_3.Frame.FrameColor = gradientFillColor44;
             this.gaugeControl_BuChang_3.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Rectangular;
-            gaugeLinearScale8.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale8.Location")));
-            gaugeLinearScale8.MajorTickMarks.Interval = 0.5D;
-            gaugeLinearScale8.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale8.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
-            gaugeLinearScale8.MajorTickMarks.Layout.Width = 0.044F;
-            gaugeLinearScale8.MaxPin.Name = "MaxPin";
-            gaugeLinearScale8.MaxPin.Visible = false;
-            gaugeLinearScale8.MaxValue = 2.5D;
-            gaugeLinearScale8.MinorTickMarks.Interval = 0.1D;
-            gaugeLinearScale8.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale8.MinorTickMarks.Layout.Width = 0.025F;
-            gaugeLinearScale8.MinPin.Name = "MinPin";
-            gaugeLinearScale8.MinPin.Visible = false;
-            gaugeLinearScale8.Name = "Scale1";
-            gaugeLinearScale8.Orientation = System.Windows.Forms.Orientation.Vertical;
-            gaugePointer12.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
-            gaugePointer12.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer12.CapFillColor.BorderWidth = 1;
-            gaugePointer12.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer12.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer12.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer12.FillColor.BorderWidth = 1;
-            gaugePointer12.FillColor.Color1 = System.Drawing.Color.Green;
-            gaugePointer12.Name = "Pointer1";
-            gaugePointer12.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
-            gaugePointer12.ScaleOffset = 0.022F;
-            gaugePointer12.Style = DevComponents.Instrumentation.PointerStyle.Bar;
-            gaugePointer12.Value = 1D;
-            gaugePointer12.Width = 0.12F;
-            gaugeLinearScale8.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer12});
-            gaugeLinearScale8.Reversed = true;
-            gaugeLinearScale8.Size = new System.Drawing.SizeF(1.3F, 0.7F);
-            gaugeLinearScale8.Width = 0F;
+            gaugeLinearScale18.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale18.Location")));
+            gaugeLinearScale18.MajorTickMarks.Interval = 0.5D;
+            gaugeLinearScale18.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale18.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
+            gaugeLinearScale18.MajorTickMarks.Layout.Width = 0.044F;
+            gaugeLinearScale18.MaxPin.Name = "MaxPin";
+            gaugeLinearScale18.MaxPin.Visible = false;
+            gaugeLinearScale18.MaxValue = 2.5D;
+            gaugeLinearScale18.MinorTickMarks.Interval = 0.1D;
+            gaugeLinearScale18.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale18.MinorTickMarks.Layout.Width = 0.025F;
+            gaugeLinearScale18.MinPin.Name = "MinPin";
+            gaugeLinearScale18.MinPin.Visible = false;
+            gaugeLinearScale18.Name = "Scale1";
+            gaugeLinearScale18.Orientation = System.Windows.Forms.Orientation.Vertical;
+            gaugePointer26.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
+            gaugePointer26.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer26.CapFillColor.BorderWidth = 1;
+            gaugePointer26.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer26.CapFillColor.Color2 = System.Drawing.Color.DimGray;
+            gaugePointer26.FillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer26.FillColor.BorderWidth = 1;
+            gaugePointer26.FillColor.Color1 = System.Drawing.Color.Green;
+            gaugePointer26.Name = "Pointer1";
+            gaugePointer26.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
+            gaugePointer26.ScaleOffset = 0.022F;
+            gaugePointer26.Style = DevComponents.Instrumentation.PointerStyle.Bar;
+            gaugePointer26.Value = 1D;
+            gaugePointer26.Width = 0.12F;
+            gaugeLinearScale18.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
+            gaugePointer26});
+            gaugeLinearScale18.Reversed = true;
+            gaugeLinearScale18.Size = new System.Drawing.SizeF(1.3F, 0.7F);
+            gaugeLinearScale18.Width = 0F;
             this.gaugeControl_BuChang_3.LinearScales.AddRange(new DevComponents.Instrumentation.GaugeLinearScale[] {
-            gaugeLinearScale8});
+            gaugeLinearScale18});
             this.gaugeControl_BuChang_3.Location = new System.Drawing.Point(1014, 578);
             this.gaugeControl_BuChang_3.Margin = new System.Windows.Forms.Padding(2);
             this.gaugeControl_BuChang_3.Name = "gaugeControl_BuChang_3";
@@ -3277,52 +3367,52 @@
             // 
             // gaugeControl_BuChang_2
             // 
-            this.gaugeControl_BuChang_2.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            gradientFillColor21.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor21.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl_BuChang_2.Frame.BackColor = gradientFillColor21;
-            gradientFillColor22.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor22.BorderWidth = 1;
-            gradientFillColor22.Color1 = System.Drawing.Color.White;
-            gradientFillColor22.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl_BuChang_2.Frame.FrameColor = gradientFillColor22;
+            this.gaugeControl_BuChang_2.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            gradientFillColor45.Color1 = System.Drawing.Color.Gainsboro;
+            gradientFillColor45.Color2 = System.Drawing.Color.DarkGray;
+            this.gaugeControl_BuChang_2.Frame.BackColor = gradientFillColor45;
+            gradientFillColor46.BorderColor = System.Drawing.Color.Gainsboro;
+            gradientFillColor46.BorderWidth = 1;
+            gradientFillColor46.Color1 = System.Drawing.Color.White;
+            gradientFillColor46.Color2 = System.Drawing.Color.DimGray;
+            this.gaugeControl_BuChang_2.Frame.FrameColor = gradientFillColor46;
             this.gaugeControl_BuChang_2.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Rectangular;
-            gaugeLinearScale9.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale9.Location")));
-            gaugeLinearScale9.MajorTickMarks.Interval = 0.5D;
-            gaugeLinearScale9.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale9.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
-            gaugeLinearScale9.MajorTickMarks.Layout.Width = 0.044F;
-            gaugeLinearScale9.MaxPin.Name = "MaxPin";
-            gaugeLinearScale9.MaxPin.Visible = false;
-            gaugeLinearScale9.MaxValue = 2.5D;
-            gaugeLinearScale9.MinorTickMarks.Interval = 0.1D;
-            gaugeLinearScale9.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale9.MinorTickMarks.Layout.Width = 0.025F;
-            gaugeLinearScale9.MinPin.Name = "MinPin";
-            gaugeLinearScale9.MinPin.Visible = false;
-            gaugeLinearScale9.Name = "Scale1";
-            gaugeLinearScale9.Orientation = System.Windows.Forms.Orientation.Vertical;
-            gaugePointer13.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
-            gaugePointer13.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer13.CapFillColor.BorderWidth = 1;
-            gaugePointer13.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer13.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer13.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer13.FillColor.BorderWidth = 1;
-            gaugePointer13.FillColor.Color1 = System.Drawing.Color.Green;
-            gaugePointer13.Name = "Pointer1";
-            gaugePointer13.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
-            gaugePointer13.ScaleOffset = 0.022F;
-            gaugePointer13.Style = DevComponents.Instrumentation.PointerStyle.Bar;
-            gaugePointer13.Value = 1D;
-            gaugePointer13.Width = 0.12F;
-            gaugeLinearScale9.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer13});
-            gaugeLinearScale9.Reversed = true;
-            gaugeLinearScale9.Size = new System.Drawing.SizeF(1.3F, 0.7F);
-            gaugeLinearScale9.Width = 0F;
+            gaugeLinearScale19.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale19.Location")));
+            gaugeLinearScale19.MajorTickMarks.Interval = 0.5D;
+            gaugeLinearScale19.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale19.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
+            gaugeLinearScale19.MajorTickMarks.Layout.Width = 0.044F;
+            gaugeLinearScale19.MaxPin.Name = "MaxPin";
+            gaugeLinearScale19.MaxPin.Visible = false;
+            gaugeLinearScale19.MaxValue = 2.5D;
+            gaugeLinearScale19.MinorTickMarks.Interval = 0.1D;
+            gaugeLinearScale19.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale19.MinorTickMarks.Layout.Width = 0.025F;
+            gaugeLinearScale19.MinPin.Name = "MinPin";
+            gaugeLinearScale19.MinPin.Visible = false;
+            gaugeLinearScale19.Name = "Scale1";
+            gaugeLinearScale19.Orientation = System.Windows.Forms.Orientation.Vertical;
+            gaugePointer27.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
+            gaugePointer27.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer27.CapFillColor.BorderWidth = 1;
+            gaugePointer27.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer27.CapFillColor.Color2 = System.Drawing.Color.DimGray;
+            gaugePointer27.FillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer27.FillColor.BorderWidth = 1;
+            gaugePointer27.FillColor.Color1 = System.Drawing.Color.Green;
+            gaugePointer27.Name = "Pointer1";
+            gaugePointer27.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
+            gaugePointer27.ScaleOffset = 0.022F;
+            gaugePointer27.Style = DevComponents.Instrumentation.PointerStyle.Bar;
+            gaugePointer27.Value = 1D;
+            gaugePointer27.Width = 0.12F;
+            gaugeLinearScale19.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
+            gaugePointer27});
+            gaugeLinearScale19.Reversed = true;
+            gaugeLinearScale19.Size = new System.Drawing.SizeF(1.3F, 0.7F);
+            gaugeLinearScale19.Width = 0F;
             this.gaugeControl_BuChang_2.LinearScales.AddRange(new DevComponents.Instrumentation.GaugeLinearScale[] {
-            gaugeLinearScale9});
+            gaugeLinearScale19});
             this.gaugeControl_BuChang_2.Location = new System.Drawing.Point(917, 578);
             this.gaugeControl_BuChang_2.Margin = new System.Windows.Forms.Padding(2);
             this.gaugeControl_BuChang_2.Name = "gaugeControl_BuChang_2";
@@ -3332,52 +3422,52 @@
             // 
             // gaugeControl_BuChang_1
             // 
-            this.gaugeControl_BuChang_1.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            gradientFillColor23.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor23.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl_BuChang_1.Frame.BackColor = gradientFillColor23;
-            gradientFillColor24.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor24.BorderWidth = 1;
-            gradientFillColor24.Color1 = System.Drawing.Color.White;
-            gradientFillColor24.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl_BuChang_1.Frame.FrameColor = gradientFillColor24;
+            this.gaugeControl_BuChang_1.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            gradientFillColor47.Color1 = System.Drawing.Color.Gainsboro;
+            gradientFillColor47.Color2 = System.Drawing.Color.DarkGray;
+            this.gaugeControl_BuChang_1.Frame.BackColor = gradientFillColor47;
+            gradientFillColor48.BorderColor = System.Drawing.Color.Gainsboro;
+            gradientFillColor48.BorderWidth = 1;
+            gradientFillColor48.Color1 = System.Drawing.Color.White;
+            gradientFillColor48.Color2 = System.Drawing.Color.DimGray;
+            this.gaugeControl_BuChang_1.Frame.FrameColor = gradientFillColor48;
             this.gaugeControl_BuChang_1.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Rectangular;
-            gaugeLinearScale10.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale10.Location")));
-            gaugeLinearScale10.MajorTickMarks.Interval = 0.5D;
-            gaugeLinearScale10.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale10.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
-            gaugeLinearScale10.MajorTickMarks.Layout.Width = 0.044F;
-            gaugeLinearScale10.MaxPin.Name = "MaxPin";
-            gaugeLinearScale10.MaxPin.Visible = false;
-            gaugeLinearScale10.MaxValue = 2.5D;
-            gaugeLinearScale10.MinorTickMarks.Interval = 0.1D;
-            gaugeLinearScale10.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
-            gaugeLinearScale10.MinorTickMarks.Layout.Width = 0.025F;
-            gaugeLinearScale10.MinPin.Name = "MinPin";
-            gaugeLinearScale10.MinPin.Visible = false;
-            gaugeLinearScale10.Name = "Scale1";
-            gaugeLinearScale10.Orientation = System.Windows.Forms.Orientation.Vertical;
-            gaugePointer14.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
-            gaugePointer14.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer14.CapFillColor.BorderWidth = 1;
-            gaugePointer14.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer14.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer14.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer14.FillColor.BorderWidth = 1;
-            gaugePointer14.FillColor.Color1 = System.Drawing.Color.Green;
-            gaugePointer14.Name = "Pointer1";
-            gaugePointer14.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
-            gaugePointer14.ScaleOffset = 0.022F;
-            gaugePointer14.Style = DevComponents.Instrumentation.PointerStyle.Bar;
-            gaugePointer14.Value = 1D;
-            gaugePointer14.Width = 0.12F;
-            gaugeLinearScale10.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer14});
-            gaugeLinearScale10.Reversed = true;
-            gaugeLinearScale10.Size = new System.Drawing.SizeF(1.3F, 0.7F);
-            gaugeLinearScale10.Width = 0F;
+            gaugeLinearScale20.Location = ((System.Drawing.PointF)(resources.GetObject("gaugeLinearScale20.Location")));
+            gaugeLinearScale20.MajorTickMarks.Interval = 0.5D;
+            gaugeLinearScale20.MajorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale20.MajorTickMarks.Layout.Style = DevComponents.Instrumentation.GaugeMarkerStyle.Triangle;
+            gaugeLinearScale20.MajorTickMarks.Layout.Width = 0.044F;
+            gaugeLinearScale20.MaxPin.Name = "MaxPin";
+            gaugeLinearScale20.MaxPin.Visible = false;
+            gaugeLinearScale20.MaxValue = 2.5D;
+            gaugeLinearScale20.MinorTickMarks.Interval = 0.1D;
+            gaugeLinearScale20.MinorTickMarks.Layout.Placement = DevComponents.Instrumentation.DisplayPlacement.Near;
+            gaugeLinearScale20.MinorTickMarks.Layout.Width = 0.025F;
+            gaugeLinearScale20.MinPin.Name = "MinPin";
+            gaugeLinearScale20.MinPin.Visible = false;
+            gaugeLinearScale20.Name = "Scale1";
+            gaugeLinearScale20.Orientation = System.Windows.Forms.Orientation.Vertical;
+            gaugePointer28.BarStyle = DevComponents.Instrumentation.BarPointerStyle.Rounded;
+            gaugePointer28.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer28.CapFillColor.BorderWidth = 1;
+            gaugePointer28.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
+            gaugePointer28.CapFillColor.Color2 = System.Drawing.Color.DimGray;
+            gaugePointer28.FillColor.BorderColor = System.Drawing.Color.DimGray;
+            gaugePointer28.FillColor.BorderWidth = 1;
+            gaugePointer28.FillColor.Color1 = System.Drawing.Color.Green;
+            gaugePointer28.Name = "Pointer1";
+            gaugePointer28.Placement = DevComponents.Instrumentation.DisplayPlacement.Far;
+            gaugePointer28.ScaleOffset = 0.022F;
+            gaugePointer28.Style = DevComponents.Instrumentation.PointerStyle.Bar;
+            gaugePointer28.Value = 1D;
+            gaugePointer28.Width = 0.12F;
+            gaugeLinearScale20.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
+            gaugePointer28});
+            gaugeLinearScale20.Reversed = true;
+            gaugeLinearScale20.Size = new System.Drawing.SizeF(1.3F, 0.7F);
+            gaugeLinearScale20.Width = 0F;
             this.gaugeControl_BuChang_1.LinearScales.AddRange(new DevComponents.Instrumentation.GaugeLinearScale[] {
-            gaugeLinearScale10});
+            gaugeLinearScale20});
             this.gaugeControl_BuChang_1.Location = new System.Drawing.Point(820, 578);
             this.gaugeControl_BuChang_1.Margin = new System.Windows.Forms.Padding(2);
             this.gaugeControl_BuChang_1.Name = "gaugeControl_BuChang_1";
@@ -3409,7 +3499,7 @@
             this.btn_FaBox_Space.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_FaBox_Space.FlatAppearance.BorderSize = 0;
             this.btn_FaBox_Space.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_FaBox_Space.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_FaBox_Space.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_FaBox_Space.ForeColor = System.Drawing.Color.Transparent;
             this.btn_FaBox_Space.Location = new System.Drawing.Point(310, 724);
             this.btn_FaBox_Space.Name = "btn_FaBox_Space";
@@ -3466,7 +3556,8 @@
             this.groupBox_JXS.Controls.Add(this.btn_JXS_QIDONG);
             this.groupBox_JXS.Controls.Add(this.btn_JXS_CHUSHIHUA);
             this.groupBox_JXS.Controls.Add(this.groupBox54);
-            this.groupBox_JXS.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox_JXS.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox_JXS.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox_JXS.Location = new System.Drawing.Point(14, 25);
             this.groupBox_JXS.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox_JXS.Name = "groupBox_JXS";
@@ -3477,6 +3568,144 @@
             this.groupBox_JXS.Text = "机械手";
             this.groupBox_JXS.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint_2);
             // 
+            // button38
+            // 
+            this.button38.BackColor = System.Drawing.Color.Transparent;
+            this.button38.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.button38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button38.FlatAppearance.BorderSize = 0;
+            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button38.Font = new System.Drawing.Font("SimSun", 8F);
+            this.button38.ForeColor = System.Drawing.Color.Transparent;
+            this.button38.Location = new System.Drawing.Point(512, 130);
+            this.button38.Margin = new System.Windows.Forms.Padding(2);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(20, 20);
+            this.button38.TabIndex = 204;
+            this.button38.Text = "+";
+            this.button38.UseVisualStyleBackColor = false;
+            // 
+            // button39
+            // 
+            this.button39.BackColor = System.Drawing.Color.Transparent;
+            this.button39.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.button39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button39.FlatAppearance.BorderSize = 0;
+            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button39.Font = new System.Drawing.Font("SimSun", 8F);
+            this.button39.ForeColor = System.Drawing.Color.Transparent;
+            this.button39.Location = new System.Drawing.Point(488, 130);
+            this.button39.Margin = new System.Windows.Forms.Padding(2);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(20, 20);
+            this.button39.TabIndex = 203;
+            this.button39.Text = "-";
+            this.button39.UseVisualStyleBackColor = false;
+            // 
+            // textBox15
+            // 
+            this.textBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox15.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox15.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox15.Location = new System.Drawing.Point(485, 90);
+            this.textBox15.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.ReadOnly = true;
+            this.textBox15.Size = new System.Drawing.Size(50, 29);
+            this.textBox15.TabIndex = 202;
+            // 
+            // textBox16
+            // 
+            this.textBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox16.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox16.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox16.Location = new System.Drawing.Point(485, 55);
+            this.textBox16.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.ReadOnly = true;
+            this.textBox16.Size = new System.Drawing.Size(50, 29);
+            this.textBox16.TabIndex = 201;
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label55.Location = new System.Drawing.Point(493, 25);
+            this.label55.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(29, 19);
+            this.label55.TabIndex = 200;
+            this.label55.Text = "J8";
+            // 
+            // button36
+            // 
+            this.button36.BackColor = System.Drawing.Color.Transparent;
+            this.button36.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.button36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button36.FlatAppearance.BorderSize = 0;
+            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button36.Font = new System.Drawing.Font("SimSun", 8F);
+            this.button36.ForeColor = System.Drawing.Color.Transparent;
+            this.button36.Location = new System.Drawing.Point(456, 130);
+            this.button36.Margin = new System.Windows.Forms.Padding(2);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(20, 20);
+            this.button36.TabIndex = 199;
+            this.button36.Text = "+";
+            this.button36.UseVisualStyleBackColor = false;
+            // 
+            // button37
+            // 
+            this.button37.BackColor = System.Drawing.Color.Transparent;
+            this.button37.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.button37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button37.FlatAppearance.BorderSize = 0;
+            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button37.Font = new System.Drawing.Font("SimSun", 8F);
+            this.button37.ForeColor = System.Drawing.Color.Transparent;
+            this.button37.Location = new System.Drawing.Point(432, 130);
+            this.button37.Margin = new System.Windows.Forms.Padding(2);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(20, 20);
+            this.button37.TabIndex = 198;
+            this.button37.Text = "-";
+            this.button37.UseVisualStyleBackColor = false;
+            // 
+            // textBox13
+            // 
+            this.textBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox13.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox13.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox13.Location = new System.Drawing.Point(430, 90);
+            this.textBox13.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.ReadOnly = true;
+            this.textBox13.Size = new System.Drawing.Size(50, 29);
+            this.textBox13.TabIndex = 197;
+            // 
+            // textBox14
+            // 
+            this.textBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox14.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox14.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox14.Location = new System.Drawing.Point(430, 55);
+            this.textBox14.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.ReadOnly = true;
+            this.textBox14.Size = new System.Drawing.Size(50, 29);
+            this.textBox14.TabIndex = 196;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label33.Location = new System.Drawing.Point(442, 25);
+            this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(29, 19);
+            this.label33.TabIndex = 195;
+            this.label33.Text = "J7";
+            // 
             // button15
             // 
             this.button15.BackColor = System.Drawing.Color.Transparent;
@@ -3484,9 +3713,9 @@
             this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button15.FlatAppearance.BorderSize = 0;
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("宋体", 8F);
+            this.button15.Font = new System.Drawing.Font("SimSun", 8F);
             this.button15.ForeColor = System.Drawing.Color.Transparent;
-            this.button15.Location = new System.Drawing.Point(418, 131);
+            this.button15.Location = new System.Drawing.Point(404, 130);
             this.button15.Margin = new System.Windows.Forms.Padding(2);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(20, 20);
@@ -3501,9 +3730,9 @@
             this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button16.FlatAppearance.BorderSize = 0;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Font = new System.Drawing.Font("宋体", 8F);
+            this.button16.Font = new System.Drawing.Font("SimSun", 8F);
             this.button16.ForeColor = System.Drawing.Color.Transparent;
-            this.button16.Location = new System.Drawing.Point(396, 131);
+            this.button16.Location = new System.Drawing.Point(380, 130);
             this.button16.Margin = new System.Windows.Forms.Padding(2);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(20, 20);
@@ -3518,9 +3747,9 @@
             this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button13.FlatAppearance.BorderSize = 0;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("宋体", 8F);
+            this.button13.Font = new System.Drawing.Font("SimSun", 8F);
             this.button13.ForeColor = System.Drawing.Color.Transparent;
-            this.button13.Location = new System.Drawing.Point(364, 133);
+            this.button13.Location = new System.Drawing.Point(349, 130);
             this.button13.Margin = new System.Windows.Forms.Padding(2);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(20, 20);
@@ -3535,9 +3764,9 @@
             this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button14.FlatAppearance.BorderSize = 0;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("宋体", 8F);
+            this.button14.Font = new System.Drawing.Font("SimSun", 8F);
             this.button14.ForeColor = System.Drawing.Color.Transparent;
-            this.button14.Location = new System.Drawing.Point(340, 133);
+            this.button14.Location = new System.Drawing.Point(325, 130);
             this.button14.Margin = new System.Windows.Forms.Padding(2);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(20, 20);
@@ -3552,12 +3781,12 @@
             this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button11.FlatAppearance.BorderSize = 0;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("宋体", 8F);
+            this.button11.Font = new System.Drawing.Font("SimSun", 8F);
             this.button11.ForeColor = System.Drawing.Color.Transparent;
-            this.button11.Location = new System.Drawing.Point(298, 133);
+            this.button11.Location = new System.Drawing.Point(294, 130);
             this.button11.Margin = new System.Windows.Forms.Padding(2);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(20, 20);
+            this.button11.Size = new System.Drawing.Size(21, 20);
             this.button11.TabIndex = 190;
             this.button11.Text = "+";
             this.button11.UseVisualStyleBackColor = false;
@@ -3569,12 +3798,12 @@
             this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button12.FlatAppearance.BorderSize = 0;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("宋体", 8F);
+            this.button12.Font = new System.Drawing.Font("SimSun", 8F);
             this.button12.ForeColor = System.Drawing.Color.Transparent;
-            this.button12.Location = new System.Drawing.Point(274, 133);
+            this.button12.Location = new System.Drawing.Point(270, 130);
             this.button12.Margin = new System.Windows.Forms.Padding(2);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(20, 20);
+            this.button12.Size = new System.Drawing.Size(21, 20);
             this.button12.TabIndex = 189;
             this.button12.Text = "-";
             this.button12.UseVisualStyleBackColor = false;
@@ -3586,9 +3815,9 @@
             this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("宋体", 8F);
+            this.button9.Font = new System.Drawing.Font("SimSun", 8F);
             this.button9.ForeColor = System.Drawing.Color.Transparent;
-            this.button9.Location = new System.Drawing.Point(241, 132);
+            this.button9.Location = new System.Drawing.Point(238, 130);
             this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(20, 20);
@@ -3603,9 +3832,9 @@
             this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button10.FlatAppearance.BorderSize = 0;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("宋体", 8F);
+            this.button10.Font = new System.Drawing.Font("SimSun", 8F);
             this.button10.ForeColor = System.Drawing.Color.Transparent;
-            this.button10.Location = new System.Drawing.Point(217, 132);
+            this.button10.Location = new System.Drawing.Point(214, 130);
             this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(20, 20);
@@ -3620,7 +3849,7 @@
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("宋体", 8F);
+            this.button7.Font = new System.Drawing.Font("SimSun", 8F);
             this.button7.ForeColor = System.Drawing.Color.Transparent;
             this.button7.Location = new System.Drawing.Point(181, 130);
             this.button7.Margin = new System.Windows.Forms.Padding(2);
@@ -3637,7 +3866,7 @@
             this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("宋体", 8F);
+            this.button8.Font = new System.Drawing.Font("SimSun", 8F);
             this.button8.ForeColor = System.Drawing.Color.Transparent;
             this.button8.Location = new System.Drawing.Point(157, 130);
             this.button8.Margin = new System.Windows.Forms.Padding(2);
@@ -3654,9 +3883,9 @@
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("宋体", 8F);
+            this.button6.Font = new System.Drawing.Font("SimSun", 8F);
             this.button6.ForeColor = System.Drawing.Color.Transparent;
-            this.button6.Location = new System.Drawing.Point(125, 131);
+            this.button6.Location = new System.Drawing.Point(125, 130);
             this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(20, 20);
@@ -3671,9 +3900,9 @@
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("宋体", 8F);
+            this.button5.Font = new System.Drawing.Font("SimSun", 8F);
             this.button5.ForeColor = System.Drawing.Color.Transparent;
-            this.button5.Location = new System.Drawing.Point(101, 131);
+            this.button5.Location = new System.Drawing.Point(100, 130);
             this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(20, 20);
@@ -3684,9 +3913,9 @@
             // textBox7
             // 
             this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox7.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox7.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox7.Location = new System.Drawing.Point(388, 91);
+            this.textBox7.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox7.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox7.Location = new System.Drawing.Point(375, 90);
             this.textBox7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox7.Name = "textBox7";
             this.textBox7.ReadOnly = true;
@@ -3696,9 +3925,9 @@
             // textBox8
             // 
             this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox8.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox8.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox8.Location = new System.Drawing.Point(334, 93);
+            this.textBox8.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox8.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox8.Location = new System.Drawing.Point(320, 90);
             this.textBox8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox8.Name = "textBox8";
             this.textBox8.ReadOnly = true;
@@ -3708,9 +3937,9 @@
             // textBox9
             // 
             this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox9.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox9.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox9.Location = new System.Drawing.Point(270, 92);
+            this.textBox9.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox9.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox9.Location = new System.Drawing.Point(265, 90);
             this.textBox9.Margin = new System.Windows.Forms.Padding(2);
             this.textBox9.Name = "textBox9";
             this.textBox9.ReadOnly = true;
@@ -3720,9 +3949,9 @@
             // textBox10
             // 
             this.textBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox10.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox10.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox10.Location = new System.Drawing.Point(214, 92);
+            this.textBox10.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox10.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox10.Location = new System.Drawing.Point(210, 90);
             this.textBox10.Margin = new System.Windows.Forms.Padding(2);
             this.textBox10.Name = "textBox10";
             this.textBox10.ReadOnly = true;
@@ -3732,9 +3961,9 @@
             // textBox11
             // 
             this.textBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox11.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox11.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox11.Location = new System.Drawing.Point(157, 91);
+            this.textBox11.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox11.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox11.Location = new System.Drawing.Point(155, 90);
             this.textBox11.Margin = new System.Windows.Forms.Padding(2);
             this.textBox11.Name = "textBox11";
             this.textBox11.ReadOnly = true;
@@ -3744,9 +3973,9 @@
             // textBox12
             // 
             this.textBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox12.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox12.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox12.Location = new System.Drawing.Point(100, 92);
+            this.textBox12.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox12.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox12.Location = new System.Drawing.Point(100, 90);
             this.textBox12.Margin = new System.Windows.Forms.Padding(2);
             this.textBox12.Name = "textBox12";
             this.textBox12.ReadOnly = true;
@@ -3756,9 +3985,9 @@
             // textBox6
             // 
             this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox6.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox6.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox6.Location = new System.Drawing.Point(388, 54);
+            this.textBox6.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox6.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox6.Location = new System.Drawing.Point(375, 55);
             this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Name = "textBox6";
             this.textBox6.ReadOnly = true;
@@ -3768,9 +3997,9 @@
             // textBox5
             // 
             this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox5.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox5.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox5.Location = new System.Drawing.Point(334, 56);
+            this.textBox5.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox5.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox5.Location = new System.Drawing.Point(320, 55);
             this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
@@ -3780,9 +4009,9 @@
             // textBox4
             // 
             this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox4.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox4.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox4.Location = new System.Drawing.Point(270, 55);
+            this.textBox4.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox4.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox4.Location = new System.Drawing.Point(265, 55);
             this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
@@ -3792,9 +4021,9 @@
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox3.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox3.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox3.Location = new System.Drawing.Point(214, 55);
+            this.textBox3.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox3.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox3.Location = new System.Drawing.Point(210, 55);
             this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
@@ -3804,9 +4033,9 @@
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox2.Location = new System.Drawing.Point(157, 55);
+            this.textBox2.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox2.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox2.Location = new System.Drawing.Point(155, 55);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
@@ -3816,8 +4045,8 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.Control;
+            this.textBox1.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox1.Location = new System.Drawing.Point(100, 55);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
@@ -3828,7 +4057,7 @@
             // label325
             // 
             this.label325.AutoSize = true;
-            this.label325.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label325.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label325.Location = new System.Drawing.Point(386, 25);
             this.label325.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label325.Name = "label325";
@@ -3839,8 +4068,8 @@
             // label324
             // 
             this.label324.AutoSize = true;
-            this.label324.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label324.Location = new System.Drawing.Point(345, 26);
+            this.label324.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label324.Location = new System.Drawing.Point(328, 25);
             this.label324.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label324.Name = "label324";
             this.label324.Size = new System.Drawing.Size(29, 19);
@@ -3850,7 +4079,7 @@
             // label323
             // 
             this.label323.AutoSize = true;
-            this.label323.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label323.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label323.Location = new System.Drawing.Point(277, 25);
             this.label323.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label323.Name = "label323";
@@ -3861,7 +4090,7 @@
             // label322
             // 
             this.label322.AutoSize = true;
-            this.label322.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label322.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label322.Location = new System.Drawing.Point(222, 25);
             this.label322.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label322.Name = "label322";
@@ -3872,7 +4101,7 @@
             // label321
             // 
             this.label321.AutoSize = true;
-            this.label321.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label321.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label321.Location = new System.Drawing.Point(168, 25);
             this.label321.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label321.Name = "label321";
@@ -3883,7 +4112,7 @@
             // label320
             // 
             this.label320.AutoSize = true;
-            this.label320.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label320.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label320.Location = new System.Drawing.Point(111, 25);
             this.label320.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label320.Name = "label320";
@@ -3894,7 +4123,7 @@
             // label319
             // 
             this.label319.AutoSize = true;
-            this.label319.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label319.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label319.Location = new System.Drawing.Point(4, 97);
             this.label319.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label319.Name = "label319";
@@ -3905,7 +4134,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label19.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label19.Location = new System.Drawing.Point(4, 55);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
@@ -3920,7 +4149,7 @@
             this.btn_JXS_QIDONG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_JXS_QIDONG.FlatAppearance.BorderSize = 0;
             this.btn_JXS_QIDONG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_JXS_QIDONG.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_JXS_QIDONG.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_JXS_QIDONG.ForeColor = System.Drawing.Color.Transparent;
             this.btn_JXS_QIDONG.Location = new System.Drawing.Point(380, 206);
             this.btn_JXS_QIDONG.Margin = new System.Windows.Forms.Padding(2);
@@ -3937,7 +4166,7 @@
             this.btn_JXS_CHUSHIHUA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_JXS_CHUSHIHUA.FlatAppearance.BorderSize = 0;
             this.btn_JXS_CHUSHIHUA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_JXS_CHUSHIHUA.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_JXS_CHUSHIHUA.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_JXS_CHUSHIHUA.ForeColor = System.Drawing.Color.Transparent;
             this.btn_JXS_CHUSHIHUA.Location = new System.Drawing.Point(382, 169);
             this.btn_JXS_CHUSHIHUA.Margin = new System.Windows.Forms.Padding(2);
@@ -3951,6 +4180,7 @@
             // 
             this.groupBox54.Controls.Add(this.btn_JXS_ZHUAJIN);
             this.groupBox54.Controls.Add(this.btn_JXS_FANSONG);
+            this.groupBox54.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox54.Location = new System.Drawing.Point(90, 164);
             this.groupBox54.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox54.Name = "groupBox54";
@@ -3968,7 +4198,7 @@
             this.btn_JXS_ZHUAJIN.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_JXS_ZHUAJIN.FlatAppearance.BorderSize = 0;
             this.btn_JXS_ZHUAJIN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_JXS_ZHUAJIN.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_JXS_ZHUAJIN.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_JXS_ZHUAJIN.ForeColor = System.Drawing.Color.Transparent;
             this.btn_JXS_ZHUAJIN.Location = new System.Drawing.Point(22, 25);
             this.btn_JXS_ZHUAJIN.Margin = new System.Windows.Forms.Padding(2);
@@ -3985,7 +4215,7 @@
             this.btn_JXS_FANSONG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_JXS_FANSONG.FlatAppearance.BorderSize = 0;
             this.btn_JXS_FANSONG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_JXS_FANSONG.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_JXS_FANSONG.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_JXS_FANSONG.ForeColor = System.Drawing.Color.Transparent;
             this.btn_JXS_FANSONG.Location = new System.Drawing.Point(129, 25);
             this.btn_JXS_FANSONG.Margin = new System.Windows.Forms.Padding(2);
@@ -4002,7 +4232,7 @@
             this.btn_FaBox_72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_FaBox_72.FlatAppearance.BorderSize = 0;
             this.btn_FaBox_72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_FaBox_72.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_FaBox_72.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_FaBox_72.ForeColor = System.Drawing.Color.Transparent;
             this.btn_FaBox_72.Location = new System.Drawing.Point(27, 726);
             this.btn_FaBox_72.Name = "btn_FaBox_72";
@@ -4022,7 +4252,8 @@
             this.groupBox30.Controls.Add(this.btn_Camera_3);
             this.groupBox30.Controls.Add(this.btn_Camera_2);
             this.groupBox30.Controls.Add(this.btn_Camera_1);
-            this.groupBox30.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox30.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox30.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox30.Location = new System.Drawing.Point(15, 271);
             this.groupBox30.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox30.Name = "groupBox30";
@@ -4040,7 +4271,7 @@
             this.btn_Camera_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_8.FlatAppearance.BorderSize = 0;
             this.btn_Camera_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Camera_8.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Camera_8.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Camera_8.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Camera_8.Location = new System.Drawing.Point(439, 60);
             this.btn_Camera_8.Name = "btn_Camera_8";
@@ -4057,7 +4288,7 @@
             this.btn_Camera_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_7.FlatAppearance.BorderSize = 0;
             this.btn_Camera_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Camera_7.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Camera_7.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Camera_7.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Camera_7.Location = new System.Drawing.Point(298, 60);
             this.btn_Camera_7.Name = "btn_Camera_7";
@@ -4074,7 +4305,7 @@
             this.btn_Camera_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_6.FlatAppearance.BorderSize = 0;
             this.btn_Camera_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Camera_6.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Camera_6.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Camera_6.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Camera_6.Location = new System.Drawing.Point(157, 60);
             this.btn_Camera_6.Name = "btn_Camera_6";
@@ -4091,7 +4322,7 @@
             this.btn_Camera_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_5.FlatAppearance.BorderSize = 0;
             this.btn_Camera_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Camera_5.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Camera_5.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Camera_5.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Camera_5.Location = new System.Drawing.Point(16, 60);
             this.btn_Camera_5.Name = "btn_Camera_5";
@@ -4108,7 +4339,7 @@
             this.btn_Camera_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_4.FlatAppearance.BorderSize = 0;
             this.btn_Camera_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Camera_4.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Camera_4.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Camera_4.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Camera_4.Location = new System.Drawing.Point(438, 23);
             this.btn_Camera_4.Name = "btn_Camera_4";
@@ -4125,7 +4356,7 @@
             this.btn_Camera_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_3.FlatAppearance.BorderSize = 0;
             this.btn_Camera_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Camera_3.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Camera_3.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Camera_3.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Camera_3.Location = new System.Drawing.Point(297, 23);
             this.btn_Camera_3.Name = "btn_Camera_3";
@@ -4142,7 +4373,7 @@
             this.btn_Camera_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_2.FlatAppearance.BorderSize = 0;
             this.btn_Camera_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Camera_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Camera_2.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Camera_2.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Camera_2.Location = new System.Drawing.Point(156, 23);
             this.btn_Camera_2.Name = "btn_Camera_2";
@@ -4159,7 +4390,7 @@
             this.btn_Camera_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_1.FlatAppearance.BorderSize = 0;
             this.btn_Camera_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Camera_1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Camera_1.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Camera_1.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Camera_1.Location = new System.Drawing.Point(15, 23);
             this.btn_Camera_1.Name = "btn_Camera_1";
@@ -4179,7 +4410,8 @@
             this.groupBox29.Controls.Add(this.btn_DetectPanel_Space_12V2);
             this.groupBox29.Controls.Add(this.btn_DetectPanel_Space_12V1);
             this.groupBox29.Controls.Add(this.btn_DetectPanel_Rotate);
-            this.groupBox29.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox29.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox29.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox29.Location = new System.Drawing.Point(15, 374);
             this.groupBox29.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox29.Name = "groupBox29";
@@ -4197,7 +4429,7 @@
             this.btn_DetectPanel_Space_Bak2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Space_Bak2.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Space_Bak2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_DetectPanel_Space_Bak2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_DetectPanel_Space_Bak2.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DetectPanel_Space_Bak2.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_Bak2.Location = new System.Drawing.Point(438, 61);
             this.btn_DetectPanel_Space_Bak2.Name = "btn_DetectPanel_Space_Bak2";
@@ -4214,7 +4446,7 @@
             this.btn_DetectPanel_Space_Bak1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Space_Bak1.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Space_Bak1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_DetectPanel_Space_Bak1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_DetectPanel_Space_Bak1.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DetectPanel_Space_Bak1.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_Bak1.Location = new System.Drawing.Point(297, 61);
             this.btn_DetectPanel_Space_Bak1.Name = "btn_DetectPanel_Space_Bak1";
@@ -4231,7 +4463,7 @@
             this.btn_DetectPanel_Deep.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Deep.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Deep.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_DetectPanel_Deep.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_DetectPanel_Deep.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DetectPanel_Deep.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Deep.Location = new System.Drawing.Point(156, 61);
             this.btn_DetectPanel_Deep.Name = "btn_DetectPanel_Deep";
@@ -4248,7 +4480,7 @@
             this.btn_DetectPanel_Hight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Hight.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Hight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_DetectPanel_Hight.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_DetectPanel_Hight.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DetectPanel_Hight.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Hight.Location = new System.Drawing.Point(15, 61);
             this.btn_DetectPanel_Hight.Name = "btn_DetectPanel_Hight";
@@ -4265,7 +4497,7 @@
             this.btn_DetectPanel_Space_12V3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Space_12V3.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Space_12V3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_DetectPanel_Space_12V3.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_DetectPanel_Space_12V3.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DetectPanel_Space_12V3.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_12V3.Location = new System.Drawing.Point(439, 25);
             this.btn_DetectPanel_Space_12V3.Name = "btn_DetectPanel_Space_12V3";
@@ -4282,7 +4514,7 @@
             this.btn_DetectPanel_Space_12V2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Space_12V2.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Space_12V2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_DetectPanel_Space_12V2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_DetectPanel_Space_12V2.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DetectPanel_Space_12V2.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_12V2.Location = new System.Drawing.Point(298, 25);
             this.btn_DetectPanel_Space_12V2.Name = "btn_DetectPanel_Space_12V2";
@@ -4299,7 +4531,7 @@
             this.btn_DetectPanel_Space_12V1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Space_12V1.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Space_12V1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_DetectPanel_Space_12V1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_DetectPanel_Space_12V1.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DetectPanel_Space_12V1.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_12V1.Location = new System.Drawing.Point(157, 25);
             this.btn_DetectPanel_Space_12V1.Name = "btn_DetectPanel_Space_12V1";
@@ -4316,7 +4548,7 @@
             this.btn_DetectPanel_Rotate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Rotate.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Rotate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_DetectPanel_Rotate.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_DetectPanel_Rotate.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DetectPanel_Rotate.ForeColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Rotate.Location = new System.Drawing.Point(16, 25);
             this.btn_DetectPanel_Rotate.Name = "btn_DetectPanel_Rotate";
@@ -4344,7 +4576,8 @@
             this.groupBox28.Controls.Add(this.trackBar_Light_7);
             this.groupBox28.Controls.Add(this.trackBar_Light_6);
             this.groupBox28.Controls.Add(this.trackBar_Light_5);
-            this.groupBox28.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox28.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox28.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox28.Location = new System.Drawing.Point(10, 480);
             this.groupBox28.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox28.Name = "groupBox28";
@@ -4362,7 +4595,7 @@
             this.btn_Light_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_2.FlatAppearance.BorderSize = 0;
             this.btn_Light_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Light_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Light_2.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_2.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_2.Location = new System.Drawing.Point(18, 78);
             this.btn_Light_2.Name = "btn_Light_2";
@@ -4379,7 +4612,7 @@
             this.btn_Light_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_8.FlatAppearance.BorderSize = 0;
             this.btn_Light_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Light_8.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Light_8.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_8.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_8.Location = new System.Drawing.Point(299, 190);
             this.btn_Light_8.Name = "btn_Light_8";
@@ -4396,7 +4629,7 @@
             this.btn_Light_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_4.FlatAppearance.BorderSize = 0;
             this.btn_Light_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Light_4.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Light_4.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_4.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_4.Location = new System.Drawing.Point(18, 190);
             this.btn_Light_4.Name = "btn_Light_4";
@@ -4413,7 +4646,7 @@
             this.btn_Light_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_7.FlatAppearance.BorderSize = 0;
             this.btn_Light_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Light_7.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Light_7.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_7.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_7.Location = new System.Drawing.Point(299, 134);
             this.btn_Light_7.Name = "btn_Light_7";
@@ -4430,7 +4663,7 @@
             this.btn_Light_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_3.FlatAppearance.BorderSize = 0;
             this.btn_Light_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Light_3.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Light_3.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_3.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_3.Location = new System.Drawing.Point(18, 134);
             this.btn_Light_3.Name = "btn_Light_3";
@@ -4447,7 +4680,7 @@
             this.btn_Light_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_6.FlatAppearance.BorderSize = 0;
             this.btn_Light_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Light_6.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Light_6.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_6.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_6.Location = new System.Drawing.Point(299, 78);
             this.btn_Light_6.Name = "btn_Light_6";
@@ -4464,7 +4697,7 @@
             this.btn_Light_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_5.FlatAppearance.BorderSize = 0;
             this.btn_Light_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Light_5.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Light_5.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_5.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_5.Location = new System.Drawing.Point(299, 22);
             this.btn_Light_5.Name = "btn_Light_5";
@@ -4481,7 +4714,7 @@
             this.btn_Light_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_1.FlatAppearance.BorderSize = 0;
             this.btn_Light_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Light_1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_Light_1.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_Light_1.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Light_1.Location = new System.Drawing.Point(18, 22);
             this.btn_Light_1.Name = "btn_Light_1";
@@ -4574,9 +4807,9 @@
             // groupBox_SoftRuningInfo
             // 
             this.groupBox_SoftRuningInfo.Controls.Add(this.Ch1WorkLight);
-            this.groupBox_SoftRuningInfo.Controls.Add(this.textBox_Communication);
             this.groupBox_SoftRuningInfo.Controls.Add(this.richTextBox_InfoShow);
-            this.groupBox_SoftRuningInfo.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox_SoftRuningInfo.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox_SoftRuningInfo.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox_SoftRuningInfo.Location = new System.Drawing.Point(13, 536);
             this.groupBox_SoftRuningInfo.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox_SoftRuningInfo.Name = "groupBox_SoftRuningInfo";
@@ -4590,28 +4823,17 @@
             // Ch1WorkLight
             // 
             this.Ch1WorkLight.Enabled = true;
-            this.Ch1WorkLight.Location = new System.Drawing.Point(200, 2);
+            this.Ch1WorkLight.Location = new System.Drawing.Point(302, 27);
             this.Ch1WorkLight.Name = "Ch1WorkLight";
             this.Ch1WorkLight.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Ch1WorkLight.OcxState")));
             this.Ch1WorkLight.Size = new System.Drawing.Size(34, 25);
             this.Ch1WorkLight.TabIndex = 207;
             // 
-            // textBox_Communication
-            // 
-            this.textBox_Communication.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication.Location = new System.Drawing.Point(249, 0);
-            this.textBox_Communication.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Communication.Name = "textBox_Communication";
-            this.textBox_Communication.ReadOnly = true;
-            this.textBox_Communication.Size = new System.Drawing.Size(22, 23);
-            this.textBox_Communication.TabIndex = 127;
-            this.textBox_Communication.TextChanged += new System.EventHandler(this.textBox_Communication_TextChanged);
-            // 
             // richTextBox_InfoShow
             // 
             this.richTextBox_InfoShow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.richTextBox_InfoShow.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox_InfoShow.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.richTextBox_InfoShow.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.richTextBox_InfoShow.ForeColor = System.Drawing.SystemColors.Info;
             this.richTextBox_InfoShow.Location = new System.Drawing.Point(2, 23);
             this.richTextBox_InfoShow.Margin = new System.Windows.Forms.Padding(2);
@@ -4622,38 +4844,38 @@
             // 
             // groupBox49
             // 
-            this.groupBox49.Controls.Add(this.textBox_Communication_FaXiang16);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x61);
+            this.groupBox49.Controls.Add(this.Light_Communication_FaXiang16);
+            this.groupBox49.Controls.Add(this.Light_Communication_LuoPan);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x22);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x21);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x30);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x50);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x40);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x29);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x28);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x26);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x25);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x80);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x79);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x72);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x71);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x70);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x63);
+            this.groupBox49.Controls.Add(this.Light_Communication_0x62);
             this.groupBox49.Controls.Add(this.label305);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x30);
             this.groupBox49.Controls.Add(this.label262);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x22);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x29);
             this.groupBox49.Controls.Add(this.lable255);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x21);
             this.groupBox49.Controls.Add(this.label287);
             this.groupBox49.Controls.Add(this.label289);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x28);
             this.groupBox49.Controls.Add(this.label234);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x26);
             this.groupBox49.Controls.Add(this.label232);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x25);
             this.groupBox49.Controls.Add(this.label231);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x72);
             this.groupBox49.Controls.Add(this.label220);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x63);
             this.groupBox49.Controls.Add(this.label217);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x62);
             this.groupBox49.Controls.Add(this.label214);
             this.groupBox49.Controls.Add(this.textBox_Communication_FaXiang16B);
             this.groupBox49.Controls.Add(this.textBox_Communication_FaXiang16A);
-            this.groupBox49.Controls.Add(this.textBox_Communication_LuoPan);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x50);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x40);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x80);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x79);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x71);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x70);
-            this.groupBox49.Controls.Add(this.textBox_Communication_0x61);
             this.groupBox49.Controls.Add(this.label187);
             this.groupBox49.Controls.Add(this.label188);
             this.groupBox49.Controls.Add(this.label198);
@@ -4664,94 +4886,240 @@
             this.groupBox49.Controls.Add(this.label203);
             this.groupBox49.Controls.Add(this.label204);
             this.groupBox49.Controls.Add(this.label212);
-            this.groupBox49.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
-            this.groupBox49.Location = new System.Drawing.Point(837, 771);
+            this.groupBox49.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox49.ForeColor = System.Drawing.SystemColors.Control;
+            this.groupBox49.Location = new System.Drawing.Point(837, 773);
             this.groupBox49.Name = "groupBox49";
-            this.groupBox49.Size = new System.Drawing.Size(670, 122);
+            this.groupBox49.Size = new System.Drawing.Size(670, 130);
             this.groupBox49.TabIndex = 164;
             this.groupBox49.TabStop = false;
             this.groupBox49.Text = "各板卡通信状态";
             this.groupBox49.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint);
             // 
-            // textBox_Communication_FaXiang16
+            // Light_Communication_0x61
             // 
-            this.textBox_Communication_FaXiang16.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_FaXiang16.Location = new System.Drawing.Point(123, 99);
-            this.textBox_Communication_FaXiang16.Name = "textBox_Communication_FaXiang16";
-            this.textBox_Communication_FaXiang16.ReadOnly = true;
-            this.textBox_Communication_FaXiang16.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_FaXiang16.TabIndex = 199;
+            this.Light_Communication_0x61.Enabled = true;
+            this.Light_Communication_0x61.Location = new System.Drawing.Point(69, 20);
+            this.Light_Communication_0x61.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x61.Name = "Light_Communication_0x61";
+            this.Light_Communication_0x61.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x61.OcxState")));
+            this.Light_Communication_0x61.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x61.TabIndex = 238;
+            // 
+            // Light_Communication_FaXiang16
+            // 
+            this.Light_Communication_FaXiang16.Enabled = true;
+            this.Light_Communication_FaXiang16.Location = new System.Drawing.Point(121, 95);
+            this.Light_Communication_FaXiang16.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_FaXiang16.Name = "Light_Communication_FaXiang16";
+            this.Light_Communication_FaXiang16.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_FaXiang16.OcxState")));
+            this.Light_Communication_FaXiang16.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_FaXiang16.TabIndex = 237;
+            // 
+            // Light_Communication_LuoPan
+            // 
+            this.Light_Communication_LuoPan.Enabled = true;
+            this.Light_Communication_LuoPan.Location = new System.Drawing.Point(598, 70);
+            this.Light_Communication_LuoPan.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_LuoPan.Name = "Light_Communication_LuoPan";
+            this.Light_Communication_LuoPan.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_LuoPan.OcxState")));
+            this.Light_Communication_LuoPan.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_LuoPan.TabIndex = 236;
+            // 
+            // Light_Communication_0x22
+            // 
+            this.Light_Communication_0x22.Enabled = true;
+            this.Light_Communication_0x22.Location = new System.Drawing.Point(490, 69);
+            this.Light_Communication_0x22.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x22.Name = "Light_Communication_0x22";
+            this.Light_Communication_0x22.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x22.OcxState")));
+            this.Light_Communication_0x22.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x22.TabIndex = 235;
+            // 
+            // Light_Communication_0x21
+            // 
+            this.Light_Communication_0x21.Enabled = true;
+            this.Light_Communication_0x21.Location = new System.Drawing.Point(389, 69);
+            this.Light_Communication_0x21.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x21.Name = "Light_Communication_0x21";
+            this.Light_Communication_0x21.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x21.OcxState")));
+            this.Light_Communication_0x21.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x21.TabIndex = 234;
+            // 
+            // Light_Communication_0x30
+            // 
+            this.Light_Communication_0x30.Enabled = true;
+            this.Light_Communication_0x30.Location = new System.Drawing.Point(278, 69);
+            this.Light_Communication_0x30.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x30.Name = "Light_Communication_0x30";
+            this.Light_Communication_0x30.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x30.OcxState")));
+            this.Light_Communication_0x30.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x30.TabIndex = 233;
+            // 
+            // Light_Communication_0x50
+            // 
+            this.Light_Communication_0x50.Enabled = true;
+            this.Light_Communication_0x50.Location = new System.Drawing.Point(169, 69);
+            this.Light_Communication_0x50.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x50.Name = "Light_Communication_0x50";
+            this.Light_Communication_0x50.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x50.OcxState")));
+            this.Light_Communication_0x50.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x50.TabIndex = 232;
+            // 
+            // Light_Communication_0x40
+            // 
+            this.Light_Communication_0x40.Enabled = true;
+            this.Light_Communication_0x40.Location = new System.Drawing.Point(69, 69);
+            this.Light_Communication_0x40.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x40.Name = "Light_Communication_0x40";
+            this.Light_Communication_0x40.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x40.OcxState")));
+            this.Light_Communication_0x40.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x40.TabIndex = 231;
+            // 
+            // Light_Communication_0x29
+            // 
+            this.Light_Communication_0x29.Enabled = true;
+            this.Light_Communication_0x29.Location = new System.Drawing.Point(598, 44);
+            this.Light_Communication_0x29.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x29.Name = "Light_Communication_0x29";
+            this.Light_Communication_0x29.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x29.OcxState")));
+            this.Light_Communication_0x29.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x29.TabIndex = 230;
+            // 
+            // Light_Communication_0x28
+            // 
+            this.Light_Communication_0x28.Enabled = true;
+            this.Light_Communication_0x28.Location = new System.Drawing.Point(490, 44);
+            this.Light_Communication_0x28.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x28.Name = "Light_Communication_0x28";
+            this.Light_Communication_0x28.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x28.OcxState")));
+            this.Light_Communication_0x28.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x28.TabIndex = 229;
+            // 
+            // Light_Communication_0x26
+            // 
+            this.Light_Communication_0x26.Enabled = true;
+            this.Light_Communication_0x26.Location = new System.Drawing.Point(389, 43);
+            this.Light_Communication_0x26.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x26.Name = "Light_Communication_0x26";
+            this.Light_Communication_0x26.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x26.OcxState")));
+            this.Light_Communication_0x26.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x26.TabIndex = 228;
+            // 
+            // Light_Communication_0x25
+            // 
+            this.Light_Communication_0x25.Enabled = true;
+            this.Light_Communication_0x25.Location = new System.Drawing.Point(278, 44);
+            this.Light_Communication_0x25.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x25.Name = "Light_Communication_0x25";
+            this.Light_Communication_0x25.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x25.OcxState")));
+            this.Light_Communication_0x25.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x25.TabIndex = 227;
+            // 
+            // Light_Communication_0x80
+            // 
+            this.Light_Communication_0x80.Enabled = true;
+            this.Light_Communication_0x80.Location = new System.Drawing.Point(169, 43);
+            this.Light_Communication_0x80.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x80.Name = "Light_Communication_0x80";
+            this.Light_Communication_0x80.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x80.OcxState")));
+            this.Light_Communication_0x80.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x80.TabIndex = 226;
+            // 
+            // Light_Communication_0x79
+            // 
+            this.Light_Communication_0x79.Enabled = true;
+            this.Light_Communication_0x79.Location = new System.Drawing.Point(69, 44);
+            this.Light_Communication_0x79.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x79.Name = "Light_Communication_0x79";
+            this.Light_Communication_0x79.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x79.OcxState")));
+            this.Light_Communication_0x79.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x79.TabIndex = 225;
+            // 
+            // Light_Communication_0x72
+            // 
+            this.Light_Communication_0x72.Enabled = true;
+            this.Light_Communication_0x72.Location = new System.Drawing.Point(598, 18);
+            this.Light_Communication_0x72.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x72.Name = "Light_Communication_0x72";
+            this.Light_Communication_0x72.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x72.OcxState")));
+            this.Light_Communication_0x72.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x72.TabIndex = 224;
+            // 
+            // Light_Communication_0x71
+            // 
+            this.Light_Communication_0x71.Enabled = true;
+            this.Light_Communication_0x71.Location = new System.Drawing.Point(490, 18);
+            this.Light_Communication_0x71.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x71.Name = "Light_Communication_0x71";
+            this.Light_Communication_0x71.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x71.OcxState")));
+            this.Light_Communication_0x71.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x71.TabIndex = 223;
+            // 
+            // Light_Communication_0x70
+            // 
+            this.Light_Communication_0x70.Enabled = true;
+            this.Light_Communication_0x70.Location = new System.Drawing.Point(389, 18);
+            this.Light_Communication_0x70.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x70.Name = "Light_Communication_0x70";
+            this.Light_Communication_0x70.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x70.OcxState")));
+            this.Light_Communication_0x70.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x70.TabIndex = 222;
+            // 
+            // Light_Communication_0x63
+            // 
+            this.Light_Communication_0x63.Enabled = true;
+            this.Light_Communication_0x63.Location = new System.Drawing.Point(278, 18);
+            this.Light_Communication_0x63.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x63.Name = "Light_Communication_0x63";
+            this.Light_Communication_0x63.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x63.OcxState")));
+            this.Light_Communication_0x63.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x63.TabIndex = 221;
+            // 
+            // Light_Communication_0x62
+            // 
+            this.Light_Communication_0x62.Enabled = true;
+            this.Light_Communication_0x62.Location = new System.Drawing.Point(169, 19);
+            this.Light_Communication_0x62.Margin = new System.Windows.Forms.Padding(2);
+            this.Light_Communication_0x62.Name = "Light_Communication_0x62";
+            this.Light_Communication_0x62.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x62.OcxState")));
+            this.Light_Communication_0x62.Size = new System.Drawing.Size(34, 29);
+            this.Light_Communication_0x62.TabIndex = 220;
             // 
             // label305
             // 
             this.label305.AutoSize = true;
-            this.label305.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label305.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label305.Location = new System.Drawing.Point(9, 101);
             this.label305.Name = "label305";
             this.label305.Size = new System.Drawing.Size(115, 19);
             this.label305.TabIndex = 200;
             this.label305.Text = "16功能阀箱:";
             // 
-            // textBox_Communication_0x30
-            // 
-            this.textBox_Communication_0x30.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x30.Location = new System.Drawing.Point(276, 71);
-            this.textBox_Communication_0x30.Name = "textBox_Communication_0x30";
-            this.textBox_Communication_0x30.ReadOnly = true;
-            this.textBox_Communication_0x30.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x30.TabIndex = 197;
-            // 
             // label262
             // 
             this.label262.AutoSize = true;
-            this.label262.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label262.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label262.Location = new System.Drawing.Point(216, 75);
             this.label262.Name = "label262";
             this.label262.Size = new System.Drawing.Size(59, 19);
             this.label262.TabIndex = 198;
             this.label262.Text = "0x30:";
             // 
-            // textBox_Communication_0x22
-            // 
-            this.textBox_Communication_0x22.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x22.Location = new System.Drawing.Point(488, 71);
-            this.textBox_Communication_0x22.Name = "textBox_Communication_0x22";
-            this.textBox_Communication_0x22.ReadOnly = true;
-            this.textBox_Communication_0x22.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x22.TabIndex = 195;
-            // 
-            // textBox_Communication_0x29
-            // 
-            this.textBox_Communication_0x29.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x29.Location = new System.Drawing.Point(596, 46);
-            this.textBox_Communication_0x29.Name = "textBox_Communication_0x29";
-            this.textBox_Communication_0x29.ReadOnly = true;
-            this.textBox_Communication_0x29.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x29.TabIndex = 191;
-            // 
             // lable255
             // 
             this.lable255.AutoSize = true;
-            this.lable255.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lable255.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lable255.Location = new System.Drawing.Point(536, 49);
             this.lable255.Name = "lable255";
             this.lable255.Size = new System.Drawing.Size(59, 19);
             this.lable255.TabIndex = 192;
             this.lable255.Text = "0x29:";
             // 
-            // textBox_Communication_0x21
-            // 
-            this.textBox_Communication_0x21.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x21.Location = new System.Drawing.Point(387, 71);
-            this.textBox_Communication_0x21.Name = "textBox_Communication_0x21";
-            this.textBox_Communication_0x21.ReadOnly = true;
-            this.textBox_Communication_0x21.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x21.TabIndex = 193;
-            // 
             // label287
             // 
             this.label287.AutoSize = true;
-            this.label287.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label287.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label287.Location = new System.Drawing.Point(428, 75);
             this.label287.Name = "label287";
             this.label287.Size = new System.Drawing.Size(59, 19);
@@ -4761,121 +5129,67 @@
             // label289
             // 
             this.label289.AutoSize = true;
-            this.label289.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label289.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label289.Location = new System.Drawing.Point(327, 75);
             this.label289.Name = "label289";
             this.label289.Size = new System.Drawing.Size(59, 19);
             this.label289.TabIndex = 194;
             this.label289.Text = "0x21:";
             // 
-            // textBox_Communication_0x28
-            // 
-            this.textBox_Communication_0x28.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x28.Location = new System.Drawing.Point(488, 46);
-            this.textBox_Communication_0x28.Name = "textBox_Communication_0x28";
-            this.textBox_Communication_0x28.ReadOnly = true;
-            this.textBox_Communication_0x28.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x28.TabIndex = 189;
-            // 
             // label234
             // 
             this.label234.AutoSize = true;
-            this.label234.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label234.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label234.Location = new System.Drawing.Point(428, 50);
             this.label234.Name = "label234";
             this.label234.Size = new System.Drawing.Size(59, 19);
             this.label234.TabIndex = 190;
             this.label234.Text = "0x28:";
             // 
-            // textBox_Communication_0x26
-            // 
-            this.textBox_Communication_0x26.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x26.Location = new System.Drawing.Point(387, 46);
-            this.textBox_Communication_0x26.Name = "textBox_Communication_0x26";
-            this.textBox_Communication_0x26.ReadOnly = true;
-            this.textBox_Communication_0x26.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x26.TabIndex = 187;
-            // 
             // label232
             // 
             this.label232.AutoSize = true;
-            this.label232.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label232.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label232.Location = new System.Drawing.Point(327, 50);
             this.label232.Name = "label232";
             this.label232.Size = new System.Drawing.Size(59, 19);
             this.label232.TabIndex = 188;
             this.label232.Text = "0x26:";
             // 
-            // textBox_Communication_0x25
-            // 
-            this.textBox_Communication_0x25.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x25.Location = new System.Drawing.Point(276, 46);
-            this.textBox_Communication_0x25.Name = "textBox_Communication_0x25";
-            this.textBox_Communication_0x25.ReadOnly = true;
-            this.textBox_Communication_0x25.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x25.TabIndex = 185;
-            // 
             // label231
             // 
             this.label231.AutoSize = true;
-            this.label231.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label231.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label231.Location = new System.Drawing.Point(214, 50);
             this.label231.Name = "label231";
             this.label231.Size = new System.Drawing.Size(59, 19);
             this.label231.TabIndex = 186;
             this.label231.Text = "0x25:";
             // 
-            // textBox_Communication_0x72
-            // 
-            this.textBox_Communication_0x72.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x72.Location = new System.Drawing.Point(596, 21);
-            this.textBox_Communication_0x72.Name = "textBox_Communication_0x72";
-            this.textBox_Communication_0x72.ReadOnly = true;
-            this.textBox_Communication_0x72.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x72.TabIndex = 183;
-            // 
             // label220
             // 
             this.label220.AutoSize = true;
-            this.label220.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label220.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label220.Location = new System.Drawing.Point(536, 23);
             this.label220.Name = "label220";
             this.label220.Size = new System.Drawing.Size(59, 19);
             this.label220.TabIndex = 184;
             this.label220.Text = "0x72:";
             // 
-            // textBox_Communication_0x63
-            // 
-            this.textBox_Communication_0x63.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x63.Location = new System.Drawing.Point(276, 21);
-            this.textBox_Communication_0x63.Name = "textBox_Communication_0x63";
-            this.textBox_Communication_0x63.ReadOnly = true;
-            this.textBox_Communication_0x63.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x63.TabIndex = 181;
-            // 
             // label217
             // 
             this.label217.AutoSize = true;
-            this.label217.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label217.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label217.Location = new System.Drawing.Point(215, 25);
             this.label217.Name = "label217";
             this.label217.Size = new System.Drawing.Size(59, 19);
             this.label217.TabIndex = 182;
             this.label217.Text = "0x63:";
             // 
-            // textBox_Communication_0x62
-            // 
-            this.textBox_Communication_0x62.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x62.Location = new System.Drawing.Point(168, 21);
-            this.textBox_Communication_0x62.Name = "textBox_Communication_0x62";
-            this.textBox_Communication_0x62.ReadOnly = true;
-            this.textBox_Communication_0x62.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x62.TabIndex = 179;
-            // 
             // label214
             // 
             this.label214.AutoSize = true;
-            this.label214.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label214.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label214.Location = new System.Drawing.Point(111, 25);
             this.label214.Name = "label214";
             this.label214.Size = new System.Drawing.Size(59, 19);
@@ -4884,7 +5198,9 @@
             // 
             // textBox_Communication_FaXiang16B
             // 
-            this.textBox_Communication_FaXiang16B.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Communication_FaXiang16B.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_Communication_FaXiang16B.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Communication_FaXiang16B.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_Communication_FaXiang16B.Location = new System.Drawing.Point(316, 135);
             this.textBox_Communication_FaXiang16B.Name = "textBox_Communication_FaXiang16B";
             this.textBox_Communication_FaXiang16B.ReadOnly = true;
@@ -4893,89 +5209,19 @@
             // 
             // textBox_Communication_FaXiang16A
             // 
-            this.textBox_Communication_FaXiang16A.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Communication_FaXiang16A.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_Communication_FaXiang16A.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Communication_FaXiang16A.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_Communication_FaXiang16A.Location = new System.Drawing.Point(140, 135);
             this.textBox_Communication_FaXiang16A.Name = "textBox_Communication_FaXiang16A";
             this.textBox_Communication_FaXiang16A.ReadOnly = true;
             this.textBox_Communication_FaXiang16A.Size = new System.Drawing.Size(27, 23);
             this.textBox_Communication_FaXiang16A.TabIndex = 175;
             // 
-            // textBox_Communication_LuoPan
-            // 
-            this.textBox_Communication_LuoPan.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_LuoPan.Location = new System.Drawing.Point(596, 71);
-            this.textBox_Communication_LuoPan.Name = "textBox_Communication_LuoPan";
-            this.textBox_Communication_LuoPan.ReadOnly = true;
-            this.textBox_Communication_LuoPan.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_LuoPan.TabIndex = 173;
-            // 
-            // textBox_Communication_0x50
-            // 
-            this.textBox_Communication_0x50.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x50.Location = new System.Drawing.Point(168, 71);
-            this.textBox_Communication_0x50.Name = "textBox_Communication_0x50";
-            this.textBox_Communication_0x50.ReadOnly = true;
-            this.textBox_Communication_0x50.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x50.TabIndex = 171;
-            // 
-            // textBox_Communication_0x40
-            // 
-            this.textBox_Communication_0x40.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x40.Location = new System.Drawing.Point(67, 71);
-            this.textBox_Communication_0x40.Name = "textBox_Communication_0x40";
-            this.textBox_Communication_0x40.ReadOnly = true;
-            this.textBox_Communication_0x40.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x40.TabIndex = 169;
-            // 
-            // textBox_Communication_0x80
-            // 
-            this.textBox_Communication_0x80.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x80.Location = new System.Drawing.Point(168, 46);
-            this.textBox_Communication_0x80.Name = "textBox_Communication_0x80";
-            this.textBox_Communication_0x80.ReadOnly = true;
-            this.textBox_Communication_0x80.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x80.TabIndex = 167;
-            // 
-            // textBox_Communication_0x79
-            // 
-            this.textBox_Communication_0x79.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x79.Location = new System.Drawing.Point(67, 46);
-            this.textBox_Communication_0x79.Name = "textBox_Communication_0x79";
-            this.textBox_Communication_0x79.ReadOnly = true;
-            this.textBox_Communication_0x79.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x79.TabIndex = 165;
-            // 
-            // textBox_Communication_0x71
-            // 
-            this.textBox_Communication_0x71.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x71.Location = new System.Drawing.Point(488, 21);
-            this.textBox_Communication_0x71.Name = "textBox_Communication_0x71";
-            this.textBox_Communication_0x71.ReadOnly = true;
-            this.textBox_Communication_0x71.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x71.TabIndex = 163;
-            // 
-            // textBox_Communication_0x70
-            // 
-            this.textBox_Communication_0x70.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x70.Location = new System.Drawing.Point(387, 21);
-            this.textBox_Communication_0x70.Name = "textBox_Communication_0x70";
-            this.textBox_Communication_0x70.ReadOnly = true;
-            this.textBox_Communication_0x70.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x70.TabIndex = 161;
-            // 
-            // textBox_Communication_0x61
-            // 
-            this.textBox_Communication_0x61.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Communication_0x61.Location = new System.Drawing.Point(67, 21);
-            this.textBox_Communication_0x61.Name = "textBox_Communication_0x61";
-            this.textBox_Communication_0x61.ReadOnly = true;
-            this.textBox_Communication_0x61.Size = new System.Drawing.Size(27, 23);
-            this.textBox_Communication_0x61.TabIndex = 159;
-            // 
             // label187
             // 
             this.label187.AutoSize = true;
-            this.label187.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label187.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label187.Location = new System.Drawing.Point(190, 139);
             this.label187.Name = "label187";
             this.label187.Size = new System.Drawing.Size(125, 19);
@@ -4985,7 +5231,7 @@
             // label188
             // 
             this.label188.AutoSize = true;
-            this.label188.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label188.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label188.Location = new System.Drawing.Point(14, 139);
             this.label188.Name = "label188";
             this.label188.Size = new System.Drawing.Size(125, 19);
@@ -4995,7 +5241,7 @@
             // label198
             // 
             this.label198.AutoSize = true;
-            this.label198.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label198.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label198.Location = new System.Drawing.Point(538, 75);
             this.label198.Name = "label198";
             this.label198.Size = new System.Drawing.Size(57, 19);
@@ -5005,7 +5251,7 @@
             // label199
             // 
             this.label199.AutoSize = true;
-            this.label199.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label199.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label199.Location = new System.Drawing.Point(111, 75);
             this.label199.Name = "label199";
             this.label199.Size = new System.Drawing.Size(59, 19);
@@ -5015,7 +5261,7 @@
             // label200
             // 
             this.label200.AutoSize = true;
-            this.label200.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label200.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label200.Location = new System.Drawing.Point(9, 75);
             this.label200.Name = "label200";
             this.label200.Size = new System.Drawing.Size(59, 19);
@@ -5025,7 +5271,7 @@
             // label201
             // 
             this.label201.AutoSize = true;
-            this.label201.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label201.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label201.Location = new System.Drawing.Point(111, 50);
             this.label201.Name = "label201";
             this.label201.Size = new System.Drawing.Size(59, 19);
@@ -5035,7 +5281,7 @@
             // label202
             // 
             this.label202.AutoSize = true;
-            this.label202.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label202.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label202.Location = new System.Drawing.Point(9, 50);
             this.label202.Name = "label202";
             this.label202.Size = new System.Drawing.Size(59, 19);
@@ -5045,7 +5291,7 @@
             // label203
             // 
             this.label203.AutoSize = true;
-            this.label203.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label203.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label203.Location = new System.Drawing.Point(428, 25);
             this.label203.Name = "label203";
             this.label203.Size = new System.Drawing.Size(59, 19);
@@ -5055,7 +5301,7 @@
             // label204
             // 
             this.label204.AutoSize = true;
-            this.label204.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label204.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label204.Location = new System.Drawing.Point(327, 25);
             this.label204.Name = "label204";
             this.label204.Size = new System.Drawing.Size(59, 19);
@@ -5065,7 +5311,7 @@
             // label212
             // 
             this.label212.AutoSize = true;
-            this.label212.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label212.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label212.Location = new System.Drawing.Point(9, 25);
             this.label212.Name = "label212";
             this.label212.Size = new System.Drawing.Size(59, 19);
@@ -5074,6 +5320,14 @@
             // 
             // groupBox_BoardA_Mon
             // 
+            this.groupBox_BoardA_Mon.Controls.Add(this.Light_Fun8_DIN1);
+            this.groupBox_BoardA_Mon.Controls.Add(this.Light_Fun8_DIN2);
+            this.groupBox_BoardA_Mon.Controls.Add(this.Light_Fun8_DIN3);
+            this.groupBox_BoardA_Mon.Controls.Add(this.Light_Fun8_DIN4);
+            this.groupBox_BoardA_Mon.Controls.Add(this.Light_Fun8_DIN5);
+            this.groupBox_BoardA_Mon.Controls.Add(this.Light_Fun8_DIN6);
+            this.groupBox_BoardA_Mon.Controls.Add(this.Light_Fun8_DIN7);
+            this.groupBox_BoardA_Mon.Controls.Add(this.Light_Fun8_DIN8);
             this.groupBox_BoardA_Mon.Controls.Add(this.groupBox19);
             this.groupBox_BoardA_Mon.Controls.Add(this.groupBox18);
             this.groupBox_BoardA_Mon.Controls.Add(this.checkBox_TingZhuanWeiTiao_Ctl);
@@ -5113,21 +5367,13 @@
             this.groupBox_BoardA_Mon.Controls.Add(this.label245);
             this.groupBox_BoardA_Mon.Controls.Add(this.numericUpDown_HL);
             this.groupBox_BoardA_Mon.Controls.Add(this.label244);
-            this.groupBox_BoardA_Mon.Controls.Add(this.textBox_Fun8_DIN1);
             this.groupBox_BoardA_Mon.Controls.Add(this.label83);
-            this.groupBox_BoardA_Mon.Controls.Add(this.textBox_Fun8_DIN2);
             this.groupBox_BoardA_Mon.Controls.Add(this.label84);
-            this.groupBox_BoardA_Mon.Controls.Add(this.textBox_Fun8_DIN3);
             this.groupBox_BoardA_Mon.Controls.Add(this.label85);
-            this.groupBox_BoardA_Mon.Controls.Add(this.textBox_Fun8_DIN4);
             this.groupBox_BoardA_Mon.Controls.Add(this.label86);
-            this.groupBox_BoardA_Mon.Controls.Add(this.textBox_Fun8_DIN5);
             this.groupBox_BoardA_Mon.Controls.Add(this.label87);
-            this.groupBox_BoardA_Mon.Controls.Add(this.textBox_Fun8_DIN6);
             this.groupBox_BoardA_Mon.Controls.Add(this.label97);
-            this.groupBox_BoardA_Mon.Controls.Add(this.textBox_Fun8_DIN7);
             this.groupBox_BoardA_Mon.Controls.Add(this.label98);
-            this.groupBox_BoardA_Mon.Controls.Add(this.textBox_Fun8_DIN8);
             this.groupBox_BoardA_Mon.Controls.Add(this.label99);
             this.groupBox_BoardA_Mon.Controls.Add(this.textBox_5VAnalog);
             this.groupBox_BoardA_Mon.Controls.Add(this.textBox_Fun8_Temperature);
@@ -5150,7 +5396,8 @@
             this.groupBox_BoardA_Mon.Controls.Add(this.label255);
             this.groupBox_BoardA_Mon.Controls.Add(this.label248);
             this.groupBox_BoardA_Mon.Controls.Add(this.label246);
-            this.groupBox_BoardA_Mon.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox_BoardA_Mon.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox_BoardA_Mon.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox_BoardA_Mon.Location = new System.Drawing.Point(837, 19);
             this.groupBox_BoardA_Mon.Name = "groupBox_BoardA_Mon";
             this.groupBox_BoardA_Mon.Size = new System.Drawing.Size(670, 350);
@@ -5158,6 +5405,78 @@
             this.groupBox_BoardA_Mon.TabStop = false;
             this.groupBox_BoardA_Mon.Text = "8功能阀箱";
             this.groupBox_BoardA_Mon.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint_2);
+            // 
+            // Light_Fun8_DIN1
+            // 
+            this.Light_Fun8_DIN1.Enabled = true;
+            this.Light_Fun8_DIN1.Location = new System.Drawing.Point(623, 54);
+            this.Light_Fun8_DIN1.Name = "Light_Fun8_DIN1";
+            this.Light_Fun8_DIN1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun8_DIN1.OcxState")));
+            this.Light_Fun8_DIN1.Size = new System.Drawing.Size(27, 29);
+            this.Light_Fun8_DIN1.TabIndex = 229;
+            // 
+            // Light_Fun8_DIN2
+            // 
+            this.Light_Fun8_DIN2.Enabled = true;
+            this.Light_Fun8_DIN2.Location = new System.Drawing.Point(575, 55);
+            this.Light_Fun8_DIN2.Name = "Light_Fun8_DIN2";
+            this.Light_Fun8_DIN2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun8_DIN2.OcxState")));
+            this.Light_Fun8_DIN2.Size = new System.Drawing.Size(27, 29);
+            this.Light_Fun8_DIN2.TabIndex = 228;
+            // 
+            // Light_Fun8_DIN3
+            // 
+            this.Light_Fun8_DIN3.Enabled = true;
+            this.Light_Fun8_DIN3.Location = new System.Drawing.Point(520, 54);
+            this.Light_Fun8_DIN3.Name = "Light_Fun8_DIN3";
+            this.Light_Fun8_DIN3.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun8_DIN3.OcxState")));
+            this.Light_Fun8_DIN3.Size = new System.Drawing.Size(27, 29);
+            this.Light_Fun8_DIN3.TabIndex = 227;
+            // 
+            // Light_Fun8_DIN4
+            // 
+            this.Light_Fun8_DIN4.Enabled = true;
+            this.Light_Fun8_DIN4.Location = new System.Drawing.Point(468, 54);
+            this.Light_Fun8_DIN4.Name = "Light_Fun8_DIN4";
+            this.Light_Fun8_DIN4.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun8_DIN4.OcxState")));
+            this.Light_Fun8_DIN4.Size = new System.Drawing.Size(27, 29);
+            this.Light_Fun8_DIN4.TabIndex = 226;
+            // 
+            // Light_Fun8_DIN5
+            // 
+            this.Light_Fun8_DIN5.Enabled = true;
+            this.Light_Fun8_DIN5.Location = new System.Drawing.Point(416, 54);
+            this.Light_Fun8_DIN5.Name = "Light_Fun8_DIN5";
+            this.Light_Fun8_DIN5.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun8_DIN5.OcxState")));
+            this.Light_Fun8_DIN5.Size = new System.Drawing.Size(27, 29);
+            this.Light_Fun8_DIN5.TabIndex = 225;
+            // 
+            // Light_Fun8_DIN6
+            // 
+            this.Light_Fun8_DIN6.Enabled = true;
+            this.Light_Fun8_DIN6.Location = new System.Drawing.Point(364, 55);
+            this.Light_Fun8_DIN6.Name = "Light_Fun8_DIN6";
+            this.Light_Fun8_DIN6.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun8_DIN6.OcxState")));
+            this.Light_Fun8_DIN6.Size = new System.Drawing.Size(27, 29);
+            this.Light_Fun8_DIN6.TabIndex = 224;
+            // 
+            // Light_Fun8_DIN7
+            // 
+            this.Light_Fun8_DIN7.Enabled = true;
+            this.Light_Fun8_DIN7.Location = new System.Drawing.Point(313, 54);
+            this.Light_Fun8_DIN7.Name = "Light_Fun8_DIN7";
+            this.Light_Fun8_DIN7.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun8_DIN7.OcxState")));
+            this.Light_Fun8_DIN7.Size = new System.Drawing.Size(27, 29);
+            this.Light_Fun8_DIN7.TabIndex = 223;
+            // 
+            // Light_Fun8_DIN8
+            // 
+            this.Light_Fun8_DIN8.Enabled = true;
+            this.Light_Fun8_DIN8.Location = new System.Drawing.Point(260, 54);
+            this.Light_Fun8_DIN8.Name = "Light_Fun8_DIN8";
+            this.Light_Fun8_DIN8.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun8_DIN8.OcxState")));
+            this.Light_Fun8_DIN8.Size = new System.Drawing.Size(27, 29);
+            this.Light_Fun8_DIN8.TabIndex = 222;
             // 
             // groupBox19
             // 
@@ -5181,7 +5500,8 @@
             this.groupBox19.Controls.Add(this.label172);
             this.groupBox19.Controls.Add(this.textBox29);
             this.groupBox19.Controls.Add(this.label189);
-            this.groupBox19.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox19.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox19.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox19.Location = new System.Drawing.Point(472, 89);
             this.groupBox19.Name = "groupBox19";
             this.groupBox19.Size = new System.Drawing.Size(183, 131);
@@ -5193,7 +5513,7 @@
             // label171
             // 
             this.label171.AutoSize = true;
-            this.label171.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label171.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label171.Location = new System.Drawing.Point(93, 104);
             this.label171.Name = "label171";
             this.label171.Size = new System.Drawing.Size(35, 14);
@@ -5203,7 +5523,7 @@
             // label184
             // 
             this.label184.AutoSize = true;
-            this.label184.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label184.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label184.Location = new System.Drawing.Point(93, 64);
             this.label184.Name = "label184";
             this.label184.Size = new System.Drawing.Size(35, 14);
@@ -5213,7 +5533,7 @@
             // label158
             // 
             this.label158.AutoSize = true;
-            this.label158.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label158.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label158.Location = new System.Drawing.Point(6, 104);
             this.label158.Name = "label158";
             this.label158.Size = new System.Drawing.Size(35, 14);
@@ -5223,7 +5543,7 @@
             // label157
             // 
             this.label157.AutoSize = true;
-            this.label157.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label157.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label157.Location = new System.Drawing.Point(6, 64);
             this.label157.Name = "label157";
             this.label157.Size = new System.Drawing.Size(35, 14);
@@ -5233,7 +5553,7 @@
             // label143
             // 
             this.label143.AutoSize = true;
-            this.label143.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label143.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label143.Location = new System.Drawing.Point(95, 25);
             this.label143.Name = "label143";
             this.label143.Size = new System.Drawing.Size(28, 14);
@@ -5243,7 +5563,7 @@
             // label132
             // 
             this.label132.AutoSize = true;
-            this.label132.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label132.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label132.Location = new System.Drawing.Point(6, 25);
             this.label132.Name = "label132";
             this.label132.Size = new System.Drawing.Size(28, 14);
@@ -5252,7 +5572,9 @@
             // 
             // textBox_V_VRB
             // 
-            this.textBox_V_VRB.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_V_VRB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_V_VRB.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_V_VRB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_V_VRB.Location = new System.Drawing.Point(128, 99);
             this.textBox_V_VRB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_VRB.Name = "textBox_V_VRB";
@@ -5262,7 +5584,9 @@
             // 
             // textBox_V_VRF
             // 
-            this.textBox_V_VRF.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_V_VRF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_V_VRF.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_V_VRF.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_V_VRF.Location = new System.Drawing.Point(128, 60);
             this.textBox_V_VRF.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_VRF.Name = "textBox_V_VRF";
@@ -5272,7 +5596,9 @@
             // 
             // textBox_V_HR
             // 
-            this.textBox_V_HR.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_V_HR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_V_HR.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_V_HR.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_V_HR.Location = new System.Drawing.Point(128, 21);
             this.textBox_V_HR.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_HR.Name = "textBox_V_HR";
@@ -5282,7 +5608,9 @@
             // 
             // textBox_V_VLB
             // 
-            this.textBox_V_VLB.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_V_VLB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_V_VLB.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_V_VLB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_V_VLB.Location = new System.Drawing.Point(41, 99);
             this.textBox_V_VLB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_VLB.Name = "textBox_V_VLB";
@@ -5292,7 +5620,9 @@
             // 
             // textBox_V_VLF
             // 
-            this.textBox_V_VLF.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_V_VLF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_V_VLF.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_V_VLF.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_V_VLF.Location = new System.Drawing.Point(41, 60);
             this.textBox_V_VLF.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_VLF.Name = "textBox_V_VLF";
@@ -5302,7 +5632,9 @@
             // 
             // textBox_V_HL
             // 
-            this.textBox_V_HL.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_V_HL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_V_HL.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_V_HL.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_V_HL.Location = new System.Drawing.Point(41, 21);
             this.textBox_V_HL.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_HL.Name = "textBox_V_HL";
@@ -5312,7 +5644,9 @@
             // 
             // textBox20
             // 
-            this.textBox20.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox20.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox20.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox20.Location = new System.Drawing.Point(119, 171);
             this.textBox20.Margin = new System.Windows.Forms.Padding(2);
             this.textBox20.Name = "textBox20";
@@ -5322,7 +5656,9 @@
             // 
             // textBox21
             // 
-            this.textBox21.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox21.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox21.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox21.Location = new System.Drawing.Point(119, 223);
             this.textBox21.Margin = new System.Windows.Forms.Padding(2);
             this.textBox21.Name = "textBox21";
@@ -5333,7 +5669,7 @@
             // label137
             // 
             this.label137.AutoSize = true;
-            this.label137.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label137.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label137.Location = new System.Drawing.Point(44, 175);
             this.label137.Name = "label137";
             this.label137.Size = new System.Drawing.Size(70, 14);
@@ -5343,7 +5679,7 @@
             // label148
             // 
             this.label148.AutoSize = true;
-            this.label148.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label148.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label148.Location = new System.Drawing.Point(65, 227);
             this.label148.Name = "label148";
             this.label148.Size = new System.Drawing.Size(49, 14);
@@ -5352,7 +5688,9 @@
             // 
             // textBox24
             // 
-            this.textBox24.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox24.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox24.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox24.Location = new System.Drawing.Point(119, 197);
             this.textBox24.Margin = new System.Windows.Forms.Padding(2);
             this.textBox24.Name = "textBox24";
@@ -5363,7 +5701,7 @@
             // label172
             // 
             this.label172.AutoSize = true;
-            this.label172.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label172.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label172.Location = new System.Drawing.Point(65, 201);
             this.label172.Name = "label172";
             this.label172.Size = new System.Drawing.Size(49, 14);
@@ -5372,7 +5710,9 @@
             // 
             // textBox29
             // 
-            this.textBox29.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox29.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox29.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox29.Location = new System.Drawing.Point(119, 145);
             this.textBox29.Margin = new System.Windows.Forms.Padding(2);
             this.textBox29.Name = "textBox29";
@@ -5383,7 +5723,7 @@
             // label189
             // 
             this.label189.AutoSize = true;
-            this.label189.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label189.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label189.Location = new System.Drawing.Point(37, 149);
             this.label189.Name = "label189";
             this.label189.Size = new System.Drawing.Size(77, 14);
@@ -5392,6 +5732,7 @@
             // 
             // groupBox18
             // 
+            this.groupBox18.Controls.Add(this.GroupBox_MainCtl);
             this.groupBox18.Controls.Add(this.textBox_AI20);
             this.groupBox18.Controls.Add(this.textBox_Fun8_BadCRCS);
             this.groupBox18.Controls.Add(this.label109);
@@ -5440,7 +5781,8 @@
             this.groupBox18.Controls.Add(this.label130);
             this.groupBox18.Controls.Add(this.textBox_AI1);
             this.groupBox18.Controls.Add(this.label131);
-            this.groupBox18.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox18.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox18.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox18.Location = new System.Drawing.Point(6, 89);
             this.groupBox18.Name = "groupBox18";
             this.groupBox18.Size = new System.Drawing.Size(460, 130);
@@ -5451,7 +5793,9 @@
             // 
             // textBox_AI20
             // 
-            this.textBox_AI20.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI20.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI20.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI20.Location = new System.Drawing.Point(402, 99);
             this.textBox_AI20.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI20.Name = "textBox_AI20";
@@ -5461,7 +5805,9 @@
             // 
             // textBox_Fun8_BadCRCS
             // 
-            this.textBox_Fun8_BadCRCS.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_Fun8_BadCRCS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_Fun8_BadCRCS.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_Fun8_BadCRCS.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_Fun8_BadCRCS.Location = new System.Drawing.Point(119, 171);
             this.textBox_Fun8_BadCRCS.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Fun8_BadCRCS.Name = "textBox_Fun8_BadCRCS";
@@ -5472,7 +5818,7 @@
             // label109
             // 
             this.label109.AutoSize = true;
-            this.label109.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label109.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label109.Location = new System.Drawing.Point(363, 104);
             this.label109.Name = "label109";
             this.label109.Size = new System.Drawing.Size(42, 14);
@@ -5481,7 +5827,9 @@
             // 
             // textBox_Fun8_CAN2_R
             // 
-            this.textBox_Fun8_CAN2_R.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_Fun8_CAN2_R.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_Fun8_CAN2_R.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_Fun8_CAN2_R.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_Fun8_CAN2_R.Location = new System.Drawing.Point(119, 223);
             this.textBox_Fun8_CAN2_R.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Fun8_CAN2_R.Name = "textBox_Fun8_CAN2_R";
@@ -5491,7 +5839,9 @@
             // 
             // textBox_AI19
             // 
-            this.textBox_AI19.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI19.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI19.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI19.Location = new System.Drawing.Point(402, 73);
             this.textBox_AI19.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI19.Name = "textBox_AI19";
@@ -5502,7 +5852,7 @@
             // label108
             // 
             this.label108.AutoSize = true;
-            this.label108.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label108.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label108.Location = new System.Drawing.Point(44, 175);
             this.label108.Name = "label108";
             this.label108.Size = new System.Drawing.Size(70, 14);
@@ -5512,7 +5862,7 @@
             // label110
             // 
             this.label110.AutoSize = true;
-            this.label110.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label110.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label110.Location = new System.Drawing.Point(363, 78);
             this.label110.Name = "label110";
             this.label110.Size = new System.Drawing.Size(42, 14);
@@ -5521,7 +5871,9 @@
             // 
             // textBox_AI18
             // 
-            this.textBox_AI18.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI18.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI18.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI18.Location = new System.Drawing.Point(402, 47);
             this.textBox_AI18.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI18.Name = "textBox_AI18";
@@ -5532,7 +5884,7 @@
             // label113
             // 
             this.label113.AutoSize = true;
-            this.label113.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label113.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label113.Location = new System.Drawing.Point(65, 227);
             this.label113.Name = "label113";
             this.label113.Size = new System.Drawing.Size(49, 14);
@@ -5542,7 +5894,7 @@
             // label111
             // 
             this.label111.AutoSize = true;
-            this.label111.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label111.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label111.Location = new System.Drawing.Point(363, 52);
             this.label111.Name = "label111";
             this.label111.Size = new System.Drawing.Size(42, 14);
@@ -5551,7 +5903,9 @@
             // 
             // textBox_Fun8_CAN1_R
             // 
-            this.textBox_Fun8_CAN1_R.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_Fun8_CAN1_R.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_Fun8_CAN1_R.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_Fun8_CAN1_R.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_Fun8_CAN1_R.Location = new System.Drawing.Point(119, 197);
             this.textBox_Fun8_CAN1_R.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Fun8_CAN1_R.Name = "textBox_Fun8_CAN1_R";
@@ -5561,7 +5915,9 @@
             // 
             // textBox_AI17
             // 
-            this.textBox_AI17.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI17.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI17.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI17.Location = new System.Drawing.Point(402, 21);
             this.textBox_AI17.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI17.Name = "textBox_AI17";
@@ -5572,7 +5928,7 @@
             // label112
             // 
             this.label112.AutoSize = true;
-            this.label112.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label112.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label112.Location = new System.Drawing.Point(363, 26);
             this.label112.Name = "label112";
             this.label112.Size = new System.Drawing.Size(42, 14);
@@ -5581,7 +5937,9 @@
             // 
             // textBox_AI16
             // 
-            this.textBox_AI16.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI16.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI16.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI16.Location = new System.Drawing.Point(303, 99);
             this.textBox_AI16.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI16.Name = "textBox_AI16";
@@ -5592,7 +5950,7 @@
             // label114
             // 
             this.label114.AutoSize = true;
-            this.label114.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label114.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label114.Location = new System.Drawing.Point(265, 103);
             this.label114.Name = "label114";
             this.label114.Size = new System.Drawing.Size(42, 14);
@@ -5601,7 +5959,9 @@
             // 
             // textBox_AI12
             // 
-            this.textBox_AI12.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI12.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI12.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI12.Location = new System.Drawing.Point(212, 99);
             this.textBox_AI12.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI12.Name = "textBox_AI12";
@@ -5612,7 +5972,7 @@
             // label115
             // 
             this.label115.AutoSize = true;
-            this.label115.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label115.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label115.Location = new System.Drawing.Point(65, 201);
             this.label115.Name = "label115";
             this.label115.Size = new System.Drawing.Size(49, 14);
@@ -5622,7 +5982,7 @@
             // label116
             // 
             this.label116.AutoSize = true;
-            this.label116.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label116.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label116.Location = new System.Drawing.Point(173, 103);
             this.label116.Name = "label116";
             this.label116.Size = new System.Drawing.Size(42, 14);
@@ -5631,7 +5991,9 @@
             // 
             // textBox_AI8
             // 
-            this.textBox_AI8.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI8.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI8.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI8.Location = new System.Drawing.Point(120, 99);
             this.textBox_AI8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI8.Name = "textBox_AI8";
@@ -5642,7 +6004,7 @@
             // label117
             // 
             this.label117.AutoSize = true;
-            this.label117.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label117.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label117.Location = new System.Drawing.Point(89, 103);
             this.label117.Name = "label117";
             this.label117.Size = new System.Drawing.Size(35, 14);
@@ -5651,7 +6013,9 @@
             // 
             // textBox_Fun8_RS232Ch2_R
             // 
-            this.textBox_Fun8_RS232Ch2_R.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_Fun8_RS232Ch2_R.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_Fun8_RS232Ch2_R.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_Fun8_RS232Ch2_R.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_Fun8_RS232Ch2_R.Location = new System.Drawing.Point(119, 145);
             this.textBox_Fun8_RS232Ch2_R.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Fun8_RS232Ch2_R.Name = "textBox_Fun8_RS232Ch2_R";
@@ -5661,7 +6025,9 @@
             // 
             // textBox_AI4
             // 
-            this.textBox_AI4.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI4.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI4.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI4.Location = new System.Drawing.Point(37, 99);
             this.textBox_AI4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI4.Name = "textBox_AI4";
@@ -5672,7 +6038,7 @@
             // label118
             // 
             this.label118.AutoSize = true;
-            this.label118.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label118.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label118.Location = new System.Drawing.Point(6, 103);
             this.label118.Name = "label118";
             this.label118.Size = new System.Drawing.Size(35, 14);
@@ -5681,7 +6047,9 @@
             // 
             // textBox_AI15
             // 
-            this.textBox_AI15.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI15.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI15.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI15.Location = new System.Drawing.Point(303, 73);
             this.textBox_AI15.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI15.Name = "textBox_AI15";
@@ -5692,7 +6060,7 @@
             // label119
             // 
             this.label119.AutoSize = true;
-            this.label119.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label119.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label119.Location = new System.Drawing.Point(265, 77);
             this.label119.Name = "label119";
             this.label119.Size = new System.Drawing.Size(42, 14);
@@ -5702,7 +6070,7 @@
             // label120
             // 
             this.label120.AutoSize = true;
-            this.label120.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label120.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label120.Location = new System.Drawing.Point(37, 149);
             this.label120.Name = "label120";
             this.label120.Size = new System.Drawing.Size(77, 14);
@@ -5711,7 +6079,9 @@
             // 
             // textBox_AI11
             // 
-            this.textBox_AI11.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI11.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI11.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI11.Location = new System.Drawing.Point(212, 73);
             this.textBox_AI11.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI11.Name = "textBox_AI11";
@@ -5722,7 +6092,7 @@
             // label121
             // 
             this.label121.AutoSize = true;
-            this.label121.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label121.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label121.Location = new System.Drawing.Point(173, 77);
             this.label121.Name = "label121";
             this.label121.Size = new System.Drawing.Size(42, 14);
@@ -5731,7 +6101,9 @@
             // 
             // textBox_AI7
             // 
-            this.textBox_AI7.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI7.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI7.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI7.Location = new System.Drawing.Point(120, 73);
             this.textBox_AI7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI7.Name = "textBox_AI7";
@@ -5742,7 +6114,7 @@
             // label122
             // 
             this.label122.AutoSize = true;
-            this.label122.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label122.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label122.Location = new System.Drawing.Point(89, 77);
             this.label122.Name = "label122";
             this.label122.Size = new System.Drawing.Size(35, 14);
@@ -5751,7 +6123,9 @@
             // 
             // textBox_AI3
             // 
-            this.textBox_AI3.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI3.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI3.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI3.Location = new System.Drawing.Point(37, 73);
             this.textBox_AI3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI3.Name = "textBox_AI3";
@@ -5762,7 +6136,7 @@
             // label123
             // 
             this.label123.AutoSize = true;
-            this.label123.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label123.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label123.Location = new System.Drawing.Point(6, 77);
             this.label123.Name = "label123";
             this.label123.Size = new System.Drawing.Size(35, 14);
@@ -5771,7 +6145,9 @@
             // 
             // textBox_AI14
             // 
-            this.textBox_AI14.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI14.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI14.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI14.Location = new System.Drawing.Point(303, 47);
             this.textBox_AI14.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI14.Name = "textBox_AI14";
@@ -5782,7 +6158,7 @@
             // label124
             // 
             this.label124.AutoSize = true;
-            this.label124.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label124.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label124.Location = new System.Drawing.Point(265, 51);
             this.label124.Name = "label124";
             this.label124.Size = new System.Drawing.Size(42, 14);
@@ -5791,7 +6167,9 @@
             // 
             // textBox_AI10
             // 
-            this.textBox_AI10.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI10.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI10.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI10.Location = new System.Drawing.Point(212, 47);
             this.textBox_AI10.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI10.Name = "textBox_AI10";
@@ -5802,7 +6180,7 @@
             // label125
             // 
             this.label125.AutoSize = true;
-            this.label125.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label125.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label125.Location = new System.Drawing.Point(173, 51);
             this.label125.Name = "label125";
             this.label125.Size = new System.Drawing.Size(42, 14);
@@ -5811,7 +6189,9 @@
             // 
             // textBox_AI6
             // 
-            this.textBox_AI6.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI6.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI6.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI6.Location = new System.Drawing.Point(120, 47);
             this.textBox_AI6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI6.Name = "textBox_AI6";
@@ -5822,7 +6202,7 @@
             // label126
             // 
             this.label126.AutoSize = true;
-            this.label126.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label126.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label126.Location = new System.Drawing.Point(89, 51);
             this.label126.Name = "label126";
             this.label126.Size = new System.Drawing.Size(35, 14);
@@ -5831,7 +6211,9 @@
             // 
             // textBox_AI2
             // 
-            this.textBox_AI2.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI2.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI2.Location = new System.Drawing.Point(37, 47);
             this.textBox_AI2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI2.Name = "textBox_AI2";
@@ -5842,7 +6224,7 @@
             // label127
             // 
             this.label127.AutoSize = true;
-            this.label127.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label127.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label127.Location = new System.Drawing.Point(6, 51);
             this.label127.Name = "label127";
             this.label127.Size = new System.Drawing.Size(35, 14);
@@ -5851,7 +6233,9 @@
             // 
             // textBox_AI13
             // 
-            this.textBox_AI13.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI13.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI13.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI13.Location = new System.Drawing.Point(303, 21);
             this.textBox_AI13.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI13.Name = "textBox_AI13";
@@ -5862,7 +6246,7 @@
             // label128
             // 
             this.label128.AutoSize = true;
-            this.label128.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label128.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label128.Location = new System.Drawing.Point(265, 25);
             this.label128.Name = "label128";
             this.label128.Size = new System.Drawing.Size(42, 14);
@@ -5871,7 +6255,9 @@
             // 
             // textBox_AI9
             // 
-            this.textBox_AI9.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI9.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI9.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI9.Location = new System.Drawing.Point(212, 21);
             this.textBox_AI9.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI9.Name = "textBox_AI9";
@@ -5882,7 +6268,7 @@
             // label129
             // 
             this.label129.AutoSize = true;
-            this.label129.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label129.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label129.Location = new System.Drawing.Point(173, 25);
             this.label129.Name = "label129";
             this.label129.Size = new System.Drawing.Size(35, 14);
@@ -5891,7 +6277,9 @@
             // 
             // textBox_AI5
             // 
-            this.textBox_AI5.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI5.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI5.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI5.Location = new System.Drawing.Point(120, 21);
             this.textBox_AI5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI5.Name = "textBox_AI5";
@@ -5902,7 +6290,7 @@
             // label130
             // 
             this.label130.AutoSize = true;
-            this.label130.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label130.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label130.Location = new System.Drawing.Point(89, 25);
             this.label130.Name = "label130";
             this.label130.Size = new System.Drawing.Size(35, 14);
@@ -5911,7 +6299,9 @@
             // 
             // textBox_AI1
             // 
-            this.textBox_AI1.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_AI1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_AI1.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_AI1.Location = new System.Drawing.Point(37, 21);
             this.textBox_AI1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI1.Name = "textBox_AI1";
@@ -5922,7 +6312,7 @@
             // label131
             // 
             this.label131.AutoSize = true;
-            this.label131.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label131.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label131.Location = new System.Drawing.Point(6, 25);
             this.label131.Name = "label131";
             this.label131.Size = new System.Drawing.Size(35, 14);
@@ -5933,7 +6323,7 @@
             // 
             this.checkBox_TingZhuanWeiTiao_Ctl.AutoSize = true;
             this.checkBox_TingZhuanWeiTiao_Ctl.BackColor = System.Drawing.Color.Transparent;
-            this.checkBox_TingZhuanWeiTiao_Ctl.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.checkBox_TingZhuanWeiTiao_Ctl.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.checkBox_TingZhuanWeiTiao_Ctl.Location = new System.Drawing.Point(11, 320);
             this.checkBox_TingZhuanWeiTiao_Ctl.Name = "checkBox_TingZhuanWeiTiao_Ctl";
             this.checkBox_TingZhuanWeiTiao_Ctl.Size = new System.Drawing.Size(110, 18);
@@ -5944,7 +6334,7 @@
             // label277
             // 
             this.label277.AutoSize = true;
-            this.label277.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label277.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label277.Location = new System.Drawing.Point(134, 290);
             this.label277.Name = "label277";
             this.label277.Size = new System.Drawing.Size(19, 19);
@@ -5953,7 +6343,9 @@
             // 
             // textBox_XuanFuJiZhun
             // 
-            this.textBox_XuanFuJiZhun.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_XuanFuJiZhun.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_XuanFuJiZhun.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_XuanFuJiZhun.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_XuanFuJiZhun.Location = new System.Drawing.Point(80, 288);
             this.textBox_XuanFuJiZhun.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_XuanFuJiZhun.Name = "textBox_XuanFuJiZhun";
@@ -5964,7 +6356,7 @@
             // label276
             // 
             this.label276.AutoSize = true;
-            this.label276.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label276.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label276.Location = new System.Drawing.Point(6, 293);
             this.label276.Name = "label276";
             this.label276.Size = new System.Drawing.Size(70, 14);
@@ -5973,7 +6365,9 @@
             // 
             // richTextBox_Fun8_RecvInfo
             // 
-            this.richTextBox_Fun8_RecvInfo.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.richTextBox_Fun8_RecvInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.richTextBox_Fun8_RecvInfo.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.richTextBox_Fun8_RecvInfo.ForeColor = System.Drawing.SystemColors.Info;
             this.richTextBox_Fun8_RecvInfo.Location = new System.Drawing.Point(11, 400);
             this.richTextBox_Fun8_RecvInfo.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox_Fun8_RecvInfo.Name = "richTextBox_Fun8_RecvInfo";
@@ -5985,7 +6379,7 @@
             // label275
             // 
             this.label275.AutoSize = true;
-            this.label275.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label275.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label275.Location = new System.Drawing.Point(154, 291);
             this.label275.Name = "label275";
             this.label275.Size = new System.Drawing.Size(63, 42);
@@ -5995,7 +6389,7 @@
             // label274
             // 
             this.label274.AutoSize = true;
-            this.label274.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label274.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label274.Location = new System.Drawing.Point(154, 234);
             this.label274.Name = "label274";
             this.label274.Size = new System.Drawing.Size(63, 42);
@@ -6004,8 +6398,10 @@
             // 
             // numericUpDown_VRB_Zero
             // 
+            this.numericUpDown_VRB_Zero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_VRB_Zero.DecimalPlaces = 2;
-            this.numericUpDown_VRB_Zero.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_VRB_Zero.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_VRB_Zero.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_VRB_Zero.Location = new System.Drawing.Point(584, 313);
             this.numericUpDown_VRB_Zero.Minimum = new decimal(new int[] {
             100,
@@ -6019,8 +6415,10 @@
             // 
             // numericUpDown_VLB_Zero
             // 
+            this.numericUpDown_VLB_Zero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_VLB_Zero.DecimalPlaces = 2;
-            this.numericUpDown_VLB_Zero.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_VLB_Zero.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_VLB_Zero.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_VLB_Zero.Location = new System.Drawing.Point(584, 285);
             this.numericUpDown_VLB_Zero.Minimum = new decimal(new int[] {
             100,
@@ -6034,8 +6432,10 @@
             // 
             // numericUpDown_VRF_Zero
             // 
+            this.numericUpDown_VRF_Zero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_VRF_Zero.DecimalPlaces = 2;
-            this.numericUpDown_VRF_Zero.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_VRF_Zero.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_VRF_Zero.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_VRF_Zero.Location = new System.Drawing.Point(437, 313);
             this.numericUpDown_VRF_Zero.Minimum = new decimal(new int[] {
             100,
@@ -6050,7 +6450,7 @@
             // label239
             // 
             this.label239.AutoSize = true;
-            this.label239.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label239.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label239.Location = new System.Drawing.Point(368, 318);
             this.label239.Name = "label239";
             this.label239.Size = new System.Drawing.Size(70, 14);
@@ -6060,7 +6460,7 @@
             // label256
             // 
             this.label256.AutoSize = true;
-            this.label256.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label256.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label256.Location = new System.Drawing.Point(339, 317);
             this.label256.Name = "label256";
             this.label256.Size = new System.Drawing.Size(19, 19);
@@ -6069,8 +6469,10 @@
             // 
             // numericUpDown_HR_Zero
             // 
+            this.numericUpDown_HR_Zero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_HR_Zero.DecimalPlaces = 2;
-            this.numericUpDown_HR_Zero.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_HR_Zero.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_HR_Zero.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_HR_Zero.Location = new System.Drawing.Point(277, 313);
             this.numericUpDown_HR_Zero.Minimum = new decimal(new int[] {
             100,
@@ -6085,7 +6487,7 @@
             // label264
             // 
             this.label264.AutoSize = true;
-            this.label264.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label264.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label264.Location = new System.Drawing.Point(217, 318);
             this.label264.Name = "label264";
             this.label264.Size = new System.Drawing.Size(56, 14);
@@ -6094,8 +6496,10 @@
             // 
             // numericUpDown_VLF_Zero
             // 
+            this.numericUpDown_VLF_Zero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_VLF_Zero.DecimalPlaces = 2;
-            this.numericUpDown_VLF_Zero.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_VLF_Zero.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_VLF_Zero.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_VLF_Zero.Location = new System.Drawing.Point(437, 285);
             this.numericUpDown_VLF_Zero.Minimum = new decimal(new int[] {
             100,
@@ -6110,7 +6514,7 @@
             // label265
             // 
             this.label265.AutoSize = true;
-            this.label265.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label265.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label265.Location = new System.Drawing.Point(368, 290);
             this.label265.Name = "label265";
             this.label265.Size = new System.Drawing.Size(70, 14);
@@ -6120,7 +6524,7 @@
             // label266
             // 
             this.label266.AutoSize = true;
-            this.label266.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label266.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label266.Location = new System.Drawing.Point(339, 289);
             this.label266.Name = "label266";
             this.label266.Size = new System.Drawing.Size(19, 19);
@@ -6129,8 +6533,10 @@
             // 
             // numericUpDown_HL_Zero
             // 
+            this.numericUpDown_HL_Zero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_HL_Zero.DecimalPlaces = 2;
-            this.numericUpDown_HL_Zero.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_HL_Zero.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_HL_Zero.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_HL_Zero.Location = new System.Drawing.Point(277, 285);
             this.numericUpDown_HL_Zero.Minimum = new decimal(new int[] {
             100,
@@ -6145,7 +6551,7 @@
             // label267
             // 
             this.label267.AutoSize = true;
-            this.label267.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label267.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label267.Location = new System.Drawing.Point(217, 290);
             this.label267.Name = "label267";
             this.label267.Size = new System.Drawing.Size(56, 14);
@@ -6155,7 +6561,7 @@
             // label268
             // 
             this.label268.AutoSize = true;
-            this.label268.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label268.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label268.Location = new System.Drawing.Point(645, 318);
             this.label268.Name = "label268";
             this.label268.Size = new System.Drawing.Size(19, 19);
@@ -6165,7 +6571,7 @@
             // label269
             // 
             this.label269.AutoSize = true;
-            this.label269.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label269.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label269.Location = new System.Drawing.Point(645, 290);
             this.label269.Name = "label269";
             this.label269.Size = new System.Drawing.Size(19, 19);
@@ -6175,7 +6581,7 @@
             // label270
             // 
             this.label270.AutoSize = true;
-            this.label270.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label270.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label270.Location = new System.Drawing.Point(515, 318);
             this.label270.Name = "label270";
             this.label270.Size = new System.Drawing.Size(70, 14);
@@ -6185,7 +6591,7 @@
             // label271
             // 
             this.label271.AutoSize = true;
-            this.label271.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label271.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label271.Location = new System.Drawing.Point(515, 290);
             this.label271.Name = "label271";
             this.label271.Size = new System.Drawing.Size(70, 14);
@@ -6195,7 +6601,7 @@
             // label272
             // 
             this.label272.AutoSize = true;
-            this.label272.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label272.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label272.Location = new System.Drawing.Point(497, 319);
             this.label272.Name = "label272";
             this.label272.Size = new System.Drawing.Size(19, 19);
@@ -6205,7 +6611,7 @@
             // label273
             // 
             this.label273.AutoSize = true;
-            this.label273.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label273.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label273.Location = new System.Drawing.Point(497, 291);
             this.label273.Name = "label273";
             this.label273.Size = new System.Drawing.Size(19, 19);
@@ -6214,8 +6620,10 @@
             // 
             // numericUpDown_VRB
             // 
+            this.numericUpDown_VRB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_VRB.DecimalPlaces = 2;
-            this.numericUpDown_VRB.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_VRB.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_VRB.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_VRB.Location = new System.Drawing.Point(584, 254);
             this.numericUpDown_VRB.Minimum = new decimal(new int[] {
             100,
@@ -6229,8 +6637,10 @@
             // 
             // numericUpDown_VLB
             // 
+            this.numericUpDown_VLB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_VLB.DecimalPlaces = 2;
-            this.numericUpDown_VLB.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_VLB.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_VLB.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_VLB.Location = new System.Drawing.Point(584, 226);
             this.numericUpDown_VLB.Minimum = new decimal(new int[] {
             100,
@@ -6244,8 +6654,10 @@
             // 
             // numericUpDown_VRF
             // 
+            this.numericUpDown_VRF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_VRF.DecimalPlaces = 2;
-            this.numericUpDown_VRF.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_VRF.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_VRF.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_VRF.Location = new System.Drawing.Point(437, 254);
             this.numericUpDown_VRF.Minimum = new decimal(new int[] {
             100,
@@ -6260,7 +6672,7 @@
             // label249
             // 
             this.label249.AutoSize = true;
-            this.label249.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label249.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label249.Location = new System.Drawing.Point(368, 259);
             this.label249.Name = "label249";
             this.label249.Size = new System.Drawing.Size(70, 14);
@@ -6270,7 +6682,7 @@
             // label250
             // 
             this.label250.AutoSize = true;
-            this.label250.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label250.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label250.Location = new System.Drawing.Point(339, 258);
             this.label250.Name = "label250";
             this.label250.Size = new System.Drawing.Size(19, 19);
@@ -6279,8 +6691,10 @@
             // 
             // numericUpDown_HR
             // 
+            this.numericUpDown_HR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_HR.DecimalPlaces = 2;
-            this.numericUpDown_HR.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_HR.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_HR.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_HR.Location = new System.Drawing.Point(277, 254);
             this.numericUpDown_HR.Minimum = new decimal(new int[] {
             100,
@@ -6295,7 +6709,7 @@
             // label251
             // 
             this.label251.AutoSize = true;
-            this.label251.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label251.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label251.Location = new System.Drawing.Point(217, 259);
             this.label251.Name = "label251";
             this.label251.Size = new System.Drawing.Size(56, 14);
@@ -6304,8 +6718,10 @@
             // 
             // numericUpDown_VLF
             // 
+            this.numericUpDown_VLF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_VLF.DecimalPlaces = 2;
-            this.numericUpDown_VLF.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_VLF.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_VLF.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_VLF.Location = new System.Drawing.Point(437, 226);
             this.numericUpDown_VLF.Minimum = new decimal(new int[] {
             100,
@@ -6320,7 +6736,7 @@
             // label247
             // 
             this.label247.AutoSize = true;
-            this.label247.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label247.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label247.Location = new System.Drawing.Point(371, 231);
             this.label247.Name = "label247";
             this.label247.Size = new System.Drawing.Size(70, 14);
@@ -6330,7 +6746,7 @@
             // label245
             // 
             this.label245.AutoSize = true;
-            this.label245.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label245.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label245.Location = new System.Drawing.Point(339, 230);
             this.label245.Name = "label245";
             this.label245.Size = new System.Drawing.Size(19, 19);
@@ -6339,8 +6755,10 @@
             // 
             // numericUpDown_HL
             // 
+            this.numericUpDown_HL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_HL.DecimalPlaces = 2;
-            this.numericUpDown_HL.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.numericUpDown_HL.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_HL.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_HL.Location = new System.Drawing.Point(277, 226);
             this.numericUpDown_HL.Minimum = new decimal(new int[] {
             100,
@@ -6355,167 +6773,87 @@
             // label244
             // 
             this.label244.AutoSize = true;
-            this.label244.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label244.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label244.Location = new System.Drawing.Point(220, 231);
             this.label244.Name = "label244";
             this.label244.Size = new System.Drawing.Size(56, 14);
             this.label244.TabIndex = 173;
             this.label244.Text = "水平左:";
             // 
-            // textBox_Fun8_DIN1
-            // 
-            this.textBox_Fun8_DIN1.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.textBox_Fun8_DIN1.Location = new System.Drawing.Point(625, 59);
-            this.textBox_Fun8_DIN1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Fun8_DIN1.Name = "textBox_Fun8_DIN1";
-            this.textBox_Fun8_DIN1.ReadOnly = true;
-            this.textBox_Fun8_DIN1.Size = new System.Drawing.Size(22, 23);
-            this.textBox_Fun8_DIN1.TabIndex = 172;
-            // 
             // label83
             // 
             this.label83.AutoSize = true;
-            this.label83.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label83.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label83.Location = new System.Drawing.Point(598, 62);
             this.label83.Name = "label83";
             this.label83.Size = new System.Drawing.Size(28, 14);
             this.label83.TabIndex = 171;
             this.label83.Text = "D1:";
             // 
-            // textBox_Fun8_DIN2
-            // 
-            this.textBox_Fun8_DIN2.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.textBox_Fun8_DIN2.Location = new System.Drawing.Point(573, 59);
-            this.textBox_Fun8_DIN2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Fun8_DIN2.Name = "textBox_Fun8_DIN2";
-            this.textBox_Fun8_DIN2.ReadOnly = true;
-            this.textBox_Fun8_DIN2.Size = new System.Drawing.Size(22, 23);
-            this.textBox_Fun8_DIN2.TabIndex = 170;
-            // 
             // label84
             // 
             this.label84.AutoSize = true;
-            this.label84.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label84.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label84.Location = new System.Drawing.Point(546, 62);
             this.label84.Name = "label84";
             this.label84.Size = new System.Drawing.Size(28, 14);
             this.label84.TabIndex = 169;
             this.label84.Text = "D2:";
             // 
-            // textBox_Fun8_DIN3
-            // 
-            this.textBox_Fun8_DIN3.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.textBox_Fun8_DIN3.Location = new System.Drawing.Point(520, 59);
-            this.textBox_Fun8_DIN3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Fun8_DIN3.Name = "textBox_Fun8_DIN3";
-            this.textBox_Fun8_DIN3.ReadOnly = true;
-            this.textBox_Fun8_DIN3.Size = new System.Drawing.Size(22, 23);
-            this.textBox_Fun8_DIN3.TabIndex = 168;
-            // 
             // label85
             // 
             this.label85.AutoSize = true;
-            this.label85.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label85.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label85.Location = new System.Drawing.Point(494, 62);
             this.label85.Name = "label85";
             this.label85.Size = new System.Drawing.Size(28, 14);
             this.label85.TabIndex = 167;
             this.label85.Text = "D3:";
             // 
-            // textBox_Fun8_DIN4
-            // 
-            this.textBox_Fun8_DIN4.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.textBox_Fun8_DIN4.Location = new System.Drawing.Point(469, 59);
-            this.textBox_Fun8_DIN4.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Fun8_DIN4.Name = "textBox_Fun8_DIN4";
-            this.textBox_Fun8_DIN4.ReadOnly = true;
-            this.textBox_Fun8_DIN4.Size = new System.Drawing.Size(22, 23);
-            this.textBox_Fun8_DIN4.TabIndex = 166;
-            // 
             // label86
             // 
             this.label86.AutoSize = true;
-            this.label86.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label86.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label86.Location = new System.Drawing.Point(442, 62);
             this.label86.Name = "label86";
             this.label86.Size = new System.Drawing.Size(28, 14);
             this.label86.TabIndex = 165;
             this.label86.Text = "D4:";
             // 
-            // textBox_Fun8_DIN5
-            // 
-            this.textBox_Fun8_DIN5.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.textBox_Fun8_DIN5.Location = new System.Drawing.Point(417, 59);
-            this.textBox_Fun8_DIN5.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Fun8_DIN5.Name = "textBox_Fun8_DIN5";
-            this.textBox_Fun8_DIN5.ReadOnly = true;
-            this.textBox_Fun8_DIN5.Size = new System.Drawing.Size(22, 23);
-            this.textBox_Fun8_DIN5.TabIndex = 164;
-            // 
             // label87
             // 
             this.label87.AutoSize = true;
-            this.label87.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label87.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label87.Location = new System.Drawing.Point(390, 62);
             this.label87.Name = "label87";
             this.label87.Size = new System.Drawing.Size(28, 14);
             this.label87.TabIndex = 163;
             this.label87.Text = "D5:";
             // 
-            // textBox_Fun8_DIN6
-            // 
-            this.textBox_Fun8_DIN6.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.textBox_Fun8_DIN6.Location = new System.Drawing.Point(365, 59);
-            this.textBox_Fun8_DIN6.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Fun8_DIN6.Name = "textBox_Fun8_DIN6";
-            this.textBox_Fun8_DIN6.ReadOnly = true;
-            this.textBox_Fun8_DIN6.Size = new System.Drawing.Size(22, 23);
-            this.textBox_Fun8_DIN6.TabIndex = 162;
-            // 
             // label97
             // 
             this.label97.AutoSize = true;
-            this.label97.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label97.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label97.Location = new System.Drawing.Point(338, 62);
             this.label97.Name = "label97";
             this.label97.Size = new System.Drawing.Size(28, 14);
             this.label97.TabIndex = 161;
             this.label97.Text = "D6:";
             // 
-            // textBox_Fun8_DIN7
-            // 
-            this.textBox_Fun8_DIN7.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.textBox_Fun8_DIN7.Location = new System.Drawing.Point(313, 59);
-            this.textBox_Fun8_DIN7.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Fun8_DIN7.Name = "textBox_Fun8_DIN7";
-            this.textBox_Fun8_DIN7.ReadOnly = true;
-            this.textBox_Fun8_DIN7.Size = new System.Drawing.Size(22, 23);
-            this.textBox_Fun8_DIN7.TabIndex = 160;
-            // 
             // label98
             // 
             this.label98.AutoSize = true;
-            this.label98.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label98.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label98.Location = new System.Drawing.Point(286, 62);
             this.label98.Name = "label98";
             this.label98.Size = new System.Drawing.Size(28, 14);
             this.label98.TabIndex = 159;
             this.label98.Text = "D7:";
             // 
-            // textBox_Fun8_DIN8
-            // 
-            this.textBox_Fun8_DIN8.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.textBox_Fun8_DIN8.Location = new System.Drawing.Point(262, 59);
-            this.textBox_Fun8_DIN8.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Fun8_DIN8.Name = "textBox_Fun8_DIN8";
-            this.textBox_Fun8_DIN8.ReadOnly = true;
-            this.textBox_Fun8_DIN8.Size = new System.Drawing.Size(22, 23);
-            this.textBox_Fun8_DIN8.TabIndex = 158;
-            // 
             // label99
             // 
             this.label99.AutoSize = true;
-            this.label99.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label99.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label99.Location = new System.Drawing.Point(235, 62);
             this.label99.Name = "label99";
             this.label99.Size = new System.Drawing.Size(28, 14);
@@ -6524,7 +6862,9 @@
             // 
             // textBox_5VAnalog
             // 
-            this.textBox_5VAnalog.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_5VAnalog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_5VAnalog.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_5VAnalog.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_5VAnalog.Location = new System.Drawing.Point(465, 25);
             this.textBox_5VAnalog.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_5VAnalog.Name = "textBox_5VAnalog";
@@ -6534,7 +6874,9 @@
             // 
             // textBox_Fun8_Temperature
             // 
-            this.textBox_Fun8_Temperature.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_Fun8_Temperature.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_Fun8_Temperature.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_Fun8_Temperature.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_Fun8_Temperature.Location = new System.Drawing.Point(573, 25);
             this.textBox_Fun8_Temperature.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Fun8_Temperature.Name = "textBox_Fun8_Temperature";
@@ -6545,7 +6887,7 @@
             // label100
             // 
             this.label100.AutoSize = true;
-            this.label100.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label100.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label100.Location = new System.Drawing.Point(530, 28);
             this.label100.Name = "label100";
             this.label100.Size = new System.Drawing.Size(42, 14);
@@ -6554,7 +6896,9 @@
             // 
             // textBox_5VDigital
             // 
-            this.textBox_5VDigital.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_5VDigital.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_5VDigital.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_5VDigital.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_5VDigital.Location = new System.Drawing.Point(316, 25);
             this.textBox_5VDigital.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_5VDigital.Name = "textBox_5VDigital";
@@ -6564,7 +6908,9 @@
             // 
             // textBox_CurrentFeedback1
             // 
-            this.textBox_CurrentFeedback1.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_CurrentFeedback1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_CurrentFeedback1.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_CurrentFeedback1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_CurrentFeedback1.Location = new System.Drawing.Point(170, 59);
             this.textBox_CurrentFeedback1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_CurrentFeedback1.Name = "textBox_CurrentFeedback1";
@@ -6575,7 +6921,7 @@
             // label101
             // 
             this.label101.AutoSize = true;
-            this.label101.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label101.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label101.Location = new System.Drawing.Point(120, 62);
             this.label101.Name = "label101";
             this.label101.Size = new System.Drawing.Size(49, 14);
@@ -6584,7 +6930,9 @@
             // 
             // textBox_CurrentFeedback2
             // 
-            this.textBox_CurrentFeedback2.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_CurrentFeedback2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_CurrentFeedback2.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_CurrentFeedback2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_CurrentFeedback2.Location = new System.Drawing.Point(54, 59);
             this.textBox_CurrentFeedback2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_CurrentFeedback2.Name = "textBox_CurrentFeedback2";
@@ -6594,7 +6942,9 @@
             // 
             // textBox_15V
             // 
-            this.textBox_15V.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_15V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_15V.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_15V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_15V.Location = new System.Drawing.Point(170, 25);
             this.textBox_15V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_15V.Name = "textBox_15V";
@@ -6605,7 +6955,7 @@
             // label102
             // 
             this.label102.AutoSize = true;
-            this.label102.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label102.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label102.Location = new System.Drawing.Point(4, 62);
             this.label102.Name = "label102";
             this.label102.Size = new System.Drawing.Size(49, 14);
@@ -6614,7 +6964,9 @@
             // 
             // textBox_24V
             // 
-            this.textBox_24V.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.textBox_24V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_24V.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_24V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_24V.Location = new System.Drawing.Point(54, 25);
             this.textBox_24V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_24V.Name = "textBox_24V";
@@ -6625,7 +6977,7 @@
             // label103
             // 
             this.label103.AutoSize = true;
-            this.label103.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label103.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label103.Location = new System.Drawing.Point(12, 29);
             this.label103.Name = "label103";
             this.label103.Size = new System.Drawing.Size(42, 14);
@@ -6635,7 +6987,7 @@
             // label105
             // 
             this.label105.AutoSize = true;
-            this.label105.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label105.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label105.Location = new System.Drawing.Point(126, 29);
             this.label105.Name = "label105";
             this.label105.Size = new System.Drawing.Size(42, 14);
@@ -6645,7 +6997,7 @@
             // label106
             // 
             this.label106.AutoSize = true;
-            this.label106.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label106.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label106.Location = new System.Drawing.Point(238, 29);
             this.label106.Name = "label106";
             this.label106.Size = new System.Drawing.Size(77, 14);
@@ -6655,7 +7007,7 @@
             // label133
             // 
             this.label133.AutoSize = true;
-            this.label133.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label133.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label133.Location = new System.Drawing.Point(385, 29);
             this.label133.Name = "label133";
             this.label133.Size = new System.Drawing.Size(77, 14);
@@ -6665,7 +7017,7 @@
             // label134
             // 
             this.label134.AutoSize = true;
-            this.label134.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label134.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label134.Location = new System.Drawing.Point(632, 30);
             this.label134.Name = "label134";
             this.label134.Size = new System.Drawing.Size(21, 14);
@@ -6675,7 +7027,7 @@
             // label252
             // 
             this.label252.AutoSize = true;
-            this.label252.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label252.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label252.Location = new System.Drawing.Point(645, 259);
             this.label252.Name = "label252";
             this.label252.Size = new System.Drawing.Size(19, 19);
@@ -6685,7 +7037,7 @@
             // label254
             // 
             this.label254.AutoSize = true;
-            this.label254.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label254.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label254.Location = new System.Drawing.Point(645, 231);
             this.label254.Name = "label254";
             this.label254.Size = new System.Drawing.Size(19, 19);
@@ -6695,7 +7047,7 @@
             // label253
             // 
             this.label253.AutoSize = true;
-            this.label253.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label253.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label253.Location = new System.Drawing.Point(515, 259);
             this.label253.Name = "label253";
             this.label253.Size = new System.Drawing.Size(70, 14);
@@ -6705,7 +7057,7 @@
             // label255
             // 
             this.label255.AutoSize = true;
-            this.label255.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.label255.Font = new System.Drawing.Font("SimSun", 10.5F);
             this.label255.Location = new System.Drawing.Point(518, 231);
             this.label255.Name = "label255";
             this.label255.Size = new System.Drawing.Size(70, 14);
@@ -6715,7 +7067,7 @@
             // label248
             // 
             this.label248.AutoSize = true;
-            this.label248.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label248.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label248.Location = new System.Drawing.Point(497, 260);
             this.label248.Name = "label248";
             this.label248.Size = new System.Drawing.Size(19, 19);
@@ -6725,7 +7077,7 @@
             // label246
             // 
             this.label246.AutoSize = true;
-            this.label246.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label246.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label246.Location = new System.Drawing.Point(497, 232);
             this.label246.Name = "label246";
             this.label246.Size = new System.Drawing.Size(19, 19);
@@ -6737,7 +7089,7 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tabControl1.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tabControl1.Location = new System.Drawing.Point(1515, 264);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -6746,6 +7098,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.tabPage1.Controls.Add(this.groupBox43);
             this.tabPage1.Location = new System.Drawing.Point(4, 26);
             this.tabPage1.Name = "tabPage1";
@@ -6772,7 +7125,8 @@
             this.groupBox43.Controls.Add(this.label284);
             this.groupBox43.Controls.Add(this.label285);
             this.groupBox43.Controls.Add(this.label286);
-            this.groupBox43.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox43.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox43.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox43.Location = new System.Drawing.Point(10, 10);
             this.groupBox43.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox43.Name = "groupBox43";
@@ -6785,7 +7139,9 @@
             // 
             // textBox_DianJi_Detecte_Para5
             // 
-            this.textBox_DianJi_Detecte_Para5.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.textBox_DianJi_Detecte_Para5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DianJi_Detecte_Para5.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_DianJi_Detecte_Para5.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DianJi_Detecte_Para5.Location = new System.Drawing.Point(271, 154);
             this.textBox_DianJi_Detecte_Para5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DianJi_Detecte_Para5.Name = "textBox_DianJi_Detecte_Para5";
@@ -6796,7 +7152,7 @@
             // label258
             // 
             this.label258.AutoSize = true;
-            this.label258.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label258.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label258.Location = new System.Drawing.Point(209, 158);
             this.label258.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label258.Name = "label258";
@@ -6806,7 +7162,9 @@
             // 
             // textBox_DianJi_Detecte_Para8
             // 
-            this.textBox_DianJi_Detecte_Para8.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.textBox_DianJi_Detecte_Para8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DianJi_Detecte_Para8.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_DianJi_Detecte_Para8.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DianJi_Detecte_Para8.Location = new System.Drawing.Point(271, 112);
             this.textBox_DianJi_Detecte_Para8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DianJi_Detecte_Para8.Name = "textBox_DianJi_Detecte_Para8";
@@ -6816,7 +7174,9 @@
             // 
             // textBox_DianJi_Detecte_Para7
             // 
-            this.textBox_DianJi_Detecte_Para7.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.textBox_DianJi_Detecte_Para7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DianJi_Detecte_Para7.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_DianJi_Detecte_Para7.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DianJi_Detecte_Para7.Location = new System.Drawing.Point(271, 70);
             this.textBox_DianJi_Detecte_Para7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DianJi_Detecte_Para7.Name = "textBox_DianJi_Detecte_Para7";
@@ -6826,7 +7186,9 @@
             // 
             // textBox_DianJi_Detecte_Para6
             // 
-            this.textBox_DianJi_Detecte_Para6.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.textBox_DianJi_Detecte_Para6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DianJi_Detecte_Para6.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_DianJi_Detecte_Para6.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DianJi_Detecte_Para6.Location = new System.Drawing.Point(271, 28);
             this.textBox_DianJi_Detecte_Para6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DianJi_Detecte_Para6.Name = "textBox_DianJi_Detecte_Para6";
@@ -6836,7 +7198,9 @@
             // 
             // textBox_DianJi_Detecte_Para4
             // 
-            this.textBox_DianJi_Detecte_Para4.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.textBox_DianJi_Detecte_Para4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DianJi_Detecte_Para4.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_DianJi_Detecte_Para4.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DianJi_Detecte_Para4.Location = new System.Drawing.Point(104, 154);
             this.textBox_DianJi_Detecte_Para4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DianJi_Detecte_Para4.Name = "textBox_DianJi_Detecte_Para4";
@@ -6847,7 +7211,7 @@
             // label278
             // 
             this.label278.AutoSize = true;
-            this.label278.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label278.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label278.Location = new System.Drawing.Point(38, 159);
             this.label278.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label278.Name = "label278";
@@ -6857,7 +7221,9 @@
             // 
             // textBox_DianJi_Detecte_Para3
             // 
-            this.textBox_DianJi_Detecte_Para3.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.textBox_DianJi_Detecte_Para3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DianJi_Detecte_Para3.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_DianJi_Detecte_Para3.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DianJi_Detecte_Para3.Location = new System.Drawing.Point(104, 112);
             this.textBox_DianJi_Detecte_Para3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DianJi_Detecte_Para3.Name = "textBox_DianJi_Detecte_Para3";
@@ -6868,7 +7234,7 @@
             // label279
             // 
             this.label279.AutoSize = true;
-            this.label279.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label279.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label279.Location = new System.Drawing.Point(38, 117);
             this.label279.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label279.Name = "label279";
@@ -6878,7 +7244,9 @@
             // 
             // textBox_DianJi_Detecte_Para2
             // 
-            this.textBox_DianJi_Detecte_Para2.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.textBox_DianJi_Detecte_Para2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DianJi_Detecte_Para2.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_DianJi_Detecte_Para2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DianJi_Detecte_Para2.Location = new System.Drawing.Point(104, 70);
             this.textBox_DianJi_Detecte_Para2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DianJi_Detecte_Para2.Name = "textBox_DianJi_Detecte_Para2";
@@ -6889,7 +7257,7 @@
             // label280
             // 
             this.label280.AutoSize = true;
-            this.label280.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label280.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label280.Location = new System.Drawing.Point(10, 75);
             this.label280.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label280.Name = "label280";
@@ -6899,7 +7267,9 @@
             // 
             // textBox_DianJi_Detecte_Para1
             // 
-            this.textBox_DianJi_Detecte_Para1.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.textBox_DianJi_Detecte_Para1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DianJi_Detecte_Para1.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_DianJi_Detecte_Para1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DianJi_Detecte_Para1.Location = new System.Drawing.Point(104, 28);
             this.textBox_DianJi_Detecte_Para1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DianJi_Detecte_Para1.Name = "textBox_DianJi_Detecte_Para1";
@@ -6910,7 +7280,7 @@
             // label281
             // 
             this.label281.AutoSize = true;
-            this.label281.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label281.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label281.Location = new System.Drawing.Point(10, 33);
             this.label281.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label281.Name = "label281";
@@ -6921,7 +7291,7 @@
             // label284
             // 
             this.label284.AutoSize = true;
-            this.label284.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label284.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label284.Location = new System.Drawing.Point(209, 116);
             this.label284.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label284.Name = "label284";
@@ -6932,7 +7302,7 @@
             // label285
             // 
             this.label285.AutoSize = true;
-            this.label285.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label285.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label285.Location = new System.Drawing.Point(181, 74);
             this.label285.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label285.Name = "label285";
@@ -6943,7 +7313,7 @@
             // label286
             // 
             this.label286.AutoSize = true;
-            this.label286.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label286.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label286.Location = new System.Drawing.Point(181, 32);
             this.label286.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label286.Name = "label286";
@@ -6953,7 +7323,9 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.tabPage2.Controls.Add(this.groupBox47);
+            this.tabPage2.ForeColor = System.Drawing.SystemColors.Control;
             this.tabPage2.Location = new System.Drawing.Point(4, 26);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -6975,6 +7347,8 @@
             this.groupBox47.Controls.Add(this.label302);
             this.groupBox47.Controls.Add(this.textBox_JueYuanJianCe_1_MeauringValue);
             this.groupBox47.Controls.Add(this.label303);
+            this.groupBox47.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox47.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox47.Location = new System.Drawing.Point(10, 10);
             this.groupBox47.Name = "groupBox47";
             this.groupBox47.Size = new System.Drawing.Size(350, 220);
@@ -6985,8 +7359,10 @@
             // 
             // textBox_JueYuanJianCe_1_ACDC
             // 
-            this.textBox_JueYuanJianCe_1_ACDC.Font = new System.Drawing.Font("宋体", 13.8F);
-            this.textBox_JueYuanJianCe_1_ACDC.Location = new System.Drawing.Point(175, 184);
+            this.textBox_JueYuanJianCe_1_ACDC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_JueYuanJianCe_1_ACDC.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_1_ACDC.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_JueYuanJianCe_1_ACDC.Location = new System.Drawing.Point(175, 183);
             this.textBox_JueYuanJianCe_1_ACDC.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_1_ACDC.Name = "textBox_JueYuanJianCe_1_ACDC";
             this.textBox_JueYuanJianCe_1_ACDC.ReadOnly = true;
@@ -6996,7 +7372,7 @@
             // label298
             // 
             this.label298.AutoSize = true;
-            this.label298.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label298.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label298.Location = new System.Drawing.Point(44, 188);
             this.label298.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label298.Name = "label298";
@@ -7006,8 +7382,10 @@
             // 
             // textBox_JueYuanJianCe_1_Alarm12
             // 
-            this.textBox_JueYuanJianCe_1_Alarm12.Font = new System.Drawing.Font("宋体", 13.8F);
-            this.textBox_JueYuanJianCe_1_Alarm12.Location = new System.Drawing.Point(175, 153);
+            this.textBox_JueYuanJianCe_1_Alarm12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_JueYuanJianCe_1_Alarm12.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_1_Alarm12.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_JueYuanJianCe_1_Alarm12.Location = new System.Drawing.Point(175, 152);
             this.textBox_JueYuanJianCe_1_Alarm12.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_1_Alarm12.Name = "textBox_JueYuanJianCe_1_Alarm12";
             this.textBox_JueYuanJianCe_1_Alarm12.ReadOnly = true;
@@ -7017,7 +7395,7 @@
             // label299
             // 
             this.label299.AutoSize = true;
-            this.label299.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label299.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label299.Location = new System.Drawing.Point(23, 157);
             this.label299.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label299.Name = "label299";
@@ -7027,8 +7405,10 @@
             // 
             // textBox_JueYuanJianCe_1_K1K2
             // 
-            this.textBox_JueYuanJianCe_1_K1K2.Font = new System.Drawing.Font("宋体", 13.8F);
-            this.textBox_JueYuanJianCe_1_K1K2.Location = new System.Drawing.Point(175, 122);
+            this.textBox_JueYuanJianCe_1_K1K2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_JueYuanJianCe_1_K1K2.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_1_K1K2.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_JueYuanJianCe_1_K1K2.Location = new System.Drawing.Point(175, 121);
             this.textBox_JueYuanJianCe_1_K1K2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_1_K1K2.Name = "textBox_JueYuanJianCe_1_K1K2";
             this.textBox_JueYuanJianCe_1_K1K2.ReadOnly = true;
@@ -7038,7 +7418,7 @@
             // label300
             // 
             this.label300.AutoSize = true;
-            this.label300.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label300.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label300.Location = new System.Drawing.Point(44, 126);
             this.label300.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label300.Name = "label300";
@@ -7048,8 +7428,10 @@
             // 
             // textBox_JueYuanJianCe_1_Alarm2Value
             // 
-            this.textBox_JueYuanJianCe_1_Alarm2Value.Font = new System.Drawing.Font("宋体", 13.8F);
-            this.textBox_JueYuanJianCe_1_Alarm2Value.Location = new System.Drawing.Point(175, 91);
+            this.textBox_JueYuanJianCe_1_Alarm2Value.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_JueYuanJianCe_1_Alarm2Value.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_1_Alarm2Value.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_JueYuanJianCe_1_Alarm2Value.Location = new System.Drawing.Point(175, 90);
             this.textBox_JueYuanJianCe_1_Alarm2Value.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_1_Alarm2Value.Name = "textBox_JueYuanJianCe_1_Alarm2Value";
             this.textBox_JueYuanJianCe_1_Alarm2Value.ReadOnly = true;
@@ -7059,7 +7441,7 @@
             // label301
             // 
             this.label301.AutoSize = true;
-            this.label301.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label301.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label301.Location = new System.Drawing.Point(81, 95);
             this.label301.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label301.Name = "label301";
@@ -7069,8 +7451,10 @@
             // 
             // textBox_JueYuanJianCe_1_Alarm1Value
             // 
-            this.textBox_JueYuanJianCe_1_Alarm1Value.Font = new System.Drawing.Font("宋体", 13.8F);
-            this.textBox_JueYuanJianCe_1_Alarm1Value.Location = new System.Drawing.Point(175, 60);
+            this.textBox_JueYuanJianCe_1_Alarm1Value.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_JueYuanJianCe_1_Alarm1Value.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_1_Alarm1Value.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_JueYuanJianCe_1_Alarm1Value.Location = new System.Drawing.Point(175, 59);
             this.textBox_JueYuanJianCe_1_Alarm1Value.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_1_Alarm1Value.Name = "textBox_JueYuanJianCe_1_Alarm1Value";
             this.textBox_JueYuanJianCe_1_Alarm1Value.ReadOnly = true;
@@ -7080,7 +7464,7 @@
             // label302
             // 
             this.label302.AutoSize = true;
-            this.label302.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label302.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label302.Location = new System.Drawing.Point(81, 64);
             this.label302.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label302.Name = "label302";
@@ -7090,8 +7474,10 @@
             // 
             // textBox_JueYuanJianCe_1_MeauringValue
             // 
-            this.textBox_JueYuanJianCe_1_MeauringValue.Font = new System.Drawing.Font("宋体", 13.8F);
-            this.textBox_JueYuanJianCe_1_MeauringValue.Location = new System.Drawing.Point(175, 29);
+            this.textBox_JueYuanJianCe_1_MeauringValue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_JueYuanJianCe_1_MeauringValue.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_1_MeauringValue.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_JueYuanJianCe_1_MeauringValue.Location = new System.Drawing.Point(175, 28);
             this.textBox_JueYuanJianCe_1_MeauringValue.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_1_MeauringValue.Name = "textBox_JueYuanJianCe_1_MeauringValue";
             this.textBox_JueYuanJianCe_1_MeauringValue.ReadOnly = true;
@@ -7101,7 +7487,7 @@
             // label303
             // 
             this.label303.AutoSize = true;
-            this.label303.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label303.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label303.Location = new System.Drawing.Point(11, 33);
             this.label303.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label303.Name = "label303";
@@ -7111,6 +7497,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.tabPage3.Controls.Add(this.groupBox46);
             this.tabPage3.Location = new System.Drawing.Point(4, 26);
             this.tabPage3.Name = "tabPage3";
@@ -7133,6 +7520,7 @@
             this.groupBox46.Controls.Add(this.label294);
             this.groupBox46.Controls.Add(this.label295);
             this.groupBox46.Controls.Add(this.label296);
+            this.groupBox46.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox46.Location = new System.Drawing.Point(10, 10);
             this.groupBox46.Name = "groupBox46";
             this.groupBox46.Size = new System.Drawing.Size(350, 220);
@@ -7143,7 +7531,9 @@
             // 
             // textBox_JueYuanJianCe_2_ACDC
             // 
-            this.textBox_JueYuanJianCe_2_ACDC.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.textBox_JueYuanJianCe_2_ACDC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_JueYuanJianCe_2_ACDC.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_2_ACDC.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_2_ACDC.Location = new System.Drawing.Point(175, 183);
             this.textBox_JueYuanJianCe_2_ACDC.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_2_ACDC.Name = "textBox_JueYuanJianCe_2_ACDC";
@@ -7153,7 +7543,9 @@
             // 
             // textBox_JueYuanJianCe_2_Alarm12
             // 
-            this.textBox_JueYuanJianCe_2_Alarm12.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.textBox_JueYuanJianCe_2_Alarm12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_JueYuanJianCe_2_Alarm12.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_2_Alarm12.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_2_Alarm12.Location = new System.Drawing.Point(175, 152);
             this.textBox_JueYuanJianCe_2_Alarm12.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_2_Alarm12.Name = "textBox_JueYuanJianCe_2_Alarm12";
@@ -7163,7 +7555,9 @@
             // 
             // textBox_JueYuanJianCe_2_K1K2
             // 
-            this.textBox_JueYuanJianCe_2_K1K2.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.textBox_JueYuanJianCe_2_K1K2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_JueYuanJianCe_2_K1K2.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_2_K1K2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_2_K1K2.Location = new System.Drawing.Point(175, 121);
             this.textBox_JueYuanJianCe_2_K1K2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_2_K1K2.Name = "textBox_JueYuanJianCe_2_K1K2";
@@ -7173,7 +7567,9 @@
             // 
             // textBox_JueYuanJianCe_2_Alarm2Value
             // 
-            this.textBox_JueYuanJianCe_2_Alarm2Value.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.textBox_JueYuanJianCe_2_Alarm2Value.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_JueYuanJianCe_2_Alarm2Value.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_2_Alarm2Value.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_2_Alarm2Value.Location = new System.Drawing.Point(175, 90);
             this.textBox_JueYuanJianCe_2_Alarm2Value.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_2_Alarm2Value.Name = "textBox_JueYuanJianCe_2_Alarm2Value";
@@ -7183,7 +7579,9 @@
             // 
             // textBox_JueYuanJianCe_2_Alarm1Value
             // 
-            this.textBox_JueYuanJianCe_2_Alarm1Value.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.textBox_JueYuanJianCe_2_Alarm1Value.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_JueYuanJianCe_2_Alarm1Value.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_2_Alarm1Value.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_2_Alarm1Value.Location = new System.Drawing.Point(175, 59);
             this.textBox_JueYuanJianCe_2_Alarm1Value.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_2_Alarm1Value.Name = "textBox_JueYuanJianCe_2_Alarm1Value";
@@ -7193,7 +7591,9 @@
             // 
             // textBox_JueYuanJianCe_2_MeauringValue
             // 
-            this.textBox_JueYuanJianCe_2_MeauringValue.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.textBox_JueYuanJianCe_2_MeauringValue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_JueYuanJianCe_2_MeauringValue.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_2_MeauringValue.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_2_MeauringValue.Location = new System.Drawing.Point(175, 28);
             this.textBox_JueYuanJianCe_2_MeauringValue.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_2_MeauringValue.Name = "textBox_JueYuanJianCe_2_MeauringValue";
@@ -7204,7 +7604,7 @@
             // label291
             // 
             this.label291.AutoSize = true;
-            this.label291.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label291.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label291.Location = new System.Drawing.Point(44, 188);
             this.label291.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label291.Name = "label291";
@@ -7215,7 +7615,7 @@
             // label292
             // 
             this.label292.AutoSize = true;
-            this.label292.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label292.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label292.Location = new System.Drawing.Point(23, 157);
             this.label292.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label292.Name = "label292";
@@ -7226,7 +7626,7 @@
             // label293
             // 
             this.label293.AutoSize = true;
-            this.label293.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label293.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label293.Location = new System.Drawing.Point(44, 126);
             this.label293.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label293.Name = "label293";
@@ -7237,7 +7637,7 @@
             // label294
             // 
             this.label294.AutoSize = true;
-            this.label294.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label294.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label294.Location = new System.Drawing.Point(81, 95);
             this.label294.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label294.Name = "label294";
@@ -7248,7 +7648,7 @@
             // label295
             // 
             this.label295.AutoSize = true;
-            this.label295.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label295.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label295.Location = new System.Drawing.Point(81, 64);
             this.label295.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label295.Name = "label295";
@@ -7259,7 +7659,7 @@
             // label296
             // 
             this.label296.AutoSize = true;
-            this.label296.Font = new System.Drawing.Font("宋体", 13.8F);
+            this.label296.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.label296.Location = new System.Drawing.Point(11, 33);
             this.label296.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label296.Name = "label296";
@@ -7269,45 +7669,90 @@
             // 
             // groupBox10
             // 
-            this.groupBox10.Controls.Add(this.textBoxWork_Station_Quire_Board_6);
+            this.groupBox10.Controls.Add(this.LightWork_Station_Quire_Board_6);
+            this.groupBox10.Controls.Add(this.LightWork_Station_Quire_Board_5);
+            this.groupBox10.Controls.Add(this.LightWork_Station_Quire_Board_4);
+            this.groupBox10.Controls.Add(this.LightWork_Station_Quire_Board_3);
+            this.groupBox10.Controls.Add(this.LightWork_Station_Quire_Board_2);
+            this.groupBox10.Controls.Add(this.LightWork_Station_Quire_Board_1);
             this.groupBox10.Controls.Add(this.label49);
-            this.groupBox10.Controls.Add(this.textBoxWork_Station_Quire_Board_5);
             this.groupBox10.Controls.Add(this.label50);
-            this.groupBox10.Controls.Add(this.textBoxWork_Station_Quire_Board_4);
             this.groupBox10.Controls.Add(this.label51);
-            this.groupBox10.Controls.Add(this.textBoxWork_Station_Quire_Board_3);
             this.groupBox10.Controls.Add(this.label52);
-            this.groupBox10.Controls.Add(this.textBoxWork_Station_Quire_Board_2);
             this.groupBox10.Controls.Add(this.label53);
-            this.groupBox10.Controls.Add(this.textBoxWork_Station_Quire_Board_1);
             this.groupBox10.Controls.Add(this.label54);
             this.groupBox10.Controls.Add(this.textBoxWork_Station_Quire_Board_RotateSpeed);
             this.groupBox10.Controls.Add(this.label62);
-            this.groupBox10.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox10.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox10.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox10.Location = new System.Drawing.Point(661, 254);
             this.groupBox10.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox10.Name = "groupBox10";
             this.groupBox10.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox10.Size = new System.Drawing.Size(165, 200);
+            this.groupBox10.Size = new System.Drawing.Size(165, 205);
             this.groupBox10.TabIndex = 158;
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "工况采集板(30#)";
             this.groupBox10.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint);
             // 
-            // textBoxWork_Station_Quire_Board_6
+            // LightWork_Station_Quire_Board_6
             // 
-            this.textBoxWork_Station_Quire_Board_6.Font = new System.Drawing.Font("宋体", 9F);
-            this.textBoxWork_Station_Quire_Board_6.Location = new System.Drawing.Point(125, 147);
-            this.textBoxWork_Station_Quire_Board_6.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxWork_Station_Quire_Board_6.Name = "textBoxWork_Station_Quire_Board_6";
-            this.textBoxWork_Station_Quire_Board_6.ReadOnly = true;
-            this.textBoxWork_Station_Quire_Board_6.Size = new System.Drawing.Size(21, 21);
-            this.textBoxWork_Station_Quire_Board_6.TabIndex = 131;
+            this.LightWork_Station_Quire_Board_6.Enabled = true;
+            this.LightWork_Station_Quire_Board_6.Location = new System.Drawing.Point(126, 143);
+            this.LightWork_Station_Quire_Board_6.Name = "LightWork_Station_Quire_Board_6";
+            this.LightWork_Station_Quire_Board_6.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("LightWork_Station_Quire_Board_6.OcxState")));
+            this.LightWork_Station_Quire_Board_6.Size = new System.Drawing.Size(26, 26);
+            this.LightWork_Station_Quire_Board_6.TabIndex = 143;
+            // 
+            // LightWork_Station_Quire_Board_5
+            // 
+            this.LightWork_Station_Quire_Board_5.Enabled = true;
+            this.LightWork_Station_Quire_Board_5.Location = new System.Drawing.Point(53, 143);
+            this.LightWork_Station_Quire_Board_5.Name = "LightWork_Station_Quire_Board_5";
+            this.LightWork_Station_Quire_Board_5.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("LightWork_Station_Quire_Board_5.OcxState")));
+            this.LightWork_Station_Quire_Board_5.Size = new System.Drawing.Size(26, 26);
+            this.LightWork_Station_Quire_Board_5.TabIndex = 142;
+            // 
+            // LightWork_Station_Quire_Board_4
+            // 
+            this.LightWork_Station_Quire_Board_4.Enabled = true;
+            this.LightWork_Station_Quire_Board_4.Location = new System.Drawing.Point(126, 109);
+            this.LightWork_Station_Quire_Board_4.Name = "LightWork_Station_Quire_Board_4";
+            this.LightWork_Station_Quire_Board_4.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("LightWork_Station_Quire_Board_4.OcxState")));
+            this.LightWork_Station_Quire_Board_4.Size = new System.Drawing.Size(26, 26);
+            this.LightWork_Station_Quire_Board_4.TabIndex = 141;
+            // 
+            // LightWork_Station_Quire_Board_3
+            // 
+            this.LightWork_Station_Quire_Board_3.Enabled = true;
+            this.LightWork_Station_Quire_Board_3.Location = new System.Drawing.Point(53, 109);
+            this.LightWork_Station_Quire_Board_3.Name = "LightWork_Station_Quire_Board_3";
+            this.LightWork_Station_Quire_Board_3.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("LightWork_Station_Quire_Board_3.OcxState")));
+            this.LightWork_Station_Quire_Board_3.Size = new System.Drawing.Size(26, 26);
+            this.LightWork_Station_Quire_Board_3.TabIndex = 140;
+            // 
+            // LightWork_Station_Quire_Board_2
+            // 
+            this.LightWork_Station_Quire_Board_2.Enabled = true;
+            this.LightWork_Station_Quire_Board_2.Location = new System.Drawing.Point(126, 75);
+            this.LightWork_Station_Quire_Board_2.Name = "LightWork_Station_Quire_Board_2";
+            this.LightWork_Station_Quire_Board_2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("LightWork_Station_Quire_Board_2.OcxState")));
+            this.LightWork_Station_Quire_Board_2.Size = new System.Drawing.Size(26, 26);
+            this.LightWork_Station_Quire_Board_2.TabIndex = 139;
+            // 
+            // LightWork_Station_Quire_Board_1
+            // 
+            this.LightWork_Station_Quire_Board_1.Enabled = true;
+            this.LightWork_Station_Quire_Board_1.Location = new System.Drawing.Point(53, 76);
+            this.LightWork_Station_Quire_Board_1.Name = "LightWork_Station_Quire_Board_1";
+            this.LightWork_Station_Quire_Board_1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("LightWork_Station_Quire_Board_1.OcxState")));
+            this.LightWork_Station_Quire_Board_1.Size = new System.Drawing.Size(26, 26);
+            this.LightWork_Station_Quire_Board_1.TabIndex = 138;
             // 
             // label49
             // 
             this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label49.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label49.Location = new System.Drawing.Point(85, 149);
             this.label49.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label49.Name = "label49";
@@ -7315,20 +7760,10 @@
             this.label49.TabIndex = 130;
             this.label49.Text = "#6:";
             // 
-            // textBoxWork_Station_Quire_Board_5
-            // 
-            this.textBoxWork_Station_Quire_Board_5.Font = new System.Drawing.Font("宋体", 9F);
-            this.textBoxWork_Station_Quire_Board_5.Location = new System.Drawing.Point(53, 147);
-            this.textBoxWork_Station_Quire_Board_5.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxWork_Station_Quire_Board_5.Name = "textBoxWork_Station_Quire_Board_5";
-            this.textBoxWork_Station_Quire_Board_5.ReadOnly = true;
-            this.textBoxWork_Station_Quire_Board_5.Size = new System.Drawing.Size(21, 21);
-            this.textBoxWork_Station_Quire_Board_5.TabIndex = 129;
-            // 
             // label50
             // 
             this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label50.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label50.Location = new System.Drawing.Point(15, 148);
             this.label50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label50.Name = "label50";
@@ -7336,20 +7771,10 @@
             this.label50.TabIndex = 128;
             this.label50.Text = "#5:";
             // 
-            // textBoxWork_Station_Quire_Board_4
-            // 
-            this.textBoxWork_Station_Quire_Board_4.Font = new System.Drawing.Font("宋体", 9F);
-            this.textBoxWork_Station_Quire_Board_4.Location = new System.Drawing.Point(125, 113);
-            this.textBoxWork_Station_Quire_Board_4.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxWork_Station_Quire_Board_4.Name = "textBoxWork_Station_Quire_Board_4";
-            this.textBoxWork_Station_Quire_Board_4.ReadOnly = true;
-            this.textBoxWork_Station_Quire_Board_4.Size = new System.Drawing.Size(21, 21);
-            this.textBoxWork_Station_Quire_Board_4.TabIndex = 127;
-            // 
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label51.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label51.Location = new System.Drawing.Point(85, 114);
             this.label51.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label51.Name = "label51";
@@ -7357,20 +7782,10 @@
             this.label51.TabIndex = 126;
             this.label51.Text = "#4:";
             // 
-            // textBoxWork_Station_Quire_Board_3
-            // 
-            this.textBoxWork_Station_Quire_Board_3.Font = new System.Drawing.Font("宋体", 9F);
-            this.textBoxWork_Station_Quire_Board_3.Location = new System.Drawing.Point(53, 113);
-            this.textBoxWork_Station_Quire_Board_3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxWork_Station_Quire_Board_3.Name = "textBoxWork_Station_Quire_Board_3";
-            this.textBoxWork_Station_Quire_Board_3.ReadOnly = true;
-            this.textBoxWork_Station_Quire_Board_3.Size = new System.Drawing.Size(21, 21);
-            this.textBoxWork_Station_Quire_Board_3.TabIndex = 125;
-            // 
             // label52
             // 
             this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label52.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label52.Location = new System.Drawing.Point(15, 114);
             this.label52.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label52.Name = "label52";
@@ -7378,20 +7793,10 @@
             this.label52.TabIndex = 124;
             this.label52.Text = "#3:";
             // 
-            // textBoxWork_Station_Quire_Board_2
-            // 
-            this.textBoxWork_Station_Quire_Board_2.Font = new System.Drawing.Font("宋体", 9F);
-            this.textBoxWork_Station_Quire_Board_2.Location = new System.Drawing.Point(125, 78);
-            this.textBoxWork_Station_Quire_Board_2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxWork_Station_Quire_Board_2.Name = "textBoxWork_Station_Quire_Board_2";
-            this.textBoxWork_Station_Quire_Board_2.ReadOnly = true;
-            this.textBoxWork_Station_Quire_Board_2.Size = new System.Drawing.Size(21, 21);
-            this.textBoxWork_Station_Quire_Board_2.TabIndex = 123;
-            // 
             // label53
             // 
             this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label53.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label53.Location = new System.Drawing.Point(85, 80);
             this.label53.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label53.Name = "label53";
@@ -7399,20 +7804,10 @@
             this.label53.TabIndex = 122;
             this.label53.Text = "#2:";
             // 
-            // textBoxWork_Station_Quire_Board_1
-            // 
-            this.textBoxWork_Station_Quire_Board_1.Font = new System.Drawing.Font("宋体", 9F);
-            this.textBoxWork_Station_Quire_Board_1.Location = new System.Drawing.Point(53, 78);
-            this.textBoxWork_Station_Quire_Board_1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxWork_Station_Quire_Board_1.Name = "textBoxWork_Station_Quire_Board_1";
-            this.textBoxWork_Station_Quire_Board_1.ReadOnly = true;
-            this.textBoxWork_Station_Quire_Board_1.Size = new System.Drawing.Size(21, 21);
-            this.textBoxWork_Station_Quire_Board_1.TabIndex = 121;
-            // 
             // label54
             // 
             this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label54.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label54.Location = new System.Drawing.Point(15, 79);
             this.label54.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label54.Name = "label54";
@@ -7422,7 +7817,9 @@
             // 
             // textBoxWork_Station_Quire_Board_RotateSpeed
             // 
-            this.textBoxWork_Station_Quire_Board_RotateSpeed.Font = new System.Drawing.Font("宋体", 14.25F);
+            this.textBoxWork_Station_Quire_Board_RotateSpeed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBoxWork_Station_Quire_Board_RotateSpeed.Font = new System.Drawing.Font("SimSun", 14.25F);
+            this.textBoxWork_Station_Quire_Board_RotateSpeed.ForeColor = System.Drawing.SystemColors.Info;
             this.textBoxWork_Station_Quire_Board_RotateSpeed.Location = new System.Drawing.Point(78, 35);
             this.textBoxWork_Station_Quire_Board_RotateSpeed.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxWork_Station_Quire_Board_RotateSpeed.Name = "textBoxWork_Station_Quire_Board_RotateSpeed";
@@ -7433,7 +7830,7 @@
             // label62
             // 
             this.label62.AutoSize = true;
-            this.label62.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label62.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label62.Location = new System.Drawing.Point(18, 39);
             this.label62.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label62.Name = "label62";
@@ -7447,7 +7844,8 @@
             this.groupBox11.Controls.Add(this.label64);
             this.groupBox11.Controls.Add(this.textBox_HPDCDetectBoardCtl_V);
             this.groupBox11.Controls.Add(this.label213);
-            this.groupBox11.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox11.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox11.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox11.Location = new System.Drawing.Point(444, 254);
             this.groupBox11.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox11.Name = "groupBox11";
@@ -7460,7 +7858,9 @@
             // 
             // textBox_HPDCDetectBoardCtl_I
             // 
-            this.textBox_HPDCDetectBoardCtl_I.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_HPDCDetectBoardCtl_I.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoardCtl_I.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_HPDCDetectBoardCtl_I.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoardCtl_I.Location = new System.Drawing.Point(137, 53);
             this.textBox_HPDCDetectBoardCtl_I.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoardCtl_I.Name = "textBox_HPDCDetectBoardCtl_I";
@@ -7471,7 +7871,7 @@
             // label64
             // 
             this.label64.AutoSize = true;
-            this.label64.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label64.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label64.Location = new System.Drawing.Point(6, 60);
             this.label64.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label64.Name = "label64";
@@ -7481,7 +7881,9 @@
             // 
             // textBox_HPDCDetectBoardCtl_V
             // 
-            this.textBox_HPDCDetectBoardCtl_V.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_HPDCDetectBoardCtl_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoardCtl_V.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_HPDCDetectBoardCtl_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoardCtl_V.Location = new System.Drawing.Point(137, 21);
             this.textBox_HPDCDetectBoardCtl_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoardCtl_V.Name = "textBox_HPDCDetectBoardCtl_V";
@@ -7492,7 +7894,7 @@
             // label213
             // 
             this.label213.AutoSize = true;
-            this.label213.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label213.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label213.Location = new System.Drawing.Point(6, 28);
             this.label213.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label213.Name = "label213";
@@ -7506,7 +7908,8 @@
             this.groupBox13.Controls.Add(this.label215);
             this.groupBox13.Controls.Add(this.textBox_ACDetectBoard_V);
             this.groupBox13.Controls.Add(this.label216);
-            this.groupBox13.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox13.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox13.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox13.Location = new System.Drawing.Point(444, 345);
             this.groupBox13.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox13.Name = "groupBox13";
@@ -7519,7 +7922,9 @@
             // 
             // textBox_ACDetectBoard_I
             // 
-            this.textBox_ACDetectBoard_I.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_ACDetectBoard_I.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_ACDetectBoard_I.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_ACDetectBoard_I.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_ACDetectBoard_I.Location = new System.Drawing.Point(145, 23);
             this.textBox_ACDetectBoard_I.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_ACDetectBoard_I.Name = "textBox_ACDetectBoard_I";
@@ -7530,7 +7935,7 @@
             // label215
             // 
             this.label215.AutoSize = true;
-            this.label215.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label215.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label215.Location = new System.Drawing.Point(110, 29);
             this.label215.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label215.Name = "label215";
@@ -7540,7 +7945,9 @@
             // 
             // textBox_ACDetectBoard_V
             // 
-            this.textBox_ACDetectBoard_V.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_ACDetectBoard_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_ACDetectBoard_V.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_ACDetectBoard_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_ACDetectBoard_V.Location = new System.Drawing.Point(45, 23);
             this.textBox_ACDetectBoard_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_ACDetectBoard_V.Name = "textBox_ACDetectBoard_V";
@@ -7551,7 +7958,7 @@
             // label216
             // 
             this.label216.AutoSize = true;
-            this.label216.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label216.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label216.Location = new System.Drawing.Point(5, 29);
             this.label216.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label216.Name = "label216";
@@ -7565,7 +7972,7 @@
             this.groupBox36.Controls.Add(this.textBox_LightRelayBoard1);
             this.groupBox36.Controls.Add(this.label219);
             this.groupBox36.Controls.Add(this.label218);
-            this.groupBox36.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox36.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
             this.groupBox36.Location = new System.Drawing.Point(444, 399);
             this.groupBox36.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox36.Name = "groupBox36";
@@ -7577,7 +7984,9 @@
             // 
             // textBox_LightRelayBoard2
             // 
-            this.textBox_LightRelayBoard2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_LightRelayBoard2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_LightRelayBoard2.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_LightRelayBoard2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_LightRelayBoard2.Location = new System.Drawing.Point(145, 21);
             this.textBox_LightRelayBoard2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_LightRelayBoard2.Name = "textBox_LightRelayBoard2";
@@ -7587,7 +7996,9 @@
             // 
             // textBox_LightRelayBoard1
             // 
-            this.textBox_LightRelayBoard1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_LightRelayBoard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_LightRelayBoard1.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_LightRelayBoard1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_LightRelayBoard1.Location = new System.Drawing.Point(45, 21);
             this.textBox_LightRelayBoard1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_LightRelayBoard1.Name = "textBox_LightRelayBoard1";
@@ -7598,7 +8009,7 @@
             // label219
             // 
             this.label219.AutoSize = true;
-            this.label219.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label219.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label219.Location = new System.Drawing.Point(4, 27);
             this.label219.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label219.Name = "label219";
@@ -7609,7 +8020,7 @@
             // label218
             // 
             this.label218.AutoSize = true;
-            this.label218.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label218.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label218.Location = new System.Drawing.Point(101, 27);
             this.label218.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label218.Name = "label218";
@@ -7633,12 +8044,13 @@
             this.groupBox_BoardD_Mon.Controls.Add(this.label210);
             this.groupBox_BoardD_Mon.Controls.Add(this.textBox_RotAxisX);
             this.groupBox_BoardD_Mon.Controls.Add(this.label211);
-            this.groupBox_BoardD_Mon.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Bold);
-            this.groupBox_BoardD_Mon.Location = new System.Drawing.Point(661, 474);
+            this.groupBox_BoardD_Mon.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox_BoardD_Mon.ForeColor = System.Drawing.SystemColors.Control;
+            this.groupBox_BoardD_Mon.Location = new System.Drawing.Point(511, 470);
             this.groupBox_BoardD_Mon.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox_BoardD_Mon.Name = "groupBox_BoardD_Mon";
             this.groupBox_BoardD_Mon.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox_BoardD_Mon.Size = new System.Drawing.Size(165, 198);
+            this.groupBox_BoardD_Mon.Size = new System.Drawing.Size(314, 195);
             this.groupBox_BoardD_Mon.TabIndex = 154;
             this.groupBox_BoardD_Mon.TabStop = false;
             this.groupBox_BoardD_Mon.Text = "水面控制盒";
@@ -7646,159 +8058,174 @@
             // 
             // textBox_KKInfo
             // 
-            this.textBox_KKInfo.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_KKInfo.Location = new System.Drawing.Point(82, 125);
+            this.textBox_KKInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_KKInfo.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_KKInfo.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_KKInfo.Location = new System.Drawing.Point(220, 26);
             this.textBox_KKInfo.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_KKInfo.Name = "textBox_KKInfo";
             this.textBox_KKInfo.ReadOnly = true;
-            this.textBox_KKInfo.Size = new System.Drawing.Size(70, 23);
+            this.textBox_KKInfo.Size = new System.Drawing.Size(65, 29);
             this.textBox_KKInfo.TabIndex = 120;
             // 
             // label205
             // 
             this.label205.AutoSize = true;
-            this.label205.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label205.Location = new System.Drawing.Point(39, 130);
+            this.label205.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label205.Location = new System.Drawing.Point(167, 32);
             this.label205.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label205.Name = "label205";
-            this.label205.Size = new System.Drawing.Size(40, 16);
+            this.label205.Size = new System.Drawing.Size(49, 19);
             this.label205.TabIndex = 119;
             this.label205.Text = "IO1:";
             // 
             // textBox_Space2
             // 
-            this.textBox_Space2.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Space2.Location = new System.Drawing.Point(82, 177);
+            this.textBox_Space2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_Space2.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Space2.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_Space2.Location = new System.Drawing.Point(220, 103);
             this.textBox_Space2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Space2.Name = "textBox_Space2";
             this.textBox_Space2.ReadOnly = true;
-            this.textBox_Space2.Size = new System.Drawing.Size(70, 23);
+            this.textBox_Space2.Size = new System.Drawing.Size(65, 29);
             this.textBox_Space2.TabIndex = 118;
             this.textBox_Space2.Visible = false;
             // 
             // label206
             // 
             this.label206.AutoSize = true;
-            this.label206.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label206.Location = new System.Drawing.Point(39, 181);
+            this.label206.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label206.Location = new System.Drawing.Point(167, 108);
             this.label206.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label206.Name = "label206";
-            this.label206.Size = new System.Drawing.Size(40, 16);
+            this.label206.Size = new System.Drawing.Size(48, 19);
             this.label206.TabIndex = 117;
             this.label206.Text = "备2:";
             this.label206.Visible = false;
             // 
             // textBox_Space1
             // 
-            this.textBox_Space1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Space1.Location = new System.Drawing.Point(82, 151);
+            this.textBox_Space1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_Space1.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Space1.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_Space1.Location = new System.Drawing.Point(220, 66);
             this.textBox_Space1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Space1.Name = "textBox_Space1";
             this.textBox_Space1.ReadOnly = true;
-            this.textBox_Space1.Size = new System.Drawing.Size(70, 23);
+            this.textBox_Space1.Size = new System.Drawing.Size(65, 29);
             this.textBox_Space1.TabIndex = 116;
             this.textBox_Space1.Visible = false;
             // 
             // label207
             // 
             this.label207.AutoSize = true;
-            this.label207.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label207.Location = new System.Drawing.Point(39, 158);
+            this.label207.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label207.Location = new System.Drawing.Point(167, 69);
             this.label207.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label207.Name = "label207";
-            this.label207.Size = new System.Drawing.Size(40, 16);
+            this.label207.Size = new System.Drawing.Size(48, 19);
             this.label207.TabIndex = 115;
             this.label207.Text = "备1:";
             this.label207.Visible = false;
             // 
             // textBox_RotAxisV
             // 
-            this.textBox_RotAxisV.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_RotAxisV.Location = new System.Drawing.Point(82, 99);
+            this.textBox_RotAxisV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_RotAxisV.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotAxisV.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_RotAxisV.Location = new System.Drawing.Point(98, 143);
             this.textBox_RotAxisV.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotAxisV.Name = "textBox_RotAxisV";
             this.textBox_RotAxisV.ReadOnly = true;
-            this.textBox_RotAxisV.Size = new System.Drawing.Size(70, 23);
+            this.textBox_RotAxisV.Size = new System.Drawing.Size(65, 29);
             this.textBox_RotAxisV.TabIndex = 114;
             // 
             // label208
             // 
             this.label208.AutoSize = true;
-            this.label208.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label208.Location = new System.Drawing.Point(7, 104);
+            this.label208.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label208.Location = new System.Drawing.Point(7, 149);
             this.label208.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label208.Name = "label208";
-            this.label208.Size = new System.Drawing.Size(72, 16);
+            this.label208.Size = new System.Drawing.Size(86, 19);
             this.label208.TabIndex = 113;
             this.label208.Text = "上/下移:";
             // 
             // textBox_RotAxisZ
             // 
-            this.textBox_RotAxisZ.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_RotAxisZ.Location = new System.Drawing.Point(82, 73);
+            this.textBox_RotAxisZ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_RotAxisZ.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotAxisZ.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_RotAxisZ.Location = new System.Drawing.Point(98, 103);
             this.textBox_RotAxisZ.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotAxisZ.Name = "textBox_RotAxisZ";
             this.textBox_RotAxisZ.ReadOnly = true;
-            this.textBox_RotAxisZ.Size = new System.Drawing.Size(70, 23);
+            this.textBox_RotAxisZ.Size = new System.Drawing.Size(65, 29);
             this.textBox_RotAxisZ.TabIndex = 112;
             // 
             // label209
             // 
             this.label209.AutoSize = true;
-            this.label209.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label209.Location = new System.Drawing.Point(7, 76);
+            this.label209.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label209.Location = new System.Drawing.Point(7, 108);
             this.label209.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label209.Name = "label209";
-            this.label209.Size = new System.Drawing.Size(72, 16);
+            this.label209.Size = new System.Drawing.Size(86, 19);
             this.label209.TabIndex = 111;
             this.label209.Text = "左/右转:";
             // 
             // textBox_RotAxisY
             // 
-            this.textBox_RotAxisY.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_RotAxisY.Location = new System.Drawing.Point(82, 47);
+            this.textBox_RotAxisY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_RotAxisY.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotAxisY.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_RotAxisY.Location = new System.Drawing.Point(98, 65);
             this.textBox_RotAxisY.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotAxisY.Name = "textBox_RotAxisY";
             this.textBox_RotAxisY.ReadOnly = true;
-            this.textBox_RotAxisY.Size = new System.Drawing.Size(70, 23);
+            this.textBox_RotAxisY.Size = new System.Drawing.Size(65, 29);
             this.textBox_RotAxisY.TabIndex = 110;
             // 
             // label210
             // 
             this.label210.AutoSize = true;
-            this.label210.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label210.Location = new System.Drawing.Point(7, 51);
+            this.label210.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label210.Location = new System.Drawing.Point(7, 69);
             this.label210.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label210.Name = "label210";
-            this.label210.Size = new System.Drawing.Size(72, 16);
+            this.label210.Size = new System.Drawing.Size(86, 19);
             this.label210.TabIndex = 109;
             this.label210.Text = "前/后移:";
             // 
             // textBox_RotAxisX
             // 
-            this.textBox_RotAxisX.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_RotAxisX.Location = new System.Drawing.Point(82, 21);
+            this.textBox_RotAxisX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_RotAxisX.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotAxisX.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_RotAxisX.Location = new System.Drawing.Point(98, 26);
             this.textBox_RotAxisX.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotAxisX.Name = "textBox_RotAxisX";
             this.textBox_RotAxisX.ReadOnly = true;
-            this.textBox_RotAxisX.Size = new System.Drawing.Size(70, 23);
+            this.textBox_RotAxisX.Size = new System.Drawing.Size(65, 29);
             this.textBox_RotAxisX.TabIndex = 108;
             // 
             // label211
             // 
             this.label211.AutoSize = true;
-            this.label211.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label211.Location = new System.Drawing.Point(7, 25);
+            this.label211.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label211.Location = new System.Drawing.Point(7, 32);
             this.label211.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label211.Name = "label211";
-            this.label211.Size = new System.Drawing.Size(72, 16);
+            this.label211.Size = new System.Drawing.Size(86, 19);
             this.label211.TabIndex = 107;
             this.label211.Text = "左/右移:";
             // 
             // groupBox_AlarmInfo
             // 
             this.groupBox_AlarmInfo.Controls.Add(this.DataGridView_SysAlarmInfo);
-            this.groupBox_AlarmInfo.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox_AlarmInfo.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox_AlarmInfo.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox_AlarmInfo.Location = new System.Drawing.Point(1515, 540);
             this.groupBox_AlarmInfo.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox_AlarmInfo.Name = "groupBox_AlarmInfo";
@@ -7812,26 +8239,27 @@
             // DataGridView_SysAlarmInfo
             // 
             this.DataGridView_SysAlarmInfo.AllowUserToAddRows = false;
-            this.DataGridView_SysAlarmInfo.BackgroundColor = System.Drawing.Color.DarkSeaGreen;
+            this.DataGridView_SysAlarmInfo.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.DataGridView_SysAlarmInfo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.DataGridView_SysAlarmInfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DataGridView_SysAlarmInfo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1});
             this.DataGridView_SysAlarmInfo.ContextMenuStrip = this.contextMenuStrip1;
             this.DataGridView_SysAlarmInfo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DataGridView_SysAlarmInfo.GridColor = System.Drawing.SystemColors.Info;
             this.DataGridView_SysAlarmInfo.Location = new System.Drawing.Point(2, 23);
             this.DataGridView_SysAlarmInfo.Margin = new System.Windows.Forms.Padding(2);
             this.DataGridView_SysAlarmInfo.Name = "DataGridView_SysAlarmInfo";
             this.DataGridView_SysAlarmInfo.ReadOnly = true;
             this.DataGridView_SysAlarmInfo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGridView_SysAlarmInfo.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridView_SysAlarmInfo.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.DataGridView_SysAlarmInfo.RowHeadersVisible = false;
             this.DataGridView_SysAlarmInfo.RowHeadersWidth = 51;
             this.DataGridView_SysAlarmInfo.RowTemplate.Height = 27;
@@ -7841,10 +8269,10 @@
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle4;
             this.Column1.HeaderText = "";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
@@ -7888,7 +8316,8 @@
             this.groupBox_BoardB_Mon.Controls.Add(this.groupBox25);
             this.groupBox_BoardB_Mon.Controls.Add(this.richTextBox_Fun16_RecvInfo);
             this.groupBox_BoardB_Mon.Controls.Add(this.groupBox26);
-            this.groupBox_BoardB_Mon.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox_BoardB_Mon.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox_BoardB_Mon.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox_BoardB_Mon.Location = new System.Drawing.Point(837, 375);
             this.groupBox_BoardB_Mon.Name = "groupBox_BoardB_Mon";
             this.groupBox_BoardB_Mon.Size = new System.Drawing.Size(670, 392);
@@ -7903,7 +8332,8 @@
             this.groupBox20.Controls.Add(this.label135);
             this.groupBox20.Controls.Add(this.textBox_DOUT1_8_SSUP1_2);
             this.groupBox20.Controls.Add(this.label136);
-            this.groupBox20.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox20.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox20.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox20.Location = new System.Drawing.Point(10, 329);
             this.groupBox20.Name = "groupBox20";
             this.groupBox20.Size = new System.Drawing.Size(655, 60);
@@ -7914,7 +8344,9 @@
             // 
             // textBox_DOUT9_16_SSUP3_4
             // 
-            this.textBox_DOUT9_16_SSUP3_4.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_DOUT9_16_SSUP3_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DOUT9_16_SSUP3_4.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_DOUT9_16_SSUP3_4.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DOUT9_16_SSUP3_4.Location = new System.Drawing.Point(480, 20);
             this.textBox_DOUT9_16_SSUP3_4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DOUT9_16_SSUP3_4.Name = "textBox_DOUT9_16_SSUP3_4";
@@ -7925,7 +8357,7 @@
             // label135
             // 
             this.label135.AutoSize = true;
-            this.label135.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label135.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label135.Location = new System.Drawing.Point(281, 25);
             this.label135.Name = "label135";
             this.label135.Size = new System.Drawing.Size(199, 19);
@@ -7934,7 +8366,9 @@
             // 
             // textBox_DOUT1_8_SSUP1_2
             // 
-            this.textBox_DOUT1_8_SSUP1_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_DOUT1_8_SSUP1_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DOUT1_8_SSUP1_2.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_DOUT1_8_SSUP1_2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DOUT1_8_SSUP1_2.Location = new System.Drawing.Point(202, 20);
             this.textBox_DOUT1_8_SSUP1_2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DOUT1_8_SSUP1_2.Name = "textBox_DOUT1_8_SSUP1_2";
@@ -7945,7 +8379,7 @@
             // label136
             // 
             this.label136.AutoSize = true;
-            this.label136.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label136.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label136.Location = new System.Drawing.Point(8, 25);
             this.label136.Name = "label136";
             this.label136.Size = new System.Drawing.Size(189, 19);
@@ -7964,7 +8398,8 @@
             this.groupBox21.Controls.Add(this.label141);
             this.groupBox21.Controls.Add(this.textBox_External_Analog_In_1);
             this.groupBox21.Controls.Add(this.label142);
-            this.groupBox21.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox21.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox21.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox21.Location = new System.Drawing.Point(9, 261);
             this.groupBox21.Name = "groupBox21";
             this.groupBox21.Size = new System.Drawing.Size(655, 65);
@@ -7975,7 +8410,9 @@
             // 
             // textBox_Fun16_Temperature
             // 
-            this.textBox_Fun16_Temperature.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Fun16_Temperature.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_Fun16_Temperature.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Fun16_Temperature.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_Fun16_Temperature.Location = new System.Drawing.Point(586, 25);
             this.textBox_Fun16_Temperature.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Fun16_Temperature.Name = "textBox_Fun16_Temperature";
@@ -7986,7 +8423,7 @@
             // label138
             // 
             this.label138.AutoSize = true;
-            this.label138.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label138.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label138.Location = new System.Drawing.Point(515, 30);
             this.label138.Name = "label138";
             this.label138.Size = new System.Drawing.Size(66, 19);
@@ -7995,7 +8432,9 @@
             // 
             // textBox_External_Analog_In_4
             // 
-            this.textBox_External_Analog_In_4.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_External_Analog_In_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_External_Analog_In_4.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_External_Analog_In_4.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_External_Analog_In_4.Location = new System.Drawing.Point(441, 25);
             this.textBox_External_Analog_In_4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_External_Analog_In_4.Name = "textBox_External_Analog_In_4";
@@ -8006,7 +8445,7 @@
             // label139
             // 
             this.label139.AutoSize = true;
-            this.label139.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label139.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label139.Location = new System.Drawing.Point(381, 30);
             this.label139.Name = "label139";
             this.label139.Size = new System.Drawing.Size(39, 19);
@@ -8015,7 +8454,9 @@
             // 
             // textBox_External_Analog_In_3
             // 
-            this.textBox_External_Analog_In_3.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_External_Analog_In_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_External_Analog_In_3.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_External_Analog_In_3.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_External_Analog_In_3.Location = new System.Drawing.Point(309, 25);
             this.textBox_External_Analog_In_3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_External_Analog_In_3.Name = "textBox_External_Analog_In_3";
@@ -8026,7 +8467,7 @@
             // label140
             // 
             this.label140.AutoSize = true;
-            this.label140.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label140.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label140.Location = new System.Drawing.Point(264, 30);
             this.label140.Name = "label140";
             this.label140.Size = new System.Drawing.Size(39, 19);
@@ -8035,7 +8476,9 @@
             // 
             // textBox_External_Analog_In_2
             // 
-            this.textBox_External_Analog_In_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_External_Analog_In_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_External_Analog_In_2.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_External_Analog_In_2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_External_Analog_In_2.Location = new System.Drawing.Point(180, 25);
             this.textBox_External_Analog_In_2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_External_Analog_In_2.Name = "textBox_External_Analog_In_2";
@@ -8046,7 +8489,7 @@
             // label141
             // 
             this.label141.AutoSize = true;
-            this.label141.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label141.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label141.Location = new System.Drawing.Point(136, 30);
             this.label141.Name = "label141";
             this.label141.Size = new System.Drawing.Size(39, 19);
@@ -8055,7 +8498,9 @@
             // 
             // textBox_External_Analog_In_1
             // 
-            this.textBox_External_Analog_In_1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_External_Analog_In_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_External_Analog_In_1.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_External_Analog_In_1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_External_Analog_In_1.Location = new System.Drawing.Point(55, 25);
             this.textBox_External_Analog_In_1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_External_Analog_In_1.Name = "textBox_External_Analog_In_1";
@@ -8066,7 +8511,7 @@
             // label142
             // 
             this.label142.AutoSize = true;
-            this.label142.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label142.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label142.Location = new System.Drawing.Point(12, 30);
             this.label142.Name = "label142";
             this.label142.Size = new System.Drawing.Size(39, 19);
@@ -8083,7 +8528,8 @@
             this.groupBox22.Controls.Add(this.label146);
             this.groupBox22.Controls.Add(this.textBox_VCCD);
             this.groupBox22.Controls.Add(this.label147);
-            this.groupBox22.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox22.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox22.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox22.Location = new System.Drawing.Point(8, 191);
             this.groupBox22.Name = "groupBox22";
             this.groupBox22.Size = new System.Drawing.Size(655, 65);
@@ -8094,7 +8540,9 @@
             // 
             // textBox_15VDC
             // 
-            this.textBox_15VDC.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_15VDC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_15VDC.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_15VDC.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_15VDC.Location = new System.Drawing.Point(586, 26);
             this.textBox_15VDC.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_15VDC.Name = "textBox_15VDC";
@@ -8105,7 +8553,7 @@
             // label144
             // 
             this.label144.AutoSize = true;
-            this.label144.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label144.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label144.Location = new System.Drawing.Point(503, 32);
             this.label144.Name = "label144";
             this.label144.Size = new System.Drawing.Size(79, 19);
@@ -8114,7 +8562,9 @@
             // 
             // textBox_24VDC
             // 
-            this.textBox_24VDC.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_24VDC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_24VDC.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_24VDC.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_24VDC.Location = new System.Drawing.Point(423, 26);
             this.textBox_24VDC.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_24VDC.Name = "textBox_24VDC";
@@ -8125,7 +8575,7 @@
             // label145
             // 
             this.label145.AutoSize = true;
-            this.label145.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label145.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label145.Location = new System.Drawing.Point(338, 32);
             this.label145.Name = "label145";
             this.label145.Size = new System.Drawing.Size(79, 19);
@@ -8134,7 +8584,9 @@
             // 
             // textBox_VCCA
             // 
-            this.textBox_VCCA.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_VCCA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_VCCA.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_VCCA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_VCCA.Location = new System.Drawing.Point(260, 26);
             this.textBox_VCCA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_VCCA.Name = "textBox_VCCA";
@@ -8145,7 +8597,7 @@
             // label146
             // 
             this.label146.AutoSize = true;
-            this.label146.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label146.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label146.Location = new System.Drawing.Point(194, 32);
             this.label146.Name = "label146";
             this.label146.Size = new System.Drawing.Size(59, 19);
@@ -8154,7 +8606,9 @@
             // 
             // textBox_VCCD
             // 
-            this.textBox_VCCD.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_VCCD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_VCCD.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_VCCD.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_VCCD.Location = new System.Drawing.Point(97, 26);
             this.textBox_VCCD.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_VCCD.Name = "textBox_VCCD";
@@ -8165,7 +8619,7 @@
             // label147
             // 
             this.label147.AutoSize = true;
-            this.label147.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label147.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label147.Location = new System.Drawing.Point(34, 32);
             this.label147.Name = "label147";
             this.label147.Size = new System.Drawing.Size(59, 19);
@@ -8190,7 +8644,8 @@
             this.groupBox24.Controls.Add(this.label155);
             this.groupBox24.Controls.Add(this.textBox_PWM_1_2);
             this.groupBox24.Controls.Add(this.label156);
-            this.groupBox24.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox24.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox24.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox24.Location = new System.Drawing.Point(9, 86);
             this.groupBox24.Name = "groupBox24";
             this.groupBox24.Size = new System.Drawing.Size(655, 100);
@@ -8201,7 +8656,9 @@
             // 
             // textBox_PWM_15_16
             // 
-            this.textBox_PWM_15_16.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_15_16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_PWM_15_16.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_15_16.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_PWM_15_16.Location = new System.Drawing.Point(585, 61);
             this.textBox_PWM_15_16.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_PWM_15_16.Name = "textBox_PWM_15_16";
@@ -8212,7 +8669,7 @@
             // label149
             // 
             this.label149.AutoSize = true;
-            this.label149.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label149.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label149.Location = new System.Drawing.Point(493, 66);
             this.label149.Name = "label149";
             this.label149.Size = new System.Drawing.Size(99, 19);
@@ -8221,7 +8678,9 @@
             // 
             // textBox_PWM_13_14
             // 
-            this.textBox_PWM_13_14.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_13_14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_PWM_13_14.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_13_14.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_PWM_13_14.Location = new System.Drawing.Point(422, 61);
             this.textBox_PWM_13_14.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_PWM_13_14.Name = "textBox_PWM_13_14";
@@ -8232,7 +8691,7 @@
             // label150
             // 
             this.label150.AutoSize = true;
-            this.label150.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label150.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label150.Location = new System.Drawing.Point(321, 66);
             this.label150.Name = "label150";
             this.label150.Size = new System.Drawing.Size(109, 19);
@@ -8241,7 +8700,9 @@
             // 
             // textBox_PWM_11_12
             // 
-            this.textBox_PWM_11_12.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_11_12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_PWM_11_12.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_11_12.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_PWM_11_12.Location = new System.Drawing.Point(259, 61);
             this.textBox_PWM_11_12.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_PWM_11_12.Name = "textBox_PWM_11_12";
@@ -8252,7 +8713,7 @@
             // label151
             // 
             this.label151.AutoSize = true;
-            this.label151.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label151.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label151.Location = new System.Drawing.Point(161, 66);
             this.label151.Name = "label151";
             this.label151.Size = new System.Drawing.Size(99, 19);
@@ -8261,7 +8722,9 @@
             // 
             // textBox_PWM_9_10
             // 
-            this.textBox_PWM_9_10.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_9_10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_PWM_9_10.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_9_10.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_PWM_9_10.Location = new System.Drawing.Point(96, 61);
             this.textBox_PWM_9_10.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_PWM_9_10.Name = "textBox_PWM_9_10";
@@ -8272,7 +8735,7 @@
             // label152
             // 
             this.label152.AutoSize = true;
-            this.label152.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label152.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label152.Location = new System.Drawing.Point(9, 66);
             this.label152.Name = "label152";
             this.label152.Size = new System.Drawing.Size(89, 19);
@@ -8281,7 +8744,9 @@
             // 
             // textBox_PWM_7_8
             // 
-            this.textBox_PWM_7_8.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_7_8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_PWM_7_8.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_7_8.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_PWM_7_8.Location = new System.Drawing.Point(585, 26);
             this.textBox_PWM_7_8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_PWM_7_8.Name = "textBox_PWM_7_8";
@@ -8292,7 +8757,7 @@
             // label153
             // 
             this.label153.AutoSize = true;
-            this.label153.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label153.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label153.Location = new System.Drawing.Point(495, 31);
             this.label153.Name = "label153";
             this.label153.Size = new System.Drawing.Size(79, 19);
@@ -8301,7 +8766,9 @@
             // 
             // textBox_PWM_5_6
             // 
-            this.textBox_PWM_5_6.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_5_6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_PWM_5_6.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_5_6.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_PWM_5_6.Location = new System.Drawing.Point(422, 26);
             this.textBox_PWM_5_6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_PWM_5_6.Name = "textBox_PWM_5_6";
@@ -8312,7 +8779,7 @@
             // label154
             // 
             this.label154.AutoSize = true;
-            this.label154.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label154.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label154.Location = new System.Drawing.Point(333, 31);
             this.label154.Name = "label154";
             this.label154.Size = new System.Drawing.Size(79, 19);
@@ -8321,7 +8788,9 @@
             // 
             // textBox_PWM_3_4
             // 
-            this.textBox_PWM_3_4.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_3_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_PWM_3_4.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_3_4.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_PWM_3_4.Location = new System.Drawing.Point(259, 26);
             this.textBox_PWM_3_4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_PWM_3_4.Name = "textBox_PWM_3_4";
@@ -8332,7 +8801,7 @@
             // label155
             // 
             this.label155.AutoSize = true;
-            this.label155.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label155.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label155.Location = new System.Drawing.Point(171, 31);
             this.label155.Name = "label155";
             this.label155.Size = new System.Drawing.Size(79, 19);
@@ -8341,7 +8810,9 @@
             // 
             // textBox_PWM_1_2
             // 
-            this.textBox_PWM_1_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_1_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_PWM_1_2.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_1_2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_PWM_1_2.Location = new System.Drawing.Point(96, 26);
             this.textBox_PWM_1_2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_PWM_1_2.Name = "textBox_PWM_1_2";
@@ -8352,7 +8823,7 @@
             // label156
             // 
             this.label156.AutoSize = true;
-            this.label156.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label156.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label156.Location = new System.Drawing.Point(9, 31);
             this.label156.Name = "label156";
             this.label156.Size = new System.Drawing.Size(79, 19);
@@ -8361,14 +8832,14 @@
             // 
             // groupBox25
             // 
-            this.groupBox25.Controls.Add(this.textBox_Fun16_DIN1);
-            this.groupBox25.Controls.Add(this.textBox_Fun16_DIN4);
-            this.groupBox25.Controls.Add(this.textBox_Fun16_DIN5);
-            this.groupBox25.Controls.Add(this.textBox_Fun16_DIN6);
-            this.groupBox25.Controls.Add(this.textBox_Fun16_DIN2);
-            this.groupBox25.Controls.Add(this.textBox_Fun16_DIN7);
-            this.groupBox25.Controls.Add(this.textBox_Fun16_DIN8);
-            this.groupBox25.Controls.Add(this.textBox_Fun16_DIN3);
+            this.groupBox25.Controls.Add(this.Light_Fun16_DIN1);
+            this.groupBox25.Controls.Add(this.Light_Fun16_DIN2);
+            this.groupBox25.Controls.Add(this.Light_Fun16_DIN3);
+            this.groupBox25.Controls.Add(this.Light_Fun16_DIN4);
+            this.groupBox25.Controls.Add(this.Light_Fun16_DIN5);
+            this.groupBox25.Controls.Add(this.Light_Fun16_DIN6);
+            this.groupBox25.Controls.Add(this.Light_Fun16_DIN7);
+            this.groupBox25.Controls.Add(this.Light_Fun16_DIN8);
             this.groupBox25.Controls.Add(this.label159);
             this.groupBox25.Controls.Add(this.label160);
             this.groupBox25.Controls.Add(this.label161);
@@ -8377,7 +8848,8 @@
             this.groupBox25.Controls.Add(this.label164);
             this.groupBox25.Controls.Add(this.label165);
             this.groupBox25.Controls.Add(this.label166);
-            this.groupBox25.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox25.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox25.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox25.Location = new System.Drawing.Point(9, 22);
             this.groupBox25.Name = "groupBox25";
             this.groupBox25.Size = new System.Drawing.Size(655, 60);
@@ -8386,90 +8858,82 @@
             this.groupBox25.Text = "数字量输入";
             this.groupBox25.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint);
             // 
-            // textBox_Fun16_DIN1
+            // Light_Fun16_DIN1
             // 
-            this.textBox_Fun16_DIN1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Fun16_DIN1.Location = new System.Drawing.Point(625, 24);
-            this.textBox_Fun16_DIN1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Fun16_DIN1.Name = "textBox_Fun16_DIN1";
-            this.textBox_Fun16_DIN1.ReadOnly = true;
-            this.textBox_Fun16_DIN1.Size = new System.Drawing.Size(23, 23);
-            this.textBox_Fun16_DIN1.TabIndex = 122;
+            this.Light_Fun16_DIN1.Enabled = true;
+            this.Light_Fun16_DIN1.Location = new System.Drawing.Point(624, 21);
+            this.Light_Fun16_DIN1.Name = "Light_Fun16_DIN1";
+            this.Light_Fun16_DIN1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun16_DIN1.OcxState")));
+            this.Light_Fun16_DIN1.Size = new System.Drawing.Size(27, 29);
+            this.Light_Fun16_DIN1.TabIndex = 176;
             // 
-            // textBox_Fun16_DIN4
+            // Light_Fun16_DIN2
             // 
-            this.textBox_Fun16_DIN4.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Fun16_DIN4.Location = new System.Drawing.Point(382, 24);
-            this.textBox_Fun16_DIN4.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Fun16_DIN4.Name = "textBox_Fun16_DIN4";
-            this.textBox_Fun16_DIN4.ReadOnly = true;
-            this.textBox_Fun16_DIN4.Size = new System.Drawing.Size(23, 23);
-            this.textBox_Fun16_DIN4.TabIndex = 116;
+            this.Light_Fun16_DIN2.Enabled = true;
+            this.Light_Fun16_DIN2.Location = new System.Drawing.Point(543, 22);
+            this.Light_Fun16_DIN2.Name = "Light_Fun16_DIN2";
+            this.Light_Fun16_DIN2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun16_DIN2.OcxState")));
+            this.Light_Fun16_DIN2.Size = new System.Drawing.Size(27, 29);
+            this.Light_Fun16_DIN2.TabIndex = 175;
             // 
-            // textBox_Fun16_DIN5
+            // Light_Fun16_DIN3
             // 
-            this.textBox_Fun16_DIN5.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Fun16_DIN5.Location = new System.Drawing.Point(301, 24);
-            this.textBox_Fun16_DIN5.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Fun16_DIN5.Name = "textBox_Fun16_DIN5";
-            this.textBox_Fun16_DIN5.ReadOnly = true;
-            this.textBox_Fun16_DIN5.Size = new System.Drawing.Size(23, 23);
-            this.textBox_Fun16_DIN5.TabIndex = 114;
+            this.Light_Fun16_DIN3.Enabled = true;
+            this.Light_Fun16_DIN3.Location = new System.Drawing.Point(459, 22);
+            this.Light_Fun16_DIN3.Name = "Light_Fun16_DIN3";
+            this.Light_Fun16_DIN3.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun16_DIN3.OcxState")));
+            this.Light_Fun16_DIN3.Size = new System.Drawing.Size(27, 29);
+            this.Light_Fun16_DIN3.TabIndex = 174;
             // 
-            // textBox_Fun16_DIN6
+            // Light_Fun16_DIN4
             // 
-            this.textBox_Fun16_DIN6.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Fun16_DIN6.Location = new System.Drawing.Point(220, 24);
-            this.textBox_Fun16_DIN6.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Fun16_DIN6.Name = "textBox_Fun16_DIN6";
-            this.textBox_Fun16_DIN6.ReadOnly = true;
-            this.textBox_Fun16_DIN6.Size = new System.Drawing.Size(23, 23);
-            this.textBox_Fun16_DIN6.TabIndex = 112;
+            this.Light_Fun16_DIN4.Enabled = true;
+            this.Light_Fun16_DIN4.Location = new System.Drawing.Point(381, 21);
+            this.Light_Fun16_DIN4.Name = "Light_Fun16_DIN4";
+            this.Light_Fun16_DIN4.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun16_DIN4.OcxState")));
+            this.Light_Fun16_DIN4.Size = new System.Drawing.Size(27, 29);
+            this.Light_Fun16_DIN4.TabIndex = 173;
             // 
-            // textBox_Fun16_DIN2
+            // Light_Fun16_DIN5
             // 
-            this.textBox_Fun16_DIN2.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Fun16_DIN2.Location = new System.Drawing.Point(544, 24);
-            this.textBox_Fun16_DIN2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Fun16_DIN2.Name = "textBox_Fun16_DIN2";
-            this.textBox_Fun16_DIN2.ReadOnly = true;
-            this.textBox_Fun16_DIN2.Size = new System.Drawing.Size(23, 23);
-            this.textBox_Fun16_DIN2.TabIndex = 120;
+            this.Light_Fun16_DIN5.Enabled = true;
+            this.Light_Fun16_DIN5.Location = new System.Drawing.Point(300, 21);
+            this.Light_Fun16_DIN5.Name = "Light_Fun16_DIN5";
+            this.Light_Fun16_DIN5.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun16_DIN5.OcxState")));
+            this.Light_Fun16_DIN5.Size = new System.Drawing.Size(27, 29);
+            this.Light_Fun16_DIN5.TabIndex = 172;
             // 
-            // textBox_Fun16_DIN7
+            // Light_Fun16_DIN6
             // 
-            this.textBox_Fun16_DIN7.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Fun16_DIN7.Location = new System.Drawing.Point(139, 24);
-            this.textBox_Fun16_DIN7.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Fun16_DIN7.Name = "textBox_Fun16_DIN7";
-            this.textBox_Fun16_DIN7.ReadOnly = true;
-            this.textBox_Fun16_DIN7.Size = new System.Drawing.Size(23, 23);
-            this.textBox_Fun16_DIN7.TabIndex = 110;
+            this.Light_Fun16_DIN6.Enabled = true;
+            this.Light_Fun16_DIN6.Location = new System.Drawing.Point(219, 22);
+            this.Light_Fun16_DIN6.Name = "Light_Fun16_DIN6";
+            this.Light_Fun16_DIN6.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun16_DIN6.OcxState")));
+            this.Light_Fun16_DIN6.Size = new System.Drawing.Size(27, 29);
+            this.Light_Fun16_DIN6.TabIndex = 171;
             // 
-            // textBox_Fun16_DIN8
+            // Light_Fun16_DIN7
             // 
-            this.textBox_Fun16_DIN8.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Fun16_DIN8.Location = new System.Drawing.Point(58, 24);
-            this.textBox_Fun16_DIN8.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Fun16_DIN8.Name = "textBox_Fun16_DIN8";
-            this.textBox_Fun16_DIN8.ReadOnly = true;
-            this.textBox_Fun16_DIN8.Size = new System.Drawing.Size(23, 23);
-            this.textBox_Fun16_DIN8.TabIndex = 108;
+            this.Light_Fun16_DIN7.Enabled = true;
+            this.Light_Fun16_DIN7.Location = new System.Drawing.Point(139, 22);
+            this.Light_Fun16_DIN7.Name = "Light_Fun16_DIN7";
+            this.Light_Fun16_DIN7.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun16_DIN7.OcxState")));
+            this.Light_Fun16_DIN7.Size = new System.Drawing.Size(27, 29);
+            this.Light_Fun16_DIN7.TabIndex = 170;
             // 
-            // textBox_Fun16_DIN3
+            // Light_Fun16_DIN8
             // 
-            this.textBox_Fun16_DIN3.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_Fun16_DIN3.Location = new System.Drawing.Point(463, 24);
-            this.textBox_Fun16_DIN3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox_Fun16_DIN3.Name = "textBox_Fun16_DIN3";
-            this.textBox_Fun16_DIN3.ReadOnly = true;
-            this.textBox_Fun16_DIN3.Size = new System.Drawing.Size(23, 23);
-            this.textBox_Fun16_DIN3.TabIndex = 118;
+            this.Light_Fun16_DIN8.Enabled = true;
+            this.Light_Fun16_DIN8.Location = new System.Drawing.Point(58, 22);
+            this.Light_Fun16_DIN8.Name = "Light_Fun16_DIN8";
+            this.Light_Fun16_DIN8.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Fun16_DIN8.OcxState")));
+            this.Light_Fun16_DIN8.Size = new System.Drawing.Size(27, 29);
+            this.Light_Fun16_DIN8.TabIndex = 169;
             // 
             // label159
             // 
             this.label159.AutoSize = true;
-            this.label159.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label159.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label159.Location = new System.Drawing.Point(571, 27);
             this.label159.Name = "label159";
             this.label159.Size = new System.Drawing.Size(59, 19);
@@ -8479,7 +8943,7 @@
             // label160
             // 
             this.label160.AutoSize = true;
-            this.label160.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label160.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label160.Location = new System.Drawing.Point(247, 27);
             this.label160.Name = "label160";
             this.label160.Size = new System.Drawing.Size(59, 19);
@@ -8489,7 +8953,7 @@
             // label161
             // 
             this.label161.AutoSize = true;
-            this.label161.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label161.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label161.Location = new System.Drawing.Point(166, 27);
             this.label161.Name = "label161";
             this.label161.Size = new System.Drawing.Size(59, 19);
@@ -8499,7 +8963,7 @@
             // label162
             // 
             this.label162.AutoSize = true;
-            this.label162.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label162.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label162.Location = new System.Drawing.Point(490, 27);
             this.label162.Name = "label162";
             this.label162.Size = new System.Drawing.Size(59, 19);
@@ -8509,7 +8973,7 @@
             // label163
             // 
             this.label163.AutoSize = true;
-            this.label163.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label163.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label163.Location = new System.Drawing.Point(85, 27);
             this.label163.Name = "label163";
             this.label163.Size = new System.Drawing.Size(59, 19);
@@ -8519,7 +8983,7 @@
             // label164
             // 
             this.label164.AutoSize = true;
-            this.label164.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label164.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label164.Location = new System.Drawing.Point(4, 27);
             this.label164.Name = "label164";
             this.label164.Size = new System.Drawing.Size(59, 19);
@@ -8529,7 +8993,7 @@
             // label165
             // 
             this.label165.AutoSize = true;
-            this.label165.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label165.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label165.Location = new System.Drawing.Point(409, 27);
             this.label165.Name = "label165";
             this.label165.Size = new System.Drawing.Size(59, 19);
@@ -8539,7 +9003,7 @@
             // label166
             // 
             this.label166.AutoSize = true;
-            this.label166.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label166.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label166.Location = new System.Drawing.Point(328, 27);
             this.label166.Name = "label166";
             this.label166.Size = new System.Drawing.Size(59, 19);
@@ -8548,7 +9012,9 @@
             // 
             // richTextBox_Fun16_RecvInfo
             // 
-            this.richTextBox_Fun16_RecvInfo.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.richTextBox_Fun16_RecvInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.richTextBox_Fun16_RecvInfo.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.richTextBox_Fun16_RecvInfo.ForeColor = System.Drawing.SystemColors.Info;
             this.richTextBox_Fun16_RecvInfo.Location = new System.Drawing.Point(8, 466);
             this.richTextBox_Fun16_RecvInfo.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox_Fun16_RecvInfo.Name = "richTextBox_Fun16_RecvInfo";
@@ -8567,7 +9033,7 @@
             this.groupBox26.Controls.Add(this.label168);
             this.groupBox26.Controls.Add(this.label169);
             this.groupBox26.Controls.Add(this.label170);
-            this.groupBox26.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox26.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox26.Location = new System.Drawing.Point(9, 394);
             this.groupBox26.Name = "groupBox26";
             this.groupBox26.Size = new System.Drawing.Size(655, 65);
@@ -8578,7 +9044,9 @@
             // 
             // textBox_Fun16_BadCRCS
             // 
-            this.textBox_Fun16_BadCRCS.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Fun16_BadCRCS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_Fun16_BadCRCS.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Fun16_BadCRCS.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_Fun16_BadCRCS.Location = new System.Drawing.Point(576, 27);
             this.textBox_Fun16_BadCRCS.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Fun16_BadCRCS.Name = "textBox_Fun16_BadCRCS";
@@ -8589,7 +9057,7 @@
             // label167
             // 
             this.label167.AutoSize = true;
-            this.label167.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label167.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label167.Location = new System.Drawing.Point(477, 32);
             this.label167.Name = "label167";
             this.label167.Size = new System.Drawing.Size(99, 19);
@@ -8598,7 +9066,9 @@
             // 
             // textBox_Fun16_CAN2_R
             // 
-            this.textBox_Fun16_CAN2_R.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Fun16_CAN2_R.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_Fun16_CAN2_R.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Fun16_CAN2_R.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_Fun16_CAN2_R.Location = new System.Drawing.Point(405, 27);
             this.textBox_Fun16_CAN2_R.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Fun16_CAN2_R.Name = "textBox_Fun16_CAN2_R";
@@ -8608,7 +9078,9 @@
             // 
             // textBox_Fun16_CAN1_R
             // 
-            this.textBox_Fun16_CAN1_R.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Fun16_CAN1_R.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_Fun16_CAN1_R.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Fun16_CAN1_R.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_Fun16_CAN1_R.Location = new System.Drawing.Point(262, 27);
             this.textBox_Fun16_CAN1_R.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Fun16_CAN1_R.Name = "textBox_Fun16_CAN1_R";
@@ -8618,7 +9090,9 @@
             // 
             // textBox_Fun16_RS232Ch2_R
             // 
-            this.textBox_Fun16_RS232Ch2_R.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Fun16_RS232Ch2_R.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_Fun16_RS232Ch2_R.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Fun16_RS232Ch2_R.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_Fun16_RS232Ch2_R.Location = new System.Drawing.Point(118, 27);
             this.textBox_Fun16_RS232Ch2_R.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Fun16_RS232Ch2_R.Name = "textBox_Fun16_RS232Ch2_R";
@@ -8629,7 +9103,7 @@
             // label168
             // 
             this.label168.AutoSize = true;
-            this.label168.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label168.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label168.Location = new System.Drawing.Point(335, 32);
             this.label168.Name = "label168";
             this.label168.Size = new System.Drawing.Size(69, 19);
@@ -8639,7 +9113,7 @@
             // label169
             // 
             this.label169.AutoSize = true;
-            this.label169.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label169.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label169.Location = new System.Drawing.Point(193, 32);
             this.label169.Name = "label169";
             this.label169.Size = new System.Drawing.Size(69, 19);
@@ -8649,32 +9123,21 @@
             // label170
             // 
             this.label170.AutoSize = true;
-            this.label170.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label170.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label170.Location = new System.Drawing.Point(9, 32);
             this.label170.Name = "label170";
             this.label170.Size = new System.Drawing.Size(109, 19);
             this.label170.TabIndex = 105;
             this.label170.Text = "RS232 Ch2:";
             // 
-            // btn_HeadingCircleClear
-            // 
-            this.btn_HeadingCircleClear.BackColor = System.Drawing.Color.LightGray;
-            this.btn_HeadingCircleClear.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_HeadingCircleClear.Location = new System.Drawing.Point(505, 629);
-            this.btn_HeadingCircleClear.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_HeadingCircleClear.Name = "btn_HeadingCircleClear";
-            this.btn_HeadingCircleClear.Size = new System.Drawing.Size(106, 40);
-            this.btn_HeadingCircleClear.TabIndex = 123;
-            this.btn_HeadingCircleClear.Text = "圈数清零";
-            this.btn_HeadingCircleClear.UseVisualStyleBackColor = false;
-            this.btn_HeadingCircleClear.Click += new System.EventHandler(this.btn_HeadingCircleClear_Click);
-            // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.groupBox1.Controls.Add(this.groupBox5);
             this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.groupBox4);
-            this.groupBox1.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox1.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox1.Location = new System.Drawing.Point(5, 19);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
@@ -8706,7 +9169,7 @@
             this.groupBox5.Controls.Add(this.label24);
             this.groupBox5.Controls.Add(this.label25);
             this.groupBox5.Controls.Add(this.label26);
-            this.groupBox5.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox5.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox5.Location = new System.Drawing.Point(552, 20);
             this.groupBox5.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox5.Name = "groupBox5";
@@ -8717,6 +9180,8 @@
             // 
             // textBox_DCDetectBoard63_TO
             // 
+            this.textBox_DCDetectBoard63_TO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_TO.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_TO.Location = new System.Drawing.Point(165, 158);
             this.textBox_DCDetectBoard63_TO.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_TO.Name = "textBox_DCDetectBoard63_TO";
@@ -8736,6 +9201,8 @@
             // 
             // textBox_DCDetectBoard63_TB
             // 
+            this.textBox_DCDetectBoard63_TB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_TB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_TB.Location = new System.Drawing.Point(197, 122);
             this.textBox_DCDetectBoard63_TB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_TB.Name = "textBox_DCDetectBoard63_TB";
@@ -8745,6 +9212,8 @@
             // 
             // textBox_DCDetectBoard63_GB
             // 
+            this.textBox_DCDetectBoard63_GB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_GB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_GB.Location = new System.Drawing.Point(197, 90);
             this.textBox_DCDetectBoard63_GB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_GB.Name = "textBox_DCDetectBoard63_GB";
@@ -8754,6 +9223,8 @@
             // 
             // textBox_DCDetectBoard63_IB
             // 
+            this.textBox_DCDetectBoard63_IB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_IB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_IB.Location = new System.Drawing.Point(197, 57);
             this.textBox_DCDetectBoard63_IB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_IB.Name = "textBox_DCDetectBoard63_IB";
@@ -8763,6 +9234,8 @@
             // 
             // textBox_DCDetectBoard63_VB
             // 
+            this.textBox_DCDetectBoard63_VB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_VB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_VB.Location = new System.Drawing.Point(197, 25);
             this.textBox_DCDetectBoard63_VB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_VB.Name = "textBox_DCDetectBoard63_VB";
@@ -8772,6 +9245,8 @@
             // 
             // textBox_DCDetectBoard63_TA
             // 
+            this.textBox_DCDetectBoard63_TA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_TA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_TA.Location = new System.Drawing.Point(68, 122);
             this.textBox_DCDetectBoard63_TA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_TA.Name = "textBox_DCDetectBoard63_TA";
@@ -8791,6 +9266,8 @@
             // 
             // textBox_DCDetectBoard63_GA
             // 
+            this.textBox_DCDetectBoard63_GA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_GA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_GA.Location = new System.Drawing.Point(68, 90);
             this.textBox_DCDetectBoard63_GA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_GA.Name = "textBox_DCDetectBoard63_GA";
@@ -8810,6 +9287,8 @@
             // 
             // textBox_DCDetectBoard63_IA
             // 
+            this.textBox_DCDetectBoard63_IA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_IA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_IA.Location = new System.Drawing.Point(68, 57);
             this.textBox_DCDetectBoard63_IA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_IA.Name = "textBox_DCDetectBoard63_IA";
@@ -8829,6 +9308,8 @@
             // 
             // textBox_DCDetectBoard63_VA
             // 
+            this.textBox_DCDetectBoard63_VA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_VA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_VA.Location = new System.Drawing.Point(68, 25);
             this.textBox_DCDetectBoard63_VA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_VA.Name = "textBox_DCDetectBoard63_VA";
@@ -8849,8 +9330,8 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("宋体", 11F, System.Drawing.FontStyle.Bold);
-            this.label32.ForeColor = System.Drawing.Color.Blue;
+            this.label32.Font = new System.Drawing.Font("SimSun", 11F, System.Drawing.FontStyle.Bold);
+            this.label32.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label32.Location = new System.Drawing.Point(6, 3);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(253, 15);
@@ -8918,7 +9399,7 @@
             this.groupBox3.Controls.Add(this.label8);
             this.groupBox3.Controls.Add(this.label9);
             this.groupBox3.Controls.Add(this.label10);
-            this.groupBox3.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox3.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox3.Location = new System.Drawing.Point(5, 20);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
@@ -8929,6 +9410,8 @@
             // 
             // textBox_DCDetectBoard61_TO
             // 
+            this.textBox_DCDetectBoard61_TO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_TO.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_TO.Location = new System.Drawing.Point(167, 158);
             this.textBox_DCDetectBoard61_TO.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_TO.Name = "textBox_DCDetectBoard61_TO";
@@ -8948,6 +9431,8 @@
             // 
             // textBox_DCDetectBoard61_TB
             // 
+            this.textBox_DCDetectBoard61_TB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_TB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_TB.Location = new System.Drawing.Point(199, 122);
             this.textBox_DCDetectBoard61_TB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_TB.Name = "textBox_DCDetectBoard61_TB";
@@ -8957,6 +9442,8 @@
             // 
             // textBox_DCDetectBoard61_GB
             // 
+            this.textBox_DCDetectBoard61_GB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_GB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_GB.Location = new System.Drawing.Point(199, 90);
             this.textBox_DCDetectBoard61_GB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_GB.Name = "textBox_DCDetectBoard61_GB";
@@ -8966,6 +9453,8 @@
             // 
             // textBox_DCDetectBoard61_IB
             // 
+            this.textBox_DCDetectBoard61_IB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_IB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_IB.Location = new System.Drawing.Point(199, 57);
             this.textBox_DCDetectBoard61_IB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_IB.Name = "textBox_DCDetectBoard61_IB";
@@ -8975,6 +9464,8 @@
             // 
             // textBox_DCDetectBoard61_VB
             // 
+            this.textBox_DCDetectBoard61_VB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_VB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_VB.Location = new System.Drawing.Point(199, 25);
             this.textBox_DCDetectBoard61_VB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_VB.Name = "textBox_DCDetectBoard61_VB";
@@ -8984,6 +9475,8 @@
             // 
             // textBox_DCDetectBoard61_TA
             // 
+            this.textBox_DCDetectBoard61_TA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_TA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_TA.Location = new System.Drawing.Point(67, 122);
             this.textBox_DCDetectBoard61_TA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_TA.Name = "textBox_DCDetectBoard61_TA";
@@ -9003,6 +9496,8 @@
             // 
             // textBox_DCDetectBoard61_GA
             // 
+            this.textBox_DCDetectBoard61_GA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_GA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_GA.Location = new System.Drawing.Point(67, 90);
             this.textBox_DCDetectBoard61_GA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_GA.Name = "textBox_DCDetectBoard61_GA";
@@ -9022,6 +9517,8 @@
             // 
             // textBox_DCDetectBoard61_IA
             // 
+            this.textBox_DCDetectBoard61_IA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_IA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_IA.Location = new System.Drawing.Point(67, 57);
             this.textBox_DCDetectBoard61_IA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_IA.Name = "textBox_DCDetectBoard61_IA";
@@ -9041,6 +9538,8 @@
             // 
             // textBox_DCDetectBoard61_VA
             // 
+            this.textBox_DCDetectBoard61_VA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_VA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_VA.Location = new System.Drawing.Point(67, 25);
             this.textBox_DCDetectBoard61_VA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_VA.Name = "textBox_DCDetectBoard61_VA";
@@ -9061,8 +9560,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("宋体", 11F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.Blue;
+            this.label2.Font = new System.Drawing.Font("SimSun", 11F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label2.Location = new System.Drawing.Point(-2, 3);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(269, 15);
@@ -9130,7 +9629,7 @@
             this.groupBox4.Controls.Add(this.label13);
             this.groupBox4.Controls.Add(this.label14);
             this.groupBox4.Controls.Add(this.label15);
-            this.groupBox4.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox4.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox4.Location = new System.Drawing.Point(279, 20);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
@@ -9141,6 +9640,8 @@
             // 
             // textBox_DCDetectBoard62_TO
             // 
+            this.textBox_DCDetectBoard62_TO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_TO.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_TO.Location = new System.Drawing.Point(166, 158);
             this.textBox_DCDetectBoard62_TO.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_TO.Name = "textBox_DCDetectBoard62_TO";
@@ -9160,6 +9661,8 @@
             // 
             // textBox_DCDetectBoard62_TB
             // 
+            this.textBox_DCDetectBoard62_TB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_TB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_TB.Location = new System.Drawing.Point(198, 122);
             this.textBox_DCDetectBoard62_TB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_TB.Name = "textBox_DCDetectBoard62_TB";
@@ -9169,6 +9672,8 @@
             // 
             // textBox_DCDetectBoard62_GB
             // 
+            this.textBox_DCDetectBoard62_GB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_GB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_GB.Location = new System.Drawing.Point(198, 90);
             this.textBox_DCDetectBoard62_GB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_GB.Name = "textBox_DCDetectBoard62_GB";
@@ -9178,6 +9683,8 @@
             // 
             // textBox_DCDetectBoard62_IB
             // 
+            this.textBox_DCDetectBoard62_IB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_IB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_IB.Location = new System.Drawing.Point(198, 57);
             this.textBox_DCDetectBoard62_IB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_IB.Name = "textBox_DCDetectBoard62_IB";
@@ -9187,6 +9694,8 @@
             // 
             // textBox_DCDetectBoard62_VB
             // 
+            this.textBox_DCDetectBoard62_VB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_VB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_VB.Location = new System.Drawing.Point(198, 25);
             this.textBox_DCDetectBoard62_VB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_VB.Name = "textBox_DCDetectBoard62_VB";
@@ -9196,6 +9705,8 @@
             // 
             // textBox_DCDetectBoard62_TA
             // 
+            this.textBox_DCDetectBoard62_TA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_TA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_TA.Location = new System.Drawing.Point(67, 122);
             this.textBox_DCDetectBoard62_TA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_TA.Name = "textBox_DCDetectBoard62_TA";
@@ -9215,6 +9726,8 @@
             // 
             // textBox_DCDetectBoard62_GA
             // 
+            this.textBox_DCDetectBoard62_GA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_GA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_GA.Location = new System.Drawing.Point(67, 90);
             this.textBox_DCDetectBoard62_GA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_GA.Name = "textBox_DCDetectBoard62_GA";
@@ -9234,6 +9747,8 @@
             // 
             // textBox_DCDetectBoard62_IA
             // 
+            this.textBox_DCDetectBoard62_IA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_IA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_IA.Location = new System.Drawing.Point(67, 57);
             this.textBox_DCDetectBoard62_IA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_IA.Name = "textBox_DCDetectBoard62_IA";
@@ -9253,6 +9768,8 @@
             // 
             // textBox_DCDetectBoard62_VA
             // 
+            this.textBox_DCDetectBoard62_VA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_VA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_VA.Location = new System.Drawing.Point(67, 25);
             this.textBox_DCDetectBoard62_VA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_VA.Name = "textBox_DCDetectBoard62_VA";
@@ -9273,8 +9790,8 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("宋体", 11F, System.Drawing.FontStyle.Bold);
-            this.label21.ForeColor = System.Drawing.Color.Blue;
+            this.label21.Font = new System.Drawing.Font("SimSun", 11F, System.Drawing.FontStyle.Bold);
+            this.label21.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label21.Location = new System.Drawing.Point(-2, 3);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(269, 15);
@@ -9326,12 +9843,13 @@
             this.groupBox6.Controls.Add(this.groupBox9);
             this.groupBox6.Controls.Add(this.groupBox8);
             this.groupBox6.Controls.Add(this.groupBox7);
-            this.groupBox6.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox6.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox6.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox6.Location = new System.Drawing.Point(5, 254);
             this.groupBox6.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox6.Size = new System.Drawing.Size(432, 200);
+            this.groupBox6.Size = new System.Drawing.Size(432, 203);
             this.groupBox6.TabIndex = 2;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "大功率直流绝缘检测板";
@@ -9348,7 +9866,7 @@
             this.groupBox9.Controls.Add(this.textBox_HPDCDetectBoard72_V);
             this.groupBox9.Controls.Add(this.label47);
             this.groupBox9.Controls.Add(this.label48);
-            this.groupBox9.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox9.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox9.Location = new System.Drawing.Point(290, 29);
             this.groupBox9.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox9.Name = "groupBox9";
@@ -9359,6 +9877,8 @@
             // 
             // textBox_HPDCDetectBoard72_T
             // 
+            this.textBox_HPDCDetectBoard72_T.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard72_T.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard72_T.Location = new System.Drawing.Point(63, 119);
             this.textBox_HPDCDetectBoard72_T.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard72_T.Name = "textBox_HPDCDetectBoard72_T";
@@ -9378,6 +9898,8 @@
             // 
             // textBox_HPDCDetectBoard72_G
             // 
+            this.textBox_HPDCDetectBoard72_G.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard72_G.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard72_G.Location = new System.Drawing.Point(63, 86);
             this.textBox_HPDCDetectBoard72_G.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard72_G.Name = "textBox_HPDCDetectBoard72_G";
@@ -9397,6 +9919,8 @@
             // 
             // textBox_HPDCDetectBoard72_I
             // 
+            this.textBox_HPDCDetectBoard72_I.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard72_I.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard72_I.Location = new System.Drawing.Point(63, 54);
             this.textBox_HPDCDetectBoard72_I.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard72_I.Name = "textBox_HPDCDetectBoard72_I";
@@ -9416,6 +9940,8 @@
             // 
             // textBox_HPDCDetectBoard72_V
             // 
+            this.textBox_HPDCDetectBoard72_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard72_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard72_V.Location = new System.Drawing.Point(63, 22);
             this.textBox_HPDCDetectBoard72_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard72_V.Name = "textBox_HPDCDetectBoard72_V";
@@ -9436,8 +9962,8 @@
             // label48
             // 
             this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label48.ForeColor = System.Drawing.Color.Blue;
+            this.label48.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label48.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label48.Location = new System.Drawing.Point(4, 0);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(138, 16);
@@ -9455,7 +9981,7 @@
             this.groupBox8.Controls.Add(this.textBox_HPDCDetectBoard71_V);
             this.groupBox8.Controls.Add(this.label37);
             this.groupBox8.Controls.Add(this.label38);
-            this.groupBox8.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox8.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox8.Location = new System.Drawing.Point(148, 29);
             this.groupBox8.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox8.Name = "groupBox8";
@@ -9466,6 +9992,8 @@
             // 
             // textBox_HPDCDetectBoard71_T
             // 
+            this.textBox_HPDCDetectBoard71_T.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard71_T.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard71_T.Location = new System.Drawing.Point(63, 119);
             this.textBox_HPDCDetectBoard71_T.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard71_T.Name = "textBox_HPDCDetectBoard71_T";
@@ -9485,6 +10013,8 @@
             // 
             // textBox_HPDCDetectBoard71_G
             // 
+            this.textBox_HPDCDetectBoard71_G.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard71_G.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard71_G.Location = new System.Drawing.Point(63, 86);
             this.textBox_HPDCDetectBoard71_G.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard71_G.Name = "textBox_HPDCDetectBoard71_G";
@@ -9504,6 +10034,8 @@
             // 
             // textBox_HPDCDetectBoard71_I
             // 
+            this.textBox_HPDCDetectBoard71_I.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard71_I.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard71_I.Location = new System.Drawing.Point(63, 54);
             this.textBox_HPDCDetectBoard71_I.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard71_I.Name = "textBox_HPDCDetectBoard71_I";
@@ -9523,6 +10055,8 @@
             // 
             // textBox_HPDCDetectBoard71_V
             // 
+            this.textBox_HPDCDetectBoard71_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard71_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard71_V.Location = new System.Drawing.Point(63, 22);
             this.textBox_HPDCDetectBoard71_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard71_V.Name = "textBox_HPDCDetectBoard71_V";
@@ -9543,8 +10077,8 @@
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label38.ForeColor = System.Drawing.Color.Blue;
+            this.label38.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label38.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label38.Location = new System.Drawing.Point(4, 0);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(131, 16);
@@ -9562,7 +10096,7 @@
             this.groupBox7.Controls.Add(this.textBox_HPDCDetectBoard70_V);
             this.groupBox7.Controls.Add(this.label42);
             this.groupBox7.Controls.Add(this.label43);
-            this.groupBox7.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox7.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox7.Location = new System.Drawing.Point(6, 29);
             this.groupBox7.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox7.Name = "groupBox7";
@@ -9573,6 +10107,8 @@
             // 
             // textBox_HPDCDetectBoard70_T
             // 
+            this.textBox_HPDCDetectBoard70_T.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard70_T.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard70_T.Location = new System.Drawing.Point(63, 119);
             this.textBox_HPDCDetectBoard70_T.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard70_T.Name = "textBox_HPDCDetectBoard70_T";
@@ -9592,6 +10128,8 @@
             // 
             // textBox_HPDCDetectBoard70_G
             // 
+            this.textBox_HPDCDetectBoard70_G.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard70_G.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard70_G.Location = new System.Drawing.Point(63, 86);
             this.textBox_HPDCDetectBoard70_G.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard70_G.Name = "textBox_HPDCDetectBoard70_G";
@@ -9611,6 +10149,8 @@
             // 
             // textBox_HPDCDetectBoard70_I
             // 
+            this.textBox_HPDCDetectBoard70_I.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard70_I.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard70_I.Location = new System.Drawing.Point(63, 54);
             this.textBox_HPDCDetectBoard70_I.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard70_I.Name = "textBox_HPDCDetectBoard70_I";
@@ -9630,6 +10170,8 @@
             // 
             // textBox_HPDCDetectBoard70_V
             // 
+            this.textBox_HPDCDetectBoard70_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard70_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard70_V.Location = new System.Drawing.Point(63, 22);
             this.textBox_HPDCDetectBoard70_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard70_V.Name = "textBox_HPDCDetectBoard70_V";
@@ -9650,8 +10192,8 @@
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label43.ForeColor = System.Drawing.Color.Blue;
+            this.label43.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label43.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label43.Location = new System.Drawing.Point(7, 0);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(131, 16);
@@ -9664,7 +10206,8 @@
             this.groupBox12.Controls.Add(this.groupBox16);
             this.groupBox12.Controls.Add(this.groupBox15);
             this.groupBox12.Controls.Add(this.groupBox14);
-            this.groupBox12.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox12.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox12.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox12.Location = new System.Drawing.Point(5, 676);
             this.groupBox12.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox12.Name = "groupBox12";
@@ -9689,7 +10232,7 @@
             this.groupBox17.Controls.Add(this.label81);
             this.groupBox17.Controls.Add(this.textBox_TankDetectBoardCH4_1);
             this.groupBox17.Controls.Add(this.label82);
-            this.groupBox17.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox17.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox17.Location = new System.Drawing.Point(619, 25);
             this.groupBox17.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox17.Name = "groupBox17";
@@ -9701,7 +10244,7 @@
             // label236
             // 
             this.label236.AutoSize = true;
-            this.label236.Font = new System.Drawing.Font("宋体", 12.8F);
+            this.label236.Font = new System.Drawing.Font("SimSun", 12.8F);
             this.label236.Location = new System.Drawing.Point(162, 133);
             this.label236.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label236.Name = "label236";
@@ -9712,7 +10255,7 @@
             // label227
             // 
             this.label227.AutoSize = true;
-            this.label227.Font = new System.Drawing.Font("宋体", 12.8F);
+            this.label227.Font = new System.Drawing.Font("SimSun", 12.8F);
             this.label227.Location = new System.Drawing.Point(162, 33);
             this.label227.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label227.Name = "label227";
@@ -9723,8 +10266,8 @@
             // label78
             // 
             this.label78.AutoSize = true;
-            this.label78.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label78.ForeColor = System.Drawing.Color.Blue;
+            this.label78.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label78.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label78.Location = new System.Drawing.Point(53, 2);
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(71, 19);
@@ -9743,6 +10286,8 @@
             // 
             // textBox_TankDetectBoardCH4_4
             // 
+            this.textBox_TankDetectBoardCH4_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH4_4.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH4_4.Location = new System.Drawing.Point(89, 128);
             this.textBox_TankDetectBoardCH4_4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH4_4.Name = "textBox_TankDetectBoardCH4_4";
@@ -9753,7 +10298,7 @@
             // label228
             // 
             this.label228.AutoSize = true;
-            this.label228.Font = new System.Drawing.Font("宋体", 12.8F);
+            this.label228.Font = new System.Drawing.Font("SimSun", 12.8F);
             this.label228.Location = new System.Drawing.Point(162, 65);
             this.label228.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label228.Name = "label228";
@@ -9773,6 +10318,8 @@
             // 
             // textBox_TankDetectBoardCH4_3
             // 
+            this.textBox_TankDetectBoardCH4_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH4_3.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH4_3.Location = new System.Drawing.Point(89, 94);
             this.textBox_TankDetectBoardCH4_3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH4_3.Name = "textBox_TankDetectBoardCH4_3";
@@ -9782,6 +10329,8 @@
             // 
             // textBox_TankDetectBoardCH4_2
             // 
+            this.textBox_TankDetectBoardCH4_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH4_2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH4_2.Location = new System.Drawing.Point(89, 61);
             this.textBox_TankDetectBoardCH4_2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH4_2.Name = "textBox_TankDetectBoardCH4_2";
@@ -9801,6 +10350,8 @@
             // 
             // textBox_TankDetectBoardCH4_1
             // 
+            this.textBox_TankDetectBoardCH4_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH4_1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH4_1.Location = new System.Drawing.Point(89, 28);
             this.textBox_TankDetectBoardCH4_1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH4_1.Name = "textBox_TankDetectBoardCH4_1";
@@ -9832,7 +10383,7 @@
             this.groupBox16.Controls.Add(this.label76);
             this.groupBox16.Controls.Add(this.textBox_TankDetectBoardCH3_1);
             this.groupBox16.Controls.Add(this.label77);
-            this.groupBox16.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox16.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox16.Location = new System.Drawing.Point(415, 26);
             this.groupBox16.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox16.Name = "groupBox16";
@@ -9844,7 +10395,7 @@
             // label230
             // 
             this.label230.AutoSize = true;
-            this.label230.Font = new System.Drawing.Font("宋体", 12.8F);
+            this.label230.Font = new System.Drawing.Font("SimSun", 12.8F);
             this.label230.Location = new System.Drawing.Point(162, 67);
             this.label230.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label230.Name = "label230";
@@ -9855,7 +10406,7 @@
             // label226
             // 
             this.label226.AutoSize = true;
-            this.label226.Font = new System.Drawing.Font("宋体", 12.8F);
+            this.label226.Font = new System.Drawing.Font("SimSun", 12.8F);
             this.label226.Location = new System.Drawing.Point(164, 102);
             this.label226.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label226.Name = "label226";
@@ -9866,8 +10417,8 @@
             // label73
             // 
             this.label73.AutoSize = true;
-            this.label73.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label73.ForeColor = System.Drawing.Color.Blue;
+            this.label73.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label73.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label73.Location = new System.Drawing.Point(59, 1);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(71, 19);
@@ -9876,6 +10427,8 @@
             // 
             // textBox_TankDetectBoardCH3_4
             // 
+            this.textBox_TankDetectBoardCH3_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH3_4.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH3_4.Location = new System.Drawing.Point(91, 128);
             this.textBox_TankDetectBoardCH3_4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH3_4.Name = "textBox_TankDetectBoardCH3_4";
@@ -9895,6 +10448,8 @@
             // 
             // textBox_TankDetectBoardCH3_3
             // 
+            this.textBox_TankDetectBoardCH3_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH3_3.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH3_3.Location = new System.Drawing.Point(91, 94);
             this.textBox_TankDetectBoardCH3_3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH3_3.Name = "textBox_TankDetectBoardCH3_3";
@@ -9914,6 +10469,8 @@
             // 
             // textBox_TankDetectBoardCH3_2
             // 
+            this.textBox_TankDetectBoardCH3_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH3_2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH3_2.Location = new System.Drawing.Point(91, 61);
             this.textBox_TankDetectBoardCH3_2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH3_2.Name = "textBox_TankDetectBoardCH3_2";
@@ -9924,7 +10481,7 @@
             // label229
             // 
             this.label229.AutoSize = true;
-            this.label229.Font = new System.Drawing.Font("宋体", 12.8F);
+            this.label229.Font = new System.Drawing.Font("SimSun", 12.8F);
             this.label229.Location = new System.Drawing.Point(164, 134);
             this.label229.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label229.Name = "label229";
@@ -9944,6 +10501,8 @@
             // 
             // textBox_TankDetectBoardCH3_1
             // 
+            this.textBox_TankDetectBoardCH3_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH3_1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH3_1.Location = new System.Drawing.Point(91, 28);
             this.textBox_TankDetectBoardCH3_1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH3_1.Name = "textBox_TankDetectBoardCH3_1";
@@ -9973,7 +10532,7 @@
             this.groupBox15.Controls.Add(this.textBox_TankDetectBoardCH2_2);
             this.groupBox15.Controls.Add(this.textBox_TankDetectBoardCH2_1);
             this.groupBox15.Controls.Add(this.label71);
-            this.groupBox15.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox15.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox15.Location = new System.Drawing.Point(211, 25);
             this.groupBox15.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox15.Name = "groupBox15";
@@ -9995,7 +10554,7 @@
             // label186
             // 
             this.label186.AutoSize = true;
-            this.label186.Font = new System.Drawing.Font("宋体", 12.8F);
+            this.label186.Font = new System.Drawing.Font("SimSun", 12.8F);
             this.label186.Location = new System.Drawing.Point(164, 65);
             this.label186.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label186.Name = "label186";
@@ -10006,8 +10565,8 @@
             // label68
             // 
             this.label68.AutoSize = true;
-            this.label68.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label68.ForeColor = System.Drawing.Color.Blue;
+            this.label68.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label68.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label68.Location = new System.Drawing.Point(60, 1);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(71, 19);
@@ -10016,6 +10575,8 @@
             // 
             // textBox_TankDetectBoardCH2_4
             // 
+            this.textBox_TankDetectBoardCH2_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH2_4.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH2_4.Location = new System.Drawing.Point(91, 128);
             this.textBox_TankDetectBoardCH2_4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH2_4.Name = "textBox_TankDetectBoardCH2_4";
@@ -10035,6 +10596,8 @@
             // 
             // textBox_TankDetectBoardCH2_3
             // 
+            this.textBox_TankDetectBoardCH2_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH2_3.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH2_3.Location = new System.Drawing.Point(91, 94);
             this.textBox_TankDetectBoardCH2_3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH2_3.Name = "textBox_TankDetectBoardCH2_3";
@@ -10054,6 +10617,8 @@
             // 
             // textBox_TankDetectBoardCH2_2
             // 
+            this.textBox_TankDetectBoardCH2_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH2_2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH2_2.Location = new System.Drawing.Point(91, 61);
             this.textBox_TankDetectBoardCH2_2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH2_2.Name = "textBox_TankDetectBoardCH2_2";
@@ -10063,6 +10628,8 @@
             // 
             // textBox_TankDetectBoardCH2_1
             // 
+            this.textBox_TankDetectBoardCH2_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH2_1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH2_1.Location = new System.Drawing.Point(91, 28);
             this.textBox_TankDetectBoardCH2_1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH2_1.Name = "textBox_TankDetectBoardCH2_1";
@@ -10095,7 +10662,7 @@
             this.groupBox14.Controls.Add(this.label61);
             this.groupBox14.Controls.Add(this.label65);
             this.groupBox14.Controls.Add(this.label66);
-            this.groupBox14.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox14.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox14.Location = new System.Drawing.Point(6, 25);
             this.groupBox14.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox14.Name = "groupBox14";
@@ -10107,8 +10674,8 @@
             // label67
             // 
             this.label67.AutoSize = true;
-            this.label67.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label67.ForeColor = System.Drawing.Color.Blue;
+            this.label67.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label67.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label67.Location = new System.Drawing.Point(59, 1);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(71, 19);
@@ -10117,6 +10684,8 @@
             // 
             // textBox_TankDetectBoardCH1_4
             // 
+            this.textBox_TankDetectBoardCH1_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH1_4.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH1_4.Location = new System.Drawing.Point(94, 128);
             this.textBox_TankDetectBoardCH1_4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH1_4.Name = "textBox_TankDetectBoardCH1_4";
@@ -10126,6 +10695,8 @@
             // 
             // textBox_TankDetectBoardCH1_3
             // 
+            this.textBox_TankDetectBoardCH1_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH1_3.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH1_3.Location = new System.Drawing.Point(94, 94);
             this.textBox_TankDetectBoardCH1_3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH1_3.Name = "textBox_TankDetectBoardCH1_3";
@@ -10135,6 +10706,8 @@
             // 
             // textBox_TankDetectBoardCH1_2
             // 
+            this.textBox_TankDetectBoardCH1_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH1_2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH1_2.Location = new System.Drawing.Point(94, 61);
             this.textBox_TankDetectBoardCH1_2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH1_2.Name = "textBox_TankDetectBoardCH1_2";
@@ -10144,6 +10717,8 @@
             // 
             // textBox_TankDetectBoardCH1_1
             // 
+            this.textBox_TankDetectBoardCH1_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH1_1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH1_1.Location = new System.Drawing.Point(94, 28);
             this.textBox_TankDetectBoardCH1_1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH1_1.Name = "textBox_TankDetectBoardCH1_1";
@@ -10154,7 +10729,7 @@
             // label241
             // 
             this.label241.AutoSize = true;
-            this.label241.Font = new System.Drawing.Font("宋体", 12.8F);
+            this.label241.Font = new System.Drawing.Font("SimSun", 12.8F);
             this.label241.Location = new System.Drawing.Point(164, 98);
             this.label241.Name = "label241";
             this.label241.Size = new System.Drawing.Size(35, 18);
@@ -10164,7 +10739,7 @@
             // label242
             // 
             this.label242.AutoSize = true;
-            this.label242.Font = new System.Drawing.Font("宋体", 12.8F);
+            this.label242.Font = new System.Drawing.Font("SimSun", 12.8F);
             this.label242.Location = new System.Drawing.Point(164, 65);
             this.label242.Name = "label242";
             this.label242.Size = new System.Drawing.Size(35, 18);
@@ -10174,7 +10749,7 @@
             // label243
             // 
             this.label243.AutoSize = true;
-            this.label243.Font = new System.Drawing.Font("宋体", 12.8F);
+            this.label243.Font = new System.Drawing.Font("SimSun", 12.8F);
             this.label243.Location = new System.Drawing.Point(164, 32);
             this.label243.Name = "label243";
             this.label243.Size = new System.Drawing.Size(35, 18);
@@ -10184,7 +10759,7 @@
             // label240
             // 
             this.label240.AutoSize = true;
-            this.label240.Font = new System.Drawing.Font("宋体", 12.8F);
+            this.label240.Font = new System.Drawing.Font("SimSun", 12.8F);
             this.label240.Location = new System.Drawing.Point(164, 131);
             this.label240.Name = "label240";
             this.label240.Size = new System.Drawing.Size(35, 18);
@@ -10194,7 +10769,7 @@
             // label60
             // 
             this.label60.AutoSize = true;
-            this.label60.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label60.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label60.Location = new System.Drawing.Point(3, 134);
             this.label60.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label60.Name = "label60";
@@ -10205,7 +10780,7 @@
             // label61
             // 
             this.label61.AutoSize = true;
-            this.label61.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label61.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label61.Location = new System.Drawing.Point(3, 100);
             this.label61.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label61.Name = "label61";
@@ -10216,7 +10791,7 @@
             // label65
             // 
             this.label65.AutoSize = true;
-            this.label65.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label65.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label65.Location = new System.Drawing.Point(3, 67);
             this.label65.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label65.Name = "label65";
@@ -10227,7 +10802,7 @@
             // label66
             // 
             this.label66.AutoSize = true;
-            this.label66.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label66.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label66.Location = new System.Drawing.Point(3, 33);
             this.label66.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label66.Name = "label66";
@@ -10245,7 +10820,8 @@
             this.groupBox2.Controls.Add(this.textBox_CameraPowerRelayBoard1_V);
             this.groupBox2.Controls.Add(this.label56);
             this.groupBox2.Controls.Add(this.label59);
-            this.groupBox2.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox2.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox2.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox2.Location = new System.Drawing.Point(5, 470);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
@@ -10258,7 +10834,9 @@
             // 
             // textBox_SensorPowerRelayBoard2_V
             // 
-            this.textBox_SensorPowerRelayBoard2_V.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_SensorPowerRelayBoard2_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_SensorPowerRelayBoard2_V.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_SensorPowerRelayBoard2_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_SensorPowerRelayBoard2_V.Location = new System.Drawing.Point(113, 140);
             this.textBox_SensorPowerRelayBoard2_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_SensorPowerRelayBoard2_V.Name = "textBox_SensorPowerRelayBoard2_V";
@@ -10269,7 +10847,7 @@
             // label58
             // 
             this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label58.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label58.Location = new System.Drawing.Point(6, 144);
             this.label58.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label58.Name = "label58";
@@ -10279,7 +10857,9 @@
             // 
             // textBox_CameraPowerRelayBoard2_V
             // 
-            this.textBox_CameraPowerRelayBoard2_V.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_CameraPowerRelayBoard2_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_CameraPowerRelayBoard2_V.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_CameraPowerRelayBoard2_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_CameraPowerRelayBoard2_V.Location = new System.Drawing.Point(113, 69);
             this.textBox_CameraPowerRelayBoard2_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_CameraPowerRelayBoard2_V.Name = "textBox_CameraPowerRelayBoard2_V";
@@ -10289,7 +10869,9 @@
             // 
             // textBox_SensorPowerRelayBoard1_V
             // 
-            this.textBox_SensorPowerRelayBoard1_V.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_SensorPowerRelayBoard1_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_SensorPowerRelayBoard1_V.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_SensorPowerRelayBoard1_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_SensorPowerRelayBoard1_V.Location = new System.Drawing.Point(113, 103);
             this.textBox_SensorPowerRelayBoard1_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_SensorPowerRelayBoard1_V.Name = "textBox_SensorPowerRelayBoard1_V";
@@ -10300,7 +10882,7 @@
             // label57
             // 
             this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label57.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label57.Location = new System.Drawing.Point(6, 73);
             this.label57.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label57.Name = "label57";
@@ -10310,7 +10892,9 @@
             // 
             // textBox_CameraPowerRelayBoard1_V
             // 
-            this.textBox_CameraPowerRelayBoard1_V.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_CameraPowerRelayBoard1_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_CameraPowerRelayBoard1_V.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_CameraPowerRelayBoard1_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_CameraPowerRelayBoard1_V.Location = new System.Drawing.Point(113, 34);
             this.textBox_CameraPowerRelayBoard1_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_CameraPowerRelayBoard1_V.Name = "textBox_CameraPowerRelayBoard1_V";
@@ -10321,7 +10905,7 @@
             // label56
             // 
             this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label56.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label56.Location = new System.Drawing.Point(6, 40);
             this.label56.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label56.Name = "label56";
@@ -10332,92 +10916,13 @@
             // label59
             // 
             this.label59.AutoSize = true;
-            this.label59.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label59.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label59.Location = new System.Drawing.Point(7, 108);
             this.label59.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(107, 19);
             this.label59.TabIndex = 115;
             this.label59.Text = "漏水(#28):";
-            // 
-            // gaugeControl1
-            // 
-            gaugeCircularScale5.MajorTickMarks.Interval = 30D;
-            gaugeCircularScale5.MaxPin.Name = "MaxPin";
-            gaugeCircularScale5.MaxValue = 360D;
-            gaugeCircularScale5.MinorTickMarks.Interval = 6D;
-            gaugeCircularScale5.MinPin.Name = "MinPin";
-            gaugeCircularScale5.Name = "Scale1";
-            gaugePointer15.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer15.CapFillColor.BorderWidth = 1;
-            gaugePointer15.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer15.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer15.DampeningSweepTime = 0.0001D;
-            gaugePointer15.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer15.FillColor.BorderWidth = 1;
-            gaugePointer15.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer15.FillColor.Color2 = System.Drawing.Color.Red;
-            gaugePointer15.Length = 0.358F;
-            gaugePointer15.Name = "Pointer1";
-            gaugePointer15.Style = DevComponents.Instrumentation.PointerStyle.Needle;
-            gaugePointer15.Value = 0D;
-            gaugeCircularScale5.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer15});
-            gaugeSection5.FillColor.Color1 = System.Drawing.Color.CornflowerBlue;
-            gaugeSection5.FillColor.Color2 = System.Drawing.Color.Purple;
-            gaugeSection5.Name = "Section1";
-            gaugeCircularScale5.Sections.AddRange(new DevComponents.Instrumentation.GaugeSection[] {
-            gaugeSection5});
-            gaugeCircularScale5.StartAngle = 90F;
-            gaugeCircularScale5.SweepAngle = 360F;
-            gaugeCircularScale6.MajorTickMarks.Interval = 2D;
-            gaugeCircularScale6.MaxPin.Name = "MaxPin";
-            gaugeCircularScale6.MaxValue = 10D;
-            gaugeCircularScale6.MinorTickMarks.Interval = 4D;
-            gaugeCircularScale6.MinPin.Name = "MinPin";
-            gaugeCircularScale6.MinValue = -10D;
-            gaugeCircularScale6.Name = "Scale2";
-            gaugePointer16.CapFillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer16.CapFillColor.BorderWidth = 1;
-            gaugePointer16.CapFillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer16.CapFillColor.Color2 = System.Drawing.Color.DimGray;
-            gaugePointer16.DampeningSweepTime = 0.0001D;
-            gaugePointer16.FillColor.BorderColor = System.Drawing.Color.DimGray;
-            gaugePointer16.FillColor.BorderWidth = 1;
-            gaugePointer16.FillColor.Color1 = System.Drawing.Color.WhiteSmoke;
-            gaugePointer16.FillColor.Color2 = System.Drawing.Color.Lime;
-            gaugePointer16.Name = "Pointer2";
-            gaugePointer16.Origin = DevComponents.Instrumentation.PointerOrigin.Custom;
-            gaugePointer16.Style = DevComponents.Instrumentation.PointerStyle.Needle;
-            gaugePointer16.ThermoBackColor.BorderColor = System.Drawing.Color.Black;
-            gaugePointer16.ThermoBackColor.BorderWidth = 1;
-            gaugePointer16.ThermoBackColor.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            gaugePointer16.Value = 0D;
-            gaugeCircularScale6.Pointers.AddRange(new DevComponents.Instrumentation.GaugePointer[] {
-            gaugePointer16});
-            gaugeCircularScale6.Radius = 0.24F;
-            gaugeSection6.FillColor.Color1 = System.Drawing.Color.CornflowerBlue;
-            gaugeSection6.Name = "Section1";
-            gaugeCircularScale6.Sections.AddRange(new DevComponents.Instrumentation.GaugeSection[] {
-            gaugeSection6});
-            gaugeCircularScale6.StartAngle = 135F;
-            gaugeCircularScale6.SweepAngle = 270F;
-            this.gaugeControl1.CircularScales.AddRange(new DevComponents.Instrumentation.GaugeCircularScale[] {
-            gaugeCircularScale5,
-            gaugeCircularScale6});
-            gradientFillColor25.Color1 = System.Drawing.Color.Gainsboro;
-            gradientFillColor25.Color2 = System.Drawing.Color.DarkGray;
-            this.gaugeControl1.Frame.BackColor = gradientFillColor25;
-            gradientFillColor26.BorderColor = System.Drawing.Color.Gainsboro;
-            gradientFillColor26.BorderWidth = 1;
-            gradientFillColor26.Color1 = System.Drawing.Color.White;
-            gradientFillColor26.Color2 = System.Drawing.Color.DimGray;
-            this.gaugeControl1.Frame.FrameColor = gradientFillColor26;
-            this.gaugeControl1.Frame.Style = DevComponents.Instrumentation.GaugeFrameStyle.Circular;
-            this.gaugeControl1.Location = new System.Drawing.Point(478, 464);
-            this.gaugeControl1.Name = "gaugeControl1";
-            this.gaugeControl1.Size = new System.Drawing.Size(160, 160);
-            this.gaugeControl1.TabIndex = 149;
             // 
             // groupBox23
             // 
@@ -10437,12 +10942,13 @@
             this.groupBox23.Controls.Add(this.textBox_HeightMeasure_Hight);
             this.groupBox23.Controls.Add(this.label89);
             this.groupBox23.Controls.Add(this.label94);
-            this.groupBox23.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
-            this.groupBox23.Location = new System.Drawing.Point(197, 470);
+            this.groupBox23.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox23.ForeColor = System.Drawing.SystemColors.Control;
+            this.groupBox23.Location = new System.Drawing.Point(203, 469);
             this.groupBox23.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox23.Name = "groupBox23";
             this.groupBox23.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox23.Size = new System.Drawing.Size(275, 195);
+            this.groupBox23.Size = new System.Drawing.Size(300, 195);
             this.groupBox23.TabIndex = 120;
             this.groupBox23.TabStop = false;
             this.groupBox23.Text = "高度计与罗盘";
@@ -10450,8 +10956,10 @@
             // 
             // textBox_RotatePanel_Yaw
             // 
-            this.textBox_RotatePanel_Yaw.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_RotatePanel_Yaw.Location = new System.Drawing.Point(198, 102);
+            this.textBox_RotatePanel_Yaw.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_RotatePanel_Yaw.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotatePanel_Yaw.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_RotatePanel_Yaw.Location = new System.Drawing.Point(210, 103);
             this.textBox_RotatePanel_Yaw.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotatePanel_Yaw.Name = "textBox_RotatePanel_Yaw";
             this.textBox_RotatePanel_Yaw.ReadOnly = true;
@@ -10461,8 +10969,8 @@
             // label93
             // 
             this.label93.AutoSize = true;
-            this.label93.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label93.Location = new System.Drawing.Point(142, 110);
+            this.label93.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label93.Location = new System.Drawing.Point(149, 109);
             this.label93.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label93.Name = "label93";
             this.label93.Size = new System.Drawing.Size(57, 19);
@@ -10471,8 +10979,10 @@
             // 
             // textBox_RotatePanel_Pitch
             // 
-            this.textBox_RotatePanel_Pitch.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_RotatePanel_Pitch.Location = new System.Drawing.Point(198, 63);
+            this.textBox_RotatePanel_Pitch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_RotatePanel_Pitch.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotatePanel_Pitch.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_RotatePanel_Pitch.Location = new System.Drawing.Point(210, 66);
             this.textBox_RotatePanel_Pitch.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotatePanel_Pitch.Name = "textBox_RotatePanel_Pitch";
             this.textBox_RotatePanel_Pitch.ReadOnly = true;
@@ -10481,8 +10991,10 @@
             // 
             // textBox_HeadingCircle
             // 
-            this.textBox_HeadingCircle.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_HeadingCircle.Location = new System.Drawing.Point(198, 143);
+            this.textBox_HeadingCircle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HeadingCircle.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_HeadingCircle.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_HeadingCircle.Location = new System.Drawing.Point(210, 144);
             this.textBox_HeadingCircle.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HeadingCircle.Name = "textBox_HeadingCircle";
             this.textBox_HeadingCircle.ReadOnly = true;
@@ -10494,8 +11006,8 @@
             // label96
             // 
             this.label96.AutoSize = true;
-            this.label96.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label96.Location = new System.Drawing.Point(142, 149);
+            this.label96.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label96.Location = new System.Drawing.Point(149, 151);
             this.label96.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label96.Name = "label96";
             this.label96.Size = new System.Drawing.Size(57, 19);
@@ -10504,8 +11016,10 @@
             // 
             // textBox_RotatePanel_Roll
             // 
-            this.textBox_RotatePanel_Roll.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_RotatePanel_Roll.Location = new System.Drawing.Point(199, 27);
+            this.textBox_RotatePanel_Roll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_RotatePanel_Roll.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotatePanel_Roll.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_RotatePanel_Roll.Location = new System.Drawing.Point(210, 25);
             this.textBox_RotatePanel_Roll.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotatePanel_Roll.Name = "textBox_RotatePanel_Roll";
             this.textBox_RotatePanel_Roll.ReadOnly = true;
@@ -10515,7 +11029,7 @@
             // label95
             // 
             this.label95.AutoSize = true;
-            this.label95.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label95.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label95.Location = new System.Drawing.Point(126, 71);
             this.label95.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label95.Name = "label95";
@@ -10525,8 +11039,10 @@
             // 
             // textBox_RotatePanel_HZ
             // 
-            this.textBox_RotatePanel_HZ.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_RotatePanel_HZ.Location = new System.Drawing.Point(60, 102);
+            this.textBox_RotatePanel_HZ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_RotatePanel_HZ.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotatePanel_HZ.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_RotatePanel_HZ.Location = new System.Drawing.Point(60, 104);
             this.textBox_RotatePanel_HZ.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotatePanel_HZ.Name = "textBox_RotatePanel_HZ";
             this.textBox_RotatePanel_HZ.ReadOnly = true;
@@ -10536,7 +11052,7 @@
             // label92
             // 
             this.label92.AutoSize = true;
-            this.label92.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label92.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label92.Location = new System.Drawing.Point(22, 108);
             this.label92.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label92.Name = "label92";
@@ -10546,8 +11062,10 @@
             // 
             // textBox_RotatePanel_HY
             // 
-            this.textBox_RotatePanel_HY.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox_RotatePanel_HY.Location = new System.Drawing.Point(59, 63);
+            this.textBox_RotatePanel_HY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_RotatePanel_HY.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotatePanel_HY.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox_RotatePanel_HY.Location = new System.Drawing.Point(60, 66);
             this.textBox_RotatePanel_HY.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotatePanel_HY.Name = "textBox_RotatePanel_HY";
             this.textBox_RotatePanel_HY.ReadOnly = true;
@@ -10557,7 +11075,7 @@
             // label91
             // 
             this.label91.AutoSize = true;
-            this.label91.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label91.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label91.Location = new System.Drawing.Point(22, 69);
             this.label91.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label91.Name = "label91";
@@ -10567,7 +11085,9 @@
             // 
             // textBox_RotatePanel_HX
             // 
-            this.textBox_RotatePanel_HX.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotatePanel_HX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_RotatePanel_HX.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotatePanel_HX.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_RotatePanel_HX.Location = new System.Drawing.Point(60, 27);
             this.textBox_RotatePanel_HX.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotatePanel_HX.Name = "textBox_RotatePanel_HX";
@@ -10578,7 +11098,7 @@
             // label88
             // 
             this.label88.AutoSize = true;
-            this.label88.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label88.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label88.Location = new System.Drawing.Point(22, 32);
             this.label88.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label88.Name = "label88";
@@ -10588,7 +11108,9 @@
             // 
             // textBox_HeightMeasure_Hight
             // 
-            this.textBox_HeightMeasure_Hight.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_HeightMeasure_Hight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HeightMeasure_Hight.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_HeightMeasure_Hight.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HeightMeasure_Hight.Location = new System.Drawing.Point(60, 143);
             this.textBox_HeightMeasure_Hight.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HeightMeasure_Hight.Name = "textBox_HeightMeasure_Hight";
@@ -10599,7 +11121,7 @@
             // label89
             // 
             this.label89.AutoSize = true;
-            this.label89.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label89.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label89.Location = new System.Drawing.Point(3, 149);
             this.label89.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label89.Name = "label89";
@@ -10610,7 +11132,7 @@
             // label94
             // 
             this.label94.AutoSize = true;
-            this.label94.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label94.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label94.Location = new System.Drawing.Point(126, 32);
             this.label94.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label94.Name = "label94";
@@ -10651,7 +11173,8 @@
             this.groupBox27.Controls.Add(this.label308);
             this.groupBox27.Controls.Add(this.label309);
             this.groupBox27.Controls.Add(this.label310);
-            this.groupBox27.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox27.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox27.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox27.Location = new System.Drawing.Point(1516, 19);
             this.groupBox27.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox27.Name = "groupBox27";
@@ -10665,7 +11188,7 @@
             // label173
             // 
             this.label173.AutoSize = true;
-            this.label173.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label173.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label173.Location = new System.Drawing.Point(343, 153);
             this.label173.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label173.Name = "label173";
@@ -10676,7 +11199,7 @@
             // label174
             // 
             this.label174.AutoSize = true;
-            this.label174.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label174.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label174.Location = new System.Drawing.Point(343, 122);
             this.label174.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label174.Name = "label174";
@@ -10686,7 +11209,9 @@
             // 
             // textBox_V_Next_S
             // 
-            this.textBox_V_Next_S.Font = new System.Drawing.Font("宋体", 11F);
+            this.textBox_V_Next_S.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_V_Next_S.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_V_Next_S.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_V_Next_S.Location = new System.Drawing.Point(281, 148);
             this.textBox_V_Next_S.Name = "textBox_V_Next_S";
             this.textBox_V_Next_S.ReadOnly = true;
@@ -10696,7 +11221,7 @@
             // label175
             // 
             this.label175.AutoSize = true;
-            this.label175.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label175.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label175.Location = new System.Drawing.Point(185, 152);
             this.label175.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label175.Name = "label175";
@@ -10706,7 +11231,9 @@
             // 
             // textBox_V_Next_ABC
             // 
-            this.textBox_V_Next_ABC.Font = new System.Drawing.Font("宋体", 11F);
+            this.textBox_V_Next_ABC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_V_Next_ABC.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_V_Next_ABC.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_V_Next_ABC.Location = new System.Drawing.Point(281, 118);
             this.textBox_V_Next_ABC.Name = "textBox_V_Next_ABC";
             this.textBox_V_Next_ABC.ReadOnly = true;
@@ -10716,7 +11243,7 @@
             // label176
             // 
             this.label176.AutoSize = true;
-            this.label176.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label176.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label176.Location = new System.Drawing.Point(185, 122);
             this.label176.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label176.Name = "label176";
@@ -10727,7 +11254,7 @@
             // label177
             // 
             this.label177.AutoSize = true;
-            this.label177.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label177.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label177.Location = new System.Drawing.Point(164, 152);
             this.label177.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label177.Name = "label177";
@@ -10738,7 +11265,7 @@
             // label178
             // 
             this.label178.AutoSize = true;
-            this.label178.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label178.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label178.Location = new System.Drawing.Point(164, 122);
             this.label178.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label178.Name = "label178";
@@ -10748,7 +11275,9 @@
             // 
             // textBox_I_Next_S
             // 
-            this.textBox_I_Next_S.Font = new System.Drawing.Font("宋体", 11F);
+            this.textBox_I_Next_S.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_I_Next_S.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_I_Next_S.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_I_Next_S.Location = new System.Drawing.Point(102, 147);
             this.textBox_I_Next_S.Name = "textBox_I_Next_S";
             this.textBox_I_Next_S.ReadOnly = true;
@@ -10758,7 +11287,7 @@
             // label179
             // 
             this.label179.AutoSize = true;
-            this.label179.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label179.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label179.Location = new System.Drawing.Point(4, 151);
             this.label179.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label179.Name = "label179";
@@ -10768,7 +11297,9 @@
             // 
             // textBox_I_Next_ABC
             // 
-            this.textBox_I_Next_ABC.Font = new System.Drawing.Font("宋体", 11F);
+            this.textBox_I_Next_ABC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_I_Next_ABC.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_I_Next_ABC.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_I_Next_ABC.Location = new System.Drawing.Point(102, 117);
             this.textBox_I_Next_ABC.Name = "textBox_I_Next_ABC";
             this.textBox_I_Next_ABC.ReadOnly = true;
@@ -10778,7 +11309,7 @@
             // label180
             // 
             this.label180.AutoSize = true;
-            this.label180.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label180.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label180.Location = new System.Drawing.Point(4, 121);
             this.label180.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label180.Name = "label180";
@@ -10788,7 +11319,9 @@
             // 
             // textBox_V_First_AB
             // 
-            this.textBox_V_First_AB.Font = new System.Drawing.Font("宋体", 11F);
+            this.textBox_V_First_AB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_V_First_AB.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_V_First_AB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_V_First_AB.Location = new System.Drawing.Point(281, 25);
             this.textBox_V_First_AB.Name = "textBox_V_First_AB";
             this.textBox_V_First_AB.ReadOnly = true;
@@ -10798,7 +11331,7 @@
             // label181
             // 
             this.label181.AutoSize = true;
-            this.label181.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label181.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label181.Location = new System.Drawing.Point(343, 90);
             this.label181.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label181.Name = "label181";
@@ -10809,7 +11342,7 @@
             // label182
             // 
             this.label182.AutoSize = true;
-            this.label182.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label182.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label182.Location = new System.Drawing.Point(343, 60);
             this.label182.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label182.Name = "label182";
@@ -10819,7 +11352,9 @@
             // 
             // textBox_I_First_S
             // 
-            this.textBox_I_First_S.Font = new System.Drawing.Font("宋体", 11F);
+            this.textBox_I_First_S.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_I_First_S.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_I_First_S.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_I_First_S.Location = new System.Drawing.Point(281, 85);
             this.textBox_I_First_S.Name = "textBox_I_First_S";
             this.textBox_I_First_S.ReadOnly = true;
@@ -10829,7 +11364,7 @@
             // label183
             // 
             this.label183.AutoSize = true;
-            this.label183.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label183.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label183.Location = new System.Drawing.Point(185, 89);
             this.label183.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label183.Name = "label183";
@@ -10839,7 +11374,9 @@
             // 
             // textBox_V_First_BC
             // 
-            this.textBox_V_First_BC.Font = new System.Drawing.Font("宋体", 11F);
+            this.textBox_V_First_BC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_V_First_BC.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_V_First_BC.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_V_First_BC.Location = new System.Drawing.Point(281, 55);
             this.textBox_V_First_BC.Name = "textBox_V_First_BC";
             this.textBox_V_First_BC.ReadOnly = true;
@@ -10849,7 +11386,7 @@
             // label185
             // 
             this.label185.AutoSize = true;
-            this.label185.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label185.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label185.Location = new System.Drawing.Point(185, 59);
             this.label185.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label185.Name = "label185";
@@ -10860,7 +11397,7 @@
             // label283
             // 
             this.label283.AutoSize = true;
-            this.label283.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label283.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label283.Location = new System.Drawing.Point(185, 28);
             this.label283.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label283.Name = "label283";
@@ -10871,7 +11408,7 @@
             // label297
             // 
             this.label297.AutoSize = true;
-            this.label297.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label297.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label297.Location = new System.Drawing.Point(343, 29);
             this.label297.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label297.Name = "label297";
@@ -10881,7 +11418,9 @@
             // 
             // textBox_ROVPower
             // 
-            this.textBox_ROVPower.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_ROVPower.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_ROVPower.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_ROVPower.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_ROVPower.Location = new System.Drawing.Point(13, 179);
             this.textBox_ROVPower.Multiline = true;
             this.textBox_ROVPower.Name = "textBox_ROVPower";
@@ -10891,7 +11430,9 @@
             // 
             // textBox_I_First_A
             // 
-            this.textBox_I_First_A.Font = new System.Drawing.Font("宋体", 11F);
+            this.textBox_I_First_A.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_I_First_A.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_I_First_A.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_I_First_A.Location = new System.Drawing.Point(102, 26);
             this.textBox_I_First_A.Name = "textBox_I_First_A";
             this.textBox_I_First_A.ReadOnly = true;
@@ -10901,7 +11442,7 @@
             // label304
             // 
             this.label304.AutoSize = true;
-            this.label304.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label304.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label304.Location = new System.Drawing.Point(164, 91);
             this.label304.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label304.Name = "label304";
@@ -10912,7 +11453,7 @@
             // label306
             // 
             this.label306.AutoSize = true;
-            this.label306.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label306.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label306.Location = new System.Drawing.Point(164, 61);
             this.label306.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label306.Name = "label306";
@@ -10922,7 +11463,9 @@
             // 
             // textBox_I_First_C
             // 
-            this.textBox_I_First_C.Font = new System.Drawing.Font("宋体", 11F);
+            this.textBox_I_First_C.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_I_First_C.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_I_First_C.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_I_First_C.Location = new System.Drawing.Point(102, 86);
             this.textBox_I_First_C.Name = "textBox_I_First_C";
             this.textBox_I_First_C.ReadOnly = true;
@@ -10932,7 +11475,7 @@
             // label307
             // 
             this.label307.AutoSize = true;
-            this.label307.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label307.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label307.Location = new System.Drawing.Point(13, 90);
             this.label307.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label307.Name = "label307";
@@ -10942,7 +11485,9 @@
             // 
             // textBox_I_First_B
             // 
-            this.textBox_I_First_B.Font = new System.Drawing.Font("宋体", 11F);
+            this.textBox_I_First_B.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_I_First_B.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_I_First_B.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_I_First_B.Location = new System.Drawing.Point(102, 56);
             this.textBox_I_First_B.Name = "textBox_I_First_B";
             this.textBox_I_First_B.ReadOnly = true;
@@ -10952,7 +11497,7 @@
             // label308
             // 
             this.label308.AutoSize = true;
-            this.label308.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label308.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label308.Location = new System.Drawing.Point(13, 60);
             this.label308.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label308.Name = "label308";
@@ -10963,7 +11508,7 @@
             // label309
             // 
             this.label309.AutoSize = true;
-            this.label309.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label309.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label309.Location = new System.Drawing.Point(13, 29);
             this.label309.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label309.Name = "label309";
@@ -10974,7 +11519,7 @@
             // label310
             // 
             this.label310.AutoSize = true;
-            this.label310.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label310.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label310.Location = new System.Drawing.Point(164, 29);
             this.label310.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label310.Name = "label310";
@@ -10988,145 +11533,6 @@
             this.timer_Communication.Interval = 7000;
             this.timer_Communication.Tick += new System.EventHandler(this.timer_Communication_Tick);
             // 
-            // button36
-            // 
-            this.button36.BackColor = System.Drawing.Color.Transparent;
-            this.button36.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button36.FlatAppearance.BorderSize = 0;
-            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button36.Font = new System.Drawing.Font("宋体", 8F);
-            this.button36.ForeColor = System.Drawing.Color.Transparent;
-            this.button36.Location = new System.Drawing.Point(475, 130);
-            this.button36.Margin = new System.Windows.Forms.Padding(2);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(20, 20);
-            this.button36.TabIndex = 199;
-            this.button36.Text = "+";
-            this.button36.UseVisualStyleBackColor = false;
-            // 
-            // button37
-            // 
-            this.button37.BackColor = System.Drawing.Color.Transparent;
-            this.button37.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button37.FlatAppearance.BorderSize = 0;
-            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button37.Font = new System.Drawing.Font("宋体", 8F);
-            this.button37.ForeColor = System.Drawing.Color.Transparent;
-            this.button37.Location = new System.Drawing.Point(451, 130);
-            this.button37.Margin = new System.Windows.Forms.Padding(2);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(20, 20);
-            this.button37.TabIndex = 198;
-            this.button37.Text = "-";
-            this.button37.UseVisualStyleBackColor = false;
-            // 
-            // textBox13
-            // 
-            this.textBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox13.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox13.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox13.Location = new System.Drawing.Point(447, 89);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.ReadOnly = true;
-            this.textBox13.Size = new System.Drawing.Size(50, 29);
-            this.textBox13.TabIndex = 197;
-            // 
-            // textBox14
-            // 
-            this.textBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox14.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox14.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox14.Location = new System.Drawing.Point(447, 52);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.ReadOnly = true;
-            this.textBox14.Size = new System.Drawing.Size(50, 29);
-            this.textBox14.TabIndex = 196;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label33.Location = new System.Drawing.Point(453, 22);
-            this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(29, 19);
-            this.label33.TabIndex = 195;
-            this.label33.Text = "J7";
-            this.label33.Click += new System.EventHandler(this.label33_Click);
-            // 
-            // button38
-            // 
-            this.button38.BackColor = System.Drawing.Color.Transparent;
-            this.button38.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button38.FlatAppearance.BorderSize = 0;
-            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button38.Font = new System.Drawing.Font("宋体", 8F);
-            this.button38.ForeColor = System.Drawing.Color.Transparent;
-            this.button38.Location = new System.Drawing.Point(533, 131);
-            this.button38.Margin = new System.Windows.Forms.Padding(2);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(20, 20);
-            this.button38.TabIndex = 204;
-            this.button38.Text = "+";
-            this.button38.UseVisualStyleBackColor = false;
-            // 
-            // button39
-            // 
-            this.button39.BackColor = System.Drawing.Color.Transparent;
-            this.button39.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button39.FlatAppearance.BorderSize = 0;
-            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button39.Font = new System.Drawing.Font("宋体", 8F);
-            this.button39.ForeColor = System.Drawing.Color.Transparent;
-            this.button39.Location = new System.Drawing.Point(509, 131);
-            this.button39.Margin = new System.Windows.Forms.Padding(2);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(20, 20);
-            this.button39.TabIndex = 203;
-            this.button39.Text = "-";
-            this.button39.UseVisualStyleBackColor = false;
-            // 
-            // textBox15
-            // 
-            this.textBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox15.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox15.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox15.Location = new System.Drawing.Point(503, 89);
-            this.textBox15.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.ReadOnly = true;
-            this.textBox15.Size = new System.Drawing.Size(50, 29);
-            this.textBox15.TabIndex = 202;
-            // 
-            // textBox16
-            // 
-            this.textBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox16.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox16.ForeColor = System.Drawing.SystemColors.Control;
-            this.textBox16.Location = new System.Drawing.Point(503, 52);
-            this.textBox16.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.ReadOnly = true;
-            this.textBox16.Size = new System.Drawing.Size(50, 29);
-            this.textBox16.TabIndex = 201;
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label55.Location = new System.Drawing.Point(509, 22);
-            this.label55.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(29, 19);
-            this.label55.TabIndex = 200;
-            this.label55.Text = "J8";
-            // 
             // FormMainUserA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -11134,7 +11540,7 @@
             this.ClientSize = new System.Drawing.Size(1924, 849);
             this.Controls.Add(this.GroupBox_MainMon);
             this.DoubleBuffered = true;
-            this.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormMainUserA";
@@ -11207,12 +11613,38 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_Light_6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_Light_5)).EndInit();
             this.groupBox_SoftRuningInfo.ResumeLayout(false);
-            this.groupBox_SoftRuningInfo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Ch1WorkLight)).EndInit();
             this.groupBox49.ResumeLayout(false);
             this.groupBox49.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x61)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_FaXiang16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_LuoPan)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x50)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x40)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x29)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x80)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x79)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x72)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x71)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x70)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x63)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x62)).EndInit();
             this.groupBox_BoardA_Mon.ResumeLayout(false);
             this.groupBox_BoardA_Mon.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun8_DIN1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun8_DIN2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun8_DIN3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun8_DIN4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun8_DIN5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun8_DIN6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun8_DIN7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun8_DIN8)).EndInit();
             this.groupBox19.ResumeLayout(false);
             this.groupBox19.PerformLayout();
             this.groupBox18.ResumeLayout(false);
@@ -11241,6 +11673,12 @@
             this.groupBox46.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.LightWork_Station_Quire_Board_6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LightWork_Station_Quire_Board_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LightWork_Station_Quire_Board_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LightWork_Station_Quire_Board_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LightWork_Station_Quire_Board_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LightWork_Station_Quire_Board_1)).EndInit();
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
             this.groupBox13.ResumeLayout(false);
@@ -11263,6 +11701,14 @@
             this.groupBox24.PerformLayout();
             this.groupBox25.ResumeLayout(false);
             this.groupBox25.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun16_DIN1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun16_DIN2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun16_DIN3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun16_DIN4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun16_DIN5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun16_DIN6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun16_DIN7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Light_Fun16_DIN8)).EndInit();
             this.groupBox26.ResumeLayout(false);
             this.groupBox26.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -11290,7 +11736,6 @@
             this.groupBox14.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gaugeControl1)).EndInit();
             this.groupBox23.ResumeLayout(false);
             this.groupBox23.PerformLayout();
             this.groupBox27.ResumeLayout(false);
@@ -11300,8 +11745,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button btn_HeadingCircleClear;
-        private DevComponents.Instrumentation.GaugeControl gaugeControl1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.TextBox textBox_DCDetectBoard63_TO;
@@ -11461,21 +11904,13 @@
         private System.Windows.Forms.Label label89;
         public System.Windows.Forms.GroupBox GroupBox_MainMon;
         private System.Windows.Forms.GroupBox groupBox_BoardA_Mon;
-        private System.Windows.Forms.TextBox textBox_Fun8_DIN1;
         private System.Windows.Forms.Label label83;
-        private System.Windows.Forms.TextBox textBox_Fun8_DIN2;
         private System.Windows.Forms.Label label84;
-        private System.Windows.Forms.TextBox textBox_Fun8_DIN3;
         private System.Windows.Forms.Label label85;
-        private System.Windows.Forms.TextBox textBox_Fun8_DIN4;
         private System.Windows.Forms.Label label86;
-        private System.Windows.Forms.TextBox textBox_Fun8_DIN5;
         private System.Windows.Forms.Label label87;
-        private System.Windows.Forms.TextBox textBox_Fun8_DIN6;
         private System.Windows.Forms.Label label97;
-        private System.Windows.Forms.TextBox textBox_Fun8_DIN7;
         private System.Windows.Forms.Label label98;
-        private System.Windows.Forms.TextBox textBox_Fun8_DIN8;
         private System.Windows.Forms.Label label99;
         private System.Windows.Forms.TextBox textBox_5VAnalog;
         private System.Windows.Forms.TextBox textBox_Fun8_Temperature;
@@ -11586,14 +12021,6 @@
         private System.Windows.Forms.TextBox textBox_PWM_1_2;
         private System.Windows.Forms.Label label156;
         private System.Windows.Forms.GroupBox groupBox25;
-        private System.Windows.Forms.TextBox textBox_Fun16_DIN1;
-        private System.Windows.Forms.TextBox textBox_Fun16_DIN4;
-        private System.Windows.Forms.TextBox textBox_Fun16_DIN5;
-        private System.Windows.Forms.TextBox textBox_Fun16_DIN6;
-        private System.Windows.Forms.TextBox textBox_Fun16_DIN2;
-        private System.Windows.Forms.TextBox textBox_Fun16_DIN7;
-        private System.Windows.Forms.TextBox textBox_Fun16_DIN8;
-        private System.Windows.Forms.TextBox textBox_Fun16_DIN3;
         private System.Windows.Forms.Label label159;
         private System.Windows.Forms.Label label160;
         private System.Windows.Forms.Label label161;
@@ -11635,18 +12062,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_ClearAll;
         private System.Windows.Forms.GroupBox groupBox10;
-        private System.Windows.Forms.TextBox textBoxWork_Station_Quire_Board_6;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.TextBox textBoxWork_Station_Quire_Board_5;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.TextBox textBoxWork_Station_Quire_Board_4;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.TextBox textBoxWork_Station_Quire_Board_3;
-        private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.TextBox textBoxWork_Station_Quire_Board_2;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.TextBox textBoxWork_Station_Quire_Board_1;
-        private System.Windows.Forms.Label label54;
         private System.Windows.Forms.TextBox textBoxWork_Station_Quire_Board_RotateSpeed;
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.GroupBox groupBox11;
@@ -11789,20 +12204,10 @@
         private System.Windows.Forms.Label label71;
         private System.Windows.Forms.Label label80;
         private System.Windows.Forms.GroupBox groupBox49;
-        private System.Windows.Forms.TextBox textBox_Communication_0x63;
         private System.Windows.Forms.Label label217;
-        private System.Windows.Forms.TextBox textBox_Communication_0x62;
         private System.Windows.Forms.Label label214;
         private System.Windows.Forms.TextBox textBox_Communication_FaXiang16B;
         private System.Windows.Forms.TextBox textBox_Communication_FaXiang16A;
-        private System.Windows.Forms.TextBox textBox_Communication_LuoPan;
-        private System.Windows.Forms.TextBox textBox_Communication_0x50;
-        private System.Windows.Forms.TextBox textBox_Communication_0x40;
-        private System.Windows.Forms.TextBox textBox_Communication_0x80;
-        private System.Windows.Forms.TextBox textBox_Communication_0x79;
-        private System.Windows.Forms.TextBox textBox_Communication_0x71;
-        private System.Windows.Forms.TextBox textBox_Communication_0x70;
-        private System.Windows.Forms.TextBox textBox_Communication_0x61;
         private System.Windows.Forms.Label label187;
         private System.Windows.Forms.Label label188;
         private System.Windows.Forms.Label label198;
@@ -11813,23 +12218,14 @@
         private System.Windows.Forms.Label label203;
         private System.Windows.Forms.Label label204;
         private System.Windows.Forms.Label label212;
-        private System.Windows.Forms.TextBox textBox_Communication_0x72;
         private System.Windows.Forms.Label label220;
-        private System.Windows.Forms.TextBox textBox_Communication_0x30;
         private System.Windows.Forms.Label label262;
-        private System.Windows.Forms.TextBox textBox_Communication_0x22;
-        private System.Windows.Forms.TextBox textBox_Communication_0x21;
         private System.Windows.Forms.Label label287;
         private System.Windows.Forms.Label label289;
-        private System.Windows.Forms.TextBox textBox_Communication_0x29;
         private System.Windows.Forms.Label lable255;
-        private System.Windows.Forms.TextBox textBox_Communication_0x28;
         private System.Windows.Forms.Label label234;
-        private System.Windows.Forms.TextBox textBox_Communication_0x26;
         private System.Windows.Forms.Label label232;
-        private System.Windows.Forms.TextBox textBox_Communication_0x25;
         private System.Windows.Forms.Label label231;
-        private System.Windows.Forms.TextBox textBox_Communication_FaXiang16;
         private System.Windows.Forms.Label label305;
         private System.Windows.Forms.GroupBox groupBox27;
         private System.Windows.Forms.Label label173;
@@ -12076,7 +12472,6 @@
         private System.Windows.Forms.TrackBar trackBar_Light_6;
         private System.Windows.Forms.TrackBar trackBar_Light_5;
         private System.Windows.Forms.GroupBox groupBox_SoftRuningInfo;
-        private System.Windows.Forms.TextBox textBox_Communication;
         public System.Windows.Forms.RichTextBox richTextBox_InfoShow;
         private GyroAngle.GyroAngle gyroAngle1;
         private AxBGV2ActiveXLib.AxBeauGaugeCtrl Ch1WorkLight;
@@ -12090,5 +12485,56 @@
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.Label label33;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl LightWork_Station_Quire_Board_6;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl LightWork_Station_Quire_Board_5;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl LightWork_Station_Quire_Board_4;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl LightWork_Station_Quire_Board_3;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl LightWork_Station_Quire_Board_2;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl LightWork_Station_Quire_Board_1;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label54;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Fun16_DIN1;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Fun16_DIN2;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Fun16_DIN3;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Fun16_DIN4;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Fun16_DIN5;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Fun16_DIN6;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Fun16_DIN7;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Fun16_DIN8;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x61;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_FaXiang16;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_LuoPan;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x22;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x21;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x30;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x50;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x40;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x29;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x28;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x26;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x25;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x80;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x79;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x72;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x71;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x70;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x63;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Communication_0x62;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Fun8_DIN1;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Fun8_DIN2;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Fun8_DIN3;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Fun8_DIN4;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Fun8_DIN5;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Fun8_DIN6;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Fun8_DIN7;
+        private AxBGV2ActiveXLib.AxBeauGaugeCtrl Light_Fun8_DIN8;
+        public System.Windows.Forms.Button button40;
+        private System.Windows.Forms.Label label192;
+        private System.Windows.Forms.Label label191;
+        private System.Windows.Forms.Label label190;
     }
 }
