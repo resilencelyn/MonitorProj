@@ -1122,168 +1122,168 @@ namespace MonitorProj
                                         //第一组，btnCmdindex为1~8，更新标志字powerOpenFlag1
                                         if (btnCmdindex == 1)
                                         {
-                                            btn_Light_1.BackColor = Color.Yellow;
+                                            btn_Light_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag1 |= 0x01; //使用b0,最低位
                                         }
                                         else if (btnCmdindex == 2)
                                         {
-                                            btn_Light_2.BackColor = Color.Yellow;
+                                            btn_Light_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag1 |= 0x02;
                                         }
                                         else if (btnCmdindex == 3)
                                         {
-                                            btn_Light_3.BackColor = Color.Yellow;
+                                            btn_Light_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag1 |= 0x04;
                                         }
                                         else if (btnCmdindex == 4)
                                         {
-                                            btn_Light_4.BackColor = Color.Yellow;
+                                            btn_Light_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag1 |= 0x08;
                                         }
                                         else if (btnCmdindex == 5)
                                         {
-                                            btn_Light_5.BackColor = Color.Yellow;
+                                            btn_Light_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag1 |= 0x10;
                                         }
                                         else if (btnCmdindex == 6)
                                         {
-                                            btn_Light_6.BackColor = Color.Yellow;
+                                            btn_Light_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag1 |= 0x20;
                                         }
                                         else if (btnCmdindex == 7)
                                         {
-                                            btn_Light_7.BackColor = Color.Yellow;
+                                            btn_Light_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag1 |= 0x40;
                                         }
                                         else if (btnCmdindex == 8)
                                         {
-                                            btn_Light_8.BackColor = Color.Yellow;
+                                            btn_Light_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag1 |= 0x80;
                                         }
 
                                         //第一组，btnCmdindex为11~18，更新标志字powerOpenFlag2
                                         else if (btnCmdindex == 11)
                                         {
-                                            btn_Camera_1.BackColor = Color.Yellow;
+                                            btn_Camera_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag2 |= 0x01;
                                         }
                                         else if (btnCmdindex == 12)
                                         {
-                                            btn_Camera_2.BackColor = Color.Yellow;
+                                            btn_Camera_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag2 |= 0x02;
                                         }
                                         else if (btnCmdindex == 13)
                                         {
-                                            btn_Camera_3.BackColor = Color.Yellow;
+                                            btn_Camera_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag2 |= 0x04;
                                         }
                                         else if (btnCmdindex == 14)
                                         {
-                                            btn_Camera_4.BackColor = Color.Yellow;
+                                            btn_Camera_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag2 |= 0x08;
                                         }
                                         else if (btnCmdindex == 15)
                                         {
-                                            btn_Camera_5.BackColor = Color.Yellow;
+                                            btn_Camera_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag2 |= 0x10;
                                         }
                                         else if (btnCmdindex == 16)
                                         {
-                                            btn_Camera_6.BackColor = Color.Yellow;
+                                            btn_Camera_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag2 |= 0x20;
                                         }
                                         else if (btnCmdindex == 17)
                                         {
-                                            btn_Camera_7.BackColor = Color.Yellow;
+                                            btn_Camera_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag2 |= 0x40;
                                         }
                                         else if (btnCmdindex == 18)
                                         {
-                                            btn_Camera_8.BackColor = Color.Yellow;
+                                            btn_Camera_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag2 |= 0x80;
                                         }
 
                                         else if (btnCmdindex == 19)
                                         {
-                                            btn_DetectPanel_Rotate.BackColor = Color.Yellow;
+                                            btn_DetectPanel_Rotate.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag2 |= 0x100;
                                         }
                                         else if (btnCmdindex == 20)
                                         {
-                                            btn_DetectPanel_Space_12V1.BackColor = Color.Yellow;
+                                            btn_DetectPanel_Space_12V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag2 |= 0x200;
                                         }
                                         else if (btnCmdindex == 21)
                                         {
-                                            btn_DetectPanel_Space_12V2.BackColor = Color.Yellow;
+                                            btn_DetectPanel_Space_12V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag2 |= 0x400;
                                         }
                                         else if (btnCmdindex == 22)
                                         {
-                                            btn_DetectPanel_Space_12V3.BackColor = Color.Yellow;
+                                            btn_DetectPanel_Space_12V3.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag2 |= 0x800;
                                         }
 
                                         else if (btnCmdindex == 31)
                                         {
-                                            btn_DetectPanel_Hight.BackColor = Color.Yellow;
+                                            btn_DetectPanel_Hight.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag3 |= 0x01;
                                         }
                                         else if (btnCmdindex == 32)
                                         {
-                                            btn_DetectPanel_Deep.BackColor = Color.Yellow;
+                                            btn_DetectPanel_Deep.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag3 |= 0x02;
                                         }
                                         else if (btnCmdindex == 33)
                                         {
-                                            btn_DetectPanel_Space_Bak1.BackColor = Color.Yellow;
+                                            btn_DetectPanel_Space_Bak1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag3 |= 0x04;
                                         }
                                         else if (btnCmdindex == 34)
                                         {
-                                            btn_DetectPanel_Space_Bak2.BackColor = Color.Yellow;
+                                            btn_DetectPanel_Space_Bak2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag3 |= 0x08;
                                         }
 
                                         //第三组，舱内备用电源继电器板（0x90），41-48
                                         else if (btnCmdindex == 41)
                                         {
-                                            btn_InboardBackupPRB_24V1.BackColor = Color.Yellow;
+                                            btn_InboardBackupPRB_24V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag4 |= 0x01;
                                         }
                                         else if (btnCmdindex == 42)
                                         {
-                                            btn_InboardBackupPRB_24V2.BackColor = Color.Yellow;
+                                            btn_InboardBackupPRB_24V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag4 |= 0x02;
                                         }
                                         else if (btnCmdindex == 43)
                                         {
-                                            btn_InboardBackupPRB_24V3.BackColor = Color.Yellow;
+                                            btn_InboardBackupPRB_24V3.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag4 |= 0x04;
                                         }
                                         else if (btnCmdindex == 44)
                                         {
-                                            btn_InboardBackupPRB_24V4.BackColor = Color.Yellow;
+                                            btn_InboardBackupPRB_24V4.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag4 |= 0x08;
                                         }
                                         else if (btnCmdindex == 45)
                                         {
-                                            btn_InboardBackupPRB_Camera.BackColor = Color.Yellow;
+                                            btn_InboardBackupPRB_Camera.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag4 |= 0x10;
                                         }
                                         else if (btnCmdindex == 46)
                                         {
-                                            btn_InboardBackupPRB_W.BackColor = Color.Yellow;
+                                            btn_InboardBackupPRB_W.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag4 |= 0x20;
                                         }
                                         else if (btnCmdindex == 47)
                                         {
-                                            btn_InboardBackupPRB_12V1.BackColor = Color.Yellow;
+                                            btn_InboardBackupPRB_12V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag4 |= 0x40;
                                         }
                                         else if (btnCmdindex == 48)
                                         {
-                                            btn_InboardBackupPRB_12V2.BackColor = Color.Yellow;
+                                            btn_InboardBackupPRB_12V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             powerOpenFlag4 |= 0x80;
                                         }
 
@@ -1311,167 +1311,167 @@ namespace MonitorProj
                                                 //第一组，btnCmdindex为1~8，更新标志字powerOpenFlag1，加电OK，按钮颜色变绿
                                                 if (btnCmdindex == 1)
                                                 {
-                                                    btn_Light_1.BackColor = Color.Green;
+                                                    btn_Light_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag1 |= 0x01; //使用b0,最低位
                                                 }
                                                 else if (btnCmdindex == 2)
                                                 {
-                                                    btn_Light_2.BackColor = Color.Green;
+                                                    btn_Light_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag1 |= 0x02;
                                                 }
                                                 else if (btnCmdindex == 3)
                                                 {
-                                                    btn_Light_3.BackColor = Color.Green;
+                                                    btn_Light_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag1 |= 0x04;
                                                 }
                                                 else if (btnCmdindex == 4)
                                                 {
-                                                    btn_Light_4.BackColor = Color.Green;
+                                                    btn_Light_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag1 |= 0x08;
                                                 }
                                                 else if (btnCmdindex == 5)
                                                 {
-                                                    btn_Light_5.BackColor = Color.Green;
+                                                    btn_Light_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag1 |= 0x10;
                                                 }
                                                 else if (btnCmdindex == 6)
                                                 {
-                                                    btn_Light_6.BackColor = Color.Green;
+                                                    btn_Light_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag1 |= 0x20;
                                                 }
                                                 else if (btnCmdindex == 7)
                                                 {
-                                                    btn_Light_7.BackColor = Color.Green;
+                                                    btn_Light_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag1 |= 0x40;
                                                 }
                                                 else if (btnCmdindex == 8)
                                                 {
-                                                    btn_Light_8.BackColor = Color.Green;
+                                                    btn_Light_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag1 |= 0x80;
                                                 }
                                                 //第一组，btnCmdindex为11~18，更新标志字powerOpenFlag2
                                                 else if (btnCmdindex == 11)
                                                 {
-                                                    btn_Camera_1.BackColor = Color.Green;
+                                                    btn_Camera_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag2 |= 0x01;
                                                 }
                                                 else if (btnCmdindex == 12)
                                                 {
-                                                    btn_Camera_2.BackColor = Color.Green;
+                                                    btn_Camera_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag2 |= 0x02;
                                                 }
                                                 else if (btnCmdindex == 13)
                                                 {
-                                                    btn_Camera_3.BackColor = Color.Green;
+                                                    btn_Camera_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag2 |= 0x04;
                                                 }
                                                 else if (btnCmdindex == 14)
                                                 {
-                                                    btn_Camera_4.BackColor = Color.Green;
+                                                    btn_Camera_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag2 |= 0x08;
                                                 }
                                                 else if (btnCmdindex == 15)
                                                 {
-                                                    btn_Camera_5.BackColor = Color.Green;
+                                                    btn_Camera_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag2 |= 0x10;
                                                 }
                                                 else if (btnCmdindex == 16)
                                                 {
-                                                    btn_Camera_6.BackColor = Color.Green;
+                                                    btn_Camera_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag2 |= 0x20;
                                                 }
                                                 else if (btnCmdindex == 17)
                                                 {
-                                                    btn_Camera_7.BackColor = Color.Green;
+                                                    btn_Camera_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag2 |= 0x40;
                                                 }
                                                 else if (btnCmdindex == 18)
                                                 {
-                                                    btn_Camera_8.BackColor = Color.Green;
+                                                    btn_Camera_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag2 |= 0x80;
                                                 }
 
                                                 else if (btnCmdindex == 19)
                                                 {
-                                                    btn_DetectPanel_Rotate.BackColor = Color.Green;
+                                                    btn_DetectPanel_Rotate.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag2 |= 0x100;
                                                 }
                                                 else if (btnCmdindex == 20)
                                                 {
-                                                    btn_DetectPanel_Space_12V1.BackColor = Color.Green;
+                                                    btn_DetectPanel_Space_12V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag2 |= 0x200;
                                                 }
                                                 else if (btnCmdindex == 21)
                                                 {
-                                                    btn_DetectPanel_Space_12V2.BackColor = Color.Green;
+                                                    btn_DetectPanel_Space_12V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag2 |= 0x400;
                                                 }
                                                 else if (btnCmdindex == 22)
                                                 {
-                                                    btn_DetectPanel_Space_12V3.BackColor = Color.Green;
+                                                    btn_DetectPanel_Space_12V3.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag2 |= 0x800;
                                                 }
 
                                                 else if (btnCmdindex == 31)
                                                 {
-                                                    btn_DetectPanel_Hight.BackColor = Color.Green;
+                                                    btn_DetectPanel_Hight.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag3 |= 0x01;
                                                 }
                                                 else if (btnCmdindex == 32)
                                                 {
-                                                    btn_DetectPanel_Deep.BackColor = Color.Green;
+                                                    btn_DetectPanel_Deep.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag3 |= 0x02;
                                                 }
                                                 else if (btnCmdindex == 33)
                                                 {
-                                                    btn_DetectPanel_Space_Bak1.BackColor = Color.Green;
+                                                    btn_DetectPanel_Space_Bak1.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag3 |= 0x04;
                                                 }
                                                 else if (btnCmdindex == 34)
                                                 {
-                                                    btn_DetectPanel_Space_Bak2.BackColor = Color.Green;
+                                                    btn_DetectPanel_Space_Bak2.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag3 |= 0x08;
                                                 }
                                                 
                                                 //第三组，舱内备用电源继电器板（0x90），41-48
                                                 else if (btnCmdindex == 41)
                                                 {
-                                                    btn_InboardBackupPRB_24V1.BackColor = Color.Green;
+                                                    btn_InboardBackupPRB_24V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag4 |= 0x01;
                                                 }
                                                 else if (btnCmdindex == 42)
                                                 {
-                                                    btn_InboardBackupPRB_24V2.BackColor = Color.Green;
+                                                    btn_InboardBackupPRB_24V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag4 |= 0x02;
                                                 }
                                                 else if (btnCmdindex == 43)
                                                 {
-                                                    btn_InboardBackupPRB_24V3.BackColor = Color.Green;
+                                                    btn_InboardBackupPRB_24V3.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag4 |= 0x04;
                                                 }
                                                 else if (btnCmdindex == 44)
                                                 {
-                                                    btn_InboardBackupPRB_24V4.BackColor = Color.Green;
+                                                    btn_InboardBackupPRB_24V4.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag4 |= 0x08;
                                                 }
                                                 else if (btnCmdindex == 45)
                                                 {
-                                                    btn_InboardBackupPRB_Camera.BackColor = Color.Green;
+                                                    btn_InboardBackupPRB_Camera.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag4 |= 0x10;
                                                 }
                                                 else if (btnCmdindex == 46)
                                                 {
-                                                    btn_InboardBackupPRB_W.BackColor = Color.Green;
+                                                    btn_InboardBackupPRB_W.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag4 |= 0x20;
                                                 }
                                                 else if (btnCmdindex == 47)
                                                 {
-                                                    btn_InboardBackupPRB_12V1.BackColor = Color.Green;
+                                                    btn_InboardBackupPRB_12V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag4 |= 0x40;
                                                 }
                                                 else if (btnCmdindex == 48)
                                                 {
-                                                    btn_InboardBackupPRB_12V2.BackColor = Color.Green;
+                                                    btn_InboardBackupPRB_12V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     powerOpenFlag4 |= 0x80;
                                                 }
 
@@ -1490,126 +1490,126 @@ namespace MonitorProj
                                                 //第一组，btnCmdindex为1~8，更新标志字powerOpenFlag1
                                                 if (btnCmdindex == 1)
                                                 {
-                                                    btn_Light_1.BackColor = Color.Yellow;
+                                                    btn_Light_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag1 |= 0x01;
                                                 }
                                                 else if (btnCmdindex == 2)
                                                 {
-                                                    btn_Light_2.BackColor = Color.Yellow;
+                                                    btn_Light_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag1 |= 0x02;
                                                 }
                                                 else if (btnCmdindex == 3)
                                                 {
-                                                    btn_Light_3.BackColor = Color.Yellow;
+                                                    btn_Light_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag1 |= 0x04;
                                                 }
                                                 else if (btnCmdindex == 4)
                                                 {
-                                                    btn_Light_4.BackColor = Color.Yellow;
+                                                    btn_Light_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag1 |= 0x08;
                                                 }
                                                 else if (btnCmdindex == 5)
                                                 {
-                                                    btn_Light_5.BackColor = Color.Yellow;
+                                                    btn_Light_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag1 |= 0x10;
                                                 }
                                                 else if (btnCmdindex == 6)
                                                 {
-                                                    btn_Light_6.BackColor = Color.Yellow;
+                                                    btn_Light_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag1 |= 0x20;
                                                 }
                                                 else if (btnCmdindex == 7)
                                                 {
-                                                    btn_Light_7.BackColor = Color.Yellow;
+                                                    btn_Light_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag1 |= 0x40;
                                                 }
                                                 else if (btnCmdindex == 8)
                                                 {
-                                                    btn_Light_8.BackColor = Color.Yellow;
+                                                    btn_Light_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag1 |= 0x80;
                                                 }
 
                                                 //第一组，btnCmdindex为11~18，更新标志字powerOpenFlag2
                                                 else if (btnCmdindex == 11)
                                                 {
-                                                    btn_Camera_1.BackColor = Color.Yellow;
+                                                    btn_Camera_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag2 |= 0x01;
                                                 }
                                                 else if (btnCmdindex == 12)
                                                 {
-                                                    btn_Camera_2.BackColor = Color.Yellow;
+                                                    btn_Camera_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag2 |= 0x02;
                                                 }
                                                 else if (btnCmdindex == 13)
                                                 {
-                                                    btn_Camera_3.BackColor = Color.Yellow;
+                                                    btn_Camera_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag2 |= 0x04;
                                                 }
                                                 else if (btnCmdindex == 14)
                                                 {
-                                                    btn_Camera_4.BackColor = Color.Yellow;
+                                                    btn_Camera_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag2 |= 0x08;
                                                 }
                                                 else if (btnCmdindex == 15)
                                                 {
-                                                    btn_Camera_5.BackColor = Color.Yellow;
+                                                    btn_Camera_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag2 |= 0x10;
                                                 }
                                                 else if (btnCmdindex == 16)
                                                 {
-                                                    btn_Camera_6.BackColor = Color.Yellow;
+                                                    btn_Camera_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag2 |= 0x20;
                                                 }
                                                 else if (btnCmdindex == 17)
                                                 {
-                                                    btn_Camera_7.BackColor = Color.Yellow;
+                                                    btn_Camera_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag2 |= 0x40;
                                                 }
                                                 else if (btnCmdindex == 18)
                                                 {
-                                                    btn_Camera_8.BackColor = Color.Yellow;
+                                                    btn_Camera_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag2 |= 0x80;
                                                 }
 
                                                 else if (btnCmdindex == 19)
                                                 {
-                                                    btn_DetectPanel_Rotate.BackColor = Color.Yellow;
+                                                    btn_DetectPanel_Rotate.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag2 |= 0x100;
                                                 }
                                                 else if (btnCmdindex == 20)
                                                 {
-                                                    btn_DetectPanel_Space_12V1.BackColor = Color.Yellow;
+                                                    btn_DetectPanel_Space_12V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag2 |= 0x200;
                                                 }
                                                 else if (btnCmdindex == 21)
                                                 {
-                                                    btn_DetectPanel_Space_12V2.BackColor = Color.Yellow;
+                                                    btn_DetectPanel_Space_12V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag2 |= 0x400;
                                                 }
                                                 else if (btnCmdindex == 22)
                                                 {
-                                                    btn_DetectPanel_Space_12V3.BackColor = Color.Yellow;
+                                                    btn_DetectPanel_Space_12V3.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag2 |= 0x800;
                                                 }
                                                     
                                                 else if (btnCmdindex == 31)
                                                 {
-                                                    btn_DetectPanel_Hight.BackColor = Color.Yellow;
+                                                    btn_DetectPanel_Hight.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag3 |= 0x01;
                                                 }
                                                 else if (btnCmdindex == 32)
                                                 {
-                                                    btn_DetectPanel_Deep.BackColor = Color.Yellow;
+                                                    btn_DetectPanel_Deep.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag3 |= 0x02;
                                                 }
                                                 else if (btnCmdindex == 33)
                                                 {
-                                                    btn_DetectPanel_Space_Bak1.BackColor = Color.Yellow;
+                                                    btn_DetectPanel_Space_Bak1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag3 |= 0x04;
                                                 }
                                                 else if (btnCmdindex == 34)
                                                 {
-                                                    btn_DetectPanel_Space_Bak2.BackColor = Color.Yellow;
+                                                    btn_DetectPanel_Space_Bak2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag3 |= 0x08;
                                                 }
 
@@ -1617,42 +1617,42 @@ namespace MonitorProj
                                                 //第三组，舱内备用电源继电器板（0x90），41-48
                                                 else if (btnCmdindex == 41)
                                                 {
-                                                    btn_InboardBackupPRB_24V1.BackColor = Color.Yellow;
+                                                    btn_InboardBackupPRB_24V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag4 |= 0x01;
                                                 }
                                                 else if (btnCmdindex == 42)
                                                 {
-                                                    btn_InboardBackupPRB_24V2.BackColor = Color.Yellow;
+                                                    btn_InboardBackupPRB_24V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag4 |= 0x02;
                                                 }
                                                 else if (btnCmdindex == 43)
                                                 {
-                                                    btn_InboardBackupPRB_24V3.BackColor = Color.Yellow;
+                                                    btn_InboardBackupPRB_24V3.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag4 |= 0x04;
                                                 }
                                                 else if (btnCmdindex == 44)
                                                 {
-                                                    btn_InboardBackupPRB_24V4.BackColor = Color.Yellow;
+                                                    btn_InboardBackupPRB_24V4.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag4 |= 0x08;
                                                 }
                                                 else if (btnCmdindex == 45)
                                                 {
-                                                    btn_InboardBackupPRB_Camera.BackColor = Color.Yellow;
+                                                    btn_InboardBackupPRB_Camera.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag4 |= 0x10;
                                                 }
                                                 else if (btnCmdindex == 46)
                                                 {
-                                                    btn_InboardBackupPRB_W.BackColor = Color.Yellow;
+                                                    btn_InboardBackupPRB_W.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag4 |= 0x20;
                                                 }
                                                 else if (btnCmdindex == 47)
                                                 {
-                                                    btn_InboardBackupPRB_12V1.BackColor = Color.Yellow;
+                                                    btn_InboardBackupPRB_12V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag4 |= 0x40;
                                                 }
                                                 else if (btnCmdindex == 48)
                                                 {
-                                                    btn_InboardBackupPRB_12V2.BackColor = Color.Yellow;
+                                                    btn_InboardBackupPRB_12V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     powerOpenFlag4 |= 0x80;
                                                 }
 
@@ -1677,126 +1677,126 @@ namespace MonitorProj
                                             //第一组，btnCmdindex为1~8，更新标志字powerOpenFlag1
                                             if (btnCmdindex == 1)
                                             {
-                                                btn_Light_1.BackColor = Color.Yellow;
+                                                btn_Light_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag1 |= 0x01; //使用b0,最低位
                                             }
                                             else if (btnCmdindex == 2)
                                             {
-                                                btn_Light_2.BackColor = Color.Yellow;
+                                                btn_Light_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag1 |= 0x02;
                                             }
                                             else if (btnCmdindex == 3)
                                             {
-                                                btn_Light_3.BackColor = Color.Yellow;
+                                                btn_Light_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag1 |= 0x04;
                                             }
                                             else if (btnCmdindex == 4)
                                             {
-                                                btn_Light_4.BackColor = Color.Yellow;
+                                                btn_Light_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag1 |= 0x08;
                                             }
                                             else if (btnCmdindex == 5)
                                             {
-                                                btn_Light_5.BackColor = Color.Yellow;
+                                                btn_Light_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag1 |= 0x10;
                                             }
                                             else if (btnCmdindex == 6)
                                             {
-                                                btn_Light_6.BackColor = Color.Yellow;
+                                                btn_Light_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag1 |= 0x20;
                                             }
                                             else if (btnCmdindex == 7)
                                             {
-                                                btn_Light_7.BackColor = Color.Yellow;
+                                                btn_Light_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag1 |= 0x40;
                                             }
                                             else if (btnCmdindex == 8)
                                             {
-                                                btn_Light_8.BackColor = Color.Yellow;
+                                                btn_Light_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag1 |= 0x80;
                                             }
 
                                             //第一组，btnCmdindex为11~18，更新标志字powerOpenFlag2
                                             else if (btnCmdindex == 11)
                                             {
-                                                btn_Camera_1.BackColor = Color.Yellow;
+                                                btn_Camera_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag2 |= 0x01;
                                             }
                                             else if (btnCmdindex == 12)
                                             {
-                                                btn_Camera_2.BackColor = Color.Yellow;
+                                                btn_Camera_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag2 |= 0x02;
                                             }
                                             else if (btnCmdindex == 13)
                                             {
-                                                btn_Camera_3.BackColor = Color.Yellow;
+                                                btn_Camera_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag2 |= 0x04;
                                             }
                                             else if (btnCmdindex == 14)
                                             {
-                                                btn_Camera_4.BackColor = Color.Yellow;
+                                                btn_Camera_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag2 |= 0x08;
                                             }
                                             else if (btnCmdindex == 15)
                                             {
-                                                btn_Camera_5.BackColor = Color.Yellow;
+                                                btn_Camera_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag2 |= 0x10;
                                             }
                                             else if (btnCmdindex == 16)
                                             {
-                                                btn_Camera_6.BackColor = Color.Yellow;
+                                                btn_Camera_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag2 |= 0x20;
                                             }
                                             else if (btnCmdindex == 17)
                                             {
-                                                btn_Camera_7.BackColor = Color.Yellow;
+                                                btn_Camera_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag2 |= 0x40;
                                             }
                                             else if (btnCmdindex == 18)
                                             {
-                                                btn_Camera_8.BackColor = Color.Yellow;
+                                                btn_Camera_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag2 |= 0x80;
                                             }
 
                                             else if (btnCmdindex == 19)
                                             {
-                                                btn_DetectPanel_Rotate.BackColor = Color.Yellow;
+                                                btn_DetectPanel_Rotate.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag2 |= 0x100;
                                             }
                                             else if (btnCmdindex == 20)
                                             {
-                                                btn_DetectPanel_Space_12V1.BackColor = Color.Yellow;
+                                                btn_DetectPanel_Space_12V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag2 |= 0x200;
                                             }
                                             else if (btnCmdindex == 21)
                                             {
-                                                btn_DetectPanel_Space_12V2.BackColor = Color.Yellow;
+                                                btn_DetectPanel_Space_12V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag2 |= 0x400;
                                             }
                                             else if (btnCmdindex == 22)
                                             {
-                                                btn_DetectPanel_Space_12V3.BackColor = Color.Yellow;
+                                                btn_DetectPanel_Space_12V3.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag2 |= 0x800;
                                             }
 
                                             else if (btnCmdindex == 31)
                                             {
-                                                btn_DetectPanel_Hight.BackColor = Color.Yellow;
+                                                btn_DetectPanel_Hight.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag3 |= 0x01;
                                             }
                                             else if (btnCmdindex == 32)
                                             {
-                                                btn_DetectPanel_Deep.BackColor = Color.Yellow;
+                                                btn_DetectPanel_Deep.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag3 |= 0x02;
                                             }
                                             else if (btnCmdindex == 33)
                                             {
-                                                btn_DetectPanel_Space_Bak1.BackColor = Color.Yellow;
+                                                btn_DetectPanel_Space_Bak1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag3 |= 0x04;
                                             }
                                             else if (btnCmdindex == 34)
                                             {
-                                                btn_DetectPanel_Space_Bak2.BackColor = Color.Yellow;
+                                                btn_DetectPanel_Space_Bak2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag3 |= 0x08;
                                             }
 
@@ -1804,42 +1804,42 @@ namespace MonitorProj
                                             //第三组，舱内备用电源继电器板（0x90），41-48
                                             else if (btnCmdindex == 41)
                                             {
-                                                btn_InboardBackupPRB_24V1.BackColor = Color.Yellow;
+                                                btn_InboardBackupPRB_24V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag4 |= 0x01;
                                             }
                                             else if (btnCmdindex == 42)
                                             {
-                                                btn_InboardBackupPRB_24V2.BackColor = Color.Yellow;
+                                                btn_InboardBackupPRB_24V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag4 |= 0x02;
                                             }
                                             else if (btnCmdindex == 43)
                                             {
-                                                btn_InboardBackupPRB_24V3.BackColor = Color.Yellow;
+                                                btn_InboardBackupPRB_24V3.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag4 |= 0x04;
                                             }
                                             else if (btnCmdindex == 44)
                                             {
-                                                btn_InboardBackupPRB_24V4.BackColor = Color.Yellow;
+                                                btn_InboardBackupPRB_24V4.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag4 |= 0x08;
                                             }
                                             else if (btnCmdindex == 45)
                                             {
-                                                btn_InboardBackupPRB_Camera.BackColor = Color.Yellow;
+                                                btn_InboardBackupPRB_Camera.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag4 |= 0x10;
                                             }
                                             else if (btnCmdindex == 46)
                                             {
-                                                btn_InboardBackupPRB_W.BackColor = Color.Yellow;
+                                                btn_InboardBackupPRB_W.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag4 |= 0x20;
                                             }
                                             else if (btnCmdindex == 47)
                                             {
-                                                btn_InboardBackupPRB_12V1.BackColor = Color.Yellow;
+                                                btn_InboardBackupPRB_12V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag4 |= 0x40;
                                             }
                                             else if (btnCmdindex == 48)
                                             {
-                                                btn_InboardBackupPRB_12V2.BackColor = Color.Yellow;
+                                                btn_InboardBackupPRB_12V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 powerOpenFlag4 |= 0x80;
                                             }
 
@@ -1988,168 +1988,168 @@ namespace MonitorProj
                                 //第一组，btnCmdindex为1~8，断电OK，按钮颜色变灰色
                                 if (btnCmdindex == 1)
                                 {
-                                    btn_Light_1.BackColor = Color.Transparent;
+                                    btn_Light_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag1 &= ~(0x01);
                                 }
                                 else if (btnCmdindex == 2)
                                 {
-                                    btn_Light_2.BackColor = Color.Transparent;
+                                    btn_Light_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag1 &= ~(0x02);
                                 }
                                 else if (btnCmdindex == 3)
                                 {
-                                    btn_Light_3.BackColor = Color.Transparent;
+                                    btn_Light_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag1 &= ~(0x04);
                                 }
                                 else if (btnCmdindex == 4)
                                 {
-                                    btn_Light_4.BackColor = Color.Transparent;
+                                    btn_Light_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag1 &= ~(0x08);
                                 }
                                 else if (btnCmdindex == 5)
                                 {
-                                    btn_Light_5.BackColor = Color.Transparent;
+                                    btn_Light_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag1 &= ~(0x10);
                                 }
                                 else if (btnCmdindex == 6)
                                 {
-                                    btn_Light_6.BackColor = Color.Transparent;
+                                    btn_Light_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag1 &= ~(0x20);
                                 }
                                 else if (btnCmdindex == 7)
                                 {
-                                    btn_Light_7.BackColor = Color.Transparent;
+                                    btn_Light_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag1 &= ~(0x40);
                                 }
                                 else if (btnCmdindex == 8)
                                 {
-                                    btn_Light_8.BackColor = Color.Transparent;
+                                    btn_Light_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag1 &= ~(0x80);
                                 }
 
                                 //第一组，btnCmdindex为11~18，更新标志字powerOpenFlag2
                                 else if (btnCmdindex == 11)
                                 {
-                                    btn_Camera_1.BackColor = Color.Transparent;
+                                    btn_Camera_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag2 &= ~(0x01);
                                 }
                                 else if (btnCmdindex == 12)
                                 {
-                                    btn_Camera_2.BackColor = Color.Transparent;
+                                    btn_Camera_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag2 &= ~(0x02);
                                 }
                                 else if (btnCmdindex == 13)
                                 {
-                                    btn_Camera_3.BackColor = Color.Transparent;
+                                    btn_Camera_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag2 &= ~(0x04);
                                 }
                                 else if (btnCmdindex == 14)
                                 {
-                                    btn_Camera_4.BackColor = Color.Transparent;
+                                    btn_Camera_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag2 &= ~(0x08);
                                 }
                                 else if (btnCmdindex == 15)
                                 {
-                                    btn_Camera_5.BackColor = Color.Transparent;
+                                    btn_Camera_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag2 &= ~(0x10);
                                 }
                                 else if (btnCmdindex == 16)
                                 {
-                                    btn_Camera_6.BackColor = Color.Transparent;
+                                    btn_Camera_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag2 &= ~(0x20);
                                 }
                                 else if (btnCmdindex == 17)
                                 {
-                                    btn_Camera_7.BackColor = Color.Transparent;
+                                    btn_Camera_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag2 &= ~(0x40);
                                 }
                                 else if (btnCmdindex == 18)
                                 {
-                                    btn_Camera_8.BackColor = Color.Transparent;
+                                    btn_Camera_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag2 &= ~(0x80);
                                 }
 
                                 else if (btnCmdindex == 19)
                                 {
-                                    btn_DetectPanel_Rotate.BackColor = Color.Transparent;
+                                    btn_DetectPanel_Rotate.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag2 &= ~(0x100);
                                 }
                                 else if (btnCmdindex == 20)
                                 {
-                                    btn_DetectPanel_Space_12V1.BackColor = Color.Transparent;
+                                    btn_DetectPanel_Space_12V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag2 &= ~(0x200);
                                 }
                                 else if (btnCmdindex == 21)
                                 {
-                                    btn_DetectPanel_Space_12V2.BackColor = Color.Transparent;
+                                    btn_DetectPanel_Space_12V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag2 &= ~(0x400);
                                 }
                                 else if (btnCmdindex == 22)
                                 {
-                                    btn_DetectPanel_Space_12V3.BackColor = Color.Transparent;
+                                    btn_DetectPanel_Space_12V3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag2 &= ~(0x800);
                                 }
                                     
                                 else if (btnCmdindex == 31)
                                 {
-                                    btn_DetectPanel_Hight.BackColor = Color.Transparent;
+                                    btn_DetectPanel_Hight.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag3 &= ~(0x01);
                                 }
                                 else if (btnCmdindex == 32)
                                 {
-                                    btn_DetectPanel_Deep.BackColor = Color.Transparent;
+                                    btn_DetectPanel_Deep.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag3 &= ~(0x02);
                                 }
                                 else if (btnCmdindex == 33)
                                 {
-                                    btn_DetectPanel_Space_Bak1.BackColor = Color.Transparent;
+                                    btn_DetectPanel_Space_Bak1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag3 &= ~(0x04);
                                 }
                                 else if (btnCmdindex == 34)
                                 {
-                                    btn_DetectPanel_Space_Bak2.BackColor = Color.Transparent;
+                                    btn_DetectPanel_Space_Bak2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag3 &= ~(0x08);
                                 }
 
                                 //第三组，舱内备用电源继电器板（0x90），41-48
                                 else if (btnCmdindex == 41)
                                 {
-                                    btn_InboardBackupPRB_24V1.BackColor = Color.Transparent;
+                                    btn_InboardBackupPRB_24V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag4 &= ~(0x01);
                                 }
                                 else if (btnCmdindex == 42)
                                 {
-                                    btn_InboardBackupPRB_24V2.BackColor = Color.Transparent;
+                                    btn_InboardBackupPRB_24V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag4 &= ~(0x02);
                                 }
                                 else if (btnCmdindex == 43)
                                 {
-                                    btn_InboardBackupPRB_24V3.BackColor = Color.Transparent;
+                                    btn_InboardBackupPRB_24V3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag4 &= ~(0x04);
                                 }
                                 else if (btnCmdindex == 44)
                                 {
-                                    btn_InboardBackupPRB_24V4.BackColor = Color.Transparent;
+                                    btn_InboardBackupPRB_24V4.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag4 &= ~(0x08);
                                 }
                                 else if (btnCmdindex == 45)
                                 {
-                                    btn_InboardBackupPRB_Camera.BackColor = Color.Transparent;
+                                    btn_InboardBackupPRB_Camera.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag4 &= ~(0x10);
                                 }
                                 else if (btnCmdindex == 46)
                                 {
-                                    btn_InboardBackupPRB_W.BackColor = Color.Transparent;
+                                    btn_InboardBackupPRB_W.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag4 &= ~(0x20);
                                 }
                                 else if (btnCmdindex == 47)
                                 {
-                                    btn_InboardBackupPRB_12V1.BackColor = Color.Transparent;
+                                    btn_InboardBackupPRB_12V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag4 &= ~(0x40);
                                 }
                                 else if (btnCmdindex == 48)
                                 {
-                                    btn_InboardBackupPRB_12V2.BackColor = Color.Transparent;
+                                    btn_InboardBackupPRB_12V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                     powerOpenFlag4 &= ~(0x80);
                                 }
 
@@ -2435,12 +2435,12 @@ namespace MonitorProj
                                     {
                                         if (typeCmdSendOpen == 6)
                                         {
-                                            btn_FaBox_72.BackColor = Color.Yellow;
+                                            btn_FaBox_72.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             CtlPowerFlag79 |= 0x04;
                                         }
                                         else if (typeCmdSendOpen == 7)
                                         {
-                                            btn_FaBox_72.BackColor = Color.Transparent;
+                                            btn_FaBox_72.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                             CtlPowerFlag79 &= ~(0x04);
                                         }
                                     }
@@ -2448,12 +2448,12 @@ namespace MonitorProj
                                     {
                                         if (typeCmdSendOpen == 6)
                                         {
-                                            btn_FaBox_Space.BackColor = Color.Yellow;
+                                            btn_FaBox_Space.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                             CtlPowerFlag79 |= 0x08;
                                         }
                                         else if (typeCmdSendOpen == 7)
                                         {
-                                            btn_FaBox_Space.BackColor = Color.Transparent;
+                                            btn_FaBox_Space.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                             CtlPowerFlag79 &= ~(0x08);
                                         }
                                     }
@@ -2480,12 +2480,12 @@ namespace MonitorProj
                                             {
                                                 if (typeCmdSendOpen == 6)
                                                 {
-                                                    btn_FaBox_72.BackColor = Color.Green;
+                                                    btn_FaBox_72.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     CtlPowerFlag79 |= 0x04;
                                                 }
                                                 else if (typeCmdSendOpen == 7)
                                                 {
-                                                    btn_FaBox_72.BackColor = Color.Transparent;
+                                                    btn_FaBox_72.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                                     CtlPowerFlag79 &= ~(0x04);
                                                 }
                                             }
@@ -2493,12 +2493,12 @@ namespace MonitorProj
                                             {
                                                 if (typeCmdSendOpen == 6)
                                                 {
-                                                    btn_FaBox_Space.BackColor = Color.Green;
+                                                    btn_FaBox_Space.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                                     CtlPowerFlag79 |= 0x08;
                                                 }
                                                 else if (typeCmdSendOpen == 7)
                                                 {
-                                                    btn_FaBox_Space.BackColor = Color.Transparent;
+                                                    btn_FaBox_Space.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                                     CtlPowerFlag79 &= ~(0x08);
                                                 }
                                             }
@@ -2525,12 +2525,12 @@ namespace MonitorProj
                                             {
                                                 if (typeCmdSendOpen == 6)
                                                 {
-                                                    btn_FaBox_72.BackColor = Color.Yellow;
+                                                    btn_FaBox_72.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     CtlPowerFlag79 |= 0x04;
                                                 }
                                                 else if (typeCmdSendOpen == 7)
                                                 {
-                                                    btn_FaBox_72.BackColor = Color.Transparent;
+                                                    btn_FaBox_72.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                                     CtlPowerFlag79 &= ~(0x04);
                                                 }
                                             }
@@ -2538,12 +2538,12 @@ namespace MonitorProj
                                             {
                                                 if (typeCmdSendOpen == 6)
                                                 {
-                                                    btn_FaBox_Space.BackColor = Color.Yellow;
+                                                    btn_FaBox_Space.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                     CtlPowerFlag79 |= 0x08;
                                                 }
                                                 else if (typeCmdSendOpen == 7)
                                                 {
-                                                    btn_FaBox_Space.BackColor = Color.Transparent;
+                                                    btn_FaBox_Space.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                                     CtlPowerFlag79 &= ~(0x08);
                                                 }
                                             }
@@ -2572,12 +2572,12 @@ namespace MonitorProj
                                         {
                                             if (typeCmdSendOpen == 6)
                                             {
-                                                btn_FaBox_72.BackColor = Color.Yellow;
+                                                btn_FaBox_72.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 CtlPowerFlag79 |= 0x04;
                                             }
                                             else if (typeCmdSendOpen == 7)
                                             {
-                                                btn_FaBox_72.BackColor = Color.Transparent;
+                                                btn_FaBox_72.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                                 CtlPowerFlag79 &= ~(0x04);
                                             }
                                         }
@@ -2585,12 +2585,12 @@ namespace MonitorProj
                                         {
                                             if (typeCmdSendOpen == 6)
                                             {
-                                                btn_FaBox_Space.BackColor = Color.Yellow;
+                                                btn_FaBox_Space.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                                 CtlPowerFlag79 |= 0x08;
                                             }
                                             else if (typeCmdSendOpen == 7)
                                             {
-                                                btn_FaBox_Space.BackColor = Color.Transparent;
+                                                btn_FaBox_Space.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                                 CtlPowerFlag79 &= ~(0x08);
                                             }
                                         }
@@ -2612,12 +2612,12 @@ namespace MonitorProj
                                 {
                                     if (typeCmdSendOpen == 6)
                                     {
-                                        btn_FaBox_72.BackColor = Color.Green;
+                                        btn_FaBox_72.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                         CtlPowerFlag79 |= 0x04;
                                     }
                                     else if (typeCmdSendOpen == 7)
                                     {
-                                        btn_FaBox_72.BackColor = Color.Transparent;
+                                        btn_FaBox_72.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                         CtlPowerFlag79 &= ~(0x04);
                                     }
                                 }
@@ -2625,12 +2625,12 @@ namespace MonitorProj
                                 {
                                     if (typeCmdSendOpen == 6)
                                     {
-                                        btn_FaBox_Space.BackColor = Color.Green;
+                                        btn_FaBox_Space.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                         CtlPowerFlag79 |= 0x08;
                                     }
                                     else if (typeCmdSendOpen == 7)
                                     {
-                                        btn_FaBox_Space.BackColor = Color.Transparent;
+                                        btn_FaBox_Space.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                         CtlPowerFlag79 &= ~(0x08);
                                     }
                                 }
@@ -2720,7 +2720,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag62;
                 int cmdToDevice = powerOpenFlag4;
 
-                if (btn_InboardBackupPRB_24V1.BackColor == Color.Transparent)
+                if (btn_InboardBackupPRB_24V1.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x62, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x90, 0x02, 0x07, 0x00, 0x00, 0x00, 0x26 };
@@ -2789,7 +2789,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag62;
                 int cmdToDevice = powerOpenFlag4;
 
-                if (btn_InboardBackupPRB_24V2.BackColor == Color.Transparent)
+                if (btn_InboardBackupPRB_24V2.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x62, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x90, 0x02, 0x07, 0x00, 0x00, 0x00, 0x26 };
@@ -2858,7 +2858,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag62;
                 int cmdToDevice = powerOpenFlag4;
 
-                if (btn_InboardBackupPRB_24V3.BackColor == Color.Transparent)
+                if (btn_InboardBackupPRB_24V3.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x62, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x90, 0x02, 0x07, 0x00, 0x00, 0x00, 0x26 };
@@ -2927,7 +2927,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag62;
                 int cmdToDevice = powerOpenFlag4;
 
-                if (btn_InboardBackupPRB_24V4.BackColor == Color.Transparent)
+                if (btn_InboardBackupPRB_24V4.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x62, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x90, 0x02, 0x07, 0x00, 0x00, 0x00, 0x26 };
@@ -3000,7 +3000,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag63;
                 int cmdToDevice = powerOpenFlag4;
 
-                if (btn_InboardBackupPRB_Camera.BackColor == Color.Transparent)
+                if (btn_InboardBackupPRB_Camera.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x63, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x90, 0x02, 0x07, 0x00, 0x00, 0x00, 0x26 };
@@ -3069,7 +3069,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag63;
                 int cmdToDevice = powerOpenFlag4;
 
-                if (btn_InboardBackupPRB_W.BackColor == Color.Transparent)
+                if (btn_InboardBackupPRB_W.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x63, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x90, 0x02, 0x07, 0x00, 0x00, 0x00, 0x26 };
@@ -3138,7 +3138,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag63;
                 int cmdToDevice = powerOpenFlag4;
 
-                if (btn_InboardBackupPRB_12V1.BackColor == Color.Transparent)
+                if (btn_InboardBackupPRB_12V1.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x63, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x90, 0x02, 0x07, 0x00, 0x00, 0x00, 0x26 };
@@ -3207,7 +3207,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag63;
                 int cmdToDevice = powerOpenFlag4;
 
-                if (btn_InboardBackupPRB_12V2.BackColor == Color.Transparent)
+                if (btn_InboardBackupPRB_12V2.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x63, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x90, 0x02, 0x07, 0x00, 0x00, 0x00, 0x26 };
@@ -3294,7 +3294,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag61;
                 int cmdToDevice = powerOpenFlag2;
 
-                if (btn_Camera_1.BackColor == Color.Transparent)
+                if (btn_Camera_1.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x61, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x25, 0x02, 0x06, 0x00, 0x00, 0x26 };
@@ -3365,7 +3365,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag61;
                 int cmdToDevice = powerOpenFlag2;
 
-                if (btn_Camera_2.BackColor == Color.Transparent)
+                if (btn_Camera_2.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x61, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x25, 0x02, 0x06, 0x00, 0x00, 0x26 };
@@ -3436,7 +3436,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag61;
                 int cmdToDevice = powerOpenFlag2;
 
-                if (btn_Camera_3.BackColor == Color.Transparent)
+                if (btn_Camera_3.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x61, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x25, 0x02, 0x06, 0x00, 0x00, 0x26 };
@@ -3507,7 +3507,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag61;
                 int cmdToDevice = powerOpenFlag2;
 
-                if (btn_Camera_4.BackColor == Color.Transparent)
+                if (btn_Camera_4.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x61, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x25, 0x02, 0x06, 0x00, 0x00, 0x26 };
@@ -3579,7 +3579,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag61;
                 int cmdToDevice = powerOpenFlag2;
 
-                if (btn_Camera_5.BackColor == Color.Transparent)
+                if (btn_Camera_5.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x61, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x26, 0x02, 0x06, 0x00, 0x00, 0x26 };
@@ -3652,7 +3652,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag61;
                 int cmdToDevice = powerOpenFlag2;
 
-                if (btn_Camera_6.BackColor == Color.Transparent)
+                if (btn_Camera_6.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x61, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x26, 0x02, 0x06, 0x00, 0x00, 0x26 };
@@ -3725,7 +3725,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag61;
                 int cmdToDevice = powerOpenFlag2;
 
-                if (btn_Camera_7.BackColor == Color.Transparent)
+                if (btn_Camera_7.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x61, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x26, 0x02, 0x06, 0x00, 0x00, 0x26 };
@@ -3798,7 +3798,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag61;
                 int cmdToDevice = powerOpenFlag2;
 
-                if (btn_Camera_8.BackColor == Color.Transparent)
+                if (btn_Camera_8.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x61, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x26, 0x02, 0x06, 0x00, 0x00, 0x26 };
@@ -3888,7 +3888,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag79;
                 int cmdToDevice = powerOpenFlag1;
 
-                if (btn_Light_1.BackColor == Color.Transparent)
+                if (btn_Light_1.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x79, 0x02, 0x06, 0x00, 0x6E, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x21, 0x02, 0x06, 0x00, 0x36, 0x26 };
@@ -3959,7 +3959,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag79;
                 int cmdToDevice = powerOpenFlag1;
 
-                if (btn_Light_2.BackColor == Color.Transparent)
+                if (btn_Light_2.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x79, 0x02, 0x06, 0x00, 0x6E, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x21, 0x02, 0x06, 0x00, 0x36, 0x26 };
@@ -4030,7 +4030,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag79;
                 int cmdToDevice = powerOpenFlag1;
 
-                if (btn_Light_3.BackColor == Color.Transparent)
+                if (btn_Light_3.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x79, 0x02, 0x06, 0x00, 0x6E, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x21, 0x02, 0x06, 0x00, 0x36, 0x26 };
@@ -4101,7 +4101,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag79;
                 int cmdToDevice = powerOpenFlag1;
 
-                if (btn_Light_4.BackColor == Color.Transparent)
+                if (btn_Light_4.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x79, 0x02, 0x06, 0x00, 0x6E, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x21, 0x02, 0x06, 0x00, 0x36, 0x26 };
@@ -4172,7 +4172,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag79;
                 int cmdToDevice = powerOpenFlag1;
 
-                if (btn_Light_5.BackColor == Color.Transparent)
+                if (btn_Light_5.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x79, 0x02, 0x06, 0x00, 0x6E, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x22, 0x02, 0x06, 0x00, 0x36, 0x26 };
@@ -4245,7 +4245,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag79;
                 int cmdToDevice = powerOpenFlag1;
 
-                if (btn_Light_6.BackColor == Color.Transparent)
+                if (btn_Light_6.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x79, 0x02, 0x06, 0x00, 0x6E, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x22, 0x02, 0x06, 0x00, 0x36, 0x26 };
@@ -4318,7 +4318,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag79;
                 int cmdToDevice = powerOpenFlag1;
 
-                if (btn_Light_7.BackColor == Color.Transparent)
+                if (btn_Light_7.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x79, 0x02, 0x06, 0x00, 0x6E, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x22, 0x02, 0x06, 0x00, 0x36, 0x26 };
@@ -4391,7 +4391,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag79;
                 int cmdToDevice = powerOpenFlag1;
 
-                if (btn_Light_8.BackColor == Color.Transparent)
+                if (btn_Light_8.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x79, 0x02, 0x06, 0x00, 0x6E, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x22, 0x02, 0x06, 0x00, 0x36, 0x26 };
@@ -4476,7 +4476,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag61;
                 int cmdToDevice = powerOpenFlag2;
 
-                if (btn_DetectPanel_Rotate.BackColor == Color.Transparent)
+                if (btn_DetectPanel_Rotate.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x61, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x28, 0x02, 0x06, 0x00, 0x00, 0x26 };
@@ -4545,7 +4545,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag61;
                 int cmdToDevice = powerOpenFlag2;
 
-                if (btn_DetectPanel_Space_12V1.BackColor == Color.Transparent)
+                if (btn_DetectPanel_Space_12V1.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x61, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x28, 0x02, 0x06, 0x00, 0x00, 0x26 };
@@ -4614,7 +4614,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag61;
                 int cmdToDevice = powerOpenFlag2;
 
-                if (btn_DetectPanel_Space_12V2.BackColor == Color.Transparent)
+                if (btn_DetectPanel_Space_12V2.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x61, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x28, 0x02, 0x06, 0x00, 0x00, 0x26 };
@@ -4683,7 +4683,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag61;
                 int cmdToDevice = powerOpenFlag2;
 
-                if (btn_DetectPanel_Space_12V3.BackColor == Color.Transparent)
+                if (btn_DetectPanel_Space_12V3.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x61, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x28, 0x02, 0x06, 0x00, 0x00, 0x26 };
@@ -4754,7 +4754,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag62;
                 int cmdToDevice = powerOpenFlag3;
 
-                if (btn_DetectPanel_Hight.BackColor == Color.Transparent)
+                if (btn_DetectPanel_Hight.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x62, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x29, 0x02, 0x06, 0x00, 0x00, 0x26 };
@@ -4825,7 +4825,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag62;
                 int cmdToDevice = powerOpenFlag3;
 
-                if (btn_DetectPanel_Deep.BackColor == Color.Transparent)
+                if (btn_DetectPanel_Deep.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x62, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x29, 0x02, 0x06, 0x00, 0x00, 0x26 };
@@ -4896,7 +4896,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag62;
                 int cmdToDevice = powerOpenFlag3;
 
-                if (btn_DetectPanel_Space_Bak1.BackColor == Color.Transparent)
+                if (btn_DetectPanel_Space_Bak1.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x62, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x29, 0x02, 0x06, 0x00, 0x00, 0x26 };
@@ -4967,7 +4967,7 @@ namespace MonitorProj
                 int cmdToCtlPower = CtlPowerFlag62;
                 int cmdToDevice = powerOpenFlag3;
 
-                if (btn_DetectPanel_Space_Bak2.BackColor == Color.Transparent)
+                if (btn_DetectPanel_Space_Bak2.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerOpen = new byte[] { 0xFF, 0xFF, 0xA5, 0x62, 0x02, 0x06, 0x00, 0x00, 0x26 };
                     cmdOpenDevice = new byte[] { 0xFF, 0xFF, 0xA5, 0x29, 0x02, 0x06, 0x00, 0x00, 0x26 };
@@ -5170,7 +5170,7 @@ namespace MonitorProj
                 btnCmdindex = 61;
                 int cmdToCtlPower = CtlPowerFlag79;
 
-                if (btn_FaBox_72.BackColor == Color.Transparent)
+                if (btn_FaBox_72.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                 {
                     cmdPowerCtlOnly = new byte[] { 0xFF, 0xFF, 0xA5, 0x79, 0x02, 0x06, 0x00, 0x6E, 0x26 };
                     typeCmdSendOpen = 6;
@@ -5224,7 +5224,7 @@ namespace MonitorProj
                     btnCmdindex = 62;
                     int cmdToCtlPower = CtlPowerFlag79;
 
-                    if (btn_FaBox_Space.BackColor == Color.Transparent)
+                    if (btn_FaBox_Space.BackgroundImage == global::MonitorProj.Properties.Resources.Button1)
                     {
                         cmdPowerCtlOnly = new byte[] { 0xFF, 0xFF, 0xA5, 0x79, 0x02, 0x06, 0x00, 0x6E, 0x26 };
                         typeCmdSendOpen = 6;

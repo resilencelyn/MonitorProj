@@ -4124,10 +4124,10 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM8, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin.BackColor = Color.Green;
-                                    //btn_ZuanJin_Step.BackColor = Color.Transparent;
-                                    //btn_TiZuan.BackColor = Color.Transparent;
-                                    //btn_TiZuan_Step.BackColor = Color.Transparent;
+                                    //btn_ZuanJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_ZuanJin_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4155,10 +4155,10 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM8, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin.BackColor = Color.Transparent;
-                                    //btn_ZuanJin_Step.BackColor = Color.Green;
-                                    //btn_TiZuan.BackColor = Color.Transparent;
-                                    //btn_TiZuan_Step.BackColor = Color.Transparent;
+                                    //btn_ZuanJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_TiZuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4175,10 +4175,10 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM8, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin.BackColor = Color.Transparent;
-                                    //btn_ZuanJin_Step.BackColor = Color.Transparent;
-                                    //btn_TiZuan.BackColor = Color.Transparent;
-                                    //btn_TiZuan_Step.BackColor = Color.Transparent;
+                                    //btn_ZuanJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4203,10 +4203,10 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM7, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin.BackColor = Color.Transparent;
-                                    //btn_ZuanJin_Step.BackColor = Color.Transparent;
-                                    //btn_TiZuan.BackColor = Color.Green;
-                                    //btn_TiZuan_Step.BackColor = Color.Transparent;
+                                    //btn_ZuanJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_TiZuan_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4234,10 +4234,10 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM7, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin.BackColor = Color.Transparent;
-                                    //btn_ZuanJin_Step.BackColor = Color.Transparent;
-                                    //btn_TiZuan.BackColor = Color.Transparent;
-                                    //btn_TiZuan_Step.BackColor = Color.Green;
+                                    //btn_ZuanJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
 
                                     return null;
                                 }));
@@ -4254,10 +4254,10 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM8, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin.BackColor = Color.Transparent;
-                                    //btn_ZuanJin_Step.BackColor = Color.Transparent;
-                                    //btn_TiZuan.BackColor = Color.Transparent;
-                                    //btn_TiZuan_Step.BackColor = Color.Transparent;
+                                    //btn_ZuanJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4282,10 +4282,10 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM8, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin.BackColor = Color.Transparent;
-                                    //btn_ZuanJin_Step.BackColor = Color.Transparent;
-                                    //btn_TiZuan.BackColor = Color.Transparent;
-                                    //btn_TiZuan_Step.BackColor = Color.Transparent;
+                                    //btn_ZuanJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4315,8 +4315,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM5, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin_ZhengZhuan.BackColor = Color.Green;
-                                    //btn_ZuanJin_FanZhuan.BackColor = Color.Transparent;
+                                    //btn_ZuanJin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_ZuanJin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4344,8 +4344,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM6, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin_ZhengZhuan.BackColor = Color.Transparent;
-                                    //btn_ZuanJin_FanZhuan.BackColor = Color.Green;
+                                    //btn_ZuanJin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
 
                                     return null;
                                 }));
@@ -4373,8 +4373,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM6, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJin_ZhengZhuan.BackColor = Color.Transparent;
-                                    //btn_ZuanJin_FanZhuan.BackColor = Color.Transparent;
+                                    //btn_ZuanJin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4404,8 +4404,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM9, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_ShunZhuan.BackColor = Color.Green;
-                                    //btn_YunTai_NiZhuan.BackColor = Color.Transparent;
+                                    //btn_YunTai_ShunZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_YunTai_NiZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4420,8 +4420,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM10, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_ShunZhuan.BackColor = Color.Transparent;
-                                    //btn_YunTai_NiZhuan.BackColor = Color.Transparent;
+                                    //btn_YunTai_ShunZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_NiZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4446,8 +4446,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM10, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_ShunZhuan.BackColor = Color.Transparent;
-                                    //btn_YunTai_NiZhuan.BackColor = Color.Green;
+                                    //btn_YunTai_ShunZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_NiZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
 
                                     return null;
                                 }));
@@ -4462,8 +4462,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM10, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_ShunZhuan.BackColor = Color.Transparent;
-                                    //btn_YunTai_NiZhuan.BackColor = Color.Transparent;
+                                    //btn_YunTai_ShunZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_NiZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4488,8 +4488,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM10, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_ShunZhuan.BackColor = Color.Transparent;
-                                    //btn_YunTai_NiZhuan.BackColor = Color.Transparent;
+                                    //btn_YunTai_ShunZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_NiZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4519,8 +4519,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM11, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_Fu.BackColor = Color.Green;
-                                    //btn_YunTai_Yang.BackColor = Color.Transparent;
+                                    //btn_YunTai_Fu.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_YunTai_Yang.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4535,8 +4535,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM12, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_Fu.BackColor = Color.Transparent;
-                                    //btn_YunTai_Yang.BackColor = Color.Transparent;
+                                    //btn_YunTai_Fu.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_Yang.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4561,8 +4561,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM12, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_Fu.BackColor = Color.Transparent;
-                                    //btn_YunTai_Yang.BackColor = Color.Green;
+                                    //btn_YunTai_Fu.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_Yang.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
 
                                     return null;
                                 }));
@@ -4577,8 +4577,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM12, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_Fu.BackColor = Color.Transparent;
-                                    //btn_YunTai_Yang.BackColor = Color.Transparent;
+                                    //btn_YunTai_Fu.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_Yang.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4603,8 +4603,8 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM12, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YunTai_Fu.BackColor = Color.Transparent;
-                                    //btn_YunTai_Yang.BackColor = Color.Transparent;
+                                    //btn_YunTai_Fu.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_Yang.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4634,7 +4634,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM2, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YouYuanGaoYa_1.BackColor = Color.Green;
+                                    //btn_YouYuanGaoYa_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
 
                                     return null;
                                 }));
@@ -4677,7 +4677,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM2, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_YouYuanGaoYa_1.BackColor = Color.Transparent;
+                                    //btn_YouYuanGaoYa_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
 
                                     return null;
@@ -4706,7 +4706,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM4, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    // btn_YouYuanGaoYa.BackColor = Color.Green;
+                                    // btn_YouYuanGaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
 
                                     return null;
                                 }));
@@ -4749,7 +4749,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_PWM4, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    // btn_YouYuanGaoYa.BackColor = Color.Transparent;
+                                    // btn_YouYuanGaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
 
                                     return null;
@@ -4780,7 +4780,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_DOUT16, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ShuiBengKai.BackColor = Color.Green;
+                                    //btn_ShuiBengKai.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
 
                                     return null;
                                 }));
@@ -4823,7 +4823,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_DOUT16, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ShuiBengKai.BackColor = Color.Transparent;
+                                    //btn_ShuiBengKai.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -4872,9 +4872,9 @@ namespace MonitorProj
 
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                        //btn_JianYaFa_DiYa.BackColor = Color.Green;
-                                        //btn_JianYaFa_ZhongYa.BackColor = Color.Transparent;
-                                        //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
+                                        //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                        //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                         return null;
                                     }));
@@ -4902,9 +4902,9 @@ namespace MonitorProj
 
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                        //btn_JianYaFa_DiYa.BackColor = Color.Green;
-                                        //btn_JianYaFa_ZhongYa.BackColor = Color.Transparent;
-                                        //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
+                                        //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                        //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                         return null;
                                     }));
@@ -4930,9 +4930,9 @@ namespace MonitorProj
 
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                        //btn_JianYaFa_DiYa.BackColor = Color.Green;
-                                        //btn_JianYaFa_ZhongYa.BackColor = Color.Transparent;
-                                        //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
+                                        //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                        //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                         return null;
                                     }));
@@ -4960,9 +4960,9 @@ namespace MonitorProj
 
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                        //btn_JianYaFa_DiYa.BackColor = Color.Green;
-                                        //btn_JianYaFa_ZhongYa.BackColor = Color.Transparent;
-                                        //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
+                                        //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                        //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                         return null;
                                     }));
@@ -4988,9 +4988,9 @@ namespace MonitorProj
 
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                        //btn_JianYaFa_DiYa.BackColor = Color.Green;
-                                        //btn_JianYaFa_ZhongYa.BackColor = Color.Transparent;
-                                        //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
+                                        //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                        //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
 
                                         return null;
@@ -5035,9 +5035,9 @@ namespace MonitorProj
 
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                        //btn_JianYaFa_DiYa.BackColor = Color.Transparent;
-                                        //btn_JianYaFa_ZhongYa.BackColor = Color.Green;
-                                        //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
+                                        //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                        //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                         return null;
                                     }));
@@ -5065,9 +5065,9 @@ namespace MonitorProj
 
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                        //btn_JianYaFa_DiYa.BackColor = Color.Transparent;
-                                        //btn_JianYaFa_ZhongYa.BackColor = Color.Green;
-                                        //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
+                                        //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                        //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                         return null;
                                     }));
@@ -5093,9 +5093,9 @@ namespace MonitorProj
 
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                        //btn_JianYaFa_DiYa.BackColor = Color.Transparent;
-                                        //btn_JianYaFa_ZhongYa.BackColor = Color.Green;
-                                        //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
+                                        //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                        //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                         return null;
                                     }));
@@ -5137,9 +5137,9 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_DOUT12, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_JianYaFa_DiYa.BackColor = Color.Transparent;
-                                    //btn_JianYaFa_ZhongYa.BackColor = Color.Transparent;
-                                    //btn_JianYaFa_GaoYa.BackColor = Color.Green;
+                                    //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
 
 
                                     return null;
@@ -5207,9 +5207,9 @@ namespace MonitorProj
 
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_JianYaFa_DiYa.BackColor = Color.Transparent;
-                                    //btn_JianYaFa_ZhongYa.BackColor = Color.Transparent;
-                                    //btn_JianYaFa_GaoYa.BackColor = Color.Transparent;
+                                    //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -5240,7 +5240,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_DOUT14, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJinFa_GaoSu.BackColor = Color.Green;
+                                    //btn_ZuanJinFa_GaoSu.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
 
                                     return null;
                                 }));
@@ -5283,7 +5283,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Operate_Click_Remote(Global.m_FormBoardII.btn_DOUT14, null);
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
-                                    //btn_ZuanJinFa_GaoSu.BackColor = Color.Transparent;
+                                    //btn_ZuanJinFa_GaoSu.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                     return null;
                                 }));
@@ -5324,9 +5324,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A7.BackColor = Color.Green;
-                        //                btn_B7.BackColor = Color.Transparent;
-                        //                btn_AB7_Stop.BackColor = Color.Transparent;
+                        //                btn_A7.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_B7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB7_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5334,9 +5334,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A7.BackColor = Color.Yellow;
-                        //                btn_B7.BackColor = Color.Transparent;
-                        //                btn_AB7_Stop.BackColor = Color.Transparent;
+                        //                btn_A7.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_B7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB7_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5372,9 +5372,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A7.BackColor = Color.Transparent;
-                        //                btn_B7.BackColor = Color.Green;
-                        //                btn_AB7_Stop.BackColor = Color.Transparent;
+                        //                btn_A7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B7.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_AB7_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5382,9 +5382,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A7.BackColor = Color.Transparent;
-                        //                btn_B7.BackColor = Color.Yellow;
-                        //                btn_AB7_Stop.BackColor = Color.Transparent;
+                        //                btn_A7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B7.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_AB7_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5420,9 +5420,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A7.BackColor = Color.Transparent;
-                        //                btn_B7.BackColor = Color.Transparent;
-                        //                btn_AB7_Stop.BackColor = Color.Green;
+                        //                btn_A7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB7_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                         //                return null;
                         //            }));
                         //        }
@@ -5430,9 +5430,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A7.BackColor = Color.Transparent;
-                        //                btn_B7.BackColor = Color.Transparent;
-                        //                btn_AB7_Stop.BackColor = Color.Yellow;
+                        //                btn_A7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB7_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                         //                return null;
                         //            }));
                         //        }
@@ -5471,9 +5471,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A8.BackColor = Color.Green;
-                        //                btn_B8.BackColor = Color.Transparent;
-                        //                btn_AB8_Stop.BackColor = Color.Transparent;
+                        //                btn_A8.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_B8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB8_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5481,9 +5481,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A8.BackColor = Color.Yellow;
-                        //                btn_B8.BackColor = Color.Transparent;
-                        //                btn_AB8_Stop.BackColor = Color.Transparent;
+                        //                btn_A8.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_B8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB8_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5519,9 +5519,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A8.BackColor = Color.Transparent;
-                        //                btn_B8.BackColor = Color.Green;
-                        //                btn_AB8_Stop.BackColor = Color.Transparent;
+                        //                btn_A8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B8.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_AB8_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5529,9 +5529,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A8.BackColor = Color.Transparent;
-                        //                btn_B8.BackColor = Color.Yellow;
-                        //                btn_AB8_Stop.BackColor = Color.Transparent;
+                        //                btn_A8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B8.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_AB8_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5567,9 +5567,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A8.BackColor = Color.Transparent;
-                        //                btn_B8.BackColor = Color.Transparent;
-                        //                btn_AB8_Stop.BackColor = Color.Green;
+                        //                btn_A8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB8_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                         //                return null;
                         //            }));
                         //        }
@@ -5577,9 +5577,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A8.BackColor = Color.Transparent;
-                        //                btn_B8.BackColor = Color.Transparent;
-                        //                btn_AB8_Stop.BackColor = Color.Yellow;
+                        //                btn_A8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB8_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                         //                return null;
                         //            }));
                         //        }
@@ -5617,9 +5617,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A9.BackColor = Color.Green;
-                        //                btn_B9.BackColor = Color.Transparent;
-                        //                btn_AB9_Stop.BackColor = Color.Transparent;
+                        //                btn_A9.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_B9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB9_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5627,9 +5627,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A9.BackColor = Color.Yellow;
-                        //                btn_B9.BackColor = Color.Transparent;
-                        //                btn_AB9_Stop.BackColor = Color.Transparent;
+                        //                btn_A9.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_B9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB9_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5665,9 +5665,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A9.BackColor = Color.Transparent;
-                        //                btn_B9.BackColor = Color.Green;
-                        //                btn_AB9_Stop.BackColor = Color.Transparent;
+                        //                btn_A9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B9.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_AB9_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5675,9 +5675,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A9.BackColor = Color.Transparent;
-                        //                btn_B9.BackColor = Color.Yellow;
-                        //                btn_AB9_Stop.BackColor = Color.Transparent;
+                        //                btn_A9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B9.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_AB9_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5713,9 +5713,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A9.BackColor = Color.Transparent;
-                        //                btn_B9.BackColor = Color.Transparent;
-                        //                btn_AB9_Stop.BackColor = Color.Green;
+                        //                btn_A9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB9_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                         //                return null;
                         //            }));
                         //        }
@@ -5723,9 +5723,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A9.BackColor = Color.Transparent;
-                        //                btn_B9.BackColor = Color.Transparent;
-                        //                btn_AB9_Stop.BackColor = Color.Yellow;
+                        //                btn_A9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB9_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                         //                return null;
                         //            }));
                         //        }
@@ -5764,9 +5764,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A10.BackColor = Color.Green;
-                        //                btn_B10.BackColor = Color.Transparent;
-                        //                btn_AB10_Stop.BackColor = Color.Transparent;
+                        //                btn_A10.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_B10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB10_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5774,9 +5774,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A10.BackColor = Color.Yellow;
-                        //                btn_B10.BackColor = Color.Transparent;
-                        //                btn_AB10_Stop.BackColor = Color.Transparent;
+                        //                btn_A10.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_B10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB10_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5812,9 +5812,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A10.BackColor = Color.Transparent;
-                        //                btn_B10.BackColor = Color.Green;
-                        //                btn_AB10_Stop.BackColor = Color.Transparent;
+                        //                btn_A10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B10.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_AB10_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5822,9 +5822,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A10.BackColor = Color.Transparent;
-                        //                btn_B10.BackColor = Color.Yellow;
-                        //                btn_AB10_Stop.BackColor = Color.Transparent;
+                        //                btn_A10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B10.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_AB10_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5860,9 +5860,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A10.BackColor = Color.Transparent;
-                        //                btn_B10.BackColor = Color.Transparent;
-                        //                btn_AB10_Stop.BackColor = Color.Green;
+                        //                btn_A10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB10_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                         //                return null;
                         //            }));
                         //        }
@@ -5870,9 +5870,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A10.BackColor = Color.Transparent;
-                        //                btn_B10.BackColor = Color.Transparent;
-                        //                btn_AB10_Stop.BackColor = Color.Yellow;
+                        //                btn_A10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB10_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                         //                return null;
                         //            }));
                         //        }
@@ -5909,9 +5909,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A11.BackColor = Color.Green;
-                        //                btn_B11.BackColor = Color.Transparent;
-                        //                btn_AB11_Stop.BackColor = Color.Transparent;
+                        //                btn_A11.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_B11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB11_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5919,9 +5919,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A11.BackColor = Color.Yellow;
-                        //                btn_B11.BackColor = Color.Transparent;
-                        //                btn_AB11_Stop.BackColor = Color.Transparent;
+                        //                btn_A11.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_B11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB11_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5957,9 +5957,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A11.BackColor = Color.Transparent;
-                        //                btn_B11.BackColor = Color.Green;
-                        //                btn_AB11_Stop.BackColor = Color.Transparent;
+                        //                btn_A11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B11.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_AB11_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -5967,9 +5967,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A11.BackColor = Color.Transparent;
-                        //                btn_B11.BackColor = Color.Yellow;
-                        //                btn_AB11_Stop.BackColor = Color.Transparent;
+                        //                btn_A11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B11.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_AB11_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                         //                return null;
                         //            }));
                         //        }
@@ -6005,9 +6005,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A11.BackColor = Color.Transparent;
-                        //                btn_B11.BackColor = Color.Transparent;
-                        //                btn_AB11_Stop.BackColor = Color.Green;
+                        //                btn_A11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB11_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                         //                return null;
                         //            }));
                         //        }
@@ -6015,9 +6015,9 @@ namespace MonitorProj
                         //        {
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
-                        //                btn_A11.BackColor = Color.Transparent;
-                        //                btn_B11.BackColor = Color.Transparent;
-                        //                btn_AB11_Stop.BackColor = Color.Yellow;
+                        //                btn_A11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB11_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                         //                return null;
                         //            }));
                         //        }
@@ -6109,9 +6109,9 @@ namespace MonitorProj
                     //    if (ctl is Button)
                     //    {
                     //        Button btn = ctl as Button;
-                    //        if (btn.BackColor == Color.Green)
+                    //        if (btn.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //        {
-                    //            btn.BackColor = Color.Yellow;
+                    //            btn.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //        }
                     //    }
                     //    else
@@ -6121,9 +6121,9 @@ namespace MonitorProj
                     //            if (ctl1 is Button)
                     //            {
                     //                Button btn = ctl1 as Button;
-                    //                if (btn.BackColor == Color.Green)
+                    //                if (btn.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //                {
-                    //                    btn.BackColor = Color.Yellow;
+                    //                    btn.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //                }
                     //            }
                     //        }
@@ -6135,9 +6135,9 @@ namespace MonitorProj
                         if (ctl is Button)
                         {
                             Button btn = ctl as Button;
-                            if (btn.BackColor == Color.Green)
+                            if (btn.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                             {
-                                btn.BackColor = Color.Yellow;
+                                btn.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                             }
                         }
                         else
@@ -6147,9 +6147,9 @@ namespace MonitorProj
                                 if (ctl1 is Button)
                                 {
                                     Button btn = ctl1 as Button;
-                                    if (btn.BackColor == Color.Green)
+                                    if (btn.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                                     {
-                                        btn.BackColor = Color.Yellow;
+                                        btn.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                     }
                                 }
                             }
@@ -6161,9 +6161,9 @@ namespace MonitorProj
                         if (ctl is Button)
                         {
                             Button btn = ctl as Button;
-                            if (btn.BackColor == Color.Green)
+                            if (btn.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                             {
-                                btn.BackColor = Color.Yellow;
+                                btn.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                             }
                         }
                         else
@@ -6173,9 +6173,9 @@ namespace MonitorProj
                                 if (ctl1 is Button)
                                 {
                                     Button btn = ctl1 as Button;
-                                    if (btn.BackColor == Color.Green)
+                                    if (btn.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                                     {
-                                        btn.BackColor = Color.Yellow;
+                                        btn.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                     }
                                 }
                             }
@@ -6187,9 +6187,9 @@ namespace MonitorProj
                         if (ctl is Button)
                         {
                             Button btn = ctl as Button;
-                            if (btn.BackColor == Color.Green)
+                            if (btn.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                             {
-                                btn.BackColor = Color.Yellow;
+                                btn.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                             }
                         }
                         else
@@ -6199,9 +6199,9 @@ namespace MonitorProj
                                 if (ctl1 is Button)
                                 {
                                     Button btn = ctl1 as Button;
-                                    if (btn.BackColor == Color.Green)
+                                    if (btn.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                                     {
-                                        btn.BackColor = Color.Yellow;
+                                        btn.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                                     }
                                 }
                             }
@@ -6279,21 +6279,21 @@ namespace MonitorProj
                     //textBox_Communication_0x70.BackColor = Color.Red;
 
                     #region 灯1~4
-                    if (btn_Light_1.BackColor == Color.Green)
+                    if (btn_Light_1.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     {
-                        btn_Light_1.BackColor = Color.Yellow;
+                        btn_Light_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     }
-                    if (btn_Light_2.BackColor == Color.Green)
+                    if (btn_Light_2.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     {
-                        btn_Light_2.BackColor = Color.Yellow;
+                        btn_Light_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     }
-                    if (btn_Light_3.BackColor == Color.Green)
+                    if (btn_Light_3.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     {
-                        btn_Light_3.BackColor = Color.Yellow;
+                        btn_Light_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     }
-                    if (btn_Light_4.BackColor == Color.Green)
+                    if (btn_Light_4.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     {
-                        btn_Light_4.BackColor = Color.Yellow;
+                        btn_Light_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     }
                     #endregion
                 }
@@ -6310,21 +6310,21 @@ namespace MonitorProj
                     //textBox_Communication_0x71.BackColor = Color.Red;
 
                     #region 灯5~8
-                    if (btn_Light_5.BackColor == Color.Green)
+                    if (btn_Light_5.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     {
-                        btn_Light_5.BackColor = Color.Yellow;
+                        btn_Light_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     }
-                    if (btn_Light_6.BackColor == Color.Green)
+                    if (btn_Light_6.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     {
-                        btn_Light_6.BackColor = Color.Yellow;
+                        btn_Light_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     }
-                    if (btn_Light_7.BackColor == Color.Green)
+                    if (btn_Light_7.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     {
-                        btn_Light_7.BackColor = Color.Yellow;
+                        btn_Light_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     }
-                    if (btn_Light_8.BackColor == Color.Green)
+                    if (btn_Light_8.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     {
-                        btn_Light_8.BackColor = Color.Yellow;
+                        btn_Light_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     }
                     #endregion
                 }
@@ -6497,172 +6497,172 @@ namespace MonitorProj
                     //textBox_Communication_FaXiang16.BackColor = Color.Red;
 
                     #region 阀箱通信错误，将显示为绿色的阀箱相关按钮显示为黄色
-                    //if (btn_ZuanJin_ZhengZhuan.BackColor == Color.Green)
+                    //if (btn_ZuanJin_ZhengZhuan.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_ZuanJin_ZhengZhuan.BackColor = Color.Yellow;
+                    //    btn_ZuanJin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-                    //if (btn_ZuanJin_FanZhuan.BackColor == Color.Green)
+                    //if (btn_ZuanJin_FanZhuan.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_ZuanJin_FanZhuan.BackColor = Color.Yellow;
+                    //    btn_ZuanJin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-                    //if (btn_ZuanJin_ZhengZhuanFanZhuan_Stop.BackColor == Color.Green)
+                    //if (btn_ZuanJin_ZhengZhuanFanZhuan_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_ZuanJin_ZhengZhuanFanZhuan_Stop.BackColor = Color.Yellow;
-                    //}
-
-                    //if (btn_ZuanJinFa_GaoSu.BackColor == Color.Green)
-                    //{
-                    //    btn_ZuanJinFa_GaoSu.BackColor = Color.Yellow;
-                    //}
-                    //if (btn_ZuanJinFa_GaoSu_Stop.BackColor == Color.Green)
-                    //{
-                    //    btn_ZuanJinFa_GaoSu_Stop.BackColor = Color.Yellow;
+                    //    btn_ZuanJin_ZhengZhuanFanZhuan_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
 
-                    //if (btn_ZuanJin.BackColor == Color.Green)
+                    //if (btn_ZuanJinFa_GaoSu.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_ZuanJin.BackColor = Color.Yellow;
+                    //    btn_ZuanJinFa_GaoSu.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-                    //if (btn_ZuanJin_Step.BackColor == Color.Green)
+                    //if (btn_ZuanJinFa_GaoSu_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_ZuanJin_Step.BackColor = Color.Yellow;
-                    //}
-                    //if (btn_TiZuan.BackColor == Color.Green)
-                    //{
-                    //    btn_TiZuan.BackColor = Color.Yellow;
-                    //}
-                    //if (btn_TiZuan_Step.BackColor == Color.Green)
-                    //{
-                    //    btn_TiZuan_Step.BackColor = Color.Yellow;
-                    //}
-                    //if (btn_ZuanJinTiZuan_Stop.BackColor == Color.Green)
-                    //{
-                    //    btn_ZuanJinTiZuan_Stop.BackColor = Color.Yellow;
+                    //    btn_ZuanJinFa_GaoSu_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
 
-                    //if (btn_JianYaFa_DiYa.BackColor == Color.Green)
+                    //if (btn_ZuanJin.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_JianYaFa_DiYa.BackColor = Color.Yellow;
+                    //    btn_ZuanJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-                    //if (btn_JianYaFa_ZhongYa.BackColor == Color.Green)
+                    //if (btn_ZuanJin_Step.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_JianYaFa_ZhongYa.BackColor = Color.Yellow;
+                    //    btn_ZuanJin_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-                    //if (btn_JianYaFa_GaoYa.BackColor == Color.Green)
+                    //if (btn_TiZuan.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_JianYaFa_GaoYa.BackColor = Color.Yellow;
+                    //    btn_TiZuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-                    //if (btn_JianYaFa_Stop.BackColor == Color.Green)
+                    //if (btn_TiZuan_Step.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_JianYaFa_Stop.BackColor = Color.Yellow;
+                    //    btn_TiZuan_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-
-                    //if (btn_YouYuanGaoYa_1.BackColor == Color.Green)
+                    //if (btn_ZuanJinTiZuan_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_YouYuanGaoYa_1.BackColor = Color.Yellow;
-                    //}
-                    //if (btn_YouYuanGaoYa_Stop_1.BackColor == Color.Green)
-                    //{
-                    //    btn_YouYuanGaoYa_Stop_1.BackColor = Color.Yellow;
-                    //}
-                    //if (btn_YouYuanGaoYa.BackColor == Color.Green)
-                    //{
-                    //    btn_YouYuanGaoYa.BackColor = Color.Yellow;
-                    //}
-                    //if (btn_YouYuanGaoYa_Stop.BackColor == Color.Green)
-                    //{
-                    //    btn_YouYuanGaoYa_Stop.BackColor = Color.Yellow;
+                    //    btn_ZuanJinTiZuan_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
 
-                    //if (btn_ShuiBengKai.BackColor == Color.Green)
+                    //if (btn_JianYaFa_DiYa.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_ShuiBengKai.BackColor = Color.Yellow;
+                    //    btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-                    //if (btn_ShuiBengKai_Stop.BackColor == Color.Green)
+                    //if (btn_JianYaFa_ZhongYa.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_ShuiBengKai_Stop.BackColor = Color.Yellow;
+                    //    btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //}
+                    //if (btn_JianYaFa_GaoYa.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //{
+                    //    btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //}
+                    //if (btn_JianYaFa_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //{
+                    //    btn_JianYaFa_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
 
-                    //if (btn_YunTai_NiZhuan.BackColor == Color.Green)
+                    //if (btn_YouYuanGaoYa_1.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_YunTai_NiZhuan.BackColor = Color.Yellow;
+                    //    btn_YouYuanGaoYa_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-                    //if (btn_YunTai_ShunZhuan.BackColor == Color.Green)
+                    //if (btn_YouYuanGaoYa_Stop_1.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_YunTai_ShunZhuan.BackColor = Color.Yellow;
+                    //    btn_YouYuanGaoYa_Stop_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-                    //if (btn_YunTai_Yang.BackColor == Color.Green)
+                    //if (btn_YouYuanGaoYa.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_YunTai_Yang.BackColor = Color.Yellow;
+                    //    btn_YouYuanGaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-                    //if (btn_YunTai_Fu.BackColor == Color.Green)
+                    //if (btn_YouYuanGaoYa_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_YunTai_Fu.BackColor = Color.Yellow;
+                    //    btn_YouYuanGaoYa_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //}
+
+                    //if (btn_ShuiBengKai.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //{
+                    //    btn_ShuiBengKai.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //}
+                    //if (btn_ShuiBengKai_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //{
+                    //    btn_ShuiBengKai_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //}
+
+                    //if (btn_YunTai_NiZhuan.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //{
+                    //    btn_YunTai_NiZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //}
+                    //if (btn_YunTai_ShunZhuan.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //{
+                    //    btn_YunTai_ShunZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //}
+                    //if (btn_YunTai_Yang.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //{
+                    //    btn_YunTai_Yang.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //}
+                    //if (btn_YunTai_Fu.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //{
+                    //    btn_YunTai_Fu.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
                     // 5.12
-                    //if (btn_A7.BackColor == Color.Green)
+                    //if (btn_A7.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_A7.BackColor = Color.Yellow;
+                    //    btn_A7.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-                    //if (btn_B7.BackColor == Color.Green)
+                    //if (btn_B7.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_B7.BackColor = Color.Yellow;
+                    //    btn_B7.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-                    //if (btn_AB7_Stop.BackColor == Color.Green)
+                    //if (btn_AB7_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_AB7_Stop.BackColor = Color.Yellow;
-                    //}
-
-                    //if (btn_A8.BackColor == Color.Green)
-                    //{
-                    //    btn_A8.BackColor = Color.Yellow;
-                    //}
-                    //if (btn_B8.BackColor == Color.Green)
-                    //{
-                    //    btn_B8.BackColor = Color.Yellow;
-                    //}
-                    //if (btn_AB8_Stop.BackColor == Color.Green)
-                    //{
-                    //    btn_AB8_Stop.BackColor = Color.Yellow;
+                    //    btn_AB7_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
 
-                    //if (btn_A9.BackColor == Color.Green)
+                    //if (btn_A8.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_A9.BackColor = Color.Yellow;
+                    //    btn_A8.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-                    //if (btn_B9.BackColor == Color.Green)
+                    //if (btn_B8.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_B9.BackColor = Color.Yellow;
+                    //    btn_B8.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-                    //if (btn_AB9_Stop.BackColor == Color.Green)
+                    //if (btn_AB8_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_AB9_Stop.BackColor = Color.Yellow;
-                    //}
-
-                    //if (btn_A10.BackColor == Color.Green)
-                    //{
-                    //    btn_A10.BackColor = Color.Yellow;
-                    //}
-                    //if (btn_B10.BackColor == Color.Green)
-                    //{
-                    //    btn_B10.BackColor = Color.Yellow;
-                    //}
-                    //if (btn_AB10_Stop.BackColor == Color.Green)
-                    //{
-                    //    btn_AB10_Stop.BackColor = Color.Yellow;
+                    //    btn_AB8_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
 
-                    //if (btn_A11.BackColor == Color.Green)
+                    //if (btn_A9.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_A11.BackColor = Color.Yellow;
+                    //    btn_A9.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-                    //if (btn_B11.BackColor == Color.Green)
+                    //if (btn_B9.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_B11.BackColor = Color.Yellow;
+                    //    btn_B9.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
-                    //if (btn_AB11_Stop.BackColor == Color.Green)
+                    //if (btn_AB9_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
                     //{
-                    //    btn_AB11_Stop.BackColor = Color.Yellow;
+                    //    btn_AB9_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //}
+
+                    //if (btn_A10.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //{
+                    //    btn_A10.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //}
+                    //if (btn_B10.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //{
+                    //    btn_B10.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //}
+                    //if (btn_AB10_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //{
+                    //    btn_AB10_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //}
+
+                    //if (btn_A11.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //{
+                    //    btn_A11.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //}
+                    //if (btn_B11.BackgroundImage == global::MonitorProj.Properties.Resousrces.Button3)
+                    //{
+                    //    btn_B11.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //}
+                    //if (btn_AB11_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //{
+                    //    btn_AB11_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
                     //}
 
                     //#endregion
@@ -8130,8 +8130,8 @@ namespace MonitorProj
 
                 if (Global.isSerialOpenedOK_WaterCtlBox)
                 {
-                    btn_WaterCtlBox_SerialOpen.BackColor = Color.Green;
-                    btn_WaterCtlBox_SerialClose.BackColor = Color.Transparent;
+                    btn_WaterCtlBox_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                    btn_WaterCtlBox_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "水面控制盒串口打开成功！";
                         sInfo += "\t\n";
@@ -8140,8 +8140,8 @@ namespace MonitorProj
                 }
                 else
                 {
-                    btn_WaterCtlBox_SerialOpen.BackColor = Color.Yellow;
-                    btn_WaterCtlBox_SerialClose.BackColor = Color.Transparent;
+                    btn_WaterCtlBox_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    btn_WaterCtlBox_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "水面控制盒串口打开失败！";
                         sInfo += "\t\n";
@@ -8161,8 +8161,8 @@ namespace MonitorProj
             {
                 Global.m_FormSerialWaterBoxCtl.btn_Perform_Click(Global.m_FormSerialWaterBoxCtl.btn_SerialClose, null);
 
-                btn_WaterCtlBox_SerialOpen.BackColor = Color.Transparent;
-                btn_WaterCtlBox_SerialClose.BackColor = Color.Green;
+                btn_WaterCtlBox_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_WaterCtlBox_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                 {
                     string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "水面控制盒串口关闭成功！";
                     sInfo += "\t\n";
@@ -8184,8 +8184,8 @@ namespace MonitorProj
 
                 if (Global.isSerialOpenedOK_ROVPower)
                 {
-                    btn_ROVPower_SerialOpen.BackColor = Color.Green;
-                    btn_ROVPower_SerialClose.BackColor = Color.Transparent;
+                    btn_ROVPower_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                    btn_ROVPower_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "ROV供电柜串口打开成功！";
                         sInfo += "\t\n";
@@ -8194,8 +8194,8 @@ namespace MonitorProj
                 }
                 else
                 {
-                    btn_ROVPower_SerialOpen.BackColor = Color.Yellow;
-                    btn_ROVPower_SerialClose.BackColor = Color.Transparent;
+                    btn_ROVPower_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    btn_ROVPower_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "ROV供电柜串口打开失败！";
                         sInfo += "\t\n";
@@ -8215,8 +8215,8 @@ namespace MonitorProj
             {
                 Global.m_FormSerialRovPowerCtl.btn_Perform_Click(Global.m_FormSerialRovPowerCtl.btn_SerialClose, null);
 
-                btn_ROVPower_SerialOpen.BackColor = Color.Transparent;
-                btn_ROVPower_SerialClose.BackColor = Color.Green;
+                btn_ROVPower_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_ROVPower_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                 {
                     string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "ROV供电柜串口关闭成功！";
                     sInfo += "\t\n";
@@ -8238,8 +8238,8 @@ namespace MonitorProj
 
                 if (Global.isSerialOpenedOK_JuYuanJianCe_1)
                 {
-                    btn_JuYuanJianCe_1_SerialOpen.BackColor = Color.Green;
-                    btn_JuYuanJianCe_1_SerialClose.BackColor = Color.Transparent;
+                    btn_JuYuanJianCe_1_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                    btn_JuYuanJianCe_1_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪1串口打开成功！";
                         sInfo += "\t\n";
@@ -8248,8 +8248,8 @@ namespace MonitorProj
                 }
                 else
                 {
-                    btn_JuYuanJianCe_1_SerialOpen.BackColor = Color.Yellow;
-                    btn_JuYuanJianCe_1_SerialClose.BackColor = Color.Transparent;
+                    btn_JuYuanJianCe_1_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    btn_JuYuanJianCe_1_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪1串口打开失败！";
                         sInfo += "\t\n";
@@ -8269,8 +8269,8 @@ namespace MonitorProj
             {
                 Global.m_FormSerialJuYuanJianCe1Ctl.btn_Perform_Click(Global.m_FormSerialJuYuanJianCe1Ctl.btn_SerialClose, null);
 
-                btn_JuYuanJianCe_1_SerialOpen.BackColor = Color.Transparent;
-                btn_JuYuanJianCe_1_SerialClose.BackColor = Color.Green;
+                btn_JuYuanJianCe_1_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_JuYuanJianCe_1_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                 {
                     string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪1串口关闭成功！";
                     sInfo += "\t\n";
@@ -8292,8 +8292,8 @@ namespace MonitorProj
 
                 if (Global.isSerialOpenedOK_JuYuanJianCe_2)
                 {
-                    btn_JuYuanJianCe_2_SerialOpen.BackColor = Color.Green;
-                    btn_JuYuanJianCe_2_SerialClose.BackColor = Color.Transparent;
+                    btn_JuYuanJianCe_2_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                    btn_JuYuanJianCe_2_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪2串口打开成功！";
                         sInfo += "\t\n";
@@ -8302,8 +8302,8 @@ namespace MonitorProj
                 }
                 else
                 {
-                    btn_JuYuanJianCe_2_SerialOpen.BackColor = Color.Yellow;
-                    btn_JuYuanJianCe_2_SerialClose.BackColor = Color.Transparent;
+                    btn_JuYuanJianCe_2_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    btn_JuYuanJianCe_2_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪2串口打开失败！";
                         sInfo += "\t\n";
@@ -8323,8 +8323,8 @@ namespace MonitorProj
             {
                 Global.m_FormSerialJuYuanJianCe2Ctl.btn_Perform_Click(Global.m_FormSerialJuYuanJianCe2Ctl.btn_SerialClose, null);
 
-                btn_JuYuanJianCe_2_SerialOpen.BackColor = Color.Transparent;
-                btn_JuYuanJianCe_2_SerialClose.BackColor = Color.Green;
+                btn_JuYuanJianCe_2_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_JuYuanJianCe_2_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                 {
                     string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪2串口关闭成功！";
                     sInfo += "\t\n";
@@ -8349,7 +8349,7 @@ namespace MonitorProj
                 {
 
                     //停止界面浮潜
-                    btn_FuQian.BackColor = Color.Transparent;
+                    btn_FuQian.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                     flag_FuQian_Oper = false;
 
                     //停止界面自动定向
@@ -8426,7 +8426,7 @@ namespace MonitorProj
         {
             try
             {
-                btn_FuQian.BackColor = Color.Green;
+                btn_FuQian.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                 flag_FuQian_Oper = true;
             }
             catch (Exception ex)
@@ -8437,7 +8437,7 @@ namespace MonitorProj
         {
             try
             {
-                btn_FuQian.BackColor = Color.Transparent;
+                btn_FuQian.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                 flag_FuQian_Oper = false;
             }
             catch (Exception ex)
@@ -8810,7 +8810,7 @@ namespace MonitorProj
                 else
                 {
                     isAddParasToAutoDir = 1;
-                    btn_TuiJinQin_ZhengZhuan.BackColor = Color.Green;
+                    btn_TuiJinQin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                 }
             }
             catch (Exception ex)
@@ -8832,7 +8832,7 @@ namespace MonitorProj
                 else
                 {
                     isAddParasToAutoDir = 0;
-                    btn_TuiJinQin_ZhengZhuan.BackColor = Color.Transparent;
+                    btn_TuiJinQin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                 }
             }
             catch (Exception ex)
@@ -8857,7 +8857,7 @@ namespace MonitorProj
                 else
                 {
                     isAddParasToAutoDir = -1;
-                    btn_TuiJinQin_FanZhuan.BackColor = Color.Green;
+                    btn_TuiJinQin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                 }
             }
             catch (Exception ex)
@@ -8879,7 +8879,7 @@ namespace MonitorProj
                 else
                 {
                     isAddParasToAutoDir = 0;
-                    btn_TuiJinQin_FanZhuan.BackColor = Color.Transparent;
+                    btn_TuiJinQin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                 }
             }
             catch (Exception ex)
@@ -8911,10 +8911,10 @@ namespace MonitorProj
 
                             this.BeginInvoke(new Func<object>(() =>
                             {
-                                btn_DiCiJiaJiaoSet.BackColor = Color.Green;
-                                btn_DiCiJiaJiaoSet_Stop.BackColor = Color.Transparent;
-                                btn_TuiJinQin_ZhengZhuan.BackColor = Color.Transparent;
-                                btn_TuiJinQin_FanZhuan.BackColor = Color.Transparent;
+                                btn_DiCiJiaJiaoSet.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                btn_DiCiJiaJiaoSet_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                 //btn_TuiJinQin_ZhengZhuan.Enabled = false;
                                 //btn_TuiJinQin_FanZhuan.Enabled = false;
@@ -9061,10 +9061,10 @@ namespace MonitorProj
 
                                 Global.m_FormBoardI.SetDataIntoPCB();
 
-                                btn_TuiJinQin_ZhengZhuan.BackColor = Color.Transparent;
-                                btn_TuiJinQin_FanZhuan.BackColor = Color.Transparent;
-                                btn_DiCiJiaJiaoSet.BackColor = Color.Transparent;
-                                btn_DiCiJiaJiaoSet_Stop.BackColor = Color.Transparent;
+                                btn_TuiJinQin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_DiCiJiaJiaoSet.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_DiCiJiaJiaoSet_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                 btn_TuiJinQin_ZhengZhuan.Enabled = true;
                                 btn_TuiJinQin_FanZhuan.Enabled = true;
@@ -9306,10 +9306,10 @@ namespace MonitorProj
             try
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.Qian;
-                btn_TuiJinQi_HMove_QianJin.BackColor = Color.Green;
-                btn_TuiJinQi_HMove_HouTui.BackColor = Color.Transparent;
-                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.Transparent;
-                btn_TuiJinQi_HMove_YouYi.BackColor = Color.Transparent;
+                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                 flag_TuiJinQi_HMove_Oper = true;
             }
             catch (Exception ex)
@@ -9321,10 +9321,10 @@ namespace MonitorProj
             try
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.Hou;
-                btn_TuiJinQi_HMove_QianJin.BackColor = Color.Transparent;
-                btn_TuiJinQi_HMove_HouTui.BackColor = Color.Green;
-                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.Transparent;
-                btn_TuiJinQi_HMove_YouYi.BackColor = Color.Transparent;
+                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                 flag_TuiJinQi_HMove_Oper = true;
 
             }
@@ -9337,10 +9337,10 @@ namespace MonitorProj
             try
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.Zuo;
-                btn_TuiJinQi_HMove_QianJin.BackColor = Color.Transparent;
-                btn_TuiJinQi_HMove_HouTui.BackColor = Color.Transparent;
-                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.Green;
-                btn_TuiJinQi_HMove_YouYi.BackColor = Color.Transparent;
+                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                 flag_TuiJinQi_HMove_Oper = true;
             }
             catch (Exception ex)
@@ -9352,10 +9352,10 @@ namespace MonitorProj
             try
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.You;
-                btn_TuiJinQi_HMove_QianJin.BackColor = Color.Transparent;
-                btn_TuiJinQi_HMove_HouTui.BackColor = Color.Transparent;
-                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.Transparent;
-                btn_TuiJinQi_HMove_YouYi.BackColor = Color.Green;
+                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                 flag_TuiJinQi_HMove_Oper = true;
             }
             catch (Exception ex)
@@ -9367,10 +9367,10 @@ namespace MonitorProj
             try
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.Stop;
-                btn_TuiJinQi_HMove_QianJin.BackColor = Color.Transparent;
-                btn_TuiJinQi_HMove_HouTui.BackColor = Color.Transparent;
-                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.Transparent;
-                btn_TuiJinQi_HMove_YouYi.BackColor = Color.Transparent;
+                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                 flag_TuiJinQi_HMove_Oper = false;
             }
             catch (Exception ex)
@@ -9706,12 +9706,12 @@ namespace MonitorProj
                         {
                             this.BeginInvoke(new Func<object>(() =>
                             {
-                                btn_AutoHigh_Start.BackColor = Color.Green;
-                                btn_AutoHigh_Stop.BackColor = Color.Transparent;
-                                btn_TuiJinQi_HMove_QianJin.BackColor = Color.Transparent;
-                                btn_TuiJinQi_HMove_HouTui.BackColor = Color.Transparent;
-                                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.Transparent;
-                                btn_TuiJinQi_HMove_YouYi.BackColor = Color.Transparent;
+                                btn_AutoHigh_Start.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                btn_AutoHigh_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                 groupBox_TuiJinQi_PingYi.Enabled = false;
 
@@ -9795,12 +9795,12 @@ namespace MonitorProj
                             //停止
                             this.BeginInvoke(new Func<object>(() =>
                             {
-                                btn_AutoHigh_Start.BackColor = Color.Transparent;
-                                btn_AutoHigh_Stop.BackColor = Color.Transparent;
-                                btn_TuiJinQi_HMove_QianJin.BackColor = Color.Transparent;
-                                btn_TuiJinQi_HMove_HouTui.BackColor = Color.Transparent;
-                                btn_TuiJinQi_HMove_ZuoYi.BackColor = Color.Transparent;
-                                btn_TuiJinQi_HMove_YouYi.BackColor = Color.Transparent;
+                                btn_AutoHigh_Start.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_AutoHigh_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
 
                                 groupBox_TuiJinQi_PingYi.Enabled = true;
 
