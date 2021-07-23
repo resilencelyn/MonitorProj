@@ -2198,6 +2198,7 @@
             // 
             this.btn_Light_DensitySet_24.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_DensitySet_24.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_DensitySet_24.Tag = 1;
             this.btn_Light_DensitySet_24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_DensitySet_24.FlatAppearance.BorderSize = 0;
             this.btn_Light_DensitySet_24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2215,6 +2216,7 @@
             // 
             this.btn_Light_DensitySet_23.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_DensitySet_23.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_DensitySet_23.Tag = 1;
             this.btn_Light_DensitySet_23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_DensitySet_23.FlatAppearance.BorderSize = 0;
             this.btn_Light_DensitySet_23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2232,6 +2234,7 @@
             // 
             this.btn_Light_2.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_2.Tag = 1;
             this.btn_Light_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_2.FlatAppearance.BorderSize = 0;
             this.btn_Light_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2249,6 +2252,7 @@
             // 
             this.btn_Light_8.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_8.Tag = 1;
             this.btn_Light_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_8.FlatAppearance.BorderSize = 0;
             this.btn_Light_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2266,6 +2270,7 @@
             // 
             this.btn_Light_4.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_4.Tag = 1;
             this.btn_Light_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_4.FlatAppearance.BorderSize = 0;
             this.btn_Light_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2283,6 +2288,7 @@
             // 
             this.btn_Light_7.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_7.Tag = 1;
             this.btn_Light_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_7.FlatAppearance.BorderSize = 0;
             this.btn_Light_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2300,6 +2306,7 @@
             // 
             this.btn_Light_3.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_3.Tag = 1;
             this.btn_Light_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_3.FlatAppearance.BorderSize = 0;
             this.btn_Light_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2317,6 +2324,7 @@
             // 
             this.btn_Light_6.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_6.Tag = 1;
             this.btn_Light_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_6.FlatAppearance.BorderSize = 0;
             this.btn_Light_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2334,6 +2342,7 @@
             // 
             this.btn_Light_5.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_5.Tag = 1;
             this.btn_Light_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_5.FlatAppearance.BorderSize = 0;
             this.btn_Light_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2351,6 +2360,7 @@
             // 
             this.btn_Light_1.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Light_1.Tag = 1;
             this.btn_Light_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_1.FlatAppearance.BorderSize = 0;
             this.btn_Light_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2451,6 +2461,7 @@
             // 
             this.btn_FaBox_Space.BackColor = System.Drawing.Color.Transparent;
             this.btn_FaBox_Space.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_FaBox_Space.Tag = 1;
             this.btn_FaBox_Space.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_FaBox_Space.FlatAppearance.BorderSize = 0;
             this.btn_FaBox_Space.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2468,6 +2479,7 @@
             // 
             this.btn_FaBox_72.BackColor = System.Drawing.Color.Transparent;
             this.btn_FaBox_72.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_FaBox_72.Tag = 1;
             this.btn_FaBox_72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_FaBox_72.FlatAppearance.BorderSize = 0;
             this.btn_FaBox_72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2504,6 +2516,7 @@
             // 
             this.btn_DetectPanel_Space_Bak2.BackColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_Bak2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_DetectPanel_Space_Bak2.Tag = 1;
             this.btn_DetectPanel_Space_Bak2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Space_Bak2.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Space_Bak2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2521,6 +2534,7 @@
             // 
             this.btn_DetectPanel_Space_Bak1.BackColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_Bak1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_DetectPanel_Space_Bak1.Tag = 1;
             this.btn_DetectPanel_Space_Bak1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Space_Bak1.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Space_Bak1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2538,6 +2552,7 @@
             // 
             this.btn_DetectPanel_Deep.BackColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Deep.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_DetectPanel_Deep.Tag = 1;
             this.btn_DetectPanel_Deep.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Deep.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Deep.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2555,6 +2570,7 @@
             // 
             this.btn_DetectPanel_Hight.BackColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Hight.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_DetectPanel_Hight.Tag = 1;
             this.btn_DetectPanel_Hight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Hight.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Hight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2572,6 +2588,7 @@
             // 
             this.btn_DetectPanel_Space_12V3.BackColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_12V3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_DetectPanel_Space_12V3.Tag = 1;
             this.btn_DetectPanel_Space_12V3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Space_12V3.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Space_12V3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2589,6 +2606,7 @@
             // 
             this.btn_DetectPanel_Space_12V2.BackColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_12V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_DetectPanel_Space_12V2.Tag = 1;
             this.btn_DetectPanel_Space_12V2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Space_12V2.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Space_12V2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2606,6 +2624,7 @@
             // 
             this.btn_DetectPanel_Space_12V1.BackColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_12V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_DetectPanel_Space_12V1.Tag = 1;
             this.btn_DetectPanel_Space_12V1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Space_12V1.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Space_12V1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2623,6 +2642,7 @@
             // 
             this.btn_DetectPanel_Rotate.BackColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Rotate.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_DetectPanel_Rotate.Tag = 1;
             this.btn_DetectPanel_Rotate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Rotate.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Rotate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2671,6 +2691,7 @@
             // 
             this.btn_Camera_8.BackColor = System.Drawing.Color.Transparent;
             this.btn_Camera_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Camera_8.Tag = 1;
             this.btn_Camera_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_8.FlatAppearance.BorderSize = 0;
             this.btn_Camera_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2688,6 +2709,7 @@
             // 
             this.btn_Camera_7.BackColor = System.Drawing.Color.Transparent;
             this.btn_Camera_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Camera_7.Tag = 1;
             this.btn_Camera_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_7.FlatAppearance.BorderSize = 0;
             this.btn_Camera_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2705,6 +2727,7 @@
             // 
             this.btn_Camera_6.BackColor = System.Drawing.Color.Transparent;
             this.btn_Camera_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Camera_6.Tag = 1;
             this.btn_Camera_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_6.FlatAppearance.BorderSize = 0;
             this.btn_Camera_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2722,6 +2745,7 @@
             // 
             this.btn_Camera_5.BackColor = System.Drawing.Color.Transparent;
             this.btn_Camera_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Camera_5.Tag = 1;
             this.btn_Camera_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_5.FlatAppearance.BorderSize = 0;
             this.btn_Camera_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2739,6 +2763,7 @@
             // 
             this.btn_Camera_4.BackColor = System.Drawing.Color.Transparent;
             this.btn_Camera_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Camera_4.Tag = 1;
             this.btn_Camera_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_4.FlatAppearance.BorderSize = 0;
             this.btn_Camera_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2756,6 +2781,7 @@
             // 
             this.btn_Camera_3.BackColor = System.Drawing.Color.Transparent;
             this.btn_Camera_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Camera_3.Tag = 1;
             this.btn_Camera_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_3.FlatAppearance.BorderSize = 0;
             this.btn_Camera_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2773,6 +2799,7 @@
             // 
             this.btn_Camera_2.BackColor = System.Drawing.Color.Transparent;
             this.btn_Camera_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Camera_2.Tag = 1;
             this.btn_Camera_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_2.FlatAppearance.BorderSize = 0;
             this.btn_Camera_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2790,6 +2817,7 @@
             // 
             this.btn_Camera_1.BackColor = System.Drawing.Color.Transparent;
             this.btn_Camera_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_Camera_1.Tag = 1;
             this.btn_Camera_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_1.FlatAppearance.BorderSize = 0;
             this.btn_Camera_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2838,6 +2866,7 @@
             // 
             this.btn_InboardBackupPRB_24V4.BackColor = System.Drawing.Color.Transparent;
             this.btn_InboardBackupPRB_24V4.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_InboardBackupPRB_24V4.Tag = 1;
             this.btn_InboardBackupPRB_24V4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_InboardBackupPRB_24V4.FlatAppearance.BorderSize = 0;
             this.btn_InboardBackupPRB_24V4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2855,6 +2884,7 @@
             // 
             this.btn_InboardBackupPRB_24V3.BackColor = System.Drawing.Color.Transparent;
             this.btn_InboardBackupPRB_24V3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_InboardBackupPRB_24V3.Tag = 1;
             this.btn_InboardBackupPRB_24V3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_InboardBackupPRB_24V3.FlatAppearance.BorderSize = 0;
             this.btn_InboardBackupPRB_24V3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2872,6 +2902,7 @@
             // 
             this.btn_InboardBackupPRB_24V2.BackColor = System.Drawing.Color.Transparent;
             this.btn_InboardBackupPRB_24V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_InboardBackupPRB_24V2.Tag = 1;
             this.btn_InboardBackupPRB_24V2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_InboardBackupPRB_24V2.FlatAppearance.BorderSize = 0;
             this.btn_InboardBackupPRB_24V2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2889,6 +2920,7 @@
             // 
             this.btn_InboardBackupPRB_24V1.BackColor = System.Drawing.Color.Transparent;
             this.btn_InboardBackupPRB_24V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_InboardBackupPRB_24V1.Tag = 1;
             this.btn_InboardBackupPRB_24V1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_InboardBackupPRB_24V1.FlatAppearance.BorderSize = 0;
             this.btn_InboardBackupPRB_24V1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2906,6 +2938,7 @@
             // 
             this.btn_InboardBackupPRB_12V2.BackColor = System.Drawing.Color.Transparent;
             this.btn_InboardBackupPRB_12V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_InboardBackupPRB_12V2.Tag = 1;
             this.btn_InboardBackupPRB_12V2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_InboardBackupPRB_12V2.FlatAppearance.BorderSize = 0;
             this.btn_InboardBackupPRB_12V2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2923,6 +2956,7 @@
             // 
             this.btn_InboardBackupPRB_12V1.BackColor = System.Drawing.Color.Transparent;
             this.btn_InboardBackupPRB_12V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_InboardBackupPRB_12V1.Tag = 1;
             this.btn_InboardBackupPRB_12V1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_InboardBackupPRB_12V1.FlatAppearance.BorderSize = 0;
             this.btn_InboardBackupPRB_12V1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2940,6 +2974,7 @@
             // 
             this.btn_InboardBackupPRB_W.BackColor = System.Drawing.Color.Transparent;
             this.btn_InboardBackupPRB_W.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_InboardBackupPRB_W.Tag = 1;
             this.btn_InboardBackupPRB_W.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_InboardBackupPRB_W.FlatAppearance.BorderSize = 0;
             this.btn_InboardBackupPRB_W.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2957,6 +2992,7 @@
             // 
             this.btn_InboardBackupPRB_Camera.BackColor = System.Drawing.Color.Transparent;
             this.btn_InboardBackupPRB_Camera.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_InboardBackupPRB_Camera.Tag = 1;
             this.btn_InboardBackupPRB_Camera.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_InboardBackupPRB_Camera.FlatAppearance.BorderSize = 0;
             this.btn_InboardBackupPRB_Camera.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

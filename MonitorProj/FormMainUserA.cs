@@ -4125,9 +4125,13 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_ZuanJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_ZuanJin.Tag = 3;
                                     //btn_ZuanJin_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_Step.Tag = 1;
                                     //btn_TiZuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan.Tag = 1;
                                     //btn_TiZuan_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan_Step.Tag = 1;
 
                                     return null;
                                 }));
@@ -4156,9 +4160,13 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_ZuanJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin.Tag = 1;
                                     //btn_ZuanJin_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_ZuanJin_Step.Tag = 3;
                                     //btn_TiZuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan.Tag = 1;
                                     //btn_TiZuan_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan_Step.Tag = 1;
 
                                     return null;
                                 }));
@@ -4176,9 +4184,13 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_ZuanJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin.Tag = 1;
                                     //btn_ZuanJin_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_Step.Tag = 1;
                                     //btn_TiZuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan.Tag = 1;
                                     //btn_TiZuan_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan_Step.Tag = 1;
 
                                     return null;
                                 }));
@@ -4204,9 +4216,13 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_ZuanJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin.Tag = 1;
                                     //btn_ZuanJin_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_Step.Tag = 1;
                                     //btn_TiZuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_TiZuan.Tag = 3;
                                     //btn_TiZuan_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan_Step.Tag = 1;
 
                                     return null;
                                 }));
@@ -4235,9 +4251,13 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_ZuanJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin.Tag = 1;
                                     //btn_ZuanJin_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_Step.Tag = 1;
                                     //btn_TiZuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan.Tag = 1;
                                     //btn_TiZuan_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_TiZuan_Step.Tag = 3;
 
                                     return null;
                                 }));
@@ -4255,9 +4275,13 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_ZuanJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin.Tag = 1;
                                     //btn_ZuanJin_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_Step.Tag = 1;
                                     //btn_TiZuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan.Tag = 1;
                                     //btn_TiZuan_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan_Step.Tag = 1;
 
                                     return null;
                                 }));
@@ -4283,9 +4307,13 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_ZuanJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin.Tag = 1;
                                     //btn_ZuanJin_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_Step.Tag = 1;
                                     //btn_TiZuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan.Tag = 1;
                                     //btn_TiZuan_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_TiZuan_Step.Tag = 1;
 
                                     return null;
                                 }));
@@ -4316,7 +4344,9 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_ZuanJin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_ZuanJin_ZhengZhuan.Tag = 3;
                                     //btn_ZuanJin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_FanZhuan.Tag = 1;
 
                                     return null;
                                 }));
@@ -4345,7 +4375,9 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_ZuanJin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_ZhengZhuan.Tag = 1;
                                     //btn_ZuanJin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_ZuanJin_FanZhuan.Tag = 3;
 
                                     return null;
                                 }));
@@ -4374,7 +4406,9 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_ZuanJin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_ZhengZhuan.Tag = 1;
                                     //btn_ZuanJin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJin_FanZhuan.Tag = 1;
 
                                     return null;
                                 }));
@@ -4405,7 +4439,9 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_YunTai_ShunZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_YunTai_ShunZhuan.Tag = 3;
                                     //btn_YunTai_NiZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_NiZhuan.Tag = 1;
 
                                     return null;
                                 }));
@@ -4421,7 +4457,9 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_YunTai_ShunZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_ShunZhuan.Tag = 1;
                                     //btn_YunTai_NiZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_NiZhuan.Tag = 1;
 
                                     return null;
                                 }));
@@ -4447,7 +4485,9 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_YunTai_ShunZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_ShunZhuan.Tag = 1;
                                     //btn_YunTai_NiZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_YunTai_NiZhuan.Tag = 3;
 
                                     return null;
                                 }));
@@ -4463,7 +4503,9 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_YunTai_ShunZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_ShunZhuan.Tag = 1;
                                     //btn_YunTai_NiZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_NiZhuan.Tag = 1;
 
                                     return null;
                                 }));
@@ -4489,7 +4531,9 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_YunTai_ShunZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_ShunZhuan.Tag = 1;
                                     //btn_YunTai_NiZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_NiZhuan.Tag = 1;
 
                                     return null;
                                 }));
@@ -4520,7 +4564,9 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_YunTai_Fu.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_YunTai_Fu.Tag = 3;
                                     //btn_YunTai_Yang.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_Yang.Tag = 1;
 
                                     return null;
                                 }));
@@ -4536,7 +4582,9 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_YunTai_Fu.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_Fu.Tag = 1;
                                     //btn_YunTai_Yang.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_Yang.Tag = 1;
 
                                     return null;
                                 }));
@@ -4562,7 +4610,9 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_YunTai_Fu.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_Fu.Tag = 1;
                                     //btn_YunTai_Yang.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_YunTai_Yang.Tag = 3;
 
                                     return null;
                                 }));
@@ -4578,7 +4628,9 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_YunTai_Fu.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_Fu.Tag = 1;
                                     //btn_YunTai_Yang.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_Yang.Tag = 1;
 
                                     return null;
                                 }));
@@ -4604,7 +4656,9 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_YunTai_Fu.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_Fu.Tag = 1;
                                     //btn_YunTai_Yang.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YunTai_Yang.Tag = 1;
 
                                     return null;
                                 }));
@@ -4635,6 +4689,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_YouYuanGaoYa_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_YouYuanGaoYa_1.Tag = 3;
 
                                     return null;
                                 }));
@@ -4678,6 +4733,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_YouYuanGaoYa_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_YouYuanGaoYa_1.Tag = 1;
 
 
                                     return null;
@@ -4707,6 +4763,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     // btn_YouYuanGaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    // btn_YouYuanGaoYa.Tag = 3;
 
                                     return null;
                                 }));
@@ -4750,6 +4807,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     // btn_YouYuanGaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    // btn_YouYuanGaoYa.Tag = 1;
 
 
                                     return null;
@@ -4781,6 +4839,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_ShuiBengKai.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_ShuiBengKai.Tag = 3;
 
                                     return null;
                                 }));
@@ -4824,6 +4883,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_ShuiBengKai.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ShuiBengKai.Tag = 1;
 
                                     return null;
                                 }));
@@ -4873,8 +4933,11 @@ namespace MonitorProj
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                         //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                        //btn_JianYaFa_DiYa.Tag = 3;
                                         //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_ZhongYa.Tag = 1;
                                         //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_GaoYa.Tag = 1;
 
                                         return null;
                                     }));
@@ -4903,8 +4966,11 @@ namespace MonitorProj
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                         //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                        //btn_JianYaFa_DiYa.Tag = 3;
                                         //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_ZhongYa.Tag = 1;
                                         //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_GaoYa.Tag = 1;
 
                                         return null;
                                     }));
@@ -4931,8 +4997,11 @@ namespace MonitorProj
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                         //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                        //btn_JianYaFa_DiYa.Tag = 3;
                                         //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_ZhongYa.Tag = 1;
                                         //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_GaoYa.Tag = 1;
 
                                         return null;
                                     }));
@@ -4961,8 +5030,11 @@ namespace MonitorProj
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                         //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                        //btn_JianYaFa_DiYa.Tag = 3;
                                         //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_ZhongYa.Tag = 1;
                                         //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_GaoYa.Tag = 1;
 
                                         return null;
                                     }));
@@ -4989,8 +5061,11 @@ namespace MonitorProj
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                         //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                        //btn_JianYaFa_DiYa.Tag = 3;
                                         //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_ZhongYa.Tag = 1;
                                         //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_GaoYa.Tag = 1;
 
 
                                         return null;
@@ -5036,8 +5111,11 @@ namespace MonitorProj
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                         //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_DiYa.Tag = 1;
                                         //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                        //btn_JianYaFa_ZhongYa.Tag = 3;
                                         //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_GaoYa.Tag = 1;
 
                                         return null;
                                     }));
@@ -5066,8 +5144,11 @@ namespace MonitorProj
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                         //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_DiYa.Tag = 1;
                                         //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                        //btn_JianYaFa_ZhongYa.Tag = 3;
                                         //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_GaoYa.Tag = 1;
 
                                         return null;
                                     }));
@@ -5094,8 +5175,11 @@ namespace MonitorProj
                                         Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                         //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_DiYa.Tag = 1;
                                         //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                        //btn_JianYaFa_ZhongYa.Tag = 3;
                                         //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                        //btn_JianYaFa_GaoYa.Tag = 1;
 
                                         return null;
                                     }));
@@ -5138,8 +5222,11 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_JianYaFa_DiYa.Tag = 1;
                                     //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_JianYaFa_ZhongYa.Tag = 1;
                                     //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_JianYaFa_GaoYa.Tag = 3;
 
 
                                     return null;
@@ -5208,8 +5295,11 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_JianYaFa_DiYa.Tag = 1;
                                     //btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_JianYaFa_ZhongYa.Tag = 1;
                                     //btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_JianYaFa_GaoYa.Tag = 1;
 
                                     return null;
                                 }));
@@ -5241,6 +5331,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_ZuanJinFa_GaoSu.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                    //btn_ZuanJinFa_GaoSu.Tag = 3;
 
                                     return null;
                                 }));
@@ -5284,6 +5375,7 @@ namespace MonitorProj
                                     Global.m_FormBoardII.btn_Perform_Click(Global.m_FormBoardII.btn_SetDataIntoPCB, null);
 
                                     //btn_ZuanJinFa_GaoSu.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                    //btn_ZuanJinFa_GaoSu.Tag = 1;
 
                                     return null;
                                 }));
@@ -5325,8 +5417,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A7.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_A7.Tag = 3;
                         //                btn_B7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B7.Tag = 1;
                         //                btn_AB7_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB7_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5335,8 +5430,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A7.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_A7.Tag = 4;
                         //                btn_B7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B7.Tag = 1;
                         //                btn_AB7_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB7_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5373,8 +5471,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A7.Tag = 1;
                         //                btn_B7.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_B7.Tag = 3;
                         //                btn_AB7_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB7_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5383,8 +5484,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A7.Tag = 1;
                         //                btn_B7.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_B7.Tag = 4;
                         //                btn_AB7_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB7_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5421,8 +5525,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A7.Tag = 1;
                         //                btn_B7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B7.Tag = 1;
                         //                btn_AB7_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_AB7_Stop.Tag = 3;
                         //                return null;
                         //            }));
                         //        }
@@ -5431,8 +5538,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A7.Tag = 1;
                         //                btn_B7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B7.Tag = 1;
                         //                btn_AB7_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_AB7_Stop.Tag = 4;
                         //                return null;
                         //            }));
                         //        }
@@ -5472,8 +5582,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A8.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_A8.Tag = 3;
                         //                btn_B8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B8.Tag = 1;
                         //                btn_AB8_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB8_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5482,8 +5595,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A8.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_A8.Tag = 4;
                         //                btn_B8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B8.Tag = 1;
                         //                btn_AB8_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB8_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5520,8 +5636,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A8.Tag = 1;
                         //                btn_B8.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_B8.Tag = 3;
                         //                btn_AB8_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB8_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5530,8 +5649,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A8.Tag = 1;
                         //                btn_B8.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_B8.Tag = 4;
                         //                btn_AB8_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB8_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5568,8 +5690,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A8.Tag = 1;
                         //                btn_B8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B8.Tag = 1;
                         //                btn_AB8_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_AB8_Stop.Tag = 3;
                         //                return null;
                         //            }));
                         //        }
@@ -5578,8 +5703,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A8.Tag = 1;
                         //                btn_B8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B8.Tag = 1;
                         //                btn_AB8_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_AB8_Stop.Tag = 4;
                         //                return null;
                         //            }));
                         //        }
@@ -5618,8 +5746,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A9.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_A9.Tag = 3;
                         //                btn_B9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B9.Tag = 1;
                         //                btn_AB9_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB9_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5628,8 +5759,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A9.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_A9.Tag = 4;
                         //                btn_B9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B9.Tag = 1;
                         //                btn_AB9_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB9_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5666,8 +5800,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A9.Tag = 1;
                         //                btn_B9.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_B9.Tag = 3;
                         //                btn_AB9_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB9_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5676,8 +5813,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A9.Tag = 1;
                         //                btn_B9.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_B9.Tag = 4;
                         //                btn_AB9_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB9_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5714,8 +5854,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A9.Tag = 1;
                         //                btn_B9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B9.Tag = 1;
                         //                btn_AB9_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_AB9_Stop.Tag = 3;
                         //                return null;
                         //            }));
                         //        }
@@ -5724,8 +5867,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A9.Tag = 1;
                         //                btn_B9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B9.Tag = 1;
                         //                btn_AB9_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_AB9_Stop.Tag = 4;
                         //                return null;
                         //            }));
                         //        }
@@ -5765,8 +5911,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A10.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_A10.Tag = 3;
                         //                btn_B10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B10.Tag = 1;
                         //                btn_AB10_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB10_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5775,8 +5924,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A10.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_A10.Tag = 4;
                         //                btn_B10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B10.Tag = 1;
                         //                btn_AB10_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB10_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5813,8 +5965,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A10.Tag = 1;
                         //                btn_B10.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_B10.Tag = 3;
                         //                btn_AB10_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB10_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5823,8 +5978,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A10.Tag = 1;
                         //                btn_B10.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_B10.Tag = 4;
                         //                btn_AB10_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB10_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5861,8 +6019,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A10.Tag = 1;
                         //                btn_B10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B10.Tag = 1;
                         //                btn_AB10_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_AB10_Stop.Tag = 3;
                         //                return null;
                         //            }));
                         //        }
@@ -5871,8 +6032,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A10.Tag = 1;
                         //                btn_B10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B10.Tag = 1;
                         //                btn_AB10_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_AB10_Stop.Tag = 4;
                         //                return null;
                         //            }));
                         //        }
@@ -5910,8 +6074,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A11.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_A11.Tag = 3;
                         //                btn_B11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B11.Tag = 1;
                         //                btn_AB11_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB11_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5920,8 +6087,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A11.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_A11.Tag = 4;
                         //                btn_B11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B11.Tag = 1;
                         //                btn_AB11_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB11_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5958,8 +6128,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A11.Tag = 1;
                         //                btn_B11.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_B11.Tag = 3;
                         //                btn_AB11_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB11_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -5968,8 +6141,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A11.Tag = 1;
                         //                btn_B11.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_B11.Tag = 4;
                         //                btn_AB11_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_AB11_Stop.Tag = 1;
                         //                return null;
                         //            }));
                         //        }
@@ -6006,8 +6182,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A11.Tag = 1;
                         //                btn_B11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B11.Tag = 1;
                         //                btn_AB11_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                        //                btn_AB11_Stop.Tag = 3;
                         //                return null;
                         //            }));
                         //        }
@@ -6016,8 +6195,11 @@ namespace MonitorProj
                         //            this.BeginInvoke(new Func<object>(() =>
                         //            {
                         //                btn_A11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_A11.Tag = 1;
                         //                btn_B11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                        //                btn_B11.Tag = 1;
                         //                btn_AB11_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        //                btn_AB11_Stop.Tag = 4;
                         //                return null;
                         //            }));
                         //        }
@@ -6109,9 +6291,10 @@ namespace MonitorProj
                     //    if (ctl is Button)
                     //    {
                     //        Button btn = ctl as Button;
-                    //        if (btn.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //        if ((int)(btn.Tag) == 3)
                     //        {
                     //            btn.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //            btn.Tag = 4;
                     //        }
                     //    }
                     //    else
@@ -6121,9 +6304,10 @@ namespace MonitorProj
                     //            if (ctl1 is Button)
                     //            {
                     //                Button btn = ctl1 as Button;
-                    //                if (btn.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //                if ((int)(btn.Tag) == 3)
                     //                {
                     //                    btn.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //                    btn.Tag = 4;
                     //                }
                     //            }
                     //        }
@@ -6135,9 +6319,10 @@ namespace MonitorProj
                         if (ctl is Button)
                         {
                             Button btn = ctl as Button;
-                            if (btn.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                            if ((int)(btn.Tag) == 3)
                             {
                                 btn.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                                btn.Tag = 4;
                             }
                         }
                         else
@@ -6147,9 +6332,10 @@ namespace MonitorProj
                                 if (ctl1 is Button)
                                 {
                                     Button btn = ctl1 as Button;
-                                    if (btn.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                                    if ((int)(btn.Tag) == 3)
                                     {
                                         btn.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                                        btn.Tag = 4;
                                     }
                                 }
                             }
@@ -6161,9 +6347,10 @@ namespace MonitorProj
                         if (ctl is Button)
                         {
                             Button btn = ctl as Button;
-                            if (btn.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                            if ((int)(btn.Tag) == 3)
                             {
                                 btn.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                                btn.Tag = 4;
                             }
                         }
                         else
@@ -6173,9 +6360,10 @@ namespace MonitorProj
                                 if (ctl1 is Button)
                                 {
                                     Button btn = ctl1 as Button;
-                                    if (btn.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                                    if ((int)(btn.Tag) == 3)
                                     {
                                         btn.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                                        btn.Tag = 4;
                                     }
                                 }
                             }
@@ -6187,9 +6375,10 @@ namespace MonitorProj
                         if (ctl is Button)
                         {
                             Button btn = ctl as Button;
-                            if (btn.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                            if ((int)(btn.Tag) == 3)
                             {
                                 btn.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                                btn.Tag = 4;
                             }
                         }
                         else
@@ -6199,9 +6388,10 @@ namespace MonitorProj
                                 if (ctl1 is Button)
                                 {
                                     Button btn = ctl1 as Button;
-                                    if (btn.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                                    if ((int)(btn.Tag) == 3)
                                     {
                                         btn.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                                        btn.Tag = 4;
                                     }
                                 }
                             }
@@ -6279,21 +6469,25 @@ namespace MonitorProj
                     //textBox_Communication_0x70.BackColor = Color.Red;
 
                     #region 灯1~4
-                    if (btn_Light_1.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    if ((int)(btn_Light_1.Tag) == 3)
                     {
                         btn_Light_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        btn_Light_1.Tag = 4;
                     }
-                    if (btn_Light_2.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    if ((int)(btn_Light_2.Tag) == 3)
                     {
                         btn_Light_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        btn_Light_2.Tag = 4;
                     }
-                    if (btn_Light_3.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    if ((int)(btn_Light_3.Tag) == 3)
                     {
                         btn_Light_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        btn_Light_3.Tag = 4;
                     }
-                    if (btn_Light_4.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    if ((int)(btn_Light_4.Tag) == 3)
                     {
                         btn_Light_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        btn_Light_4.Tag = 4;
                     }
                     #endregion
                 }
@@ -6310,21 +6504,25 @@ namespace MonitorProj
                     //textBox_Communication_0x71.BackColor = Color.Red;
 
                     #region 灯5~8
-                    if (btn_Light_5.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    if ((int)(btn_Light_5.Tag) == 3)
                     {
                         btn_Light_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        btn_Light_5.Tag = 4;
                     }
-                    if (btn_Light_6.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    if ((int)(btn_Light_6.Tag) == 3)
                     {
                         btn_Light_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        btn_Light_6.Tag = 4;
                     }
-                    if (btn_Light_7.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    if ((int)(btn_Light_7.Tag) == 3)
                     {
                         btn_Light_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        btn_Light_7.Tag = 4;
                     }
-                    if (btn_Light_8.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    if ((int)(btn_Light_8.Tag) == 3)
                     {
                         btn_Light_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                        btn_Light_8.Tag = 4;
                     }
                     #endregion
                 }
@@ -6497,172 +6695,211 @@ namespace MonitorProj
                     //textBox_Communication_FaXiang16.BackColor = Color.Red;
 
                     #region 阀箱通信错误，将显示为绿色的阀箱相关按钮显示为黄色
-                    //if (btn_ZuanJin_ZhengZhuan.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_ZuanJin_ZhengZhuan.Tag) == 3)
                     //{
                     //    btn_ZuanJin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_ZuanJin_ZhengZhuan.Tag = 4;
                     //}
-                    //if (btn_ZuanJin_FanZhuan.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_ZuanJin_FanZhuan.Tag) == 3)
                     //{
                     //    btn_ZuanJin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_ZuanJin_FanZhuan.Tag = 4;
                     //}
-                    //if (btn_ZuanJin_ZhengZhuanFanZhuan_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_ZuanJin_ZhengZhuanFanZhuan_Stop.Tag) == 3)
                     //{
                     //    btn_ZuanJin_ZhengZhuanFanZhuan_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_ZuanJin_ZhengZhuanFanZhuan_Stop.Tag = 4;
                     //}
 
-                    //if (btn_ZuanJinFa_GaoSu.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_ZuanJinFa_GaoSu.Tag) == 3)
                     //{
                     //    btn_ZuanJinFa_GaoSu.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_ZuanJinFa_GaoSu.Tag = 4;
                     //}
-                    //if (btn_ZuanJinFa_GaoSu_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_ZuanJinFa_GaoSu_Stop.Tag) == 3)
                     //{
                     //    btn_ZuanJinFa_GaoSu_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_ZuanJinFa_GaoSu_Stop.Tag = 4;
                     //}
 
-                    //if (btn_ZuanJin.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_ZuanJin.Tag) == 3)
                     //{
                     //    btn_ZuanJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_ZuanJin.Tag = 4;
                     //}
-                    //if (btn_ZuanJin_Step.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_ZuanJin_Step.Tag) == 3)
                     //{
                     //    btn_ZuanJin_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_ZuanJin_Step.Tag = 4;
                     //}
-                    //if (btn_TiZuan.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_TiZuan.Tag) == 3)
                     //{
                     //    btn_TiZuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_TiZuan.Tag = 4;
                     //}
-                    //if (btn_TiZuan_Step.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_TiZuan_Step.Tag) == 3)
                     //{
                     //    btn_TiZuan_Step.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_TiZuan_Step.Tag = 4;
                     //}
-                    //if (btn_ZuanJinTiZuan_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_ZuanJinTiZuan_Stop.Tag) == 3)
                     //{
                     //    btn_ZuanJinTiZuan_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_ZuanJinTiZuan_Stop.Tag = 4;
                     //}
 
-                    //if (btn_JianYaFa_DiYa.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_JianYaFa_DiYa.Tag) == 3)
                     //{
                     //    btn_JianYaFa_DiYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_JianYaFa_DiYa.Tag = 4;
                     //}
-                    //if (btn_JianYaFa_ZhongYa.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_JianYaFa_ZhongYa.Tag) == 3)
                     //{
                     //    btn_JianYaFa_ZhongYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_JianYaFa_ZhongYa.Tag = 4;
                     //}
-                    //if (btn_JianYaFa_GaoYa.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_JianYaFa_GaoYa.Tag) == 3)
                     //{
                     //    btn_JianYaFa_GaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_JianYaFa_GaoYa.Tag = 4;
                     //}
-                    //if (btn_JianYaFa_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_JianYaFa_Stop.Tag) == 3)
                     //{
                     //    btn_JianYaFa_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_JianYaFa_Stop.Tag = 4;
                     //}
 
-                    //if (btn_YouYuanGaoYa_1.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_YouYuanGaoYa_1.Tag) == 3)
                     //{
                     //    btn_YouYuanGaoYa_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_YouYuanGaoYa_1.Tag = 4;
                     //}
-                    //if (btn_YouYuanGaoYa_Stop_1.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_YouYuanGaoYa_Stop_1.Tag) == 3)
                     //{
                     //    btn_YouYuanGaoYa_Stop_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_YouYuanGaoYa_Stop_1.Tag = 4;
                     //}
-                    //if (btn_YouYuanGaoYa.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_YouYuanGaoYa.Tag) == 3)
                     //{
                     //    btn_YouYuanGaoYa.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_YouYuanGaoYa.Tag = 4;
                     //}
-                    //if (btn_YouYuanGaoYa_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_YouYuanGaoYa_Stop.Tag) == 3)
                     //{
                     //    btn_YouYuanGaoYa_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_YouYuanGaoYa_Stop.Tag = 4;
                     //}
 
-                    //if (btn_ShuiBengKai.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_ShuiBengKai.Tag) == 3)
                     //{
                     //    btn_ShuiBengKai.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_ShuiBengKai.Tag = 4;
                     //}
-                    //if (btn_ShuiBengKai_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_ShuiBengKai_Stop.Tag) == 3)
                     //{
                     //    btn_ShuiBengKai_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_ShuiBengKai_Stop.Tag = 4;
                     //}
 
-                    //if (btn_YunTai_NiZhuan.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_YunTai_NiZhuan.Tag) == 3)
                     //{
                     //    btn_YunTai_NiZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_YunTai_NiZhuan.Tag = 4;
                     //}
-                    //if (btn_YunTai_ShunZhuan.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_YunTai_ShunZhuan.Tag) == 3)
                     //{
                     //    btn_YunTai_ShunZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_YunTai_ShunZhuan.Tag = 4;
                     //}
-                    //if (btn_YunTai_Yang.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_YunTai_Yang.Tag) == 3)
                     //{
                     //    btn_YunTai_Yang.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_YunTai_Yang.Tag = 4;
                     //}
-                    //if (btn_YunTai_Fu.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_YunTai_Fu.Tag) == 3)
                     //{
                     //    btn_YunTai_Fu.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_YunTai_Fu.Tag = 4;
                     //}
                     // 5.12
-                    //if (btn_A7.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_A7.Tag) == 3)
                     //{
                     //    btn_A7.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_A7.Tag = 4;
                     //}
-                    //if (btn_B7.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_B7.Tag) == 3)
                     //{
                     //    btn_B7.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_B7.Tag = 4;
                     //}
-                    //if (btn_AB7_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_AB7_Stop.Tag) == 3)
                     //{
                     //    btn_AB7_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_AB7_Stop.Tag = 4;
                     //}
 
-                    //if (btn_A8.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_A8.Tag) == 3)
                     //{
                     //    btn_A8.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_A8.Tag = 4;
                     //}
-                    //if (btn_B8.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_B8.Tag) == 3)
                     //{
                     //    btn_B8.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_B8.Tag = 4;
                     //}
-                    //if (btn_AB8_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_AB8_Stop.Tag) == 3)
                     //{
                     //    btn_AB8_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_AB8_Stop.Tag = 4;
                     //}
 
-                    //if (btn_A9.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_A9.Tag) == 3)
                     //{
                     //    btn_A9.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_A9.Tag = 4;
                     //}
-                    //if (btn_B9.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_B9.Tag) == 3)
                     //{
                     //    btn_B9.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_B9.Tag = 4;
                     //}
-                    //if (btn_AB9_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_AB9_Stop.Tag) == 3)
                     //{
                     //    btn_AB9_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_AB9_Stop.Tag = 4;
                     //}
 
-                    //if (btn_A10.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_A10.Tag) == 3)
                     //{
                     //    btn_A10.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_A10.Tag = 4;
                     //}
-                    //if (btn_B10.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_B10.Tag) == 3)
                     //{
                     //    btn_B10.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_B10.Tag = 4;
                     //}
-                    //if (btn_AB10_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_AB10_Stop.Tag) == 3)
                     //{
                     //    btn_AB10_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_AB10_Stop.Tag = 4;
                     //}
 
-                    //if (btn_A11.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_A11.Tag) == 3)
                     //{
                     //    btn_A11.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_A11.Tag = 4;
                     //}
                     //if (btn_B11.BackgroundImage == global::MonitorProj.Properties.Resousrces.Button3)
                     //{
                     //    btn_B11.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_B11.Tag = 4;
                     //}
-                    //if (btn_AB11_Stop.BackgroundImage == global::MonitorProj.Properties.Resources.Button3)
+                    //if ((int)(btn_AB11_Stop.Tag) == 3)
                     //{
                     //    btn_AB11_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    //    btn_AB11_Stop.Tag = 4;
                     //}
 
                     //#endregion
@@ -8131,7 +8368,9 @@ namespace MonitorProj
                 if (Global.isSerialOpenedOK_WaterCtlBox)
                 {
                     btn_WaterCtlBox_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                    btn_WaterCtlBox_SerialOpen.Tag = 3;
                     btn_WaterCtlBox_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                    btn_WaterCtlBox_SerialClose.Tag = 1;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "水面控制盒串口打开成功！";
                         sInfo += "\t\n";
@@ -8141,7 +8380,9 @@ namespace MonitorProj
                 else
                 {
                     btn_WaterCtlBox_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    btn_WaterCtlBox_SerialOpen.Tag = 4;
                     btn_WaterCtlBox_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                    btn_WaterCtlBox_SerialClose.Tag = 1;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "水面控制盒串口打开失败！";
                         sInfo += "\t\n";
@@ -8162,7 +8403,9 @@ namespace MonitorProj
                 Global.m_FormSerialWaterBoxCtl.btn_Perform_Click(Global.m_FormSerialWaterBoxCtl.btn_SerialClose, null);
 
                 btn_WaterCtlBox_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_WaterCtlBox_SerialOpen.Tag = 1;
                 btn_WaterCtlBox_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_WaterCtlBox_SerialClose.Tag = 3;
                 {
                     string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "水面控制盒串口关闭成功！";
                     sInfo += "\t\n";
@@ -8185,7 +8428,9 @@ namespace MonitorProj
                 if (Global.isSerialOpenedOK_ROVPower)
                 {
                     btn_ROVPower_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                    btn_ROVPower_SerialOpen.Tag = 3;
                     btn_ROVPower_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                    btn_ROVPower_SerialClose.Tag = 1;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "ROV供电柜串口打开成功！";
                         sInfo += "\t\n";
@@ -8195,7 +8440,9 @@ namespace MonitorProj
                 else
                 {
                     btn_ROVPower_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    btn_ROVPower_SerialOpen.Tag = 4;
                     btn_ROVPower_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                    btn_ROVPower_SerialClose.Tag = 1;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "ROV供电柜串口打开失败！";
                         sInfo += "\t\n";
@@ -8216,7 +8463,9 @@ namespace MonitorProj
                 Global.m_FormSerialRovPowerCtl.btn_Perform_Click(Global.m_FormSerialRovPowerCtl.btn_SerialClose, null);
 
                 btn_ROVPower_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_ROVPower_SerialOpen.Tag = 1;
                 btn_ROVPower_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_ROVPower_SerialClose.Tag = 3;
                 {
                     string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "ROV供电柜串口关闭成功！";
                     sInfo += "\t\n";
@@ -8239,7 +8488,9 @@ namespace MonitorProj
                 if (Global.isSerialOpenedOK_JuYuanJianCe_1)
                 {
                     btn_JuYuanJianCe_1_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                    btn_JuYuanJianCe_1_SerialOpen.Tag = 3;
                     btn_JuYuanJianCe_1_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                    btn_JuYuanJianCe_1_SerialClose.Tag = 1;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪1串口打开成功！";
                         sInfo += "\t\n";
@@ -8249,7 +8500,9 @@ namespace MonitorProj
                 else
                 {
                     btn_JuYuanJianCe_1_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    btn_JuYuanJianCe_1_SerialOpen.Tag = 4;
                     btn_JuYuanJianCe_1_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                    btn_JuYuanJianCe_1_SerialClose.Tag = 1;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪1串口打开失败！";
                         sInfo += "\t\n";
@@ -8270,7 +8523,9 @@ namespace MonitorProj
                 Global.m_FormSerialJuYuanJianCe1Ctl.btn_Perform_Click(Global.m_FormSerialJuYuanJianCe1Ctl.btn_SerialClose, null);
 
                 btn_JuYuanJianCe_1_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_JuYuanJianCe_1_SerialOpen.Tag = 1;
                 btn_JuYuanJianCe_1_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_JuYuanJianCe_1_SerialClose.Tag = 3;
                 {
                     string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪1串口关闭成功！";
                     sInfo += "\t\n";
@@ -8293,7 +8548,9 @@ namespace MonitorProj
                 if (Global.isSerialOpenedOK_JuYuanJianCe_2)
                 {
                     btn_JuYuanJianCe_2_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                    btn_JuYuanJianCe_2_SerialOpen.Tag = 3;
                     btn_JuYuanJianCe_2_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                    btn_JuYuanJianCe_2_SerialClose.Tag = 1;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪2串口打开成功！";
                         sInfo += "\t\n";
@@ -8303,7 +8560,9 @@ namespace MonitorProj
                 else
                 {
                     btn_JuYuanJianCe_2_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button4;
+                    btn_JuYuanJianCe_2_SerialOpen.Tag = 4;
                     btn_JuYuanJianCe_2_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                    btn_JuYuanJianCe_2_SerialClose.Tag = 1;
                     {
                         string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪2串口打开失败！";
                         sInfo += "\t\n";
@@ -8324,7 +8583,9 @@ namespace MonitorProj
                 Global.m_FormSerialJuYuanJianCe2Ctl.btn_Perform_Click(Global.m_FormSerialJuYuanJianCe2Ctl.btn_SerialClose, null);
 
                 btn_JuYuanJianCe_2_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_JuYuanJianCe_2_SerialOpen.Tag = 1;
                 btn_JuYuanJianCe_2_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_JuYuanJianCe_2_SerialClose.Tag = 3;
                 {
                     string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "绝缘检测仪2串口关闭成功！";
                     sInfo += "\t\n";
@@ -8350,6 +8611,7 @@ namespace MonitorProj
 
                     //停止界面浮潜
                     btn_FuQian.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                    btn_FuQian.Tag = 1;
                     flag_FuQian_Oper = false;
 
                     //停止界面自动定向
@@ -8373,6 +8635,8 @@ namespace MonitorProj
                     groupBox_TuiJinQ_Rotate.Enabled = false;
                     groupBox_TuiJinQi_PingYi.Enabled = false;
                     numericUpDown_FuQian.Enabled = false;
+                    numericUpDown_DiCiJiaJiaoSet.Enabled = false;
+                    numericUpDown_AutoHigh.Enabled = false;
 
                     isWaterBoxCtl = true;
                 }
@@ -8391,6 +8655,8 @@ namespace MonitorProj
                     groupBox_TuiJinQ_Rotate.Enabled = true;
                     groupBox_TuiJinQi_PingYi.Enabled = true;
                     numericUpDown_FuQian.Enabled = true;
+                    numericUpDown_DiCiJiaJiaoSet.Enabled = true;
+                    numericUpDown_AutoHigh.Enabled = true;
                 }
             }
             catch (Exception ex)
@@ -8427,6 +8693,7 @@ namespace MonitorProj
             try
             {
                 btn_FuQian.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_FuQian.Tag = 3;
                 flag_FuQian_Oper = true;
             }
             catch (Exception ex)
@@ -8438,6 +8705,7 @@ namespace MonitorProj
             try
             {
                 btn_FuQian.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_FuQian.Tag = 1;
                 flag_FuQian_Oper = false;
             }
             catch (Exception ex)
@@ -8811,6 +9079,7 @@ namespace MonitorProj
                 {
                     isAddParasToAutoDir = 1;
                     btn_TuiJinQin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                    btn_TuiJinQin_ZhengZhuan.Tag = 3;
                 }
             }
             catch (Exception ex)
@@ -8833,6 +9102,7 @@ namespace MonitorProj
                 {
                     isAddParasToAutoDir = 0;
                     btn_TuiJinQin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                    btn_TuiJinQin_ZhengZhuan.Tag = 1;
                 }
             }
             catch (Exception ex)
@@ -8858,6 +9128,7 @@ namespace MonitorProj
                 {
                     isAddParasToAutoDir = -1;
                     btn_TuiJinQin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                    btn_TuiJinQin_FanZhuan.Tag = 3;
                 }
             }
             catch (Exception ex)
@@ -8880,6 +9151,7 @@ namespace MonitorProj
                 {
                     isAddParasToAutoDir = 0;
                     btn_TuiJinQin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                    btn_TuiJinQin_FanZhuan.Tag = 1;
                 }
             }
             catch (Exception ex)
@@ -8912,9 +9184,13 @@ namespace MonitorProj
                             this.BeginInvoke(new Func<object>(() =>
                             {
                                 btn_DiCiJiaJiaoSet.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                btn_DiCiJiaJiaoSet.Tag = 3;
                                 btn_DiCiJiaJiaoSet_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_DiCiJiaJiaoSet_Stop.Tag = 1;
                                 btn_TuiJinQin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQin_ZhengZhuan.Tag = 1;
                                 btn_TuiJinQin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQin_FanZhuan.Tag = 1;
 
                                 //btn_TuiJinQin_ZhengZhuan.Enabled = false;
                                 //btn_TuiJinQin_FanZhuan.Enabled = false;
@@ -9062,9 +9338,13 @@ namespace MonitorProj
                                 Global.m_FormBoardI.SetDataIntoPCB();
 
                                 btn_TuiJinQin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQin_ZhengZhuan.Tag = 1;
                                 btn_TuiJinQin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQin_FanZhuan.Tag = 1;
                                 btn_DiCiJiaJiaoSet.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_DiCiJiaJiaoSet.Tag = 1;
                                 btn_DiCiJiaJiaoSet_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_DiCiJiaJiaoSet_Stop.Tag = 1;
 
                                 btn_TuiJinQin_ZhengZhuan.Enabled = true;
                                 btn_TuiJinQin_FanZhuan.Enabled = true;
@@ -9307,9 +9587,13 @@ namespace MonitorProj
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.Qian;
                 btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_TuiJinQi_HMove_QianJin.Tag = 3;
                 btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_HouTui.Tag = 1;
                 btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_ZuoYi.Tag = 1;
                 btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_YouYi.Tag = 1;
                 flag_TuiJinQi_HMove_Oper = true;
             }
             catch (Exception ex)
@@ -9322,9 +9606,13 @@ namespace MonitorProj
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.Hou;
                 btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_QianJin.Tag = 1;
                 btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_TuiJinQi_HMove_HouTui.Tag = 3;
                 btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_ZuoYi.Tag = 1;
                 btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_YouYi.Tag = 1;
                 flag_TuiJinQi_HMove_Oper = true;
 
             }
@@ -9338,9 +9626,13 @@ namespace MonitorProj
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.Zuo;
                 btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_QianJin.Tag = 1;
                 btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_HouTui.Tag = 1;
                 btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_TuiJinQi_HMove_ZuoYi.Tag = 3;
                 btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_YouYi.Tag = 1;
                 flag_TuiJinQi_HMove_Oper = true;
             }
             catch (Exception ex)
@@ -9353,9 +9645,13 @@ namespace MonitorProj
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.You;
                 btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_QianJin.Tag = 1;
                 btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_HouTui.Tag = 1;
                 btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_ZuoYi.Tag = 1;
                 btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_TuiJinQi_HMove_YouYi.Tag = 3;
                 flag_TuiJinQi_HMove_Oper = true;
             }
             catch (Exception ex)
@@ -9368,9 +9664,13 @@ namespace MonitorProj
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.Stop;
                 btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_QianJin.Tag = 1;
                 btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_HouTui.Tag = 1;
                 btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_ZuoYi.Tag = 1;
                 btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_TuiJinQi_HMove_YouYi.Tag = 1;
                 flag_TuiJinQi_HMove_Oper = false;
             }
             catch (Exception ex)
@@ -9707,11 +10007,17 @@ namespace MonitorProj
                             this.BeginInvoke(new Func<object>(() =>
                             {
                                 btn_AutoHigh_Start.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                btn_AutoHigh_Start.Tag = 3;
                                 btn_AutoHigh_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_AutoHigh_Stop.Tag = 1;
                                 btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_QianJin.Tag = 1;
                                 btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_HouTui.Tag = 1;
                                 btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_ZuoYi.Tag = 1;
                                 btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_YouYi.Tag = 1;
 
                                 groupBox_TuiJinQi_PingYi.Enabled = false;
 
@@ -9796,11 +10102,17 @@ namespace MonitorProj
                             this.BeginInvoke(new Func<object>(() =>
                             {
                                 btn_AutoHigh_Start.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_AutoHigh_Start.Tag = 1;
                                 btn_AutoHigh_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_AutoHigh_Stop.Tag = 1;
                                 btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_QianJin.Tag = 1;
                                 btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_HouTui.Tag = 1;
                                 btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_ZuoYi.Tag = 1;
                                 btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_YouYi.Tag = 1;
 
                                 groupBox_TuiJinQi_PingYi.Enabled = true;
 
