@@ -1008,6 +1008,8 @@ namespace MonitorProj
     public struct Struct_Btn_Status_EventSend
     {
         public string sName;
+        public Image backgroundImage;
+        public Object tag;
         public Color backColor;//对应一般开关按钮，颜色代表开关状态；
         public int imageIndex;//对应16功能阀箱，0-红色，代表关闭；1-绿色，代表开启；
         public string sInfo;//执行信息

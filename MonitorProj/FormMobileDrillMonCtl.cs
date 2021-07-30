@@ -164,7 +164,7 @@ namespace MonitorProj
                 if (ctl is Button)
                 {
                     Button btn = ctl as Button;
-                    btn.BackColorChanged += new EventHandler(Btn_Status_BackColor_Changed);
+                    btn.BackgroundImageChanged += new EventHandler(Btn_Status_BackgroundImage_Changed);
                 }
                 else
                 {
@@ -173,7 +173,7 @@ namespace MonitorProj
                         if (ctl1 is Button)
                         {
                             Button btn = ctl1 as Button;
-                            btn.BackColorChanged += new EventHandler(Btn_Status_BackColor_Changed);
+                            btn.BackgroundImageChanged += new EventHandler(Btn_Status_BackgroundImage_Changed);
                         }
                         else if (ctl1 is GroupBox)
                         {
@@ -182,7 +182,7 @@ namespace MonitorProj
                                 if (ctl2 is Button)
                                 {
                                     Button btn = ctl2 as Button;
-                                    btn.BackColorChanged += new EventHandler(Btn_Status_BackColor_Changed);
+                                    btn.BackgroundImageChanged += new EventHandler(Btn_Status_BackgroundImage_Changed);
                                 }
                             }
                         }
@@ -400,6 +400,27 @@ namespace MonitorProj
                 }
                 */
                 #endregion
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void Btn_Status_BackgroundImage_Changed(object sender, EventArgs e)
+        {
+            try
+            {
+                Button btn = sender as Button;
+
+                GEventArgs gEventArgs = new GEventArgs();
+                gEventArgs.dataType = 11;//button状态(BackgroundImage)变化信息
+                gEventArgs.myStruct_Btn_Status_EventSend = new Struct_Btn_Status_EventSend();
+                gEventArgs.myStruct_Btn_Status_EventSend.sName = btn.Name;
+                gEventArgs.myStruct_Btn_Status_EventSend.backgroundImage = btn.BackgroundImage;
+                gEventArgs.myStruct_Btn_Status_EventSend.tag = btn.Tag;
+                if (EventBtnStatusChanged != null)
+                {
+                    EventBtnStatusChanged(btn, gEventArgs);
+                }
             }
             catch (Exception ex)
             { }

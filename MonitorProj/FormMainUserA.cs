@@ -98,11 +98,11 @@ namespace MonitorProj
 
                 e.Graphics.DrawString(gBox.Text, gBox.Font, Brushes.Tomato, gBox.Width / 2 - vSize.Width / 2, 1);
 
-                e.Graphics.DrawLine(Pens.Lime, 1, 7, gBox.Width / 2 - vSize.Width / 2, 7);
-                e.Graphics.DrawLine(Pens.Lime, gBox.Width / 2 + vSize.Width / 2, 7, gBox.Width - 2, 7);
-                e.Graphics.DrawLine(Pens.Lime, 1, 7, 1, gBox.Height - 2);
-                e.Graphics.DrawLine(Pens.Lime, 1, gBox.Height - 2, gBox.Width - 2, gBox.Height - 2);
-                e.Graphics.DrawLine(Pens.Lime, gBox.Width - 2, 7, gBox.Width - 2, gBox.Height - 2);
+                e.Graphics.DrawLine(Pens.White, 1, 7, gBox.Width / 2 - vSize.Width / 2, 7);
+                e.Graphics.DrawLine(Pens.White, gBox.Width / 2 + vSize.Width / 2, 7, gBox.Width - 2, 7);
+                e.Graphics.DrawLine(Pens.White, 1, 7, 1, gBox.Height - 2);
+                e.Graphics.DrawLine(Pens.White, 1, gBox.Height - 2, gBox.Width - 2, gBox.Height - 2);
+                e.Graphics.DrawLine(Pens.White, gBox.Width - 2, 7, gBox.Width - 2, gBox.Height - 2);
             }
             catch (Exception ex)
             { }
@@ -124,9 +124,9 @@ namespace MonitorProj
                     myStreamReader = new StreamReader(fs);
                     /**
                      * 格式为：
-                     * 
+                     *
                         钻杆深度基准=0;
-                     * 
+                     *
                      */
 
                     string[] sperator = new string[] { "=", "=", ";", "；" };
@@ -642,6 +642,11 @@ namespace MonitorProj
                 }
                 else if (gEventArgs.dataType == 11)
                 {
+                    string sName = myStruct_Btn_Status_EventSend.sName;
+                    Control ctl = GroupBox_CtlBtns.Controls.Find(sName, true)[0];
+                    Button btn = ctl as Button;
+                    btn.BackgroundImage = myStruct_Btn_Status_EventSend.backgroundImage;
+                    btn.Tag = myStruct_Btn_Status_EventSend.tag;
                 }
                 else if (gEventArgs.dataType == 12)
                 {
@@ -2917,7 +2922,7 @@ namespace MonitorProj
                         else
                         {
                             LightWork_Station_Quire_Board_1.SetValue("ImageStateIndicator1", 1);
-                            //textBoxWorkWork_Station_Quire_Board_1.BackColor = SystemColors.Control; 
+                            //textBoxWorkWork_Station_Quire_Board_1.BackColor = SystemColors.Control;
                         }
                         if (myStruct.WorkStation_C == 1)
                         {
@@ -3207,7 +3212,7 @@ namespace MonitorProj
                     #region 罗盘
                     else if (gEventArgs.addressBoard == enum_AddressBoard.Rotate_Panel_Device)//罗盘
                     {
-                        
+
                         Struct_RotatePanelDevice myStruct = (Struct_RotatePanelDevice)gEventArgs.objParse;
                         gyroAngle1.HX = (float)Math.Round(myStruct.HX, 2);
                         gyroAngle1.HY = (float)Math.Round(myStruct.HY, 2);
@@ -3257,7 +3262,7 @@ namespace MonitorProj
                         //gaugeControl1.SetPointerValue("Pointer2", iHeadingCircle);
                         //gaugeControl2.SetPointerValue("Pointer1", myStruct.Yaw);
                         //gaugeControl2.SetPointerValue("Pointer2", iHeadingCircle);
-                        
+
                     }
                     #endregion
 
@@ -4105,7 +4110,7 @@ namespace MonitorProj
                          * 16阀箱
                          * 1A-PWM1、1B-PWM2、2A-PWM3、2B-PWM4、......8A-PWM15、8B-PWM16
                          * 9A-DOUT1、9B-DOUT2、......16A-DOUT15、16B-DOUT16
-                         * 
+                         *
                          * ?A:即(?×2 - 1)
                          * ?B:即(?×2)
                          */
@@ -11423,6 +11428,11 @@ namespace MonitorProj
             }
             catch (Exception ex)
             { }
+        }
+
+        private void groupBox_TuiJinQ_Rotate_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

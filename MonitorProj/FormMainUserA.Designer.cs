@@ -29,11 +29,16 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMainUserA));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.GroupBox_MainMon = new System.Windows.Forms.GroupBox();
             this.GroupBox_MainCtl = new System.Windows.Forms.GroupBox();
+            this.axBeauGaugeCtrl4 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.axBeauGaugeCtrl3 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.axBeauGaugeCtrl2 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.axBeauGaugeCtrl1 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.axBeauGaugeCtrl0 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
             this.button40 = new System.Windows.Forms.Button();
             this.label192 = new System.Windows.Forms.Label();
             this.label191 = new System.Windows.Forms.Label();
@@ -118,6 +123,7 @@
             this.btn_AutoHigh_Stop = new System.Windows.Forms.Button();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.groupBox41 = new System.Windows.Forms.GroupBox();
+            this.axBeauGaugeCtrl10 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
             this.label238 = new System.Windows.Forms.Label();
             this.numericUpDown_DiCiJiaJiaoSet = new System.Windows.Forms.NumericUpDown();
             this.btn_DiCiJiaJiaoSet = new System.Windows.Forms.Button();
@@ -255,6 +261,7 @@
             this.trackBar_Light_6 = new System.Windows.Forms.TrackBar();
             this.trackBar_Light_5 = new System.Windows.Forms.TrackBar();
             this.groupBox_SoftRuningInfo = new System.Windows.Forms.GroupBox();
+            this.axBeauGaugeCtrl9 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
             this.richTextBox_InfoShow = new System.Windows.Forms.RichTextBox();
             this.groupBox49 = new System.Windows.Forms.GroupBox();
             this.Light_Communication_0x61 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
@@ -816,15 +823,13 @@
             this.label309 = new System.Windows.Forms.Label();
             this.label310 = new System.Windows.Forms.Label();
             this.timer_Communication = new System.Windows.Forms.Timer(this.components);
-            this.axBeauGaugeCtrl9 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
-            this.axBeauGaugeCtrl0 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
-            this.axBeauGaugeCtrl1 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
-            this.axBeauGaugeCtrl2 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
-            this.axBeauGaugeCtrl3 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
-            this.axBeauGaugeCtrl4 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
-            this.axBeauGaugeCtrl10 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
             this.GroupBox_MainMon.SuspendLayout();
             this.GroupBox_MainCtl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl0)).BeginInit();
             this.groupBox33.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
@@ -841,6 +846,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_AutoHigh)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.groupBox41.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_DiCiJiaJiaoSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_DiCiJiaJiaoSet)).BeginInit();
             this.groupBox42.SuspendLayout();
@@ -867,6 +873,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_Light_6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_Light_5)).BeginInit();
             this.groupBox_SoftRuningInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl9)).BeginInit();
             this.groupBox49.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x61)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_FaXiang16)).BeginInit();
@@ -962,13 +969,6 @@
             this.groupBox2.SuspendLayout();
             this.groupBox23.SuspendLayout();
             this.groupBox27.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl10)).BeginInit();
             this.SuspendLayout();
             // 
             // GroupBox_MainMon
@@ -1043,11 +1043,55 @@
             this.GroupBox_MainCtl.TabIndex = 0;
             this.GroupBox_MainCtl.TabStop = false;
             // 
+            // axBeauGaugeCtrl4
+            // 
+            this.axBeauGaugeCtrl4.Enabled = true;
+            this.axBeauGaugeCtrl4.Location = new System.Drawing.Point(1195, 580);
+            this.axBeauGaugeCtrl4.Name = "axBeauGaugeCtrl4";
+            this.axBeauGaugeCtrl4.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl4.OcxState")));
+            this.axBeauGaugeCtrl4.Size = new System.Drawing.Size(80, 200);
+            this.axBeauGaugeCtrl4.TabIndex = 215;
+            // 
+            // axBeauGaugeCtrl3
+            // 
+            this.axBeauGaugeCtrl3.Enabled = true;
+            this.axBeauGaugeCtrl3.Location = new System.Drawing.Point(1105, 580);
+            this.axBeauGaugeCtrl3.Name = "axBeauGaugeCtrl3";
+            this.axBeauGaugeCtrl3.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl3.OcxState")));
+            this.axBeauGaugeCtrl3.Size = new System.Drawing.Size(80, 200);
+            this.axBeauGaugeCtrl3.TabIndex = 214;
+            // 
+            // axBeauGaugeCtrl2
+            // 
+            this.axBeauGaugeCtrl2.Enabled = true;
+            this.axBeauGaugeCtrl2.Location = new System.Drawing.Point(1010, 580);
+            this.axBeauGaugeCtrl2.Name = "axBeauGaugeCtrl2";
+            this.axBeauGaugeCtrl2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl2.OcxState")));
+            this.axBeauGaugeCtrl2.Size = new System.Drawing.Size(80, 200);
+            this.axBeauGaugeCtrl2.TabIndex = 213;
+            // 
+            // axBeauGaugeCtrl1
+            // 
+            this.axBeauGaugeCtrl1.Enabled = true;
+            this.axBeauGaugeCtrl1.Location = new System.Drawing.Point(915, 580);
+            this.axBeauGaugeCtrl1.Name = "axBeauGaugeCtrl1";
+            this.axBeauGaugeCtrl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl1.OcxState")));
+            this.axBeauGaugeCtrl1.Size = new System.Drawing.Size(80, 200);
+            this.axBeauGaugeCtrl1.TabIndex = 212;
+            // 
+            // axBeauGaugeCtrl0
+            // 
+            this.axBeauGaugeCtrl0.Enabled = true;
+            this.axBeauGaugeCtrl0.Location = new System.Drawing.Point(820, 580);
+            this.axBeauGaugeCtrl0.Name = "axBeauGaugeCtrl0";
+            this.axBeauGaugeCtrl0.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl0.OcxState")));
+            this.axBeauGaugeCtrl0.Size = new System.Drawing.Size(80, 200);
+            this.axBeauGaugeCtrl0.TabIndex = 211;
+            // 
             // button40
             // 
             this.button40.BackColor = System.Drawing.Color.Transparent;
             this.button40.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button40.Tag = 1;
             this.button40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button40.FlatAppearance.BorderSize = 0;
             this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1057,6 +1101,7 @@
             this.button40.Name = "button40";
             this.button40.Size = new System.Drawing.Size(125, 50);
             this.button40.TabIndex = 210;
+            this.button40.Tag = 1;
             this.button40.Text = "圈数清零";
             this.button40.UseVisualStyleBackColor = false;
             this.button40.Click += new System.EventHandler(this.button40_Click);
@@ -1124,7 +1169,7 @@
             this.groupBox33.Controls.Add(this.button35);
             this.groupBox33.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
             this.groupBox33.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox33.Location = new System.Drawing.Point(374, 455);
+            this.groupBox33.Location = new System.Drawing.Point(374, 388);
             this.groupBox33.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox33.Name = "groupBox33";
             this.groupBox33.Padding = new System.Windows.Forms.Padding(2);
@@ -1138,7 +1183,6 @@
             // 
             this.button30.BackColor = System.Drawing.Color.Transparent;
             this.button30.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button30.Tag = 1;
             this.button30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button30.FlatAppearance.BorderSize = 0;
             this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1148,6 +1192,7 @@
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(150, 50);
             this.button30.TabIndex = 172;
+            this.button30.Tag = 1;
             this.button30.Text = "设置";
             this.button30.UseVisualStyleBackColor = false;
             // 
@@ -1155,7 +1200,6 @@
             // 
             this.button31.BackColor = System.Drawing.Color.Transparent;
             this.button31.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button31.Tag = 1;
             this.button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button31.FlatAppearance.BorderSize = 0;
             this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1165,6 +1209,7 @@
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(150, 50);
             this.button31.TabIndex = 171;
+            this.button31.Tag = 1;
             this.button31.Text = "断开电机";
             this.button31.UseVisualStyleBackColor = false;
             // 
@@ -1232,7 +1277,6 @@
             // 
             this.button32.BackColor = System.Drawing.Color.Transparent;
             this.button32.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button32.Tag = 1;
             this.button32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button32.FlatAppearance.BorderSize = 0;
             this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1242,6 +1286,7 @@
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(150, 30);
             this.button32.TabIndex = 119;
+            this.button32.Tag = 1;
             this.button32.Text = "连接电机";
             this.button32.UseVisualStyleBackColor = false;
             // 
@@ -1269,7 +1314,6 @@
             // 
             this.button33.BackColor = System.Drawing.Color.Transparent;
             this.button33.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button33.Tag = 1;
             this.button33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button33.FlatAppearance.BorderSize = 0;
             this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1279,6 +1323,7 @@
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(75, 50);
             this.button33.TabIndex = 118;
+            this.button33.Tag = 1;
             this.button33.Text = "取样";
             this.button33.UseVisualStyleBackColor = false;
             // 
@@ -1286,7 +1331,6 @@
             // 
             this.button34.BackColor = System.Drawing.Color.Transparent;
             this.button34.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button34.Tag = 1;
             this.button34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button34.FlatAppearance.BorderSize = 0;
             this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1296,6 +1340,7 @@
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(150, 30);
             this.button34.TabIndex = 117;
+            this.button34.Tag = 1;
             this.button34.Text = "电机反转";
             this.button34.UseVisualStyleBackColor = false;
             // 
@@ -1303,7 +1348,6 @@
             // 
             this.button35.BackColor = System.Drawing.Color.Transparent;
             this.button35.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button35.Tag = 1;
             this.button35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button35.FlatAppearance.BorderSize = 0;
             this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1313,6 +1357,7 @@
             this.button35.Name = "button35";
             this.button35.Size = new System.Drawing.Size(150, 30);
             this.button35.TabIndex = 116;
+            this.button35.Tag = 1;
             this.button35.Text = "电机正转";
             this.button35.UseVisualStyleBackColor = false;
             // 
@@ -1330,11 +1375,11 @@
             this.groupBox34.Controls.Add(this.button26);
             this.groupBox34.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold);
             this.groupBox34.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox34.Location = new System.Drawing.Point(372, 304);
+            this.groupBox34.Location = new System.Drawing.Point(372, 262);
             this.groupBox34.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox34.Name = "groupBox34";
             this.groupBox34.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox34.Size = new System.Drawing.Size(440, 119);
+            this.groupBox34.Size = new System.Drawing.Size(438, 119);
             this.groupBox34.TabIndex = 205;
             this.groupBox34.TabStop = false;
             this.groupBox34.Text = "孔隙水";
@@ -1344,7 +1389,6 @@
             // 
             this.button21.BackColor = System.Drawing.Color.Transparent;
             this.button21.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button21.Tag = 1;
             this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button21.FlatAppearance.BorderSize = 0;
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1355,6 +1399,7 @@
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(75, 28);
             this.button21.TabIndex = 149;
+            this.button21.Tag = 1;
             this.button21.Text = "接口10";
             this.button21.UseVisualStyleBackColor = false;
             // 
@@ -1362,7 +1407,6 @@
             // 
             this.button22.BackColor = System.Drawing.Color.Transparent;
             this.button22.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button22.Tag = 1;
             this.button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button22.FlatAppearance.BorderSize = 0;
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1373,6 +1417,7 @@
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(75, 28);
             this.button22.TabIndex = 148;
+            this.button22.Tag = 1;
             this.button22.Text = "接口9";
             this.button22.UseVisualStyleBackColor = false;
             // 
@@ -1380,7 +1425,6 @@
             // 
             this.button23.BackColor = System.Drawing.Color.Transparent;
             this.button23.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button23.Tag = 1;
             this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button23.FlatAppearance.BorderSize = 0;
             this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1391,6 +1435,7 @@
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(75, 28);
             this.button23.TabIndex = 147;
+            this.button23.Tag = 1;
             this.button23.Text = "接口8";
             this.button23.UseVisualStyleBackColor = false;
             // 
@@ -1398,7 +1443,6 @@
             // 
             this.button24.BackColor = System.Drawing.Color.Transparent;
             this.button24.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button24.Tag = 1;
             this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button24.FlatAppearance.BorderSize = 0;
             this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1409,6 +1453,7 @@
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(75, 28);
             this.button24.TabIndex = 146;
+            this.button24.Tag = 1;
             this.button24.Text = "接口7";
             this.button24.UseVisualStyleBackColor = false;
             // 
@@ -1416,7 +1461,6 @@
             // 
             this.button25.BackColor = System.Drawing.Color.Transparent;
             this.button25.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button25.Tag = 1;
             this.button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button25.FlatAppearance.BorderSize = 0;
             this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1427,6 +1471,7 @@
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(75, 28);
             this.button25.TabIndex = 145;
+            this.button25.Tag = 1;
             this.button25.Text = "接口6";
             this.button25.UseVisualStyleBackColor = false;
             // 
@@ -1434,7 +1479,6 @@
             // 
             this.button20.BackColor = System.Drawing.Color.Transparent;
             this.button20.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button20.Tag = 1;
             this.button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button20.FlatAppearance.BorderSize = 0;
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1445,6 +1489,7 @@
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(75, 28);
             this.button20.TabIndex = 144;
+            this.button20.Tag = 1;
             this.button20.Text = "接口5";
             this.button20.UseVisualStyleBackColor = false;
             // 
@@ -1452,7 +1497,6 @@
             // 
             this.button19.BackColor = System.Drawing.Color.Transparent;
             this.button19.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button19.Tag = 1;
             this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button19.FlatAppearance.BorderSize = 0;
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1463,6 +1507,7 @@
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(75, 28);
             this.button19.TabIndex = 143;
+            this.button19.Tag = 1;
             this.button19.Text = "接口4";
             this.button19.UseVisualStyleBackColor = false;
             // 
@@ -1470,7 +1515,6 @@
             // 
             this.button18.BackColor = System.Drawing.Color.Transparent;
             this.button18.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button18.Tag = 1;
             this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button18.FlatAppearance.BorderSize = 0;
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1481,6 +1525,7 @@
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(75, 28);
             this.button18.TabIndex = 142;
+            this.button18.Tag = 1;
             this.button18.Text = "接口3";
             this.button18.UseVisualStyleBackColor = false;
             // 
@@ -1488,7 +1533,6 @@
             // 
             this.button17.BackColor = System.Drawing.Color.Transparent;
             this.button17.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button17.Tag = 1;
             this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button17.FlatAppearance.BorderSize = 0;
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1499,6 +1543,7 @@
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(75, 28);
             this.button17.TabIndex = 141;
+            this.button17.Tag = 1;
             this.button17.Text = "接口2";
             this.button17.UseVisualStyleBackColor = false;
             // 
@@ -1506,7 +1551,6 @@
             // 
             this.button26.BackColor = System.Drawing.Color.Transparent;
             this.button26.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button26.Tag = 1;
             this.button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button26.FlatAppearance.BorderSize = 0;
             this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1517,6 +1561,7 @@
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(75, 28);
             this.button26.TabIndex = 140;
+            this.button26.Tag = 1;
             this.button26.Text = "接口1";
             this.button26.UseVisualStyleBackColor = false;
             // 
@@ -1539,7 +1584,7 @@
             this.GroupBox_FaXiang_Space.Controls.Add(this.btn24v_1);
             this.GroupBox_FaXiang_Space.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold);
             this.GroupBox_FaXiang_Space.ForeColor = System.Drawing.SystemColors.Control;
-            this.GroupBox_FaXiang_Space.Location = new System.Drawing.Point(362, 699);
+            this.GroupBox_FaXiang_Space.Location = new System.Drawing.Point(365, 639);
             this.GroupBox_FaXiang_Space.Margin = new System.Windows.Forms.Padding(2);
             this.GroupBox_FaXiang_Space.Name = "GroupBox_FaXiang_Space";
             this.GroupBox_FaXiang_Space.Padding = new System.Windows.Forms.Padding(2);
@@ -1553,7 +1598,6 @@
             // 
             this.button3.BackColor = System.Drawing.Color.Transparent;
             this.button3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button3.Tag = 1;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1564,6 +1608,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(80, 28);
             this.button3.TabIndex = 154;
+            this.button3.Tag = 1;
             this.button3.Text = "11B";
             this.button3.UseVisualStyleBackColor = false;
             // 
@@ -1571,7 +1616,6 @@
             // 
             this.button4.BackColor = System.Drawing.Color.Transparent;
             this.button4.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button4.Tag = 1;
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1582,6 +1626,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(80, 28);
             this.button4.TabIndex = 153;
+            this.button4.Tag = 1;
             this.button4.Text = "11A";
             this.button4.UseVisualStyleBackColor = false;
             // 
@@ -1589,7 +1634,6 @@
             // 
             this.button27.BackColor = System.Drawing.Color.Transparent;
             this.button27.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button27.Tag = 1;
             this.button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button27.FlatAppearance.BorderSize = 0;
             this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1600,6 +1644,7 @@
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(80, 28);
             this.button27.TabIndex = 152;
+            this.button27.Tag = 1;
             this.button27.Text = "9AB停";
             this.button27.UseVisualStyleBackColor = false;
             // 
@@ -1607,7 +1652,6 @@
             // 
             this.button28.BackColor = System.Drawing.Color.Transparent;
             this.button28.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button28.Tag = 1;
             this.button28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button28.FlatAppearance.BorderSize = 0;
             this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1618,6 +1662,7 @@
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(80, 28);
             this.button28.TabIndex = 151;
+            this.button28.Tag = 1;
             this.button28.Text = "9B";
             this.button28.UseVisualStyleBackColor = false;
             // 
@@ -1625,7 +1670,6 @@
             // 
             this.button29.BackColor = System.Drawing.Color.Transparent;
             this.button29.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button29.Tag = 1;
             this.button29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button29.FlatAppearance.BorderSize = 0;
             this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1636,6 +1680,7 @@
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(80, 28);
             this.button29.TabIndex = 150;
+            this.button29.Tag = 1;
             this.button29.Text = "9A";
             this.button29.UseVisualStyleBackColor = false;
             // 
@@ -1643,7 +1688,6 @@
             // 
             this.btn24v_10.BackColor = System.Drawing.Color.Transparent;
             this.btn24v_10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn24v_10.Tag = 1;
             this.btn24v_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_10.FlatAppearance.BorderSize = 0;
             this.btn24v_10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1654,6 +1698,7 @@
             this.btn24v_10.Name = "btn24v_10";
             this.btn24v_10.Size = new System.Drawing.Size(80, 28);
             this.btn24v_10.TabIndex = 149;
+            this.btn24v_10.Tag = 1;
             this.btn24v_10.Text = "11AB停";
             this.btn24v_10.UseVisualStyleBackColor = false;
             // 
@@ -1661,7 +1706,6 @@
             // 
             this.btn24v_9.BackColor = System.Drawing.Color.Transparent;
             this.btn24v_9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn24v_9.Tag = 1;
             this.btn24v_9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_9.FlatAppearance.BorderSize = 0;
             this.btn24v_9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1672,6 +1716,7 @@
             this.btn24v_9.Name = "btn24v_9";
             this.btn24v_9.Size = new System.Drawing.Size(80, 28);
             this.btn24v_9.TabIndex = 148;
+            this.btn24v_9.Tag = 1;
             this.btn24v_9.Text = "10AB停";
             this.btn24v_9.UseVisualStyleBackColor = false;
             // 
@@ -1679,7 +1724,6 @@
             // 
             this.btn24v_8.BackColor = System.Drawing.Color.Transparent;
             this.btn24v_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn24v_8.Tag = 1;
             this.btn24v_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_8.FlatAppearance.BorderSize = 0;
             this.btn24v_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1690,6 +1734,7 @@
             this.btn24v_8.Name = "btn24v_8";
             this.btn24v_8.Size = new System.Drawing.Size(80, 28);
             this.btn24v_8.TabIndex = 147;
+            this.btn24v_8.Tag = 1;
             this.btn24v_8.Text = "8AB停";
             this.btn24v_8.UseVisualStyleBackColor = false;
             // 
@@ -1697,7 +1742,6 @@
             // 
             this.btn24v_7.BackColor = System.Drawing.Color.Transparent;
             this.btn24v_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn24v_7.Tag = 1;
             this.btn24v_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_7.FlatAppearance.BorderSize = 0;
             this.btn24v_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1708,6 +1752,7 @@
             this.btn24v_7.Name = "btn24v_7";
             this.btn24v_7.Size = new System.Drawing.Size(80, 28);
             this.btn24v_7.TabIndex = 146;
+            this.btn24v_7.Tag = 1;
             this.btn24v_7.Text = "8B";
             this.btn24v_7.UseVisualStyleBackColor = false;
             // 
@@ -1715,7 +1760,6 @@
             // 
             this.btn24v_6.BackColor = System.Drawing.Color.Transparent;
             this.btn24v_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn24v_6.Tag = 1;
             this.btn24v_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_6.FlatAppearance.BorderSize = 0;
             this.btn24v_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1726,6 +1770,7 @@
             this.btn24v_6.Name = "btn24v_6";
             this.btn24v_6.Size = new System.Drawing.Size(80, 28);
             this.btn24v_6.TabIndex = 145;
+            this.btn24v_6.Tag = 1;
             this.btn24v_6.Text = "8A";
             this.btn24v_6.UseVisualStyleBackColor = false;
             // 
@@ -1733,7 +1778,6 @@
             // 
             this.btn24v_5.BackColor = System.Drawing.Color.Transparent;
             this.btn24v_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn24v_5.Tag = 1;
             this.btn24v_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_5.FlatAppearance.BorderSize = 0;
             this.btn24v_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1744,6 +1788,7 @@
             this.btn24v_5.Name = "btn24v_5";
             this.btn24v_5.Size = new System.Drawing.Size(80, 28);
             this.btn24v_5.TabIndex = 144;
+            this.btn24v_5.Tag = 1;
             this.btn24v_5.Text = "10B";
             this.btn24v_5.UseVisualStyleBackColor = false;
             // 
@@ -1751,7 +1796,6 @@
             // 
             this.btn24v_4.BackColor = System.Drawing.Color.Transparent;
             this.btn24v_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn24v_4.Tag = 1;
             this.btn24v_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_4.FlatAppearance.BorderSize = 0;
             this.btn24v_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1762,6 +1806,7 @@
             this.btn24v_4.Name = "btn24v_4";
             this.btn24v_4.Size = new System.Drawing.Size(80, 28);
             this.btn24v_4.TabIndex = 143;
+            this.btn24v_4.Tag = 1;
             this.btn24v_4.Text = "10A";
             this.btn24v_4.UseVisualStyleBackColor = false;
             // 
@@ -1769,7 +1814,6 @@
             // 
             this.btn24v_3.BackColor = System.Drawing.Color.Transparent;
             this.btn24v_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn24v_3.Tag = 1;
             this.btn24v_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_3.FlatAppearance.BorderSize = 0;
             this.btn24v_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1780,6 +1824,7 @@
             this.btn24v_3.Name = "btn24v_3";
             this.btn24v_3.Size = new System.Drawing.Size(80, 28);
             this.btn24v_3.TabIndex = 142;
+            this.btn24v_3.Tag = 1;
             this.btn24v_3.Text = "7AB停";
             this.btn24v_3.UseVisualStyleBackColor = false;
             // 
@@ -1787,7 +1832,6 @@
             // 
             this.btn24v_2.BackColor = System.Drawing.Color.Transparent;
             this.btn24v_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn24v_2.Tag = 1;
             this.btn24v_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_2.FlatAppearance.BorderSize = 0;
             this.btn24v_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1798,6 +1842,7 @@
             this.btn24v_2.Name = "btn24v_2";
             this.btn24v_2.Size = new System.Drawing.Size(80, 28);
             this.btn24v_2.TabIndex = 141;
+            this.btn24v_2.Tag = 1;
             this.btn24v_2.Text = "7B";
             this.btn24v_2.UseVisualStyleBackColor = false;
             // 
@@ -1805,7 +1850,6 @@
             // 
             this.btn24v_1.BackColor = System.Drawing.Color.Transparent;
             this.btn24v_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn24v_1.Tag = 1;
             this.btn24v_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24v_1.FlatAppearance.BorderSize = 0;
             this.btn24v_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1816,6 +1860,7 @@
             this.btn24v_1.Name = "btn24v_1";
             this.btn24v_1.Size = new System.Drawing.Size(80, 28);
             this.btn24v_1.TabIndex = 140;
+            this.btn24v_1.Tag = 1;
             this.btn24v_1.Text = "7A";
             this.btn24v_1.UseVisualStyleBackColor = false;
             // 
@@ -1848,7 +1893,7 @@
             this.groupBox31.Controls.Add(this.btn_DianJiA_ZhengZhuan);
             this.groupBox31.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
             this.groupBox31.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox31.Location = new System.Drawing.Point(372, 33);
+            this.groupBox31.Location = new System.Drawing.Point(372, 18);
             this.groupBox31.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox31.Name = "groupBox31";
             this.groupBox31.Padding = new System.Windows.Forms.Padding(2);
@@ -1862,7 +1907,6 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button2.Tag = 1;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1872,6 +1916,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(150, 50);
             this.button2.TabIndex = 172;
+            this.button2.Tag = 1;
             this.button2.Text = "设置";
             this.button2.UseVisualStyleBackColor = false;
             // 
@@ -1879,7 +1924,6 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button1.Tag = 1;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1889,6 +1933,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 50);
             this.button1.TabIndex = 171;
+            this.button1.Tag = 1;
             this.button1.Text = "断开电机";
             this.button1.UseVisualStyleBackColor = false;
             // 
@@ -1956,7 +2001,6 @@
             // 
             this.btn_DianJiA_kaiGuang.BackColor = System.Drawing.Color.Transparent;
             this.btn_DianJiA_kaiGuang.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_DianJiA_kaiGuang.Tag = 1;
             this.btn_DianJiA_kaiGuang.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DianJiA_kaiGuang.FlatAppearance.BorderSize = 0;
             this.btn_DianJiA_kaiGuang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1966,6 +2010,7 @@
             this.btn_DianJiA_kaiGuang.Name = "btn_DianJiA_kaiGuang";
             this.btn_DianJiA_kaiGuang.Size = new System.Drawing.Size(150, 30);
             this.btn_DianJiA_kaiGuang.TabIndex = 119;
+            this.btn_DianJiA_kaiGuang.Tag = 1;
             this.btn_DianJiA_kaiGuang.Text = "连接电机";
             this.btn_DianJiA_kaiGuang.UseVisualStyleBackColor = false;
             // 
@@ -1993,7 +2038,6 @@
             // 
             this.btn_DianJiA_Space.BackColor = System.Drawing.Color.Transparent;
             this.btn_DianJiA_Space.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_DianJiA_Space.Tag = 1;
             this.btn_DianJiA_Space.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DianJiA_Space.FlatAppearance.BorderSize = 0;
             this.btn_DianJiA_Space.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2003,6 +2047,7 @@
             this.btn_DianJiA_Space.Name = "btn_DianJiA_Space";
             this.btn_DianJiA_Space.Size = new System.Drawing.Size(75, 50);
             this.btn_DianJiA_Space.TabIndex = 118;
+            this.btn_DianJiA_Space.Tag = 1;
             this.btn_DianJiA_Space.Text = "采集";
             this.btn_DianJiA_Space.UseVisualStyleBackColor = false;
             // 
@@ -2010,7 +2055,6 @@
             // 
             this.btn_DianJiA_FanZhuan.BackColor = System.Drawing.Color.Transparent;
             this.btn_DianJiA_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_DianJiA_FanZhuan.Tag = 1;
             this.btn_DianJiA_FanZhuan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DianJiA_FanZhuan.FlatAppearance.BorderSize = 0;
             this.btn_DianJiA_FanZhuan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2020,6 +2064,7 @@
             this.btn_DianJiA_FanZhuan.Name = "btn_DianJiA_FanZhuan";
             this.btn_DianJiA_FanZhuan.Size = new System.Drawing.Size(150, 30);
             this.btn_DianJiA_FanZhuan.TabIndex = 117;
+            this.btn_DianJiA_FanZhuan.Tag = 1;
             this.btn_DianJiA_FanZhuan.Text = "电机反转";
             this.btn_DianJiA_FanZhuan.UseVisualStyleBackColor = false;
             // 
@@ -2027,7 +2072,6 @@
             // 
             this.btn_DianJiA_ZhengZhuan.BackColor = System.Drawing.Color.Transparent;
             this.btn_DianJiA_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_DianJiA_ZhengZhuan.Tag = 1;
             this.btn_DianJiA_ZhengZhuan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DianJiA_ZhengZhuan.FlatAppearance.BorderSize = 0;
             this.btn_DianJiA_ZhengZhuan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2037,6 +2081,7 @@
             this.btn_DianJiA_ZhengZhuan.Name = "btn_DianJiA_ZhengZhuan";
             this.btn_DianJiA_ZhengZhuan.Size = new System.Drawing.Size(150, 30);
             this.btn_DianJiA_ZhengZhuan.TabIndex = 116;
+            this.btn_DianJiA_ZhengZhuan.Tag = 1;
             this.btn_DianJiA_ZhengZhuan.Text = "电机正转";
             this.btn_DianJiA_ZhengZhuan.UseVisualStyleBackColor = false;
             // 
@@ -2100,7 +2145,7 @@
             this.groupBox45.Controls.Add(this.label288);
             this.groupBox45.Font = new System.Drawing.Font("SimSun", 13F, System.Drawing.FontStyle.Bold);
             this.groupBox45.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox45.Location = new System.Drawing.Point(1750, 802);
+            this.groupBox45.Location = new System.Drawing.Point(1745, 800);
             this.groupBox45.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox45.Name = "groupBox45";
             this.groupBox45.Padding = new System.Windows.Forms.Padding(2);
@@ -2114,7 +2159,6 @@
             // 
             this.btn_JuYuanJianCe_2_SerialClose.BackColor = System.Drawing.Color.Transparent;
             this.btn_JuYuanJianCe_2_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_JuYuanJianCe_2_SerialClose.Tag = 1;
             this.btn_JuYuanJianCe_2_SerialClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_JuYuanJianCe_2_SerialClose.FlatAppearance.BorderSize = 0;
             this.btn_JuYuanJianCe_2_SerialClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2125,6 +2169,7 @@
             this.btn_JuYuanJianCe_2_SerialClose.Name = "btn_JuYuanJianCe_2_SerialClose";
             this.btn_JuYuanJianCe_2_SerialClose.Size = new System.Drawing.Size(64, 40);
             this.btn_JuYuanJianCe_2_SerialClose.TabIndex = 34;
+            this.btn_JuYuanJianCe_2_SerialClose.Tag = 1;
             this.btn_JuYuanJianCe_2_SerialClose.Text = "关闭";
             this.btn_JuYuanJianCe_2_SerialClose.UseVisualStyleBackColor = false;
             this.btn_JuYuanJianCe_2_SerialClose.Click += new System.EventHandler(this.btn_JuYuanJianCe_2_SerialClose_Click);
@@ -2133,7 +2178,6 @@
             // 
             this.btn_JuYuanJianCe_2_SerialOpen.BackColor = System.Drawing.Color.Transparent;
             this.btn_JuYuanJianCe_2_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_JuYuanJianCe_2_SerialOpen.Tag = 1;
             this.btn_JuYuanJianCe_2_SerialOpen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_JuYuanJianCe_2_SerialOpen.FlatAppearance.BorderSize = 0;
             this.btn_JuYuanJianCe_2_SerialOpen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2144,6 +2188,7 @@
             this.btn_JuYuanJianCe_2_SerialOpen.Name = "btn_JuYuanJianCe_2_SerialOpen";
             this.btn_JuYuanJianCe_2_SerialOpen.Size = new System.Drawing.Size(64, 40);
             this.btn_JuYuanJianCe_2_SerialOpen.TabIndex = 33;
+            this.btn_JuYuanJianCe_2_SerialOpen.Tag = 1;
             this.btn_JuYuanJianCe_2_SerialOpen.Text = "打开";
             this.btn_JuYuanJianCe_2_SerialOpen.UseVisualStyleBackColor = false;
             this.btn_JuYuanJianCe_2_SerialOpen.Click += new System.EventHandler(this.btn_JuYuanJianCe_2_SerialOpen_Click);
@@ -2179,7 +2224,7 @@
             this.groupBox_JuYuanJianCe_1_BoardD_Ctl.Controls.Add(this.label290);
             this.groupBox_JuYuanJianCe_1_BoardD_Ctl.Font = new System.Drawing.Font("SimSun", 13F, System.Drawing.FontStyle.Bold);
             this.groupBox_JuYuanJianCe_1_BoardD_Ctl.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox_JuYuanJianCe_1_BoardD_Ctl.Location = new System.Drawing.Point(1597, 802);
+            this.groupBox_JuYuanJianCe_1_BoardD_Ctl.Location = new System.Drawing.Point(1590, 800);
             this.groupBox_JuYuanJianCe_1_BoardD_Ctl.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox_JuYuanJianCe_1_BoardD_Ctl.Name = "groupBox_JuYuanJianCe_1_BoardD_Ctl";
             this.groupBox_JuYuanJianCe_1_BoardD_Ctl.Padding = new System.Windows.Forms.Padding(2);
@@ -2193,7 +2238,6 @@
             // 
             this.btn_JuYuanJianCe_1_SerialClose.BackColor = System.Drawing.Color.Transparent;
             this.btn_JuYuanJianCe_1_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_JuYuanJianCe_1_SerialClose.Tag = 1;
             this.btn_JuYuanJianCe_1_SerialClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_JuYuanJianCe_1_SerialClose.FlatAppearance.BorderSize = 0;
             this.btn_JuYuanJianCe_1_SerialClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2204,6 +2248,7 @@
             this.btn_JuYuanJianCe_1_SerialClose.Name = "btn_JuYuanJianCe_1_SerialClose";
             this.btn_JuYuanJianCe_1_SerialClose.Size = new System.Drawing.Size(64, 40);
             this.btn_JuYuanJianCe_1_SerialClose.TabIndex = 34;
+            this.btn_JuYuanJianCe_1_SerialClose.Tag = 1;
             this.btn_JuYuanJianCe_1_SerialClose.Text = "关闭";
             this.btn_JuYuanJianCe_1_SerialClose.UseVisualStyleBackColor = false;
             this.btn_JuYuanJianCe_1_SerialClose.Click += new System.EventHandler(this.btn_JuYuanJianCe_1_SerialClose_Click);
@@ -2212,7 +2257,6 @@
             // 
             this.btn_JuYuanJianCe_1_SerialOpen.BackColor = System.Drawing.Color.Transparent;
             this.btn_JuYuanJianCe_1_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_JuYuanJianCe_1_SerialOpen.Tag = 1;
             this.btn_JuYuanJianCe_1_SerialOpen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_JuYuanJianCe_1_SerialOpen.FlatAppearance.BorderSize = 0;
             this.btn_JuYuanJianCe_1_SerialOpen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2223,6 +2267,7 @@
             this.btn_JuYuanJianCe_1_SerialOpen.Name = "btn_JuYuanJianCe_1_SerialOpen";
             this.btn_JuYuanJianCe_1_SerialOpen.Size = new System.Drawing.Size(64, 40);
             this.btn_JuYuanJianCe_1_SerialOpen.TabIndex = 33;
+            this.btn_JuYuanJianCe_1_SerialOpen.Tag = 1;
             this.btn_JuYuanJianCe_1_SerialOpen.Text = "打开";
             this.btn_JuYuanJianCe_1_SerialOpen.UseVisualStyleBackColor = false;
             this.btn_JuYuanJianCe_1_SerialOpen.Click += new System.EventHandler(this.btn_JuYuanJianCe_1_SerialOpen_Click);
@@ -2329,7 +2374,6 @@
             // 
             this.btn_AutoHigh_Start.BackColor = System.Drawing.Color.Transparent;
             this.btn_AutoHigh_Start.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_AutoHigh_Start.Tag = 1;
             this.btn_AutoHigh_Start.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_AutoHigh_Start.FlatAppearance.BorderSize = 0;
             this.btn_AutoHigh_Start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2340,6 +2384,7 @@
             this.btn_AutoHigh_Start.Name = "btn_AutoHigh_Start";
             this.btn_AutoHigh_Start.Size = new System.Drawing.Size(100, 40);
             this.btn_AutoHigh_Start.TabIndex = 139;
+            this.btn_AutoHigh_Start.Tag = 1;
             this.btn_AutoHigh_Start.Text = "定高";
             this.btn_AutoHigh_Start.UseVisualStyleBackColor = false;
             this.btn_AutoHigh_Start.Click += new System.EventHandler(this.btn_AutoHigh_Start_Click);
@@ -2368,7 +2413,6 @@
             // 
             this.btn_AutoHigh_Stop.BackColor = System.Drawing.Color.Transparent;
             this.btn_AutoHigh_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_AutoHigh_Stop.Tag = 1;
             this.btn_AutoHigh_Stop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_AutoHigh_Stop.FlatAppearance.BorderSize = 0;
             this.btn_AutoHigh_Stop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2379,6 +2423,7 @@
             this.btn_AutoHigh_Stop.Name = "btn_AutoHigh_Stop";
             this.btn_AutoHigh_Stop.Size = new System.Drawing.Size(100, 40);
             this.btn_AutoHigh_Stop.TabIndex = 157;
+            this.btn_AutoHigh_Stop.Tag = 1;
             this.btn_AutoHigh_Stop.Text = "停止";
             this.btn_AutoHigh_Stop.UseVisualStyleBackColor = false;
             this.btn_AutoHigh_Stop.Click += new System.EventHandler(this.btn_AutoHigh_Stop_Click);
@@ -2410,6 +2455,15 @@
             this.groupBox41.TabStop = false;
             this.groupBox41.Text = "自动定向";
             this.groupBox41.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint);
+            // 
+            // axBeauGaugeCtrl10
+            // 
+            this.axBeauGaugeCtrl10.Enabled = true;
+            this.axBeauGaugeCtrl10.Location = new System.Drawing.Point(302, 12);
+            this.axBeauGaugeCtrl10.Name = "axBeauGaugeCtrl10";
+            this.axBeauGaugeCtrl10.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl10.OcxState")));
+            this.axBeauGaugeCtrl10.Size = new System.Drawing.Size(115, 115);
+            this.axBeauGaugeCtrl10.TabIndex = 166;
             // 
             // label238
             // 
@@ -2446,7 +2500,6 @@
             // 
             this.btn_DiCiJiaJiaoSet.BackColor = System.Drawing.Color.Transparent;
             this.btn_DiCiJiaJiaoSet.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_DiCiJiaJiaoSet.Tag = 1;
             this.btn_DiCiJiaJiaoSet.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DiCiJiaJiaoSet.FlatAppearance.BorderSize = 0;
             this.btn_DiCiJiaJiaoSet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2457,6 +2510,7 @@
             this.btn_DiCiJiaJiaoSet.Name = "btn_DiCiJiaJiaoSet";
             this.btn_DiCiJiaJiaoSet.Size = new System.Drawing.Size(120, 50);
             this.btn_DiCiJiaJiaoSet.TabIndex = 139;
+            this.btn_DiCiJiaJiaoSet.Tag = 1;
             this.btn_DiCiJiaJiaoSet.Text = "自动定向";
             this.btn_DiCiJiaJiaoSet.UseVisualStyleBackColor = false;
             this.btn_DiCiJiaJiaoSet.Click += new System.EventHandler(this.btn_DiCiJiaJiaoSet_Click);
@@ -2485,7 +2539,6 @@
             // 
             this.btn_DiCiJiaJiaoSet_Stop.BackColor = System.Drawing.Color.Transparent;
             this.btn_DiCiJiaJiaoSet_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_DiCiJiaJiaoSet_Stop.Tag = 1;
             this.btn_DiCiJiaJiaoSet_Stop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DiCiJiaJiaoSet_Stop.FlatAppearance.BorderSize = 0;
             this.btn_DiCiJiaJiaoSet_Stop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2496,6 +2549,7 @@
             this.btn_DiCiJiaJiaoSet_Stop.Name = "btn_DiCiJiaJiaoSet_Stop";
             this.btn_DiCiJiaJiaoSet_Stop.Size = new System.Drawing.Size(120, 50);
             this.btn_DiCiJiaJiaoSet_Stop.TabIndex = 157;
+            this.btn_DiCiJiaJiaoSet_Stop.Tag = 1;
             this.btn_DiCiJiaJiaoSet_Stop.Text = "停止";
             this.btn_DiCiJiaJiaoSet_Stop.UseVisualStyleBackColor = false;
             this.btn_DiCiJiaJiaoSet_Stop.Click += new System.EventHandler(this.btn_DiCiJiaJiaoSet_Stop_Click);
@@ -2553,7 +2607,6 @@
             // 
             this.btn_FuQian_QuCanShu.BackColor = System.Drawing.Color.Transparent;
             this.btn_FuQian_QuCanShu.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_FuQian_QuCanShu.Tag = 1;
             this.btn_FuQian_QuCanShu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_FuQian_QuCanShu.FlatAppearance.BorderSize = 0;
             this.btn_FuQian_QuCanShu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2564,6 +2617,7 @@
             this.btn_FuQian_QuCanShu.Name = "btn_FuQian_QuCanShu";
             this.btn_FuQian_QuCanShu.Size = new System.Drawing.Size(120, 50);
             this.btn_FuQian_QuCanShu.TabIndex = 176;
+            this.btn_FuQian_QuCanShu.Tag = 1;
             this.btn_FuQian_QuCanShu.Text = "取参数";
             this.btn_FuQian_QuCanShu.UseVisualStyleBackColor = false;
             this.btn_FuQian_QuCanShu.Click += new System.EventHandler(this.btn_FuQian_QuCanShu_Click);
@@ -2572,7 +2626,6 @@
             // 
             this.btn_FuQian.BackColor = System.Drawing.Color.Transparent;
             this.btn_FuQian.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_FuQian.Tag = 1;
             this.btn_FuQian.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_FuQian.FlatAppearance.BorderSize = 0;
             this.btn_FuQian.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2583,6 +2636,7 @@
             this.btn_FuQian.Name = "btn_FuQian";
             this.btn_FuQian.Size = new System.Drawing.Size(120, 40);
             this.btn_FuQian.TabIndex = 130;
+            this.btn_FuQian.Tag = 1;
             this.btn_FuQian.Text = "浮潜";
             this.btn_FuQian.UseVisualStyleBackColor = false;
             this.btn_FuQian.Click += new System.EventHandler(this.btn_FuQian_Click);
@@ -2601,7 +2655,6 @@
             // 
             this.btn_ShangFu_XiaQIan_Stop.BackColor = System.Drawing.Color.Transparent;
             this.btn_ShangFu_XiaQIan_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_ShangFu_XiaQIan_Stop.Tag = 1;
             this.btn_ShangFu_XiaQIan_Stop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_ShangFu_XiaQIan_Stop.FlatAppearance.BorderSize = 0;
             this.btn_ShangFu_XiaQIan_Stop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2612,6 +2665,7 @@
             this.btn_ShangFu_XiaQIan_Stop.Name = "btn_ShangFu_XiaQIan_Stop";
             this.btn_ShangFu_XiaQIan_Stop.Size = new System.Drawing.Size(120, 40);
             this.btn_ShangFu_XiaQIan_Stop.TabIndex = 136;
+            this.btn_ShangFu_XiaQIan_Stop.Tag = 1;
             this.btn_ShangFu_XiaQIan_Stop.Text = "停止浮潜";
             this.btn_ShangFu_XiaQIan_Stop.UseVisualStyleBackColor = false;
             this.btn_ShangFu_XiaQIan_Stop.Click += new System.EventHandler(this.btn_ShangFu_XiaQIan_Stop_Click);
@@ -2738,7 +2792,6 @@
             // 
             this.btn_TuiJinQin_FanZhuan.BackColor = System.Drawing.Color.Transparent;
             this.btn_TuiJinQin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_TuiJinQin_FanZhuan.Tag = 1;
             this.btn_TuiJinQin_FanZhuan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_TuiJinQin_FanZhuan.FlatAppearance.BorderSize = 0;
             this.btn_TuiJinQin_FanZhuan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2749,6 +2802,7 @@
             this.btn_TuiJinQin_FanZhuan.Name = "btn_TuiJinQin_FanZhuan";
             this.btn_TuiJinQin_FanZhuan.Size = new System.Drawing.Size(90, 45);
             this.btn_TuiJinQin_FanZhuan.TabIndex = 191;
+            this.btn_TuiJinQin_FanZhuan.Tag = 1;
             this.btn_TuiJinQin_FanZhuan.Text = "反转";
             this.btn_TuiJinQin_FanZhuan.UseVisualStyleBackColor = false;
             this.btn_TuiJinQin_FanZhuan.Click += new System.EventHandler(this.btn_TuiJinQin_FanZhuan_Click);
@@ -2759,7 +2813,6 @@
             // 
             this.btn_TuiJinQin_ZhengZhuan.BackColor = System.Drawing.Color.Transparent;
             this.btn_TuiJinQin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_TuiJinQin_ZhengZhuan.Tag = 1;
             this.btn_TuiJinQin_ZhengZhuan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_TuiJinQin_ZhengZhuan.FlatAppearance.BorderSize = 0;
             this.btn_TuiJinQin_ZhengZhuan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2770,6 +2823,7 @@
             this.btn_TuiJinQin_ZhengZhuan.Name = "btn_TuiJinQin_ZhengZhuan";
             this.btn_TuiJinQin_ZhengZhuan.Size = new System.Drawing.Size(90, 45);
             this.btn_TuiJinQin_ZhengZhuan.TabIndex = 190;
+            this.btn_TuiJinQin_ZhengZhuan.Tag = 1;
             this.btn_TuiJinQin_ZhengZhuan.Text = "正转";
             this.btn_TuiJinQin_ZhengZhuan.UseVisualStyleBackColor = false;
             this.btn_TuiJinQin_ZhengZhuan.Click += new System.EventHandler(this.btn_TuiJinQin_ZhengZhuan_Click);
@@ -2798,7 +2852,6 @@
             // 
             this.btn_TuiJinQi_HMove_QianJin.BackColor = System.Drawing.Color.Transparent;
             this.btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_TuiJinQi_HMove_QianJin.Tag = 1;
             this.btn_TuiJinQi_HMove_QianJin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_TuiJinQi_HMove_QianJin.FlatAppearance.BorderSize = 0;
             this.btn_TuiJinQi_HMove_QianJin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2809,6 +2862,7 @@
             this.btn_TuiJinQi_HMove_QianJin.Name = "btn_TuiJinQi_HMove_QianJin";
             this.btn_TuiJinQi_HMove_QianJin.Size = new System.Drawing.Size(60, 35);
             this.btn_TuiJinQi_HMove_QianJin.TabIndex = 161;
+            this.btn_TuiJinQi_HMove_QianJin.Tag = 1;
             this.btn_TuiJinQi_HMove_QianJin.Text = "前";
             this.btn_TuiJinQi_HMove_QianJin.UseVisualStyleBackColor = false;
             this.btn_TuiJinQi_HMove_QianJin.Click += new System.EventHandler(this.btn_TuiJinQi_HMove_QianJin_Click);
@@ -2817,7 +2871,6 @@
             // 
             this.btn_TuiJinQi_HMove_ZuoYi.BackColor = System.Drawing.Color.Transparent;
             this.btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_TuiJinQi_HMove_ZuoYi.Tag = 1;
             this.btn_TuiJinQi_HMove_ZuoYi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_TuiJinQi_HMove_ZuoYi.FlatAppearance.BorderSize = 0;
             this.btn_TuiJinQi_HMove_ZuoYi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2828,6 +2881,7 @@
             this.btn_TuiJinQi_HMove_ZuoYi.Name = "btn_TuiJinQi_HMove_ZuoYi";
             this.btn_TuiJinQi_HMove_ZuoYi.Size = new System.Drawing.Size(60, 35);
             this.btn_TuiJinQi_HMove_ZuoYi.TabIndex = 153;
+            this.btn_TuiJinQi_HMove_ZuoYi.Tag = 1;
             this.btn_TuiJinQi_HMove_ZuoYi.Text = "左";
             this.btn_TuiJinQi_HMove_ZuoYi.UseVisualStyleBackColor = false;
             this.btn_TuiJinQi_HMove_ZuoYi.Click += new System.EventHandler(this.btn_TuiJinQi_HMove_ZuoYi_Click);
@@ -2836,7 +2890,6 @@
             // 
             this.btn_TuiJinQi_HMove_Stop.BackColor = System.Drawing.Color.Transparent;
             this.btn_TuiJinQi_HMove_Stop.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_TuiJinQi_HMove_Stop.Tag = 1;
             this.btn_TuiJinQi_HMove_Stop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_TuiJinQi_HMove_Stop.FlatAppearance.BorderSize = 0;
             this.btn_TuiJinQi_HMove_Stop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2847,6 +2900,7 @@
             this.btn_TuiJinQi_HMove_Stop.Name = "btn_TuiJinQi_HMove_Stop";
             this.btn_TuiJinQi_HMove_Stop.Size = new System.Drawing.Size(60, 35);
             this.btn_TuiJinQi_HMove_Stop.TabIndex = 175;
+            this.btn_TuiJinQi_HMove_Stop.Tag = 1;
             this.btn_TuiJinQi_HMove_Stop.Text = "停止";
             this.btn_TuiJinQi_HMove_Stop.UseVisualStyleBackColor = false;
             this.btn_TuiJinQi_HMove_Stop.Click += new System.EventHandler(this.btn_TuiJinQi_HMove_Stop_Click);
@@ -2855,7 +2909,6 @@
             // 
             this.btn_TuiJinQi_HMove_HouTui.BackColor = System.Drawing.Color.Transparent;
             this.btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_TuiJinQi_HMove_HouTui.Tag = 1;
             this.btn_TuiJinQi_HMove_HouTui.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_TuiJinQi_HMove_HouTui.FlatAppearance.BorderSize = 0;
             this.btn_TuiJinQi_HMove_HouTui.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2866,6 +2919,7 @@
             this.btn_TuiJinQi_HMove_HouTui.Name = "btn_TuiJinQi_HMove_HouTui";
             this.btn_TuiJinQi_HMove_HouTui.Size = new System.Drawing.Size(60, 35);
             this.btn_TuiJinQi_HMove_HouTui.TabIndex = 154;
+            this.btn_TuiJinQi_HMove_HouTui.Tag = 1;
             this.btn_TuiJinQi_HMove_HouTui.Text = "后";
             this.btn_TuiJinQi_HMove_HouTui.UseVisualStyleBackColor = false;
             this.btn_TuiJinQi_HMove_HouTui.Click += new System.EventHandler(this.btn_TuiJinQi_HMove_HouTui_Click);
@@ -2885,7 +2939,6 @@
             // 
             this.btn_TuiJinQi_HMove_YouYi.BackColor = System.Drawing.Color.Transparent;
             this.btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_TuiJinQi_HMove_YouYi.Tag = 1;
             this.btn_TuiJinQi_HMove_YouYi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_TuiJinQi_HMove_YouYi.FlatAppearance.BorderSize = 0;
             this.btn_TuiJinQi_HMove_YouYi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2896,6 +2949,7 @@
             this.btn_TuiJinQi_HMove_YouYi.Name = "btn_TuiJinQi_HMove_YouYi";
             this.btn_TuiJinQi_HMove_YouYi.Size = new System.Drawing.Size(60, 35);
             this.btn_TuiJinQi_HMove_YouYi.TabIndex = 162;
+            this.btn_TuiJinQi_HMove_YouYi.Tag = 1;
             this.btn_TuiJinQi_HMove_YouYi.Text = "右";
             this.btn_TuiJinQi_HMove_YouYi.UseVisualStyleBackColor = false;
             this.btn_TuiJinQi_HMove_YouYi.Click += new System.EventHandler(this.btn_TuiJinQi_HMove_YouYi_Click);
@@ -2915,7 +2969,7 @@
             // checkBox_AutoCtl
             // 
             this.checkBox_AutoCtl.AutoSize = true;
-            this.checkBox_AutoCtl.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox_AutoCtl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.checkBox_AutoCtl.ForeColor = System.Drawing.SystemColors.Control;
             this.checkBox_AutoCtl.Location = new System.Drawing.Point(256, 1);
             this.checkBox_AutoCtl.Name = "checkBox_AutoCtl";
@@ -2944,7 +2998,7 @@
             this.groupBox38.Controls.Add(this.label233);
             this.groupBox38.Font = new System.Drawing.Font("SimSun", 13F, System.Drawing.FontStyle.Bold);
             this.groupBox38.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox38.Location = new System.Drawing.Point(1444, 802);
+            this.groupBox38.Location = new System.Drawing.Point(1438, 800);
             this.groupBox38.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox38.Name = "groupBox38";
             this.groupBox38.Padding = new System.Windows.Forms.Padding(2);
@@ -2958,7 +3012,6 @@
             // 
             this.btn_ROVPower_SerialClose.BackColor = System.Drawing.Color.Transparent;
             this.btn_ROVPower_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_ROVPower_SerialClose.Tag = 1;
             this.btn_ROVPower_SerialClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_ROVPower_SerialClose.FlatAppearance.BorderSize = 0;
             this.btn_ROVPower_SerialClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2969,6 +3022,7 @@
             this.btn_ROVPower_SerialClose.Name = "btn_ROVPower_SerialClose";
             this.btn_ROVPower_SerialClose.Size = new System.Drawing.Size(64, 40);
             this.btn_ROVPower_SerialClose.TabIndex = 34;
+            this.btn_ROVPower_SerialClose.Tag = 1;
             this.btn_ROVPower_SerialClose.Text = "关闭";
             this.btn_ROVPower_SerialClose.UseVisualStyleBackColor = false;
             this.btn_ROVPower_SerialClose.Click += new System.EventHandler(this.btn_ROVPower_SerialClose_Click);
@@ -2977,7 +3031,6 @@
             // 
             this.btn_ROVPower_SerialOpen.BackColor = System.Drawing.Color.Transparent;
             this.btn_ROVPower_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_ROVPower_SerialOpen.Tag = 1;
             this.btn_ROVPower_SerialOpen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_ROVPower_SerialOpen.FlatAppearance.BorderSize = 0;
             this.btn_ROVPower_SerialOpen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -2988,6 +3041,7 @@
             this.btn_ROVPower_SerialOpen.Name = "btn_ROVPower_SerialOpen";
             this.btn_ROVPower_SerialOpen.Size = new System.Drawing.Size(64, 40);
             this.btn_ROVPower_SerialOpen.TabIndex = 33;
+            this.btn_ROVPower_SerialOpen.Tag = 1;
             this.btn_ROVPower_SerialOpen.Text = "打开";
             this.btn_ROVPower_SerialOpen.UseVisualStyleBackColor = false;
             this.btn_ROVPower_SerialOpen.Click += new System.EventHandler(this.btn_ROVPower_SerialOpen_Click);
@@ -3071,7 +3125,7 @@
             this.groupBox_WaterCtlBox_BoardD_Ctl.Controls.Add(this.label235);
             this.groupBox_WaterCtlBox_BoardD_Ctl.Font = new System.Drawing.Font("SimSun", 13F, System.Drawing.FontStyle.Bold);
             this.groupBox_WaterCtlBox_BoardD_Ctl.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox_WaterCtlBox_BoardD_Ctl.Location = new System.Drawing.Point(1291, 802);
+            this.groupBox_WaterCtlBox_BoardD_Ctl.Location = new System.Drawing.Point(1285, 800);
             this.groupBox_WaterCtlBox_BoardD_Ctl.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox_WaterCtlBox_BoardD_Ctl.Name = "groupBox_WaterCtlBox_BoardD_Ctl";
             this.groupBox_WaterCtlBox_BoardD_Ctl.Padding = new System.Windows.Forms.Padding(2);
@@ -3085,7 +3139,6 @@
             // 
             this.btn_WaterCtlBox_SerialClose.BackColor = System.Drawing.Color.Transparent;
             this.btn_WaterCtlBox_SerialClose.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_WaterCtlBox_SerialClose.Tag = 1;
             this.btn_WaterCtlBox_SerialClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_WaterCtlBox_SerialClose.FlatAppearance.BorderSize = 0;
             this.btn_WaterCtlBox_SerialClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3096,6 +3149,7 @@
             this.btn_WaterCtlBox_SerialClose.Name = "btn_WaterCtlBox_SerialClose";
             this.btn_WaterCtlBox_SerialClose.Size = new System.Drawing.Size(64, 40);
             this.btn_WaterCtlBox_SerialClose.TabIndex = 34;
+            this.btn_WaterCtlBox_SerialClose.Tag = 1;
             this.btn_WaterCtlBox_SerialClose.Text = "关闭";
             this.btn_WaterCtlBox_SerialClose.UseVisualStyleBackColor = false;
             this.btn_WaterCtlBox_SerialClose.Click += new System.EventHandler(this.btn_WaterCtlBox_SerialClose_Click);
@@ -3104,7 +3158,6 @@
             // 
             this.btn_WaterCtlBox_SerialOpen.BackColor = System.Drawing.Color.Transparent;
             this.btn_WaterCtlBox_SerialOpen.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_WaterCtlBox_SerialOpen.Tag = 1;
             this.btn_WaterCtlBox_SerialOpen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_WaterCtlBox_SerialOpen.FlatAppearance.BorderSize = 0;
             this.btn_WaterCtlBox_SerialOpen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3115,6 +3168,7 @@
             this.btn_WaterCtlBox_SerialOpen.Name = "btn_WaterCtlBox_SerialOpen";
             this.btn_WaterCtlBox_SerialOpen.Size = new System.Drawing.Size(64, 40);
             this.btn_WaterCtlBox_SerialOpen.TabIndex = 33;
+            this.btn_WaterCtlBox_SerialOpen.Tag = 1;
             this.btn_WaterCtlBox_SerialOpen.Text = "打开";
             this.btn_WaterCtlBox_SerialOpen.UseVisualStyleBackColor = false;
             this.btn_WaterCtlBox_SerialOpen.Click += new System.EventHandler(this.btn_WaterCtlBox_SerialOpen_Click);
@@ -3162,7 +3216,7 @@
             this.GroupBox_CtlBtns.Controls.Add(this.groupBox30);
             this.GroupBox_CtlBtns.Controls.Add(this.groupBox29);
             this.GroupBox_CtlBtns.Controls.Add(this.groupBox28);
-            this.GroupBox_CtlBtns.Location = new System.Drawing.Point(1286, 14);
+            this.GroupBox_CtlBtns.Location = new System.Drawing.Point(1285, 18);
             this.GroupBox_CtlBtns.Margin = new System.Windows.Forms.Padding(2);
             this.GroupBox_CtlBtns.Name = "GroupBox_CtlBtns";
             this.GroupBox_CtlBtns.Padding = new System.Windows.Forms.Padding(2);
@@ -3175,16 +3229,16 @@
             // 
             this.btn_FaBox_Space.BackColor = System.Drawing.Color.Transparent;
             this.btn_FaBox_Space.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_FaBox_Space.Tag = 1;
             this.btn_FaBox_Space.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_FaBox_Space.FlatAppearance.BorderSize = 0;
             this.btn_FaBox_Space.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_FaBox_Space.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_FaBox_Space.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_FaBox_Space.Location = new System.Drawing.Point(310, 724);
+            this.btn_FaBox_Space.Location = new System.Drawing.Point(314, 725);
             this.btn_FaBox_Space.Name = "btn_FaBox_Space";
             this.btn_FaBox_Space.Size = new System.Drawing.Size(120, 50);
             this.btn_FaBox_Space.TabIndex = 159;
+            this.btn_FaBox_Space.Tag = 1;
             this.btn_FaBox_Space.Text = "备用电源";
             this.btn_FaBox_Space.UseVisualStyleBackColor = false;
             this.btn_FaBox_Space.Click += new System.EventHandler(this.btn_FaBox_Space_Click);
@@ -3238,11 +3292,11 @@
             this.groupBox_JXS.Controls.Add(this.groupBox54);
             this.groupBox_JXS.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
             this.groupBox_JXS.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox_JXS.Location = new System.Drawing.Point(14, 25);
+            this.groupBox_JXS.Location = new System.Drawing.Point(15, 20);
             this.groupBox_JXS.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox_JXS.Name = "groupBox_JXS";
             this.groupBox_JXS.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox_JXS.Size = new System.Drawing.Size(569, 242);
+            this.groupBox_JXS.Size = new System.Drawing.Size(575, 242);
             this.groupBox_JXS.TabIndex = 158;
             this.groupBox_JXS.TabStop = false;
             this.groupBox_JXS.Text = "机械手";
@@ -3252,7 +3306,6 @@
             // 
             this.button38.BackColor = System.Drawing.Color.Transparent;
             this.button38.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button38.Tag = 1;
             this.button38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button38.FlatAppearance.BorderSize = 0;
             this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3263,6 +3316,7 @@
             this.button38.Name = "button38";
             this.button38.Size = new System.Drawing.Size(20, 20);
             this.button38.TabIndex = 204;
+            this.button38.Tag = 1;
             this.button38.Text = "+";
             this.button38.UseVisualStyleBackColor = false;
             // 
@@ -3270,7 +3324,6 @@
             // 
             this.button39.BackColor = System.Drawing.Color.Transparent;
             this.button39.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button39.Tag = 1;
             this.button39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button39.FlatAppearance.BorderSize = 0;
             this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3281,6 +3334,7 @@
             this.button39.Name = "button39";
             this.button39.Size = new System.Drawing.Size(20, 20);
             this.button39.TabIndex = 203;
+            this.button39.Tag = 1;
             this.button39.Text = "-";
             this.button39.UseVisualStyleBackColor = false;
             // 
@@ -3323,7 +3377,6 @@
             // 
             this.button36.BackColor = System.Drawing.Color.Transparent;
             this.button36.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button36.Tag = 1;
             this.button36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button36.FlatAppearance.BorderSize = 0;
             this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3334,6 +3387,7 @@
             this.button36.Name = "button36";
             this.button36.Size = new System.Drawing.Size(20, 20);
             this.button36.TabIndex = 199;
+            this.button36.Tag = 1;
             this.button36.Text = "+";
             this.button36.UseVisualStyleBackColor = false;
             // 
@@ -3341,7 +3395,6 @@
             // 
             this.button37.BackColor = System.Drawing.Color.Transparent;
             this.button37.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button37.Tag = 1;
             this.button37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button37.FlatAppearance.BorderSize = 0;
             this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3352,6 +3405,7 @@
             this.button37.Name = "button37";
             this.button37.Size = new System.Drawing.Size(20, 20);
             this.button37.TabIndex = 198;
+            this.button37.Tag = 1;
             this.button37.Text = "-";
             this.button37.UseVisualStyleBackColor = false;
             // 
@@ -3394,7 +3448,6 @@
             // 
             this.button15.BackColor = System.Drawing.Color.Transparent;
             this.button15.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button15.Tag = 1;
             this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button15.FlatAppearance.BorderSize = 0;
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3405,6 +3458,7 @@
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(20, 20);
             this.button15.TabIndex = 194;
+            this.button15.Tag = 1;
             this.button15.Text = "+";
             this.button15.UseVisualStyleBackColor = false;
             // 
@@ -3412,7 +3466,6 @@
             // 
             this.button16.BackColor = System.Drawing.Color.Transparent;
             this.button16.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button16.Tag = 1;
             this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button16.FlatAppearance.BorderSize = 0;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3423,6 +3476,7 @@
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(20, 20);
             this.button16.TabIndex = 193;
+            this.button16.Tag = 1;
             this.button16.Text = "-";
             this.button16.UseVisualStyleBackColor = false;
             // 
@@ -3430,7 +3484,6 @@
             // 
             this.button13.BackColor = System.Drawing.Color.Transparent;
             this.button13.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button13.Tag = 1;
             this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button13.FlatAppearance.BorderSize = 0;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3441,6 +3494,7 @@
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(20, 20);
             this.button13.TabIndex = 192;
+            this.button13.Tag = 1;
             this.button13.Text = "+";
             this.button13.UseVisualStyleBackColor = false;
             // 
@@ -3448,7 +3502,6 @@
             // 
             this.button14.BackColor = System.Drawing.Color.Transparent;
             this.button14.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button14.Tag = 1;
             this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button14.FlatAppearance.BorderSize = 0;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3459,6 +3512,7 @@
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(20, 20);
             this.button14.TabIndex = 191;
+            this.button14.Tag = 1;
             this.button14.Text = "-";
             this.button14.UseVisualStyleBackColor = false;
             // 
@@ -3466,7 +3520,6 @@
             // 
             this.button11.BackColor = System.Drawing.Color.Transparent;
             this.button11.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button11.Tag = 1;
             this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button11.FlatAppearance.BorderSize = 0;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3477,6 +3530,7 @@
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(21, 20);
             this.button11.TabIndex = 190;
+            this.button11.Tag = 1;
             this.button11.Text = "+";
             this.button11.UseVisualStyleBackColor = false;
             // 
@@ -3484,7 +3538,6 @@
             // 
             this.button12.BackColor = System.Drawing.Color.Transparent;
             this.button12.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button12.Tag = 1;
             this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button12.FlatAppearance.BorderSize = 0;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3495,6 +3548,7 @@
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(21, 20);
             this.button12.TabIndex = 189;
+            this.button12.Tag = 1;
             this.button12.Text = "-";
             this.button12.UseVisualStyleBackColor = false;
             // 
@@ -3502,7 +3556,6 @@
             // 
             this.button9.BackColor = System.Drawing.Color.Transparent;
             this.button9.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button9.Tag = 1;
             this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3513,6 +3566,7 @@
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(20, 20);
             this.button9.TabIndex = 188;
+            this.button9.Tag = 1;
             this.button9.Text = "+";
             this.button9.UseVisualStyleBackColor = false;
             // 
@@ -3520,7 +3574,6 @@
             // 
             this.button10.BackColor = System.Drawing.Color.Transparent;
             this.button10.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button10.Tag = 1;
             this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button10.FlatAppearance.BorderSize = 0;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3531,6 +3584,7 @@
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(20, 20);
             this.button10.TabIndex = 187;
+            this.button10.Tag = 1;
             this.button10.Text = "-";
             this.button10.UseVisualStyleBackColor = false;
             // 
@@ -3538,7 +3592,6 @@
             // 
             this.button7.BackColor = System.Drawing.Color.Transparent;
             this.button7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button7.Tag = 1;
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3549,6 +3602,7 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(20, 20);
             this.button7.TabIndex = 186;
+            this.button7.Tag = 1;
             this.button7.Text = "+";
             this.button7.UseVisualStyleBackColor = false;
             // 
@@ -3556,7 +3610,6 @@
             // 
             this.button8.BackColor = System.Drawing.Color.Transparent;
             this.button8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button8.Tag = 1;
             this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3567,6 +3620,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(20, 20);
             this.button8.TabIndex = 185;
+            this.button8.Tag = 1;
             this.button8.Text = "-";
             this.button8.UseVisualStyleBackColor = false;
             // 
@@ -3574,7 +3628,6 @@
             // 
             this.button6.BackColor = System.Drawing.Color.Transparent;
             this.button6.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button6.Tag = 1;
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3585,6 +3638,7 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(20, 20);
             this.button6.TabIndex = 184;
+            this.button6.Tag = 1;
             this.button6.Text = "+";
             this.button6.UseVisualStyleBackColor = false;
             // 
@@ -3592,7 +3646,6 @@
             // 
             this.button5.BackColor = System.Drawing.Color.Transparent;
             this.button5.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.button5.Tag = 1;
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3603,6 +3656,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(20, 20);
             this.button5.TabIndex = 176;
+            this.button5.Tag = 1;
             this.button5.Text = "-";
             this.button5.UseVisualStyleBackColor = false;
             // 
@@ -3842,7 +3896,6 @@
             // 
             this.btn_JXS_QIDONG.BackColor = System.Drawing.Color.Transparent;
             this.btn_JXS_QIDONG.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_JXS_QIDONG.Tag = 1;
             this.btn_JXS_QIDONG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_JXS_QIDONG.FlatAppearance.BorderSize = 0;
             this.btn_JXS_QIDONG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3853,6 +3906,7 @@
             this.btn_JXS_QIDONG.Name = "btn_JXS_QIDONG";
             this.btn_JXS_QIDONG.Size = new System.Drawing.Size(150, 30);
             this.btn_JXS_QIDONG.TabIndex = 163;
+            this.btn_JXS_QIDONG.Tag = 1;
             this.btn_JXS_QIDONG.Text = "启动";
             this.btn_JXS_QIDONG.UseVisualStyleBackColor = false;
             // 
@@ -3860,7 +3914,6 @@
             // 
             this.btn_JXS_CHUSHIHUA.BackColor = System.Drawing.Color.Transparent;
             this.btn_JXS_CHUSHIHUA.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_JXS_CHUSHIHUA.Tag = 1;
             this.btn_JXS_CHUSHIHUA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_JXS_CHUSHIHUA.FlatAppearance.BorderSize = 0;
             this.btn_JXS_CHUSHIHUA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3871,6 +3924,7 @@
             this.btn_JXS_CHUSHIHUA.Name = "btn_JXS_CHUSHIHUA";
             this.btn_JXS_CHUSHIHUA.Size = new System.Drawing.Size(150, 30);
             this.btn_JXS_CHUSHIHUA.TabIndex = 162;
+            this.btn_JXS_CHUSHIHUA.Tag = 1;
             this.btn_JXS_CHUSHIHUA.Text = "初始化";
             this.btn_JXS_CHUSHIHUA.UseVisualStyleBackColor = false;
             // 
@@ -3893,7 +3947,6 @@
             // 
             this.btn_JXS_ZHUAJIN.BackColor = System.Drawing.Color.Transparent;
             this.btn_JXS_ZHUAJIN.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_JXS_ZHUAJIN.Tag = 1;
             this.btn_JXS_ZHUAJIN.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_JXS_ZHUAJIN.FlatAppearance.BorderSize = 0;
             this.btn_JXS_ZHUAJIN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3904,6 +3957,7 @@
             this.btn_JXS_ZHUAJIN.Name = "btn_JXS_ZHUAJIN";
             this.btn_JXS_ZHUAJIN.Size = new System.Drawing.Size(90, 30);
             this.btn_JXS_ZHUAJIN.TabIndex = 108;
+            this.btn_JXS_ZHUAJIN.Tag = 1;
             this.btn_JXS_ZHUAJIN.Text = "抓紧";
             this.btn_JXS_ZHUAJIN.UseVisualStyleBackColor = false;
             // 
@@ -3911,7 +3965,6 @@
             // 
             this.btn_JXS_FANSONG.BackColor = System.Drawing.Color.Transparent;
             this.btn_JXS_FANSONG.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_JXS_FANSONG.Tag = 1;
             this.btn_JXS_FANSONG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_JXS_FANSONG.FlatAppearance.BorderSize = 0;
             this.btn_JXS_FANSONG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3922,6 +3975,7 @@
             this.btn_JXS_FANSONG.Name = "btn_JXS_FANSONG";
             this.btn_JXS_FANSONG.Size = new System.Drawing.Size(90, 30);
             this.btn_JXS_FANSONG.TabIndex = 124;
+            this.btn_JXS_FANSONG.Tag = 1;
             this.btn_JXS_FANSONG.Text = "放松";
             this.btn_JXS_FANSONG.UseVisualStyleBackColor = false;
             // 
@@ -3929,16 +3983,16 @@
             // 
             this.btn_FaBox_72.BackColor = System.Drawing.Color.Transparent;
             this.btn_FaBox_72.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_FaBox_72.Tag = 1;
             this.btn_FaBox_72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_FaBox_72.FlatAppearance.BorderSize = 0;
             this.btn_FaBox_72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_FaBox_72.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_FaBox_72.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_FaBox_72.Location = new System.Drawing.Point(27, 726);
+            this.btn_FaBox_72.Location = new System.Drawing.Point(33, 725);
             this.btn_FaBox_72.Name = "btn_FaBox_72";
             this.btn_FaBox_72.Size = new System.Drawing.Size(120, 50);
             this.btn_FaBox_72.TabIndex = 158;
+            this.btn_FaBox_72.Tag = 1;
             this.btn_FaBox_72.Text = "阀箱电源";
             this.btn_FaBox_72.UseVisualStyleBackColor = false;
             this.btn_FaBox_72.Click += new System.EventHandler(this.btn_FaBox_72_Click);
@@ -3955,11 +4009,11 @@
             this.groupBox30.Controls.Add(this.btn_Camera_1);
             this.groupBox30.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
             this.groupBox30.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox30.Location = new System.Drawing.Point(15, 271);
+            this.groupBox30.Location = new System.Drawing.Point(15, 265);
             this.groupBox30.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox30.Name = "groupBox30";
             this.groupBox30.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox30.Size = new System.Drawing.Size(580, 97);
+            this.groupBox30.Size = new System.Drawing.Size(575, 97);
             this.groupBox30.TabIndex = 122;
             this.groupBox30.TabStop = false;
             this.groupBox30.Text = "摄像机";
@@ -3969,7 +4023,6 @@
             // 
             this.btn_Camera_8.BackColor = System.Drawing.Color.Transparent;
             this.btn_Camera_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_Camera_8.Tag = 1;
             this.btn_Camera_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_8.FlatAppearance.BorderSize = 0;
             this.btn_Camera_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3979,6 +4032,7 @@
             this.btn_Camera_8.Name = "btn_Camera_8";
             this.btn_Camera_8.Size = new System.Drawing.Size(120, 30);
             this.btn_Camera_8.TabIndex = 124;
+            this.btn_Camera_8.Tag = 1;
             this.btn_Camera_8.Text = "摄像机8";
             this.btn_Camera_8.UseVisualStyleBackColor = false;
             this.btn_Camera_8.Click += new System.EventHandler(this.btn_Camera_8_Click);
@@ -3987,7 +4041,6 @@
             // 
             this.btn_Camera_7.BackColor = System.Drawing.Color.Transparent;
             this.btn_Camera_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_Camera_7.Tag = 1;
             this.btn_Camera_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_7.FlatAppearance.BorderSize = 0;
             this.btn_Camera_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -3997,6 +4050,7 @@
             this.btn_Camera_7.Name = "btn_Camera_7";
             this.btn_Camera_7.Size = new System.Drawing.Size(120, 30);
             this.btn_Camera_7.TabIndex = 123;
+            this.btn_Camera_7.Tag = 1;
             this.btn_Camera_7.Text = "摄像机7";
             this.btn_Camera_7.UseVisualStyleBackColor = false;
             this.btn_Camera_7.Click += new System.EventHandler(this.btn_Camera_7_Click);
@@ -4005,7 +4059,6 @@
             // 
             this.btn_Camera_6.BackColor = System.Drawing.Color.Transparent;
             this.btn_Camera_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_Camera_6.Tag = 1;
             this.btn_Camera_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_6.FlatAppearance.BorderSize = 0;
             this.btn_Camera_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4015,6 +4068,7 @@
             this.btn_Camera_6.Name = "btn_Camera_6";
             this.btn_Camera_6.Size = new System.Drawing.Size(120, 30);
             this.btn_Camera_6.TabIndex = 122;
+            this.btn_Camera_6.Tag = 1;
             this.btn_Camera_6.Text = "摄像机6";
             this.btn_Camera_6.UseVisualStyleBackColor = false;
             this.btn_Camera_6.Click += new System.EventHandler(this.btn_Camera_6_Click);
@@ -4023,7 +4077,6 @@
             // 
             this.btn_Camera_5.BackColor = System.Drawing.Color.Transparent;
             this.btn_Camera_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_Camera_5.Tag = 1;
             this.btn_Camera_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_5.FlatAppearance.BorderSize = 0;
             this.btn_Camera_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4033,6 +4086,7 @@
             this.btn_Camera_5.Name = "btn_Camera_5";
             this.btn_Camera_5.Size = new System.Drawing.Size(120, 30);
             this.btn_Camera_5.TabIndex = 121;
+            this.btn_Camera_5.Tag = 1;
             this.btn_Camera_5.Text = "摄像机5";
             this.btn_Camera_5.UseVisualStyleBackColor = false;
             this.btn_Camera_5.Click += new System.EventHandler(this.btn_Camera_5_Click);
@@ -4041,7 +4095,6 @@
             // 
             this.btn_Camera_4.BackColor = System.Drawing.Color.Transparent;
             this.btn_Camera_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_Camera_4.Tag = 1;
             this.btn_Camera_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_4.FlatAppearance.BorderSize = 0;
             this.btn_Camera_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4051,6 +4104,7 @@
             this.btn_Camera_4.Name = "btn_Camera_4";
             this.btn_Camera_4.Size = new System.Drawing.Size(120, 30);
             this.btn_Camera_4.TabIndex = 120;
+            this.btn_Camera_4.Tag = 1;
             this.btn_Camera_4.Text = "摄像机4";
             this.btn_Camera_4.UseVisualStyleBackColor = false;
             this.btn_Camera_4.Click += new System.EventHandler(this.btn_Camera_4_Click);
@@ -4059,7 +4113,6 @@
             // 
             this.btn_Camera_3.BackColor = System.Drawing.Color.Transparent;
             this.btn_Camera_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_Camera_3.Tag = 1;
             this.btn_Camera_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_3.FlatAppearance.BorderSize = 0;
             this.btn_Camera_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4069,6 +4122,7 @@
             this.btn_Camera_3.Name = "btn_Camera_3";
             this.btn_Camera_3.Size = new System.Drawing.Size(120, 30);
             this.btn_Camera_3.TabIndex = 119;
+            this.btn_Camera_3.Tag = 1;
             this.btn_Camera_3.Text = "摄像机3";
             this.btn_Camera_3.UseVisualStyleBackColor = false;
             this.btn_Camera_3.Click += new System.EventHandler(this.btn_Camera_3_Click);
@@ -4077,7 +4131,6 @@
             // 
             this.btn_Camera_2.BackColor = System.Drawing.Color.Transparent;
             this.btn_Camera_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_Camera_2.Tag = 1;
             this.btn_Camera_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_2.FlatAppearance.BorderSize = 0;
             this.btn_Camera_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4087,6 +4140,7 @@
             this.btn_Camera_2.Name = "btn_Camera_2";
             this.btn_Camera_2.Size = new System.Drawing.Size(120, 30);
             this.btn_Camera_2.TabIndex = 118;
+            this.btn_Camera_2.Tag = 1;
             this.btn_Camera_2.Text = "摄像机2";
             this.btn_Camera_2.UseVisualStyleBackColor = false;
             this.btn_Camera_2.Click += new System.EventHandler(this.btn_Camera_2_Click);
@@ -4095,7 +4149,6 @@
             // 
             this.btn_Camera_1.BackColor = System.Drawing.Color.Transparent;
             this.btn_Camera_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_Camera_1.Tag = 1;
             this.btn_Camera_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Camera_1.FlatAppearance.BorderSize = 0;
             this.btn_Camera_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4105,6 +4158,7 @@
             this.btn_Camera_1.Name = "btn_Camera_1";
             this.btn_Camera_1.Size = new System.Drawing.Size(120, 30);
             this.btn_Camera_1.TabIndex = 117;
+            this.btn_Camera_1.Tag = 1;
             this.btn_Camera_1.Text = "摄像机1";
             this.btn_Camera_1.UseVisualStyleBackColor = false;
             this.btn_Camera_1.Click += new System.EventHandler(this.btn_Camera_1_Click);
@@ -4121,11 +4175,11 @@
             this.groupBox29.Controls.Add(this.btn_DetectPanel_Rotate);
             this.groupBox29.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
             this.groupBox29.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox29.Location = new System.Drawing.Point(15, 374);
+            this.groupBox29.Location = new System.Drawing.Point(15, 368);
             this.groupBox29.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox29.Name = "groupBox29";
             this.groupBox29.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox29.Size = new System.Drawing.Size(580, 104);
+            this.groupBox29.Size = new System.Drawing.Size(575, 104);
             this.groupBox29.TabIndex = 123;
             this.groupBox29.TabStop = false;
             this.groupBox29.Text = "罗盘与高度计";
@@ -4135,7 +4189,6 @@
             // 
             this.btn_DetectPanel_Space_Bak2.BackColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_Bak2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_DetectPanel_Space_Bak2.Tag = 1;
             this.btn_DetectPanel_Space_Bak2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Space_Bak2.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Space_Bak2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4145,6 +4198,7 @@
             this.btn_DetectPanel_Space_Bak2.Name = "btn_DetectPanel_Space_Bak2";
             this.btn_DetectPanel_Space_Bak2.Size = new System.Drawing.Size(120, 30);
             this.btn_DetectPanel_Space_Bak2.TabIndex = 124;
+            this.btn_DetectPanel_Space_Bak2.Tag = 1;
             this.btn_DetectPanel_Space_Bak2.Text = "备24V#2";
             this.btn_DetectPanel_Space_Bak2.UseVisualStyleBackColor = false;
             this.btn_DetectPanel_Space_Bak2.Click += new System.EventHandler(this.btn_DetectPanel_Space_Bak2_Click);
@@ -4153,7 +4207,6 @@
             // 
             this.btn_DetectPanel_Space_Bak1.BackColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_Bak1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_DetectPanel_Space_Bak1.Tag = 1;
             this.btn_DetectPanel_Space_Bak1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Space_Bak1.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Space_Bak1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4163,6 +4216,7 @@
             this.btn_DetectPanel_Space_Bak1.Name = "btn_DetectPanel_Space_Bak1";
             this.btn_DetectPanel_Space_Bak1.Size = new System.Drawing.Size(120, 30);
             this.btn_DetectPanel_Space_Bak1.TabIndex = 123;
+            this.btn_DetectPanel_Space_Bak1.Tag = 1;
             this.btn_DetectPanel_Space_Bak1.Text = "备24V#1";
             this.btn_DetectPanel_Space_Bak1.UseVisualStyleBackColor = false;
             this.btn_DetectPanel_Space_Bak1.Click += new System.EventHandler(this.btn_DetectPanel_Space_Bak1_Click);
@@ -4171,7 +4225,6 @@
             // 
             this.btn_DetectPanel_Deep.BackColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Deep.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_DetectPanel_Deep.Tag = 1;
             this.btn_DetectPanel_Deep.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Deep.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Deep.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4181,6 +4234,7 @@
             this.btn_DetectPanel_Deep.Name = "btn_DetectPanel_Deep";
             this.btn_DetectPanel_Deep.Size = new System.Drawing.Size(120, 30);
             this.btn_DetectPanel_Deep.TabIndex = 122;
+            this.btn_DetectPanel_Deep.Tag = 1;
             this.btn_DetectPanel_Deep.Text = "模拟/工况板";
             this.btn_DetectPanel_Deep.UseVisualStyleBackColor = false;
             this.btn_DetectPanel_Deep.Click += new System.EventHandler(this.btn_DetectPanel_Deep_Click);
@@ -4189,7 +4243,6 @@
             // 
             this.btn_DetectPanel_Hight.BackColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Hight.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_DetectPanel_Hight.Tag = 1;
             this.btn_DetectPanel_Hight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Hight.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Hight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4199,6 +4252,7 @@
             this.btn_DetectPanel_Hight.Name = "btn_DetectPanel_Hight";
             this.btn_DetectPanel_Hight.Size = new System.Drawing.Size(120, 30);
             this.btn_DetectPanel_Hight.TabIndex = 121;
+            this.btn_DetectPanel_Hight.Tag = 1;
             this.btn_DetectPanel_Hight.Text = "高度计";
             this.btn_DetectPanel_Hight.UseVisualStyleBackColor = false;
             this.btn_DetectPanel_Hight.Click += new System.EventHandler(this.btn_DetectPanel_Hight_Click);
@@ -4207,7 +4261,6 @@
             // 
             this.btn_DetectPanel_Space_12V3.BackColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_12V3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_DetectPanel_Space_12V3.Tag = 1;
             this.btn_DetectPanel_Space_12V3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Space_12V3.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Space_12V3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4217,6 +4270,7 @@
             this.btn_DetectPanel_Space_12V3.Name = "btn_DetectPanel_Space_12V3";
             this.btn_DetectPanel_Space_12V3.Size = new System.Drawing.Size(120, 30);
             this.btn_DetectPanel_Space_12V3.TabIndex = 120;
+            this.btn_DetectPanel_Space_12V3.Tag = 1;
             this.btn_DetectPanel_Space_12V3.Text = "备12V#3";
             this.btn_DetectPanel_Space_12V3.UseVisualStyleBackColor = false;
             this.btn_DetectPanel_Space_12V3.Click += new System.EventHandler(this.btn_DetectPanel_Space_12V3_Click);
@@ -4225,7 +4279,6 @@
             // 
             this.btn_DetectPanel_Space_12V2.BackColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_12V2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_DetectPanel_Space_12V2.Tag = 1;
             this.btn_DetectPanel_Space_12V2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Space_12V2.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Space_12V2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4235,6 +4288,7 @@
             this.btn_DetectPanel_Space_12V2.Name = "btn_DetectPanel_Space_12V2";
             this.btn_DetectPanel_Space_12V2.Size = new System.Drawing.Size(120, 30);
             this.btn_DetectPanel_Space_12V2.TabIndex = 119;
+            this.btn_DetectPanel_Space_12V2.Tag = 1;
             this.btn_DetectPanel_Space_12V2.Text = "备12V#2";
             this.btn_DetectPanel_Space_12V2.UseVisualStyleBackColor = false;
             this.btn_DetectPanel_Space_12V2.Click += new System.EventHandler(this.btn_DetectPanel_Space_12V2_Click);
@@ -4243,7 +4297,6 @@
             // 
             this.btn_DetectPanel_Space_12V1.BackColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Space_12V1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_DetectPanel_Space_12V1.Tag = 1;
             this.btn_DetectPanel_Space_12V1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Space_12V1.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Space_12V1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4253,6 +4306,7 @@
             this.btn_DetectPanel_Space_12V1.Name = "btn_DetectPanel_Space_12V1";
             this.btn_DetectPanel_Space_12V1.Size = new System.Drawing.Size(120, 30);
             this.btn_DetectPanel_Space_12V1.TabIndex = 118;
+            this.btn_DetectPanel_Space_12V1.Tag = 1;
             this.btn_DetectPanel_Space_12V1.Text = "备12V#1";
             this.btn_DetectPanel_Space_12V1.UseVisualStyleBackColor = false;
             this.btn_DetectPanel_Space_12V1.Click += new System.EventHandler(this.btn_DetectPanel_Space_12V1_Click);
@@ -4261,7 +4315,6 @@
             // 
             this.btn_DetectPanel_Rotate.BackColor = System.Drawing.Color.Transparent;
             this.btn_DetectPanel_Rotate.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_DetectPanel_Rotate.Tag = 1;
             this.btn_DetectPanel_Rotate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_DetectPanel_Rotate.FlatAppearance.BorderSize = 0;
             this.btn_DetectPanel_Rotate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4271,6 +4324,7 @@
             this.btn_DetectPanel_Rotate.Name = "btn_DetectPanel_Rotate";
             this.btn_DetectPanel_Rotate.Size = new System.Drawing.Size(120, 30);
             this.btn_DetectPanel_Rotate.TabIndex = 117;
+            this.btn_DetectPanel_Rotate.Tag = 1;
             this.btn_DetectPanel_Rotate.Text = "罗盘";
             this.btn_DetectPanel_Rotate.UseVisualStyleBackColor = false;
             this.btn_DetectPanel_Rotate.Click += new System.EventHandler(this.btn_DetectPanel_Rotate_Click);
@@ -4295,11 +4349,11 @@
             this.groupBox28.Controls.Add(this.trackBar_Light_5);
             this.groupBox28.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
             this.groupBox28.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox28.Location = new System.Drawing.Point(10, 480);
+            this.groupBox28.Location = new System.Drawing.Point(15, 475);
             this.groupBox28.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox28.Name = "groupBox28";
             this.groupBox28.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox28.Size = new System.Drawing.Size(580, 245);
+            this.groupBox28.Size = new System.Drawing.Size(575, 245);
             this.groupBox28.TabIndex = 124;
             this.groupBox28.TabStop = false;
             this.groupBox28.Text = "灯舱";
@@ -4309,7 +4363,6 @@
             // 
             this.btn_Light_2.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_Light_2.Tag = 1;
             this.btn_Light_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_2.FlatAppearance.BorderSize = 0;
             this.btn_Light_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4319,6 +4372,7 @@
             this.btn_Light_2.Name = "btn_Light_2";
             this.btn_Light_2.Size = new System.Drawing.Size(120, 50);
             this.btn_Light_2.TabIndex = 118;
+            this.btn_Light_2.Tag = 1;
             this.btn_Light_2.Text = "灯#2";
             this.btn_Light_2.UseVisualStyleBackColor = false;
             this.btn_Light_2.Click += new System.EventHandler(this.btn_Light_2_Click);
@@ -4327,7 +4381,6 @@
             // 
             this.btn_Light_8.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_8.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_Light_8.Tag = 1;
             this.btn_Light_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_8.FlatAppearance.BorderSize = 0;
             this.btn_Light_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4337,6 +4390,7 @@
             this.btn_Light_8.Name = "btn_Light_8";
             this.btn_Light_8.Size = new System.Drawing.Size(120, 50);
             this.btn_Light_8.TabIndex = 124;
+            this.btn_Light_8.Tag = 1;
             this.btn_Light_8.Text = "灯#8";
             this.btn_Light_8.UseVisualStyleBackColor = false;
             this.btn_Light_8.Click += new System.EventHandler(this.btn_Light_8_Click);
@@ -4345,7 +4399,6 @@
             // 
             this.btn_Light_4.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_4.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_Light_4.Tag = 1;
             this.btn_Light_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_4.FlatAppearance.BorderSize = 0;
             this.btn_Light_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4355,6 +4408,7 @@
             this.btn_Light_4.Name = "btn_Light_4";
             this.btn_Light_4.Size = new System.Drawing.Size(120, 50);
             this.btn_Light_4.TabIndex = 120;
+            this.btn_Light_4.Tag = 1;
             this.btn_Light_4.Text = "灯#4";
             this.btn_Light_4.UseVisualStyleBackColor = false;
             this.btn_Light_4.Click += new System.EventHandler(this.btn_Light_4_Click);
@@ -4363,7 +4417,6 @@
             // 
             this.btn_Light_7.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_7.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_Light_7.Tag = 1;
             this.btn_Light_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_7.FlatAppearance.BorderSize = 0;
             this.btn_Light_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4373,6 +4426,7 @@
             this.btn_Light_7.Name = "btn_Light_7";
             this.btn_Light_7.Size = new System.Drawing.Size(120, 50);
             this.btn_Light_7.TabIndex = 123;
+            this.btn_Light_7.Tag = 1;
             this.btn_Light_7.Text = "灯#7";
             this.btn_Light_7.UseVisualStyleBackColor = false;
             this.btn_Light_7.Click += new System.EventHandler(this.btn_Light_7_Click);
@@ -4381,7 +4435,6 @@
             // 
             this.btn_Light_3.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_3.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_Light_3.Tag = 1;
             this.btn_Light_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_3.FlatAppearance.BorderSize = 0;
             this.btn_Light_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4391,6 +4444,7 @@
             this.btn_Light_3.Name = "btn_Light_3";
             this.btn_Light_3.Size = new System.Drawing.Size(120, 50);
             this.btn_Light_3.TabIndex = 119;
+            this.btn_Light_3.Tag = 1;
             this.btn_Light_3.Text = "灯#3";
             this.btn_Light_3.UseVisualStyleBackColor = false;
             this.btn_Light_3.Click += new System.EventHandler(this.btn_Light_3_Click);
@@ -4399,7 +4453,6 @@
             // 
             this.btn_Light_6.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_6.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_Light_6.Tag = 1;
             this.btn_Light_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_6.FlatAppearance.BorderSize = 0;
             this.btn_Light_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4409,6 +4462,7 @@
             this.btn_Light_6.Name = "btn_Light_6";
             this.btn_Light_6.Size = new System.Drawing.Size(120, 50);
             this.btn_Light_6.TabIndex = 122;
+            this.btn_Light_6.Tag = 1;
             this.btn_Light_6.Text = "灯#6";
             this.btn_Light_6.UseVisualStyleBackColor = false;
             this.btn_Light_6.Click += new System.EventHandler(this.btn_Light_6_Click);
@@ -4417,7 +4471,6 @@
             // 
             this.btn_Light_5.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_5.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_Light_5.Tag = 1;
             this.btn_Light_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_5.FlatAppearance.BorderSize = 0;
             this.btn_Light_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4427,6 +4480,7 @@
             this.btn_Light_5.Name = "btn_Light_5";
             this.btn_Light_5.Size = new System.Drawing.Size(120, 50);
             this.btn_Light_5.TabIndex = 121;
+            this.btn_Light_5.Tag = 1;
             this.btn_Light_5.Text = "灯#5";
             this.btn_Light_5.UseVisualStyleBackColor = false;
             this.btn_Light_5.Click += new System.EventHandler(this.btn_Light_5_Click);
@@ -4435,7 +4489,6 @@
             // 
             this.btn_Light_1.BackColor = System.Drawing.Color.Transparent;
             this.btn_Light_1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_Light_1.Tag = 1;
             this.btn_Light_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_Light_1.FlatAppearance.BorderSize = 0;
             this.btn_Light_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -4445,6 +4498,7 @@
             this.btn_Light_1.Name = "btn_Light_1";
             this.btn_Light_1.Size = new System.Drawing.Size(120, 50);
             this.btn_Light_1.TabIndex = 117;
+            this.btn_Light_1.Tag = 1;
             this.btn_Light_1.Text = "灯#1";
             this.btn_Light_1.UseVisualStyleBackColor = false;
             this.btn_Light_1.Click += new System.EventHandler(this.btn_Light_1_Click);
@@ -4544,6 +4598,15 @@
             this.groupBox_SoftRuningInfo.TabStop = false;
             this.groupBox_SoftRuningInfo.Text = "运行状态";
             this.groupBox_SoftRuningInfo.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint_2);
+            // 
+            // axBeauGaugeCtrl9
+            // 
+            this.axBeauGaugeCtrl9.Enabled = true;
+            this.axBeauGaugeCtrl9.Location = new System.Drawing.Point(208, -3);
+            this.axBeauGaugeCtrl9.Name = "axBeauGaugeCtrl9";
+            this.axBeauGaugeCtrl9.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl9.OcxState")));
+            this.axBeauGaugeCtrl9.Size = new System.Drawing.Size(34, 25);
+            this.axBeauGaugeCtrl9.TabIndex = 208;
             // 
             // richTextBox_InfoShow
             // 
@@ -7969,14 +8032,14 @@
             this.DataGridView_SysAlarmInfo.Name = "DataGridView_SysAlarmInfo";
             this.DataGridView_SysAlarmInfo.ReadOnly = true;
             this.DataGridView_SysAlarmInfo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGridView_SysAlarmInfo.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridView_SysAlarmInfo.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.DataGridView_SysAlarmInfo.RowHeadersVisible = false;
             this.DataGridView_SysAlarmInfo.RowHeadersWidth = 51;
             this.DataGridView_SysAlarmInfo.RowTemplate.Height = 27;
@@ -7986,10 +8049,10 @@
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle2;
             this.Column1.HeaderText = "";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
@@ -11250,69 +11313,6 @@
             this.timer_Communication.Interval = 7000;
             this.timer_Communication.Tick += new System.EventHandler(this.timer_Communication_Tick);
             // 
-            // axBeauGaugeCtrl9
-            // 
-            this.axBeauGaugeCtrl9.Enabled = true;
-            this.axBeauGaugeCtrl9.Location = new System.Drawing.Point(208, -3);
-            this.axBeauGaugeCtrl9.Name = "axBeauGaugeCtrl9";
-            this.axBeauGaugeCtrl9.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl9.OcxState")));
-            this.axBeauGaugeCtrl9.Size = new System.Drawing.Size(34, 25);
-            this.axBeauGaugeCtrl9.TabIndex = 208;
-            // 
-            // axBeauGaugeCtrl0
-            // 
-            this.axBeauGaugeCtrl0.Enabled = true;
-            this.axBeauGaugeCtrl0.Location = new System.Drawing.Point(820, 580);
-            this.axBeauGaugeCtrl0.Name = "axBeauGaugeCtrl0";
-            this.axBeauGaugeCtrl0.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl0.OcxState")));
-            this.axBeauGaugeCtrl0.Size = new System.Drawing.Size(80, 200);
-            this.axBeauGaugeCtrl0.TabIndex = 211;
-            // 
-            // axBeauGaugeCtrl1
-            // 
-            this.axBeauGaugeCtrl1.Enabled = true;
-            this.axBeauGaugeCtrl1.Location = new System.Drawing.Point(915, 580);
-            this.axBeauGaugeCtrl1.Name = "axBeauGaugeCtrl1";
-            this.axBeauGaugeCtrl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl1.OcxState")));
-            this.axBeauGaugeCtrl1.Size = new System.Drawing.Size(80, 200);
-            this.axBeauGaugeCtrl1.TabIndex = 212;
-            // 
-            // axBeauGaugeCtrl2
-            // 
-            this.axBeauGaugeCtrl2.Enabled = true;
-            this.axBeauGaugeCtrl2.Location = new System.Drawing.Point(1010, 580);
-            this.axBeauGaugeCtrl2.Name = "axBeauGaugeCtrl2";
-            this.axBeauGaugeCtrl2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl2.OcxState")));
-            this.axBeauGaugeCtrl2.Size = new System.Drawing.Size(80, 200);
-            this.axBeauGaugeCtrl2.TabIndex = 213;
-            // 
-            // axBeauGaugeCtrl3
-            // 
-            this.axBeauGaugeCtrl3.Enabled = true;
-            this.axBeauGaugeCtrl3.Location = new System.Drawing.Point(1105, 580);
-            this.axBeauGaugeCtrl3.Name = "axBeauGaugeCtrl3";
-            this.axBeauGaugeCtrl3.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl3.OcxState")));
-            this.axBeauGaugeCtrl3.Size = new System.Drawing.Size(80, 200);
-            this.axBeauGaugeCtrl3.TabIndex = 214;
-            // 
-            // axBeauGaugeCtrl4
-            // 
-            this.axBeauGaugeCtrl4.Enabled = true;
-            this.axBeauGaugeCtrl4.Location = new System.Drawing.Point(1195, 580);
-            this.axBeauGaugeCtrl4.Name = "axBeauGaugeCtrl4";
-            this.axBeauGaugeCtrl4.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl4.OcxState")));
-            this.axBeauGaugeCtrl4.Size = new System.Drawing.Size(80, 200);
-            this.axBeauGaugeCtrl4.TabIndex = 215;
-            // 
-            // axBeauGaugeCtrl10
-            // 
-            this.axBeauGaugeCtrl10.Enabled = true;
-            this.axBeauGaugeCtrl10.Location = new System.Drawing.Point(302, 12);
-            this.axBeauGaugeCtrl10.Name = "axBeauGaugeCtrl10";
-            this.axBeauGaugeCtrl10.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl10.OcxState")));
-            this.axBeauGaugeCtrl10.Size = new System.Drawing.Size(115, 115);
-            this.axBeauGaugeCtrl10.TabIndex = 166;
-            // 
             // FormMainUserA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -11331,6 +11331,11 @@
             this.GroupBox_MainMon.ResumeLayout(false);
             this.GroupBox_MainCtl.ResumeLayout(false);
             this.GroupBox_MainCtl.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl0)).EndInit();
             this.groupBox33.ResumeLayout(false);
             this.groupBox33.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
@@ -11354,6 +11359,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.groupBox41.ResumeLayout(false);
             this.groupBox41.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_DiCiJiaJiaoSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_DiCiJiaJiaoSet)).EndInit();
             this.groupBox42.ResumeLayout(false);
@@ -11387,6 +11393,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_Light_6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_Light_5)).EndInit();
             this.groupBox_SoftRuningInfo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl9)).EndInit();
             this.groupBox49.ResumeLayout(false);
             this.groupBox49.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Light_Communication_0x61)).EndInit();
@@ -11513,13 +11520,6 @@
             this.groupBox23.PerformLayout();
             this.groupBox27.ResumeLayout(false);
             this.groupBox27.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl10)).EndInit();
             this.ResumeLayout(false);
 
         }
