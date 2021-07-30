@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMainUserA));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.GroupBox_MainMon = new System.Windows.Forms.GroupBox();
             this.GroupBox_MainCtl = new System.Windows.Forms.GroupBox();
             this.axBeauGaugeCtrl4 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
@@ -991,6 +991,7 @@
             this.GroupBox_MainMon.Controls.Add(this.groupBox2);
             this.GroupBox_MainMon.Controls.Add(this.groupBox23);
             this.GroupBox_MainMon.Controls.Add(this.groupBox27);
+            this.GroupBox_MainMon.Font = new System.Drawing.Font("SimSun", 12F);
             this.GroupBox_MainMon.ForeColor = System.Drawing.SystemColors.Control;
             this.GroupBox_MainMon.Location = new System.Drawing.Point(0, 0);
             this.GroupBox_MainMon.Margin = new System.Windows.Forms.Padding(2);
@@ -1035,7 +1036,7 @@
             this.GroupBox_MainCtl.Controls.Add(this.GroupBox_CtlBtns);
             this.GroupBox_MainCtl.Controls.Add(this.groupBox_SoftRuningInfo);
             this.GroupBox_MainCtl.ForeColor = System.Drawing.SystemColors.Control;
-            this.GroupBox_MainCtl.Location = new System.Drawing.Point(0, 1);
+            this.GroupBox_MainCtl.Location = new System.Drawing.Point(1881, 11);
             this.GroupBox_MainCtl.Margin = new System.Windows.Forms.Padding(2);
             this.GroupBox_MainCtl.Name = "GroupBox_MainCtl";
             this.GroupBox_MainCtl.Padding = new System.Windows.Forms.Padding(2);
@@ -1064,7 +1065,7 @@
             // axBeauGaugeCtrl2
             // 
             this.axBeauGaugeCtrl2.Enabled = true;
-            this.axBeauGaugeCtrl2.Location = new System.Drawing.Point(1010, 580);
+            this.axBeauGaugeCtrl2.Location = new System.Drawing.Point(1013, 580);
             this.axBeauGaugeCtrl2.Name = "axBeauGaugeCtrl2";
             this.axBeauGaugeCtrl2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl2.OcxState")));
             this.axBeauGaugeCtrl2.Size = new System.Drawing.Size(80, 200);
@@ -1073,7 +1074,7 @@
             // axBeauGaugeCtrl1
             // 
             this.axBeauGaugeCtrl1.Enabled = true;
-            this.axBeauGaugeCtrl1.Location = new System.Drawing.Point(915, 580);
+            this.axBeauGaugeCtrl1.Location = new System.Drawing.Point(920, 580);
             this.axBeauGaugeCtrl1.Name = "axBeauGaugeCtrl1";
             this.axBeauGaugeCtrl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl1.OcxState")));
             this.axBeauGaugeCtrl1.Size = new System.Drawing.Size(80, 200);
@@ -1082,7 +1083,7 @@
             // axBeauGaugeCtrl0
             // 
             this.axBeauGaugeCtrl0.Enabled = true;
-            this.axBeauGaugeCtrl0.Location = new System.Drawing.Point(820, 580);
+            this.axBeauGaugeCtrl0.Location = new System.Drawing.Point(825, 580);
             this.axBeauGaugeCtrl0.Name = "axBeauGaugeCtrl0";
             this.axBeauGaugeCtrl0.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl0.OcxState")));
             this.axBeauGaugeCtrl0.Size = new System.Drawing.Size(80, 200);
@@ -1169,11 +1170,11 @@
             this.groupBox33.Controls.Add(this.button35);
             this.groupBox33.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
             this.groupBox33.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox33.Location = new System.Drawing.Point(374, 388);
+            this.groupBox33.Location = new System.Drawing.Point(370, 388);
             this.groupBox33.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox33.Name = "groupBox33";
             this.groupBox33.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox33.Size = new System.Drawing.Size(436, 237);
+            this.groupBox33.Size = new System.Drawing.Size(445, 237);
             this.groupBox33.TabIndex = 173;
             this.groupBox33.TabStop = false;
             this.groupBox33.Text = "保真取样";
@@ -1375,11 +1376,11 @@
             this.groupBox34.Controls.Add(this.button26);
             this.groupBox34.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold);
             this.groupBox34.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox34.Location = new System.Drawing.Point(372, 262);
+            this.groupBox34.Location = new System.Drawing.Point(370, 262);
             this.groupBox34.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox34.Name = "groupBox34";
             this.groupBox34.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox34.Size = new System.Drawing.Size(438, 119);
+            this.groupBox34.Size = new System.Drawing.Size(445, 119);
             this.groupBox34.TabIndex = 205;
             this.groupBox34.TabStop = false;
             this.groupBox34.Text = "孔隙水";
@@ -1584,11 +1585,11 @@
             this.GroupBox_FaXiang_Space.Controls.Add(this.btn24v_1);
             this.GroupBox_FaXiang_Space.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold);
             this.GroupBox_FaXiang_Space.ForeColor = System.Drawing.SystemColors.Control;
-            this.GroupBox_FaXiang_Space.Location = new System.Drawing.Point(365, 639);
+            this.GroupBox_FaXiang_Space.Location = new System.Drawing.Point(370, 639);
             this.GroupBox_FaXiang_Space.Margin = new System.Windows.Forms.Padding(2);
             this.GroupBox_FaXiang_Space.Name = "GroupBox_FaXiang_Space";
             this.GroupBox_FaXiang_Space.Padding = new System.Windows.Forms.Padding(2);
-            this.GroupBox_FaXiang_Space.Size = new System.Drawing.Size(448, 119);
+            this.GroupBox_FaXiang_Space.Size = new System.Drawing.Size(445, 120);
             this.GroupBox_FaXiang_Space.TabIndex = 204;
             this.GroupBox_FaXiang_Space.TabStop = false;
             this.GroupBox_FaXiang_Space.Text = "阀箱备用通路";
@@ -1869,7 +1870,7 @@
             this.label_BuChang_5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label_BuChang_5.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_BuChang_5.ForeColor = System.Drawing.Color.White;
-            this.label_BuChang_5.Location = new System.Drawing.Point(1205, 797);
+            this.label_BuChang_5.Location = new System.Drawing.Point(1205, 790);
             this.label_BuChang_5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_BuChang_5.Name = "label_BuChang_5";
             this.label_BuChang_5.Size = new System.Drawing.Size(60, 19);
@@ -1893,11 +1894,11 @@
             this.groupBox31.Controls.Add(this.btn_DianJiA_ZhengZhuan);
             this.groupBox31.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
             this.groupBox31.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox31.Location = new System.Drawing.Point(372, 18);
+            this.groupBox31.Location = new System.Drawing.Point(370, 18);
             this.groupBox31.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox31.Name = "groupBox31";
             this.groupBox31.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox31.Size = new System.Drawing.Size(436, 237);
+            this.groupBox31.Size = new System.Drawing.Size(445, 237);
             this.groupBox31.TabIndex = 121;
             this.groupBox31.TabStop = false;
             this.groupBox31.Text = "沉积物";
@@ -2090,7 +2091,7 @@
             this.label_BuChang_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label_BuChang_4.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_BuChang_4.ForeColor = System.Drawing.Color.White;
-            this.label_BuChang_4.Location = new System.Drawing.Point(1118, 797);
+            this.label_BuChang_4.Location = new System.Drawing.Point(1118, 790);
             this.label_BuChang_4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_BuChang_4.Name = "label_BuChang_4";
             this.label_BuChang_4.Size = new System.Drawing.Size(60, 19);
@@ -2103,7 +2104,7 @@
             this.label_BuChang_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label_BuChang_3.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_BuChang_3.ForeColor = System.Drawing.Color.White;
-            this.label_BuChang_3.Location = new System.Drawing.Point(1022, 797);
+            this.label_BuChang_3.Location = new System.Drawing.Point(1025, 790);
             this.label_BuChang_3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_BuChang_3.Name = "label_BuChang_3";
             this.label_BuChang_3.Size = new System.Drawing.Size(60, 19);
@@ -2116,7 +2117,7 @@
             this.label_BuChang_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label_BuChang_2.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_BuChang_2.ForeColor = System.Drawing.Color.White;
-            this.label_BuChang_2.Location = new System.Drawing.Point(925, 797);
+            this.label_BuChang_2.Location = new System.Drawing.Point(930, 790);
             this.label_BuChang_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_BuChang_2.Name = "label_BuChang_2";
             this.label_BuChang_2.Size = new System.Drawing.Size(60, 19);
@@ -2129,7 +2130,7 @@
             this.label_BuChang_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.label_BuChang_1.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_BuChang_1.ForeColor = System.Drawing.Color.White;
-            this.label_BuChang_1.Location = new System.Drawing.Point(829, 797);
+            this.label_BuChang_1.Location = new System.Drawing.Point(835, 790);
             this.label_BuChang_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_BuChang_1.Name = "label_BuChang_1";
             this.label_BuChang_1.Size = new System.Drawing.Size(60, 19);
@@ -2797,7 +2798,7 @@
             this.btn_TuiJinQin_FanZhuan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_TuiJinQin_FanZhuan.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_TuiJinQin_FanZhuan.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_TuiJinQin_FanZhuan.Location = new System.Drawing.Point(104, 103);
+            this.btn_TuiJinQin_FanZhuan.Location = new System.Drawing.Point(110, 100);
             this.btn_TuiJinQin_FanZhuan.Margin = new System.Windows.Forms.Padding(2);
             this.btn_TuiJinQin_FanZhuan.Name = "btn_TuiJinQin_FanZhuan";
             this.btn_TuiJinQin_FanZhuan.Size = new System.Drawing.Size(90, 45);
@@ -2818,7 +2819,7 @@
             this.btn_TuiJinQin_ZhengZhuan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_TuiJinQin_ZhengZhuan.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_TuiJinQin_ZhengZhuan.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_TuiJinQin_ZhengZhuan.Location = new System.Drawing.Point(7, 103);
+            this.btn_TuiJinQin_ZhengZhuan.Location = new System.Drawing.Point(10, 100);
             this.btn_TuiJinQin_ZhengZhuan.Margin = new System.Windows.Forms.Padding(2);
             this.btn_TuiJinQin_ZhengZhuan.Name = "btn_TuiJinQin_ZhengZhuan";
             this.btn_TuiJinQin_ZhengZhuan.Size = new System.Drawing.Size(90, 45);
@@ -3072,12 +3073,12 @@
             // label221
             // 
             this.label221.AutoSize = true;
-            this.label221.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label221.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
             this.label221.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label221.Location = new System.Drawing.Point(1213, 557);
             this.label221.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label221.Name = "label221";
-            this.label221.Size = new System.Drawing.Size(49, 19);
+            this.label221.Size = new System.Drawing.Size(42, 16);
             this.label221.TabIndex = 183;
             this.label221.Text = "油箱";
             // 
@@ -3098,7 +3099,7 @@
             this.label223.AutoSize = true;
             this.label223.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label223.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label223.Location = new System.Drawing.Point(1005, 557);
+            this.label223.Location = new System.Drawing.Point(1010, 557);
             this.label223.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label223.Name = "label223";
             this.label223.Size = new System.Drawing.Size(93, 16);
@@ -3110,7 +3111,7 @@
             this.label224.AutoSize = true;
             this.label224.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label224.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label224.Location = new System.Drawing.Point(910, 557);
+            this.label224.Location = new System.Drawing.Point(915, 557);
             this.label224.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label224.Name = "label224";
             this.label224.Size = new System.Drawing.Size(93, 16);
@@ -3201,7 +3202,7 @@
             this.label225.AutoSize = true;
             this.label225.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label225.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label225.Location = new System.Drawing.Point(814, 557);
+            this.label225.Location = new System.Drawing.Point(820, 557);
             this.label225.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label225.Name = "label225";
             this.label225.Size = new System.Drawing.Size(93, 16);
@@ -4667,7 +4668,7 @@
             this.groupBox49.Controls.Add(this.label203);
             this.groupBox49.Controls.Add(this.label204);
             this.groupBox49.Controls.Add(this.label212);
-            this.groupBox49.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox49.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox49.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox49.Location = new System.Drawing.Point(837, 773);
             this.groupBox49.Name = "groupBox49";
@@ -4680,7 +4681,7 @@
             // Light_Communication_0x61
             // 
             this.Light_Communication_0x61.Enabled = true;
-            this.Light_Communication_0x61.Location = new System.Drawing.Point(69, 20);
+            this.Light_Communication_0x61.Location = new System.Drawing.Point(60, 20);
             this.Light_Communication_0x61.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x61.Name = "Light_Communication_0x61";
             this.Light_Communication_0x61.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x61.OcxState")));
@@ -4690,7 +4691,7 @@
             // Light_Communication_FaXiang16
             // 
             this.Light_Communication_FaXiang16.Enabled = true;
-            this.Light_Communication_FaXiang16.Location = new System.Drawing.Point(121, 95);
+            this.Light_Communication_FaXiang16.Location = new System.Drawing.Point(110, 95);
             this.Light_Communication_FaXiang16.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_FaXiang16.Name = "Light_Communication_FaXiang16";
             this.Light_Communication_FaXiang16.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_FaXiang16.OcxState")));
@@ -4700,7 +4701,7 @@
             // Light_Communication_LuoPan
             // 
             this.Light_Communication_LuoPan.Enabled = true;
-            this.Light_Communication_LuoPan.Location = new System.Drawing.Point(598, 70);
+            this.Light_Communication_LuoPan.Location = new System.Drawing.Point(580, 70);
             this.Light_Communication_LuoPan.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_LuoPan.Name = "Light_Communication_LuoPan";
             this.Light_Communication_LuoPan.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_LuoPan.OcxState")));
@@ -4710,7 +4711,7 @@
             // Light_Communication_0x22
             // 
             this.Light_Communication_0x22.Enabled = true;
-            this.Light_Communication_0x22.Location = new System.Drawing.Point(490, 69);
+            this.Light_Communication_0x22.Location = new System.Drawing.Point(475, 69);
             this.Light_Communication_0x22.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x22.Name = "Light_Communication_0x22";
             this.Light_Communication_0x22.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x22.OcxState")));
@@ -4720,7 +4721,7 @@
             // Light_Communication_0x21
             // 
             this.Light_Communication_0x21.Enabled = true;
-            this.Light_Communication_0x21.Location = new System.Drawing.Point(389, 69);
+            this.Light_Communication_0x21.Location = new System.Drawing.Point(375, 69);
             this.Light_Communication_0x21.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x21.Name = "Light_Communication_0x21";
             this.Light_Communication_0x21.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x21.OcxState")));
@@ -4730,7 +4731,7 @@
             // Light_Communication_0x30
             // 
             this.Light_Communication_0x30.Enabled = true;
-            this.Light_Communication_0x30.Location = new System.Drawing.Point(278, 69);
+            this.Light_Communication_0x30.Location = new System.Drawing.Point(265, 69);
             this.Light_Communication_0x30.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x30.Name = "Light_Communication_0x30";
             this.Light_Communication_0x30.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x30.OcxState")));
@@ -4740,7 +4741,7 @@
             // Light_Communication_0x50
             // 
             this.Light_Communication_0x50.Enabled = true;
-            this.Light_Communication_0x50.Location = new System.Drawing.Point(169, 69);
+            this.Light_Communication_0x50.Location = new System.Drawing.Point(160, 69);
             this.Light_Communication_0x50.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x50.Name = "Light_Communication_0x50";
             this.Light_Communication_0x50.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x50.OcxState")));
@@ -4750,7 +4751,7 @@
             // Light_Communication_0x40
             // 
             this.Light_Communication_0x40.Enabled = true;
-            this.Light_Communication_0x40.Location = new System.Drawing.Point(69, 69);
+            this.Light_Communication_0x40.Location = new System.Drawing.Point(60, 69);
             this.Light_Communication_0x40.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x40.Name = "Light_Communication_0x40";
             this.Light_Communication_0x40.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x40.OcxState")));
@@ -4760,7 +4761,7 @@
             // Light_Communication_0x29
             // 
             this.Light_Communication_0x29.Enabled = true;
-            this.Light_Communication_0x29.Location = new System.Drawing.Point(598, 44);
+            this.Light_Communication_0x29.Location = new System.Drawing.Point(580, 44);
             this.Light_Communication_0x29.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x29.Name = "Light_Communication_0x29";
             this.Light_Communication_0x29.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x29.OcxState")));
@@ -4770,7 +4771,7 @@
             // Light_Communication_0x28
             // 
             this.Light_Communication_0x28.Enabled = true;
-            this.Light_Communication_0x28.Location = new System.Drawing.Point(490, 44);
+            this.Light_Communication_0x28.Location = new System.Drawing.Point(475, 44);
             this.Light_Communication_0x28.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x28.Name = "Light_Communication_0x28";
             this.Light_Communication_0x28.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x28.OcxState")));
@@ -4780,7 +4781,7 @@
             // Light_Communication_0x26
             // 
             this.Light_Communication_0x26.Enabled = true;
-            this.Light_Communication_0x26.Location = new System.Drawing.Point(389, 43);
+            this.Light_Communication_0x26.Location = new System.Drawing.Point(375, 43);
             this.Light_Communication_0x26.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x26.Name = "Light_Communication_0x26";
             this.Light_Communication_0x26.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x26.OcxState")));
@@ -4790,7 +4791,7 @@
             // Light_Communication_0x25
             // 
             this.Light_Communication_0x25.Enabled = true;
-            this.Light_Communication_0x25.Location = new System.Drawing.Point(278, 44);
+            this.Light_Communication_0x25.Location = new System.Drawing.Point(265, 44);
             this.Light_Communication_0x25.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x25.Name = "Light_Communication_0x25";
             this.Light_Communication_0x25.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x25.OcxState")));
@@ -4800,7 +4801,7 @@
             // Light_Communication_0x80
             // 
             this.Light_Communication_0x80.Enabled = true;
-            this.Light_Communication_0x80.Location = new System.Drawing.Point(169, 43);
+            this.Light_Communication_0x80.Location = new System.Drawing.Point(160, 43);
             this.Light_Communication_0x80.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x80.Name = "Light_Communication_0x80";
             this.Light_Communication_0x80.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x80.OcxState")));
@@ -4810,7 +4811,7 @@
             // Light_Communication_0x79
             // 
             this.Light_Communication_0x79.Enabled = true;
-            this.Light_Communication_0x79.Location = new System.Drawing.Point(69, 44);
+            this.Light_Communication_0x79.Location = new System.Drawing.Point(60, 44);
             this.Light_Communication_0x79.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x79.Name = "Light_Communication_0x79";
             this.Light_Communication_0x79.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x79.OcxState")));
@@ -4820,7 +4821,7 @@
             // Light_Communication_0x72
             // 
             this.Light_Communication_0x72.Enabled = true;
-            this.Light_Communication_0x72.Location = new System.Drawing.Point(598, 18);
+            this.Light_Communication_0x72.Location = new System.Drawing.Point(580, 18);
             this.Light_Communication_0x72.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x72.Name = "Light_Communication_0x72";
             this.Light_Communication_0x72.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x72.OcxState")));
@@ -4830,7 +4831,7 @@
             // Light_Communication_0x71
             // 
             this.Light_Communication_0x71.Enabled = true;
-            this.Light_Communication_0x71.Location = new System.Drawing.Point(490, 18);
+            this.Light_Communication_0x71.Location = new System.Drawing.Point(475, 18);
             this.Light_Communication_0x71.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x71.Name = "Light_Communication_0x71";
             this.Light_Communication_0x71.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x71.OcxState")));
@@ -4840,7 +4841,7 @@
             // Light_Communication_0x70
             // 
             this.Light_Communication_0x70.Enabled = true;
-            this.Light_Communication_0x70.Location = new System.Drawing.Point(389, 18);
+            this.Light_Communication_0x70.Location = new System.Drawing.Point(375, 18);
             this.Light_Communication_0x70.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x70.Name = "Light_Communication_0x70";
             this.Light_Communication_0x70.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x70.OcxState")));
@@ -4850,7 +4851,7 @@
             // Light_Communication_0x63
             // 
             this.Light_Communication_0x63.Enabled = true;
-            this.Light_Communication_0x63.Location = new System.Drawing.Point(278, 18);
+            this.Light_Communication_0x63.Location = new System.Drawing.Point(265, 18);
             this.Light_Communication_0x63.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x63.Name = "Light_Communication_0x63";
             this.Light_Communication_0x63.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x63.OcxState")));
@@ -4860,7 +4861,7 @@
             // Light_Communication_0x62
             // 
             this.Light_Communication_0x62.Enabled = true;
-            this.Light_Communication_0x62.Location = new System.Drawing.Point(169, 19);
+            this.Light_Communication_0x62.Location = new System.Drawing.Point(160, 19);
             this.Light_Communication_0x62.Margin = new System.Windows.Forms.Padding(2);
             this.Light_Communication_0x62.Name = "Light_Communication_0x62";
             this.Light_Communication_0x62.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Light_Communication_0x62.OcxState")));
@@ -4870,110 +4871,110 @@
             // label305
             // 
             this.label305.AutoSize = true;
-            this.label305.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label305.Font = new System.Drawing.Font("SimSun", 12F);
             this.label305.Location = new System.Drawing.Point(9, 101);
             this.label305.Name = "label305";
-            this.label305.Size = new System.Drawing.Size(115, 19);
+            this.label305.Size = new System.Drawing.Size(96, 16);
             this.label305.TabIndex = 200;
             this.label305.Text = "16功能阀箱:";
             // 
             // label262
             // 
             this.label262.AutoSize = true;
-            this.label262.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label262.Font = new System.Drawing.Font("SimSun", 12F);
             this.label262.Location = new System.Drawing.Point(216, 75);
             this.label262.Name = "label262";
-            this.label262.Size = new System.Drawing.Size(59, 19);
+            this.label262.Size = new System.Drawing.Size(48, 16);
             this.label262.TabIndex = 198;
             this.label262.Text = "0x30:";
             // 
             // lable255
             // 
             this.lable255.AutoSize = true;
-            this.lable255.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lable255.Font = new System.Drawing.Font("SimSun", 12F);
             this.lable255.Location = new System.Drawing.Point(536, 49);
             this.lable255.Name = "lable255";
-            this.lable255.Size = new System.Drawing.Size(59, 19);
+            this.lable255.Size = new System.Drawing.Size(48, 16);
             this.lable255.TabIndex = 192;
             this.lable255.Text = "0x29:";
             // 
             // label287
             // 
             this.label287.AutoSize = true;
-            this.label287.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label287.Font = new System.Drawing.Font("SimSun", 12F);
             this.label287.Location = new System.Drawing.Point(428, 75);
             this.label287.Name = "label287";
-            this.label287.Size = new System.Drawing.Size(59, 19);
+            this.label287.Size = new System.Drawing.Size(48, 16);
             this.label287.TabIndex = 196;
             this.label287.Text = "0x22:";
             // 
             // label289
             // 
             this.label289.AutoSize = true;
-            this.label289.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label289.Font = new System.Drawing.Font("SimSun", 12F);
             this.label289.Location = new System.Drawing.Point(327, 75);
             this.label289.Name = "label289";
-            this.label289.Size = new System.Drawing.Size(59, 19);
+            this.label289.Size = new System.Drawing.Size(48, 16);
             this.label289.TabIndex = 194;
             this.label289.Text = "0x21:";
             // 
             // label234
             // 
             this.label234.AutoSize = true;
-            this.label234.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label234.Font = new System.Drawing.Font("SimSun", 12F);
             this.label234.Location = new System.Drawing.Point(428, 50);
             this.label234.Name = "label234";
-            this.label234.Size = new System.Drawing.Size(59, 19);
+            this.label234.Size = new System.Drawing.Size(48, 16);
             this.label234.TabIndex = 190;
             this.label234.Text = "0x28:";
             // 
             // label232
             // 
             this.label232.AutoSize = true;
-            this.label232.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label232.Font = new System.Drawing.Font("SimSun", 12F);
             this.label232.Location = new System.Drawing.Point(327, 50);
             this.label232.Name = "label232";
-            this.label232.Size = new System.Drawing.Size(59, 19);
+            this.label232.Size = new System.Drawing.Size(48, 16);
             this.label232.TabIndex = 188;
             this.label232.Text = "0x26:";
             // 
             // label231
             // 
             this.label231.AutoSize = true;
-            this.label231.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label231.Font = new System.Drawing.Font("SimSun", 12F);
             this.label231.Location = new System.Drawing.Point(214, 50);
             this.label231.Name = "label231";
-            this.label231.Size = new System.Drawing.Size(59, 19);
+            this.label231.Size = new System.Drawing.Size(48, 16);
             this.label231.TabIndex = 186;
             this.label231.Text = "0x25:";
             // 
             // label220
             // 
             this.label220.AutoSize = true;
-            this.label220.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label220.Font = new System.Drawing.Font("SimSun", 12F);
             this.label220.Location = new System.Drawing.Point(536, 23);
             this.label220.Name = "label220";
-            this.label220.Size = new System.Drawing.Size(59, 19);
+            this.label220.Size = new System.Drawing.Size(48, 16);
             this.label220.TabIndex = 184;
             this.label220.Text = "0x72:";
             // 
             // label217
             // 
             this.label217.AutoSize = true;
-            this.label217.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label217.Font = new System.Drawing.Font("SimSun", 12F);
             this.label217.Location = new System.Drawing.Point(215, 25);
             this.label217.Name = "label217";
-            this.label217.Size = new System.Drawing.Size(59, 19);
+            this.label217.Size = new System.Drawing.Size(48, 16);
             this.label217.TabIndex = 182;
             this.label217.Text = "0x63:";
             // 
             // label214
             // 
             this.label214.AutoSize = true;
-            this.label214.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label214.Font = new System.Drawing.Font("SimSun", 12F);
             this.label214.Location = new System.Drawing.Point(111, 25);
             this.label214.Name = "label214";
-            this.label214.Size = new System.Drawing.Size(59, 19);
+            this.label214.Size = new System.Drawing.Size(48, 16);
             this.label214.TabIndex = 180;
             this.label214.Text = "0x62:";
             // 
@@ -5022,80 +5023,80 @@
             // label198
             // 
             this.label198.AutoSize = true;
-            this.label198.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label198.Font = new System.Drawing.Font("SimSun", 12F);
             this.label198.Location = new System.Drawing.Point(538, 75);
             this.label198.Name = "label198";
-            this.label198.Size = new System.Drawing.Size(57, 19);
+            this.label198.Size = new System.Drawing.Size(48, 16);
             this.label198.TabIndex = 174;
             this.label198.Text = "罗盘:";
             // 
             // label199
             // 
             this.label199.AutoSize = true;
-            this.label199.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label199.Font = new System.Drawing.Font("SimSun", 12F);
             this.label199.Location = new System.Drawing.Point(111, 75);
             this.label199.Name = "label199";
-            this.label199.Size = new System.Drawing.Size(59, 19);
+            this.label199.Size = new System.Drawing.Size(48, 16);
             this.label199.TabIndex = 172;
             this.label199.Text = "0x50:";
             // 
             // label200
             // 
             this.label200.AutoSize = true;
-            this.label200.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label200.Font = new System.Drawing.Font("SimSun", 12F);
             this.label200.Location = new System.Drawing.Point(9, 75);
             this.label200.Name = "label200";
-            this.label200.Size = new System.Drawing.Size(59, 19);
+            this.label200.Size = new System.Drawing.Size(48, 16);
             this.label200.TabIndex = 170;
             this.label200.Text = "0x40:";
             // 
             // label201
             // 
             this.label201.AutoSize = true;
-            this.label201.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label201.Font = new System.Drawing.Font("SimSun", 12F);
             this.label201.Location = new System.Drawing.Point(111, 50);
             this.label201.Name = "label201";
-            this.label201.Size = new System.Drawing.Size(59, 19);
+            this.label201.Size = new System.Drawing.Size(48, 16);
             this.label201.TabIndex = 168;
             this.label201.Text = "0x80:";
             // 
             // label202
             // 
             this.label202.AutoSize = true;
-            this.label202.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label202.Font = new System.Drawing.Font("SimSun", 12F);
             this.label202.Location = new System.Drawing.Point(9, 50);
             this.label202.Name = "label202";
-            this.label202.Size = new System.Drawing.Size(59, 19);
+            this.label202.Size = new System.Drawing.Size(48, 16);
             this.label202.TabIndex = 166;
             this.label202.Text = "0x79:";
             // 
             // label203
             // 
             this.label203.AutoSize = true;
-            this.label203.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label203.Font = new System.Drawing.Font("SimSun", 12F);
             this.label203.Location = new System.Drawing.Point(428, 25);
             this.label203.Name = "label203";
-            this.label203.Size = new System.Drawing.Size(59, 19);
+            this.label203.Size = new System.Drawing.Size(48, 16);
             this.label203.TabIndex = 164;
             this.label203.Text = "0x71:";
             // 
             // label204
             // 
             this.label204.AutoSize = true;
-            this.label204.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label204.Font = new System.Drawing.Font("SimSun", 12F);
             this.label204.Location = new System.Drawing.Point(327, 25);
             this.label204.Name = "label204";
-            this.label204.Size = new System.Drawing.Size(59, 19);
+            this.label204.Size = new System.Drawing.Size(48, 16);
             this.label204.TabIndex = 162;
             this.label204.Text = "0x70:";
             // 
             // label212
             // 
             this.label212.AutoSize = true;
-            this.label212.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label212.Font = new System.Drawing.Font("SimSun", 12F);
             this.label212.Location = new System.Drawing.Point(9, 25);
             this.label212.Name = "label212";
-            this.label212.Size = new System.Drawing.Size(59, 19);
+            this.label212.Size = new System.Drawing.Size(48, 16);
             this.label212.TabIndex = 160;
             this.label212.Text = "0x61:";
             // 
@@ -5177,7 +5178,7 @@
             this.groupBox_BoardA_Mon.Controls.Add(this.label255);
             this.groupBox_BoardA_Mon.Controls.Add(this.label248);
             this.groupBox_BoardA_Mon.Controls.Add(this.label246);
-            this.groupBox_BoardA_Mon.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox_BoardA_Mon.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox_BoardA_Mon.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox_BoardA_Mon.Location = new System.Drawing.Point(837, 19);
             this.groupBox_BoardA_Mon.Name = "groupBox_BoardA_Mon";
@@ -5285,7 +5286,7 @@
             this.groupBox19.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox19.Location = new System.Drawing.Point(472, 89);
             this.groupBox19.Name = "groupBox19";
-            this.groupBox19.Size = new System.Drawing.Size(183, 131);
+            this.groupBox19.Size = new System.Drawing.Size(191, 131);
             this.groupBox19.TabIndex = 154;
             this.groupBox19.TabStop = false;
             this.groupBox19.Text = "推进电压";
@@ -5294,133 +5295,133 @@
             // label171
             // 
             this.label171.AutoSize = true;
-            this.label171.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label171.Location = new System.Drawing.Point(93, 104);
+            this.label171.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label171.Location = new System.Drawing.Point(95, 104);
             this.label171.Name = "label171";
-            this.label171.Size = new System.Drawing.Size(35, 14);
+            this.label171.Size = new System.Drawing.Size(40, 16);
             this.label171.TabIndex = 159;
             this.label171.Text = "VRB:";
             // 
             // label184
             // 
             this.label184.AutoSize = true;
-            this.label184.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label184.Location = new System.Drawing.Point(93, 64);
+            this.label184.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label184.Location = new System.Drawing.Point(95, 64);
             this.label184.Name = "label184";
-            this.label184.Size = new System.Drawing.Size(35, 14);
+            this.label184.Size = new System.Drawing.Size(40, 16);
             this.label184.TabIndex = 158;
             this.label184.Text = "VRF:";
             // 
             // label158
             // 
             this.label158.AutoSize = true;
-            this.label158.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label158.Font = new System.Drawing.Font("SimSun", 12F);
             this.label158.Location = new System.Drawing.Point(6, 104);
             this.label158.Name = "label158";
-            this.label158.Size = new System.Drawing.Size(35, 14);
+            this.label158.Size = new System.Drawing.Size(40, 16);
             this.label158.TabIndex = 157;
             this.label158.Text = "VLB:";
             // 
             // label157
             // 
             this.label157.AutoSize = true;
-            this.label157.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label157.Font = new System.Drawing.Font("SimSun", 12F);
             this.label157.Location = new System.Drawing.Point(6, 64);
             this.label157.Name = "label157";
-            this.label157.Size = new System.Drawing.Size(35, 14);
+            this.label157.Size = new System.Drawing.Size(40, 16);
             this.label157.TabIndex = 156;
             this.label157.Text = "VLF:";
             // 
             // label143
             // 
             this.label143.AutoSize = true;
-            this.label143.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label143.Location = new System.Drawing.Point(95, 25);
+            this.label143.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label143.Location = new System.Drawing.Point(97, 25);
             this.label143.Name = "label143";
-            this.label143.Size = new System.Drawing.Size(28, 14);
+            this.label143.Size = new System.Drawing.Size(32, 16);
             this.label143.TabIndex = 155;
             this.label143.Text = "HR:";
             // 
             // label132
             // 
             this.label132.AutoSize = true;
-            this.label132.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label132.Font = new System.Drawing.Font("SimSun", 12F);
             this.label132.Location = new System.Drawing.Point(6, 25);
             this.label132.Name = "label132";
-            this.label132.Size = new System.Drawing.Size(28, 14);
+            this.label132.Size = new System.Drawing.Size(32, 16);
             this.label132.TabIndex = 154;
             this.label132.Text = "HL:";
             // 
             // textBox_V_VRB
             // 
             this.textBox_V_VRB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_V_VRB.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_V_VRB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_V_VRB.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_V_VRB.Location = new System.Drawing.Point(128, 99);
+            this.textBox_V_VRB.Location = new System.Drawing.Point(134, 100);
             this.textBox_V_VRB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_VRB.Name = "textBox_V_VRB";
             this.textBox_V_VRB.ReadOnly = true;
-            this.textBox_V_VRB.Size = new System.Drawing.Size(50, 23);
+            this.textBox_V_VRB.Size = new System.Drawing.Size(50, 26);
             this.textBox_V_VRB.TabIndex = 153;
             // 
             // textBox_V_VRF
             // 
             this.textBox_V_VRF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_V_VRF.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_V_VRF.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_V_VRF.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_V_VRF.Location = new System.Drawing.Point(128, 60);
+            this.textBox_V_VRF.Location = new System.Drawing.Point(134, 61);
             this.textBox_V_VRF.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_VRF.Name = "textBox_V_VRF";
             this.textBox_V_VRF.ReadOnly = true;
-            this.textBox_V_VRF.Size = new System.Drawing.Size(50, 23);
+            this.textBox_V_VRF.Size = new System.Drawing.Size(50, 26);
             this.textBox_V_VRF.TabIndex = 152;
             // 
             // textBox_V_HR
             // 
             this.textBox_V_HR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_V_HR.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_V_HR.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_V_HR.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_V_HR.Location = new System.Drawing.Point(128, 21);
+            this.textBox_V_HR.Location = new System.Drawing.Point(134, 22);
             this.textBox_V_HR.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_HR.Name = "textBox_V_HR";
             this.textBox_V_HR.ReadOnly = true;
-            this.textBox_V_HR.Size = new System.Drawing.Size(50, 23);
+            this.textBox_V_HR.Size = new System.Drawing.Size(50, 26);
             this.textBox_V_HR.TabIndex = 151;
             // 
             // textBox_V_VLB
             // 
             this.textBox_V_VLB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_V_VLB.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_V_VLB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_V_VLB.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_V_VLB.Location = new System.Drawing.Point(41, 99);
+            this.textBox_V_VLB.Location = new System.Drawing.Point(46, 99);
             this.textBox_V_VLB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_VLB.Name = "textBox_V_VLB";
             this.textBox_V_VLB.ReadOnly = true;
-            this.textBox_V_VLB.Size = new System.Drawing.Size(50, 23);
+            this.textBox_V_VLB.Size = new System.Drawing.Size(50, 26);
             this.textBox_V_VLB.TabIndex = 150;
             // 
             // textBox_V_VLF
             // 
             this.textBox_V_VLF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_V_VLF.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_V_VLF.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_V_VLF.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_V_VLF.Location = new System.Drawing.Point(41, 60);
+            this.textBox_V_VLF.Location = new System.Drawing.Point(46, 60);
             this.textBox_V_VLF.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_VLF.Name = "textBox_V_VLF";
             this.textBox_V_VLF.ReadOnly = true;
-            this.textBox_V_VLF.Size = new System.Drawing.Size(50, 23);
+            this.textBox_V_VLF.Size = new System.Drawing.Size(50, 26);
             this.textBox_V_VLF.TabIndex = 149;
             // 
             // textBox_V_HL
             // 
             this.textBox_V_HL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_V_HL.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_V_HL.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_V_HL.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_V_HL.Location = new System.Drawing.Point(41, 21);
+            this.textBox_V_HL.Location = new System.Drawing.Point(46, 21);
             this.textBox_V_HL.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_HL.Name = "textBox_V_HL";
             this.textBox_V_HL.ReadOnly = true;
-            this.textBox_V_HL.Size = new System.Drawing.Size(50, 23);
+            this.textBox_V_HL.Size = new System.Drawing.Size(50, 26);
             this.textBox_V_HL.TabIndex = 148;
             // 
             // textBox20
@@ -5574,13 +5575,13 @@
             // textBox_AI20
             // 
             this.textBox_AI20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI20.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI20.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI20.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI20.Location = new System.Drawing.Point(402, 99);
+            this.textBox_AI20.Location = new System.Drawing.Point(409, 99);
             this.textBox_AI20.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI20.Name = "textBox_AI20";
             this.textBox_AI20.ReadOnly = true;
-            this.textBox_AI20.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI20.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI20.TabIndex = 147;
             // 
             // textBox_Fun8_BadCRCS
@@ -5598,10 +5599,10 @@
             // label109
             // 
             this.label109.AutoSize = true;
-            this.label109.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label109.Font = new System.Drawing.Font("SimSun", 12F);
             this.label109.Location = new System.Drawing.Point(363, 104);
             this.label109.Name = "label109";
-            this.label109.Size = new System.Drawing.Size(42, 14);
+            this.label109.Size = new System.Drawing.Size(48, 16);
             this.label109.TabIndex = 146;
             this.label109.Text = "AI20:";
             // 
@@ -5620,13 +5621,13 @@
             // textBox_AI19
             // 
             this.textBox_AI19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI19.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI19.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI19.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI19.Location = new System.Drawing.Point(402, 73);
+            this.textBox_AI19.Location = new System.Drawing.Point(409, 73);
             this.textBox_AI19.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI19.Name = "textBox_AI19";
             this.textBox_AI19.ReadOnly = true;
-            this.textBox_AI19.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI19.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI19.TabIndex = 145;
             // 
             // label108
@@ -5642,23 +5643,23 @@
             // label110
             // 
             this.label110.AutoSize = true;
-            this.label110.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label110.Font = new System.Drawing.Font("SimSun", 12F);
             this.label110.Location = new System.Drawing.Point(363, 78);
             this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(42, 14);
+            this.label110.Size = new System.Drawing.Size(48, 16);
             this.label110.TabIndex = 144;
             this.label110.Text = "AI19:";
             // 
             // textBox_AI18
             // 
             this.textBox_AI18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI18.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI18.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI18.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI18.Location = new System.Drawing.Point(402, 47);
+            this.textBox_AI18.Location = new System.Drawing.Point(409, 47);
             this.textBox_AI18.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI18.Name = "textBox_AI18";
             this.textBox_AI18.ReadOnly = true;
-            this.textBox_AI18.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI18.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI18.TabIndex = 143;
             // 
             // label113
@@ -5674,10 +5675,10 @@
             // label111
             // 
             this.label111.AutoSize = true;
-            this.label111.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label111.Font = new System.Drawing.Font("SimSun", 12F);
             this.label111.Location = new System.Drawing.Point(363, 52);
             this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(42, 14);
+            this.label111.Size = new System.Drawing.Size(48, 16);
             this.label111.TabIndex = 142;
             this.label111.Text = "AI18:";
             // 
@@ -5696,57 +5697,57 @@
             // textBox_AI17
             // 
             this.textBox_AI17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI17.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI17.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI17.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI17.Location = new System.Drawing.Point(402, 21);
+            this.textBox_AI17.Location = new System.Drawing.Point(409, 21);
             this.textBox_AI17.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI17.Name = "textBox_AI17";
             this.textBox_AI17.ReadOnly = true;
-            this.textBox_AI17.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI17.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI17.TabIndex = 141;
             // 
             // label112
             // 
             this.label112.AutoSize = true;
-            this.label112.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label112.Font = new System.Drawing.Font("SimSun", 12F);
             this.label112.Location = new System.Drawing.Point(363, 26);
             this.label112.Name = "label112";
-            this.label112.Size = new System.Drawing.Size(42, 14);
+            this.label112.Size = new System.Drawing.Size(48, 16);
             this.label112.TabIndex = 140;
             this.label112.Text = "AI17:";
             // 
             // textBox_AI16
             // 
             this.textBox_AI16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI16.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI16.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI16.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI16.Location = new System.Drawing.Point(303, 99);
+            this.textBox_AI16.Location = new System.Drawing.Point(314, 99);
             this.textBox_AI16.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI16.Name = "textBox_AI16";
             this.textBox_AI16.ReadOnly = true;
-            this.textBox_AI16.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI16.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI16.TabIndex = 139;
             // 
             // label114
             // 
             this.label114.AutoSize = true;
-            this.label114.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label114.Location = new System.Drawing.Point(265, 103);
+            this.label114.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label114.Location = new System.Drawing.Point(269, 103);
             this.label114.Name = "label114";
-            this.label114.Size = new System.Drawing.Size(42, 14);
+            this.label114.Size = new System.Drawing.Size(48, 16);
             this.label114.TabIndex = 138;
             this.label114.Text = "AI16:";
             // 
             // textBox_AI12
             // 
             this.textBox_AI12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI12.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI12.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI12.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI12.Location = new System.Drawing.Point(212, 99);
+            this.textBox_AI12.Location = new System.Drawing.Point(220, 97);
             this.textBox_AI12.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI12.Name = "textBox_AI12";
             this.textBox_AI12.ReadOnly = true;
-            this.textBox_AI12.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI12.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI12.TabIndex = 137;
             // 
             // label115
@@ -5762,32 +5763,32 @@
             // label116
             // 
             this.label116.AutoSize = true;
-            this.label116.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label116.Location = new System.Drawing.Point(173, 103);
+            this.label116.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label116.Location = new System.Drawing.Point(177, 103);
             this.label116.Name = "label116";
-            this.label116.Size = new System.Drawing.Size(42, 14);
+            this.label116.Size = new System.Drawing.Size(48, 16);
             this.label116.TabIndex = 136;
             this.label116.Text = "AI12:";
             // 
             // textBox_AI8
             // 
             this.textBox_AI8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI8.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI8.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI8.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI8.Location = new System.Drawing.Point(120, 99);
+            this.textBox_AI8.Location = new System.Drawing.Point(128, 97);
             this.textBox_AI8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI8.Name = "textBox_AI8";
             this.textBox_AI8.ReadOnly = true;
-            this.textBox_AI8.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI8.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI8.TabIndex = 135;
             // 
             // label117
             // 
             this.label117.AutoSize = true;
-            this.label117.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label117.Location = new System.Drawing.Point(89, 103);
+            this.label117.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label117.Location = new System.Drawing.Point(93, 103);
             this.label117.Name = "label117";
-            this.label117.Size = new System.Drawing.Size(35, 14);
+            this.label117.Size = new System.Drawing.Size(40, 16);
             this.label117.TabIndex = 134;
             this.label117.Text = "AI8:";
             // 
@@ -5806,44 +5807,44 @@
             // textBox_AI4
             // 
             this.textBox_AI4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI4.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI4.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI4.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI4.Location = new System.Drawing.Point(37, 99);
+            this.textBox_AI4.Location = new System.Drawing.Point(41, 97);
             this.textBox_AI4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI4.Name = "textBox_AI4";
             this.textBox_AI4.ReadOnly = true;
-            this.textBox_AI4.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI4.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI4.TabIndex = 133;
             // 
             // label118
             // 
             this.label118.AutoSize = true;
-            this.label118.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label118.Font = new System.Drawing.Font("SimSun", 12F);
             this.label118.Location = new System.Drawing.Point(6, 103);
             this.label118.Name = "label118";
-            this.label118.Size = new System.Drawing.Size(35, 14);
+            this.label118.Size = new System.Drawing.Size(40, 16);
             this.label118.TabIndex = 132;
             this.label118.Text = "AI4:";
             // 
             // textBox_AI15
             // 
             this.textBox_AI15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI15.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI15.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI15.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI15.Location = new System.Drawing.Point(303, 73);
+            this.textBox_AI15.Location = new System.Drawing.Point(314, 73);
             this.textBox_AI15.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI15.Name = "textBox_AI15";
             this.textBox_AI15.ReadOnly = true;
-            this.textBox_AI15.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI15.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI15.TabIndex = 131;
             // 
             // label119
             // 
             this.label119.AutoSize = true;
-            this.label119.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label119.Location = new System.Drawing.Point(265, 77);
+            this.label119.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label119.Location = new System.Drawing.Point(269, 77);
             this.label119.Name = "label119";
-            this.label119.Size = new System.Drawing.Size(42, 14);
+            this.label119.Size = new System.Drawing.Size(48, 16);
             this.label119.TabIndex = 130;
             this.label119.Text = "AI15:";
             // 
@@ -5860,242 +5861,242 @@
             // textBox_AI11
             // 
             this.textBox_AI11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI11.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI11.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI11.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI11.Location = new System.Drawing.Point(212, 73);
+            this.textBox_AI11.Location = new System.Drawing.Point(220, 71);
             this.textBox_AI11.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI11.Name = "textBox_AI11";
             this.textBox_AI11.ReadOnly = true;
-            this.textBox_AI11.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI11.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI11.TabIndex = 129;
             // 
             // label121
             // 
             this.label121.AutoSize = true;
-            this.label121.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label121.Location = new System.Drawing.Point(173, 77);
+            this.label121.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label121.Location = new System.Drawing.Point(177, 77);
             this.label121.Name = "label121";
-            this.label121.Size = new System.Drawing.Size(42, 14);
+            this.label121.Size = new System.Drawing.Size(48, 16);
             this.label121.TabIndex = 128;
             this.label121.Text = "AI11:";
             // 
             // textBox_AI7
             // 
             this.textBox_AI7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI7.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI7.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI7.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI7.Location = new System.Drawing.Point(120, 73);
+            this.textBox_AI7.Location = new System.Drawing.Point(128, 71);
             this.textBox_AI7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI7.Name = "textBox_AI7";
             this.textBox_AI7.ReadOnly = true;
-            this.textBox_AI7.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI7.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI7.TabIndex = 127;
             // 
             // label122
             // 
             this.label122.AutoSize = true;
-            this.label122.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label122.Location = new System.Drawing.Point(89, 77);
+            this.label122.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label122.Location = new System.Drawing.Point(93, 77);
             this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(35, 14);
+            this.label122.Size = new System.Drawing.Size(40, 16);
             this.label122.TabIndex = 126;
             this.label122.Text = "AI7:";
             // 
             // textBox_AI3
             // 
             this.textBox_AI3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI3.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI3.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI3.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI3.Location = new System.Drawing.Point(37, 73);
+            this.textBox_AI3.Location = new System.Drawing.Point(41, 71);
             this.textBox_AI3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI3.Name = "textBox_AI3";
             this.textBox_AI3.ReadOnly = true;
-            this.textBox_AI3.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI3.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI3.TabIndex = 125;
             // 
             // label123
             // 
             this.label123.AutoSize = true;
-            this.label123.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label123.Font = new System.Drawing.Font("SimSun", 12F);
             this.label123.Location = new System.Drawing.Point(6, 77);
             this.label123.Name = "label123";
-            this.label123.Size = new System.Drawing.Size(35, 14);
+            this.label123.Size = new System.Drawing.Size(40, 16);
             this.label123.TabIndex = 124;
             this.label123.Text = "AI3:";
             // 
             // textBox_AI14
             // 
             this.textBox_AI14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI14.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI14.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI14.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI14.Location = new System.Drawing.Point(303, 47);
+            this.textBox_AI14.Location = new System.Drawing.Point(314, 47);
             this.textBox_AI14.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI14.Name = "textBox_AI14";
             this.textBox_AI14.ReadOnly = true;
-            this.textBox_AI14.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI14.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI14.TabIndex = 123;
             // 
             // label124
             // 
             this.label124.AutoSize = true;
-            this.label124.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label124.Location = new System.Drawing.Point(265, 51);
+            this.label124.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label124.Location = new System.Drawing.Point(269, 51);
             this.label124.Name = "label124";
-            this.label124.Size = new System.Drawing.Size(42, 14);
+            this.label124.Size = new System.Drawing.Size(48, 16);
             this.label124.TabIndex = 122;
             this.label124.Text = "AI14:";
             // 
             // textBox_AI10
             // 
             this.textBox_AI10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI10.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI10.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI10.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI10.Location = new System.Drawing.Point(212, 47);
+            this.textBox_AI10.Location = new System.Drawing.Point(220, 45);
             this.textBox_AI10.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI10.Name = "textBox_AI10";
             this.textBox_AI10.ReadOnly = true;
-            this.textBox_AI10.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI10.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI10.TabIndex = 121;
             // 
             // label125
             // 
             this.label125.AutoSize = true;
-            this.label125.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label125.Location = new System.Drawing.Point(173, 51);
+            this.label125.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label125.Location = new System.Drawing.Point(177, 51);
             this.label125.Name = "label125";
-            this.label125.Size = new System.Drawing.Size(42, 14);
+            this.label125.Size = new System.Drawing.Size(48, 16);
             this.label125.TabIndex = 120;
             this.label125.Text = "AI10:";
             // 
             // textBox_AI6
             // 
             this.textBox_AI6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI6.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI6.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI6.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI6.Location = new System.Drawing.Point(120, 47);
+            this.textBox_AI6.Location = new System.Drawing.Point(128, 45);
             this.textBox_AI6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI6.Name = "textBox_AI6";
             this.textBox_AI6.ReadOnly = true;
-            this.textBox_AI6.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI6.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI6.TabIndex = 119;
             // 
             // label126
             // 
             this.label126.AutoSize = true;
-            this.label126.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label126.Location = new System.Drawing.Point(89, 51);
+            this.label126.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label126.Location = new System.Drawing.Point(93, 51);
             this.label126.Name = "label126";
-            this.label126.Size = new System.Drawing.Size(35, 14);
+            this.label126.Size = new System.Drawing.Size(40, 16);
             this.label126.TabIndex = 118;
             this.label126.Text = "AI6:";
             // 
             // textBox_AI2
             // 
             this.textBox_AI2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI2.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI2.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI2.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI2.Location = new System.Drawing.Point(37, 47);
+            this.textBox_AI2.Location = new System.Drawing.Point(41, 45);
             this.textBox_AI2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI2.Name = "textBox_AI2";
             this.textBox_AI2.ReadOnly = true;
-            this.textBox_AI2.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI2.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI2.TabIndex = 117;
             // 
             // label127
             // 
             this.label127.AutoSize = true;
-            this.label127.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label127.Font = new System.Drawing.Font("SimSun", 12F);
             this.label127.Location = new System.Drawing.Point(6, 51);
             this.label127.Name = "label127";
-            this.label127.Size = new System.Drawing.Size(35, 14);
+            this.label127.Size = new System.Drawing.Size(40, 16);
             this.label127.TabIndex = 116;
             this.label127.Text = "AI2:";
             // 
             // textBox_AI13
             // 
             this.textBox_AI13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI13.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI13.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI13.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI13.Location = new System.Drawing.Point(303, 21);
+            this.textBox_AI13.Location = new System.Drawing.Point(314, 21);
             this.textBox_AI13.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI13.Name = "textBox_AI13";
             this.textBox_AI13.ReadOnly = true;
-            this.textBox_AI13.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI13.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI13.TabIndex = 115;
             // 
             // label128
             // 
             this.label128.AutoSize = true;
-            this.label128.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label128.Location = new System.Drawing.Point(265, 25);
+            this.label128.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label128.Location = new System.Drawing.Point(269, 25);
             this.label128.Name = "label128";
-            this.label128.Size = new System.Drawing.Size(42, 14);
+            this.label128.Size = new System.Drawing.Size(48, 16);
             this.label128.TabIndex = 114;
             this.label128.Text = "AI13:";
             // 
             // textBox_AI9
             // 
             this.textBox_AI9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI9.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI9.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI9.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI9.Location = new System.Drawing.Point(212, 21);
+            this.textBox_AI9.Location = new System.Drawing.Point(220, 19);
             this.textBox_AI9.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI9.Name = "textBox_AI9";
             this.textBox_AI9.ReadOnly = true;
-            this.textBox_AI9.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI9.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI9.TabIndex = 113;
             // 
             // label129
             // 
             this.label129.AutoSize = true;
-            this.label129.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label129.Location = new System.Drawing.Point(173, 25);
+            this.label129.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label129.Location = new System.Drawing.Point(177, 25);
             this.label129.Name = "label129";
-            this.label129.Size = new System.Drawing.Size(35, 14);
+            this.label129.Size = new System.Drawing.Size(40, 16);
             this.label129.TabIndex = 112;
             this.label129.Text = "AI9:";
             // 
             // textBox_AI5
             // 
             this.textBox_AI5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI5.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI5.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI5.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI5.Location = new System.Drawing.Point(120, 21);
+            this.textBox_AI5.Location = new System.Drawing.Point(128, 19);
             this.textBox_AI5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI5.Name = "textBox_AI5";
             this.textBox_AI5.ReadOnly = true;
-            this.textBox_AI5.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI5.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI5.TabIndex = 111;
             // 
             // label130
             // 
             this.label130.AutoSize = true;
-            this.label130.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label130.Location = new System.Drawing.Point(89, 25);
+            this.label130.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label130.Location = new System.Drawing.Point(93, 25);
             this.label130.Name = "label130";
-            this.label130.Size = new System.Drawing.Size(35, 14);
+            this.label130.Size = new System.Drawing.Size(40, 16);
             this.label130.TabIndex = 110;
             this.label130.Text = "AI5:";
             // 
             // textBox_AI1
             // 
             this.textBox_AI1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_AI1.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_AI1.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI1.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI1.Location = new System.Drawing.Point(37, 21);
+            this.textBox_AI1.Location = new System.Drawing.Point(41, 19);
             this.textBox_AI1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI1.Name = "textBox_AI1";
             this.textBox_AI1.ReadOnly = true;
-            this.textBox_AI1.Size = new System.Drawing.Size(50, 23);
+            this.textBox_AI1.Size = new System.Drawing.Size(50, 26);
             this.textBox_AI1.TabIndex = 109;
             // 
             // label131
             // 
             this.label131.AutoSize = true;
-            this.label131.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label131.Font = new System.Drawing.Font("SimSun", 12F);
             this.label131.Location = new System.Drawing.Point(6, 25);
             this.label131.Name = "label131";
-            this.label131.Size = new System.Drawing.Size(35, 14);
+            this.label131.Size = new System.Drawing.Size(40, 16);
             this.label131.TabIndex = 105;
             this.label131.Text = "AI1:";
             // 
@@ -6103,10 +6104,10 @@
             // 
             this.checkBox_TingZhuanWeiTiao_Ctl.AutoSize = true;
             this.checkBox_TingZhuanWeiTiao_Ctl.BackColor = System.Drawing.Color.Transparent;
-            this.checkBox_TingZhuanWeiTiao_Ctl.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.checkBox_TingZhuanWeiTiao_Ctl.Location = new System.Drawing.Point(11, 320);
+            this.checkBox_TingZhuanWeiTiao_Ctl.Font = new System.Drawing.Font("SimSun", 12F);
+            this.checkBox_TingZhuanWeiTiao_Ctl.Location = new System.Drawing.Point(17, 307);
             this.checkBox_TingZhuanWeiTiao_Ctl.Name = "checkBox_TingZhuanWeiTiao_Ctl";
-            this.checkBox_TingZhuanWeiTiao_Ctl.Size = new System.Drawing.Size(110, 18);
+            this.checkBox_TingZhuanWeiTiao_Ctl.Size = new System.Drawing.Size(123, 20);
             this.checkBox_TingZhuanWeiTiao_Ctl.TabIndex = 214;
             this.checkBox_TingZhuanWeiTiao_Ctl.Text = "停转微调确定";
             this.checkBox_TingZhuanWeiTiao_Ctl.UseVisualStyleBackColor = false;
@@ -6114,32 +6115,32 @@
             // label277
             // 
             this.label277.AutoSize = true;
-            this.label277.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label277.Location = new System.Drawing.Point(134, 290);
+            this.label277.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label277.Location = new System.Drawing.Point(137, 263);
             this.label277.Name = "label277";
-            this.label277.Size = new System.Drawing.Size(19, 19);
+            this.label277.Size = new System.Drawing.Size(16, 16);
             this.label277.TabIndex = 213;
             this.label277.Text = "%";
             // 
             // textBox_XuanFuJiZhun
             // 
             this.textBox_XuanFuJiZhun.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_XuanFuJiZhun.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_XuanFuJiZhun.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_XuanFuJiZhun.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_XuanFuJiZhun.Location = new System.Drawing.Point(80, 288);
+            this.textBox_XuanFuJiZhun.Location = new System.Drawing.Point(85, 257);
             this.textBox_XuanFuJiZhun.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_XuanFuJiZhun.Name = "textBox_XuanFuJiZhun";
             this.textBox_XuanFuJiZhun.ReadOnly = true;
-            this.textBox_XuanFuJiZhun.Size = new System.Drawing.Size(50, 23);
+            this.textBox_XuanFuJiZhun.Size = new System.Drawing.Size(50, 26);
             this.textBox_XuanFuJiZhun.TabIndex = 212;
             // 
             // label276
             // 
             this.label276.AutoSize = true;
-            this.label276.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label276.Location = new System.Drawing.Point(6, 293);
+            this.label276.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label276.Location = new System.Drawing.Point(5, 262);
             this.label276.Name = "label276";
-            this.label276.Size = new System.Drawing.Size(70, 14);
+            this.label276.Size = new System.Drawing.Size(80, 16);
             this.label276.TabIndex = 211;
             this.label276.Text = "悬浮基准:";
             // 
@@ -6159,20 +6160,20 @@
             // label275
             // 
             this.label275.AutoSize = true;
-            this.label275.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label275.Location = new System.Drawing.Point(154, 291);
+            this.label275.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label275.Location = new System.Drawing.Point(154, 288);
             this.label275.Name = "label275";
-            this.label275.Size = new System.Drawing.Size(63, 42);
+            this.label275.Size = new System.Drawing.Size(72, 48);
             this.label275.TabIndex = 210;
             this.label275.Text = "||停转->\r\n||\r\n||微调->";
             // 
             // label274
             // 
             this.label274.AutoSize = true;
-            this.label274.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label274.Location = new System.Drawing.Point(154, 234);
+            this.label274.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label274.Location = new System.Drawing.Point(154, 231);
             this.label274.Name = "label274";
-            this.label274.Size = new System.Drawing.Size(63, 42);
+            this.label274.Size = new System.Drawing.Size(72, 48);
             this.label274.TabIndex = 209;
             this.label274.Text = "||悬浮->\r\n||\r\n||微调->";
             // 
@@ -6180,16 +6181,16 @@
             // 
             this.numericUpDown_VRB_Zero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_VRB_Zero.DecimalPlaces = 2;
-            this.numericUpDown_VRB_Zero.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_VRB_Zero.Font = new System.Drawing.Font("SimSun", 12F);
             this.numericUpDown_VRB_Zero.ForeColor = System.Drawing.SystemColors.Control;
-            this.numericUpDown_VRB_Zero.Location = new System.Drawing.Point(584, 313);
+            this.numericUpDown_VRB_Zero.Location = new System.Drawing.Point(591, 313);
             this.numericUpDown_VRB_Zero.Minimum = new decimal(new int[] {
             100,
             0,
             0,
             -2147483648});
             this.numericUpDown_VRB_Zero.Name = "numericUpDown_VRB_Zero";
-            this.numericUpDown_VRB_Zero.Size = new System.Drawing.Size(59, 28);
+            this.numericUpDown_VRB_Zero.Size = new System.Drawing.Size(59, 26);
             this.numericUpDown_VRB_Zero.TabIndex = 207;
             this.numericUpDown_VRB_Zero.ValueChanged += new System.EventHandler(this.numericUpDown_VRB_Zero_ValueChanged);
             // 
@@ -6197,16 +6198,16 @@
             // 
             this.numericUpDown_VLB_Zero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_VLB_Zero.DecimalPlaces = 2;
-            this.numericUpDown_VLB_Zero.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_VLB_Zero.Font = new System.Drawing.Font("SimSun", 12F);
             this.numericUpDown_VLB_Zero.ForeColor = System.Drawing.SystemColors.Control;
-            this.numericUpDown_VLB_Zero.Location = new System.Drawing.Point(584, 285);
+            this.numericUpDown_VLB_Zero.Location = new System.Drawing.Point(591, 285);
             this.numericUpDown_VLB_Zero.Minimum = new decimal(new int[] {
             100,
             0,
             0,
             -2147483648});
             this.numericUpDown_VLB_Zero.Name = "numericUpDown_VLB_Zero";
-            this.numericUpDown_VLB_Zero.Size = new System.Drawing.Size(59, 28);
+            this.numericUpDown_VLB_Zero.Size = new System.Drawing.Size(59, 26);
             this.numericUpDown_VLB_Zero.TabIndex = 204;
             this.numericUpDown_VLB_Zero.ValueChanged += new System.EventHandler(this.numericUpDown_VLB_Zero_ValueChanged);
             // 
@@ -6214,7 +6215,7 @@
             // 
             this.numericUpDown_VRF_Zero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_VRF_Zero.DecimalPlaces = 2;
-            this.numericUpDown_VRF_Zero.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_VRF_Zero.Font = new System.Drawing.Font("SimSun", 12F);
             this.numericUpDown_VRF_Zero.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_VRF_Zero.Location = new System.Drawing.Point(437, 313);
             this.numericUpDown_VRF_Zero.Minimum = new decimal(new int[] {
@@ -6223,27 +6224,27 @@
             0,
             -2147483648});
             this.numericUpDown_VRF_Zero.Name = "numericUpDown_VRF_Zero";
-            this.numericUpDown_VRF_Zero.Size = new System.Drawing.Size(59, 28);
+            this.numericUpDown_VRF_Zero.Size = new System.Drawing.Size(59, 26);
             this.numericUpDown_VRF_Zero.TabIndex = 201;
             this.numericUpDown_VRF_Zero.ValueChanged += new System.EventHandler(this.numericUpDown_VRF_Zero_ValueChanged);
             // 
             // label239
             // 
             this.label239.AutoSize = true;
-            this.label239.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label239.Location = new System.Drawing.Point(368, 318);
+            this.label239.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label239.Location = new System.Drawing.Point(362, 317);
             this.label239.Name = "label239";
-            this.label239.Size = new System.Drawing.Size(70, 14);
+            this.label239.Size = new System.Drawing.Size(80, 16);
             this.label239.TabIndex = 200;
             this.label239.Text = "前右垂直:";
             // 
             // label256
             // 
             this.label256.AutoSize = true;
-            this.label256.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label256.Location = new System.Drawing.Point(339, 317);
+            this.label256.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label256.Location = new System.Drawing.Point(346, 318);
             this.label256.Name = "label256";
-            this.label256.Size = new System.Drawing.Size(19, 19);
+            this.label256.Size = new System.Drawing.Size(16, 16);
             this.label256.TabIndex = 199;
             this.label256.Text = "%";
             // 
@@ -6251,26 +6252,26 @@
             // 
             this.numericUpDown_HR_Zero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_HR_Zero.DecimalPlaces = 2;
-            this.numericUpDown_HR_Zero.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_HR_Zero.Font = new System.Drawing.Font("SimSun", 12F);
             this.numericUpDown_HR_Zero.ForeColor = System.Drawing.SystemColors.Control;
-            this.numericUpDown_HR_Zero.Location = new System.Drawing.Point(277, 313);
+            this.numericUpDown_HR_Zero.Location = new System.Drawing.Point(284, 313);
             this.numericUpDown_HR_Zero.Minimum = new decimal(new int[] {
             100,
             0,
             0,
             -2147483648});
             this.numericUpDown_HR_Zero.Name = "numericUpDown_HR_Zero";
-            this.numericUpDown_HR_Zero.Size = new System.Drawing.Size(59, 28);
+            this.numericUpDown_HR_Zero.Size = new System.Drawing.Size(59, 26);
             this.numericUpDown_HR_Zero.TabIndex = 198;
             this.numericUpDown_HR_Zero.ValueChanged += new System.EventHandler(this.numericUpDown_HR_Zero_ValueChanged);
             // 
             // label264
             // 
             this.label264.AutoSize = true;
-            this.label264.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label264.Location = new System.Drawing.Point(217, 318);
+            this.label264.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label264.Location = new System.Drawing.Point(223, 319);
             this.label264.Name = "label264";
-            this.label264.Size = new System.Drawing.Size(56, 14);
+            this.label264.Size = new System.Drawing.Size(64, 16);
             this.label264.TabIndex = 197;
             this.label264.Text = "水平右:";
             // 
@@ -6278,7 +6279,7 @@
             // 
             this.numericUpDown_VLF_Zero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_VLF_Zero.DecimalPlaces = 2;
-            this.numericUpDown_VLF_Zero.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_VLF_Zero.Font = new System.Drawing.Font("SimSun", 12F);
             this.numericUpDown_VLF_Zero.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_VLF_Zero.Location = new System.Drawing.Point(437, 285);
             this.numericUpDown_VLF_Zero.Minimum = new decimal(new int[] {
@@ -6287,27 +6288,27 @@
             0,
             -2147483648});
             this.numericUpDown_VLF_Zero.Name = "numericUpDown_VLF_Zero";
-            this.numericUpDown_VLF_Zero.Size = new System.Drawing.Size(59, 28);
+            this.numericUpDown_VLF_Zero.Size = new System.Drawing.Size(59, 26);
             this.numericUpDown_VLF_Zero.TabIndex = 195;
             this.numericUpDown_VLF_Zero.ValueChanged += new System.EventHandler(this.numericUpDown_VLF_Zero_ValueChanged);
             // 
             // label265
             // 
             this.label265.AutoSize = true;
-            this.label265.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label265.Location = new System.Drawing.Point(368, 290);
+            this.label265.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label265.Location = new System.Drawing.Point(362, 290);
             this.label265.Name = "label265";
-            this.label265.Size = new System.Drawing.Size(70, 14);
+            this.label265.Size = new System.Drawing.Size(80, 16);
             this.label265.TabIndex = 194;
             this.label265.Text = "前左垂直:";
             // 
             // label266
             // 
             this.label266.AutoSize = true;
-            this.label266.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label266.Location = new System.Drawing.Point(339, 289);
+            this.label266.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label266.Location = new System.Drawing.Point(346, 290);
             this.label266.Name = "label266";
-            this.label266.Size = new System.Drawing.Size(19, 19);
+            this.label266.Size = new System.Drawing.Size(16, 16);
             this.label266.TabIndex = 193;
             this.label266.Text = "%";
             // 
@@ -6315,86 +6316,86 @@
             // 
             this.numericUpDown_HL_Zero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_HL_Zero.DecimalPlaces = 2;
-            this.numericUpDown_HL_Zero.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_HL_Zero.Font = new System.Drawing.Font("SimSun", 12F);
             this.numericUpDown_HL_Zero.ForeColor = System.Drawing.SystemColors.Control;
-            this.numericUpDown_HL_Zero.Location = new System.Drawing.Point(277, 285);
+            this.numericUpDown_HL_Zero.Location = new System.Drawing.Point(284, 285);
             this.numericUpDown_HL_Zero.Minimum = new decimal(new int[] {
             100,
             0,
             0,
             -2147483648});
             this.numericUpDown_HL_Zero.Name = "numericUpDown_HL_Zero";
-            this.numericUpDown_HL_Zero.Size = new System.Drawing.Size(59, 28);
+            this.numericUpDown_HL_Zero.Size = new System.Drawing.Size(59, 26);
             this.numericUpDown_HL_Zero.TabIndex = 192;
             this.numericUpDown_HL_Zero.ValueChanged += new System.EventHandler(this.numericUpDown_HL_Zero_ValueChanged);
             // 
             // label267
             // 
             this.label267.AutoSize = true;
-            this.label267.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label267.Location = new System.Drawing.Point(217, 290);
+            this.label267.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label267.Location = new System.Drawing.Point(223, 290);
             this.label267.Name = "label267";
-            this.label267.Size = new System.Drawing.Size(56, 14);
+            this.label267.Size = new System.Drawing.Size(64, 16);
             this.label267.TabIndex = 191;
             this.label267.Text = "水平左:";
             // 
             // label268
             // 
             this.label268.AutoSize = true;
-            this.label268.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label268.Location = new System.Drawing.Point(645, 318);
+            this.label268.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label268.Location = new System.Drawing.Point(649, 318);
             this.label268.Name = "label268";
-            this.label268.Size = new System.Drawing.Size(19, 19);
+            this.label268.Size = new System.Drawing.Size(16, 16);
             this.label268.TabIndex = 208;
             this.label268.Text = "%";
             // 
             // label269
             // 
             this.label269.AutoSize = true;
-            this.label269.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label269.Location = new System.Drawing.Point(645, 290);
+            this.label269.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label269.Location = new System.Drawing.Point(649, 290);
             this.label269.Name = "label269";
-            this.label269.Size = new System.Drawing.Size(19, 19);
+            this.label269.Size = new System.Drawing.Size(16, 16);
             this.label269.TabIndex = 205;
             this.label269.Text = "%";
             // 
             // label270
             // 
             this.label270.AutoSize = true;
-            this.label270.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label270.Location = new System.Drawing.Point(515, 318);
+            this.label270.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label270.Location = new System.Drawing.Point(516, 318);
             this.label270.Name = "label270";
-            this.label270.Size = new System.Drawing.Size(70, 14);
+            this.label270.Size = new System.Drawing.Size(80, 16);
             this.label270.TabIndex = 206;
             this.label270.Text = "后右垂直:";
             // 
             // label271
             // 
             this.label271.AutoSize = true;
-            this.label271.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label271.Location = new System.Drawing.Point(515, 290);
+            this.label271.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label271.Location = new System.Drawing.Point(516, 290);
             this.label271.Name = "label271";
-            this.label271.Size = new System.Drawing.Size(70, 14);
+            this.label271.Size = new System.Drawing.Size(80, 16);
             this.label271.TabIndex = 203;
             this.label271.Text = "后左垂直:";
             // 
             // label272
             // 
             this.label272.AutoSize = true;
-            this.label272.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label272.Location = new System.Drawing.Point(497, 319);
+            this.label272.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label272.Location = new System.Drawing.Point(499, 318);
             this.label272.Name = "label272";
-            this.label272.Size = new System.Drawing.Size(19, 19);
+            this.label272.Size = new System.Drawing.Size(16, 16);
             this.label272.TabIndex = 202;
             this.label272.Text = "%";
             // 
             // label273
             // 
             this.label273.AutoSize = true;
-            this.label273.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label273.Location = new System.Drawing.Point(497, 291);
+            this.label273.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label273.Location = new System.Drawing.Point(499, 290);
             this.label273.Name = "label273";
-            this.label273.Size = new System.Drawing.Size(19, 19);
+            this.label273.Size = new System.Drawing.Size(16, 16);
             this.label273.TabIndex = 196;
             this.label273.Text = "%";
             // 
@@ -6402,16 +6403,16 @@
             // 
             this.numericUpDown_VRB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_VRB.DecimalPlaces = 2;
-            this.numericUpDown_VRB.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_VRB.Font = new System.Drawing.Font("SimSun", 12F);
             this.numericUpDown_VRB.ForeColor = System.Drawing.SystemColors.Control;
-            this.numericUpDown_VRB.Location = new System.Drawing.Point(584, 254);
+            this.numericUpDown_VRB.Location = new System.Drawing.Point(591, 254);
             this.numericUpDown_VRB.Minimum = new decimal(new int[] {
             100,
             0,
             0,
             -2147483648});
             this.numericUpDown_VRB.Name = "numericUpDown_VRB";
-            this.numericUpDown_VRB.Size = new System.Drawing.Size(59, 28);
+            this.numericUpDown_VRB.Size = new System.Drawing.Size(59, 26);
             this.numericUpDown_VRB.TabIndex = 189;
             this.numericUpDown_VRB.ValueChanged += new System.EventHandler(this.numericUpDown_VRB_ValueChanged);
             // 
@@ -6419,16 +6420,16 @@
             // 
             this.numericUpDown_VLB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_VLB.DecimalPlaces = 2;
-            this.numericUpDown_VLB.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_VLB.Font = new System.Drawing.Font("SimSun", 12F);
             this.numericUpDown_VLB.ForeColor = System.Drawing.SystemColors.Control;
-            this.numericUpDown_VLB.Location = new System.Drawing.Point(584, 226);
+            this.numericUpDown_VLB.Location = new System.Drawing.Point(591, 226);
             this.numericUpDown_VLB.Minimum = new decimal(new int[] {
             100,
             0,
             0,
             -2147483648});
             this.numericUpDown_VLB.Name = "numericUpDown_VLB";
-            this.numericUpDown_VLB.Size = new System.Drawing.Size(59, 28);
+            this.numericUpDown_VLB.Size = new System.Drawing.Size(59, 26);
             this.numericUpDown_VLB.TabIndex = 186;
             this.numericUpDown_VLB.ValueChanged += new System.EventHandler(this.numericUpDown_VLB_ValueChanged);
             // 
@@ -6436,7 +6437,7 @@
             // 
             this.numericUpDown_VRF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_VRF.DecimalPlaces = 2;
-            this.numericUpDown_VRF.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_VRF.Font = new System.Drawing.Font("SimSun", 12F);
             this.numericUpDown_VRF.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_VRF.Location = new System.Drawing.Point(437, 254);
             this.numericUpDown_VRF.Minimum = new decimal(new int[] {
@@ -6445,27 +6446,27 @@
             0,
             -2147483648});
             this.numericUpDown_VRF.Name = "numericUpDown_VRF";
-            this.numericUpDown_VRF.Size = new System.Drawing.Size(59, 28);
+            this.numericUpDown_VRF.Size = new System.Drawing.Size(59, 26);
             this.numericUpDown_VRF.TabIndex = 183;
             this.numericUpDown_VRF.ValueChanged += new System.EventHandler(this.numericUpDown_VRF_ValueChanged);
             // 
             // label249
             // 
             this.label249.AutoSize = true;
-            this.label249.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label249.Location = new System.Drawing.Point(368, 259);
+            this.label249.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label249.Location = new System.Drawing.Point(361, 260);
             this.label249.Name = "label249";
-            this.label249.Size = new System.Drawing.Size(70, 14);
+            this.label249.Size = new System.Drawing.Size(80, 16);
             this.label249.TabIndex = 182;
             this.label249.Text = "前右垂直:";
             // 
             // label250
             // 
             this.label250.AutoSize = true;
-            this.label250.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label250.Location = new System.Drawing.Point(339, 258);
+            this.label250.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label250.Location = new System.Drawing.Point(346, 259);
             this.label250.Name = "label250";
-            this.label250.Size = new System.Drawing.Size(19, 19);
+            this.label250.Size = new System.Drawing.Size(16, 16);
             this.label250.TabIndex = 181;
             this.label250.Text = "%";
             // 
@@ -6473,26 +6474,26 @@
             // 
             this.numericUpDown_HR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_HR.DecimalPlaces = 2;
-            this.numericUpDown_HR.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_HR.Font = new System.Drawing.Font("SimSun", 12F);
             this.numericUpDown_HR.ForeColor = System.Drawing.SystemColors.Control;
-            this.numericUpDown_HR.Location = new System.Drawing.Point(277, 254);
+            this.numericUpDown_HR.Location = new System.Drawing.Point(284, 254);
             this.numericUpDown_HR.Minimum = new decimal(new int[] {
             100,
             0,
             0,
             -2147483648});
             this.numericUpDown_HR.Name = "numericUpDown_HR";
-            this.numericUpDown_HR.Size = new System.Drawing.Size(59, 28);
+            this.numericUpDown_HR.Size = new System.Drawing.Size(59, 26);
             this.numericUpDown_HR.TabIndex = 180;
             this.numericUpDown_HR.ValueChanged += new System.EventHandler(this.numericUpDown_HR_ValueChanged);
             // 
             // label251
             // 
             this.label251.AutoSize = true;
-            this.label251.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label251.Location = new System.Drawing.Point(217, 259);
+            this.label251.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label251.Location = new System.Drawing.Point(223, 259);
             this.label251.Name = "label251";
-            this.label251.Size = new System.Drawing.Size(56, 14);
+            this.label251.Size = new System.Drawing.Size(64, 16);
             this.label251.TabIndex = 179;
             this.label251.Text = "水平右:";
             // 
@@ -6500,7 +6501,7 @@
             // 
             this.numericUpDown_VLF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_VLF.DecimalPlaces = 2;
-            this.numericUpDown_VLF.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_VLF.Font = new System.Drawing.Font("SimSun", 12F);
             this.numericUpDown_VLF.ForeColor = System.Drawing.SystemColors.Control;
             this.numericUpDown_VLF.Location = new System.Drawing.Point(437, 226);
             this.numericUpDown_VLF.Minimum = new decimal(new int[] {
@@ -6509,27 +6510,27 @@
             0,
             -2147483648});
             this.numericUpDown_VLF.Name = "numericUpDown_VLF";
-            this.numericUpDown_VLF.Size = new System.Drawing.Size(59, 28);
+            this.numericUpDown_VLF.Size = new System.Drawing.Size(59, 26);
             this.numericUpDown_VLF.TabIndex = 177;
             this.numericUpDown_VLF.ValueChanged += new System.EventHandler(this.numericUpDown_VLF_ValueChanged);
             // 
             // label247
             // 
             this.label247.AutoSize = true;
-            this.label247.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label247.Location = new System.Drawing.Point(371, 231);
+            this.label247.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label247.Location = new System.Drawing.Point(362, 231);
             this.label247.Name = "label247";
-            this.label247.Size = new System.Drawing.Size(70, 14);
+            this.label247.Size = new System.Drawing.Size(80, 16);
             this.label247.TabIndex = 176;
             this.label247.Text = "前左垂直:";
             // 
             // label245
             // 
             this.label245.AutoSize = true;
-            this.label245.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label245.Location = new System.Drawing.Point(339, 230);
+            this.label245.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label245.Location = new System.Drawing.Point(346, 231);
             this.label245.Name = "label245";
-            this.label245.Size = new System.Drawing.Size(19, 19);
+            this.label245.Size = new System.Drawing.Size(16, 16);
             this.label245.TabIndex = 175;
             this.label245.Text = "%";
             // 
@@ -6537,330 +6538,330 @@
             // 
             this.numericUpDown_HL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.numericUpDown_HL.DecimalPlaces = 2;
-            this.numericUpDown_HL.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.numericUpDown_HL.Font = new System.Drawing.Font("SimSun", 12F);
             this.numericUpDown_HL.ForeColor = System.Drawing.SystemColors.Control;
-            this.numericUpDown_HL.Location = new System.Drawing.Point(277, 226);
+            this.numericUpDown_HL.Location = new System.Drawing.Point(284, 226);
             this.numericUpDown_HL.Minimum = new decimal(new int[] {
             100,
             0,
             0,
             -2147483648});
             this.numericUpDown_HL.Name = "numericUpDown_HL";
-            this.numericUpDown_HL.Size = new System.Drawing.Size(59, 28);
+            this.numericUpDown_HL.Size = new System.Drawing.Size(59, 26);
             this.numericUpDown_HL.TabIndex = 174;
             this.numericUpDown_HL.ValueChanged += new System.EventHandler(this.numericUpDown_HL_ValueChanged);
             // 
             // label244
             // 
             this.label244.AutoSize = true;
-            this.label244.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label244.Location = new System.Drawing.Point(220, 231);
+            this.label244.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label244.Location = new System.Drawing.Point(222, 231);
             this.label244.Name = "label244";
-            this.label244.Size = new System.Drawing.Size(56, 14);
+            this.label244.Size = new System.Drawing.Size(64, 16);
             this.label244.TabIndex = 173;
             this.label244.Text = "水平左:";
             // 
             // label83
             // 
             this.label83.AutoSize = true;
-            this.label83.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label83.Font = new System.Drawing.Font("SimSun", 12F);
             this.label83.Location = new System.Drawing.Point(598, 62);
             this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(28, 14);
+            this.label83.Size = new System.Drawing.Size(32, 16);
             this.label83.TabIndex = 171;
             this.label83.Text = "D1:";
             // 
             // label84
             // 
             this.label84.AutoSize = true;
-            this.label84.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label84.Font = new System.Drawing.Font("SimSun", 12F);
             this.label84.Location = new System.Drawing.Point(546, 62);
             this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(28, 14);
+            this.label84.Size = new System.Drawing.Size(32, 16);
             this.label84.TabIndex = 169;
             this.label84.Text = "D2:";
             // 
             // label85
             // 
             this.label85.AutoSize = true;
-            this.label85.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label85.Font = new System.Drawing.Font("SimSun", 12F);
             this.label85.Location = new System.Drawing.Point(494, 62);
             this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(28, 14);
+            this.label85.Size = new System.Drawing.Size(32, 16);
             this.label85.TabIndex = 167;
             this.label85.Text = "D3:";
             // 
             // label86
             // 
             this.label86.AutoSize = true;
-            this.label86.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label86.Font = new System.Drawing.Font("SimSun", 12F);
             this.label86.Location = new System.Drawing.Point(442, 62);
             this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(28, 14);
+            this.label86.Size = new System.Drawing.Size(32, 16);
             this.label86.TabIndex = 165;
             this.label86.Text = "D4:";
             // 
             // label87
             // 
             this.label87.AutoSize = true;
-            this.label87.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label87.Font = new System.Drawing.Font("SimSun", 12F);
             this.label87.Location = new System.Drawing.Point(390, 62);
             this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(28, 14);
+            this.label87.Size = new System.Drawing.Size(32, 16);
             this.label87.TabIndex = 163;
             this.label87.Text = "D5:";
             // 
             // label97
             // 
             this.label97.AutoSize = true;
-            this.label97.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label97.Font = new System.Drawing.Font("SimSun", 12F);
             this.label97.Location = new System.Drawing.Point(338, 62);
             this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(28, 14);
+            this.label97.Size = new System.Drawing.Size(32, 16);
             this.label97.TabIndex = 161;
             this.label97.Text = "D6:";
             // 
             // label98
             // 
             this.label98.AutoSize = true;
-            this.label98.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label98.Font = new System.Drawing.Font("SimSun", 12F);
             this.label98.Location = new System.Drawing.Point(286, 62);
             this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(28, 14);
+            this.label98.Size = new System.Drawing.Size(32, 16);
             this.label98.TabIndex = 159;
             this.label98.Text = "D7:";
             // 
             // label99
             // 
             this.label99.AutoSize = true;
-            this.label99.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label99.Font = new System.Drawing.Font("SimSun", 12F);
             this.label99.Location = new System.Drawing.Point(235, 62);
             this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(28, 14);
+            this.label99.Size = new System.Drawing.Size(32, 16);
             this.label99.TabIndex = 157;
             this.label99.Text = "D8:";
             // 
             // textBox_5VAnalog
             // 
             this.textBox_5VAnalog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_5VAnalog.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_5VAnalog.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_5VAnalog.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_5VAnalog.Location = new System.Drawing.Point(465, 25);
+            this.textBox_5VAnalog.Location = new System.Drawing.Point(472, 23);
             this.textBox_5VAnalog.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_5VAnalog.Name = "textBox_5VAnalog";
             this.textBox_5VAnalog.ReadOnly = true;
-            this.textBox_5VAnalog.Size = new System.Drawing.Size(60, 23);
+            this.textBox_5VAnalog.Size = new System.Drawing.Size(60, 26);
             this.textBox_5VAnalog.TabIndex = 149;
             // 
             // textBox_Fun8_Temperature
             // 
             this.textBox_Fun8_Temperature.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_Fun8_Temperature.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_Fun8_Temperature.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_Fun8_Temperature.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_Fun8_Temperature.Location = new System.Drawing.Point(573, 25);
             this.textBox_Fun8_Temperature.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Fun8_Temperature.Name = "textBox_Fun8_Temperature";
             this.textBox_Fun8_Temperature.ReadOnly = true;
-            this.textBox_Fun8_Temperature.Size = new System.Drawing.Size(60, 23);
+            this.textBox_Fun8_Temperature.Size = new System.Drawing.Size(60, 26);
             this.textBox_Fun8_Temperature.TabIndex = 155;
             // 
             // label100
             // 
             this.label100.AutoSize = true;
-            this.label100.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label100.Font = new System.Drawing.Font("SimSun", 12F);
             this.label100.Location = new System.Drawing.Point(530, 28);
             this.label100.Name = "label100";
-            this.label100.Size = new System.Drawing.Size(42, 14);
+            this.label100.Size = new System.Drawing.Size(48, 16);
             this.label100.TabIndex = 154;
             this.label100.Text = "温度:";
             // 
             // textBox_5VDigital
             // 
             this.textBox_5VDigital.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_5VDigital.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_5VDigital.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_5VDigital.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_5VDigital.Location = new System.Drawing.Point(316, 25);
+            this.textBox_5VDigital.Location = new System.Drawing.Point(320, 24);
             this.textBox_5VDigital.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_5VDigital.Name = "textBox_5VDigital";
             this.textBox_5VDigital.ReadOnly = true;
-            this.textBox_5VDigital.Size = new System.Drawing.Size(60, 23);
+            this.textBox_5VDigital.Size = new System.Drawing.Size(60, 26);
             this.textBox_5VDigital.TabIndex = 147;
             // 
             // textBox_CurrentFeedback1
             // 
             this.textBox_CurrentFeedback1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_CurrentFeedback1.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_CurrentFeedback1.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_CurrentFeedback1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_CurrentFeedback1.Location = new System.Drawing.Point(170, 59);
             this.textBox_CurrentFeedback1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_CurrentFeedback1.Name = "textBox_CurrentFeedback1";
             this.textBox_CurrentFeedback1.ReadOnly = true;
-            this.textBox_CurrentFeedback1.Size = new System.Drawing.Size(60, 23);
+            this.textBox_CurrentFeedback1.Size = new System.Drawing.Size(60, 26);
             this.textBox_CurrentFeedback1.TabIndex = 153;
             // 
             // label101
             // 
             this.label101.AutoSize = true;
-            this.label101.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label101.Font = new System.Drawing.Font("SimSun", 12F);
             this.label101.Location = new System.Drawing.Point(120, 62);
             this.label101.Name = "label101";
-            this.label101.Size = new System.Drawing.Size(49, 14);
+            this.label101.Size = new System.Drawing.Size(56, 16);
             this.label101.TabIndex = 152;
             this.label101.Text = "电流2:";
             // 
             // textBox_CurrentFeedback2
             // 
             this.textBox_CurrentFeedback2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_CurrentFeedback2.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_CurrentFeedback2.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_CurrentFeedback2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_CurrentFeedback2.Location = new System.Drawing.Point(54, 59);
             this.textBox_CurrentFeedback2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_CurrentFeedback2.Name = "textBox_CurrentFeedback2";
             this.textBox_CurrentFeedback2.ReadOnly = true;
-            this.textBox_CurrentFeedback2.Size = new System.Drawing.Size(60, 23);
+            this.textBox_CurrentFeedback2.Size = new System.Drawing.Size(60, 26);
             this.textBox_CurrentFeedback2.TabIndex = 151;
             // 
             // textBox_15V
             // 
             this.textBox_15V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_15V.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_15V.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_15V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_15V.Location = new System.Drawing.Point(170, 25);
             this.textBox_15V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_15V.Name = "textBox_15V";
             this.textBox_15V.ReadOnly = true;
-            this.textBox_15V.Size = new System.Drawing.Size(60, 23);
+            this.textBox_15V.Size = new System.Drawing.Size(60, 26);
             this.textBox_15V.TabIndex = 145;
             // 
             // label102
             // 
             this.label102.AutoSize = true;
-            this.label102.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label102.Font = new System.Drawing.Font("SimSun", 12F);
             this.label102.Location = new System.Drawing.Point(4, 62);
             this.label102.Name = "label102";
-            this.label102.Size = new System.Drawing.Size(49, 14);
+            this.label102.Size = new System.Drawing.Size(56, 16);
             this.label102.TabIndex = 150;
             this.label102.Text = "电流1:";
             // 
             // textBox_24V
             // 
             this.textBox_24V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_24V.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.textBox_24V.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_24V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_24V.Location = new System.Drawing.Point(54, 25);
             this.textBox_24V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_24V.Name = "textBox_24V";
             this.textBox_24V.ReadOnly = true;
-            this.textBox_24V.Size = new System.Drawing.Size(60, 23);
+            this.textBox_24V.Size = new System.Drawing.Size(60, 26);
             this.textBox_24V.TabIndex = 143;
             // 
             // label103
             // 
             this.label103.AutoSize = true;
-            this.label103.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label103.Font = new System.Drawing.Font("SimSun", 12F);
             this.label103.Location = new System.Drawing.Point(12, 29);
             this.label103.Name = "label103";
-            this.label103.Size = new System.Drawing.Size(42, 14);
+            this.label103.Size = new System.Drawing.Size(48, 16);
             this.label103.TabIndex = 142;
             this.label103.Text = "+24V:";
             // 
             // label105
             // 
             this.label105.AutoSize = true;
-            this.label105.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label105.Font = new System.Drawing.Font("SimSun", 12F);
             this.label105.Location = new System.Drawing.Point(126, 29);
             this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(42, 14);
+            this.label105.Size = new System.Drawing.Size(48, 16);
             this.label105.TabIndex = 144;
             this.label105.Text = "+15V:";
             // 
             // label106
             // 
             this.label106.AutoSize = true;
-            this.label106.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label106.Font = new System.Drawing.Font("SimSun", 12F);
             this.label106.Location = new System.Drawing.Point(238, 29);
             this.label106.Name = "label106";
-            this.label106.Size = new System.Drawing.Size(77, 14);
+            this.label106.Size = new System.Drawing.Size(88, 16);
             this.label106.TabIndex = 146;
             this.label106.Text = "+5V(数字):";
             // 
             // label133
             // 
             this.label133.AutoSize = true;
-            this.label133.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label133.Font = new System.Drawing.Font("SimSun", 12F);
             this.label133.Location = new System.Drawing.Point(385, 29);
             this.label133.Name = "label133";
-            this.label133.Size = new System.Drawing.Size(77, 14);
+            this.label133.Size = new System.Drawing.Size(88, 16);
             this.label133.TabIndex = 148;
             this.label133.Text = "+5V(模拟):";
             // 
             // label134
             // 
             this.label134.AutoSize = true;
-            this.label134.Font = new System.Drawing.Font("SimSun", 10.5F);
+            this.label134.Font = new System.Drawing.Font("SimSun", 12F);
             this.label134.Location = new System.Drawing.Point(632, 30);
             this.label134.Name = "label134";
-            this.label134.Size = new System.Drawing.Size(21, 14);
+            this.label134.Size = new System.Drawing.Size(24, 16);
             this.label134.TabIndex = 156;
             this.label134.Text = "℃";
             // 
             // label252
             // 
             this.label252.AutoSize = true;
-            this.label252.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label252.Location = new System.Drawing.Point(645, 259);
+            this.label252.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label252.Location = new System.Drawing.Point(649, 259);
             this.label252.Name = "label252";
-            this.label252.Size = new System.Drawing.Size(19, 19);
+            this.label252.Size = new System.Drawing.Size(16, 16);
             this.label252.TabIndex = 190;
             this.label252.Text = "%";
             // 
             // label254
             // 
             this.label254.AutoSize = true;
-            this.label254.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label254.Location = new System.Drawing.Point(645, 231);
+            this.label254.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label254.Location = new System.Drawing.Point(649, 231);
             this.label254.Name = "label254";
-            this.label254.Size = new System.Drawing.Size(19, 19);
+            this.label254.Size = new System.Drawing.Size(16, 16);
             this.label254.TabIndex = 187;
             this.label254.Text = "%";
             // 
             // label253
             // 
             this.label253.AutoSize = true;
-            this.label253.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label253.Location = new System.Drawing.Point(515, 259);
+            this.label253.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label253.Location = new System.Drawing.Point(515, 261);
             this.label253.Name = "label253";
-            this.label253.Size = new System.Drawing.Size(70, 14);
+            this.label253.Size = new System.Drawing.Size(80, 16);
             this.label253.TabIndex = 188;
             this.label253.Text = "后右垂直:";
             // 
             // label255
             // 
             this.label255.AutoSize = true;
-            this.label255.Font = new System.Drawing.Font("SimSun", 10.5F);
-            this.label255.Location = new System.Drawing.Point(518, 231);
+            this.label255.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label255.Location = new System.Drawing.Point(517, 231);
             this.label255.Name = "label255";
-            this.label255.Size = new System.Drawing.Size(70, 14);
+            this.label255.Size = new System.Drawing.Size(80, 16);
             this.label255.TabIndex = 185;
             this.label255.Text = "后左垂直:";
             // 
             // label248
             // 
             this.label248.AutoSize = true;
-            this.label248.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label248.Location = new System.Drawing.Point(497, 260);
+            this.label248.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label248.Location = new System.Drawing.Point(499, 259);
             this.label248.Name = "label248";
-            this.label248.Size = new System.Drawing.Size(19, 19);
+            this.label248.Size = new System.Drawing.Size(16, 16);
             this.label248.TabIndex = 184;
             this.label248.Text = "%";
             // 
             // label246
             // 
             this.label246.AutoSize = true;
-            this.label246.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label246.Location = new System.Drawing.Point(497, 232);
+            this.label246.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label246.Location = new System.Drawing.Point(499, 231);
             this.label246.Name = "label246";
-            this.label246.Size = new System.Drawing.Size(19, 19);
+            this.label246.Size = new System.Drawing.Size(16, 16);
             this.label246.TabIndex = 178;
             this.label246.Text = "%";
             // 
@@ -6905,7 +6906,7 @@
             this.groupBox43.Controls.Add(this.label284);
             this.groupBox43.Controls.Add(this.label285);
             this.groupBox43.Controls.Add(this.label286);
-            this.groupBox43.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox43.Font = new System.Drawing.Font("SimSun", 12F);
             this.groupBox43.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox43.Location = new System.Drawing.Point(10, 10);
             this.groupBox43.Margin = new System.Windows.Forms.Padding(2);
@@ -6920,184 +6921,184 @@
             // textBox_DianJi_Detecte_Para5
             // 
             this.textBox_DianJi_Detecte_Para5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_DianJi_Detecte_Para5.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_DianJi_Detecte_Para5.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DianJi_Detecte_Para5.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DianJi_Detecte_Para5.Location = new System.Drawing.Point(271, 154);
             this.textBox_DianJi_Detecte_Para5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DianJi_Detecte_Para5.Name = "textBox_DianJi_Detecte_Para5";
             this.textBox_DianJi_Detecte_Para5.ReadOnly = true;
-            this.textBox_DianJi_Detecte_Para5.Size = new System.Drawing.Size(70, 28);
+            this.textBox_DianJi_Detecte_Para5.Size = new System.Drawing.Size(70, 26);
             this.textBox_DianJi_Detecte_Para5.TabIndex = 124;
             // 
             // label258
             // 
             this.label258.AutoSize = true;
-            this.label258.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.label258.Font = new System.Drawing.Font("SimSun", 12F);
             this.label258.Location = new System.Drawing.Point(209, 158);
             this.label258.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label258.Name = "label258";
-            this.label258.Size = new System.Drawing.Size(67, 19);
+            this.label258.Size = new System.Drawing.Size(56, 16);
             this.label258.TabIndex = 123;
             this.label258.Text = "漏水5:";
             // 
             // textBox_DianJi_Detecte_Para8
             // 
             this.textBox_DianJi_Detecte_Para8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_DianJi_Detecte_Para8.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_DianJi_Detecte_Para8.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DianJi_Detecte_Para8.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DianJi_Detecte_Para8.Location = new System.Drawing.Point(271, 112);
             this.textBox_DianJi_Detecte_Para8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DianJi_Detecte_Para8.Name = "textBox_DianJi_Detecte_Para8";
             this.textBox_DianJi_Detecte_Para8.ReadOnly = true;
-            this.textBox_DianJi_Detecte_Para8.Size = new System.Drawing.Size(70, 28);
+            this.textBox_DianJi_Detecte_Para8.Size = new System.Drawing.Size(70, 26);
             this.textBox_DianJi_Detecte_Para8.TabIndex = 120;
             // 
             // textBox_DianJi_Detecte_Para7
             // 
             this.textBox_DianJi_Detecte_Para7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_DianJi_Detecte_Para7.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_DianJi_Detecte_Para7.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DianJi_Detecte_Para7.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DianJi_Detecte_Para7.Location = new System.Drawing.Point(271, 70);
             this.textBox_DianJi_Detecte_Para7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DianJi_Detecte_Para7.Name = "textBox_DianJi_Detecte_Para7";
             this.textBox_DianJi_Detecte_Para7.ReadOnly = true;
-            this.textBox_DianJi_Detecte_Para7.Size = new System.Drawing.Size(70, 28);
+            this.textBox_DianJi_Detecte_Para7.Size = new System.Drawing.Size(70, 26);
             this.textBox_DianJi_Detecte_Para7.TabIndex = 118;
             // 
             // textBox_DianJi_Detecte_Para6
             // 
             this.textBox_DianJi_Detecte_Para6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_DianJi_Detecte_Para6.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_DianJi_Detecte_Para6.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DianJi_Detecte_Para6.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DianJi_Detecte_Para6.Location = new System.Drawing.Point(271, 28);
             this.textBox_DianJi_Detecte_Para6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DianJi_Detecte_Para6.Name = "textBox_DianJi_Detecte_Para6";
             this.textBox_DianJi_Detecte_Para6.ReadOnly = true;
-            this.textBox_DianJi_Detecte_Para6.Size = new System.Drawing.Size(70, 28);
+            this.textBox_DianJi_Detecte_Para6.Size = new System.Drawing.Size(70, 26);
             this.textBox_DianJi_Detecte_Para6.TabIndex = 116;
             // 
             // textBox_DianJi_Detecte_Para4
             // 
             this.textBox_DianJi_Detecte_Para4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_DianJi_Detecte_Para4.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_DianJi_Detecte_Para4.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DianJi_Detecte_Para4.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DianJi_Detecte_Para4.Location = new System.Drawing.Point(104, 154);
             this.textBox_DianJi_Detecte_Para4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DianJi_Detecte_Para4.Name = "textBox_DianJi_Detecte_Para4";
             this.textBox_DianJi_Detecte_Para4.ReadOnly = true;
-            this.textBox_DianJi_Detecte_Para4.Size = new System.Drawing.Size(70, 28);
+            this.textBox_DianJi_Detecte_Para4.Size = new System.Drawing.Size(70, 26);
             this.textBox_DianJi_Detecte_Para4.TabIndex = 114;
             // 
             // label278
             // 
             this.label278.AutoSize = true;
-            this.label278.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.label278.Font = new System.Drawing.Font("SimSun", 12F);
             this.label278.Location = new System.Drawing.Point(38, 159);
             this.label278.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label278.Name = "label278";
-            this.label278.Size = new System.Drawing.Size(67, 19);
+            this.label278.Size = new System.Drawing.Size(56, 16);
             this.label278.TabIndex = 113;
             this.label278.Text = "漏水4:";
             // 
             // textBox_DianJi_Detecte_Para3
             // 
             this.textBox_DianJi_Detecte_Para3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_DianJi_Detecte_Para3.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_DianJi_Detecte_Para3.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DianJi_Detecte_Para3.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DianJi_Detecte_Para3.Location = new System.Drawing.Point(104, 112);
             this.textBox_DianJi_Detecte_Para3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DianJi_Detecte_Para3.Name = "textBox_DianJi_Detecte_Para3";
             this.textBox_DianJi_Detecte_Para3.ReadOnly = true;
-            this.textBox_DianJi_Detecte_Para3.Size = new System.Drawing.Size(70, 28);
+            this.textBox_DianJi_Detecte_Para3.Size = new System.Drawing.Size(70, 26);
             this.textBox_DianJi_Detecte_Para3.TabIndex = 112;
             // 
             // label279
             // 
             this.label279.AutoSize = true;
-            this.label279.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.label279.Font = new System.Drawing.Font("SimSun", 12F);
             this.label279.Location = new System.Drawing.Point(38, 117);
             this.label279.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label279.Name = "label279";
-            this.label279.Size = new System.Drawing.Size(67, 19);
+            this.label279.Size = new System.Drawing.Size(56, 16);
             this.label279.TabIndex = 111;
             this.label279.Text = "漏水3:";
             // 
             // textBox_DianJi_Detecte_Para2
             // 
             this.textBox_DianJi_Detecte_Para2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_DianJi_Detecte_Para2.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_DianJi_Detecte_Para2.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DianJi_Detecte_Para2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DianJi_Detecte_Para2.Location = new System.Drawing.Point(104, 70);
             this.textBox_DianJi_Detecte_Para2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DianJi_Detecte_Para2.Name = "textBox_DianJi_Detecte_Para2";
             this.textBox_DianJi_Detecte_Para2.ReadOnly = true;
-            this.textBox_DianJi_Detecte_Para2.Size = new System.Drawing.Size(70, 28);
+            this.textBox_DianJi_Detecte_Para2.Size = new System.Drawing.Size(70, 26);
             this.textBox_DianJi_Detecte_Para2.TabIndex = 110;
             // 
             // label280
             // 
             this.label280.AutoSize = true;
-            this.label280.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label280.Location = new System.Drawing.Point(10, 75);
+            this.label280.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label280.Location = new System.Drawing.Point(14, 75);
             this.label280.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label280.Name = "label280";
-            this.label280.Size = new System.Drawing.Size(95, 19);
+            this.label280.Size = new System.Drawing.Size(80, 16);
             this.label280.TabIndex = 109;
             this.label280.Text = "右侧漏水:";
             // 
             // textBox_DianJi_Detecte_Para1
             // 
             this.textBox_DianJi_Detecte_Para1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_DianJi_Detecte_Para1.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_DianJi_Detecte_Para1.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DianJi_Detecte_Para1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DianJi_Detecte_Para1.Location = new System.Drawing.Point(104, 28);
             this.textBox_DianJi_Detecte_Para1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DianJi_Detecte_Para1.Name = "textBox_DianJi_Detecte_Para1";
             this.textBox_DianJi_Detecte_Para1.ReadOnly = true;
-            this.textBox_DianJi_Detecte_Para1.Size = new System.Drawing.Size(70, 28);
+            this.textBox_DianJi_Detecte_Para1.Size = new System.Drawing.Size(70, 26);
             this.textBox_DianJi_Detecte_Para1.TabIndex = 108;
             // 
             // label281
             // 
             this.label281.AutoSize = true;
-            this.label281.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label281.Location = new System.Drawing.Point(10, 33);
+            this.label281.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label281.Location = new System.Drawing.Point(14, 32);
             this.label281.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label281.Name = "label281";
-            this.label281.Size = new System.Drawing.Size(95, 19);
+            this.label281.Size = new System.Drawing.Size(80, 16);
             this.label281.TabIndex = 107;
             this.label281.Text = "左侧漏水:";
             // 
             // label284
             // 
             this.label284.AutoSize = true;
-            this.label284.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.label284.Font = new System.Drawing.Font("SimSun", 12F);
             this.label284.Location = new System.Drawing.Point(209, 116);
             this.label284.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label284.Name = "label284";
-            this.label284.Size = new System.Drawing.Size(67, 19);
+            this.label284.Size = new System.Drawing.Size(56, 16);
             this.label284.TabIndex = 119;
             this.label284.Text = "温度3:";
             // 
             // label285
             // 
             this.label285.AutoSize = true;
-            this.label285.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label285.Location = new System.Drawing.Point(181, 74);
+            this.label285.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label285.Location = new System.Drawing.Point(187, 75);
             this.label285.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label285.Name = "label285";
-            this.label285.Size = new System.Drawing.Size(95, 19);
+            this.label285.Size = new System.Drawing.Size(80, 16);
             this.label285.TabIndex = 117;
             this.label285.Text = "右侧温度:";
             // 
             // label286
             // 
             this.label286.AutoSize = true;
-            this.label286.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label286.Location = new System.Drawing.Point(181, 32);
+            this.label286.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label286.Location = new System.Drawing.Point(187, 33);
             this.label286.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label286.Name = "label286";
-            this.label286.Size = new System.Drawing.Size(95, 19);
+            this.label286.Size = new System.Drawing.Size(80, 16);
             this.label286.TabIndex = 115;
             this.label286.Text = "左侧温度:";
             // 
@@ -7140,138 +7141,138 @@
             // textBox_JueYuanJianCe_1_ACDC
             // 
             this.textBox_JueYuanJianCe_1_ACDC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_JueYuanJianCe_1_ACDC.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_1_ACDC.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_JueYuanJianCe_1_ACDC.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_1_ACDC.Location = new System.Drawing.Point(175, 183);
             this.textBox_JueYuanJianCe_1_ACDC.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_1_ACDC.Name = "textBox_JueYuanJianCe_1_ACDC";
             this.textBox_JueYuanJianCe_1_ACDC.ReadOnly = true;
-            this.textBox_JueYuanJianCe_1_ACDC.Size = new System.Drawing.Size(130, 28);
+            this.textBox_JueYuanJianCe_1_ACDC.Size = new System.Drawing.Size(130, 26);
             this.textBox_JueYuanJianCe_1_ACDC.TabIndex = 120;
             // 
             // label298
             // 
             this.label298.AutoSize = true;
-            this.label298.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label298.Location = new System.Drawing.Point(44, 188);
+            this.label298.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label298.Location = new System.Drawing.Point(49, 188);
             this.label298.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label298.Name = "label298";
-            this.label298.Size = new System.Drawing.Size(116, 19);
+            this.label298.Size = new System.Drawing.Size(96, 16);
             this.label298.TabIndex = 119;
             this.label298.Text = "AC、DC状态:";
             // 
             // textBox_JueYuanJianCe_1_Alarm12
             // 
             this.textBox_JueYuanJianCe_1_Alarm12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_JueYuanJianCe_1_Alarm12.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_1_Alarm12.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_JueYuanJianCe_1_Alarm12.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_1_Alarm12.Location = new System.Drawing.Point(175, 152);
             this.textBox_JueYuanJianCe_1_Alarm12.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_1_Alarm12.Name = "textBox_JueYuanJianCe_1_Alarm12";
             this.textBox_JueYuanJianCe_1_Alarm12.ReadOnly = true;
-            this.textBox_JueYuanJianCe_1_Alarm12.Size = new System.Drawing.Size(130, 28);
+            this.textBox_JueYuanJianCe_1_Alarm12.Size = new System.Drawing.Size(130, 26);
             this.textBox_JueYuanJianCe_1_Alarm12.TabIndex = 118;
             // 
             // label299
             // 
             this.label299.AutoSize = true;
-            this.label299.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label299.Location = new System.Drawing.Point(23, 157);
+            this.label299.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label299.Location = new System.Drawing.Point(33, 155);
             this.label299.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label299.Name = "label299";
-            this.label299.Size = new System.Drawing.Size(137, 19);
+            this.label299.Size = new System.Drawing.Size(112, 16);
             this.label299.TabIndex = 117;
             this.label299.Text = "Alarm1_2状态:";
             // 
             // textBox_JueYuanJianCe_1_K1K2
             // 
             this.textBox_JueYuanJianCe_1_K1K2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_JueYuanJianCe_1_K1K2.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_1_K1K2.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_JueYuanJianCe_1_K1K2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_1_K1K2.Location = new System.Drawing.Point(175, 121);
             this.textBox_JueYuanJianCe_1_K1K2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_1_K1K2.Name = "textBox_JueYuanJianCe_1_K1K2";
             this.textBox_JueYuanJianCe_1_K1K2.ReadOnly = true;
-            this.textBox_JueYuanJianCe_1_K1K2.Size = new System.Drawing.Size(130, 28);
+            this.textBox_JueYuanJianCe_1_K1K2.Size = new System.Drawing.Size(130, 26);
             this.textBox_JueYuanJianCe_1_K1K2.TabIndex = 116;
             // 
             // label300
             // 
             this.label300.AutoSize = true;
-            this.label300.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label300.Location = new System.Drawing.Point(44, 126);
+            this.label300.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label300.Location = new System.Drawing.Point(49, 126);
             this.label300.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label300.Name = "label300";
-            this.label300.Size = new System.Drawing.Size(116, 19);
+            this.label300.Size = new System.Drawing.Size(96, 16);
             this.label300.TabIndex = 115;
             this.label300.Text = "K1、K2状态:";
             // 
             // textBox_JueYuanJianCe_1_Alarm2Value
             // 
             this.textBox_JueYuanJianCe_1_Alarm2Value.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_JueYuanJianCe_1_Alarm2Value.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_1_Alarm2Value.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_JueYuanJianCe_1_Alarm2Value.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_1_Alarm2Value.Location = new System.Drawing.Point(175, 90);
             this.textBox_JueYuanJianCe_1_Alarm2Value.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_1_Alarm2Value.Name = "textBox_JueYuanJianCe_1_Alarm2Value";
             this.textBox_JueYuanJianCe_1_Alarm2Value.ReadOnly = true;
-            this.textBox_JueYuanJianCe_1_Alarm2Value.Size = new System.Drawing.Size(130, 28);
+            this.textBox_JueYuanJianCe_1_Alarm2Value.Size = new System.Drawing.Size(130, 26);
             this.textBox_JueYuanJianCe_1_Alarm2Value.TabIndex = 114;
             // 
             // label301
             // 
             this.label301.AutoSize = true;
-            this.label301.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.label301.Font = new System.Drawing.Font("SimSun", 12F);
             this.label301.Location = new System.Drawing.Point(81, 95);
             this.label301.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label301.Name = "label301";
-            this.label301.Size = new System.Drawing.Size(79, 19);
+            this.label301.Size = new System.Drawing.Size(64, 16);
             this.label301.TabIndex = 113;
             this.label301.Text = "Alarm2:";
             // 
             // textBox_JueYuanJianCe_1_Alarm1Value
             // 
             this.textBox_JueYuanJianCe_1_Alarm1Value.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_JueYuanJianCe_1_Alarm1Value.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_1_Alarm1Value.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_JueYuanJianCe_1_Alarm1Value.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_1_Alarm1Value.Location = new System.Drawing.Point(175, 59);
             this.textBox_JueYuanJianCe_1_Alarm1Value.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_1_Alarm1Value.Name = "textBox_JueYuanJianCe_1_Alarm1Value";
             this.textBox_JueYuanJianCe_1_Alarm1Value.ReadOnly = true;
-            this.textBox_JueYuanJianCe_1_Alarm1Value.Size = new System.Drawing.Size(130, 28);
+            this.textBox_JueYuanJianCe_1_Alarm1Value.Size = new System.Drawing.Size(130, 26);
             this.textBox_JueYuanJianCe_1_Alarm1Value.TabIndex = 112;
             // 
             // label302
             // 
             this.label302.AutoSize = true;
-            this.label302.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.label302.Font = new System.Drawing.Font("SimSun", 12F);
             this.label302.Location = new System.Drawing.Point(81, 64);
             this.label302.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label302.Name = "label302";
-            this.label302.Size = new System.Drawing.Size(79, 19);
+            this.label302.Size = new System.Drawing.Size(64, 16);
             this.label302.TabIndex = 111;
             this.label302.Text = "Alarm1:";
             // 
             // textBox_JueYuanJianCe_1_MeauringValue
             // 
             this.textBox_JueYuanJianCe_1_MeauringValue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_JueYuanJianCe_1_MeauringValue.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_1_MeauringValue.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_JueYuanJianCe_1_MeauringValue.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_1_MeauringValue.Location = new System.Drawing.Point(175, 28);
             this.textBox_JueYuanJianCe_1_MeauringValue.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_1_MeauringValue.Name = "textBox_JueYuanJianCe_1_MeauringValue";
             this.textBox_JueYuanJianCe_1_MeauringValue.ReadOnly = true;
-            this.textBox_JueYuanJianCe_1_MeauringValue.Size = new System.Drawing.Size(130, 28);
+            this.textBox_JueYuanJianCe_1_MeauringValue.Size = new System.Drawing.Size(130, 26);
             this.textBox_JueYuanJianCe_1_MeauringValue.TabIndex = 110;
             // 
             // label303
             // 
             this.label303.AutoSize = true;
-            this.label303.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label303.Location = new System.Drawing.Point(11, 33);
+            this.label303.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label303.Location = new System.Drawing.Point(25, 32);
             this.label303.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label303.Name = "label303";
-            this.label303.Size = new System.Drawing.Size(149, 19);
+            this.label303.Size = new System.Drawing.Size(120, 16);
             this.label303.TabIndex = 109;
             this.label303.Text = "MeauringValue:";
             // 
@@ -7312,138 +7313,138 @@
             // textBox_JueYuanJianCe_2_ACDC
             // 
             this.textBox_JueYuanJianCe_2_ACDC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_JueYuanJianCe_2_ACDC.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_2_ACDC.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_JueYuanJianCe_2_ACDC.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_2_ACDC.Location = new System.Drawing.Point(175, 183);
             this.textBox_JueYuanJianCe_2_ACDC.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_2_ACDC.Name = "textBox_JueYuanJianCe_2_ACDC";
             this.textBox_JueYuanJianCe_2_ACDC.ReadOnly = true;
-            this.textBox_JueYuanJianCe_2_ACDC.Size = new System.Drawing.Size(130, 28);
+            this.textBox_JueYuanJianCe_2_ACDC.Size = new System.Drawing.Size(130, 26);
             this.textBox_JueYuanJianCe_2_ACDC.TabIndex = 168;
             // 
             // textBox_JueYuanJianCe_2_Alarm12
             // 
             this.textBox_JueYuanJianCe_2_Alarm12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_JueYuanJianCe_2_Alarm12.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_2_Alarm12.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_JueYuanJianCe_2_Alarm12.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_2_Alarm12.Location = new System.Drawing.Point(175, 152);
             this.textBox_JueYuanJianCe_2_Alarm12.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_2_Alarm12.Name = "textBox_JueYuanJianCe_2_Alarm12";
             this.textBox_JueYuanJianCe_2_Alarm12.ReadOnly = true;
-            this.textBox_JueYuanJianCe_2_Alarm12.Size = new System.Drawing.Size(130, 28);
+            this.textBox_JueYuanJianCe_2_Alarm12.Size = new System.Drawing.Size(130, 26);
             this.textBox_JueYuanJianCe_2_Alarm12.TabIndex = 167;
             // 
             // textBox_JueYuanJianCe_2_K1K2
             // 
             this.textBox_JueYuanJianCe_2_K1K2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_JueYuanJianCe_2_K1K2.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_2_K1K2.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_JueYuanJianCe_2_K1K2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_2_K1K2.Location = new System.Drawing.Point(175, 121);
             this.textBox_JueYuanJianCe_2_K1K2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_2_K1K2.Name = "textBox_JueYuanJianCe_2_K1K2";
             this.textBox_JueYuanJianCe_2_K1K2.ReadOnly = true;
-            this.textBox_JueYuanJianCe_2_K1K2.Size = new System.Drawing.Size(130, 28);
+            this.textBox_JueYuanJianCe_2_K1K2.Size = new System.Drawing.Size(130, 26);
             this.textBox_JueYuanJianCe_2_K1K2.TabIndex = 166;
             // 
             // textBox_JueYuanJianCe_2_Alarm2Value
             // 
             this.textBox_JueYuanJianCe_2_Alarm2Value.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_JueYuanJianCe_2_Alarm2Value.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_2_Alarm2Value.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_JueYuanJianCe_2_Alarm2Value.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_2_Alarm2Value.Location = new System.Drawing.Point(175, 90);
             this.textBox_JueYuanJianCe_2_Alarm2Value.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_2_Alarm2Value.Name = "textBox_JueYuanJianCe_2_Alarm2Value";
             this.textBox_JueYuanJianCe_2_Alarm2Value.ReadOnly = true;
-            this.textBox_JueYuanJianCe_2_Alarm2Value.Size = new System.Drawing.Size(130, 28);
+            this.textBox_JueYuanJianCe_2_Alarm2Value.Size = new System.Drawing.Size(130, 26);
             this.textBox_JueYuanJianCe_2_Alarm2Value.TabIndex = 165;
             // 
             // textBox_JueYuanJianCe_2_Alarm1Value
             // 
             this.textBox_JueYuanJianCe_2_Alarm1Value.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_JueYuanJianCe_2_Alarm1Value.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_2_Alarm1Value.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_JueYuanJianCe_2_Alarm1Value.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_2_Alarm1Value.Location = new System.Drawing.Point(175, 59);
             this.textBox_JueYuanJianCe_2_Alarm1Value.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_2_Alarm1Value.Name = "textBox_JueYuanJianCe_2_Alarm1Value";
             this.textBox_JueYuanJianCe_2_Alarm1Value.ReadOnly = true;
-            this.textBox_JueYuanJianCe_2_Alarm1Value.Size = new System.Drawing.Size(130, 28);
+            this.textBox_JueYuanJianCe_2_Alarm1Value.Size = new System.Drawing.Size(130, 26);
             this.textBox_JueYuanJianCe_2_Alarm1Value.TabIndex = 164;
             // 
             // textBox_JueYuanJianCe_2_MeauringValue
             // 
             this.textBox_JueYuanJianCe_2_MeauringValue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_JueYuanJianCe_2_MeauringValue.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.textBox_JueYuanJianCe_2_MeauringValue.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_JueYuanJianCe_2_MeauringValue.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_JueYuanJianCe_2_MeauringValue.Location = new System.Drawing.Point(175, 28);
             this.textBox_JueYuanJianCe_2_MeauringValue.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_JueYuanJianCe_2_MeauringValue.Name = "textBox_JueYuanJianCe_2_MeauringValue";
             this.textBox_JueYuanJianCe_2_MeauringValue.ReadOnly = true;
-            this.textBox_JueYuanJianCe_2_MeauringValue.Size = new System.Drawing.Size(130, 28);
+            this.textBox_JueYuanJianCe_2_MeauringValue.Size = new System.Drawing.Size(130, 26);
             this.textBox_JueYuanJianCe_2_MeauringValue.TabIndex = 163;
             // 
             // label291
             // 
             this.label291.AutoSize = true;
-            this.label291.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label291.Location = new System.Drawing.Point(44, 188);
+            this.label291.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label291.Location = new System.Drawing.Point(49, 188);
             this.label291.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label291.Name = "label291";
-            this.label291.Size = new System.Drawing.Size(116, 19);
+            this.label291.Size = new System.Drawing.Size(96, 16);
             this.label291.TabIndex = 131;
             this.label291.Text = "AC、DC状态:";
             // 
             // label292
             // 
             this.label292.AutoSize = true;
-            this.label292.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label292.Location = new System.Drawing.Point(23, 157);
+            this.label292.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label292.Location = new System.Drawing.Point(33, 155);
             this.label292.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label292.Name = "label292";
-            this.label292.Size = new System.Drawing.Size(137, 19);
+            this.label292.Size = new System.Drawing.Size(112, 16);
             this.label292.TabIndex = 129;
             this.label292.Text = "Alarm1_2状态:";
             // 
             // label293
             // 
             this.label293.AutoSize = true;
-            this.label293.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label293.Location = new System.Drawing.Point(44, 126);
+            this.label293.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label293.Location = new System.Drawing.Point(49, 126);
             this.label293.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label293.Name = "label293";
-            this.label293.Size = new System.Drawing.Size(116, 19);
+            this.label293.Size = new System.Drawing.Size(96, 16);
             this.label293.TabIndex = 127;
             this.label293.Text = "K1、K2状态:";
             // 
             // label294
             // 
             this.label294.AutoSize = true;
-            this.label294.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.label294.Font = new System.Drawing.Font("SimSun", 12F);
             this.label294.Location = new System.Drawing.Point(81, 95);
             this.label294.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label294.Name = "label294";
-            this.label294.Size = new System.Drawing.Size(79, 19);
+            this.label294.Size = new System.Drawing.Size(64, 16);
             this.label294.TabIndex = 125;
             this.label294.Text = "Alarm2:";
             // 
             // label295
             // 
             this.label295.AutoSize = true;
-            this.label295.Font = new System.Drawing.Font("SimSun", 13.8F);
+            this.label295.Font = new System.Drawing.Font("SimSun", 12F);
             this.label295.Location = new System.Drawing.Point(81, 64);
             this.label295.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label295.Name = "label295";
-            this.label295.Size = new System.Drawing.Size(79, 19);
+            this.label295.Size = new System.Drawing.Size(64, 16);
             this.label295.TabIndex = 123;
             this.label295.Text = "Alarm1:";
             // 
             // label296
             // 
             this.label296.AutoSize = true;
-            this.label296.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label296.Location = new System.Drawing.Point(11, 33);
+            this.label296.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label296.Location = new System.Drawing.Point(25, 32);
             this.label296.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label296.Name = "label296";
-            this.label296.Size = new System.Drawing.Size(149, 19);
+            this.label296.Size = new System.Drawing.Size(120, 16);
             this.label296.TabIndex = 121;
             this.label296.Text = "MeauringValue:";
             // 
@@ -7532,89 +7533,89 @@
             // label49
             // 
             this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label49.Location = new System.Drawing.Point(85, 149);
+            this.label49.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label49.Location = new System.Drawing.Point(88, 151);
             this.label49.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(39, 19);
+            this.label49.Size = new System.Drawing.Size(32, 16);
             this.label49.TabIndex = 130;
             this.label49.Text = "#6:";
             // 
             // label50
             // 
             this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label50.Location = new System.Drawing.Point(15, 148);
+            this.label50.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label50.Location = new System.Drawing.Point(18, 150);
             this.label50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(39, 19);
+            this.label50.Size = new System.Drawing.Size(32, 16);
             this.label50.TabIndex = 128;
             this.label50.Text = "#5:";
             // 
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label51.Location = new System.Drawing.Point(85, 114);
+            this.label51.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label51.Location = new System.Drawing.Point(88, 116);
             this.label51.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(39, 19);
+            this.label51.Size = new System.Drawing.Size(32, 16);
             this.label51.TabIndex = 126;
             this.label51.Text = "#4:";
             // 
             // label52
             // 
             this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label52.Location = new System.Drawing.Point(15, 114);
+            this.label52.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label52.Location = new System.Drawing.Point(18, 116);
             this.label52.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(39, 19);
+            this.label52.Size = new System.Drawing.Size(32, 16);
             this.label52.TabIndex = 124;
             this.label52.Text = "#3:";
             // 
             // label53
             // 
             this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label53.Location = new System.Drawing.Point(85, 80);
+            this.label53.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label53.Location = new System.Drawing.Point(88, 82);
             this.label53.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(39, 19);
+            this.label53.Size = new System.Drawing.Size(32, 16);
             this.label53.TabIndex = 122;
             this.label53.Text = "#2:";
             // 
             // label54
             // 
             this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label54.Location = new System.Drawing.Point(15, 79);
+            this.label54.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label54.Location = new System.Drawing.Point(18, 81);
             this.label54.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(39, 19);
+            this.label54.Size = new System.Drawing.Size(32, 16);
             this.label54.TabIndex = 111;
             this.label54.Text = "#1:";
             // 
             // textBoxWork_Station_Quire_Board_RotateSpeed
             // 
             this.textBoxWork_Station_Quire_Board_RotateSpeed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBoxWork_Station_Quire_Board_RotateSpeed.Font = new System.Drawing.Font("SimSun", 14.25F);
+            this.textBoxWork_Station_Quire_Board_RotateSpeed.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBoxWork_Station_Quire_Board_RotateSpeed.ForeColor = System.Drawing.SystemColors.Info;
             this.textBoxWork_Station_Quire_Board_RotateSpeed.Location = new System.Drawing.Point(78, 35);
             this.textBoxWork_Station_Quire_Board_RotateSpeed.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxWork_Station_Quire_Board_RotateSpeed.Name = "textBoxWork_Station_Quire_Board_RotateSpeed";
             this.textBoxWork_Station_Quire_Board_RotateSpeed.ReadOnly = true;
-            this.textBoxWork_Station_Quire_Board_RotateSpeed.Size = new System.Drawing.Size(57, 29);
+            this.textBoxWork_Station_Quire_Board_RotateSpeed.Size = new System.Drawing.Size(57, 26);
             this.textBoxWork_Station_Quire_Board_RotateSpeed.TabIndex = 110;
             // 
             // label62
             // 
             this.label62.AutoSize = true;
-            this.label62.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label62.Font = new System.Drawing.Font("SimSun", 12F);
             this.label62.Location = new System.Drawing.Point(18, 39);
             this.label62.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(57, 19);
+            this.label62.Size = new System.Drawing.Size(48, 16);
             this.label62.TabIndex = 109;
             this.label62.Text = "转速:";
             // 
@@ -7639,13 +7640,13 @@
             // textBox_HPDCDetectBoardCtl_I
             // 
             this.textBox_HPDCDetectBoardCtl_I.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_HPDCDetectBoardCtl_I.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_HPDCDetectBoardCtl_I.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_HPDCDetectBoardCtl_I.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoardCtl_I.Location = new System.Drawing.Point(137, 53);
             this.textBox_HPDCDetectBoardCtl_I.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoardCtl_I.Name = "textBox_HPDCDetectBoardCtl_I";
             this.textBox_HPDCDetectBoardCtl_I.ReadOnly = true;
-            this.textBox_HPDCDetectBoardCtl_I.Size = new System.Drawing.Size(57, 29);
+            this.textBox_HPDCDetectBoardCtl_I.Size = new System.Drawing.Size(57, 26);
             this.textBox_HPDCDetectBoardCtl_I.TabIndex = 112;
             // 
             // label64
@@ -7662,13 +7663,13 @@
             // textBox_HPDCDetectBoardCtl_V
             // 
             this.textBox_HPDCDetectBoardCtl_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_HPDCDetectBoardCtl_V.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_HPDCDetectBoardCtl_V.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_HPDCDetectBoardCtl_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoardCtl_V.Location = new System.Drawing.Point(137, 21);
             this.textBox_HPDCDetectBoardCtl_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoardCtl_V.Name = "textBox_HPDCDetectBoardCtl_V";
             this.textBox_HPDCDetectBoardCtl_V.ReadOnly = true;
-            this.textBox_HPDCDetectBoardCtl_V.Size = new System.Drawing.Size(57, 29);
+            this.textBox_HPDCDetectBoardCtl_V.Size = new System.Drawing.Size(57, 26);
             this.textBox_HPDCDetectBoardCtl_V.TabIndex = 110;
             // 
             // label213
@@ -7703,46 +7704,46 @@
             // textBox_ACDetectBoard_I
             // 
             this.textBox_ACDetectBoard_I.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_ACDetectBoard_I.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_ACDetectBoard_I.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_ACDetectBoard_I.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_ACDetectBoard_I.Location = new System.Drawing.Point(145, 23);
             this.textBox_ACDetectBoard_I.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_ACDetectBoard_I.Name = "textBox_ACDetectBoard_I";
             this.textBox_ACDetectBoard_I.ReadOnly = true;
-            this.textBox_ACDetectBoard_I.Size = new System.Drawing.Size(57, 29);
+            this.textBox_ACDetectBoard_I.Size = new System.Drawing.Size(57, 26);
             this.textBox_ACDetectBoard_I.TabIndex = 112;
             // 
             // label215
             // 
             this.label215.AutoSize = true;
-            this.label215.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label215.Font = new System.Drawing.Font("SimSun", 12F);
             this.label215.Location = new System.Drawing.Point(110, 29);
             this.label215.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label215.Name = "label215";
-            this.label215.Size = new System.Drawing.Size(39, 19);
+            this.label215.Size = new System.Drawing.Size(32, 16);
             this.label215.TabIndex = 111;
             this.label215.Text = "#2:";
             // 
             // textBox_ACDetectBoard_V
             // 
             this.textBox_ACDetectBoard_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_ACDetectBoard_V.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_ACDetectBoard_V.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_ACDetectBoard_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_ACDetectBoard_V.Location = new System.Drawing.Point(45, 23);
             this.textBox_ACDetectBoard_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_ACDetectBoard_V.Name = "textBox_ACDetectBoard_V";
             this.textBox_ACDetectBoard_V.ReadOnly = true;
-            this.textBox_ACDetectBoard_V.Size = new System.Drawing.Size(57, 29);
+            this.textBox_ACDetectBoard_V.Size = new System.Drawing.Size(57, 26);
             this.textBox_ACDetectBoard_V.TabIndex = 110;
             // 
             // label216
             // 
             this.label216.AutoSize = true;
-            this.label216.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label216.Font = new System.Drawing.Font("SimSun", 12F);
             this.label216.Location = new System.Drawing.Point(5, 29);
             this.label216.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label216.Name = "label216";
-            this.label216.Size = new System.Drawing.Size(39, 19);
+            this.label216.Size = new System.Drawing.Size(32, 16);
             this.label216.TabIndex = 109;
             this.label216.Text = "#1:";
             // 
@@ -7765,46 +7766,46 @@
             // textBox_LightRelayBoard2
             // 
             this.textBox_LightRelayBoard2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_LightRelayBoard2.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_LightRelayBoard2.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_LightRelayBoard2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_LightRelayBoard2.Location = new System.Drawing.Point(145, 21);
             this.textBox_LightRelayBoard2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_LightRelayBoard2.Name = "textBox_LightRelayBoard2";
             this.textBox_LightRelayBoard2.ReadOnly = true;
-            this.textBox_LightRelayBoard2.Size = new System.Drawing.Size(57, 29);
+            this.textBox_LightRelayBoard2.Size = new System.Drawing.Size(57, 26);
             this.textBox_LightRelayBoard2.TabIndex = 114;
             // 
             // textBox_LightRelayBoard1
             // 
             this.textBox_LightRelayBoard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_LightRelayBoard1.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_LightRelayBoard1.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_LightRelayBoard1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_LightRelayBoard1.Location = new System.Drawing.Point(45, 21);
             this.textBox_LightRelayBoard1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_LightRelayBoard1.Name = "textBox_LightRelayBoard1";
             this.textBox_LightRelayBoard1.ReadOnly = true;
-            this.textBox_LightRelayBoard1.Size = new System.Drawing.Size(57, 29);
+            this.textBox_LightRelayBoard1.Size = new System.Drawing.Size(57, 26);
             this.textBox_LightRelayBoard1.TabIndex = 112;
             // 
             // label219
             // 
             this.label219.AutoSize = true;
-            this.label219.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label219.Font = new System.Drawing.Font("SimSun", 12F);
             this.label219.Location = new System.Drawing.Point(4, 27);
             this.label219.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label219.Name = "label219";
-            this.label219.Size = new System.Drawing.Size(49, 19);
+            this.label219.Size = new System.Drawing.Size(40, 16);
             this.label219.TabIndex = 111;
             this.label219.Text = "#21:";
             // 
             // label218
             // 
             this.label218.AutoSize = true;
-            this.label218.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label218.Font = new System.Drawing.Font("SimSun", 12F);
             this.label218.Location = new System.Drawing.Point(101, 27);
             this.label218.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label218.Name = "label218";
-            this.label218.Size = new System.Drawing.Size(49, 19);
+            this.label218.Size = new System.Drawing.Size(40, 16);
             this.label218.TabIndex = 113;
             this.label218.Text = "#22:";
             // 
@@ -7824,7 +7825,7 @@
             this.groupBox_BoardD_Mon.Controls.Add(this.label210);
             this.groupBox_BoardD_Mon.Controls.Add(this.textBox_RotAxisX);
             this.groupBox_BoardD_Mon.Controls.Add(this.label211);
-            this.groupBox_BoardD_Mon.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox_BoardD_Mon.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox_BoardD_Mon.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox_BoardD_Mon.Location = new System.Drawing.Point(511, 470);
             this.groupBox_BoardD_Mon.Margin = new System.Windows.Forms.Padding(2);
@@ -7839,47 +7840,47 @@
             // textBox_KKInfo
             // 
             this.textBox_KKInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_KKInfo.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_KKInfo.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_KKInfo.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_KKInfo.Location = new System.Drawing.Point(220, 26);
             this.textBox_KKInfo.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_KKInfo.Name = "textBox_KKInfo";
             this.textBox_KKInfo.ReadOnly = true;
-            this.textBox_KKInfo.Size = new System.Drawing.Size(65, 29);
+            this.textBox_KKInfo.Size = new System.Drawing.Size(65, 26);
             this.textBox_KKInfo.TabIndex = 120;
             // 
             // label205
             // 
             this.label205.AutoSize = true;
-            this.label205.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label205.Font = new System.Drawing.Font("SimSun", 12F);
             this.label205.Location = new System.Drawing.Point(167, 32);
             this.label205.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label205.Name = "label205";
-            this.label205.Size = new System.Drawing.Size(49, 19);
+            this.label205.Size = new System.Drawing.Size(40, 16);
             this.label205.TabIndex = 119;
             this.label205.Text = "IO1:";
             // 
             // textBox_Space2
             // 
             this.textBox_Space2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_Space2.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Space2.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_Space2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_Space2.Location = new System.Drawing.Point(220, 103);
             this.textBox_Space2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Space2.Name = "textBox_Space2";
             this.textBox_Space2.ReadOnly = true;
-            this.textBox_Space2.Size = new System.Drawing.Size(65, 29);
+            this.textBox_Space2.Size = new System.Drawing.Size(65, 26);
             this.textBox_Space2.TabIndex = 118;
             this.textBox_Space2.Visible = false;
             // 
             // label206
             // 
             this.label206.AutoSize = true;
-            this.label206.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label206.Font = new System.Drawing.Font("SimSun", 12F);
             this.label206.Location = new System.Drawing.Point(167, 108);
             this.label206.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label206.Name = "label206";
-            this.label206.Size = new System.Drawing.Size(48, 19);
+            this.label206.Size = new System.Drawing.Size(40, 16);
             this.label206.TabIndex = 117;
             this.label206.Text = "备2:";
             this.label206.Visible = false;
@@ -7887,24 +7888,24 @@
             // textBox_Space1
             // 
             this.textBox_Space1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_Space1.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Space1.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_Space1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_Space1.Location = new System.Drawing.Point(220, 66);
             this.textBox_Space1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Space1.Name = "textBox_Space1";
             this.textBox_Space1.ReadOnly = true;
-            this.textBox_Space1.Size = new System.Drawing.Size(65, 29);
+            this.textBox_Space1.Size = new System.Drawing.Size(65, 26);
             this.textBox_Space1.TabIndex = 116;
             this.textBox_Space1.Visible = false;
             // 
             // label207
             // 
             this.label207.AutoSize = true;
-            this.label207.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label207.Font = new System.Drawing.Font("SimSun", 12F);
             this.label207.Location = new System.Drawing.Point(167, 69);
             this.label207.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label207.Name = "label207";
-            this.label207.Size = new System.Drawing.Size(48, 19);
+            this.label207.Size = new System.Drawing.Size(40, 16);
             this.label207.TabIndex = 115;
             this.label207.Text = "备1:";
             this.label207.Visible = false;
@@ -7912,99 +7913,99 @@
             // textBox_RotAxisV
             // 
             this.textBox_RotAxisV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_RotAxisV.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotAxisV.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_RotAxisV.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_RotAxisV.Location = new System.Drawing.Point(98, 143);
             this.textBox_RotAxisV.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotAxisV.Name = "textBox_RotAxisV";
             this.textBox_RotAxisV.ReadOnly = true;
-            this.textBox_RotAxisV.Size = new System.Drawing.Size(65, 29);
+            this.textBox_RotAxisV.Size = new System.Drawing.Size(65, 26);
             this.textBox_RotAxisV.TabIndex = 114;
             // 
             // label208
             // 
             this.label208.AutoSize = true;
-            this.label208.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label208.Font = new System.Drawing.Font("SimSun", 12F);
             this.label208.Location = new System.Drawing.Point(7, 149);
             this.label208.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label208.Name = "label208";
-            this.label208.Size = new System.Drawing.Size(86, 19);
+            this.label208.Size = new System.Drawing.Size(72, 16);
             this.label208.TabIndex = 113;
             this.label208.Text = "上/下移:";
             // 
             // textBox_RotAxisZ
             // 
             this.textBox_RotAxisZ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_RotAxisZ.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotAxisZ.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_RotAxisZ.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_RotAxisZ.Location = new System.Drawing.Point(98, 103);
             this.textBox_RotAxisZ.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotAxisZ.Name = "textBox_RotAxisZ";
             this.textBox_RotAxisZ.ReadOnly = true;
-            this.textBox_RotAxisZ.Size = new System.Drawing.Size(65, 29);
+            this.textBox_RotAxisZ.Size = new System.Drawing.Size(65, 26);
             this.textBox_RotAxisZ.TabIndex = 112;
             // 
             // label209
             // 
             this.label209.AutoSize = true;
-            this.label209.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label209.Font = new System.Drawing.Font("SimSun", 12F);
             this.label209.Location = new System.Drawing.Point(7, 108);
             this.label209.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label209.Name = "label209";
-            this.label209.Size = new System.Drawing.Size(86, 19);
+            this.label209.Size = new System.Drawing.Size(72, 16);
             this.label209.TabIndex = 111;
             this.label209.Text = "左/右转:";
             // 
             // textBox_RotAxisY
             // 
             this.textBox_RotAxisY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_RotAxisY.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotAxisY.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_RotAxisY.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_RotAxisY.Location = new System.Drawing.Point(98, 65);
             this.textBox_RotAxisY.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotAxisY.Name = "textBox_RotAxisY";
             this.textBox_RotAxisY.ReadOnly = true;
-            this.textBox_RotAxisY.Size = new System.Drawing.Size(65, 29);
+            this.textBox_RotAxisY.Size = new System.Drawing.Size(65, 26);
             this.textBox_RotAxisY.TabIndex = 110;
             // 
             // label210
             // 
             this.label210.AutoSize = true;
-            this.label210.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label210.Font = new System.Drawing.Font("SimSun", 12F);
             this.label210.Location = new System.Drawing.Point(7, 69);
             this.label210.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label210.Name = "label210";
-            this.label210.Size = new System.Drawing.Size(86, 19);
+            this.label210.Size = new System.Drawing.Size(72, 16);
             this.label210.TabIndex = 109;
             this.label210.Text = "前/后移:";
             // 
             // textBox_RotAxisX
             // 
             this.textBox_RotAxisX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_RotAxisX.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotAxisX.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_RotAxisX.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_RotAxisX.Location = new System.Drawing.Point(98, 26);
             this.textBox_RotAxisX.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotAxisX.Name = "textBox_RotAxisX";
             this.textBox_RotAxisX.ReadOnly = true;
-            this.textBox_RotAxisX.Size = new System.Drawing.Size(65, 29);
+            this.textBox_RotAxisX.Size = new System.Drawing.Size(65, 26);
             this.textBox_RotAxisX.TabIndex = 108;
             // 
             // label211
             // 
             this.label211.AutoSize = true;
-            this.label211.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label211.Font = new System.Drawing.Font("SimSun", 12F);
             this.label211.Location = new System.Drawing.Point(7, 32);
             this.label211.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label211.Name = "label211";
-            this.label211.Size = new System.Drawing.Size(86, 19);
+            this.label211.Size = new System.Drawing.Size(72, 16);
             this.label211.TabIndex = 107;
             this.label211.Text = "左/右移:";
             // 
             // groupBox_AlarmInfo
             // 
             this.groupBox_AlarmInfo.Controls.Add(this.DataGridView_SysAlarmInfo);
-            this.groupBox_AlarmInfo.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox_AlarmInfo.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox_AlarmInfo.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox_AlarmInfo.Location = new System.Drawing.Point(1515, 540);
             this.groupBox_AlarmInfo.Margin = new System.Windows.Forms.Padding(2);
@@ -8027,32 +8028,32 @@
             this.DataGridView_SysAlarmInfo.ContextMenuStrip = this.contextMenuStrip1;
             this.DataGridView_SysAlarmInfo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DataGridView_SysAlarmInfo.GridColor = System.Drawing.SystemColors.Info;
-            this.DataGridView_SysAlarmInfo.Location = new System.Drawing.Point(2, 23);
+            this.DataGridView_SysAlarmInfo.Location = new System.Drawing.Point(2, 21);
             this.DataGridView_SysAlarmInfo.Margin = new System.Windows.Forms.Padding(2);
             this.DataGridView_SysAlarmInfo.Name = "DataGridView_SysAlarmInfo";
             this.DataGridView_SysAlarmInfo.ReadOnly = true;
             this.DataGridView_SysAlarmInfo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGridView_SysAlarmInfo.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridView_SysAlarmInfo.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.DataGridView_SysAlarmInfo.RowHeadersVisible = false;
             this.DataGridView_SysAlarmInfo.RowHeadersWidth = 51;
             this.DataGridView_SysAlarmInfo.RowTemplate.Height = 27;
-            this.DataGridView_SysAlarmInfo.Size = new System.Drawing.Size(366, 325);
+            this.DataGridView_SysAlarmInfo.Size = new System.Drawing.Size(366, 327);
             this.DataGridView_SysAlarmInfo.TabIndex = 32;
             // 
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle3;
             this.Column1.HeaderText = "";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
@@ -8096,7 +8097,7 @@
             this.groupBox_BoardB_Mon.Controls.Add(this.groupBox25);
             this.groupBox_BoardB_Mon.Controls.Add(this.richTextBox_Fun16_RecvInfo);
             this.groupBox_BoardB_Mon.Controls.Add(this.groupBox26);
-            this.groupBox_BoardB_Mon.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox_BoardB_Mon.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox_BoardB_Mon.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox_BoardB_Mon.Location = new System.Drawing.Point(837, 375);
             this.groupBox_BoardB_Mon.Name = "groupBox_BoardB_Mon";
@@ -8125,44 +8126,44 @@
             // textBox_DOUT9_16_SSUP3_4
             // 
             this.textBox_DOUT9_16_SSUP3_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_DOUT9_16_SSUP3_4.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_DOUT9_16_SSUP3_4.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DOUT9_16_SSUP3_4.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_DOUT9_16_SSUP3_4.Location = new System.Drawing.Point(480, 20);
+            this.textBox_DOUT9_16_SSUP3_4.Location = new System.Drawing.Point(453, 22);
             this.textBox_DOUT9_16_SSUP3_4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DOUT9_16_SSUP3_4.Name = "textBox_DOUT9_16_SSUP3_4";
             this.textBox_DOUT9_16_SSUP3_4.ReadOnly = true;
-            this.textBox_DOUT9_16_SSUP3_4.Size = new System.Drawing.Size(60, 29);
+            this.textBox_DOUT9_16_SSUP3_4.Size = new System.Drawing.Size(60, 26);
             this.textBox_DOUT9_16_SSUP3_4.TabIndex = 110;
             // 
             // label135
             // 
             this.label135.AutoSize = true;
-            this.label135.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label135.Location = new System.Drawing.Point(281, 25);
+            this.label135.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label135.Location = new System.Drawing.Point(288, 28);
             this.label135.Name = "label135";
-            this.label135.Size = new System.Drawing.Size(199, 19);
+            this.label135.Size = new System.Drawing.Size(160, 16);
             this.label135.TabIndex = 109;
             this.label135.Text = "DOUT9-16 & SSUP 3-4:";
             // 
             // textBox_DOUT1_8_SSUP1_2
             // 
             this.textBox_DOUT1_8_SSUP1_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_DOUT1_8_SSUP1_2.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_DOUT1_8_SSUP1_2.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DOUT1_8_SSUP1_2.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_DOUT1_8_SSUP1_2.Location = new System.Drawing.Point(202, 20);
+            this.textBox_DOUT1_8_SSUP1_2.Location = new System.Drawing.Point(179, 22);
             this.textBox_DOUT1_8_SSUP1_2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DOUT1_8_SSUP1_2.Name = "textBox_DOUT1_8_SSUP1_2";
             this.textBox_DOUT1_8_SSUP1_2.ReadOnly = true;
-            this.textBox_DOUT1_8_SSUP1_2.Size = new System.Drawing.Size(60, 29);
+            this.textBox_DOUT1_8_SSUP1_2.Size = new System.Drawing.Size(60, 26);
             this.textBox_DOUT1_8_SSUP1_2.TabIndex = 108;
             // 
             // label136
             // 
             this.label136.AutoSize = true;
-            this.label136.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label136.Location = new System.Drawing.Point(8, 25);
+            this.label136.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label136.Location = new System.Drawing.Point(17, 28);
             this.label136.Name = "label136";
-            this.label136.Size = new System.Drawing.Size(189, 19);
+            this.label136.Size = new System.Drawing.Size(152, 16);
             this.label136.TabIndex = 105;
             this.label136.Text = "DOUT1-8 & SSUP 1-2:";
             // 
@@ -8191,110 +8192,110 @@
             // textBox_Fun16_Temperature
             // 
             this.textBox_Fun16_Temperature.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_Fun16_Temperature.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Fun16_Temperature.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_Fun16_Temperature.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_Fun16_Temperature.Location = new System.Drawing.Point(586, 25);
+            this.textBox_Fun16_Temperature.Location = new System.Drawing.Point(571, 25);
             this.textBox_Fun16_Temperature.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_Fun16_Temperature.Name = "textBox_Fun16_Temperature";
             this.textBox_Fun16_Temperature.ReadOnly = true;
-            this.textBox_Fun16_Temperature.Size = new System.Drawing.Size(60, 29);
+            this.textBox_Fun16_Temperature.Size = new System.Drawing.Size(60, 26);
             this.textBox_Fun16_Temperature.TabIndex = 108;
             // 
             // label138
             // 
             this.label138.AutoSize = true;
-            this.label138.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label138.Font = new System.Drawing.Font("SimSun", 12F);
             this.label138.Location = new System.Drawing.Point(515, 30);
             this.label138.Name = "label138";
-            this.label138.Size = new System.Drawing.Size(66, 19);
+            this.label138.Size = new System.Drawing.Size(56, 16);
             this.label138.TabIndex = 105;
             this.label138.Text = "温度：";
             // 
             // textBox_External_Analog_In_4
             // 
             this.textBox_External_Analog_In_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_External_Analog_In_4.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_External_Analog_In_4.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_External_Analog_In_4.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_External_Analog_In_4.Location = new System.Drawing.Point(441, 25);
+            this.textBox_External_Analog_In_4.Location = new System.Drawing.Point(427, 25);
             this.textBox_External_Analog_In_4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_External_Analog_In_4.Name = "textBox_External_Analog_In_4";
             this.textBox_External_Analog_In_4.ReadOnly = true;
-            this.textBox_External_Analog_In_4.Size = new System.Drawing.Size(60, 29);
+            this.textBox_External_Analog_In_4.Size = new System.Drawing.Size(60, 26);
             this.textBox_External_Analog_In_4.TabIndex = 114;
             // 
             // label139
             // 
             this.label139.AutoSize = true;
-            this.label139.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label139.Font = new System.Drawing.Font("SimSun", 12F);
             this.label139.Location = new System.Drawing.Point(381, 30);
             this.label139.Name = "label139";
-            this.label139.Size = new System.Drawing.Size(39, 19);
+            this.label139.Size = new System.Drawing.Size(32, 16);
             this.label139.TabIndex = 113;
             this.label139.Text = "4#:";
             // 
             // textBox_External_Analog_In_3
             // 
             this.textBox_External_Analog_In_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_External_Analog_In_3.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_External_Analog_In_3.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_External_Analog_In_3.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_External_Analog_In_3.Location = new System.Drawing.Point(309, 25);
+            this.textBox_External_Analog_In_3.Location = new System.Drawing.Point(300, 25);
             this.textBox_External_Analog_In_3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_External_Analog_In_3.Name = "textBox_External_Analog_In_3";
             this.textBox_External_Analog_In_3.ReadOnly = true;
-            this.textBox_External_Analog_In_3.Size = new System.Drawing.Size(60, 29);
+            this.textBox_External_Analog_In_3.Size = new System.Drawing.Size(60, 26);
             this.textBox_External_Analog_In_3.TabIndex = 112;
             // 
             // label140
             // 
             this.label140.AutoSize = true;
-            this.label140.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label140.Font = new System.Drawing.Font("SimSun", 12F);
             this.label140.Location = new System.Drawing.Point(264, 30);
             this.label140.Name = "label140";
-            this.label140.Size = new System.Drawing.Size(39, 19);
+            this.label140.Size = new System.Drawing.Size(32, 16);
             this.label140.TabIndex = 111;
             this.label140.Text = "3#:";
             // 
             // textBox_External_Analog_In_2
             // 
             this.textBox_External_Analog_In_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_External_Analog_In_2.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_External_Analog_In_2.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_External_Analog_In_2.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_External_Analog_In_2.Location = new System.Drawing.Point(180, 25);
+            this.textBox_External_Analog_In_2.Location = new System.Drawing.Point(175, 25);
             this.textBox_External_Analog_In_2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_External_Analog_In_2.Name = "textBox_External_Analog_In_2";
             this.textBox_External_Analog_In_2.ReadOnly = true;
-            this.textBox_External_Analog_In_2.Size = new System.Drawing.Size(60, 29);
+            this.textBox_External_Analog_In_2.Size = new System.Drawing.Size(60, 26);
             this.textBox_External_Analog_In_2.TabIndex = 110;
             // 
             // label141
             // 
             this.label141.AutoSize = true;
-            this.label141.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label141.Font = new System.Drawing.Font("SimSun", 12F);
             this.label141.Location = new System.Drawing.Point(136, 30);
             this.label141.Name = "label141";
-            this.label141.Size = new System.Drawing.Size(39, 19);
+            this.label141.Size = new System.Drawing.Size(32, 16);
             this.label141.TabIndex = 109;
             this.label141.Text = "2#:";
             // 
             // textBox_External_Analog_In_1
             // 
             this.textBox_External_Analog_In_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_External_Analog_In_1.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_External_Analog_In_1.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_External_Analog_In_1.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_External_Analog_In_1.Location = new System.Drawing.Point(55, 25);
+            this.textBox_External_Analog_In_1.Location = new System.Drawing.Point(49, 25);
             this.textBox_External_Analog_In_1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_External_Analog_In_1.Name = "textBox_External_Analog_In_1";
             this.textBox_External_Analog_In_1.ReadOnly = true;
-            this.textBox_External_Analog_In_1.Size = new System.Drawing.Size(60, 29);
+            this.textBox_External_Analog_In_1.Size = new System.Drawing.Size(60, 26);
             this.textBox_External_Analog_In_1.TabIndex = 108;
             // 
             // label142
             // 
             this.label142.AutoSize = true;
-            this.label142.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label142.Font = new System.Drawing.Font("SimSun", 12F);
             this.label142.Location = new System.Drawing.Point(12, 30);
             this.label142.Name = "label142";
-            this.label142.Size = new System.Drawing.Size(39, 19);
+            this.label142.Size = new System.Drawing.Size(32, 16);
             this.label142.TabIndex = 105;
             this.label142.Text = "1#:";
             // 
@@ -8321,88 +8322,88 @@
             // textBox_15VDC
             // 
             this.textBox_15VDC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_15VDC.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_15VDC.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_15VDC.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_15VDC.Location = new System.Drawing.Point(586, 26);
+            this.textBox_15VDC.Location = new System.Drawing.Point(572, 26);
             this.textBox_15VDC.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_15VDC.Name = "textBox_15VDC";
             this.textBox_15VDC.ReadOnly = true;
-            this.textBox_15VDC.Size = new System.Drawing.Size(60, 29);
+            this.textBox_15VDC.Size = new System.Drawing.Size(60, 26);
             this.textBox_15VDC.TabIndex = 114;
             // 
             // label144
             // 
             this.label144.AutoSize = true;
-            this.label144.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label144.Font = new System.Drawing.Font("SimSun", 12F);
             this.label144.Location = new System.Drawing.Point(503, 32);
             this.label144.Name = "label144";
-            this.label144.Size = new System.Drawing.Size(79, 19);
+            this.label144.Size = new System.Drawing.Size(64, 16);
             this.label144.TabIndex = 113;
             this.label144.Text = "+15VDC:";
             // 
             // textBox_24VDC
             // 
             this.textBox_24VDC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_24VDC.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_24VDC.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_24VDC.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_24VDC.Location = new System.Drawing.Point(423, 26);
+            this.textBox_24VDC.Location = new System.Drawing.Point(405, 24);
             this.textBox_24VDC.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_24VDC.Name = "textBox_24VDC";
             this.textBox_24VDC.ReadOnly = true;
-            this.textBox_24VDC.Size = new System.Drawing.Size(60, 29);
+            this.textBox_24VDC.Size = new System.Drawing.Size(60, 26);
             this.textBox_24VDC.TabIndex = 112;
             // 
             // label145
             // 
             this.label145.AutoSize = true;
-            this.label145.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label145.Font = new System.Drawing.Font("SimSun", 12F);
             this.label145.Location = new System.Drawing.Point(338, 32);
             this.label145.Name = "label145";
-            this.label145.Size = new System.Drawing.Size(79, 19);
+            this.label145.Size = new System.Drawing.Size(64, 16);
             this.label145.TabIndex = 111;
             this.label145.Text = "+24VDC:";
             // 
             // textBox_VCCA
             // 
             this.textBox_VCCA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_VCCA.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_VCCA.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_VCCA.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_VCCA.Location = new System.Drawing.Point(260, 26);
+            this.textBox_VCCA.Location = new System.Drawing.Point(247, 25);
             this.textBox_VCCA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_VCCA.Name = "textBox_VCCA";
             this.textBox_VCCA.ReadOnly = true;
-            this.textBox_VCCA.Size = new System.Drawing.Size(60, 29);
+            this.textBox_VCCA.Size = new System.Drawing.Size(60, 26);
             this.textBox_VCCA.TabIndex = 110;
             // 
             // label146
             // 
             this.label146.AutoSize = true;
-            this.label146.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label146.Font = new System.Drawing.Font("SimSun", 12F);
             this.label146.Location = new System.Drawing.Point(194, 32);
             this.label146.Name = "label146";
-            this.label146.Size = new System.Drawing.Size(59, 19);
+            this.label146.Size = new System.Drawing.Size(48, 16);
             this.label146.TabIndex = 109;
             this.label146.Text = "VCCA:";
             // 
             // textBox_VCCD
             // 
             this.textBox_VCCD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_VCCD.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_VCCD.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_VCCD.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_VCCD.Location = new System.Drawing.Point(97, 26);
+            this.textBox_VCCD.Location = new System.Drawing.Point(89, 26);
             this.textBox_VCCD.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_VCCD.Name = "textBox_VCCD";
             this.textBox_VCCD.ReadOnly = true;
-            this.textBox_VCCD.Size = new System.Drawing.Size(60, 29);
+            this.textBox_VCCD.Size = new System.Drawing.Size(60, 26);
             this.textBox_VCCD.TabIndex = 108;
             // 
             // label147
             // 
             this.label147.AutoSize = true;
-            this.label147.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label147.Font = new System.Drawing.Font("SimSun", 12F);
             this.label147.Location = new System.Drawing.Point(34, 32);
             this.label147.Name = "label147";
-            this.label147.Size = new System.Drawing.Size(59, 19);
+            this.label147.Size = new System.Drawing.Size(48, 16);
             this.label147.TabIndex = 105;
             this.label147.Text = "VCCD:";
             // 
@@ -8437,176 +8438,178 @@
             // textBox_PWM_15_16
             // 
             this.textBox_PWM_15_16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_PWM_15_16.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_15_16.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_PWM_15_16.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_PWM_15_16.Location = new System.Drawing.Point(585, 61);
             this.textBox_PWM_15_16.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_PWM_15_16.Name = "textBox_PWM_15_16";
             this.textBox_PWM_15_16.ReadOnly = true;
-            this.textBox_PWM_15_16.Size = new System.Drawing.Size(60, 29);
+            this.textBox_PWM_15_16.Size = new System.Drawing.Size(60, 26);
             this.textBox_PWM_15_16.TabIndex = 122;
             // 
             // label149
             // 
             this.label149.AutoSize = true;
-            this.label149.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label149.Font = new System.Drawing.Font("SimSun", 12F);
             this.label149.Location = new System.Drawing.Point(493, 66);
             this.label149.Name = "label149";
-            this.label149.Size = new System.Drawing.Size(99, 19);
+            this.label149.Size = new System.Drawing.Size(80, 16);
             this.label149.TabIndex = 121;
             this.label149.Text = "PWM15_16:";
             // 
             // textBox_PWM_13_14
             // 
             this.textBox_PWM_13_14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_PWM_13_14.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_13_14.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_PWM_13_14.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_PWM_13_14.Location = new System.Drawing.Point(422, 61);
             this.textBox_PWM_13_14.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_PWM_13_14.Name = "textBox_PWM_13_14";
             this.textBox_PWM_13_14.ReadOnly = true;
-            this.textBox_PWM_13_14.Size = new System.Drawing.Size(60, 29);
+            this.textBox_PWM_13_14.Size = new System.Drawing.Size(60, 26);
             this.textBox_PWM_13_14.TabIndex = 120;
             // 
             // label150
             // 
             this.label150.AutoSize = true;
-            this.label150.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label150.Font = new System.Drawing.Font("SimSun", 12F);
             this.label150.Location = new System.Drawing.Point(321, 66);
             this.label150.Name = "label150";
-            this.label150.Size = new System.Drawing.Size(109, 19);
+            this.label150.Size = new System.Drawing.Size(88, 16);
             this.label150.TabIndex = 119;
             this.label150.Text = "PWM_13_14:";
             // 
             // textBox_PWM_11_12
             // 
             this.textBox_PWM_11_12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_PWM_11_12.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_11_12.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_PWM_11_12.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_PWM_11_12.Location = new System.Drawing.Point(259, 61);
             this.textBox_PWM_11_12.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_PWM_11_12.Name = "textBox_PWM_11_12";
             this.textBox_PWM_11_12.ReadOnly = true;
-            this.textBox_PWM_11_12.Size = new System.Drawing.Size(60, 29);
+            this.textBox_PWM_11_12.Size = new System.Drawing.Size(60, 26);
             this.textBox_PWM_11_12.TabIndex = 118;
             // 
             // label151
             // 
             this.label151.AutoSize = true;
-            this.label151.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label151.Font = new System.Drawing.Font("SimSun", 12F);
             this.label151.Location = new System.Drawing.Point(161, 66);
             this.label151.Name = "label151";
-            this.label151.Size = new System.Drawing.Size(99, 19);
+            this.label151.Size = new System.Drawing.Size(80, 16);
             this.label151.TabIndex = 117;
             this.label151.Text = "PWM11_12:";
             // 
             // textBox_PWM_9_10
             // 
             this.textBox_PWM_9_10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_PWM_9_10.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_9_10.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_PWM_9_10.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_PWM_9_10.Location = new System.Drawing.Point(96, 61);
             this.textBox_PWM_9_10.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_PWM_9_10.Name = "textBox_PWM_9_10";
             this.textBox_PWM_9_10.ReadOnly = true;
-            this.textBox_PWM_9_10.Size = new System.Drawing.Size(60, 29);
+            this.textBox_PWM_9_10.Size = new System.Drawing.Size(60, 26);
             this.textBox_PWM_9_10.TabIndex = 116;
             // 
             // label152
             // 
             this.label152.AutoSize = true;
-            this.label152.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label152.Font = new System.Drawing.Font("SimSun", 12F);
             this.label152.Location = new System.Drawing.Point(9, 66);
             this.label152.Name = "label152";
-            this.label152.Size = new System.Drawing.Size(89, 19);
+            this.label152.Size = new System.Drawing.Size(72, 16);
             this.label152.TabIndex = 115;
             this.label152.Text = "PWM9_10:";
             // 
             // textBox_PWM_7_8
             // 
             this.textBox_PWM_7_8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_PWM_7_8.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_7_8.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_PWM_7_8.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_PWM_7_8.Location = new System.Drawing.Point(585, 26);
             this.textBox_PWM_7_8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_PWM_7_8.Name = "textBox_PWM_7_8";
             this.textBox_PWM_7_8.ReadOnly = true;
-            this.textBox_PWM_7_8.Size = new System.Drawing.Size(60, 29);
+            this.textBox_PWM_7_8.Size = new System.Drawing.Size(60, 26);
             this.textBox_PWM_7_8.TabIndex = 114;
             // 
             // label153
             // 
             this.label153.AutoSize = true;
-            this.label153.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label153.Location = new System.Drawing.Point(495, 31);
+            this.label153.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label153.Location = new System.Drawing.Point(507, 29);
             this.label153.Name = "label153";
-            this.label153.Size = new System.Drawing.Size(79, 19);
+            this.label153.Size = new System.Drawing.Size(64, 16);
             this.label153.TabIndex = 113;
             this.label153.Text = "PWM7_8:";
             // 
             // textBox_PWM_5_6
             // 
             this.textBox_PWM_5_6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_PWM_5_6.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_5_6.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_PWM_5_6.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_PWM_5_6.Location = new System.Drawing.Point(422, 26);
             this.textBox_PWM_5_6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_PWM_5_6.Name = "textBox_PWM_5_6";
             this.textBox_PWM_5_6.ReadOnly = true;
-            this.textBox_PWM_5_6.Size = new System.Drawing.Size(60, 29);
+            this.textBox_PWM_5_6.Size = new System.Drawing.Size(60, 26);
             this.textBox_PWM_5_6.TabIndex = 112;
             // 
             // label154
             // 
             this.label154.AutoSize = true;
-            this.label154.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label154.Location = new System.Drawing.Point(333, 31);
+            this.label154.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label154.Location = new System.Drawing.Point(344, 27);
             this.label154.Name = "label154";
-            this.label154.Size = new System.Drawing.Size(79, 19);
+            this.label154.Size = new System.Drawing.Size(64, 16);
             this.label154.TabIndex = 111;
             this.label154.Text = "PWM5_6:";
+            this.label154.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBox_PWM_3_4
             // 
             this.textBox_PWM_3_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_PWM_3_4.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_3_4.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_PWM_3_4.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_PWM_3_4.Location = new System.Drawing.Point(259, 26);
             this.textBox_PWM_3_4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_PWM_3_4.Name = "textBox_PWM_3_4";
             this.textBox_PWM_3_4.ReadOnly = true;
-            this.textBox_PWM_3_4.Size = new System.Drawing.Size(60, 29);
+            this.textBox_PWM_3_4.Size = new System.Drawing.Size(60, 26);
             this.textBox_PWM_3_4.TabIndex = 110;
             // 
             // label155
             // 
             this.label155.AutoSize = true;
-            this.label155.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label155.Location = new System.Drawing.Point(171, 31);
+            this.label155.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label155.Location = new System.Drawing.Point(177, 33);
             this.label155.Name = "label155";
-            this.label155.Size = new System.Drawing.Size(79, 19);
+            this.label155.Size = new System.Drawing.Size(64, 16);
             this.label155.TabIndex = 109;
             this.label155.Text = "PWM3_4:";
+            this.label155.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBox_PWM_1_2
             // 
             this.textBox_PWM_1_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_PWM_1_2.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_PWM_1_2.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_PWM_1_2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_PWM_1_2.Location = new System.Drawing.Point(96, 26);
             this.textBox_PWM_1_2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_PWM_1_2.Name = "textBox_PWM_1_2";
             this.textBox_PWM_1_2.ReadOnly = true;
-            this.textBox_PWM_1_2.Size = new System.Drawing.Size(60, 29);
+            this.textBox_PWM_1_2.Size = new System.Drawing.Size(60, 26);
             this.textBox_PWM_1_2.TabIndex = 108;
             // 
             // label156
             // 
             this.label156.AutoSize = true;
-            this.label156.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label156.Font = new System.Drawing.Font("SimSun", 12F);
             this.label156.Location = new System.Drawing.Point(9, 31);
             this.label156.Name = "label156";
-            this.label156.Size = new System.Drawing.Size(79, 19);
+            this.label156.Size = new System.Drawing.Size(64, 16);
             this.label156.TabIndex = 105;
             this.label156.Text = "PWM1_2:";
             // 
@@ -8713,80 +8716,80 @@
             // label159
             // 
             this.label159.AutoSize = true;
-            this.label159.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label159.Font = new System.Drawing.Font("SimSun", 12F);
             this.label159.Location = new System.Drawing.Point(571, 27);
             this.label159.Name = "label159";
-            this.label159.Size = new System.Drawing.Size(59, 19);
+            this.label159.Size = new System.Drawing.Size(48, 16);
             this.label159.TabIndex = 121;
             this.label159.Text = "DIN1:";
             // 
             // label160
             // 
             this.label160.AutoSize = true;
-            this.label160.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label160.Font = new System.Drawing.Font("SimSun", 12F);
             this.label160.Location = new System.Drawing.Point(247, 27);
             this.label160.Name = "label160";
-            this.label160.Size = new System.Drawing.Size(59, 19);
+            this.label160.Size = new System.Drawing.Size(48, 16);
             this.label160.TabIndex = 113;
             this.label160.Text = "DIN5:";
             // 
             // label161
             // 
             this.label161.AutoSize = true;
-            this.label161.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label161.Font = new System.Drawing.Font("SimSun", 12F);
             this.label161.Location = new System.Drawing.Point(166, 27);
             this.label161.Name = "label161";
-            this.label161.Size = new System.Drawing.Size(59, 19);
+            this.label161.Size = new System.Drawing.Size(48, 16);
             this.label161.TabIndex = 111;
             this.label161.Text = "DIN6:";
             // 
             // label162
             // 
             this.label162.AutoSize = true;
-            this.label162.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label162.Font = new System.Drawing.Font("SimSun", 12F);
             this.label162.Location = new System.Drawing.Point(490, 27);
             this.label162.Name = "label162";
-            this.label162.Size = new System.Drawing.Size(59, 19);
+            this.label162.Size = new System.Drawing.Size(48, 16);
             this.label162.TabIndex = 119;
             this.label162.Text = "DIN2:";
             // 
             // label163
             // 
             this.label163.AutoSize = true;
-            this.label163.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label163.Font = new System.Drawing.Font("SimSun", 12F);
             this.label163.Location = new System.Drawing.Point(85, 27);
             this.label163.Name = "label163";
-            this.label163.Size = new System.Drawing.Size(59, 19);
+            this.label163.Size = new System.Drawing.Size(48, 16);
             this.label163.TabIndex = 109;
             this.label163.Text = "DIN7:";
             // 
             // label164
             // 
             this.label164.AutoSize = true;
-            this.label164.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label164.Font = new System.Drawing.Font("SimSun", 12F);
             this.label164.Location = new System.Drawing.Point(4, 27);
             this.label164.Name = "label164";
-            this.label164.Size = new System.Drawing.Size(59, 19);
+            this.label164.Size = new System.Drawing.Size(48, 16);
             this.label164.TabIndex = 105;
             this.label164.Text = "DIN8:";
             // 
             // label165
             // 
             this.label165.AutoSize = true;
-            this.label165.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label165.Font = new System.Drawing.Font("SimSun", 12F);
             this.label165.Location = new System.Drawing.Point(409, 27);
             this.label165.Name = "label165";
-            this.label165.Size = new System.Drawing.Size(59, 19);
+            this.label165.Size = new System.Drawing.Size(48, 16);
             this.label165.TabIndex = 117;
             this.label165.Text = "DIN3:";
             // 
             // label166
             // 
             this.label166.AutoSize = true;
-            this.label166.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label166.Font = new System.Drawing.Font("SimSun", 12F);
             this.label166.Location = new System.Drawing.Point(328, 27);
             this.label166.Name = "label166";
-            this.label166.Size = new System.Drawing.Size(59, 19);
+            this.label166.Size = new System.Drawing.Size(48, 16);
             this.label166.TabIndex = 115;
             this.label166.Text = "DIN4:";
             // 
@@ -8916,7 +8919,7 @@
             this.groupBox1.Controls.Add(this.groupBox5);
             this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.groupBox4);
-            this.groupBox1.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox1.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox1.Location = new System.Drawing.Point(5, 19);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
@@ -8961,149 +8964,163 @@
             // textBox_DCDetectBoard63_TO
             // 
             this.textBox_DCDetectBoard63_TO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_TO.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard63_TO.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_TO.Location = new System.Drawing.Point(165, 158);
             this.textBox_DCDetectBoard63_TO.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_TO.Name = "textBox_DCDetectBoard63_TO";
             this.textBox_DCDetectBoard63_TO.ReadOnly = true;
-            this.textBox_DCDetectBoard63_TO.Size = new System.Drawing.Size(97, 29);
+            this.textBox_DCDetectBoard63_TO.Size = new System.Drawing.Size(97, 26);
             this.textBox_DCDetectBoard63_TO.TabIndex = 124;
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(2, 162);
+            this.label22.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label22.Location = new System.Drawing.Point(6, 162);
             this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(152, 19);
+            this.label22.Size = new System.Drawing.Size(128, 16);
             this.label22.TabIndex = 123;
             this.label22.Text = "外接温度传感器:";
             // 
             // textBox_DCDetectBoard63_TB
             // 
             this.textBox_DCDetectBoard63_TB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_TB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard63_TB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_TB.Location = new System.Drawing.Point(197, 122);
             this.textBox_DCDetectBoard63_TB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_TB.Name = "textBox_DCDetectBoard63_TB";
             this.textBox_DCDetectBoard63_TB.ReadOnly = true;
-            this.textBox_DCDetectBoard63_TB.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard63_TB.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard63_TB.TabIndex = 122;
             // 
             // textBox_DCDetectBoard63_GB
             // 
             this.textBox_DCDetectBoard63_GB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_GB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard63_GB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_GB.Location = new System.Drawing.Point(197, 90);
             this.textBox_DCDetectBoard63_GB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_GB.Name = "textBox_DCDetectBoard63_GB";
             this.textBox_DCDetectBoard63_GB.ReadOnly = true;
-            this.textBox_DCDetectBoard63_GB.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard63_GB.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard63_GB.TabIndex = 120;
             // 
             // textBox_DCDetectBoard63_IB
             // 
             this.textBox_DCDetectBoard63_IB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_IB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard63_IB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_IB.Location = new System.Drawing.Point(197, 57);
             this.textBox_DCDetectBoard63_IB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_IB.Name = "textBox_DCDetectBoard63_IB";
             this.textBox_DCDetectBoard63_IB.ReadOnly = true;
-            this.textBox_DCDetectBoard63_IB.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard63_IB.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard63_IB.TabIndex = 118;
             // 
             // textBox_DCDetectBoard63_VB
             // 
             this.textBox_DCDetectBoard63_VB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_VB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard63_VB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_VB.Location = new System.Drawing.Point(197, 25);
             this.textBox_DCDetectBoard63_VB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_VB.Name = "textBox_DCDetectBoard63_VB";
             this.textBox_DCDetectBoard63_VB.ReadOnly = true;
-            this.textBox_DCDetectBoard63_VB.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard63_VB.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard63_VB.TabIndex = 116;
             // 
             // textBox_DCDetectBoard63_TA
             // 
             this.textBox_DCDetectBoard63_TA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_TA.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard63_TA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_TA.Location = new System.Drawing.Point(68, 122);
             this.textBox_DCDetectBoard63_TA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_TA.Name = "textBox_DCDetectBoard63_TA";
             this.textBox_DCDetectBoard63_TA.ReadOnly = true;
-            this.textBox_DCDetectBoard63_TA.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard63_TA.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard63_TA.TabIndex = 114;
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(2, 126);
+            this.label27.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label27.Location = new System.Drawing.Point(6, 126);
             this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(67, 19);
+            this.label27.Size = new System.Drawing.Size(56, 16);
             this.label27.TabIndex = 113;
             this.label27.Text = "温度A:";
             // 
             // textBox_DCDetectBoard63_GA
             // 
             this.textBox_DCDetectBoard63_GA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_GA.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard63_GA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_GA.Location = new System.Drawing.Point(68, 90);
             this.textBox_DCDetectBoard63_GA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_GA.Name = "textBox_DCDetectBoard63_GA";
             this.textBox_DCDetectBoard63_GA.ReadOnly = true;
-            this.textBox_DCDetectBoard63_GA.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard63_GA.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard63_GA.TabIndex = 112;
             // 
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(2, 94);
+            this.label28.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label28.Location = new System.Drawing.Point(6, 94);
             this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(67, 19);
+            this.label28.Size = new System.Drawing.Size(56, 16);
             this.label28.TabIndex = 111;
             this.label28.Text = "绝缘A:";
             // 
             // textBox_DCDetectBoard63_IA
             // 
             this.textBox_DCDetectBoard63_IA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_IA.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard63_IA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_IA.Location = new System.Drawing.Point(68, 57);
             this.textBox_DCDetectBoard63_IA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_IA.Name = "textBox_DCDetectBoard63_IA";
             this.textBox_DCDetectBoard63_IA.ReadOnly = true;
-            this.textBox_DCDetectBoard63_IA.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard63_IA.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard63_IA.TabIndex = 110;
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(2, 61);
+            this.label29.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label29.Location = new System.Drawing.Point(6, 61);
             this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(67, 19);
+            this.label29.Size = new System.Drawing.Size(56, 16);
             this.label29.TabIndex = 109;
             this.label29.Text = "电流A:";
             // 
             // textBox_DCDetectBoard63_VA
             // 
             this.textBox_DCDetectBoard63_VA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard63_VA.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard63_VA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard63_VA.Location = new System.Drawing.Point(68, 25);
             this.textBox_DCDetectBoard63_VA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard63_VA.Name = "textBox_DCDetectBoard63_VA";
             this.textBox_DCDetectBoard63_VA.ReadOnly = true;
-            this.textBox_DCDetectBoard63_VA.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard63_VA.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard63_VA.TabIndex = 108;
             // 
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(2, 29);
+            this.label31.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label31.Location = new System.Drawing.Point(6, 29);
             this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(67, 19);
+            this.label31.Size = new System.Drawing.Size(56, 16);
             this.label31.TabIndex = 107;
             this.label31.Text = "电压A:";
             // 
@@ -9121,40 +9138,44 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(133, 126);
+            this.label23.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label23.Location = new System.Drawing.Point(137, 126);
             this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(67, 19);
+            this.label23.Size = new System.Drawing.Size(56, 16);
             this.label23.TabIndex = 121;
             this.label23.Text = "温度B:";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(133, 94);
+            this.label24.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label24.Location = new System.Drawing.Point(137, 94);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(67, 19);
+            this.label24.Size = new System.Drawing.Size(56, 16);
             this.label24.TabIndex = 119;
             this.label24.Text = "绝缘B:";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(133, 61);
+            this.label25.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label25.Location = new System.Drawing.Point(137, 61);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(67, 19);
+            this.label25.Size = new System.Drawing.Size(56, 16);
             this.label25.TabIndex = 117;
             this.label25.Text = "电流B:";
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(133, 29);
+            this.label26.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label26.Location = new System.Drawing.Point(137, 29);
             this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(67, 19);
+            this.label26.Size = new System.Drawing.Size(56, 16);
             this.label26.TabIndex = 115;
             this.label26.Text = "电压B:";
             // 
@@ -9179,7 +9200,7 @@
             this.groupBox3.Controls.Add(this.label8);
             this.groupBox3.Controls.Add(this.label9);
             this.groupBox3.Controls.Add(this.label10);
-            this.groupBox3.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox3.Font = new System.Drawing.Font("SimSun", 12F);
             this.groupBox3.Location = new System.Drawing.Point(5, 20);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
@@ -9191,149 +9212,163 @@
             // textBox_DCDetectBoard61_TO
             // 
             this.textBox_DCDetectBoard61_TO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_TO.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard61_TO.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_TO.Location = new System.Drawing.Point(167, 158);
             this.textBox_DCDetectBoard61_TO.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_TO.Name = "textBox_DCDetectBoard61_TO";
             this.textBox_DCDetectBoard61_TO.ReadOnly = true;
-            this.textBox_DCDetectBoard61_TO.Size = new System.Drawing.Size(97, 29);
+            this.textBox_DCDetectBoard61_TO.Size = new System.Drawing.Size(97, 26);
             this.textBox_DCDetectBoard61_TO.TabIndex = 124;
             // 
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(2, 162);
+            this.label30.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label30.Location = new System.Drawing.Point(8, 164);
             this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(152, 19);
+            this.label30.Size = new System.Drawing.Size(128, 16);
             this.label30.TabIndex = 123;
             this.label30.Text = "外接温度传感器:";
             // 
             // textBox_DCDetectBoard61_TB
             // 
             this.textBox_DCDetectBoard61_TB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_TB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard61_TB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_TB.Location = new System.Drawing.Point(199, 122);
             this.textBox_DCDetectBoard61_TB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_TB.Name = "textBox_DCDetectBoard61_TB";
             this.textBox_DCDetectBoard61_TB.ReadOnly = true;
-            this.textBox_DCDetectBoard61_TB.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard61_TB.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard61_TB.TabIndex = 122;
             // 
             // textBox_DCDetectBoard61_GB
             // 
             this.textBox_DCDetectBoard61_GB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_GB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard61_GB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_GB.Location = new System.Drawing.Point(199, 90);
             this.textBox_DCDetectBoard61_GB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_GB.Name = "textBox_DCDetectBoard61_GB";
             this.textBox_DCDetectBoard61_GB.ReadOnly = true;
-            this.textBox_DCDetectBoard61_GB.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard61_GB.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard61_GB.TabIndex = 120;
             // 
             // textBox_DCDetectBoard61_IB
             // 
             this.textBox_DCDetectBoard61_IB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_IB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard61_IB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_IB.Location = new System.Drawing.Point(199, 57);
             this.textBox_DCDetectBoard61_IB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_IB.Name = "textBox_DCDetectBoard61_IB";
             this.textBox_DCDetectBoard61_IB.ReadOnly = true;
-            this.textBox_DCDetectBoard61_IB.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard61_IB.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard61_IB.TabIndex = 118;
             // 
             // textBox_DCDetectBoard61_VB
             // 
             this.textBox_DCDetectBoard61_VB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_VB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard61_VB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_VB.Location = new System.Drawing.Point(199, 25);
             this.textBox_DCDetectBoard61_VB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_VB.Name = "textBox_DCDetectBoard61_VB";
             this.textBox_DCDetectBoard61_VB.ReadOnly = true;
-            this.textBox_DCDetectBoard61_VB.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard61_VB.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard61_VB.TabIndex = 116;
             // 
             // textBox_DCDetectBoard61_TA
             // 
             this.textBox_DCDetectBoard61_TA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_TA.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard61_TA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_TA.Location = new System.Drawing.Point(67, 122);
             this.textBox_DCDetectBoard61_TA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_TA.Name = "textBox_DCDetectBoard61_TA";
             this.textBox_DCDetectBoard61_TA.ReadOnly = true;
-            this.textBox_DCDetectBoard61_TA.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard61_TA.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard61_TA.TabIndex = 114;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(2, 126);
+            this.label6.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label6.Location = new System.Drawing.Point(8, 128);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 19);
+            this.label6.Size = new System.Drawing.Size(56, 16);
             this.label6.TabIndex = 113;
             this.label6.Text = "温度A:";
             // 
             // textBox_DCDetectBoard61_GA
             // 
             this.textBox_DCDetectBoard61_GA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_GA.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard61_GA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_GA.Location = new System.Drawing.Point(67, 90);
             this.textBox_DCDetectBoard61_GA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_GA.Name = "textBox_DCDetectBoard61_GA";
             this.textBox_DCDetectBoard61_GA.ReadOnly = true;
-            this.textBox_DCDetectBoard61_GA.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard61_GA.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard61_GA.TabIndex = 112;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(2, 94);
+            this.label5.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label5.Location = new System.Drawing.Point(8, 96);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 19);
+            this.label5.Size = new System.Drawing.Size(56, 16);
             this.label5.TabIndex = 111;
             this.label5.Text = "绝缘A:";
             // 
             // textBox_DCDetectBoard61_IA
             // 
             this.textBox_DCDetectBoard61_IA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_IA.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard61_IA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_IA.Location = new System.Drawing.Point(67, 57);
             this.textBox_DCDetectBoard61_IA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_IA.Name = "textBox_DCDetectBoard61_IA";
             this.textBox_DCDetectBoard61_IA.ReadOnly = true;
-            this.textBox_DCDetectBoard61_IA.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard61_IA.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard61_IA.TabIndex = 110;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(2, 61);
+            this.label4.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label4.Location = new System.Drawing.Point(8, 63);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 19);
+            this.label4.Size = new System.Drawing.Size(56, 16);
             this.label4.TabIndex = 109;
             this.label4.Text = "电流A:";
             // 
             // textBox_DCDetectBoard61_VA
             // 
             this.textBox_DCDetectBoard61_VA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard61_VA.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard61_VA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard61_VA.Location = new System.Drawing.Point(67, 25);
             this.textBox_DCDetectBoard61_VA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard61_VA.Name = "textBox_DCDetectBoard61_VA";
             this.textBox_DCDetectBoard61_VA.ReadOnly = true;
-            this.textBox_DCDetectBoard61_VA.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard61_VA.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard61_VA.TabIndex = 108;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(2, 29);
+            this.label3.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label3.Location = new System.Drawing.Point(8, 31);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 19);
+            this.label3.Size = new System.Drawing.Size(56, 16);
             this.label3.TabIndex = 107;
             this.label3.Text = "电压A:";
             // 
@@ -9351,40 +9386,44 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(134, 126);
+            this.label7.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label7.Location = new System.Drawing.Point(140, 128);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(67, 19);
+            this.label7.Size = new System.Drawing.Size(56, 16);
             this.label7.TabIndex = 121;
             this.label7.Text = "温度B:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(134, 94);
+            this.label8.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label8.Location = new System.Drawing.Point(140, 96);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(67, 19);
+            this.label8.Size = new System.Drawing.Size(56, 16);
             this.label8.TabIndex = 119;
             this.label8.Text = "绝缘B:";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(134, 61);
+            this.label9.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label9.Location = new System.Drawing.Point(140, 63);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(67, 19);
+            this.label9.Size = new System.Drawing.Size(56, 16);
             this.label9.TabIndex = 117;
             this.label9.Text = "电流B:";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(134, 29);
+            this.label10.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label10.Location = new System.Drawing.Point(140, 31);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(67, 19);
+            this.label10.Size = new System.Drawing.Size(56, 16);
             this.label10.TabIndex = 115;
             this.label10.Text = "电压B:";
             // 
@@ -9421,149 +9460,163 @@
             // textBox_DCDetectBoard62_TO
             // 
             this.textBox_DCDetectBoard62_TO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_TO.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard62_TO.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_TO.Location = new System.Drawing.Point(166, 158);
             this.textBox_DCDetectBoard62_TO.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_TO.Name = "textBox_DCDetectBoard62_TO";
             this.textBox_DCDetectBoard62_TO.ReadOnly = true;
-            this.textBox_DCDetectBoard62_TO.Size = new System.Drawing.Size(97, 29);
+            this.textBox_DCDetectBoard62_TO.Size = new System.Drawing.Size(97, 26);
             this.textBox_DCDetectBoard62_TO.TabIndex = 124;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(3, 162);
+            this.label11.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label11.Location = new System.Drawing.Point(8, 162);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(152, 19);
+            this.label11.Size = new System.Drawing.Size(128, 16);
             this.label11.TabIndex = 123;
             this.label11.Text = "外接温度传感器:";
             // 
             // textBox_DCDetectBoard62_TB
             // 
             this.textBox_DCDetectBoard62_TB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_TB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard62_TB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_TB.Location = new System.Drawing.Point(198, 122);
             this.textBox_DCDetectBoard62_TB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_TB.Name = "textBox_DCDetectBoard62_TB";
             this.textBox_DCDetectBoard62_TB.ReadOnly = true;
-            this.textBox_DCDetectBoard62_TB.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard62_TB.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard62_TB.TabIndex = 122;
             // 
             // textBox_DCDetectBoard62_GB
             // 
             this.textBox_DCDetectBoard62_GB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_GB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard62_GB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_GB.Location = new System.Drawing.Point(198, 90);
             this.textBox_DCDetectBoard62_GB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_GB.Name = "textBox_DCDetectBoard62_GB";
             this.textBox_DCDetectBoard62_GB.ReadOnly = true;
-            this.textBox_DCDetectBoard62_GB.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard62_GB.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard62_GB.TabIndex = 120;
             // 
             // textBox_DCDetectBoard62_IB
             // 
             this.textBox_DCDetectBoard62_IB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_IB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard62_IB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_IB.Location = new System.Drawing.Point(198, 57);
             this.textBox_DCDetectBoard62_IB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_IB.Name = "textBox_DCDetectBoard62_IB";
             this.textBox_DCDetectBoard62_IB.ReadOnly = true;
-            this.textBox_DCDetectBoard62_IB.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard62_IB.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard62_IB.TabIndex = 118;
             // 
             // textBox_DCDetectBoard62_VB
             // 
             this.textBox_DCDetectBoard62_VB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_VB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard62_VB.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_VB.Location = new System.Drawing.Point(198, 25);
             this.textBox_DCDetectBoard62_VB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_VB.Name = "textBox_DCDetectBoard62_VB";
             this.textBox_DCDetectBoard62_VB.ReadOnly = true;
-            this.textBox_DCDetectBoard62_VB.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard62_VB.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard62_VB.TabIndex = 116;
             // 
             // textBox_DCDetectBoard62_TA
             // 
             this.textBox_DCDetectBoard62_TA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_TA.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard62_TA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_TA.Location = new System.Drawing.Point(67, 122);
             this.textBox_DCDetectBoard62_TA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_TA.Name = "textBox_DCDetectBoard62_TA";
             this.textBox_DCDetectBoard62_TA.ReadOnly = true;
-            this.textBox_DCDetectBoard62_TA.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard62_TA.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard62_TA.TabIndex = 114;
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(3, 123);
+            this.label16.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label16.Location = new System.Drawing.Point(8, 123);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(67, 19);
+            this.label16.Size = new System.Drawing.Size(56, 16);
             this.label16.TabIndex = 113;
             this.label16.Text = "温度A:";
             // 
             // textBox_DCDetectBoard62_GA
             // 
             this.textBox_DCDetectBoard62_GA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_GA.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard62_GA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_GA.Location = new System.Drawing.Point(67, 90);
             this.textBox_DCDetectBoard62_GA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_GA.Name = "textBox_DCDetectBoard62_GA";
             this.textBox_DCDetectBoard62_GA.ReadOnly = true;
-            this.textBox_DCDetectBoard62_GA.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard62_GA.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard62_GA.TabIndex = 112;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(3, 94);
+            this.label17.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label17.Location = new System.Drawing.Point(8, 94);
             this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(67, 19);
+            this.label17.Size = new System.Drawing.Size(56, 16);
             this.label17.TabIndex = 111;
             this.label17.Text = "绝缘A:";
             // 
             // textBox_DCDetectBoard62_IA
             // 
             this.textBox_DCDetectBoard62_IA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_IA.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard62_IA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_IA.Location = new System.Drawing.Point(67, 57);
             this.textBox_DCDetectBoard62_IA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_IA.Name = "textBox_DCDetectBoard62_IA";
             this.textBox_DCDetectBoard62_IA.ReadOnly = true;
-            this.textBox_DCDetectBoard62_IA.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard62_IA.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard62_IA.TabIndex = 110;
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(3, 61);
+            this.label18.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label18.Location = new System.Drawing.Point(8, 61);
             this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(67, 19);
+            this.label18.Size = new System.Drawing.Size(56, 16);
             this.label18.TabIndex = 109;
             this.label18.Text = "电流A:";
             // 
             // textBox_DCDetectBoard62_VA
             // 
             this.textBox_DCDetectBoard62_VA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_DCDetectBoard62_VA.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_DCDetectBoard62_VA.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_DCDetectBoard62_VA.Location = new System.Drawing.Point(67, 25);
             this.textBox_DCDetectBoard62_VA.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_DCDetectBoard62_VA.Name = "textBox_DCDetectBoard62_VA";
             this.textBox_DCDetectBoard62_VA.ReadOnly = true;
-            this.textBox_DCDetectBoard62_VA.Size = new System.Drawing.Size(65, 29);
+            this.textBox_DCDetectBoard62_VA.Size = new System.Drawing.Size(65, 26);
             this.textBox_DCDetectBoard62_VA.TabIndex = 108;
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(3, 29);
+            this.label20.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label20.Location = new System.Drawing.Point(8, 29);
             this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(67, 19);
+            this.label20.Size = new System.Drawing.Size(56, 16);
             this.label20.TabIndex = 107;
             this.label20.Text = "电压A:";
             // 
@@ -9581,40 +9634,44 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(133, 126);
+            this.label12.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label12.Location = new System.Drawing.Point(138, 126);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(67, 19);
+            this.label12.Size = new System.Drawing.Size(56, 16);
             this.label12.TabIndex = 121;
             this.label12.Text = "温度B:";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(133, 94);
+            this.label13.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label13.Location = new System.Drawing.Point(138, 94);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(67, 19);
+            this.label13.Size = new System.Drawing.Size(56, 16);
             this.label13.TabIndex = 119;
             this.label13.Text = "绝缘B:";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(133, 61);
+            this.label14.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label14.Location = new System.Drawing.Point(138, 61);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(67, 19);
+            this.label14.Size = new System.Drawing.Size(56, 16);
             this.label14.TabIndex = 117;
             this.label14.Text = "电流B:";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(133, 29);
+            this.label15.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label15.Location = new System.Drawing.Point(138, 29);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(67, 19);
+            this.label15.Size = new System.Drawing.Size(56, 16);
             this.label15.TabIndex = 115;
             this.label15.Text = "电压B:";
             // 
@@ -9623,7 +9680,7 @@
             this.groupBox6.Controls.Add(this.groupBox9);
             this.groupBox6.Controls.Add(this.groupBox8);
             this.groupBox6.Controls.Add(this.groupBox7);
-            this.groupBox6.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox6.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox6.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox6.Location = new System.Drawing.Point(5, 254);
             this.groupBox6.Margin = new System.Windows.Forms.Padding(2);
@@ -9658,95 +9715,103 @@
             // textBox_HPDCDetectBoard72_T
             // 
             this.textBox_HPDCDetectBoard72_T.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard72_T.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_HPDCDetectBoard72_T.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard72_T.Location = new System.Drawing.Point(63, 119);
             this.textBox_HPDCDetectBoard72_T.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard72_T.Name = "textBox_HPDCDetectBoard72_T";
             this.textBox_HPDCDetectBoard72_T.ReadOnly = true;
-            this.textBox_HPDCDetectBoard72_T.Size = new System.Drawing.Size(65, 29);
+            this.textBox_HPDCDetectBoard72_T.Size = new System.Drawing.Size(65, 26);
             this.textBox_HPDCDetectBoard72_T.TabIndex = 114;
             // 
             // label44
             // 
             this.label44.AutoSize = true;
+            this.label44.Font = new System.Drawing.Font("SimSun", 12F);
             this.label44.Location = new System.Drawing.Point(5, 123);
             this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(57, 19);
+            this.label44.Size = new System.Drawing.Size(48, 16);
             this.label44.TabIndex = 113;
             this.label44.Text = "温度:";
             // 
             // textBox_HPDCDetectBoard72_G
             // 
             this.textBox_HPDCDetectBoard72_G.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard72_G.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_HPDCDetectBoard72_G.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard72_G.Location = new System.Drawing.Point(63, 86);
             this.textBox_HPDCDetectBoard72_G.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard72_G.Name = "textBox_HPDCDetectBoard72_G";
             this.textBox_HPDCDetectBoard72_G.ReadOnly = true;
-            this.textBox_HPDCDetectBoard72_G.Size = new System.Drawing.Size(65, 29);
+            this.textBox_HPDCDetectBoard72_G.Size = new System.Drawing.Size(65, 26);
             this.textBox_HPDCDetectBoard72_G.TabIndex = 112;
             // 
             // label45
             // 
             this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("SimSun", 12F);
             this.label45.Location = new System.Drawing.Point(5, 91);
             this.label45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(57, 19);
+            this.label45.Size = new System.Drawing.Size(48, 16);
             this.label45.TabIndex = 111;
             this.label45.Text = "绝缘:";
             // 
             // textBox_HPDCDetectBoard72_I
             // 
             this.textBox_HPDCDetectBoard72_I.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard72_I.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_HPDCDetectBoard72_I.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard72_I.Location = new System.Drawing.Point(63, 54);
             this.textBox_HPDCDetectBoard72_I.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard72_I.Name = "textBox_HPDCDetectBoard72_I";
             this.textBox_HPDCDetectBoard72_I.ReadOnly = true;
-            this.textBox_HPDCDetectBoard72_I.Size = new System.Drawing.Size(65, 29);
+            this.textBox_HPDCDetectBoard72_I.Size = new System.Drawing.Size(65, 26);
             this.textBox_HPDCDetectBoard72_I.TabIndex = 110;
             // 
             // label46
             // 
             this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("SimSun", 12F);
             this.label46.Location = new System.Drawing.Point(5, 58);
             this.label46.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(57, 19);
+            this.label46.Size = new System.Drawing.Size(48, 16);
             this.label46.TabIndex = 109;
             this.label46.Text = "电流:";
             // 
             // textBox_HPDCDetectBoard72_V
             // 
             this.textBox_HPDCDetectBoard72_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard72_V.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_HPDCDetectBoard72_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard72_V.Location = new System.Drawing.Point(63, 22);
             this.textBox_HPDCDetectBoard72_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard72_V.Name = "textBox_HPDCDetectBoard72_V";
             this.textBox_HPDCDetectBoard72_V.ReadOnly = true;
-            this.textBox_HPDCDetectBoard72_V.Size = new System.Drawing.Size(65, 29);
+            this.textBox_HPDCDetectBoard72_V.Size = new System.Drawing.Size(65, 26);
             this.textBox_HPDCDetectBoard72_V.TabIndex = 108;
             // 
             // label47
             // 
             this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("SimSun", 12F);
             this.label47.Location = new System.Drawing.Point(5, 26);
             this.label47.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(57, 19);
+            this.label47.Size = new System.Drawing.Size(48, 16);
             this.label47.TabIndex = 107;
             this.label47.Text = "电压:";
             // 
             // label48
             // 
             this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label48.Font = new System.Drawing.Font("SimSun", 11F, System.Drawing.FontStyle.Bold);
             this.label48.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label48.Location = new System.Drawing.Point(4, 0);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(138, 16);
+            this.label48.Size = new System.Drawing.Size(132, 15);
             this.label48.TabIndex = 106;
             this.label48.Text = "阀箱电源板(72#)";
             // 
@@ -9773,95 +9838,103 @@
             // textBox_HPDCDetectBoard71_T
             // 
             this.textBox_HPDCDetectBoard71_T.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard71_T.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_HPDCDetectBoard71_T.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard71_T.Location = new System.Drawing.Point(63, 119);
             this.textBox_HPDCDetectBoard71_T.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard71_T.Name = "textBox_HPDCDetectBoard71_T";
             this.textBox_HPDCDetectBoard71_T.ReadOnly = true;
-            this.textBox_HPDCDetectBoard71_T.Size = new System.Drawing.Size(65, 29);
+            this.textBox_HPDCDetectBoard71_T.Size = new System.Drawing.Size(65, 26);
             this.textBox_HPDCDetectBoard71_T.TabIndex = 114;
             // 
             // label34
             // 
             this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("SimSun", 12F);
             this.label34.Location = new System.Drawing.Point(5, 123);
             this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(57, 19);
+            this.label34.Size = new System.Drawing.Size(48, 16);
             this.label34.TabIndex = 113;
             this.label34.Text = "温度:";
             // 
             // textBox_HPDCDetectBoard71_G
             // 
             this.textBox_HPDCDetectBoard71_G.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard71_G.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_HPDCDetectBoard71_G.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard71_G.Location = new System.Drawing.Point(63, 86);
             this.textBox_HPDCDetectBoard71_G.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard71_G.Name = "textBox_HPDCDetectBoard71_G";
             this.textBox_HPDCDetectBoard71_G.ReadOnly = true;
-            this.textBox_HPDCDetectBoard71_G.Size = new System.Drawing.Size(65, 29);
+            this.textBox_HPDCDetectBoard71_G.Size = new System.Drawing.Size(65, 26);
             this.textBox_HPDCDetectBoard71_G.TabIndex = 112;
             // 
             // label35
             // 
             this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("SimSun", 12F);
             this.label35.Location = new System.Drawing.Point(5, 91);
             this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(57, 19);
+            this.label35.Size = new System.Drawing.Size(48, 16);
             this.label35.TabIndex = 111;
             this.label35.Text = "绝缘:";
             // 
             // textBox_HPDCDetectBoard71_I
             // 
             this.textBox_HPDCDetectBoard71_I.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard71_I.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_HPDCDetectBoard71_I.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard71_I.Location = new System.Drawing.Point(63, 54);
             this.textBox_HPDCDetectBoard71_I.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard71_I.Name = "textBox_HPDCDetectBoard71_I";
             this.textBox_HPDCDetectBoard71_I.ReadOnly = true;
-            this.textBox_HPDCDetectBoard71_I.Size = new System.Drawing.Size(65, 29);
+            this.textBox_HPDCDetectBoard71_I.Size = new System.Drawing.Size(65, 26);
             this.textBox_HPDCDetectBoard71_I.TabIndex = 110;
             // 
             // label36
             // 
             this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("SimSun", 12F);
             this.label36.Location = new System.Drawing.Point(5, 58);
             this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(57, 19);
+            this.label36.Size = new System.Drawing.Size(48, 16);
             this.label36.TabIndex = 109;
             this.label36.Text = "电流:";
             // 
             // textBox_HPDCDetectBoard71_V
             // 
             this.textBox_HPDCDetectBoard71_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard71_V.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_HPDCDetectBoard71_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard71_V.Location = new System.Drawing.Point(63, 22);
             this.textBox_HPDCDetectBoard71_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard71_V.Name = "textBox_HPDCDetectBoard71_V";
             this.textBox_HPDCDetectBoard71_V.ReadOnly = true;
-            this.textBox_HPDCDetectBoard71_V.Size = new System.Drawing.Size(65, 29);
+            this.textBox_HPDCDetectBoard71_V.Size = new System.Drawing.Size(65, 26);
             this.textBox_HPDCDetectBoard71_V.TabIndex = 108;
             // 
             // label37
             // 
             this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("SimSun", 12F);
             this.label37.Location = new System.Drawing.Point(5, 26);
             this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(57, 19);
+            this.label37.Size = new System.Drawing.Size(48, 16);
             this.label37.TabIndex = 107;
             this.label37.Text = "电压:";
             // 
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label38.Font = new System.Drawing.Font("SimSun", 11F, System.Drawing.FontStyle.Bold);
             this.label38.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label38.Location = new System.Drawing.Point(4, 0);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(131, 16);
+            this.label38.Size = new System.Drawing.Size(127, 15);
             this.label38.TabIndex = 106;
             this.label38.Text = "LED电源板(71#)";
             // 
@@ -9888,95 +9961,103 @@
             // textBox_HPDCDetectBoard70_T
             // 
             this.textBox_HPDCDetectBoard70_T.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard70_T.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_HPDCDetectBoard70_T.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard70_T.Location = new System.Drawing.Point(63, 119);
             this.textBox_HPDCDetectBoard70_T.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard70_T.Name = "textBox_HPDCDetectBoard70_T";
             this.textBox_HPDCDetectBoard70_T.ReadOnly = true;
-            this.textBox_HPDCDetectBoard70_T.Size = new System.Drawing.Size(65, 29);
+            this.textBox_HPDCDetectBoard70_T.Size = new System.Drawing.Size(65, 26);
             this.textBox_HPDCDetectBoard70_T.TabIndex = 114;
             // 
             // label39
             // 
             this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("SimSun", 12F);
             this.label39.Location = new System.Drawing.Point(5, 123);
             this.label39.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(57, 19);
+            this.label39.Size = new System.Drawing.Size(48, 16);
             this.label39.TabIndex = 113;
             this.label39.Text = "温度:";
             // 
             // textBox_HPDCDetectBoard70_G
             // 
             this.textBox_HPDCDetectBoard70_G.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard70_G.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_HPDCDetectBoard70_G.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard70_G.Location = new System.Drawing.Point(63, 86);
             this.textBox_HPDCDetectBoard70_G.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard70_G.Name = "textBox_HPDCDetectBoard70_G";
             this.textBox_HPDCDetectBoard70_G.ReadOnly = true;
-            this.textBox_HPDCDetectBoard70_G.Size = new System.Drawing.Size(65, 29);
+            this.textBox_HPDCDetectBoard70_G.Size = new System.Drawing.Size(65, 26);
             this.textBox_HPDCDetectBoard70_G.TabIndex = 112;
             // 
             // label40
             // 
             this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("SimSun", 12F);
             this.label40.Location = new System.Drawing.Point(5, 91);
             this.label40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(57, 19);
+            this.label40.Size = new System.Drawing.Size(48, 16);
             this.label40.TabIndex = 111;
             this.label40.Text = "绝缘:";
             // 
             // textBox_HPDCDetectBoard70_I
             // 
             this.textBox_HPDCDetectBoard70_I.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard70_I.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_HPDCDetectBoard70_I.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard70_I.Location = new System.Drawing.Point(63, 54);
             this.textBox_HPDCDetectBoard70_I.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard70_I.Name = "textBox_HPDCDetectBoard70_I";
             this.textBox_HPDCDetectBoard70_I.ReadOnly = true;
-            this.textBox_HPDCDetectBoard70_I.Size = new System.Drawing.Size(65, 29);
+            this.textBox_HPDCDetectBoard70_I.Size = new System.Drawing.Size(65, 26);
             this.textBox_HPDCDetectBoard70_I.TabIndex = 110;
             // 
             // label41
             // 
             this.label41.AutoSize = true;
+            this.label41.Font = new System.Drawing.Font("SimSun", 12F);
             this.label41.Location = new System.Drawing.Point(5, 56);
             this.label41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(57, 19);
+            this.label41.Size = new System.Drawing.Size(48, 16);
             this.label41.TabIndex = 109;
             this.label41.Text = "电流:";
             // 
             // textBox_HPDCDetectBoard70_V
             // 
             this.textBox_HPDCDetectBoard70_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_HPDCDetectBoard70_V.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_HPDCDetectBoard70_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HPDCDetectBoard70_V.Location = new System.Drawing.Point(63, 22);
             this.textBox_HPDCDetectBoard70_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HPDCDetectBoard70_V.Name = "textBox_HPDCDetectBoard70_V";
             this.textBox_HPDCDetectBoard70_V.ReadOnly = true;
-            this.textBox_HPDCDetectBoard70_V.Size = new System.Drawing.Size(65, 29);
+            this.textBox_HPDCDetectBoard70_V.Size = new System.Drawing.Size(65, 26);
             this.textBox_HPDCDetectBoard70_V.TabIndex = 108;
             // 
             // label42
             // 
             this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("SimSun", 12F);
             this.label42.Location = new System.Drawing.Point(5, 26);
             this.label42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(57, 19);
+            this.label42.Size = new System.Drawing.Size(48, 16);
             this.label42.TabIndex = 107;
             this.label42.Text = "电压:";
             // 
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label43.Font = new System.Drawing.Font("SimSun", 11F, System.Drawing.FontStyle.Bold);
             this.label43.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label43.Location = new System.Drawing.Point(7, 0);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(131, 16);
+            this.label43.Size = new System.Drawing.Size(127, 15);
             this.label43.TabIndex = 106;
             this.label43.Text = "LED电源板(70#)";
             // 
@@ -9986,7 +10067,7 @@
             this.groupBox12.Controls.Add(this.groupBox16);
             this.groupBox12.Controls.Add(this.groupBox15);
             this.groupBox12.Controls.Add(this.groupBox14);
-            this.groupBox12.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox12.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox12.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox12.Location = new System.Drawing.Point(5, 676);
             this.groupBox12.Margin = new System.Windows.Forms.Padding(2);
@@ -10024,128 +10105,136 @@
             // label236
             // 
             this.label236.AutoSize = true;
-            this.label236.Font = new System.Drawing.Font("SimSun", 12.8F);
+            this.label236.Font = new System.Drawing.Font("SimSun", 12F);
             this.label236.Location = new System.Drawing.Point(162, 133);
             this.label236.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label236.Name = "label236";
-            this.label236.Size = new System.Drawing.Size(26, 18);
+            this.label236.Size = new System.Drawing.Size(24, 16);
             this.label236.TabIndex = 165;
             this.label236.Text = "mm";
             // 
             // label227
             // 
             this.label227.AutoSize = true;
-            this.label227.Font = new System.Drawing.Font("SimSun", 12.8F);
+            this.label227.Font = new System.Drawing.Font("SimSun", 12F);
             this.label227.Location = new System.Drawing.Point(162, 33);
             this.label227.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label227.Name = "label227";
-            this.label227.Size = new System.Drawing.Size(17, 18);
+            this.label227.Size = new System.Drawing.Size(16, 16);
             this.label227.TabIndex = 163;
             this.label227.Text = "L";
             // 
             // label78
             // 
             this.label78.AutoSize = true;
-            this.label78.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label78.Font = new System.Drawing.Font("SimSun", 11F, System.Drawing.FontStyle.Bold);
             this.label78.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label78.Location = new System.Drawing.Point(53, 2);
+            this.label78.Location = new System.Drawing.Point(66, 2);
             this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(71, 19);
+            this.label78.Size = new System.Drawing.Size(57, 15);
             this.label78.TabIndex = 106;
             this.label78.Text = "通道4#";
             // 
             // label72
             // 
             this.label72.AutoSize = true;
+            this.label72.Font = new System.Drawing.Font("SimSun", 12F);
             this.label72.Location = new System.Drawing.Point(14, 100);
             this.label72.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(67, 19);
+            this.label72.Size = new System.Drawing.Size(56, 16);
             this.label72.TabIndex = 107;
             this.label72.Text = "压力3:";
             // 
             // textBox_TankDetectBoardCH4_4
             // 
             this.textBox_TankDetectBoardCH4_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH4_4.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_TankDetectBoardCH4_4.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH4_4.Location = new System.Drawing.Point(89, 128);
             this.textBox_TankDetectBoardCH4_4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH4_4.Name = "textBox_TankDetectBoardCH4_4";
             this.textBox_TankDetectBoardCH4_4.ReadOnly = true;
-            this.textBox_TankDetectBoardCH4_4.Size = new System.Drawing.Size(70, 29);
+            this.textBox_TankDetectBoardCH4_4.Size = new System.Drawing.Size(70, 26);
             this.textBox_TankDetectBoardCH4_4.TabIndex = 114;
             // 
             // label228
             // 
             this.label228.AutoSize = true;
-            this.label228.Font = new System.Drawing.Font("SimSun", 12.8F);
+            this.label228.Font = new System.Drawing.Font("SimSun", 12F);
             this.label228.Location = new System.Drawing.Point(162, 65);
             this.label228.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label228.Name = "label228";
-            this.label228.Size = new System.Drawing.Size(17, 18);
+            this.label228.Size = new System.Drawing.Size(16, 16);
             this.label228.TabIndex = 161;
             this.label228.Text = "L";
             // 
             // label79
             // 
             this.label79.AutoSize = true;
+            this.label79.Font = new System.Drawing.Font("SimSun", 12F);
             this.label79.Location = new System.Drawing.Point(24, 134);
             this.label79.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(57, 19);
+            this.label79.Size = new System.Drawing.Size(48, 16);
             this.label79.TabIndex = 113;
             this.label79.Text = "位移:";
             // 
             // textBox_TankDetectBoardCH4_3
             // 
             this.textBox_TankDetectBoardCH4_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH4_3.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_TankDetectBoardCH4_3.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH4_3.Location = new System.Drawing.Point(89, 94);
             this.textBox_TankDetectBoardCH4_3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH4_3.Name = "textBox_TankDetectBoardCH4_3";
             this.textBox_TankDetectBoardCH4_3.ReadOnly = true;
-            this.textBox_TankDetectBoardCH4_3.Size = new System.Drawing.Size(70, 29);
+            this.textBox_TankDetectBoardCH4_3.Size = new System.Drawing.Size(70, 26);
             this.textBox_TankDetectBoardCH4_3.TabIndex = 112;
             // 
             // textBox_TankDetectBoardCH4_2
             // 
             this.textBox_TankDetectBoardCH4_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH4_2.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_TankDetectBoardCH4_2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH4_2.Location = new System.Drawing.Point(89, 61);
             this.textBox_TankDetectBoardCH4_2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH4_2.Name = "textBox_TankDetectBoardCH4_2";
             this.textBox_TankDetectBoardCH4_2.ReadOnly = true;
-            this.textBox_TankDetectBoardCH4_2.Size = new System.Drawing.Size(70, 29);
+            this.textBox_TankDetectBoardCH4_2.Size = new System.Drawing.Size(70, 26);
             this.textBox_TankDetectBoardCH4_2.TabIndex = 110;
             // 
             // label81
             // 
             this.label81.AutoSize = true;
+            this.label81.Font = new System.Drawing.Font("SimSun", 12F);
             this.label81.Location = new System.Drawing.Point(14, 67);
             this.label81.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(67, 19);
+            this.label81.Size = new System.Drawing.Size(56, 16);
             this.label81.TabIndex = 109;
             this.label81.Text = "补偿4:";
             // 
             // textBox_TankDetectBoardCH4_1
             // 
             this.textBox_TankDetectBoardCH4_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH4_1.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_TankDetectBoardCH4_1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH4_1.Location = new System.Drawing.Point(89, 28);
             this.textBox_TankDetectBoardCH4_1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH4_1.Name = "textBox_TankDetectBoardCH4_1";
             this.textBox_TankDetectBoardCH4_1.ReadOnly = true;
-            this.textBox_TankDetectBoardCH4_1.Size = new System.Drawing.Size(70, 29);
+            this.textBox_TankDetectBoardCH4_1.Size = new System.Drawing.Size(70, 26);
             this.textBox_TankDetectBoardCH4_1.TabIndex = 108;
             // 
             // label82
             // 
             this.label82.AutoSize = true;
+            this.label82.Font = new System.Drawing.Font("SimSun", 12F);
             this.label82.Location = new System.Drawing.Point(14, 33);
             this.label82.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(67, 19);
+            this.label82.Size = new System.Drawing.Size(56, 16);
             this.label82.TabIndex = 107;
             this.label82.Text = "补偿3:";
             // 
@@ -10175,128 +10264,136 @@
             // label230
             // 
             this.label230.AutoSize = true;
-            this.label230.Font = new System.Drawing.Font("SimSun", 12.8F);
+            this.label230.Font = new System.Drawing.Font("SimSun", 12F);
             this.label230.Location = new System.Drawing.Point(162, 67);
             this.label230.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label230.Name = "label230";
-            this.label230.Size = new System.Drawing.Size(17, 18);
+            this.label230.Size = new System.Drawing.Size(16, 16);
             this.label230.TabIndex = 163;
             this.label230.Text = "m";
             // 
             // label226
             // 
             this.label226.AutoSize = true;
-            this.label226.Font = new System.Drawing.Font("SimSun", 12.8F);
+            this.label226.Font = new System.Drawing.Font("SimSun", 12F);
             this.label226.Location = new System.Drawing.Point(164, 102);
             this.label226.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label226.Name = "label226";
-            this.label226.Size = new System.Drawing.Size(17, 18);
+            this.label226.Size = new System.Drawing.Size(16, 16);
             this.label226.TabIndex = 162;
             this.label226.Text = "L";
             // 
             // label73
             // 
             this.label73.AutoSize = true;
-            this.label73.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label73.Font = new System.Drawing.Font("SimSun", 11F, System.Drawing.FontStyle.Bold);
             this.label73.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label73.Location = new System.Drawing.Point(59, 1);
+            this.label73.Location = new System.Drawing.Point(69, 1);
             this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(71, 19);
+            this.label73.Size = new System.Drawing.Size(57, 15);
             this.label73.TabIndex = 106;
             this.label73.Text = "通道3#";
             // 
             // textBox_TankDetectBoardCH3_4
             // 
             this.textBox_TankDetectBoardCH3_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH3_4.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_TankDetectBoardCH3_4.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH3_4.Location = new System.Drawing.Point(91, 128);
             this.textBox_TankDetectBoardCH3_4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH3_4.Name = "textBox_TankDetectBoardCH3_4";
             this.textBox_TankDetectBoardCH3_4.ReadOnly = true;
-            this.textBox_TankDetectBoardCH3_4.Size = new System.Drawing.Size(70, 29);
+            this.textBox_TankDetectBoardCH3_4.Size = new System.Drawing.Size(70, 26);
             this.textBox_TankDetectBoardCH3_4.TabIndex = 114;
             // 
             // label74
             // 
             this.label74.AutoSize = true;
+            this.label74.Font = new System.Drawing.Font("SimSun", 12F);
             this.label74.Location = new System.Drawing.Point(16, 134);
             this.label74.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(67, 19);
+            this.label74.Size = new System.Drawing.Size(56, 16);
             this.label74.TabIndex = 113;
             this.label74.Text = "补偿2:";
             // 
             // textBox_TankDetectBoardCH3_3
             // 
             this.textBox_TankDetectBoardCH3_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH3_3.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_TankDetectBoardCH3_3.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH3_3.Location = new System.Drawing.Point(91, 94);
             this.textBox_TankDetectBoardCH3_3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH3_3.Name = "textBox_TankDetectBoardCH3_3";
             this.textBox_TankDetectBoardCH3_3.ReadOnly = true;
-            this.textBox_TankDetectBoardCH3_3.Size = new System.Drawing.Size(70, 29);
+            this.textBox_TankDetectBoardCH3_3.Size = new System.Drawing.Size(70, 26);
             this.textBox_TankDetectBoardCH3_3.TabIndex = 112;
             // 
             // label75
             // 
             this.label75.AutoSize = true;
+            this.label75.Font = new System.Drawing.Font("SimSun", 12F);
             this.label75.Location = new System.Drawing.Point(16, 100);
             this.label75.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(67, 19);
+            this.label75.Size = new System.Drawing.Size(56, 16);
             this.label75.TabIndex = 111;
             this.label75.Text = "补偿1:";
             // 
             // textBox_TankDetectBoardCH3_2
             // 
             this.textBox_TankDetectBoardCH3_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH3_2.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_TankDetectBoardCH3_2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH3_2.Location = new System.Drawing.Point(91, 61);
             this.textBox_TankDetectBoardCH3_2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH3_2.Name = "textBox_TankDetectBoardCH3_2";
             this.textBox_TankDetectBoardCH3_2.ReadOnly = true;
-            this.textBox_TankDetectBoardCH3_2.Size = new System.Drawing.Size(70, 29);
+            this.textBox_TankDetectBoardCH3_2.Size = new System.Drawing.Size(70, 26);
             this.textBox_TankDetectBoardCH3_2.TabIndex = 110;
             // 
             // label229
             // 
             this.label229.AutoSize = true;
-            this.label229.Font = new System.Drawing.Font("SimSun", 12.8F);
+            this.label229.Font = new System.Drawing.Font("SimSun", 12F);
             this.label229.Location = new System.Drawing.Point(164, 134);
             this.label229.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label229.Name = "label229";
-            this.label229.Size = new System.Drawing.Size(17, 18);
+            this.label229.Size = new System.Drawing.Size(16, 16);
             this.label229.TabIndex = 160;
             this.label229.Text = "L";
             // 
             // label76
             // 
             this.label76.AutoSize = true;
+            this.label76.Font = new System.Drawing.Font("SimSun", 12F);
             this.label76.Location = new System.Drawing.Point(16, 67);
             this.label76.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(76, 19);
+            this.label76.Size = new System.Drawing.Size(64, 16);
             this.label76.TabIndex = 109;
             this.label76.Text = "深度计:";
             // 
             // textBox_TankDetectBoardCH3_1
             // 
             this.textBox_TankDetectBoardCH3_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH3_1.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_TankDetectBoardCH3_1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH3_1.Location = new System.Drawing.Point(91, 28);
             this.textBox_TankDetectBoardCH3_1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH3_1.Name = "textBox_TankDetectBoardCH3_1";
             this.textBox_TankDetectBoardCH3_1.ReadOnly = true;
-            this.textBox_TankDetectBoardCH3_1.Size = new System.Drawing.Size(70, 29);
+            this.textBox_TankDetectBoardCH3_1.Size = new System.Drawing.Size(70, 26);
             this.textBox_TankDetectBoardCH3_1.TabIndex = 108;
             // 
             // label77
             // 
             this.label77.AutoSize = true;
+            this.label77.Font = new System.Drawing.Font("SimSun", 12F);
             this.label77.Location = new System.Drawing.Point(16, 33);
             this.label77.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(67, 19);
+            this.label77.Size = new System.Drawing.Size(56, 16);
             this.label77.TabIndex = 107;
             this.label77.Text = "压力1:";
             // 
@@ -10324,106 +10421,114 @@
             // label80
             // 
             this.label80.AutoSize = true;
+            this.label80.Font = new System.Drawing.Font("SimSun", 12F);
             this.label80.Location = new System.Drawing.Point(16, 32);
             this.label80.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(67, 19);
+            this.label80.Size = new System.Drawing.Size(56, 16);
             this.label80.TabIndex = 167;
             this.label80.Text = "压力1:";
             // 
             // label186
             // 
             this.label186.AutoSize = true;
-            this.label186.Font = new System.Drawing.Font("SimSun", 12.8F);
+            this.label186.Font = new System.Drawing.Font("SimSun", 12F);
             this.label186.Location = new System.Drawing.Point(164, 65);
             this.label186.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label186.Name = "label186";
-            this.label186.Size = new System.Drawing.Size(17, 18);
+            this.label186.Size = new System.Drawing.Size(16, 16);
             this.label186.TabIndex = 166;
             this.label186.Text = "L";
             // 
             // label68
             // 
             this.label68.AutoSize = true;
-            this.label68.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label68.Font = new System.Drawing.Font("SimSun", 11F, System.Drawing.FontStyle.Bold);
             this.label68.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label68.Location = new System.Drawing.Point(60, 1);
+            this.label68.Location = new System.Drawing.Point(70, 0);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(71, 19);
+            this.label68.Size = new System.Drawing.Size(57, 15);
             this.label68.TabIndex = 106;
             this.label68.Text = "通道2#";
             // 
             // textBox_TankDetectBoardCH2_4
             // 
             this.textBox_TankDetectBoardCH2_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH2_4.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_TankDetectBoardCH2_4.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH2_4.Location = new System.Drawing.Point(91, 128);
             this.textBox_TankDetectBoardCH2_4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH2_4.Name = "textBox_TankDetectBoardCH2_4";
             this.textBox_TankDetectBoardCH2_4.ReadOnly = true;
-            this.textBox_TankDetectBoardCH2_4.Size = new System.Drawing.Size(70, 29);
+            this.textBox_TankDetectBoardCH2_4.Size = new System.Drawing.Size(70, 26);
             this.textBox_TankDetectBoardCH2_4.TabIndex = 114;
             // 
             // label69
             // 
             this.label69.AutoSize = true;
+            this.label69.Font = new System.Drawing.Font("SimSun", 12F);
             this.label69.Location = new System.Drawing.Point(16, 134);
             this.label69.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(67, 19);
+            this.label69.Size = new System.Drawing.Size(56, 16);
             this.label69.TabIndex = 113;
             this.label69.Text = "压力4:";
             // 
             // textBox_TankDetectBoardCH2_3
             // 
             this.textBox_TankDetectBoardCH2_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH2_3.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_TankDetectBoardCH2_3.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH2_3.Location = new System.Drawing.Point(91, 94);
             this.textBox_TankDetectBoardCH2_3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH2_3.Name = "textBox_TankDetectBoardCH2_3";
             this.textBox_TankDetectBoardCH2_3.ReadOnly = true;
-            this.textBox_TankDetectBoardCH2_3.Size = new System.Drawing.Size(70, 29);
+            this.textBox_TankDetectBoardCH2_3.Size = new System.Drawing.Size(70, 26);
             this.textBox_TankDetectBoardCH2_3.TabIndex = 112;
             // 
             // label70
             // 
             this.label70.AutoSize = true;
+            this.label70.Font = new System.Drawing.Font("SimSun", 12F);
             this.label70.Location = new System.Drawing.Point(16, 100);
             this.label70.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(67, 19);
+            this.label70.Size = new System.Drawing.Size(56, 16);
             this.label70.TabIndex = 111;
             this.label70.Text = "压力3:";
             // 
             // textBox_TankDetectBoardCH2_2
             // 
             this.textBox_TankDetectBoardCH2_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH2_2.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_TankDetectBoardCH2_2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH2_2.Location = new System.Drawing.Point(91, 61);
             this.textBox_TankDetectBoardCH2_2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH2_2.Name = "textBox_TankDetectBoardCH2_2";
             this.textBox_TankDetectBoardCH2_2.ReadOnly = true;
-            this.textBox_TankDetectBoardCH2_2.Size = new System.Drawing.Size(70, 29);
+            this.textBox_TankDetectBoardCH2_2.Size = new System.Drawing.Size(70, 26);
             this.textBox_TankDetectBoardCH2_2.TabIndex = 110;
             // 
             // textBox_TankDetectBoardCH2_1
             // 
             this.textBox_TankDetectBoardCH2_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH2_1.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_TankDetectBoardCH2_1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH2_1.Location = new System.Drawing.Point(91, 28);
             this.textBox_TankDetectBoardCH2_1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH2_1.Name = "textBox_TankDetectBoardCH2_1";
             this.textBox_TankDetectBoardCH2_1.ReadOnly = true;
-            this.textBox_TankDetectBoardCH2_1.Size = new System.Drawing.Size(70, 29);
+            this.textBox_TankDetectBoardCH2_1.Size = new System.Drawing.Size(70, 26);
             this.textBox_TankDetectBoardCH2_1.TabIndex = 108;
             // 
             // label71
             // 
             this.label71.AutoSize = true;
+            this.label71.Font = new System.Drawing.Font("SimSun", 12F);
             this.label71.Location = new System.Drawing.Point(2, 66);
             this.label71.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(95, 19);
+            this.label71.Size = new System.Drawing.Size(80, 16);
             this.label71.TabIndex = 165;
             this.label71.Text = "油箱补偿:";
             // 
@@ -10454,102 +10559,106 @@
             // label67
             // 
             this.label67.AutoSize = true;
-            this.label67.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label67.Font = new System.Drawing.Font("SimSun", 11F, System.Drawing.FontStyle.Bold);
             this.label67.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label67.Location = new System.Drawing.Point(59, 1);
+            this.label67.Location = new System.Drawing.Point(71, 2);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(71, 19);
+            this.label67.Size = new System.Drawing.Size(57, 15);
             this.label67.TabIndex = 106;
             this.label67.Text = "通道1#";
             // 
             // textBox_TankDetectBoardCH1_4
             // 
             this.textBox_TankDetectBoardCH1_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH1_4.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_TankDetectBoardCH1_4.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH1_4.Location = new System.Drawing.Point(94, 128);
             this.textBox_TankDetectBoardCH1_4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH1_4.Name = "textBox_TankDetectBoardCH1_4";
             this.textBox_TankDetectBoardCH1_4.ReadOnly = true;
-            this.textBox_TankDetectBoardCH1_4.Size = new System.Drawing.Size(70, 29);
+            this.textBox_TankDetectBoardCH1_4.Size = new System.Drawing.Size(70, 26);
             this.textBox_TankDetectBoardCH1_4.TabIndex = 114;
             // 
             // textBox_TankDetectBoardCH1_3
             // 
             this.textBox_TankDetectBoardCH1_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH1_3.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_TankDetectBoardCH1_3.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH1_3.Location = new System.Drawing.Point(94, 94);
             this.textBox_TankDetectBoardCH1_3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH1_3.Name = "textBox_TankDetectBoardCH1_3";
             this.textBox_TankDetectBoardCH1_3.ReadOnly = true;
-            this.textBox_TankDetectBoardCH1_3.Size = new System.Drawing.Size(70, 29);
+            this.textBox_TankDetectBoardCH1_3.Size = new System.Drawing.Size(70, 26);
             this.textBox_TankDetectBoardCH1_3.TabIndex = 112;
             // 
             // textBox_TankDetectBoardCH1_2
             // 
             this.textBox_TankDetectBoardCH1_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH1_2.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_TankDetectBoardCH1_2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH1_2.Location = new System.Drawing.Point(94, 61);
             this.textBox_TankDetectBoardCH1_2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH1_2.Name = "textBox_TankDetectBoardCH1_2";
             this.textBox_TankDetectBoardCH1_2.ReadOnly = true;
-            this.textBox_TankDetectBoardCH1_2.Size = new System.Drawing.Size(70, 29);
+            this.textBox_TankDetectBoardCH1_2.Size = new System.Drawing.Size(70, 26);
             this.textBox_TankDetectBoardCH1_2.TabIndex = 110;
             // 
             // textBox_TankDetectBoardCH1_1
             // 
             this.textBox_TankDetectBoardCH1_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.textBox_TankDetectBoardCH1_1.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_TankDetectBoardCH1_1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_TankDetectBoardCH1_1.Location = new System.Drawing.Point(94, 28);
             this.textBox_TankDetectBoardCH1_1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_TankDetectBoardCH1_1.Name = "textBox_TankDetectBoardCH1_1";
             this.textBox_TankDetectBoardCH1_1.ReadOnly = true;
-            this.textBox_TankDetectBoardCH1_1.Size = new System.Drawing.Size(70, 29);
+            this.textBox_TankDetectBoardCH1_1.Size = new System.Drawing.Size(70, 26);
             this.textBox_TankDetectBoardCH1_1.TabIndex = 108;
             // 
             // label241
             // 
             this.label241.AutoSize = true;
-            this.label241.Font = new System.Drawing.Font("SimSun", 12.8F);
+            this.label241.Font = new System.Drawing.Font("SimSun", 12F);
             this.label241.Location = new System.Drawing.Point(164, 98);
             this.label241.Name = "label241";
-            this.label241.Size = new System.Drawing.Size(35, 18);
+            this.label241.Size = new System.Drawing.Size(32, 16);
             this.label241.TabIndex = 121;
             this.label241.Text = "MPa";
             // 
             // label242
             // 
             this.label242.AutoSize = true;
-            this.label242.Font = new System.Drawing.Font("SimSun", 12.8F);
+            this.label242.Font = new System.Drawing.Font("SimSun", 12F);
             this.label242.Location = new System.Drawing.Point(164, 65);
             this.label242.Name = "label242";
-            this.label242.Size = new System.Drawing.Size(35, 18);
+            this.label242.Size = new System.Drawing.Size(32, 16);
             this.label242.TabIndex = 120;
             this.label242.Text = "MPa";
             // 
             // label243
             // 
             this.label243.AutoSize = true;
-            this.label243.Font = new System.Drawing.Font("SimSun", 12.8F);
+            this.label243.Font = new System.Drawing.Font("SimSun", 12F);
             this.label243.Location = new System.Drawing.Point(164, 32);
             this.label243.Name = "label243";
-            this.label243.Size = new System.Drawing.Size(35, 18);
+            this.label243.Size = new System.Drawing.Size(32, 16);
             this.label243.TabIndex = 119;
             this.label243.Text = "MPa";
             // 
             // label240
             // 
             this.label240.AutoSize = true;
-            this.label240.Font = new System.Drawing.Font("SimSun", 12.8F);
+            this.label240.Font = new System.Drawing.Font("SimSun", 12F);
             this.label240.Location = new System.Drawing.Point(164, 131);
             this.label240.Name = "label240";
-            this.label240.Size = new System.Drawing.Size(35, 18);
+            this.label240.Size = new System.Drawing.Size(32, 16);
             this.label240.TabIndex = 122;
             this.label240.Text = "MPa";
             // 
             // label60
             // 
             this.label60.AutoSize = true;
-            this.label60.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label60.Font = new System.Drawing.Font("SimSun", 12F);
             this.label60.Location = new System.Drawing.Point(3, 134);
             this.label60.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label60.Name = "label60";
@@ -10560,7 +10669,7 @@
             // label61
             // 
             this.label61.AutoSize = true;
-            this.label61.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label61.Font = new System.Drawing.Font("SimSun", 12F);
             this.label61.Location = new System.Drawing.Point(3, 100);
             this.label61.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label61.Name = "label61";
@@ -10571,7 +10680,7 @@
             // label65
             // 
             this.label65.AutoSize = true;
-            this.label65.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label65.Font = new System.Drawing.Font("SimSun", 12F);
             this.label65.Location = new System.Drawing.Point(3, 67);
             this.label65.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label65.Name = "label65";
@@ -10582,7 +10691,7 @@
             // label66
             // 
             this.label66.AutoSize = true;
-            this.label66.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label66.Font = new System.Drawing.Font("SimSun", 12F);
             this.label66.Location = new System.Drawing.Point(3, 33);
             this.label66.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label66.Name = "label66";
@@ -10600,7 +10709,7 @@
             this.groupBox2.Controls.Add(this.textBox_CameraPowerRelayBoard1_V);
             this.groupBox2.Controls.Add(this.label56);
             this.groupBox2.Controls.Add(this.label59);
-            this.groupBox2.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox2.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox2.Location = new System.Drawing.Point(5, 470);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
@@ -10615,92 +10724,92 @@
             // textBox_SensorPowerRelayBoard2_V
             // 
             this.textBox_SensorPowerRelayBoard2_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_SensorPowerRelayBoard2_V.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_SensorPowerRelayBoard2_V.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_SensorPowerRelayBoard2_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_SensorPowerRelayBoard2_V.Location = new System.Drawing.Point(113, 140);
             this.textBox_SensorPowerRelayBoard2_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_SensorPowerRelayBoard2_V.Name = "textBox_SensorPowerRelayBoard2_V";
             this.textBox_SensorPowerRelayBoard2_V.ReadOnly = true;
-            this.textBox_SensorPowerRelayBoard2_V.Size = new System.Drawing.Size(65, 29);
+            this.textBox_SensorPowerRelayBoard2_V.Size = new System.Drawing.Size(65, 26);
             this.textBox_SensorPowerRelayBoard2_V.TabIndex = 118;
             // 
             // label58
             // 
             this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label58.Font = new System.Drawing.Font("SimSun", 12F);
             this.label58.Location = new System.Drawing.Point(6, 144);
             this.label58.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(107, 19);
+            this.label58.Size = new System.Drawing.Size(88, 16);
             this.label58.TabIndex = 117;
             this.label58.Text = "漏水(#29):";
             // 
             // textBox_CameraPowerRelayBoard2_V
             // 
             this.textBox_CameraPowerRelayBoard2_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_CameraPowerRelayBoard2_V.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_CameraPowerRelayBoard2_V.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_CameraPowerRelayBoard2_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_CameraPowerRelayBoard2_V.Location = new System.Drawing.Point(113, 69);
             this.textBox_CameraPowerRelayBoard2_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_CameraPowerRelayBoard2_V.Name = "textBox_CameraPowerRelayBoard2_V";
             this.textBox_CameraPowerRelayBoard2_V.ReadOnly = true;
-            this.textBox_CameraPowerRelayBoard2_V.Size = new System.Drawing.Size(65, 29);
+            this.textBox_CameraPowerRelayBoard2_V.Size = new System.Drawing.Size(65, 26);
             this.textBox_CameraPowerRelayBoard2_V.TabIndex = 116;
             // 
             // textBox_SensorPowerRelayBoard1_V
             // 
             this.textBox_SensorPowerRelayBoard1_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_SensorPowerRelayBoard1_V.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_SensorPowerRelayBoard1_V.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_SensorPowerRelayBoard1_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_SensorPowerRelayBoard1_V.Location = new System.Drawing.Point(113, 103);
             this.textBox_SensorPowerRelayBoard1_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_SensorPowerRelayBoard1_V.Name = "textBox_SensorPowerRelayBoard1_V";
             this.textBox_SensorPowerRelayBoard1_V.ReadOnly = true;
-            this.textBox_SensorPowerRelayBoard1_V.Size = new System.Drawing.Size(65, 29);
+            this.textBox_SensorPowerRelayBoard1_V.Size = new System.Drawing.Size(65, 26);
             this.textBox_SensorPowerRelayBoard1_V.TabIndex = 114;
             // 
             // label57
             // 
             this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label57.Font = new System.Drawing.Font("SimSun", 12F);
             this.label57.Location = new System.Drawing.Point(6, 73);
             this.label57.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(107, 19);
+            this.label57.Size = new System.Drawing.Size(88, 16);
             this.label57.TabIndex = 113;
             this.label57.Text = "漏水(#26):";
             // 
             // textBox_CameraPowerRelayBoard1_V
             // 
             this.textBox_CameraPowerRelayBoard1_V.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_CameraPowerRelayBoard1_V.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_CameraPowerRelayBoard1_V.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_CameraPowerRelayBoard1_V.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_CameraPowerRelayBoard1_V.Location = new System.Drawing.Point(113, 34);
             this.textBox_CameraPowerRelayBoard1_V.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_CameraPowerRelayBoard1_V.Name = "textBox_CameraPowerRelayBoard1_V";
             this.textBox_CameraPowerRelayBoard1_V.ReadOnly = true;
-            this.textBox_CameraPowerRelayBoard1_V.Size = new System.Drawing.Size(65, 29);
+            this.textBox_CameraPowerRelayBoard1_V.Size = new System.Drawing.Size(65, 26);
             this.textBox_CameraPowerRelayBoard1_V.TabIndex = 112;
             // 
             // label56
             // 
             this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label56.Font = new System.Drawing.Font("SimSun", 12F);
             this.label56.Location = new System.Drawing.Point(6, 40);
             this.label56.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(107, 19);
+            this.label56.Size = new System.Drawing.Size(88, 16);
             this.label56.TabIndex = 111;
             this.label56.Text = "漏水(#25):";
             // 
             // label59
             // 
             this.label59.AutoSize = true;
-            this.label59.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label59.Font = new System.Drawing.Font("SimSun", 12F);
             this.label59.Location = new System.Drawing.Point(7, 108);
             this.label59.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(107, 19);
+            this.label59.Size = new System.Drawing.Size(88, 16);
             this.label59.TabIndex = 115;
             this.label59.Text = "漏水(#28):";
             // 
@@ -10722,7 +10831,7 @@
             this.groupBox23.Controls.Add(this.textBox_HeightMeasure_Hight);
             this.groupBox23.Controls.Add(this.label89);
             this.groupBox23.Controls.Add(this.label94);
-            this.groupBox23.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox23.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox23.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox23.Location = new System.Drawing.Point(203, 469);
             this.groupBox23.Margin = new System.Windows.Forms.Padding(2);
@@ -10737,48 +10846,48 @@
             // textBox_RotatePanel_Yaw
             // 
             this.textBox_RotatePanel_Yaw.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_RotatePanel_Yaw.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotatePanel_Yaw.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_RotatePanel_Yaw.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_RotatePanel_Yaw.Location = new System.Drawing.Point(210, 103);
             this.textBox_RotatePanel_Yaw.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotatePanel_Yaw.Name = "textBox_RotatePanel_Yaw";
             this.textBox_RotatePanel_Yaw.ReadOnly = true;
-            this.textBox_RotatePanel_Yaw.Size = new System.Drawing.Size(65, 29);
+            this.textBox_RotatePanel_Yaw.Size = new System.Drawing.Size(65, 26);
             this.textBox_RotatePanel_Yaw.TabIndex = 124;
             // 
             // label93
             // 
             this.label93.AutoSize = true;
-            this.label93.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label93.Font = new System.Drawing.Font("SimSun", 12F);
             this.label93.Location = new System.Drawing.Point(149, 109);
             this.label93.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(57, 19);
+            this.label93.Size = new System.Drawing.Size(48, 16);
             this.label93.TabIndex = 123;
             this.label93.Text = "艏向:";
             // 
             // textBox_RotatePanel_Pitch
             // 
             this.textBox_RotatePanel_Pitch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_RotatePanel_Pitch.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotatePanel_Pitch.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_RotatePanel_Pitch.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_RotatePanel_Pitch.Location = new System.Drawing.Point(210, 66);
             this.textBox_RotatePanel_Pitch.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotatePanel_Pitch.Name = "textBox_RotatePanel_Pitch";
             this.textBox_RotatePanel_Pitch.ReadOnly = true;
-            this.textBox_RotatePanel_Pitch.Size = new System.Drawing.Size(65, 29);
+            this.textBox_RotatePanel_Pitch.Size = new System.Drawing.Size(65, 26);
             this.textBox_RotatePanel_Pitch.TabIndex = 122;
             // 
             // textBox_HeadingCircle
             // 
             this.textBox_HeadingCircle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_HeadingCircle.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_HeadingCircle.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_HeadingCircle.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HeadingCircle.Location = new System.Drawing.Point(210, 144);
             this.textBox_HeadingCircle.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HeadingCircle.Name = "textBox_HeadingCircle";
             this.textBox_HeadingCircle.ReadOnly = true;
-            this.textBox_HeadingCircle.Size = new System.Drawing.Size(65, 29);
+            this.textBox_HeadingCircle.Size = new System.Drawing.Size(65, 26);
             this.textBox_HeadingCircle.TabIndex = 122;
             this.textBox_HeadingCircle.Text = "0";
             this.textBox_HeadingCircle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -10786,30 +10895,30 @@
             // label96
             // 
             this.label96.AutoSize = true;
-            this.label96.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label96.Font = new System.Drawing.Font("SimSun", 12F);
             this.label96.Location = new System.Drawing.Point(149, 151);
             this.label96.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(57, 19);
+            this.label96.Size = new System.Drawing.Size(48, 16);
             this.label96.TabIndex = 121;
             this.label96.Text = "圈数:";
             // 
             // textBox_RotatePanel_Roll
             // 
             this.textBox_RotatePanel_Roll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_RotatePanel_Roll.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotatePanel_Roll.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_RotatePanel_Roll.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_RotatePanel_Roll.Location = new System.Drawing.Point(210, 25);
             this.textBox_RotatePanel_Roll.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotatePanel_Roll.Name = "textBox_RotatePanel_Roll";
             this.textBox_RotatePanel_Roll.ReadOnly = true;
-            this.textBox_RotatePanel_Roll.Size = new System.Drawing.Size(65, 29);
+            this.textBox_RotatePanel_Roll.Size = new System.Drawing.Size(65, 26);
             this.textBox_RotatePanel_Roll.TabIndex = 120;
             // 
             // label95
             // 
             this.label95.AutoSize = true;
-            this.label95.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label95.Font = new System.Drawing.Font("SimSun", 12F);
             this.label95.Location = new System.Drawing.Point(126, 71);
             this.label95.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label95.Name = "label95";
@@ -10820,99 +10929,99 @@
             // textBox_RotatePanel_HZ
             // 
             this.textBox_RotatePanel_HZ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_RotatePanel_HZ.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotatePanel_HZ.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_RotatePanel_HZ.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_RotatePanel_HZ.Location = new System.Drawing.Point(60, 104);
             this.textBox_RotatePanel_HZ.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotatePanel_HZ.Name = "textBox_RotatePanel_HZ";
             this.textBox_RotatePanel_HZ.ReadOnly = true;
-            this.textBox_RotatePanel_HZ.Size = new System.Drawing.Size(65, 29);
+            this.textBox_RotatePanel_HZ.Size = new System.Drawing.Size(65, 26);
             this.textBox_RotatePanel_HZ.TabIndex = 118;
             // 
             // label92
             // 
             this.label92.AutoSize = true;
-            this.label92.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label92.Font = new System.Drawing.Font("SimSun", 12F);
             this.label92.Location = new System.Drawing.Point(22, 108);
             this.label92.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(39, 19);
+            this.label92.Size = new System.Drawing.Size(32, 16);
             this.label92.TabIndex = 117;
             this.label92.Text = "HZ:";
             // 
             // textBox_RotatePanel_HY
             // 
             this.textBox_RotatePanel_HY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_RotatePanel_HY.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotatePanel_HY.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_RotatePanel_HY.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_RotatePanel_HY.Location = new System.Drawing.Point(60, 66);
             this.textBox_RotatePanel_HY.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotatePanel_HY.Name = "textBox_RotatePanel_HY";
             this.textBox_RotatePanel_HY.ReadOnly = true;
-            this.textBox_RotatePanel_HY.Size = new System.Drawing.Size(65, 29);
+            this.textBox_RotatePanel_HY.Size = new System.Drawing.Size(65, 26);
             this.textBox_RotatePanel_HY.TabIndex = 116;
             // 
             // label91
             // 
             this.label91.AutoSize = true;
-            this.label91.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label91.Font = new System.Drawing.Font("SimSun", 12F);
             this.label91.Location = new System.Drawing.Point(22, 69);
             this.label91.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(39, 19);
+            this.label91.Size = new System.Drawing.Size(32, 16);
             this.label91.TabIndex = 115;
             this.label91.Text = "HY:";
             // 
             // textBox_RotatePanel_HX
             // 
             this.textBox_RotatePanel_HX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_RotatePanel_HX.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_RotatePanel_HX.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_RotatePanel_HX.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_RotatePanel_HX.Location = new System.Drawing.Point(60, 27);
             this.textBox_RotatePanel_HX.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_RotatePanel_HX.Name = "textBox_RotatePanel_HX";
             this.textBox_RotatePanel_HX.ReadOnly = true;
-            this.textBox_RotatePanel_HX.Size = new System.Drawing.Size(65, 29);
+            this.textBox_RotatePanel_HX.Size = new System.Drawing.Size(65, 26);
             this.textBox_RotatePanel_HX.TabIndex = 114;
             // 
             // label88
             // 
             this.label88.AutoSize = true;
-            this.label88.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label88.Font = new System.Drawing.Font("SimSun", 12F);
             this.label88.Location = new System.Drawing.Point(22, 32);
             this.label88.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(39, 19);
+            this.label88.Size = new System.Drawing.Size(32, 16);
             this.label88.TabIndex = 113;
             this.label88.Text = "HX:";
             // 
             // textBox_HeightMeasure_Hight
             // 
             this.textBox_HeightMeasure_Hight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_HeightMeasure_Hight.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_HeightMeasure_Hight.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_HeightMeasure_Hight.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox_HeightMeasure_Hight.Location = new System.Drawing.Point(60, 143);
             this.textBox_HeightMeasure_Hight.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_HeightMeasure_Hight.Name = "textBox_HeightMeasure_Hight";
             this.textBox_HeightMeasure_Hight.ReadOnly = true;
-            this.textBox_HeightMeasure_Hight.Size = new System.Drawing.Size(64, 29);
+            this.textBox_HeightMeasure_Hight.Size = new System.Drawing.Size(64, 26);
             this.textBox_HeightMeasure_Hight.TabIndex = 112;
             // 
             // label89
             // 
             this.label89.AutoSize = true;
-            this.label89.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label89.Font = new System.Drawing.Font("SimSun", 12F);
             this.label89.Location = new System.Drawing.Point(3, 149);
             this.label89.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(57, 19);
+            this.label89.Size = new System.Drawing.Size(48, 16);
             this.label89.TabIndex = 111;
             this.label89.Text = "高度:";
             // 
             // label94
             // 
             this.label94.AutoSize = true;
-            this.label94.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label94.Font = new System.Drawing.Font("SimSun", 12F);
             this.label94.Location = new System.Drawing.Point(126, 32);
             this.label94.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label94.Name = "label94";
@@ -10953,7 +11062,7 @@
             this.groupBox27.Controls.Add(this.label308);
             this.groupBox27.Controls.Add(this.label309);
             this.groupBox27.Controls.Add(this.label310);
-            this.groupBox27.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
+            this.groupBox27.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox27.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox27.Location = new System.Drawing.Point(1516, 19);
             this.groupBox27.Margin = new System.Windows.Forms.Padding(2);
@@ -10968,8 +11077,8 @@
             // label173
             // 
             this.label173.AutoSize = true;
-            this.label173.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label173.Location = new System.Drawing.Point(343, 153);
+            this.label173.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label173.Location = new System.Drawing.Point(365, 152);
             this.label173.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label173.Name = "label173";
             this.label173.Size = new System.Drawing.Size(16, 16);
@@ -10979,8 +11088,8 @@
             // label174
             // 
             this.label174.AutoSize = true;
-            this.label174.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label174.Location = new System.Drawing.Point(343, 122);
+            this.label174.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label174.Location = new System.Drawing.Point(365, 121);
             this.label174.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label174.Name = "label174";
             this.label174.Size = new System.Drawing.Size(16, 16);
@@ -10990,52 +11099,52 @@
             // textBox_V_Next_S
             // 
             this.textBox_V_Next_S.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_V_Next_S.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_V_Next_S.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_V_Next_S.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_V_Next_S.Location = new System.Drawing.Point(281, 148);
+            this.textBox_V_Next_S.Location = new System.Drawing.Point(303, 147);
             this.textBox_V_Next_S.Name = "textBox_V_Next_S";
             this.textBox_V_Next_S.ReadOnly = true;
-            this.textBox_V_Next_S.Size = new System.Drawing.Size(60, 24);
+            this.textBox_V_Next_S.Size = new System.Drawing.Size(60, 26);
             this.textBox_V_Next_S.TabIndex = 187;
             // 
             // label175
             // 
             this.label175.AutoSize = true;
-            this.label175.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label175.Location = new System.Drawing.Point(185, 152);
+            this.label175.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label175.Location = new System.Drawing.Point(194, 152);
             this.label175.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label175.Name = "label175";
-            this.label175.Size = new System.Drawing.Size(105, 14);
+            this.label175.Size = new System.Drawing.Size(120, 16);
             this.label175.TabIndex = 186;
             this.label175.Text = "次级单相电压：";
             // 
             // textBox_V_Next_ABC
             // 
             this.textBox_V_Next_ABC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_V_Next_ABC.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_V_Next_ABC.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_V_Next_ABC.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_V_Next_ABC.Location = new System.Drawing.Point(281, 118);
+            this.textBox_V_Next_ABC.Location = new System.Drawing.Point(303, 117);
             this.textBox_V_Next_ABC.Name = "textBox_V_Next_ABC";
             this.textBox_V_Next_ABC.ReadOnly = true;
-            this.textBox_V_Next_ABC.Size = new System.Drawing.Size(60, 24);
+            this.textBox_V_Next_ABC.Size = new System.Drawing.Size(60, 26);
             this.textBox_V_Next_ABC.TabIndex = 185;
             // 
             // label176
             // 
             this.label176.AutoSize = true;
-            this.label176.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label176.Location = new System.Drawing.Point(185, 122);
+            this.label176.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label176.Location = new System.Drawing.Point(194, 122);
             this.label176.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label176.Name = "label176";
-            this.label176.Size = new System.Drawing.Size(105, 14);
+            this.label176.Size = new System.Drawing.Size(120, 16);
             this.label176.TabIndex = 184;
             this.label176.Text = "次级三相电压：";
             // 
             // label177
             // 
             this.label177.AutoSize = true;
-            this.label177.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label177.Location = new System.Drawing.Point(164, 152);
+            this.label177.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label177.Location = new System.Drawing.Point(177, 151);
             this.label177.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label177.Name = "label177";
             this.label177.Size = new System.Drawing.Size(16, 16);
@@ -11045,8 +11154,8 @@
             // label178
             // 
             this.label178.AutoSize = true;
-            this.label178.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label178.Location = new System.Drawing.Point(164, 122);
+            this.label178.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label178.Location = new System.Drawing.Point(177, 121);
             this.label178.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label178.Name = "label178";
             this.label178.Size = new System.Drawing.Size(16, 16);
@@ -11056,63 +11165,63 @@
             // textBox_I_Next_S
             // 
             this.textBox_I_Next_S.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_I_Next_S.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_I_Next_S.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_I_Next_S.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_I_Next_S.Location = new System.Drawing.Point(102, 147);
+            this.textBox_I_Next_S.Location = new System.Drawing.Point(115, 146);
             this.textBox_I_Next_S.Name = "textBox_I_Next_S";
             this.textBox_I_Next_S.ReadOnly = true;
-            this.textBox_I_Next_S.Size = new System.Drawing.Size(60, 24);
+            this.textBox_I_Next_S.Size = new System.Drawing.Size(60, 26);
             this.textBox_I_Next_S.TabIndex = 181;
             // 
             // label179
             // 
             this.label179.AutoSize = true;
-            this.label179.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label179.Font = new System.Drawing.Font("SimSun", 12F);
             this.label179.Location = new System.Drawing.Point(4, 151);
             this.label179.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label179.Name = "label179";
-            this.label179.Size = new System.Drawing.Size(105, 14);
+            this.label179.Size = new System.Drawing.Size(120, 16);
             this.label179.TabIndex = 180;
             this.label179.Text = "次级单相电流：";
             // 
             // textBox_I_Next_ABC
             // 
             this.textBox_I_Next_ABC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_I_Next_ABC.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_I_Next_ABC.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_I_Next_ABC.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_I_Next_ABC.Location = new System.Drawing.Point(102, 117);
+            this.textBox_I_Next_ABC.Location = new System.Drawing.Point(115, 116);
             this.textBox_I_Next_ABC.Name = "textBox_I_Next_ABC";
             this.textBox_I_Next_ABC.ReadOnly = true;
-            this.textBox_I_Next_ABC.Size = new System.Drawing.Size(60, 24);
+            this.textBox_I_Next_ABC.Size = new System.Drawing.Size(60, 26);
             this.textBox_I_Next_ABC.TabIndex = 179;
             // 
             // label180
             // 
             this.label180.AutoSize = true;
-            this.label180.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label180.Font = new System.Drawing.Font("SimSun", 12F);
             this.label180.Location = new System.Drawing.Point(4, 121);
             this.label180.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label180.Name = "label180";
-            this.label180.Size = new System.Drawing.Size(105, 14);
+            this.label180.Size = new System.Drawing.Size(120, 16);
             this.label180.TabIndex = 178;
             this.label180.Text = "次级三相电流：";
             // 
             // textBox_V_First_AB
             // 
             this.textBox_V_First_AB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_V_First_AB.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_V_First_AB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_V_First_AB.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_V_First_AB.Location = new System.Drawing.Point(281, 25);
+            this.textBox_V_First_AB.Location = new System.Drawing.Point(303, 24);
             this.textBox_V_First_AB.Name = "textBox_V_First_AB";
             this.textBox_V_First_AB.ReadOnly = true;
-            this.textBox_V_First_AB.Size = new System.Drawing.Size(60, 24);
+            this.textBox_V_First_AB.Size = new System.Drawing.Size(60, 26);
             this.textBox_V_First_AB.TabIndex = 169;
             // 
             // label181
             // 
             this.label181.AutoSize = true;
-            this.label181.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label181.Location = new System.Drawing.Point(343, 90);
+            this.label181.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label181.Location = new System.Drawing.Point(365, 89);
             this.label181.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label181.Name = "label181";
             this.label181.Size = new System.Drawing.Size(16, 16);
@@ -11122,8 +11231,8 @@
             // label182
             // 
             this.label182.AutoSize = true;
-            this.label182.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label182.Location = new System.Drawing.Point(343, 60);
+            this.label182.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label182.Location = new System.Drawing.Point(365, 59);
             this.label182.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label182.Name = "label182";
             this.label182.Size = new System.Drawing.Size(16, 16);
@@ -11133,63 +11242,63 @@
             // textBox_I_First_S
             // 
             this.textBox_I_First_S.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_I_First_S.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_I_First_S.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_I_First_S.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_I_First_S.Location = new System.Drawing.Point(281, 85);
+            this.textBox_I_First_S.Location = new System.Drawing.Point(303, 84);
             this.textBox_I_First_S.Name = "textBox_I_First_S";
             this.textBox_I_First_S.ReadOnly = true;
-            this.textBox_I_First_S.Size = new System.Drawing.Size(60, 24);
+            this.textBox_I_First_S.Size = new System.Drawing.Size(60, 26);
             this.textBox_I_First_S.TabIndex = 174;
             // 
             // label183
             // 
             this.label183.AutoSize = true;
-            this.label183.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label183.Location = new System.Drawing.Point(185, 89);
+            this.label183.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label183.Location = new System.Drawing.Point(194, 89);
             this.label183.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label183.Name = "label183";
-            this.label183.Size = new System.Drawing.Size(105, 14);
+            this.label183.Size = new System.Drawing.Size(120, 16);
             this.label183.TabIndex = 173;
             this.label183.Text = "初级单相电流：";
             // 
             // textBox_V_First_BC
             // 
             this.textBox_V_First_BC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_V_First_BC.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_V_First_BC.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_V_First_BC.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_V_First_BC.Location = new System.Drawing.Point(281, 55);
+            this.textBox_V_First_BC.Location = new System.Drawing.Point(303, 54);
             this.textBox_V_First_BC.Name = "textBox_V_First_BC";
             this.textBox_V_First_BC.ReadOnly = true;
-            this.textBox_V_First_BC.Size = new System.Drawing.Size(60, 24);
+            this.textBox_V_First_BC.Size = new System.Drawing.Size(60, 26);
             this.textBox_V_First_BC.TabIndex = 172;
             // 
             // label185
             // 
             this.label185.AutoSize = true;
-            this.label185.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label185.Location = new System.Drawing.Point(185, 59);
+            this.label185.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label185.Location = new System.Drawing.Point(194, 59);
             this.label185.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label185.Name = "label185";
-            this.label185.Size = new System.Drawing.Size(105, 14);
+            this.label185.Size = new System.Drawing.Size(120, 16);
             this.label185.TabIndex = 171;
             this.label185.Text = "初级BC相电压：";
             // 
             // label283
             // 
             this.label283.AutoSize = true;
-            this.label283.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label283.Location = new System.Drawing.Point(185, 28);
+            this.label283.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label283.Location = new System.Drawing.Point(194, 28);
             this.label283.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label283.Name = "label283";
-            this.label283.Size = new System.Drawing.Size(105, 14);
+            this.label283.Size = new System.Drawing.Size(120, 16);
             this.label283.TabIndex = 170;
             this.label283.Text = "初级AB相电压：";
             // 
             // label297
             // 
             this.label297.AutoSize = true;
-            this.label297.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label297.Location = new System.Drawing.Point(343, 29);
+            this.label297.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label297.Location = new System.Drawing.Point(365, 28);
             this.label297.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label297.Name = "label297";
             this.label297.Size = new System.Drawing.Size(16, 16);
@@ -11211,19 +11320,19 @@
             // textBox_I_First_A
             // 
             this.textBox_I_First_A.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_I_First_A.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_I_First_A.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_I_First_A.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_I_First_A.Location = new System.Drawing.Point(102, 26);
+            this.textBox_I_First_A.Location = new System.Drawing.Point(115, 25);
             this.textBox_I_First_A.Name = "textBox_I_First_A";
             this.textBox_I_First_A.ReadOnly = true;
-            this.textBox_I_First_A.Size = new System.Drawing.Size(60, 24);
+            this.textBox_I_First_A.Size = new System.Drawing.Size(60, 26);
             this.textBox_I_First_A.TabIndex = 159;
             // 
             // label304
             // 
             this.label304.AutoSize = true;
-            this.label304.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label304.Location = new System.Drawing.Point(164, 91);
+            this.label304.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label304.Location = new System.Drawing.Point(177, 90);
             this.label304.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label304.Name = "label304";
             this.label304.Size = new System.Drawing.Size(16, 16);
@@ -11233,8 +11342,8 @@
             // label306
             // 
             this.label306.AutoSize = true;
-            this.label306.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label306.Location = new System.Drawing.Point(164, 61);
+            this.label306.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label306.Location = new System.Drawing.Point(177, 60);
             this.label306.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label306.Name = "label306";
             this.label306.Size = new System.Drawing.Size(16, 16);
@@ -11244,63 +11353,63 @@
             // textBox_I_First_C
             // 
             this.textBox_I_First_C.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_I_First_C.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_I_First_C.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_I_First_C.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_I_First_C.Location = new System.Drawing.Point(102, 86);
+            this.textBox_I_First_C.Location = new System.Drawing.Point(115, 85);
             this.textBox_I_First_C.Name = "textBox_I_First_C";
             this.textBox_I_First_C.ReadOnly = true;
-            this.textBox_I_First_C.Size = new System.Drawing.Size(60, 24);
+            this.textBox_I_First_C.Size = new System.Drawing.Size(60, 26);
             this.textBox_I_First_C.TabIndex = 164;
             // 
             // label307
             // 
             this.label307.AutoSize = true;
-            this.label307.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label307.Font = new System.Drawing.Font("SimSun", 12F);
             this.label307.Location = new System.Drawing.Point(13, 90);
             this.label307.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label307.Name = "label307";
-            this.label307.Size = new System.Drawing.Size(98, 14);
+            this.label307.Size = new System.Drawing.Size(112, 16);
             this.label307.TabIndex = 163;
             this.label307.Text = "初级C相电流：";
             // 
             // textBox_I_First_B
             // 
             this.textBox_I_First_B.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.textBox_I_First_B.Font = new System.Drawing.Font("SimSun", 11F);
+            this.textBox_I_First_B.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_I_First_B.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_I_First_B.Location = new System.Drawing.Point(102, 56);
+            this.textBox_I_First_B.Location = new System.Drawing.Point(115, 55);
             this.textBox_I_First_B.Name = "textBox_I_First_B";
             this.textBox_I_First_B.ReadOnly = true;
-            this.textBox_I_First_B.Size = new System.Drawing.Size(60, 24);
+            this.textBox_I_First_B.Size = new System.Drawing.Size(60, 26);
             this.textBox_I_First_B.TabIndex = 162;
             // 
             // label308
             // 
             this.label308.AutoSize = true;
-            this.label308.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label308.Font = new System.Drawing.Font("SimSun", 12F);
             this.label308.Location = new System.Drawing.Point(13, 60);
             this.label308.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label308.Name = "label308";
-            this.label308.Size = new System.Drawing.Size(98, 14);
+            this.label308.Size = new System.Drawing.Size(112, 16);
             this.label308.TabIndex = 161;
             this.label308.Text = "初级B相电流：";
             // 
             // label309
             // 
             this.label309.AutoSize = true;
-            this.label309.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label309.Font = new System.Drawing.Font("SimSun", 12F);
             this.label309.Location = new System.Drawing.Point(13, 29);
             this.label309.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label309.Name = "label309";
-            this.label309.Size = new System.Drawing.Size(98, 14);
+            this.label309.Size = new System.Drawing.Size(112, 16);
             this.label309.TabIndex = 160;
             this.label309.Text = "初级A相电流：";
             // 
             // label310
             // 
             this.label310.AutoSize = true;
-            this.label310.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label310.Location = new System.Drawing.Point(164, 29);
+            this.label310.Font = new System.Drawing.Font("SimSun", 12F);
+            this.label310.Location = new System.Drawing.Point(177, 28);
             this.label310.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label310.Name = "label310";
             this.label310.Size = new System.Drawing.Size(16, 16);

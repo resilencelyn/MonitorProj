@@ -11429,10 +11429,5 @@ namespace MonitorProj
             catch (Exception ex)
             { }
         }
-
-        private void groupBox_TuiJinQ_Rotate_Enter(object sender, EventArgs e)
-        {
-
-        }
     }
 }
