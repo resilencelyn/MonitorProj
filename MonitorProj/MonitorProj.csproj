@@ -54,6 +54,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>.\GyroAngle.dll</HintPath>
     </Reference>
+    <Reference Include="PropStatus">
+      <HintPath>.\PropStatus.dll</HintPath>
+    </Reference>
     <Reference Include="SharpGL, Version=3.1.1.0, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
       <HintPath>..\packages\SharpGL.3.1.1\lib\net40\SharpGL.dll</HintPath>
     </Reference>
