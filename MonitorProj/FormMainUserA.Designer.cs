@@ -29,11 +29,27 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMainUserA));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.GroupBox_MainMon = new System.Windows.Forms.GroupBox();
             this.GroupBox_MainCtl = new System.Windows.Forms.GroupBox();
+            this.groupBox32 = new System.Windows.Forms.GroupBox();
+            this.axBeauGaugeCtrl4 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.axBeauGaugeCtrl3 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.axBeauGaugeCtrl2 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.axBeauGaugeCtrl1 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.axBeauGaugeCtrl0 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
+            this.label_BuChang_5 = new System.Windows.Forms.Label();
+            this.label_BuChang_4 = new System.Windows.Forms.Label();
+            this.label_BuChang_3 = new System.Windows.Forms.Label();
+            this.label_BuChang_2 = new System.Windows.Forms.Label();
+            this.label_BuChang_1 = new System.Windows.Forms.Label();
+            this.label221 = new System.Windows.Forms.Label();
+            this.label222 = new System.Windows.Forms.Label();
+            this.label223 = new System.Windows.Forms.Label();
+            this.label224 = new System.Windows.Forms.Label();
+            this.label225 = new System.Windows.Forms.Label();
             this.button40 = new System.Windows.Forms.Button();
             this.label192 = new System.Windows.Forms.Label();
             this.label191 = new System.Windows.Forms.Label();
@@ -808,24 +824,14 @@
             this.label309 = new System.Windows.Forms.Label();
             this.label310 = new System.Windows.Forms.Label();
             this.timer_Communication = new System.Windows.Forms.Timer(this.components);
-            this.groupBox32 = new System.Windows.Forms.GroupBox();
-            this.axBeauGaugeCtrl4 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
-            this.axBeauGaugeCtrl3 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
-            this.axBeauGaugeCtrl2 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
-            this.axBeauGaugeCtrl1 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
-            this.axBeauGaugeCtrl0 = new AxBGV2ActiveXLib.AxBeauGaugeCtrl();
-            this.label_BuChang_5 = new System.Windows.Forms.Label();
-            this.label_BuChang_4 = new System.Windows.Forms.Label();
-            this.label_BuChang_3 = new System.Windows.Forms.Label();
-            this.label_BuChang_2 = new System.Windows.Forms.Label();
-            this.label_BuChang_1 = new System.Windows.Forms.Label();
-            this.label221 = new System.Windows.Forms.Label();
-            this.label222 = new System.Windows.Forms.Label();
-            this.label223 = new System.Windows.Forms.Label();
-            this.label224 = new System.Windows.Forms.Label();
-            this.label225 = new System.Windows.Forms.Label();
             this.GroupBox_MainMon.SuspendLayout();
             this.GroupBox_MainCtl.SuspendLayout();
+            this.groupBox32.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl0)).BeginInit();
             this.groupBox33.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
@@ -965,12 +971,6 @@
             this.groupBox2.SuspendLayout();
             this.groupBox23.SuspendLayout();
             this.groupBox27.SuspendLayout();
-            this.groupBox32.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl0)).BeginInit();
             this.SuspendLayout();
             // 
             // GroupBox_MainMon
@@ -1032,6 +1032,203 @@
             this.GroupBox_MainCtl.TabIndex = 0;
             this.GroupBox_MainCtl.TabStop = false;
             // 
+            // groupBox32
+            // 
+            this.groupBox32.Controls.Add(this.axBeauGaugeCtrl4);
+            this.groupBox32.Controls.Add(this.axBeauGaugeCtrl3);
+            this.groupBox32.Controls.Add(this.axBeauGaugeCtrl2);
+            this.groupBox32.Controls.Add(this.axBeauGaugeCtrl1);
+            this.groupBox32.Controls.Add(this.axBeauGaugeCtrl0);
+            this.groupBox32.Controls.Add(this.label_BuChang_5);
+            this.groupBox32.Controls.Add(this.label_BuChang_4);
+            this.groupBox32.Controls.Add(this.label_BuChang_3);
+            this.groupBox32.Controls.Add(this.label_BuChang_2);
+            this.groupBox32.Controls.Add(this.label_BuChang_1);
+            this.groupBox32.Controls.Add(this.label221);
+            this.groupBox32.Controls.Add(this.label222);
+            this.groupBox32.Controls.Add(this.label223);
+            this.groupBox32.Controls.Add(this.label224);
+            this.groupBox32.Controls.Add(this.label225);
+            this.groupBox32.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold);
+            this.groupBox32.ForeColor = System.Drawing.SystemColors.Control;
+            this.groupBox32.Location = new System.Drawing.Point(820, 547);
+            this.groupBox32.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox32.Name = "groupBox32";
+            this.groupBox32.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox32.Size = new System.Drawing.Size(461, 252);
+            this.groupBox32.TabIndex = 216;
+            this.groupBox32.TabStop = false;
+            // 
+            // axBeauGaugeCtrl4
+            // 
+            this.axBeauGaugeCtrl4.Enabled = true;
+            this.axBeauGaugeCtrl4.Location = new System.Drawing.Point(378, 35);
+            this.axBeauGaugeCtrl4.Name = "axBeauGaugeCtrl4";
+            this.axBeauGaugeCtrl4.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl4.OcxState")));
+            this.axBeauGaugeCtrl4.Size = new System.Drawing.Size(80, 200);
+            this.axBeauGaugeCtrl4.TabIndex = 230;
+            // 
+            // axBeauGaugeCtrl3
+            // 
+            this.axBeauGaugeCtrl3.Enabled = true;
+            this.axBeauGaugeCtrl3.Location = new System.Drawing.Point(288, 35);
+            this.axBeauGaugeCtrl3.Name = "axBeauGaugeCtrl3";
+            this.axBeauGaugeCtrl3.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl3.OcxState")));
+            this.axBeauGaugeCtrl3.Size = new System.Drawing.Size(80, 200);
+            this.axBeauGaugeCtrl3.TabIndex = 229;
+            // 
+            // axBeauGaugeCtrl2
+            // 
+            this.axBeauGaugeCtrl2.Enabled = true;
+            this.axBeauGaugeCtrl2.Location = new System.Drawing.Point(196, 35);
+            this.axBeauGaugeCtrl2.Name = "axBeauGaugeCtrl2";
+            this.axBeauGaugeCtrl2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl2.OcxState")));
+            this.axBeauGaugeCtrl2.Size = new System.Drawing.Size(80, 200);
+            this.axBeauGaugeCtrl2.TabIndex = 228;
+            // 
+            // axBeauGaugeCtrl1
+            // 
+            this.axBeauGaugeCtrl1.Enabled = true;
+            this.axBeauGaugeCtrl1.Location = new System.Drawing.Point(103, 35);
+            this.axBeauGaugeCtrl1.Name = "axBeauGaugeCtrl1";
+            this.axBeauGaugeCtrl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl1.OcxState")));
+            this.axBeauGaugeCtrl1.Size = new System.Drawing.Size(80, 200);
+            this.axBeauGaugeCtrl1.TabIndex = 227;
+            // 
+            // axBeauGaugeCtrl0
+            // 
+            this.axBeauGaugeCtrl0.Enabled = true;
+            this.axBeauGaugeCtrl0.Location = new System.Drawing.Point(8, 35);
+            this.axBeauGaugeCtrl0.Name = "axBeauGaugeCtrl0";
+            this.axBeauGaugeCtrl0.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl0.OcxState")));
+            this.axBeauGaugeCtrl0.Size = new System.Drawing.Size(80, 200);
+            this.axBeauGaugeCtrl0.TabIndex = 226;
+            // 
+            // label_BuChang_5
+            // 
+            this.label_BuChang_5.BackColor = System.Drawing.Color.Transparent;
+            this.label_BuChang_5.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_BuChang_5.ForeColor = System.Drawing.Color.White;
+            this.label_BuChang_5.Location = new System.Drawing.Point(388, 232);
+            this.label_BuChang_5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_BuChang_5.Name = "label_BuChang_5";
+            this.label_BuChang_5.Size = new System.Drawing.Size(60, 19);
+            this.label_BuChang_5.TabIndex = 225;
+            this.label_BuChang_5.Text = "00";
+            this.label_BuChang_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label_BuChang_4
+            // 
+            this.label_BuChang_4.BackColor = System.Drawing.Color.Transparent;
+            this.label_BuChang_4.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_BuChang_4.ForeColor = System.Drawing.Color.White;
+            this.label_BuChang_4.Location = new System.Drawing.Point(301, 232);
+            this.label_BuChang_4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_BuChang_4.Name = "label_BuChang_4";
+            this.label_BuChang_4.Size = new System.Drawing.Size(60, 19);
+            this.label_BuChang_4.TabIndex = 224;
+            this.label_BuChang_4.Text = "00";
+            this.label_BuChang_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label_BuChang_3
+            // 
+            this.label_BuChang_3.BackColor = System.Drawing.Color.Transparent;
+            this.label_BuChang_3.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_BuChang_3.ForeColor = System.Drawing.Color.White;
+            this.label_BuChang_3.Location = new System.Drawing.Point(208, 232);
+            this.label_BuChang_3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_BuChang_3.Name = "label_BuChang_3";
+            this.label_BuChang_3.Size = new System.Drawing.Size(60, 19);
+            this.label_BuChang_3.TabIndex = 223;
+            this.label_BuChang_3.Text = "00";
+            this.label_BuChang_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label_BuChang_2
+            // 
+            this.label_BuChang_2.BackColor = System.Drawing.Color.Transparent;
+            this.label_BuChang_2.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_BuChang_2.ForeColor = System.Drawing.Color.White;
+            this.label_BuChang_2.Location = new System.Drawing.Point(113, 232);
+            this.label_BuChang_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_BuChang_2.Name = "label_BuChang_2";
+            this.label_BuChang_2.Size = new System.Drawing.Size(60, 19);
+            this.label_BuChang_2.TabIndex = 222;
+            this.label_BuChang_2.Text = "00";
+            this.label_BuChang_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label_BuChang_1
+            // 
+            this.label_BuChang_1.BackColor = System.Drawing.Color.Transparent;
+            this.label_BuChang_1.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_BuChang_1.ForeColor = System.Drawing.Color.White;
+            this.label_BuChang_1.Location = new System.Drawing.Point(18, 232);
+            this.label_BuChang_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_BuChang_1.Name = "label_BuChang_1";
+            this.label_BuChang_1.Size = new System.Drawing.Size(60, 19);
+            this.label_BuChang_1.TabIndex = 221;
+            this.label_BuChang_1.Text = "00";
+            this.label_BuChang_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label221
+            // 
+            this.label221.AutoSize = true;
+            this.label221.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
+            this.label221.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label221.Location = new System.Drawing.Point(396, 18);
+            this.label221.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label221.Name = "label221";
+            this.label221.Size = new System.Drawing.Size(42, 16);
+            this.label221.TabIndex = 220;
+            this.label221.Text = "油箱";
+            // 
+            // label222
+            // 
+            this.label222.AutoSize = true;
+            this.label222.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label222.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label222.Location = new System.Drawing.Point(287, 18);
+            this.label222.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label222.Name = "label222";
+            this.label222.Size = new System.Drawing.Size(93, 16);
+            this.label222.TabIndex = 219;
+            this.label222.Text = "脐带终端箱";
+            // 
+            // label223
+            // 
+            this.label223.AutoSize = true;
+            this.label223.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label223.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label223.Location = new System.Drawing.Point(193, 18);
+            this.label223.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label223.Name = "label223";
+            this.label223.Size = new System.Drawing.Size(93, 16);
+            this.label223.TabIndex = 218;
+            this.label223.Text = "用户接口箱";
+            // 
+            // label224
+            // 
+            this.label224.AutoSize = true;
+            this.label224.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label224.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label224.Location = new System.Drawing.Point(98, 18);
+            this.label224.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label224.Name = "label224";
+            this.label224.Size = new System.Drawing.Size(93, 16);
+            this.label224.TabIndex = 217;
+            this.label224.Text = "电机补偿器";
+            // 
+            // label225
+            // 
+            this.label225.AutoSize = true;
+            this.label225.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label225.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label225.Location = new System.Drawing.Point(3, 18);
+            this.label225.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label225.Name = "label225";
+            this.label225.Size = new System.Drawing.Size(93, 16);
+            this.label225.TabIndex = 216;
+            this.label225.Text = "阀箱补偿器";
+            // 
             // button40
             // 
             this.button40.BackColor = System.Drawing.Color.Transparent;
@@ -1089,7 +1286,7 @@
             this.gyroAngle1.HZ = 0F;
             this.gyroAngle1.Location = new System.Drawing.Point(18, 40);
             this.gyroAngle1.Margin = new System.Windows.Forms.Padding(4);
-            this.gyroAngle1.Model = "07061.obj";
+            this.gyroAngle1.Model = "0802.obj";
             this.gyroAngle1.Name = "gyroAngle1";
             this.gyroAngle1.Pitch = 0F;
             this.gyroAngle1.Roll = 0F;
@@ -5114,6 +5311,7 @@
             // label171
             // 
             this.label171.AutoSize = true;
+            this.label171.BackColor = System.Drawing.Color.Transparent;
             this.label171.Font = new System.Drawing.Font("SimSun", 12F);
             this.label171.Location = new System.Drawing.Point(95, 104);
             this.label171.Name = "label171";
@@ -5124,6 +5322,7 @@
             // label184
             // 
             this.label184.AutoSize = true;
+            this.label184.BackColor = System.Drawing.Color.Transparent;
             this.label184.Font = new System.Drawing.Font("SimSun", 12F);
             this.label184.Location = new System.Drawing.Point(95, 64);
             this.label184.Name = "label184";
@@ -5134,6 +5333,7 @@
             // label158
             // 
             this.label158.AutoSize = true;
+            this.label158.BackColor = System.Drawing.Color.Transparent;
             this.label158.Font = new System.Drawing.Font("SimSun", 12F);
             this.label158.Location = new System.Drawing.Point(6, 104);
             this.label158.Name = "label158";
@@ -5144,6 +5344,7 @@
             // label157
             // 
             this.label157.AutoSize = true;
+            this.label157.BackColor = System.Drawing.Color.Transparent;
             this.label157.Font = new System.Drawing.Font("SimSun", 12F);
             this.label157.Location = new System.Drawing.Point(6, 64);
             this.label157.Name = "label157";
@@ -5154,8 +5355,9 @@
             // label143
             // 
             this.label143.AutoSize = true;
+            this.label143.BackColor = System.Drawing.Color.Transparent;
             this.label143.Font = new System.Drawing.Font("SimSun", 12F);
-            this.label143.Location = new System.Drawing.Point(97, 25);
+            this.label143.Location = new System.Drawing.Point(103, 26);
             this.label143.Name = "label143";
             this.label143.Size = new System.Drawing.Size(32, 16);
             this.label143.TabIndex = 155;
@@ -5164,8 +5366,9 @@
             // label132
             // 
             this.label132.AutoSize = true;
+            this.label132.BackColor = System.Drawing.Color.Transparent;
             this.label132.Font = new System.Drawing.Font("SimSun", 12F);
-            this.label132.Location = new System.Drawing.Point(6, 25);
+            this.label132.Location = new System.Drawing.Point(14, 26);
             this.label132.Name = "label132";
             this.label132.Size = new System.Drawing.Size(32, 16);
             this.label132.TabIndex = 154;
@@ -5176,7 +5379,7 @@
             this.textBox_V_VRB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_V_VRB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_V_VRB.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_V_VRB.Location = new System.Drawing.Point(134, 100);
+            this.textBox_V_VRB.Location = new System.Drawing.Point(134, 98);
             this.textBox_V_VRB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_VRB.Name = "textBox_V_VRB";
             this.textBox_V_VRB.ReadOnly = true;
@@ -5188,7 +5391,7 @@
             this.textBox_V_VRF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_V_VRF.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_V_VRF.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_V_VRF.Location = new System.Drawing.Point(134, 61);
+            this.textBox_V_VRF.Location = new System.Drawing.Point(134, 60);
             this.textBox_V_VRF.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_VRF.Name = "textBox_V_VRF";
             this.textBox_V_VRF.ReadOnly = true;
@@ -5200,7 +5403,7 @@
             this.textBox_V_HR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_V_HR.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_V_HR.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_V_HR.Location = new System.Drawing.Point(134, 22);
+            this.textBox_V_HR.Location = new System.Drawing.Point(134, 21);
             this.textBox_V_HR.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_HR.Name = "textBox_V_HR";
             this.textBox_V_HR.ReadOnly = true;
@@ -5212,7 +5415,7 @@
             this.textBox_V_VLB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_V_VLB.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_V_VLB.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_V_VLB.Location = new System.Drawing.Point(46, 99);
+            this.textBox_V_VLB.Location = new System.Drawing.Point(45, 98);
             this.textBox_V_VLB.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_VLB.Name = "textBox_V_VLB";
             this.textBox_V_VLB.ReadOnly = true;
@@ -5224,7 +5427,7 @@
             this.textBox_V_VLF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_V_VLF.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_V_VLF.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_V_VLF.Location = new System.Drawing.Point(46, 60);
+            this.textBox_V_VLF.Location = new System.Drawing.Point(45, 60);
             this.textBox_V_VLF.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_VLF.Name = "textBox_V_VLF";
             this.textBox_V_VLF.ReadOnly = true;
@@ -5236,7 +5439,7 @@
             this.textBox_V_HL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_V_HL.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_V_HL.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_V_HL.Location = new System.Drawing.Point(46, 21);
+            this.textBox_V_HL.Location = new System.Drawing.Point(45, 21);
             this.textBox_V_HL.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_V_HL.Name = "textBox_V_HL";
             this.textBox_V_HL.ReadOnly = true;
@@ -5396,7 +5599,7 @@
             this.textBox_AI20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI20.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI20.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI20.Location = new System.Drawing.Point(409, 99);
+            this.textBox_AI20.Location = new System.Drawing.Point(406, 98);
             this.textBox_AI20.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI20.Name = "textBox_AI20";
             this.textBox_AI20.ReadOnly = true;
@@ -5442,7 +5645,7 @@
             this.textBox_AI19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI19.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI19.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI19.Location = new System.Drawing.Point(409, 73);
+            this.textBox_AI19.Location = new System.Drawing.Point(406, 72);
             this.textBox_AI19.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI19.Name = "textBox_AI19";
             this.textBox_AI19.ReadOnly = true;
@@ -5474,7 +5677,7 @@
             this.textBox_AI18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI18.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI18.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI18.Location = new System.Drawing.Point(409, 47);
+            this.textBox_AI18.Location = new System.Drawing.Point(406, 46);
             this.textBox_AI18.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI18.Name = "textBox_AI18";
             this.textBox_AI18.ReadOnly = true;
@@ -5518,7 +5721,7 @@
             this.textBox_AI17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI17.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI17.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI17.Location = new System.Drawing.Point(409, 21);
+            this.textBox_AI17.Location = new System.Drawing.Point(406, 20);
             this.textBox_AI17.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI17.Name = "textBox_AI17";
             this.textBox_AI17.ReadOnly = true;
@@ -5540,7 +5743,7 @@
             this.textBox_AI16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI16.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI16.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI16.Location = new System.Drawing.Point(314, 99);
+            this.textBox_AI16.Location = new System.Drawing.Point(312, 98);
             this.textBox_AI16.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI16.Name = "textBox_AI16";
             this.textBox_AI16.ReadOnly = true;
@@ -5562,7 +5765,7 @@
             this.textBox_AI12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI12.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI12.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI12.Location = new System.Drawing.Point(220, 97);
+            this.textBox_AI12.Location = new System.Drawing.Point(220, 98);
             this.textBox_AI12.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI12.Name = "textBox_AI12";
             this.textBox_AI12.ReadOnly = true;
@@ -5594,7 +5797,7 @@
             this.textBox_AI8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI8.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI8.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI8.Location = new System.Drawing.Point(128, 97);
+            this.textBox_AI8.Location = new System.Drawing.Point(128, 98);
             this.textBox_AI8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI8.Name = "textBox_AI8";
             this.textBox_AI8.ReadOnly = true;
@@ -5628,7 +5831,7 @@
             this.textBox_AI4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI4.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI4.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI4.Location = new System.Drawing.Point(41, 97);
+            this.textBox_AI4.Location = new System.Drawing.Point(41, 98);
             this.textBox_AI4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI4.Name = "textBox_AI4";
             this.textBox_AI4.ReadOnly = true;
@@ -5650,7 +5853,7 @@
             this.textBox_AI15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI15.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI15.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI15.Location = new System.Drawing.Point(314, 73);
+            this.textBox_AI15.Location = new System.Drawing.Point(312, 72);
             this.textBox_AI15.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI15.Name = "textBox_AI15";
             this.textBox_AI15.ReadOnly = true;
@@ -5682,7 +5885,7 @@
             this.textBox_AI11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI11.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI11.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI11.Location = new System.Drawing.Point(220, 71);
+            this.textBox_AI11.Location = new System.Drawing.Point(220, 72);
             this.textBox_AI11.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI11.Name = "textBox_AI11";
             this.textBox_AI11.ReadOnly = true;
@@ -5704,7 +5907,7 @@
             this.textBox_AI7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI7.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI7.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI7.Location = new System.Drawing.Point(128, 71);
+            this.textBox_AI7.Location = new System.Drawing.Point(128, 72);
             this.textBox_AI7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI7.Name = "textBox_AI7";
             this.textBox_AI7.ReadOnly = true;
@@ -5726,7 +5929,7 @@
             this.textBox_AI3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI3.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI3.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI3.Location = new System.Drawing.Point(41, 71);
+            this.textBox_AI3.Location = new System.Drawing.Point(41, 72);
             this.textBox_AI3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI3.Name = "textBox_AI3";
             this.textBox_AI3.ReadOnly = true;
@@ -5748,7 +5951,7 @@
             this.textBox_AI14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI14.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI14.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI14.Location = new System.Drawing.Point(314, 47);
+            this.textBox_AI14.Location = new System.Drawing.Point(312, 46);
             this.textBox_AI14.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI14.Name = "textBox_AI14";
             this.textBox_AI14.ReadOnly = true;
@@ -5770,7 +5973,7 @@
             this.textBox_AI10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI10.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI10.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI10.Location = new System.Drawing.Point(220, 45);
+            this.textBox_AI10.Location = new System.Drawing.Point(220, 46);
             this.textBox_AI10.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI10.Name = "textBox_AI10";
             this.textBox_AI10.ReadOnly = true;
@@ -5792,7 +5995,7 @@
             this.textBox_AI6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI6.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI6.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI6.Location = new System.Drawing.Point(128, 45);
+            this.textBox_AI6.Location = new System.Drawing.Point(128, 46);
             this.textBox_AI6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI6.Name = "textBox_AI6";
             this.textBox_AI6.ReadOnly = true;
@@ -5814,7 +6017,7 @@
             this.textBox_AI2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI2.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI2.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI2.Location = new System.Drawing.Point(41, 45);
+            this.textBox_AI2.Location = new System.Drawing.Point(41, 46);
             this.textBox_AI2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI2.Name = "textBox_AI2";
             this.textBox_AI2.ReadOnly = true;
@@ -5836,7 +6039,7 @@
             this.textBox_AI13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI13.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI13.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI13.Location = new System.Drawing.Point(314, 21);
+            this.textBox_AI13.Location = new System.Drawing.Point(312, 20);
             this.textBox_AI13.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI13.Name = "textBox_AI13";
             this.textBox_AI13.ReadOnly = true;
@@ -5858,7 +6061,7 @@
             this.textBox_AI9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI9.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI9.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI9.Location = new System.Drawing.Point(220, 19);
+            this.textBox_AI9.Location = new System.Drawing.Point(220, 20);
             this.textBox_AI9.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI9.Name = "textBox_AI9";
             this.textBox_AI9.ReadOnly = true;
@@ -5869,7 +6072,7 @@
             // 
             this.label129.AutoSize = true;
             this.label129.Font = new System.Drawing.Font("SimSun", 12F);
-            this.label129.Location = new System.Drawing.Point(177, 25);
+            this.label129.Location = new System.Drawing.Point(185, 24);
             this.label129.Name = "label129";
             this.label129.Size = new System.Drawing.Size(40, 16);
             this.label129.TabIndex = 112;
@@ -5880,7 +6083,7 @@
             this.textBox_AI5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI5.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI5.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI5.Location = new System.Drawing.Point(128, 19);
+            this.textBox_AI5.Location = new System.Drawing.Point(128, 20);
             this.textBox_AI5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI5.Name = "textBox_AI5";
             this.textBox_AI5.ReadOnly = true;
@@ -5902,7 +6105,7 @@
             this.textBox_AI1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.textBox_AI1.Font = new System.Drawing.Font("SimSun", 12F);
             this.textBox_AI1.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox_AI1.Location = new System.Drawing.Point(41, 19);
+            this.textBox_AI1.Location = new System.Drawing.Point(41, 20);
             this.textBox_AI1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox_AI1.Name = "textBox_AI1";
             this.textBox_AI1.ReadOnly = true;
@@ -7852,14 +8055,14 @@
             this.DataGridView_SysAlarmInfo.Name = "DataGridView_SysAlarmInfo";
             this.DataGridView_SysAlarmInfo.ReadOnly = true;
             this.DataGridView_SysAlarmInfo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGridView_SysAlarmInfo.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridView_SysAlarmInfo.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.DataGridView_SysAlarmInfo.RowHeadersVisible = false;
             this.DataGridView_SysAlarmInfo.RowHeadersWidth = 51;
             this.DataGridView_SysAlarmInfo.RowTemplate.Height = 27;
@@ -7869,10 +8072,10 @@
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle1;
             this.Column1.HeaderText = "";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
@@ -11241,203 +11444,6 @@
             this.timer_Communication.Interval = 7000;
             this.timer_Communication.Tick += new System.EventHandler(this.timer_Communication_Tick);
             // 
-            // groupBox32
-            // 
-            this.groupBox32.Controls.Add(this.axBeauGaugeCtrl4);
-            this.groupBox32.Controls.Add(this.axBeauGaugeCtrl3);
-            this.groupBox32.Controls.Add(this.axBeauGaugeCtrl2);
-            this.groupBox32.Controls.Add(this.axBeauGaugeCtrl1);
-            this.groupBox32.Controls.Add(this.axBeauGaugeCtrl0);
-            this.groupBox32.Controls.Add(this.label_BuChang_5);
-            this.groupBox32.Controls.Add(this.label_BuChang_4);
-            this.groupBox32.Controls.Add(this.label_BuChang_3);
-            this.groupBox32.Controls.Add(this.label_BuChang_2);
-            this.groupBox32.Controls.Add(this.label_BuChang_1);
-            this.groupBox32.Controls.Add(this.label221);
-            this.groupBox32.Controls.Add(this.label222);
-            this.groupBox32.Controls.Add(this.label223);
-            this.groupBox32.Controls.Add(this.label224);
-            this.groupBox32.Controls.Add(this.label225);
-            this.groupBox32.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold);
-            this.groupBox32.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox32.Location = new System.Drawing.Point(820, 547);
-            this.groupBox32.Margin = new System.Windows.Forms.Padding(2);
-            this.groupBox32.Name = "groupBox32";
-            this.groupBox32.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox32.Size = new System.Drawing.Size(461, 252);
-            this.groupBox32.TabIndex = 216;
-            this.groupBox32.TabStop = false;
-            // 
-            // axBeauGaugeCtrl4
-            // 
-            this.axBeauGaugeCtrl4.Enabled = true;
-            this.axBeauGaugeCtrl4.Location = new System.Drawing.Point(378, 35);
-            this.axBeauGaugeCtrl4.Name = "axBeauGaugeCtrl4";
-            this.axBeauGaugeCtrl4.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl4.OcxState")));
-            this.axBeauGaugeCtrl4.Size = new System.Drawing.Size(80, 200);
-            this.axBeauGaugeCtrl4.TabIndex = 230;
-            // 
-            // axBeauGaugeCtrl3
-            // 
-            this.axBeauGaugeCtrl3.Enabled = true;
-            this.axBeauGaugeCtrl3.Location = new System.Drawing.Point(288, 35);
-            this.axBeauGaugeCtrl3.Name = "axBeauGaugeCtrl3";
-            this.axBeauGaugeCtrl3.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl3.OcxState")));
-            this.axBeauGaugeCtrl3.Size = new System.Drawing.Size(80, 200);
-            this.axBeauGaugeCtrl3.TabIndex = 229;
-            // 
-            // axBeauGaugeCtrl2
-            // 
-            this.axBeauGaugeCtrl2.Enabled = true;
-            this.axBeauGaugeCtrl2.Location = new System.Drawing.Point(196, 35);
-            this.axBeauGaugeCtrl2.Name = "axBeauGaugeCtrl2";
-            this.axBeauGaugeCtrl2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl2.OcxState")));
-            this.axBeauGaugeCtrl2.Size = new System.Drawing.Size(80, 200);
-            this.axBeauGaugeCtrl2.TabIndex = 228;
-            // 
-            // axBeauGaugeCtrl1
-            // 
-            this.axBeauGaugeCtrl1.Enabled = true;
-            this.axBeauGaugeCtrl1.Location = new System.Drawing.Point(103, 35);
-            this.axBeauGaugeCtrl1.Name = "axBeauGaugeCtrl1";
-            this.axBeauGaugeCtrl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl1.OcxState")));
-            this.axBeauGaugeCtrl1.Size = new System.Drawing.Size(80, 200);
-            this.axBeauGaugeCtrl1.TabIndex = 227;
-            // 
-            // axBeauGaugeCtrl0
-            // 
-            this.axBeauGaugeCtrl0.Enabled = true;
-            this.axBeauGaugeCtrl0.Location = new System.Drawing.Point(8, 35);
-            this.axBeauGaugeCtrl0.Name = "axBeauGaugeCtrl0";
-            this.axBeauGaugeCtrl0.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axBeauGaugeCtrl0.OcxState")));
-            this.axBeauGaugeCtrl0.Size = new System.Drawing.Size(80, 200);
-            this.axBeauGaugeCtrl0.TabIndex = 226;
-            // 
-            // label_BuChang_5
-            // 
-            this.label_BuChang_5.BackColor = System.Drawing.Color.Transparent;
-            this.label_BuChang_5.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_BuChang_5.ForeColor = System.Drawing.Color.White;
-            this.label_BuChang_5.Location = new System.Drawing.Point(388, 232);
-            this.label_BuChang_5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label_BuChang_5.Name = "label_BuChang_5";
-            this.label_BuChang_5.Size = new System.Drawing.Size(60, 19);
-            this.label_BuChang_5.TabIndex = 225;
-            this.label_BuChang_5.Text = "00";
-            this.label_BuChang_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label_BuChang_4
-            // 
-            this.label_BuChang_4.BackColor = System.Drawing.Color.Transparent;
-            this.label_BuChang_4.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_BuChang_4.ForeColor = System.Drawing.Color.White;
-            this.label_BuChang_4.Location = new System.Drawing.Point(301, 232);
-            this.label_BuChang_4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label_BuChang_4.Name = "label_BuChang_4";
-            this.label_BuChang_4.Size = new System.Drawing.Size(60, 19);
-            this.label_BuChang_4.TabIndex = 224;
-            this.label_BuChang_4.Text = "00";
-            this.label_BuChang_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label_BuChang_3
-            // 
-            this.label_BuChang_3.BackColor = System.Drawing.Color.Transparent;
-            this.label_BuChang_3.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_BuChang_3.ForeColor = System.Drawing.Color.White;
-            this.label_BuChang_3.Location = new System.Drawing.Point(208, 232);
-            this.label_BuChang_3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label_BuChang_3.Name = "label_BuChang_3";
-            this.label_BuChang_3.Size = new System.Drawing.Size(60, 19);
-            this.label_BuChang_3.TabIndex = 223;
-            this.label_BuChang_3.Text = "00";
-            this.label_BuChang_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label_BuChang_2
-            // 
-            this.label_BuChang_2.BackColor = System.Drawing.Color.Transparent;
-            this.label_BuChang_2.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_BuChang_2.ForeColor = System.Drawing.Color.White;
-            this.label_BuChang_2.Location = new System.Drawing.Point(113, 232);
-            this.label_BuChang_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label_BuChang_2.Name = "label_BuChang_2";
-            this.label_BuChang_2.Size = new System.Drawing.Size(60, 19);
-            this.label_BuChang_2.TabIndex = 222;
-            this.label_BuChang_2.Text = "00";
-            this.label_BuChang_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label_BuChang_1
-            // 
-            this.label_BuChang_1.BackColor = System.Drawing.Color.Transparent;
-            this.label_BuChang_1.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label_BuChang_1.ForeColor = System.Drawing.Color.White;
-            this.label_BuChang_1.Location = new System.Drawing.Point(18, 232);
-            this.label_BuChang_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label_BuChang_1.Name = "label_BuChang_1";
-            this.label_BuChang_1.Size = new System.Drawing.Size(60, 19);
-            this.label_BuChang_1.TabIndex = 221;
-            this.label_BuChang_1.Text = "00";
-            this.label_BuChang_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label221
-            // 
-            this.label221.AutoSize = true;
-            this.label221.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
-            this.label221.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label221.Location = new System.Drawing.Point(396, 18);
-            this.label221.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label221.Name = "label221";
-            this.label221.Size = new System.Drawing.Size(42, 16);
-            this.label221.TabIndex = 220;
-            this.label221.Text = "油箱";
-            // 
-            // label222
-            // 
-            this.label222.AutoSize = true;
-            this.label222.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label222.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label222.Location = new System.Drawing.Point(287, 18);
-            this.label222.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label222.Name = "label222";
-            this.label222.Size = new System.Drawing.Size(93, 16);
-            this.label222.TabIndex = 219;
-            this.label222.Text = "脐带终端箱";
-            // 
-            // label223
-            // 
-            this.label223.AutoSize = true;
-            this.label223.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label223.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label223.Location = new System.Drawing.Point(193, 18);
-            this.label223.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label223.Name = "label223";
-            this.label223.Size = new System.Drawing.Size(93, 16);
-            this.label223.TabIndex = 218;
-            this.label223.Text = "用户接口箱";
-            // 
-            // label224
-            // 
-            this.label224.AutoSize = true;
-            this.label224.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label224.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label224.Location = new System.Drawing.Point(98, 18);
-            this.label224.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label224.Name = "label224";
-            this.label224.Size = new System.Drawing.Size(93, 16);
-            this.label224.TabIndex = 217;
-            this.label224.Text = "电机补偿器";
-            // 
-            // label225
-            // 
-            this.label225.AutoSize = true;
-            this.label225.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label225.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label225.Location = new System.Drawing.Point(3, 18);
-            this.label225.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label225.Name = "label225";
-            this.label225.Size = new System.Drawing.Size(93, 16);
-            this.label225.TabIndex = 216;
-            this.label225.Text = "阀箱补偿器";
-            // 
             // FormMainUserA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -11456,6 +11462,13 @@
             this.GroupBox_MainMon.ResumeLayout(false);
             this.GroupBox_MainCtl.ResumeLayout(false);
             this.GroupBox_MainCtl.PerformLayout();
+            this.groupBox32.ResumeLayout(false);
+            this.groupBox32.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl0)).EndInit();
             this.groupBox33.ResumeLayout(false);
             this.groupBox33.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
@@ -11640,13 +11653,6 @@
             this.groupBox23.PerformLayout();
             this.groupBox27.ResumeLayout(false);
             this.groupBox27.PerformLayout();
-            this.groupBox32.ResumeLayout(false);
-            this.groupBox32.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axBeauGaugeCtrl0)).EndInit();
             this.ResumeLayout(false);
 
         }

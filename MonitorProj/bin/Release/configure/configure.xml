@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	
+	<localnet>
+		<address>192.168.1.10</address>
+		<debug>0</debug>
+	</localnet>
+	
+	<times>
+		<DrillUp>2000</DrillUp>	<!-- 单位ms -->
+		<DrillDown>2000</DrillDown>
+		<RotateForward>2000</RotateForward>
+		<RotateReverse>2000</RotateReverse>
+		<PitchUp>2000</PitchUp>
+		<PitchDown>2000</PitchDown>
+		<PitchForward>2000</PitchForward>
+		<PitchReverse>2000</PitchReverse>
+	</times>
+	
+	<polars>
+		<HLeft>-1</HLeft>	<!-- 1代表是正；-1代表是负 -->
+		<HRight>1</HRight>
+		<VLeftForward>1</VLeftForward>
+		<VLeftReverse>-1</VLeftReverse>
+		<VRightForward>-1</VRightForward>
+		<VRightReverse>1</VRightReverse>
+	</polars>
+	
+	<modes>
+	
+		<mode name="移动钻机" type="mode1">
+		
+			<units>
+
+				<unit type="BoardA">	<!-- 8功能阀箱 -->
+					<serialname>阀箱1</serialname>
+					<serialnum>COM1</serialnum>
+					<address>192.168.1.101</address>
+					<port>4003</port>
+					<quirys>						
+					</quirys>
+					<quiryinterval>500</quiryinterval>	<!-- 两条询问间的时间间隔，单位ms -->
+				</unit>
+			  
+				<unit type="BoardB" class="A">	<!-- 16功能阀箱，class="A"为国外，class="B"为国产 -->
+					<serialname>阀箱2</serialname>
+					<serialnum>COM2</serialnum>
+					<address>192.168.1.101</address>
+					<port>4004</port>
+					<quirys>
+					</quirys>
+					<quiryinterval>200</quiryinterval>
+				</unit>
+			  
+				<unit type="BoardC">	<!-- 自研板卡，通过串口服务器UDP方式连接 -->
+					<serialname>高度计</serialname>
+					<serialnum>COM3</serialnum>
+					<address>192.168.1.101</address>
+					<port>4001</port>
+					<quirys>
+					</quirys>
+					<quiryinterval>200</quiryinterval>
+				</unit>
+				
+				<unit type="BoardC">
+					<serialname>罗盘</serialname>
+					<serialnum>COM4</serialnum>
+					<address>192.168.1.101</address>
+					<port>4002</port>
+					<quirys>
+						<quiry>50 03 00 3A 00 06 00 00</quiry>
+					</quirys>
+					<quiryinterval>500</quiryinterval>
+				</unit>
+				
+				<unit type="BoardC">
+					<serialname>绝缘检测板</serialname>
+					<serialnum>COM5</serialnum>
+					<address>192.168.1.103</address>
+					<port>4017</port>
+					<quirys>
+						<quiry>FF FF A5 61 01 05 67 26</quiry>
+						<quiry>FF FF A5 62 01 05 68 26</quiry>
+						<quiry>FF FF A5 63 01 05 69 26</quiry>
+						<quiry>FF FF A5 70 01 05 76 26</quiry>
+						<quiry>FF FF A5 71 01 05 77 26</quiry>
+						<quiry>FF FF A5 72 01 05 78 26</quiry>
+					</quirys>
+					<quiryinterval>120</quiryinterval>
+				</unit>
+				
+				<unit type="BoardC">
+					<serialname>舱内继电器</serialname>
+					<serialnum>COM6</serialnum>
+					<address>192.168.1.103</address>
+					<port>4018</port>
+					<quirys>
+						<quiry>FF FF A5 79 01 05 7F 26</quiry>
+						<quiry>FF FF A5 80 01 05 86 26</quiry>
+						<quiry>FF FF A5 90 01 05 96 26</quiry>
+					</quirys>
+					<quiryinterval>200</quiryinterval>
+				</unit>
+				
+				<unit type="BoardC">
+					<serialname>信号接口箱</serialname>
+					<serialnum>COM7</serialnum>
+					<address>192.168.1.103</address>
+					<port>4019</port>
+					<quirys>
+						<quiry>FF FF A5 25 01 05 2B 26</quiry>
+						<quiry>FF FF A5 26 01 05 2C 26</quiry>
+						<quiry>FF FF A5 28 01 05 2E 26</quiry>
+						<quiry>FF FF A5 29 01 05 2F 26</quiry>
+						<quiry>FF FF A5 30 01 05 36 26</quiry>
+						<quiry>FF FF A5 45 01 05 4B 26</quiry>
+					</quirys>
+					<quiryinterval>120</quiryinterval>
+				</unit>
+				
+				<unit type="BoardC">
+					<serialname>传感器接口箱</serialname>
+					<serialnum>COM8</serialnum>
+					<address>192.168.1.103</address>
+					<port>4020</port>
+					<quirys>
+						<quiry>FF FF A5 40 01 05 46 26</quiry>
+					</quirys>
+					<quiryinterval>200</quiryinterval>
+				</unit>
+				
+				<unit type="BoardC">
+					<serialname>灯舱</serialname>
+					<serialnum>COM9</serialnum>
+					<address>192.168.1.103</address>
+					<port>4021</port>
+					<quirys>
+						<quiry>FF FF A5 21 01 05 27 26</quiry>
+						<quiry>FF FF A5 22 01 05 28 26</quiry>
+						<quiry>FF FF A5 23 01 05 29 26</quiry>
+						<quiry>FF FF A5 24 01 05 2A 26</quiry>
+					</quirys>
+					<quiryinterval>200</quiryinterval>
+				</unit>
+				
+				
+				<unit type="BoardD">	<!-- 串口直连板卡 -->
+					<serialname>水面控制盒</serialname>
+					<serialnum>COM12</serialnum>
+					<portname>COM1</portname>	<!-- 真实连接的物理串口名称 -->
+					<bandrate>38400</bandrate>	<!-- 波特率 -->
+					<databits>8</databits>		<!-- 数据位数 -->
+					<stopbits>One</stopbits>	<!-- 终止位数：None、One、OnePointFive、Two -->
+					<parity>None</parity>		<!-- 校验：Even、Mark、None、Odd、Space -->
+					<quirys>
+						<quiry>FF FF A5 24 01 05 2A 26</quiry>
+					</quirys>
+					<quiryinterval>500</quiryinterval>
+				</unit>
+				
+				
+				<unit type="BoardD">	<!-- 串口直连板卡 -->
+					<serialname>ROV供电系统</serialname>
+					<serialnum>COM13</serialnum>	<!-- 软件内部用串口名称COM*，不能重复 -->
+					<portname>COM4</portname>	<!-- 真实连接的物理串口名称 -->
+					<bandrate>9600</bandrate>	<!-- 波特率 -->
+					<databits>8</databits>		<!-- 数据位数 -->
+					<stopbits>One</stopbits>	<!-- 终止位数：None、One、OnePointFive、Two -->
+					<parity>None</parity>		<!-- 校验：Even、Mark、None、Odd、Space -->
+					<quirys>
+						<quiry>02 03 00 01 00 18 14 33</quiry>
+						<quiry>02 03 00 64 00 05 C4 25</quiry>
+					</quirys>
+					<quiryinterval>500</quiryinterval>
+				</unit>
+								
+				
+				<unit type="BoardD">	<!-- 串口直连板卡 -->
+					<serialname>绝缘检测仪1</serialname>
+					<serialnum>COM14</serialnum>	<!-- 软件内部用串口名称COM*，不能重复 -->
+					<portname>COM5</portname>	<!-- 真实连接的物理串口名称 -->
+					<bandrate>9600</bandrate>	<!-- 波特率 -->
+					<databits>8</databits>		<!-- 数据位数 -->
+					<stopbits>One</stopbits>	<!-- 终止位数：None、One、OnePointFive、Two -->
+					<parity>None</parity>		<!-- 校验：Even、Mark、None、Odd、Space -->
+					<quirys>
+					</quirys>
+					<quiryinterval>500</quiryinterval>
+				</unit>
+				
+				<unit type="BoardD">	<!-- 串口直连板卡 -->
+					<serialname>绝缘检测仪2</serialname>
+					<serialnum>COM15</serialnum>	<!-- 软件内部用串口名称COM*，不能重复 -->
+					<portname>COM6</portname>	<!-- 真实连接的物理串口名称 -->
+					<bandrate>9600</bandrate>	<!-- 波特率 -->
+					<databits>8</databits>		<!-- 数据位数 -->
+					<stopbits>One</stopbits>	<!-- 终止位数：None、One、OnePointFive、Two -->
+					<parity>None</parity>		<!-- 校验：Even、Mark、None、Odd、Space -->
+					<quirys>
+					</quirys>
+					<quiryinterval>500</quiryinterval>
+				</unit>
+				
+							
+			</units>
+
+		
+		</mode>
+		
+		<mode name="6米钻机" type="mode2">
+		
+		</mode>
+		
+		<mode name="1.5米钻机" type="mode3">
+		
+		</mode>
+	
+	</modes>
+	
+	
+</root>
