@@ -38,21 +38,37 @@
     <Reference Include="Aspose.Cells">
       <HintPath>.\Aspose.Cells.dll</HintPath>
     </Reference>
+    <Reference Include="AxInterop.BGV2ActiveXLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\AxInterop.BGV2ActiveXLib.dll</HintPath>
+    </Reference>
     <Reference Include="DevComponents.DotNetBar2, Version=12.7.0.10, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\DevComponents.DotNetBar2.dll</HintPath>
     </Reference>
     <Reference Include="DevComponents.Instrumentation, Version=12.7.0.10, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0, processorArchitecture=MSIL">
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\DevComponents.Instrumentation.dll</HintPath>
     </Reference>
     <Reference Include="GyroAngle, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\GyroAngle.dll</HintPath>
+      <HintPath>.\GyroAngle.dll</HintPath>
     </Reference>
-    <Reference Include="IrisSkin4">
-      <HintPath>I:\db020dc258155152e17e7b1bfcd7bf08\IrisSkin4.dll</HintPath>
+    <Reference Include="SharpGL, Version=3.1.1.0, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpGL.3.1.1\lib\net40\SharpGL.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.SceneGraph, Version=3.1.1.0, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpGL.SceneGraph.3.1.1\lib\net40\SharpGL.SceneGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.Serialization, Version=3.1.1.0, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpGL.Serialization.3.1.1\lib\net40\SharpGL.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.WinForms, Version=3.1.1.0, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpGL.WinForms.3.1.1\lib\net40\SharpGL.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -204,6 +220,7 @@
       <DependentUpon>FormSerialJuYuanJianCe2Ctl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -258,25 +275,6 @@
     <Content Include="Resources\Square150x150Logo.png" />
     <Content Include="Resources\Square44x44Logo.png" />
     <Content Include="Resources\StoreLogo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <COMReference Include="AxBGV2ActiveXLib">
-      <Guid>{71D75C77-4682-4723-83E6-BD07E1D80111}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>aximp</WrapperTool>
-      <Isolated>False</Isolated>
-    </COMReference>
-    <COMReference Include="BGV2ActiveXLib">
-      <Guid>{71D75C77-4682-4723-83E6-BD07E1D80111}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
