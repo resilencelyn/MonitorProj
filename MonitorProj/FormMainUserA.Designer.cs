@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMainUserA));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.GroupBox_MainMon = new System.Windows.Forms.GroupBox();
             this.GroupBox_MainCtl = new System.Windows.Forms.GroupBox();
             this.groupBox32 = new System.Windows.Forms.GroupBox();
@@ -2583,7 +2583,7 @@
             this.btn_DiCiJiaJiaoSet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_DiCiJiaJiaoSet.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_DiCiJiaJiaoSet.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_DiCiJiaJiaoSet.Location = new System.Drawing.Point(18, 62);
+            this.btn_DiCiJiaJiaoSet.Location = new System.Drawing.Point(18, 63);
             this.btn_DiCiJiaJiaoSet.Margin = new System.Windows.Forms.Padding(2);
             this.btn_DiCiJiaJiaoSet.Name = "btn_DiCiJiaJiaoSet";
             this.btn_DiCiJiaJiaoSet.Size = new System.Drawing.Size(120, 50);
@@ -2860,9 +2860,9 @@
             this.numericUpDown_ZhuanDong_YiDong_Speed.DecimalPlaces = 2;
             this.numericUpDown_ZhuanDong_YiDong_Speed.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.numericUpDown_ZhuanDong_YiDong_Speed.ForeColor = System.Drawing.SystemColors.Control;
-            this.numericUpDown_ZhuanDong_YiDong_Speed.Location = new System.Drawing.Point(112, 63);
+            this.numericUpDown_ZhuanDong_YiDong_Speed.Location = new System.Drawing.Point(100, 63);
             this.numericUpDown_ZhuanDong_YiDong_Speed.Name = "numericUpDown_ZhuanDong_YiDong_Speed";
-            this.numericUpDown_ZhuanDong_YiDong_Speed.Size = new System.Drawing.Size(62, 28);
+            this.numericUpDown_ZhuanDong_YiDong_Speed.Size = new System.Drawing.Size(75, 28);
             this.numericUpDown_ZhuanDong_YiDong_Speed.TabIndex = 193;
             this.numericUpDown_ZhuanDong_YiDong_Speed.ValueChanged += new System.EventHandler(this.numericUpDown_ZhuanDong_YiDong_Speed_ValueChanged);
             // 
@@ -2883,7 +2883,6 @@
             this.btn_TuiJinQin_FanZhuan.Tag = 1;
             this.btn_TuiJinQin_FanZhuan.Text = "反转";
             this.btn_TuiJinQin_FanZhuan.UseVisualStyleBackColor = false;
-            this.btn_TuiJinQin_FanZhuan.Click += new System.EventHandler(this.btn_TuiJinQin_FanZhuan_Click);
             this.btn_TuiJinQin_FanZhuan.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_TuiJinQin_FanZhuan_MouseDown);
             this.btn_TuiJinQin_FanZhuan.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btn_TuiJinQin_FanZhuan_MouseUp);
             // 
@@ -2904,7 +2903,6 @@
             this.btn_TuiJinQin_ZhengZhuan.Tag = 1;
             this.btn_TuiJinQin_ZhengZhuan.Text = "正转";
             this.btn_TuiJinQin_ZhengZhuan.UseVisualStyleBackColor = false;
-            this.btn_TuiJinQin_ZhengZhuan.Click += new System.EventHandler(this.btn_TuiJinQin_ZhengZhuan_Click);
             this.btn_TuiJinQin_ZhengZhuan.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_TuiJinQin_ZhengZhuan_MouseDown);
             this.btn_TuiJinQin_ZhengZhuan.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btn_TuiJinQin_ZhengZhuan_MouseUp);
             // 
@@ -2935,7 +2933,7 @@
             this.btn_TuiJinQi_HMove_QianJin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_TuiJinQi_HMove_QianJin.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_TuiJinQi_HMove_QianJin.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_TuiJinQi_HMove_QianJin.Location = new System.Drawing.Point(75, 23);
+            this.btn_TuiJinQi_HMove_QianJin.Location = new System.Drawing.Point(72, 26);
             this.btn_TuiJinQi_HMove_QianJin.Margin = new System.Windows.Forms.Padding(2);
             this.btn_TuiJinQi_HMove_QianJin.Name = "btn_TuiJinQi_HMove_QianJin";
             this.btn_TuiJinQi_HMove_QianJin.Size = new System.Drawing.Size(60, 35);
@@ -2973,7 +2971,7 @@
             this.btn_TuiJinQi_HMove_Stop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_TuiJinQi_HMove_Stop.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_TuiJinQi_HMove_Stop.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_TuiJinQi_HMove_Stop.Location = new System.Drawing.Point(75, 67);
+            this.btn_TuiJinQi_HMove_Stop.Location = new System.Drawing.Point(72, 67);
             this.btn_TuiJinQi_HMove_Stop.Margin = new System.Windows.Forms.Padding(2);
             this.btn_TuiJinQi_HMove_Stop.Name = "btn_TuiJinQi_HMove_Stop";
             this.btn_TuiJinQi_HMove_Stop.Size = new System.Drawing.Size(60, 35);
@@ -2992,7 +2990,7 @@
             this.btn_TuiJinQi_HMove_HouTui.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_TuiJinQi_HMove_HouTui.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_TuiJinQi_HMove_HouTui.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_TuiJinQi_HMove_HouTui.Location = new System.Drawing.Point(75, 111);
+            this.btn_TuiJinQi_HMove_HouTui.Location = new System.Drawing.Point(72, 107);
             this.btn_TuiJinQi_HMove_HouTui.Margin = new System.Windows.Forms.Padding(2);
             this.btn_TuiJinQi_HMove_HouTui.Name = "btn_TuiJinQi_HMove_HouTui";
             this.btn_TuiJinQi_HMove_HouTui.Size = new System.Drawing.Size(60, 35);
@@ -3007,7 +3005,7 @@
             this.label263.AutoSize = true;
             this.label263.BackColor = System.Drawing.Color.Transparent;
             this.label263.Font = new System.Drawing.Font("SimSun", 13.8F);
-            this.label263.Location = new System.Drawing.Point(200, 32);
+            this.label263.Location = new System.Drawing.Point(202, 34);
             this.label263.Name = "label263";
             this.label263.Size = new System.Drawing.Size(19, 19);
             this.label263.TabIndex = 174;
@@ -3022,7 +3020,7 @@
             this.btn_TuiJinQi_HMove_YouYi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_TuiJinQi_HMove_YouYi.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_TuiJinQi_HMove_YouYi.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_TuiJinQi_HMove_YouYi.Location = new System.Drawing.Point(142, 67);
+            this.btn_TuiJinQi_HMove_YouYi.Location = new System.Drawing.Point(136, 67);
             this.btn_TuiJinQi_HMove_YouYi.Margin = new System.Windows.Forms.Padding(2);
             this.btn_TuiJinQi_HMove_YouYi.Name = "btn_TuiJinQi_HMove_YouYi";
             this.btn_TuiJinQi_HMove_YouYi.Size = new System.Drawing.Size(60, 35);
@@ -3038,9 +3036,9 @@
             this.numericUpDown_TuiJinQi_HMove_ZengLiang.DecimalPlaces = 2;
             this.numericUpDown_TuiJinQi_HMove_ZengLiang.Font = new System.Drawing.Font("SimSun", 13.8F);
             this.numericUpDown_TuiJinQi_HMove_ZengLiang.ForeColor = System.Drawing.SystemColors.Control;
-            this.numericUpDown_TuiJinQi_HMove_ZengLiang.Location = new System.Drawing.Point(142, 27);
+            this.numericUpDown_TuiJinQi_HMove_ZengLiang.Location = new System.Drawing.Point(136, 30);
             this.numericUpDown_TuiJinQi_HMove_ZengLiang.Name = "numericUpDown_TuiJinQi_HMove_ZengLiang";
-            this.numericUpDown_TuiJinQi_HMove_ZengLiang.Size = new System.Drawing.Size(58, 28);
+            this.numericUpDown_TuiJinQi_HMove_ZengLiang.Size = new System.Drawing.Size(66, 28);
             this.numericUpDown_TuiJinQi_HMove_ZengLiang.TabIndex = 173;
             this.numericUpDown_TuiJinQi_HMove_ZengLiang.ValueChanged += new System.EventHandler(this.numericUpDown_TuiJinQi_HMove_ZengLiang_ValueChanged);
             // 
@@ -8057,14 +8055,14 @@
             this.DataGridView_SysAlarmInfo.Name = "DataGridView_SysAlarmInfo";
             this.DataGridView_SysAlarmInfo.ReadOnly = true;
             this.DataGridView_SysAlarmInfo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGridView_SysAlarmInfo.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridView_SysAlarmInfo.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.DataGridView_SysAlarmInfo.RowHeadersVisible = false;
             this.DataGridView_SysAlarmInfo.RowHeadersWidth = 51;
             this.DataGridView_SysAlarmInfo.RowTemplate.Height = 27;
@@ -8074,10 +8072,10 @@
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle2;
             this.Column1.HeaderText = "";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
@@ -11449,18 +11447,10 @@
             // propStatus1
             // 
             this.propStatus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.propStatus1.H_BL = false;
-            this.propStatus1.H_BR = false;
-            this.propStatus1.H_FL = false;
-            this.propStatus1.H_FR = false;
             this.propStatus1.Location = new System.Drawing.Point(18, 580);
             this.propStatus1.Name = "propStatus1";
             this.propStatus1.Size = new System.Drawing.Size(320, 320);
             this.propStatus1.TabIndex = 217;
-            this.propStatus1.V_BL = false;
-            this.propStatus1.V_BR = false;
-            this.propStatus1.V_FL = false;
-            this.propStatus1.V_FR = false;
             // 
             // FormMainUserA
             // 

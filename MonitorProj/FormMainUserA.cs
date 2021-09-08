@@ -8768,6 +8768,10 @@ namespace MonitorProj
                     else
                     {
                         trackBar_FuQian.Value = Convert.ToInt32(numericUpDown_FuQian.Value);
+                        if (flag_FuQian_Oper)
+                        {
+                            flag_FuQian_NewSet = true;
+                        }
                     }
                 }
                 else
@@ -8795,6 +8799,7 @@ namespace MonitorProj
         private Thread threadFuQianOper;
         public bool stopThreadFuQianOper = false;
         private bool flag_FuQian_Oper = false;
+        private bool flag_FuQian_Stop = false;
         private void threadFuQianOperFunc()
         {
             try
@@ -8805,11 +8810,35 @@ namespace MonitorProj
                     {
                         if (flag_FuQian_Oper)
                         {
+                            flag_FuQian_Stop = true;
+
                             //发送指令
-                            Global.FaXiang8_A03 = 10.0 * (precentFuQian + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;
-                            Global.FaXiang8_A04 = 10.0 * (precentFuQian + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;
-                            Global.FaXiang8_A05 = 10.0 * (precentFuQian + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;
-                            Global.FaXiang8_A06 = 10.0 * (precentFuQian + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;
+                            //Global.FaXiang8_A03 = 10.0 * (precentFuQian + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;
+                            //Global.FaXiang8_A04 = 10.0 * (precentFuQian + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;
+                            //Global.FaXiang8_A05 = 10.0 * (precentFuQian + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;
+                            //Global.FaXiang8_A06 = 10.0 * (precentFuQian + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;
+
+                            if (precentFuQian == 0)
+                            {
+                                propStatus1.V_FL = 0; Global.FaXiang8_A02 = 0x8000;
+                                propStatus1.V_BL = 0; Global.FaXiang8_A06 = 0x8000;
+                                propStatus1.V_FR = 0; Global.FaXiang8_A07 = 0x8000;
+                                propStatus1.V_BR = 0; Global.FaXiang8_A08 = 0x8000;
+                            }
+                            else if (precentFuQian > 0)
+                            {
+                                propStatus1.V_FL = 2; Global.FaXiang8_A02 = 0x8000 + -10.0 * precentFuQian / 100.0;
+                                propStatus1.V_BL = 2; Global.FaXiang8_A06 = 0x8000 + -10.0 * precentFuQian / 100.0;
+                                propStatus1.V_FR = 2; Global.FaXiang8_A07 = 0x8000 + -10.0 * precentFuQian / 100.0;
+                                propStatus1.V_BR = 2; Global.FaXiang8_A08 = 0x8000 + -10.0 * precentFuQian / 100.0;
+                            }
+                            else
+                            {
+                                propStatus1.V_FL = 1; Global.FaXiang8_A02 = 0x8000 + 10.0 * precentFuQian / 100.0;
+                                propStatus1.V_BL = 1; Global.FaXiang8_A06 = 0x8000 + 10.0 * precentFuQian / 100.0;
+                                propStatus1.V_FR = 1; Global.FaXiang8_A07 = 0x8000 + 10.0 * precentFuQian / 100.0;
+                                propStatus1.V_BR = 1; Global.FaXiang8_A08 = 0x8000 + 10.0 * precentFuQian / 100.0;
+                            }
 
                             Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -8819,10 +8848,32 @@ namespace MonitorProj
                             {
                                 if (flag_FuQian_NewSet)
                                 {
-                                    Global.FaXiang8_A03 = 10.0 * (precentFuQian + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;
-                                    Global.FaXiang8_A04 = 10.0 * (precentFuQian + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;
-                                    Global.FaXiang8_A05 = 10.0 * (precentFuQian + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;
-                                    Global.FaXiang8_A06 = 10.0 * (precentFuQian + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;
+                                    //Global.FaXiang8_A03 = 10.0 * (precentFuQian + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;
+                                    //Global.FaXiang8_A04 = 10.0 * (precentFuQian + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;
+                                    //Global.FaXiang8_A05 = 10.0 * (precentFuQian + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;
+                                    //Global.FaXiang8_A06 = 10.0 * (precentFuQian + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;
+
+                                    if (precentFuQian == 0)
+                                    {
+                                        propStatus1.V_FL = 0; Global.FaXiang8_A02 = 0x8000;
+                                        propStatus1.V_BL = 0; Global.FaXiang8_A06 = 0x8000;
+                                        propStatus1.V_FR = 0; Global.FaXiang8_A07 = 0x8000;
+                                        propStatus1.V_BR = 0; Global.FaXiang8_A08 = 0x8000;
+                                    }
+                                    else if (precentFuQian > 0)
+                                    {
+                                        propStatus1.V_FL = 2; Global.FaXiang8_A02 = 0x8000 + -10.0 * precentFuQian / 100.0;
+                                        propStatus1.V_BL = 2; Global.FaXiang8_A06 = 0x8000 + -10.0 * precentFuQian / 100.0;
+                                        propStatus1.V_FR = 2; Global.FaXiang8_A07 = 0x8000 + -10.0 * precentFuQian / 100.0;
+                                        propStatus1.V_BR = 2; Global.FaXiang8_A08 = 0x8000 + -10.0 * precentFuQian / 100.0;
+                                    }
+                                    else
+                                    {
+                                        propStatus1.V_FL = 1; Global.FaXiang8_A02 = 0x8000 + 10.0 * precentFuQian / 100.0;
+                                        propStatus1.V_BL = 1; Global.FaXiang8_A06 = 0x8000 + 10.0 * precentFuQian / 100.0;
+                                        propStatus1.V_FR = 1; Global.FaXiang8_A07 = 0x8000 + 10.0 * precentFuQian / 100.0;
+                                        propStatus1.V_BR = 1; Global.FaXiang8_A08 = 0x8000 + 10.0 * precentFuQian / 100.0;
+                                    }
 
                                     Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -8838,6 +8889,17 @@ namespace MonitorProj
                         }
                         else
                         {
+                            if (flag_FuQian_Stop) {
+                                flag_FuQian_Stop = false;
+
+                                propStatus1.V_FL = 0; Global.FaXiang8_A02 = 0x8000;
+                                propStatus1.V_BL = 0; Global.FaXiang8_A06 = 0x8000;
+                                propStatus1.V_FR = 0; Global.FaXiang8_A07 = 0x8000;
+                                propStatus1.V_BR = 0; Global.FaXiang8_A08 = 0x8000;
+
+                                Global.m_FormBoardI.SetDataIntoPCB();
+                            }
+
                             Thread.Sleep(50);
                         }
                     }
@@ -9369,8 +9431,13 @@ namespace MonitorProj
                         #region 正转
                         else if (flag_ZhengZhuan_Oper)
                         {
-                            Global.FaXiang8_A01 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
-                            Global.FaXiang8_A08 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+                            //Global.FaXiang8_A01 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
+                            //Global.FaXiang8_A08 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+
+                            propStatus1.H_FR = 2; Global.FaXiang8_A03 = 0x8000 + -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_FL = 1; Global.FaXiang8_A01 = 0x8000 + 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_BL = 2; Global.FaXiang8_A05 = 0x8000 + -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_BR = 1; Global.FaXiang8_A04 = 0x8000 + 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
                             Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -9387,8 +9454,13 @@ namespace MonitorProj
                             {
                                 if (flag_DiCiXuanZhuan_NewSet)
                                 {
-                                    Global.FaXiang8_A01 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
-                                    Global.FaXiang8_A08 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+                                    //Global.FaXiang8_A01 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
+                                    //Global.FaXiang8_A08 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+
+                                    propStatus1.H_FR = 2; Global.FaXiang8_A03 = 0x8000 + -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_FL = 1; Global.FaXiang8_A01 = 0x8000 + 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_BL = 2; Global.FaXiang8_A05 = 0x8000 + -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_BR = 1; Global.FaXiang8_A04 = 0x8000 + 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
                                     Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -9399,8 +9471,14 @@ namespace MonitorProj
                             }
 
                             //点击“停止”设置悬浮态
-                            Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
-                            Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+                            //Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
+                            //Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+
+                            propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0x8000;
+                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0x8000;
+                            propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0x8000;
+                            propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0x8000;
+
                             Global.m_FormBoardI.SetDataIntoPCB();
 
                             this.BeginInvoke(new Func<object>(() =>
@@ -9417,8 +9495,14 @@ namespace MonitorProj
                         #region 反转
                         else if (flag_FanZhuan_Oper)
                         {
-                            Global.FaXiang8_A01 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
-                            Global.FaXiang8_A08 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+                            //Global.FaXiang8_A01 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
+                            //Global.FaXiang8_A08 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+
+                            propStatus1.H_FR = 1; Global.FaXiang8_A03 = 0x8000 + 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_FL = 2; Global.FaXiang8_A01 = 0x8000 + -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_BL = 1; Global.FaXiang8_A05 = 0x8000 + 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_BR = 2; Global.FaXiang8_A04 = 0x8000 + -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+
                             Global.m_FormBoardI.SetDataIntoPCB();
 
                             this.BeginInvoke(new Func<object>(() =>
@@ -9434,8 +9518,13 @@ namespace MonitorProj
                             {
                                 if (flag_DiCiXuanZhuan_NewSet)
                                 {
-                                    Global.FaXiang8_A01 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
-                                    Global.FaXiang8_A08 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+                                    //Global.FaXiang8_A01 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
+                                    //Global.FaXiang8_A08 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+
+                                    propStatus1.H_FR = 1; Global.FaXiang8_A03 = 0x8000 + 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_FL = 2; Global.FaXiang8_A01 = 0x8000 + -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_BL = 1; Global.FaXiang8_A05 = 0x8000 + 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_BR = 2; Global.FaXiang8_A04 = 0x8000 + -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
                                     Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -9446,9 +9535,16 @@ namespace MonitorProj
                             }
 
                             //点击“停止”设置悬浮态
-                            Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
-                            Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+                            //Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
+                            //Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+
+                            propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0x8000;
+                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0x8000;
+                            propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0x8000;
+                            propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0x8000;
+
                             Global.m_FormBoardI.SetDataIntoPCB();
+
                             this.BeginInvoke(new Func<object>(() =>
                             {
                                 string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停转\"";
@@ -9464,8 +9560,14 @@ namespace MonitorProj
                         #region 正转To前进
                         else if (flag_ZhengZhuanToQianJin_Oper)
                         {
-                            Global.FaXiang8_A01 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
-                            Global.FaXiang8_A08 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+                            //Global.FaXiang8_A01 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
+                            //Global.FaXiang8_A08 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+
+                            propStatus1.H_FR = 1; Global.FaXiang8_A03 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                            propStatus1.H_FL = 1; Global.FaXiang8_A01 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                            propStatus1.H_BL = 2; Global.FaXiang8_A05 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                            propStatus1.H_BR = 2; Global.FaXiang8_A04 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+
                             Global.m_FormBoardI.SetDataIntoPCB();
 
                             this.BeginInvoke(new Func<object>(() =>
@@ -9481,8 +9583,14 @@ namespace MonitorProj
                             {
                                 if (flag_ZhuanDongYiDong_NewSet)
                                 {
-                                    Global.FaXiang8_A01 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
-                                    Global.FaXiang8_A08 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+                                    //Global.FaXiang8_A01 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
+                                    //Global.FaXiang8_A08 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+
+                                    propStatus1.H_FR = 1; Global.FaXiang8_A03 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                    propStatus1.H_FL = 1; Global.FaXiang8_A01 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                    propStatus1.H_BL = 2; Global.FaXiang8_A05 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                    propStatus1.H_BR = 2; Global.FaXiang8_A04 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+
                                     Global.m_FormBoardI.SetDataIntoPCB();
 
                                     flag_ZhuanDongYiDong_NewSet = false;
@@ -9492,9 +9600,16 @@ namespace MonitorProj
                             }
 
                             //点击“停止”设置悬浮态
-                            Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
-                            Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+                            //Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
+                            //Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+
+                            propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0x8000;
+                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0x8000;
+                            propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0x8000;
+                            propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0x8000;
+
                             Global.m_FormBoardI.SetDataIntoPCB();
+
                             this.BeginInvoke(new Func<object>(() =>
                             {
                                 string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停转\"";
@@ -9509,9 +9624,16 @@ namespace MonitorProj
                         #region 反转To后退
                         else if (flag_FanZhuanToHouTui_Oper)
                         {
-                            Global.FaXiang8_A01 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
-                            Global.FaXiang8_A08 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+                            //Global.FaXiang8_A01 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
+                            //Global.FaXiang8_A08 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+
+                            propStatus1.H_FR = 2; Global.FaXiang8_A03 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                            propStatus1.H_FL = 2; Global.FaXiang8_A01 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                            propStatus1.H_BL = 1; Global.FaXiang8_A05 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                            propStatus1.H_BR = 1; Global.FaXiang8_A04 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+
                             Global.m_FormBoardI.SetDataIntoPCB();
+
                             this.BeginInvoke(new Func<object>(() =>
                             {
                                 string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"后退（水平推力器）\"操作";
@@ -9525,8 +9647,13 @@ namespace MonitorProj
                             {
                                 if (flag_ZhuanDongYiDong_NewSet)
                                 {
-                                    Global.FaXiang8_A01 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
-                                    Global.FaXiang8_A08 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+                                    //Global.FaXiang8_A01 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
+                                    //Global.FaXiang8_A08 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+
+                                    propStatus1.H_FR = 2; Global.FaXiang8_A03 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                    propStatus1.H_FL = 2; Global.FaXiang8_A01 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                    propStatus1.H_BL = 1; Global.FaXiang8_A05 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                    propStatus1.H_BR = 1; Global.FaXiang8_A04 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                     Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -9537,9 +9664,16 @@ namespace MonitorProj
                             }
 
                             //点击“停止”设置悬浮态
-                            Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
-                            Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+                            //Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
+                            //Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
+
+                            propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0x8000;
+                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0x8000;
+                            propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0x8000;
+                            propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0x8000;
+
                             Global.m_FormBoardI.SetDataIntoPCB();
+
                             this.BeginInvoke(new Func<object>(() =>
                             {
                                 string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停转\"";
@@ -9591,14 +9725,6 @@ namespace MonitorProj
             try
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.Qian;
-                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
-                btn_TuiJinQi_HMove_QianJin.Tag = 3;
-                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-                btn_TuiJinQi_HMove_HouTui.Tag = 1;
-                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-                btn_TuiJinQi_HMove_ZuoYi.Tag = 1;
-                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-                btn_TuiJinQi_HMove_YouYi.Tag = 1;
                 flag_TuiJinQi_HMove_Oper = true;
             }
             catch (Exception ex)
@@ -9610,16 +9736,7 @@ namespace MonitorProj
             try
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.Hou;
-                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-                btn_TuiJinQi_HMove_QianJin.Tag = 1;
-                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
-                btn_TuiJinQi_HMove_HouTui.Tag = 3;
-                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-                btn_TuiJinQi_HMove_ZuoYi.Tag = 1;
-                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-                btn_TuiJinQi_HMove_YouYi.Tag = 1;
                 flag_TuiJinQi_HMove_Oper = true;
-
             }
             catch (Exception ex)
             { }
@@ -9630,14 +9747,6 @@ namespace MonitorProj
             try
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.Zuo;
-                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-                btn_TuiJinQi_HMove_QianJin.Tag = 1;
-                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-                btn_TuiJinQi_HMove_HouTui.Tag = 1;
-                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
-                btn_TuiJinQi_HMove_ZuoYi.Tag = 3;
-                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-                btn_TuiJinQi_HMove_YouYi.Tag = 1;
                 flag_TuiJinQi_HMove_Oper = true;
             }
             catch (Exception ex)
@@ -9649,14 +9758,6 @@ namespace MonitorProj
             try
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.You;
-                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-                btn_TuiJinQi_HMove_QianJin.Tag = 1;
-                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-                btn_TuiJinQi_HMove_HouTui.Tag = 1;
-                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-                btn_TuiJinQi_HMove_ZuoYi.Tag = 1;
-                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
-                btn_TuiJinQi_HMove_YouYi.Tag = 3;
                 flag_TuiJinQi_HMove_Oper = true;
             }
             catch (Exception ex)
@@ -9668,14 +9769,6 @@ namespace MonitorProj
             try
             {
                 myEnum_HMove_Direction = Enum_HMove_Direction.Stop;
-                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-                btn_TuiJinQi_HMove_QianJin.Tag = 1;
-                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-                btn_TuiJinQi_HMove_HouTui.Tag = 1;
-                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-                btn_TuiJinQi_HMove_ZuoYi.Tag = 1;
-                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-                btn_TuiJinQi_HMove_YouYi.Tag = 1;
                 flag_TuiJinQi_HMove_Oper = false;
             }
             catch (Exception ex)
@@ -9741,10 +9834,24 @@ namespace MonitorProj
                             #region 前进
                             if (myEnum_HMove_Direction == Enum_HMove_Direction.Qian)
                             {
-                                Global.FaXiang8_A03 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
-                                Global.FaXiang8_A04 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
-                                Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
-                                Global.FaXiang8_A06 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
+                                //Global.FaXiang8_A03 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
+                                //Global.FaXiang8_A04 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
+                                //Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
+                                //Global.FaXiang8_A06 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
+
+                                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                btn_TuiJinQi_HMove_QianJin.Tag = 3;
+                                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_HouTui.Tag = 1;
+                                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_ZuoYi.Tag = 1;
+                                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_YouYi.Tag = 1;
+
+                                propStatus1.H_FR = 1; Global.FaXiang8_A03 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_FL = 1; Global.FaXiang8_A01 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_BL = 2; Global.FaXiang8_A05 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_BR = 2; Global.FaXiang8_A04 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                 Global.m_FormBoardI.SetDataIntoPCB();
                             }
@@ -9753,10 +9860,24 @@ namespace MonitorProj
                             #region 后退
                             else if (myEnum_HMove_Direction == Enum_HMove_Direction.Hou)
                             {
-                                Global.FaXiang8_A03 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
-                                Global.FaXiang8_A04 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
-                                Global.FaXiang8_A05 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
-                                Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
+                                //Global.FaXiang8_A03 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
+                                //Global.FaXiang8_A04 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
+                                //Global.FaXiang8_A05 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
+                                //Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
+
+                                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_QianJin.Tag = 1;
+                                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                btn_TuiJinQi_HMove_HouTui.Tag = 3;
+                                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_ZuoYi.Tag = 1;
+                                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_YouYi.Tag = 1;
+
+                                propStatus1.H_FR = 2; Global.FaXiang8_A03 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_FL = 2; Global.FaXiang8_A01 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_BL = 1; Global.FaXiang8_A05 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_BR = 1; Global.FaXiang8_A04 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                 Global.m_FormBoardI.SetDataIntoPCB();
                             }
@@ -9765,10 +9886,24 @@ namespace MonitorProj
                             #region 左移
                             else if (myEnum_HMove_Direction == Enum_HMove_Direction.Zuo)
                             {
-                                Global.FaXiang8_A03 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
-                                Global.FaXiang8_A04 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
-                                Global.FaXiang8_A05 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
-                                Global.FaXiang8_A06 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
+                                //Global.FaXiang8_A03 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
+                                //Global.FaXiang8_A04 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
+                                //Global.FaXiang8_A05 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
+                                //Global.FaXiang8_A06 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
+
+                                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_QianJin.Tag = 1;
+                                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_HouTui.Tag = 1;
+                                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                btn_TuiJinQi_HMove_ZuoYi.Tag = 3;
+                                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_YouYi.Tag = 1;
+
+                                propStatus1.H_FR = 1; Global.FaXiang8_A03 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_FL = 2; Global.FaXiang8_A01 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_BL = 2; Global.FaXiang8_A05 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_BR = 1; Global.FaXiang8_A04 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                 Global.m_FormBoardI.SetDataIntoPCB();
                             }
@@ -9777,10 +9912,24 @@ namespace MonitorProj
                             #region 右移
                             else if (myEnum_HMove_Direction == Enum_HMove_Direction.You)
                             {
-                                Global.FaXiang8_A03 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
-                                Global.FaXiang8_A04 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
-                                Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
-                                Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
+                                //Global.FaXiang8_A03 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
+                                //Global.FaXiang8_A04 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
+                                //Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
+                                //Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
+
+                                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_QianJin.Tag = 1;
+                                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_HouTui.Tag = 1;
+                                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_ZuoYi.Tag = 1;
+                                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                                btn_TuiJinQi_HMove_YouYi.Tag = 3;
+
+                                propStatus1.H_FR = 2; Global.FaXiang8_A03 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_FL = 1; Global.FaXiang8_A01 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_BL = 1; Global.FaXiang8_A05 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_BR = 2; Global.FaXiang8_A04 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                 Global.m_FormBoardI.SetDataIntoPCB();
                             }
@@ -9818,10 +9967,15 @@ namespace MonitorProj
                                     #region 前进
                                     if (myEnum_HMove_Direction == Enum_HMove_Direction.Qian)
                                     {
-                                        Global.FaXiang8_A03 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
-                                        Global.FaXiang8_A04 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
-                                        Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
-                                        Global.FaXiang8_A06 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
+                                        //Global.FaXiang8_A03 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
+                                        //Global.FaXiang8_A04 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
+                                        //Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
+                                        //Global.FaXiang8_A06 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
+
+                                        propStatus1.H_FR = 1; Global.FaXiang8_A03 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_FL = 1; Global.FaXiang8_A01 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_BL = 2; Global.FaXiang8_A05 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_BR = 2; Global.FaXiang8_A04 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                         Global.m_FormBoardI.SetDataIntoPCB();
                                     }
@@ -9830,10 +9984,15 @@ namespace MonitorProj
                                     #region 后退
                                     else if (myEnum_HMove_Direction == Enum_HMove_Direction.Hou)
                                     {
-                                        Global.FaXiang8_A03 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
-                                        Global.FaXiang8_A04 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
-                                        Global.FaXiang8_A05 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
-                                        Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
+                                        //Global.FaXiang8_A03 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
+                                        //Global.FaXiang8_A04 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
+                                        //Global.FaXiang8_A05 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
+                                        //Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
+
+                                        propStatus1.H_FR = 2; Global.FaXiang8_A03 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_FL = 2; Global.FaXiang8_A01 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_BL = 1; Global.FaXiang8_A05 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_BR = 1; Global.FaXiang8_A04 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                         Global.m_FormBoardI.SetDataIntoPCB();
                                     }
@@ -9842,10 +10001,15 @@ namespace MonitorProj
                                     #region 左移
                                     else if (myEnum_HMove_Direction == Enum_HMove_Direction.Zuo)
                                     {
-                                        Global.FaXiang8_A03 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
-                                        Global.FaXiang8_A04 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
-                                        Global.FaXiang8_A05 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
-                                        Global.FaXiang8_A06 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
+                                        //Global.FaXiang8_A03 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
+                                        //Global.FaXiang8_A04 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
+                                        //Global.FaXiang8_A05 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
+                                        //Global.FaXiang8_A06 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
+
+                                        propStatus1.H_FR = 1; Global.FaXiang8_A03 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_FL = 2; Global.FaXiang8_A01 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_BL = 2; Global.FaXiang8_A05 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_BR = 1; Global.FaXiang8_A04 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                         Global.m_FormBoardI.SetDataIntoPCB();
                                     }
@@ -9854,10 +10018,15 @@ namespace MonitorProj
                                     #region 右移
                                     else if (myEnum_HMove_Direction == Enum_HMove_Direction.You)
                                     {
-                                        Global.FaXiang8_A03 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
-                                        Global.FaXiang8_A04 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
-                                        Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
-                                        Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
+                                        //Global.FaXiang8_A03 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
+                                        //Global.FaXiang8_A04 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
+                                        //Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
+                                        //Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
+
+                                        propStatus1.H_FR = 2; Global.FaXiang8_A03 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_FL = 1; Global.FaXiang8_A01 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_BL = 1; Global.FaXiang8_A05 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_BR = 2; Global.FaXiang8_A04 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                         Global.m_FormBoardI.SetDataIntoPCB();
                                     }
@@ -9877,6 +10046,20 @@ namespace MonitorProj
                         {
                             if (myEnum_HMove_Direction == Enum_HMove_Direction.Stop)
                             {
+                                btn_TuiJinQi_HMove_QianJin.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_QianJin.Tag = 1;
+                                btn_TuiJinQi_HMove_HouTui.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_HouTui.Tag = 1;
+                                btn_TuiJinQi_HMove_ZuoYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_ZuoYi.Tag = 1;
+                                btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                                btn_TuiJinQi_HMove_YouYi.Tag = 1;
+
+                                propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0x8000;
+                                propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0x8000;
+                                propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0x8000;
+                                propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0x8000;
+
                                 this.BeginInvoke(new Func<object>(() =>
                                 {
                                     groupBox_TuiJinQi_AutoHigh.Enabled = true;
@@ -10282,19 +10465,6 @@ namespace MonitorProj
 
         #endregion
 
-        private void btn_TuiJinQin_ZhengZhuan_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_TuiJinQin_FanZhuan_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-
-
         #region threadWaterBoxCtlDirOperFunc,水面控制盒控制，自动定向>旋转
         private Thread threadWaterBoxCtlDirOper;
         public bool stopThreadWaterBoxCtlDirOper = false;
@@ -10522,7 +10692,6 @@ namespace MonitorProj
         }
 
         #endregion
-
 
         #region threadWaterBoxCtlHighOperFunc,水面控制盒控制，自动定高>上浮下潜>前后左右
         private Thread threadWaterBoxCtlHighOper;
