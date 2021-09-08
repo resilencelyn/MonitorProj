@@ -8820,25 +8820,30 @@ namespace MonitorProj
 
                             if (precentFuQian == 0)
                             {
-                                propStatus1.V_FL = 0; Global.FaXiang8_A02 = 0x8000;
-                                propStatus1.V_BL = 0; Global.FaXiang8_A06 = 0x8000;
-                                propStatus1.V_FR = 0; Global.FaXiang8_A07 = 0x8000;
-                                propStatus1.V_BR = 0; Global.FaXiang8_A08 = 0x8000;
+                                propStatus1.V_FL = 0;
+                                propStatus1.V_BL = 0;
+                                propStatus1.V_FR = 0;
+                                propStatus1.V_BR = 0;
                             }
                             else if (precentFuQian > 0)
                             {
-                                propStatus1.V_FL = 2; Global.FaXiang8_A02 = 0x8000 + -10.0 * precentFuQian / 100.0;
-                                propStatus1.V_BL = 2; Global.FaXiang8_A06 = 0x8000 + -10.0 * precentFuQian / 100.0;
-                                propStatus1.V_FR = 2; Global.FaXiang8_A07 = 0x8000 + -10.0 * precentFuQian / 100.0;
-                                propStatus1.V_BR = 2; Global.FaXiang8_A08 = 0x8000 + -10.0 * precentFuQian / 100.0;
+                                propStatus1.V_FL = 2;
+                                propStatus1.V_BL = 2;
+                                propStatus1.V_FR = 2;
+                                propStatus1.V_BR = 2;
                             }
                             else
                             {
-                                propStatus1.V_FL = 1; Global.FaXiang8_A02 = 0x8000 + 10.0 * precentFuQian / 100.0;
-                                propStatus1.V_BL = 1; Global.FaXiang8_A06 = 0x8000 + 10.0 * precentFuQian / 100.0;
-                                propStatus1.V_FR = 1; Global.FaXiang8_A07 = 0x8000 + 10.0 * precentFuQian / 100.0;
-                                propStatus1.V_BR = 1; Global.FaXiang8_A08 = 0x8000 + 10.0 * precentFuQian / 100.0;
+                                propStatus1.V_FL = 1;
+                                propStatus1.V_BL = 1;
+                                propStatus1.V_FR = 1;
+                                propStatus1.V_BR = 1;
                             }
+
+                            Global.FaXiang8_A02 = -10.0 * precentFuQian / 100.0;
+                            Global.FaXiang8_A06 = -10.0 * precentFuQian / 100.0;
+                            Global.FaXiang8_A07 = -10.0 * precentFuQian / 100.0;
+                            Global.FaXiang8_A08 = -10.0 * precentFuQian / 100.0;
 
                             Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -8855,25 +8860,30 @@ namespace MonitorProj
 
                                     if (precentFuQian == 0)
                                     {
-                                        propStatus1.V_FL = 0; Global.FaXiang8_A02 = 0x8000;
-                                        propStatus1.V_BL = 0; Global.FaXiang8_A06 = 0x8000;
-                                        propStatus1.V_FR = 0; Global.FaXiang8_A07 = 0x8000;
-                                        propStatus1.V_BR = 0; Global.FaXiang8_A08 = 0x8000;
+                                        propStatus1.V_FL = 0;
+                                        propStatus1.V_BL = 0;
+                                        propStatus1.V_FR = 0;
+                                        propStatus1.V_BR = 0;
                                     }
                                     else if (precentFuQian > 0)
                                     {
-                                        propStatus1.V_FL = 2; Global.FaXiang8_A02 = 0x8000 + -10.0 * precentFuQian / 100.0;
-                                        propStatus1.V_BL = 2; Global.FaXiang8_A06 = 0x8000 + -10.0 * precentFuQian / 100.0;
-                                        propStatus1.V_FR = 2; Global.FaXiang8_A07 = 0x8000 + -10.0 * precentFuQian / 100.0;
-                                        propStatus1.V_BR = 2; Global.FaXiang8_A08 = 0x8000 + -10.0 * precentFuQian / 100.0;
+                                        propStatus1.V_FL = 2;
+                                        propStatus1.V_BL = 2;
+                                        propStatus1.V_FR = 2;
+                                        propStatus1.V_BR = 2;
                                     }
                                     else
                                     {
-                                        propStatus1.V_FL = 1; Global.FaXiang8_A02 = 0x8000 + 10.0 * precentFuQian / 100.0;
-                                        propStatus1.V_BL = 1; Global.FaXiang8_A06 = 0x8000 + 10.0 * precentFuQian / 100.0;
-                                        propStatus1.V_FR = 1; Global.FaXiang8_A07 = 0x8000 + 10.0 * precentFuQian / 100.0;
-                                        propStatus1.V_BR = 1; Global.FaXiang8_A08 = 0x8000 + 10.0 * precentFuQian / 100.0;
+                                        propStatus1.V_FL = 1;
+                                        propStatus1.V_BL = 1;
+                                        propStatus1.V_FR = 1;
+                                        propStatus1.V_BR = 1;
                                     }
+
+                                    Global.FaXiang8_A02 = -10.0 * precentFuQian / 100.0;
+                                    Global.FaXiang8_A06 = -10.0 * precentFuQian / 100.0;
+                                    Global.FaXiang8_A07 = -10.0 * precentFuQian / 100.0;
+                                    Global.FaXiang8_A08 = -10.0 * precentFuQian / 100.0;
 
                                     Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -8892,10 +8902,10 @@ namespace MonitorProj
                             if (flag_FuQian_Stop) {
                                 flag_FuQian_Stop = false;
 
-                                propStatus1.V_FL = 0; Global.FaXiang8_A02 = 0x8000;
-                                propStatus1.V_BL = 0; Global.FaXiang8_A06 = 0x8000;
-                                propStatus1.V_FR = 0; Global.FaXiang8_A07 = 0x8000;
-                                propStatus1.V_BR = 0; Global.FaXiang8_A08 = 0x8000;
+                                propStatus1.V_FL = 0; Global.FaXiang8_A02 = 0;
+                                propStatus1.V_BL = 0; Global.FaXiang8_A06 = 0;
+                                propStatus1.V_FR = 0; Global.FaXiang8_A07 = 0;
+                                propStatus1.V_BR = 0; Global.FaXiang8_A08 = 0;
 
                                 Global.m_FormBoardI.SetDataIntoPCB();
                             }
@@ -9045,6 +9055,7 @@ namespace MonitorProj
             {
                 if (checkBox_TingZhuanWeiTiao_Ctl.Checked)
                 {
+                    /*2021-09-09
                     Global.FaXiang8_A01 = 10.0 * Global.TuiJinQiBuChang_HL_Zero / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                     Global.FaXiang8_A08 = 10.0 * Global.TuiJinQiBuChang_HR_Zero / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
@@ -9054,6 +9065,7 @@ namespace MonitorProj
                     Global.FaXiang8_A06 = 10.0 * Global.TuiJinQiBuChang_VRB_Zero / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
 
                     Global.m_FormBoardI.SetDataIntoPCB();
+                    */
                 }
             }
             catch (Exception ex)
@@ -9297,6 +9309,7 @@ namespace MonitorProj
                                     }
 
                                     //驱动推力器
+                                    /*2021-09-09
                                     Global.FaXiang8_A01 = direct_DiCiXuanZhuan * 10.0 * (percent_DiCiXuanZhuan + isAddParasToAutoDir * percent_ZhuanDong_YiDong_Speed + Global.AutoCtlDir_TuiJinPercent_1 + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                     Global.FaXiang8_A08 = -1 * direct_DiCiXuanZhuan * 10.0 * (percent_DiCiXuanZhuan + isAddParasToAutoDir * percent_ZhuanDong_YiDong_Speed + Global.AutoCtlDir_TuiJinPercent_1 + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
                                     Global.m_FormBoardI.SetDataIntoPCB();
@@ -9308,7 +9321,7 @@ namespace MonitorProj
                                     Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL + isAddParasToAutoDir * percent_ZhuanDong_YiDong_Speed) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                     Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR + isAddParasToAutoDir * percent_ZhuanDong_YiDong_Speed) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
                                     Global.m_FormBoardI.SetDataIntoPCB();
-
+                                    */
                                     //等待时间
                                     Thread.Sleep((int)Global.AutoCtlDir_TuiLiQiWorkTime_Compare_1 * 1000);
                                     Thread.Sleep(500);
@@ -9332,6 +9345,7 @@ namespace MonitorProj
                                     }
 
                                     //驱动推力器
+                                    /*2021-09-09
                                     Global.FaXiang8_A01 = direct_DiCiXuanZhuan * 10.0 * (percent_DiCiXuanZhuan + isAddParasToAutoDir * percent_ZhuanDong_YiDong_Speed + Global.AutoCtlDir_TuiJinPercent_2 + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                     Global.FaXiang8_A08 = -1 * direct_DiCiXuanZhuan * 10.0 * (percent_DiCiXuanZhuan + isAddParasToAutoDir * percent_ZhuanDong_YiDong_Speed + Global.AutoCtlDir_TuiJinPercent_2 + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
                                     Global.m_FormBoardI.SetDataIntoPCB();
@@ -9343,7 +9357,7 @@ namespace MonitorProj
                                     Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL + isAddParasToAutoDir * percent_ZhuanDong_YiDong_Speed) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                     Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR + isAddParasToAutoDir * percent_ZhuanDong_YiDong_Speed) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
                                     Global.m_FormBoardI.SetDataIntoPCB();
-
+                                    */
                                     //等待时间
                                     Thread.Sleep((int)Global.AutoCtlDir_TuiLiQiWorkTime_Compare_2 * 1000);
                                     Thread.Sleep(500);
@@ -9367,6 +9381,7 @@ namespace MonitorProj
                                     }
 
                                     //驱动推力器
+                                    /*2021-09-09
                                     Global.FaXiang8_A01 = direct_DiCiXuanZhuan * 10.0 * (percent_DiCiXuanZhuan + isAddParasToAutoDir * percent_ZhuanDong_YiDong_Speed + Global.AutoCtlDir_TuiJinPercent_3 + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                     Global.FaXiang8_A08 = -1 * direct_DiCiXuanZhuan * 10.0 * (percent_DiCiXuanZhuan + isAddParasToAutoDir * percent_ZhuanDong_YiDong_Speed + Global.AutoCtlDir_TuiJinPercent_3 + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
                                     Global.m_FormBoardI.SetDataIntoPCB();
@@ -9378,7 +9393,7 @@ namespace MonitorProj
                                     Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL + isAddParasToAutoDir * percent_ZhuanDong_YiDong_Speed) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                     Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR + isAddParasToAutoDir * percent_ZhuanDong_YiDong_Speed) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
                                     Global.m_FormBoardI.SetDataIntoPCB();
-
+                                    */
                                     //等待时间
                                     Thread.Sleep((int)Global.AutoCtlDir_TuiLiQiWorkTime_Compare_3 * 1000);
                                     Thread.Sleep(500);
@@ -9399,11 +9414,12 @@ namespace MonitorProj
                             //停止
                             this.BeginInvoke(new Func<object>(() =>
                             {
+                                /*2021-09-09
                                 Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                 Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
                                 Global.m_FormBoardI.SetDataIntoPCB();
-
+                                */
                                 btn_TuiJinQin_ZhengZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                 btn_TuiJinQin_ZhengZhuan.Tag = 1;
                                 btn_TuiJinQin_FanZhuan.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
@@ -9434,10 +9450,10 @@ namespace MonitorProj
                             //Global.FaXiang8_A01 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                             //Global.FaXiang8_A08 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
-                            propStatus1.H_FR = 2; Global.FaXiang8_A03 = 0x8000 + -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                            propStatus1.H_FL = 1; Global.FaXiang8_A01 = 0x8000 + 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                            propStatus1.H_BL = 2; Global.FaXiang8_A05 = 0x8000 + -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                            propStatus1.H_BR = 1; Global.FaXiang8_A04 = 0x8000 + 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_FR = 2; Global.FaXiang8_A03 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_BL = 2; Global.FaXiang8_A05 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_BR = 1; Global.FaXiang8_A04 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
                             Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -9457,10 +9473,10 @@ namespace MonitorProj
                                     //Global.FaXiang8_A01 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                     //Global.FaXiang8_A08 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
-                                    propStatus1.H_FR = 2; Global.FaXiang8_A03 = 0x8000 + -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                                    propStatus1.H_FL = 1; Global.FaXiang8_A01 = 0x8000 + 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                                    propStatus1.H_BL = 2; Global.FaXiang8_A05 = 0x8000 + -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                                    propStatus1.H_BR = 1; Global.FaXiang8_A04 = 0x8000 + 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_FR = 2; Global.FaXiang8_A03 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_BL = 2; Global.FaXiang8_A05 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_BR = 1; Global.FaXiang8_A04 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
                                     Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -9474,10 +9490,10 @@ namespace MonitorProj
                             //Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                             //Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
-                            propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0x8000;
-                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0x8000;
-                            propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0x8000;
-                            propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0x8000;
+                            propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0;
+                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0;
+                            propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0;
+                            propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0;
 
                             Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -9498,10 +9514,10 @@ namespace MonitorProj
                             //Global.FaXiang8_A01 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                             //Global.FaXiang8_A08 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
-                            propStatus1.H_FR = 1; Global.FaXiang8_A03 = 0x8000 + 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                            propStatus1.H_FL = 2; Global.FaXiang8_A01 = 0x8000 + -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                            propStatus1.H_BL = 1; Global.FaXiang8_A05 = 0x8000 + 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                            propStatus1.H_BR = 2; Global.FaXiang8_A04 = 0x8000 + -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_FR = 1; Global.FaXiang8_A03 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_BL = 1; Global.FaXiang8_A05 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_BR = 2; Global.FaXiang8_A04 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
                             Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -9521,10 +9537,10 @@ namespace MonitorProj
                                     //Global.FaXiang8_A01 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                     //Global.FaXiang8_A08 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
-                                    propStatus1.H_FR = 1; Global.FaXiang8_A03 = 0x8000 + 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                                    propStatus1.H_FL = 2; Global.FaXiang8_A01 = 0x8000 + -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                                    propStatus1.H_BL = 1; Global.FaXiang8_A05 = 0x8000 + 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                                    propStatus1.H_BR = 2; Global.FaXiang8_A04 = 0x8000 + -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_FR = 1; Global.FaXiang8_A03 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_BL = 1; Global.FaXiang8_A05 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_BR = 2; Global.FaXiang8_A04 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
                                     Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -9538,10 +9554,10 @@ namespace MonitorProj
                             //Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                             //Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
-                            propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0x8000;
-                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0x8000;
-                            propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0x8000;
-                            propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0x8000;
+                            propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0;
+                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0;
+                            propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0;
+                            propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0;
 
                             Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -9563,10 +9579,10 @@ namespace MonitorProj
                             //Global.FaXiang8_A01 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                             //Global.FaXiang8_A08 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
-                            propStatus1.H_FR = 1; Global.FaXiang8_A03 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                            propStatus1.H_FL = 1; Global.FaXiang8_A01 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                            propStatus1.H_BL = 2; Global.FaXiang8_A05 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                            propStatus1.H_BR = 2; Global.FaXiang8_A04 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                            propStatus1.H_FR = 1; Global.FaXiang8_A03 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_BL = 2; Global.FaXiang8_A05 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_BR = 2; Global.FaXiang8_A04 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
                             Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -9586,10 +9602,10 @@ namespace MonitorProj
                                     //Global.FaXiang8_A01 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                     //Global.FaXiang8_A08 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
-                                    propStatus1.H_FR = 1; Global.FaXiang8_A03 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                    propStatus1.H_FL = 1; Global.FaXiang8_A01 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                    propStatus1.H_BL = 2; Global.FaXiang8_A05 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                    propStatus1.H_BR = 2; Global.FaXiang8_A04 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                    propStatus1.H_FR = 1; Global.FaXiang8_A03 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_BL = 2; Global.FaXiang8_A05 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_BR = 2; Global.FaXiang8_A04 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
                                     Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -9603,10 +9619,10 @@ namespace MonitorProj
                             //Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                             //Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
-                            propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0x8000;
-                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0x8000;
-                            propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0x8000;
-                            propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0x8000;
+                            propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0;
+                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0;
+                            propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0;
+                            propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0;
 
                             Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -9627,10 +9643,10 @@ namespace MonitorProj
                             //Global.FaXiang8_A01 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                             //Global.FaXiang8_A08 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
-                            propStatus1.H_FR = 2; Global.FaXiang8_A03 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                            propStatus1.H_FL = 2; Global.FaXiang8_A01 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                            propStatus1.H_BL = 1; Global.FaXiang8_A05 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                            propStatus1.H_BR = 1; Global.FaXiang8_A04 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                            propStatus1.H_FR = 2; Global.FaXiang8_A03 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_BL = 1; Global.FaXiang8_A05 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_BR = 1; Global.FaXiang8_A04 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
                             Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -9650,10 +9666,10 @@ namespace MonitorProj
                                     //Global.FaXiang8_A01 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                     //Global.FaXiang8_A08 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
-                                    propStatus1.H_FR = 2; Global.FaXiang8_A03 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                    propStatus1.H_FL = 2; Global.FaXiang8_A01 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                    propStatus1.H_BL = 1; Global.FaXiang8_A05 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                    propStatus1.H_BR = 1; Global.FaXiang8_A04 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                    propStatus1.H_FR = 2; Global.FaXiang8_A03 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_BL = 1; Global.FaXiang8_A05 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_BR = 1; Global.FaXiang8_A04 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
                                     Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -9667,10 +9683,10 @@ namespace MonitorProj
                             //Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                             //Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
-                            propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0x8000;
-                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0x8000;
-                            propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0x8000;
-                            propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0x8000;
+                            propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0;
+                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0;
+                            propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0;
+                            propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0;
 
                             Global.m_FormBoardI.SetDataIntoPCB();
 
@@ -9781,7 +9797,6 @@ namespace MonitorProj
         3A              	4A              	5A              	6A
         前左垂直推进器逆转	后左垂直推进器逆转	前右垂直推进器逆转	后右垂直推进器逆转
         */
-
         #region thread_TuiJinQi_HMove_OperFunc,推进器平移，前、后、左、右
         private Thread thread_TuiJinQi_HMove_Oper;
         public bool stopThread_TuiJinQi_HMove_Oper = false;
@@ -9848,10 +9863,10 @@ namespace MonitorProj
                                 btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                 btn_TuiJinQi_HMove_YouYi.Tag = 1;
 
-                                propStatus1.H_FR = 1; Global.FaXiang8_A03 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                propStatus1.H_FL = 1; Global.FaXiang8_A01 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                propStatus1.H_BL = 2; Global.FaXiang8_A05 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                propStatus1.H_BR = 2; Global.FaXiang8_A04 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_FR = 1; Global.FaXiang8_A03 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_BL = 2; Global.FaXiang8_A05 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_BR = 2; Global.FaXiang8_A04 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                 Global.m_FormBoardI.SetDataIntoPCB();
                             }
@@ -9874,10 +9889,10 @@ namespace MonitorProj
                                 btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                 btn_TuiJinQi_HMove_YouYi.Tag = 1;
 
-                                propStatus1.H_FR = 2; Global.FaXiang8_A03 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                propStatus1.H_FL = 2; Global.FaXiang8_A01 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                propStatus1.H_BL = 1; Global.FaXiang8_A05 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                propStatus1.H_BR = 1; Global.FaXiang8_A04 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_FR = 2; Global.FaXiang8_A03 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_BL = 1; Global.FaXiang8_A05 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_BR = 1; Global.FaXiang8_A04 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                 Global.m_FormBoardI.SetDataIntoPCB();
                             }
@@ -9900,10 +9915,10 @@ namespace MonitorProj
                                 btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                 btn_TuiJinQi_HMove_YouYi.Tag = 1;
 
-                                propStatus1.H_FR = 1; Global.FaXiang8_A03 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                propStatus1.H_FL = 2; Global.FaXiang8_A01 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                propStatus1.H_BL = 2; Global.FaXiang8_A05 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                propStatus1.H_BR = 1; Global.FaXiang8_A04 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_FR = 1; Global.FaXiang8_A03 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_BL = 2; Global.FaXiang8_A05 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_BR = 1; Global.FaXiang8_A04 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                 Global.m_FormBoardI.SetDataIntoPCB();
                             }
@@ -9926,10 +9941,10 @@ namespace MonitorProj
                                 btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
                                 btn_TuiJinQi_HMove_YouYi.Tag = 3;
 
-                                propStatus1.H_FR = 2; Global.FaXiang8_A03 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                propStatus1.H_FL = 1; Global.FaXiang8_A01 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                propStatus1.H_BL = 1; Global.FaXiang8_A05 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                propStatus1.H_BR = 2; Global.FaXiang8_A04 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_FR = 2; Global.FaXiang8_A03 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_BL = 1; Global.FaXiang8_A05 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_BR = 2; Global.FaXiang8_A04 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                 Global.m_FormBoardI.SetDataIntoPCB();
                             }
@@ -9972,10 +9987,10 @@ namespace MonitorProj
                                         //Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
                                         //Global.FaXiang8_A06 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
 
-                                        propStatus1.H_FR = 1; Global.FaXiang8_A03 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                        propStatus1.H_FL = 1; Global.FaXiang8_A01 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                        propStatus1.H_BL = 2; Global.FaXiang8_A05 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                        propStatus1.H_BR = 2; Global.FaXiang8_A04 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_FR = 1; Global.FaXiang8_A03 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_BL = 2; Global.FaXiang8_A05 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_BR = 2; Global.FaXiang8_A04 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                         Global.m_FormBoardI.SetDataIntoPCB();
                                     }
@@ -9989,10 +10004,10 @@ namespace MonitorProj
                                         //Global.FaXiang8_A05 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
                                         //Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
 
-                                        propStatus1.H_FR = 2; Global.FaXiang8_A03 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                        propStatus1.H_FL = 2; Global.FaXiang8_A01 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                        propStatus1.H_BL = 1; Global.FaXiang8_A05 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                        propStatus1.H_BR = 1; Global.FaXiang8_A04 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_FR = 2; Global.FaXiang8_A03 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_BL = 1; Global.FaXiang8_A05 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_BR = 1; Global.FaXiang8_A04 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                         Global.m_FormBoardI.SetDataIntoPCB();
                                     }
@@ -10006,10 +10021,10 @@ namespace MonitorProj
                                         //Global.FaXiang8_A05 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
                                         //Global.FaXiang8_A06 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
 
-                                        propStatus1.H_FR = 1; Global.FaXiang8_A03 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                        propStatus1.H_FL = 2; Global.FaXiang8_A01 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                        propStatus1.H_BL = 2; Global.FaXiang8_A05 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                        propStatus1.H_BR = 1; Global.FaXiang8_A04 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_FR = 1; Global.FaXiang8_A03 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_BL = 2; Global.FaXiang8_A05 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_BR = 1; Global.FaXiang8_A04 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                         Global.m_FormBoardI.SetDataIntoPCB();
                                     }
@@ -10023,10 +10038,10 @@ namespace MonitorProj
                                         //Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
                                         //Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
 
-                                        propStatus1.H_FR = 2; Global.FaXiang8_A03 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                        propStatus1.H_FL = 1; Global.FaXiang8_A01 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                        propStatus1.H_BL = 1; Global.FaXiang8_A05 = 0x8000 + 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                        propStatus1.H_BR = 2; Global.FaXiang8_A04 = 0x8000 + -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_FR = 2; Global.FaXiang8_A03 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_BL = 1; Global.FaXiang8_A05 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_BR = 2; Global.FaXiang8_A04 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
                                         Global.m_FormBoardI.SetDataIntoPCB();
                                     }
@@ -10041,6 +10056,8 @@ namespace MonitorProj
                                 Thread.Sleep(100);
 
                             }
+
+                            Thread.Sleep(100);
                         }
                         else
                         {
@@ -10055,10 +10072,12 @@ namespace MonitorProj
                                 btn_TuiJinQi_HMove_YouYi.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                                 btn_TuiJinQi_HMove_YouYi.Tag = 1;
 
-                                propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0x8000;
-                                propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0x8000;
-                                propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0x8000;
-                                propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0x8000;
+                                propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0;
+                                propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0;
+                                propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0;
+                                propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0;
+
+                                Global.m_FormBoardI.SetDataIntoPCB();
 
                                 this.BeginInvoke(new Func<object>(() =>
                                 {
@@ -10353,6 +10372,7 @@ namespace MonitorProj
                     }
 
                     //驱动推力器
+                    /*2021-09-09
                     Global.FaXiang8_A03 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_1 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
                     Global.FaXiang8_A04 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_1 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
                     Global.FaXiang8_A05 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_1 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
@@ -10368,6 +10388,7 @@ namespace MonitorProj
                     Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
                     Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
                     Global.m_FormBoardI.SetDataIntoPCB();
+                    */
 
                     //等待时间
                     Thread.Sleep((int)Global.AutoCtlHigh_TuiLiQiWorkTime_Compare_1 * 1000);
@@ -10393,6 +10414,7 @@ namespace MonitorProj
                     }
 
                     //驱动推力器
+                    /*2021-09-09
                     Global.FaXiang8_A03 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_2 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
                     Global.FaXiang8_A04 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_2 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
                     Global.FaXiang8_A05 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_2 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
@@ -10408,7 +10430,7 @@ namespace MonitorProj
                     Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
                     Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
                     Global.m_FormBoardI.SetDataIntoPCB();
-
+                    */
                     //等待时间
                     Thread.Sleep((int)Global.AutoCtlHigh_TuiLiQiWorkTime_Compare_2 * 1000);
                 }
@@ -10433,6 +10455,7 @@ namespace MonitorProj
                     }
 
                     //驱动推力器
+                    /*2021-09-09
                     Global.FaXiang8_A03 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_3 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
                     Global.FaXiang8_A04 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_3 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
                     Global.FaXiang8_A05 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_3 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
@@ -10448,7 +10471,7 @@ namespace MonitorProj
                     Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
                     Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
                     Global.m_FormBoardI.SetDataIntoPCB();
-
+                    */
                     //等待时间
                     Thread.Sleep((int)Global.AutoCtlHigh_TuiLiQiWorkTime_Compare_3 * 1000);
                 }
@@ -10523,6 +10546,7 @@ namespace MonitorProj
                                                 }
 
                                                 //驱动推力器
+                                                /*2021-09-09
                                                 Global.FaXiang8_A01 = direct_DiCiXuanZhuan * 10.0 * (percent_DiCiXuanZhuan + Global.AutoCtlDir_TuiJinPercent_1 + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                                 Global.FaXiang8_A08 = -1 * direct_DiCiXuanZhuan * 10.0 * (percent_DiCiXuanZhuan + Global.AutoCtlDir_TuiJinPercent_1 + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
                                                 Global.m_FormBoardI.SetDataIntoPCB();
@@ -10534,7 +10558,7 @@ namespace MonitorProj
                                                 Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                                 Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
                                                 Global.m_FormBoardI.SetDataIntoPCB();
-
+                                                */
                                                 //等待时间
                                                 Thread.Sleep((int)Global.AutoCtlDir_TuiLiQiWorkTime_Compare_1 * 1000);
                                                 Thread.Sleep(500);
@@ -10558,6 +10582,7 @@ namespace MonitorProj
                                                 }
 
                                                 //驱动推力器
+                                                /*2021-09-09
                                                 Global.FaXiang8_A01 = direct_DiCiXuanZhuan * 10.0 * (percent_DiCiXuanZhuan + Global.AutoCtlDir_TuiJinPercent_2 + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                                 Global.FaXiang8_A08 = -1 * direct_DiCiXuanZhuan * 10.0 * (percent_DiCiXuanZhuan + Global.AutoCtlDir_TuiJinPercent_2 + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
                                                 Global.m_FormBoardI.SetDataIntoPCB();
@@ -10569,7 +10594,7 @@ namespace MonitorProj
                                                 Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                                 Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
                                                 Global.m_FormBoardI.SetDataIntoPCB();
-
+                                                */
                                                 //等待时间
                                                 Thread.Sleep((int)Global.AutoCtlDir_TuiLiQiWorkTime_Compare_2 * 1000);
                                                 Thread.Sleep(500);
@@ -10593,6 +10618,7 @@ namespace MonitorProj
                                                 }
 
                                                 //驱动推力器
+                                                /*2021-09-09
                                                 Global.FaXiang8_A01 = direct_DiCiXuanZhuan * 10.0 * (percent_DiCiXuanZhuan + Global.AutoCtlDir_TuiJinPercent_3 + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                                 Global.FaXiang8_A08 = -1 * direct_DiCiXuanZhuan * 10.0 * (percent_DiCiXuanZhuan + Global.AutoCtlDir_TuiJinPercent_3 + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
                                                 Global.m_FormBoardI.SetDataIntoPCB();
@@ -10604,7 +10630,7 @@ namespace MonitorProj
                                                 Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                                 Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
                                                 Global.m_FormBoardI.SetDataIntoPCB();
-
+                                                */
                                                 //等待时间
                                                 Thread.Sleep((int)Global.AutoCtlDir_TuiLiQiWorkTime_Compare_3 * 1000);
                                                 Thread.Sleep(500);
@@ -10631,10 +10657,11 @@ namespace MonitorProj
                                     //停止
                                     try
                                     {
+                                        /*2021-09-09
                                         Global.FaXiang8_A01 = 10.0 * (Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                         Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
                                         Global.m_FormBoardI.SetDataIntoPCB();
-
+                                        */
                                         this.BeginInvoke(new Func<object>(() =>
                                         {
                                             string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "终止控制盒自动定向";
@@ -10666,9 +10693,11 @@ namespace MonitorProj
                                     {
                                         percent_Rotate = 0;
                                     }
+                                    /*2021-09-09
                                     Global.FaXiang8_A01 = 10.0 * (percent_Rotate + Global.TuiJinQiBuChang_HL_Zero + Global.TuiJinQiBuChang_HL) / 100 * Global.TuiJinQiBuChang_Polar_HL;//水平左推进器
                                     Global.FaXiang8_A08 = -10.0 * (percent_Rotate + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
                                     Global.m_FormBoardI.SetDataIntoPCB();
+                                    */
                                 }
                                 Global.flag_WaterBoxCtl_Dir_Refresh = false;
                                 Thread.Sleep(5);
@@ -10753,6 +10782,7 @@ namespace MonitorProj
                                             }
 
                                             //驱动推力器
+                                            /*2021-09-09
                                             Global.FaXiang8_A03 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_1 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
                                             Global.FaXiang8_A04 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_1 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
                                             Global.FaXiang8_A05 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_1 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
@@ -10768,7 +10798,7 @@ namespace MonitorProj
                                             Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
                                             Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
                                             Global.m_FormBoardI.SetDataIntoPCB();
-
+                                            */
                                             //等待时间
                                             Thread.Sleep((int)Global.AutoCtlHigh_TuiLiQiWorkTime_Compare_1 * 1000);
                                         }
@@ -10793,6 +10823,7 @@ namespace MonitorProj
                                             }
 
                                             //驱动推力器
+                                            /*2021-09-09
                                             Global.FaXiang8_A03 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_2 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
                                             Global.FaXiang8_A04 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_2 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
                                             Global.FaXiang8_A05 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_2 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
@@ -10808,7 +10839,7 @@ namespace MonitorProj
                                             Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
                                             Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
                                             Global.m_FormBoardI.SetDataIntoPCB();
-
+                                            */
                                             //等待时间
                                             Thread.Sleep((int)Global.AutoCtlHigh_TuiLiQiWorkTime_Compare_2 * 1000);
                                         }
@@ -10833,6 +10864,7 @@ namespace MonitorProj
                                             }
 
                                             //驱动推力器
+                                            /*2021-09-09
                                             Global.FaXiang8_A03 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_3 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
                                             Global.FaXiang8_A04 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_3 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
                                             Global.FaXiang8_A05 = direct_AutoHigh * 10.0 * (Global.AutoCtlHigh_TuiJinPercent_3 + Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
@@ -10848,7 +10880,7 @@ namespace MonitorProj
                                             Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
                                             Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
                                             Global.m_FormBoardI.SetDataIntoPCB();
-
+                                            */
                                             //等待时间
                                             Thread.Sleep((int)Global.AutoCtlHigh_TuiLiQiWorkTime_Compare_3 * 1000);
                                         }
@@ -10887,12 +10919,14 @@ namespace MonitorProj
                                     {
                                         vWaterBoxCtl = -1.0 * (paras_WaterBoxCtl_FuQian - 2.7) / 2.3;
                                     }
+                                    /*2021-09-09
                                     Global.FaXiang8_A03 = 10.0 * ((Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 + vWaterBoxCtl) * Global.TuiJinQiBuChang_Polar_VLF;
                                     Global.FaXiang8_A04 = 10.0 * ((Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 + vWaterBoxCtl) * Global.TuiJinQiBuChang_Polar_VLB;
                                     Global.FaXiang8_A05 = 10.0 * ((Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 + vWaterBoxCtl) * Global.TuiJinQiBuChang_Polar_VRF;
                                     Global.FaXiang8_A06 = 10.0 * ((Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 + vWaterBoxCtl) * Global.TuiJinQiBuChang_Polar_VRB;
 
                                     Global.m_FormBoardI.SetDataIntoPCB();
+                                    */
 
                                 }
                                 else if (flag_WaterBoxCtl_ForwardBack)
@@ -10901,12 +10935,14 @@ namespace MonitorProj
                                     if (paras_WaterBoxCtl_QianHou < 2.3 && paras_WaterBoxCtl_QianHou > 0)
                                     {
                                         double vWaterBoxCtl = 1 - paras_WaterBoxCtl_QianHou / 2.3;
+                                        /*2021-09-09
                                         Global.FaXiang8_A03 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
                                         Global.FaXiang8_A04 = 10.0 * ((Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 + vWaterBoxCtl) * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
                                         Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
                                         Global.FaXiang8_A06 = 10.0 * ((Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 + vWaterBoxCtl) * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
 
                                         Global.m_FormBoardI.SetDataIntoPCB();
+                                        */
                                     }
                                     #endregion
 
@@ -10914,12 +10950,14 @@ namespace MonitorProj
                                     else if (paras_WaterBoxCtl_QianHou > 2.7 && paras_WaterBoxCtl_QianHou < 5)
                                     {
                                         double vWaterBoxCtl = (paras_WaterBoxCtl_QianHou - 2.7) / 2.3;
+                                        /*2021-09-09
                                         Global.FaXiang8_A03 = 10.0 * ((Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 + vWaterBoxCtl) * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
                                         Global.FaXiang8_A04 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
                                         Global.FaXiang8_A05 = 10.0 * ((Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 + vWaterBoxCtl) * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
                                         Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
 
                                         Global.m_FormBoardI.SetDataIntoPCB();
+                                        */
                                     }
                                     #endregion
                                 }
@@ -10929,12 +10967,14 @@ namespace MonitorProj
                                     if (paras_WaterBoxCtl_ZuoYou < 2.3 && paras_WaterBoxCtl_ZuoYou > 0)
                                     {
                                         double vWaterBoxCtl = 1 - paras_WaterBoxCtl_ZuoYou / 2.3;
+                                        /*2021-09-09
                                         Global.FaXiang8_A03 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
                                         Global.FaXiang8_A04 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
                                         Global.FaXiang8_A05 = 10.0 * ((Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 + vWaterBoxCtl) * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
                                         Global.FaXiang8_A06 = 10.0 * ((Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 + vWaterBoxCtl) * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
 
                                         Global.m_FormBoardI.SetDataIntoPCB();
+                                        */
                                     }
                                     #endregion
 
@@ -10942,24 +10982,28 @@ namespace MonitorProj
                                     else if (paras_WaterBoxCtl_ZuoYou > 2.7 && paras_WaterBoxCtl_ZuoYou < 5)
                                     {
                                         double vWaterBoxCtl = (paras_WaterBoxCtl_ZuoYou - 2.7) / 2.3;
+                                        /*2021-09-09
                                         Global.FaXiang8_A03 = 10.0 * ((Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 + vWaterBoxCtl) * Global.TuiJinQiBuChang_Polar_VLF;//前左垂直推进器
                                         Global.FaXiang8_A04 = 10.0 * ((Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 + vWaterBoxCtl) * Global.TuiJinQiBuChang_Polar_VLB;//后左垂直推进器
                                         Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;//前右垂直推进器
                                         Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
 
                                         Global.m_FormBoardI.SetDataIntoPCB();
+                                        */
                                     }
                                     #endregion
 
                                 }
                                 else
                                 {
+                                    /*2021-09-09
                                     Global.FaXiang8_A03 = 10.0 * (Global.TuiJinQiBuChang_VLF_Zero + Global.TuiJinQiBuChang_VLF) / 100 * Global.TuiJinQiBuChang_Polar_VLF;
                                     Global.FaXiang8_A04 = 10.0 * (Global.TuiJinQiBuChang_VLB_Zero + Global.TuiJinQiBuChang_VLB) / 100 * Global.TuiJinQiBuChang_Polar_VLB;
                                     Global.FaXiang8_A05 = 10.0 * (Global.TuiJinQiBuChang_VRF_Zero + Global.TuiJinQiBuChang_VRF) / 100 * Global.TuiJinQiBuChang_Polar_VRF;
                                     Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;
 
                                     Global.m_FormBoardI.SetDataIntoPCB();
+                                    */
                                 }
                                 Global.flag_WaterBoxCtl_High_Refresh = false;
                                 Thread.Sleep(5);
@@ -11594,6 +11638,546 @@ namespace MonitorProj
             try
             {
                 SaveBasicParasConfig();
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_hand12_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM1_8_OnOff = 0x03;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-肩油缸\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_hand12_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM1_8_OnOff = 0x00;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_hand34_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM1_8_OnOff = 0x0c;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-大臂油缸\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_hand34_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM1_8_OnOff = 0x00;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_hand56_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM1_8_OnOff = 0x30;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-小臂油缸\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_hand56_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM1_8_OnOff = 0x00;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_hand78_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM1_8_OnOff = 0xc0;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-肘马达\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_hand78_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM1_8_OnOff = 0x00;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_hand910_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff = 0x03;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-腕油缸\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_hand910_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff = 0x00;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_hand1112_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff = 0x0c;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-腕马达\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_hand1112_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff = 0x00;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_hand1314_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff = 0x30;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-手抓油缸\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_hand1314_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff = 0x00;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_fl_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff = 0x03;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-前左腿\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_fl_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff = 0x00;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_fr_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff = 0xc0;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-前右腿\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_fr_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff = 0x00;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_bl_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff = 0x30;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-后左腿\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_bl_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff = 0x00;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_br_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff = 0x0c;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-后右腿\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_br_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff = 0x00;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_cjw_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff = 0xc0;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"沉积物取样\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_cjw_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff = 0x00;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_kxs_sc_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT9_16_OnOff = 0x03;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"孔隙水取样器-伸出油缸\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_kxs_sc_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT9_16_OnOff = 0x00;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_kxs_cs_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT9_16_OnOff = 0x0c;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"孔隙水取样器-抽水油缸\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_kxs_cs_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT9_16_OnOff = 0x00;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yygy_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT9_16_OnOff = 0xa0;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"开启油源高压\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yygy_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT9_16_OnOff = 0x00;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
             }
             catch (Exception ex)
             { }

@@ -1597,6 +1597,12 @@ namespace MonitorProj
         public static double FaXiang8_A07 = 0;
         public static double FaXiang8_A08 = 0;
 
+        //16功能阀箱参数
+        public static byte FaXiang16_PWM1_8_OnOff   = 0x00;
+        public static byte FaXiang16_PWM9_16_OnOff  = 0x00;
+        public static byte FaXiang16_DOUT1_8_OnOff  = 0x00;
+        public static byte FaXiang16_DOUT9_16_OnOff = 0x00;
+
         //水面控制盒控制，数据更新标志
         public static bool flag_WaterBoxCtl_Dir_Refresh = false;
         public static bool flag_WaterBoxCtl_High_Refresh = false;

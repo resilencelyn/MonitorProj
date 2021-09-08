@@ -17,7 +17,7 @@ namespace MonitorProj
     public partial class FormBoardII : Form
     {
 
-        public event EventHandler EventBtnStatusChanged; 
+        public event EventHandler EventBtnStatusChanged;
 
         #region 参数定义
 
@@ -1053,7 +1053,7 @@ namespace MonitorProj
             {
                 Button btn = sender as Button;
                 string name = btn.Name;
-                
+
                 switch (name)
                 {
                     #region PWM1_8_OnOff
@@ -1485,9 +1485,9 @@ namespace MonitorProj
         private bool PWMCurrentSetPoint(decimal val, enumPWMCurrentSetPointMode mode, out byte[] dataBytes)
         {
             #region
-            //In closed loop mode the range is 0x00A5 (approx. 50mA) to 0x0898 (approx 750mA). 
-            //0x0000 is off. 
-            //Always set the On/Off bit to On before attempting to control the valve via the current set point. 
+            //In closed loop mode the range is 0x00A5 (approx. 50mA) to 0x0898 (approx 750mA).
+            //0x0000 is off.
+            //Always set the On/Off bit to On before attempting to control the valve via the current set point.
             //In open loop mode the range is 0x0000 to 0x3FFF, 0% to 100% PWM.
             #endregion
 
@@ -1627,7 +1627,7 @@ namespace MonitorProj
                 if (gEventArgs.dataType == 0)
                 {
                 }
-                else if (gEventArgs.dataType == 5)//5-接收到的原始数据+解析后的数据                
+                else if (gEventArgs.dataType == 5)//5-接收到的原始数据+解析后的数据
                 {
                     if (gEventArgs.addressBoard == enum_AddressBoard.ServoValvePacketBoard16Func)
                     {
@@ -1784,6 +1784,106 @@ namespace MonitorProj
             }
         }
 
+        public bool SetDataIntoPCB()
+        {
+            try
+            {
+                byte[] dataSend = new byte[32];
+
+                dataSend[1] = 0x01;//Message I.D.Unique message identifier currently set to 0x01.
+
+                #region dataSend[2],Control Serial and Message Address
+                //(Upper Nibble) Adjust baud rate of slave serial port, not currently implemented, set to 0x0_.
+                //(Lower Nibble) Message address – intended recipient board address to match jumper links (for RS485 multidrop applications.)
+                #endregion
+                dataSend[2] = 0x00;
+
+                dataSend[3] = 0x00;//Adjust range of external analogue inputs, not currently implemented, set to 0x00.
+
+                dataSend[4] = Global.FaXiang16_PWM1_8_OnOff;
+                dataSend[5] = Global.FaXiang16_PWM9_16_OnOff;
+                dataSend[6] = Global.FaXiang16_DOUT1_8_OnOff;
+                dataSend[7] = Global.FaXiang16_DOUT9_16_OnOff;
+                dataSend[8] = 0x00;
+                dataSend[9] = 0x00;
+
+                dataSend[10] = (Global.FaXiang16_PWM1_8_OnOff & 0x01) != 0 || (Global.FaXiang16_PWM1_8_OnOff & 0x02) != 0 ? (byte)0x3f : (byte)0x00;    // PWMOpenLoop_1_2
+                dataSend[11] = (Global.FaXiang16_PWM1_8_OnOff & 0x01) != 0 || (Global.FaXiang16_PWM1_8_OnOff & 0x02) != 0 ? (byte)0xff : (byte)0x00;
+
+                dataSend[12] = (Global.FaXiang16_PWM1_8_OnOff & 0x04) != 0 || (Global.FaXiang16_PWM1_8_OnOff & 0x08) != 0 ? (byte)0x3f : (byte)0x00;    // PWMOpenLoop_3_4
+                dataSend[13] = (Global.FaXiang16_PWM1_8_OnOff & 0x04) != 0 || (Global.FaXiang16_PWM1_8_OnOff & 0x08) != 0 ? (byte)0xff : (byte)0x00;
+
+                dataSend[14] = (Global.FaXiang16_PWM1_8_OnOff & 0x10) != 0 || (Global.FaXiang16_PWM1_8_OnOff & 0x20) != 0 ? (byte)0x3f : (byte)0x00;    // PWMOpenLoop_5_6
+                dataSend[15] = (Global.FaXiang16_PWM1_8_OnOff & 0x10) != 0 || (Global.FaXiang16_PWM1_8_OnOff & 0x20) != 0 ? (byte)0xff : (byte)0x00;
+
+                dataSend[16] = (Global.FaXiang16_PWM1_8_OnOff & 0x40) != 0 || (Global.FaXiang16_PWM1_8_OnOff & 0x80) != 0 ? (byte)0x3f : (byte)0x00;    // PWMOpenLoop_7_8
+                dataSend[17] = (Global.FaXiang16_PWM1_8_OnOff & 0x40) != 0 || (Global.FaXiang16_PWM1_8_OnOff & 0x80) != 0 ? (byte)0xff : (byte)0x00;
+
+                dataSend[18] = (Global.FaXiang16_PWM9_16_OnOff & 0x01) != 0 || (Global.FaXiang16_PWM9_16_OnOff & 0x02) != 0 ? (byte)0x3f : (byte)0x00;    // PWMOpenLoop_9_10
+                dataSend[19] = (Global.FaXiang16_PWM9_16_OnOff & 0x01) != 0 || (Global.FaXiang16_PWM9_16_OnOff & 0x02) != 0 ? (byte)0xff : (byte)0x00;
+
+                dataSend[20] = (Global.FaXiang16_PWM9_16_OnOff & 0x04) != 0 || (Global.FaXiang16_PWM9_16_OnOff & 0x08) != 0 ? (byte)0x3f : (byte)0x00;    // PWMOpenLoop_11_12
+                dataSend[21] = (Global.FaXiang16_PWM9_16_OnOff & 0x04) != 0 || (Global.FaXiang16_PWM9_16_OnOff & 0x08) != 0 ? (byte)0xff : (byte)0x00;
+
+                dataSend[22] = (Global.FaXiang16_PWM9_16_OnOff & 0x10) != 0 || (Global.FaXiang16_PWM9_16_OnOff & 0x20) != 0 ? (byte)0x3f : (byte)0x00;    // PWMOpenLoop_13_14
+                dataSend[23] = (Global.FaXiang16_PWM9_16_OnOff & 0x10) != 0 || (Global.FaXiang16_PWM9_16_OnOff & 0x20) != 0 ? (byte)0xff : (byte)0x00;
+
+                dataSend[24] = (Global.FaXiang16_PWM9_16_OnOff & 0x40) != 0 || (Global.FaXiang16_PWM9_16_OnOff & 0x80) != 0 ? (byte)0x3f : (byte)0x00;    // PWMOpenLoop_15_16
+                dataSend[25] = (Global.FaXiang16_PWM9_16_OnOff & 0x40) != 0 || (Global.FaXiang16_PWM9_16_OnOff & 0x80) != 0 ? (byte)0xff : (byte)0x00;
+
+                dataSend[26] = 0x00;   //textBox_RS232Ch2_T
+
+                dataSend[27] = 0x00; //textBox_CAN1_T
+
+                dataSend[28] = 0x00; //textBox_CAN2_T
+
+                byte[] crc = Global.CRC16(dataSend, 1, 28);
+                dataSend[29] = crc[0];
+                dataSend[30] = crc[1];
+
+                dataSend[31] = 0xAA;
+
+                byte bSubstitution = 0x00;
+                bool bGetSubstitutionPhilosophy = Global.getSubstitutionPhilosophy(dataSend, 1, 30, out bSubstitution);
+                if (bGetSubstitutionPhilosophy == false)
+                {
+                    return false;
+                }
+
+                dataSend[0] = bSubstitution;
+                for (int i = 1; i < 31; i++)
+                {
+                    if (0xAA == dataSend[i])
+                    {
+                        dataSend[i] = bSubstitution;
+                    }
+                }
+
+                Global.myBoardServoValvePackIIClass.BCmdInsert(dataSend);
+
+                string sQuery = "";
+                for (int i = 0; i < dataSend.Length; i++)
+                {
+                    sQuery += dataSend[i].ToString("X2");
+                }
+
+                if (Global.myBoardServoValvePackIIClass.SQuirys.Length <= 0)
+                {
+                    Global.myBoardServoValvePackIIClass.SQuirys = new string[1];
+                    Global.myBoardServoValvePackIIClass.SQuirys[0] = sQuery;
+                }
+                else
+                {
+                    Global.myBoardServoValvePackIIClass.SQuirys[0] = sQuery;
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
 
         private void btn_SetDataIntoPCB_Click(object sender, EventArgs e)
         {
@@ -1793,7 +1893,7 @@ namespace MonitorProj
 
                 dataSend[1] = 0x01;//Message I.D.Unique message identifier currently set to 0x01.
 
-                #region dataSend[2],Control Serial and Message Address                
+                #region dataSend[2],Control Serial and Message Address
                 //(Upper Nibble) Adjust baud rate of slave serial port, not currently implemented, set to 0x0_.
                 //(Lower Nibble) Message address – intended recipient board address to match jumper links (for RS485 multidrop applications.)
                 #endregion
@@ -1937,7 +2037,7 @@ namespace MonitorProj
                     dataSend[25] = 0x00;
                     return;
                 }
-                
+
                 string s = textBox_RS232Ch2_T.Text.Replace(" ", "");
                 for (int i = s.Length; i < 2; i--)
                 {
@@ -2111,7 +2211,7 @@ namespace MonitorProj
             { }
         }
 
-   
+
 
 
     }
