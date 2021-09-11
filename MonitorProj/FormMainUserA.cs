@@ -11647,7 +11647,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_PWM1_8_OnOff = 0x03;
+                Global.FaXiang16_PWM1_8_OnOff |= 0x03;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11665,7 +11665,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_PWM1_8_OnOff = 0x00;
+                Global.FaXiang16_PWM1_8_OnOff &= (~0x03 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11683,7 +11683,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_PWM1_8_OnOff = 0x0c;
+                Global.FaXiang16_PWM1_8_OnOff |= 0x0c;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11701,7 +11701,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_PWM1_8_OnOff = 0x00;
+                Global.FaXiang16_PWM1_8_OnOff &= (~0x0c & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11719,7 +11719,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_PWM1_8_OnOff = 0x30;
+                Global.FaXiang16_PWM1_8_OnOff |= 0x30;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11737,7 +11737,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_PWM1_8_OnOff = 0x00;
+                Global.FaXiang16_PWM1_8_OnOff &= (~0x30 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11755,7 +11755,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_PWM1_8_OnOff = 0xc0;
+                Global.FaXiang16_PWM1_8_OnOff |= 0xc0;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11773,7 +11773,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_PWM1_8_OnOff = 0x00;
+                Global.FaXiang16_PWM1_8_OnOff &= (~0xc0 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11791,7 +11791,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_PWM9_16_OnOff = 0x03;
+                Global.FaXiang16_PWM9_16_OnOff |= 0x03;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11809,7 +11809,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_PWM9_16_OnOff = 0x00;
+                Global.FaXiang16_PWM9_16_OnOff &= (~0x03 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11827,7 +11827,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_PWM9_16_OnOff = 0x0c;
+                Global.FaXiang16_PWM9_16_OnOff |= 0x0c;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11845,7 +11845,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_PWM9_16_OnOff = 0x00;
+                Global.FaXiang16_PWM9_16_OnOff &= (~0x0c & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11863,7 +11863,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_PWM9_16_OnOff = 0x30;
+                Global.FaXiang16_PWM9_16_OnOff |= 0x30;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11881,7 +11881,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_PWM9_16_OnOff = 0x00;
+                Global.FaXiang16_PWM9_16_OnOff &= (~0x30 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11899,7 +11899,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_DOUT1_8_OnOff = 0x03;
+                Global.FaXiang16_DOUT1_8_OnOff |= 0x03;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11917,7 +11917,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_DOUT1_8_OnOff = 0x00;
+                Global.FaXiang16_DOUT1_8_OnOff &= (~0x03 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11935,7 +11935,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_PWM9_16_OnOff = 0xc0;
+                Global.FaXiang16_PWM9_16_OnOff |= 0xc0;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11953,7 +11953,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_PWM9_16_OnOff = 0x00;
+                Global.FaXiang16_PWM9_16_OnOff &= (~0xc0 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11971,7 +11971,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_DOUT1_8_OnOff = 0x30;
+                Global.FaXiang16_DOUT1_8_OnOff |= 0x30;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11989,7 +11989,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_DOUT1_8_OnOff = 0x00;
+                Global.FaXiang16_DOUT1_8_OnOff &= (~0x30 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -12007,7 +12007,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_DOUT1_8_OnOff = 0x0c;
+                Global.FaXiang16_DOUT1_8_OnOff |= 0x0c;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -12025,7 +12025,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_DOUT1_8_OnOff = 0x00;
+                Global.FaXiang16_DOUT1_8_OnOff &= (~0x0c & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -12043,7 +12043,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_DOUT1_8_OnOff = 0xc0;
+                Global.FaXiang16_DOUT1_8_OnOff |= 0xc0;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -12061,7 +12061,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_DOUT1_8_OnOff = 0x00;
+                Global.FaXiang16_DOUT1_8_OnOff &= (~0xc0 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -12079,7 +12079,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_DOUT9_16_OnOff = 0x03;
+                Global.FaXiang16_DOUT9_16_OnOff |= 0x03;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -12097,7 +12097,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_DOUT9_16_OnOff = 0x00;
+                Global.FaXiang16_DOUT9_16_OnOff &= (~0x03 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -12115,7 +12115,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_DOUT9_16_OnOff = 0x0c;
+                Global.FaXiang16_DOUT9_16_OnOff |= 0x0c;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -12133,7 +12133,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_DOUT9_16_OnOff = 0x00;
+                Global.FaXiang16_DOUT9_16_OnOff &= (~0x0c & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -12147,36 +12147,77 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_yygy_MouseDown(object sender, MouseEventArgs e)
+        private void btn_yygy1_Click(object sender, EventArgs e)
         {
             try
             {
-                Global.FaXiang16_DOUT9_16_OnOff = 0xa0;
-
-                Global.m_FormBoardII.SetDataIntoPCB();
-
+                if ((int)(btn_yygy1.Tag) == 1)
                 {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"开启油源高压\"操作";
-                    sInfo += "\t\n";
-                    richTextBox_InfoShow.AppendText(sInfo);
+                    Global.FaXiang16_DOUT9_16_OnOff |= 0x20;
+
+                    Global.m_FormBoardII.SetDataIntoPCB();
+
+                    btn_yygy1.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                    btn_yygy1.Tag = 3;
+
+                    {
+                        string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"开启油源高压1\"操作";
+                        sInfo += "\t\n";
+                        richTextBox_InfoShow.AppendText(sInfo);
+                    }
+                } else
+                {
+                    Global.FaXiang16_DOUT9_16_OnOff &= (~0x20 & 0xff);
+
+                    Global.m_FormBoardII.SetDataIntoPCB();
+
+                    btn_yygy1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                    btn_yygy1.Tag = 1;
+
+                    {
+                        string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"油源高压1\"关闭";
+                        sInfo += "\t\n";
+                        richTextBox_InfoShow.AppendText(sInfo);
+                    }
                 }
             }
             catch (Exception ex)
             { }
         }
 
-        private void btn_yygy_MouseUp(object sender, MouseEventArgs e)
+        private void btn_yygy2_Click(object sender, EventArgs e)
         {
             try
             {
-                Global.FaXiang16_DOUT9_16_OnOff = 0x00;
-
-                Global.m_FormBoardII.SetDataIntoPCB();
-
+                if ((int)(btn_yygy2.Tag) == 1)
                 {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
-                    sInfo += "\t\n";
-                    richTextBox_InfoShow.AppendText(sInfo);
+                    Global.FaXiang16_DOUT9_16_OnOff |= 0x80;
+
+                    Global.m_FormBoardII.SetDataIntoPCB();
+
+                    btn_yygy2.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                    btn_yygy2.Tag = 3;
+
+                    {
+                        string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"开启油源高压2\"操作";
+                        sInfo += "\t\n";
+                        richTextBox_InfoShow.AppendText(sInfo);
+                    }
+                }
+                else
+                {
+                    Global.FaXiang16_DOUT9_16_OnOff &= (~0x80 & 0xff);
+
+                    Global.m_FormBoardII.SetDataIntoPCB();
+
+                    btn_yygy2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                    btn_yygy2.Tag = 1;
+
+                    {
+                        string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"油源高压2\"关闭";
+                        sInfo += "\t\n";
+                        richTextBox_InfoShow.AppendText(sInfo);
+                    }
                 }
             }
             catch (Exception ex)

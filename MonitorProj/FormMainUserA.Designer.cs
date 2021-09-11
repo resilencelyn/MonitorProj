@@ -35,7 +35,8 @@
             this.GroupBox_MainMon = new System.Windows.Forms.GroupBox();
             this.GroupBox_MainCtl = new System.Windows.Forms.GroupBox();
             this.groupBox35 = new System.Windows.Forms.GroupBox();
-            this.btn_yygy = new System.Windows.Forms.Button();
+            this.btn_yygy2 = new System.Windows.Forms.Button();
+            this.btn_yygy1 = new System.Windows.Forms.Button();
             this.groupBox33 = new System.Windows.Forms.GroupBox();
             this.btn_kxs_sc = new System.Windows.Forms.Button();
             this.btn_kxs_cs = new System.Windows.Forms.Button();
@@ -968,7 +969,8 @@
             // 
             // groupBox35
             // 
-            this.groupBox35.Controls.Add(this.btn_yygy);
+            this.groupBox35.Controls.Add(this.btn_yygy2);
+            this.groupBox35.Controls.Add(this.btn_yygy1);
             this.groupBox35.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold);
             this.groupBox35.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox35.Location = new System.Drawing.Point(370, 430);
@@ -981,25 +983,43 @@
             this.groupBox35.Text = "油源高压";
             this.groupBox35.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint);
             // 
-            // btn_yygy
+            // btn_yygy2
             // 
-            this.btn_yygy.BackColor = System.Drawing.Color.Transparent;
-            this.btn_yygy.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_yygy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_yygy.FlatAppearance.BorderSize = 0;
-            this.btn_yygy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_yygy.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_yygy.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_yygy.Location = new System.Drawing.Point(140, 40);
-            this.btn_yygy.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_yygy.Name = "btn_yygy";
-            this.btn_yygy.Size = new System.Drawing.Size(150, 40);
-            this.btn_yygy.TabIndex = 141;
-            this.btn_yygy.Tag = 1;
-            this.btn_yygy.Text = "开启";
-            this.btn_yygy.UseVisualStyleBackColor = false;
-            this.btn_yygy.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_yygy_MouseDown);
-            this.btn_yygy.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btn_yygy_MouseUp);
+            this.btn_yygy2.BackColor = System.Drawing.Color.Transparent;
+            this.btn_yygy2.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_yygy2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_yygy2.FlatAppearance.BorderSize = 0;
+            this.btn_yygy2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_yygy2.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_yygy2.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_yygy2.Location = new System.Drawing.Point(229, 40);
+            this.btn_yygy2.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_yygy2.Name = "btn_yygy2";
+            this.btn_yygy2.Size = new System.Drawing.Size(150, 40);
+            this.btn_yygy2.TabIndex = 142;
+            this.btn_yygy2.Tag = 1;
+            this.btn_yygy2.Text = "油源高压2";
+            this.btn_yygy2.UseVisualStyleBackColor = false;
+            this.btn_yygy2.Click += new System.EventHandler(this.btn_yygy2_Click);
+            // 
+            // btn_yygy1
+            // 
+            this.btn_yygy1.BackColor = System.Drawing.Color.Transparent;
+            this.btn_yygy1.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_yygy1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_yygy1.FlatAppearance.BorderSize = 0;
+            this.btn_yygy1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_yygy1.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_yygy1.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_yygy1.Location = new System.Drawing.Point(54, 40);
+            this.btn_yygy1.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_yygy1.Name = "btn_yygy1";
+            this.btn_yygy1.Size = new System.Drawing.Size(150, 40);
+            this.btn_yygy1.TabIndex = 141;
+            this.btn_yygy1.Tag = 1;
+            this.btn_yygy1.Text = "油源高压1";
+            this.btn_yygy1.UseVisualStyleBackColor = false;
+            this.btn_yygy1.Click += new System.EventHandler(this.btn_yygy1_Click);
             // 
             // groupBox33
             // 
@@ -11335,11 +11355,12 @@
         private System.Windows.Forms.Button btn_hand34;
         private System.Windows.Forms.Button btn_hand12;
         private System.Windows.Forms.GroupBox groupBox35;
-        private System.Windows.Forms.Button btn_yygy;
+        private System.Windows.Forms.Button btn_yygy1;
         private System.Windows.Forms.GroupBox groupBox33;
         private System.Windows.Forms.Button btn_kxs_sc;
         private System.Windows.Forms.Button btn_kxs_cs;
         private System.Windows.Forms.GroupBox groupBox31;
         private System.Windows.Forms.Button btn_cjw;
+        private System.Windows.Forms.Button btn_yygy2;
     }
 }
