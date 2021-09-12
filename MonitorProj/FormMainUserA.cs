@@ -11643,16 +11643,16 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_hand12_MouseDown(object sender, MouseEventArgs e)
+        private void btn_jxs_12a_MouseDown(object sender, MouseEventArgs e)
         {
             try
             {
-                Global.FaXiang16_PWM1_8_OnOff |= 0x03;
+                Global.FaXiang16_PWM1_8_OnOff |= 0x01;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
                 {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-肩油缸\"操作";
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-肩油缸A\"操作";
                     sInfo += "\t\n";
                     richTextBox_InfoShow.AppendText(sInfo);
                 }
@@ -11661,47 +11661,11 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_hand12_MouseUp(object sender, MouseEventArgs e)
+        private void btn_jxs_12a_MouseUp(object sender, MouseEventArgs e)
         {
             try
             {
-                Global.FaXiang16_PWM1_8_OnOff &= (~0x03 & 0xff);
-
-                Global.m_FormBoardII.SetDataIntoPCB();
-
-                {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
-                    sInfo += "\t\n";
-                    richTextBox_InfoShow.AppendText(sInfo);
-                }
-            }
-            catch (Exception ex)
-            { }
-        }
-
-        private void btn_hand34_MouseDown(object sender, MouseEventArgs e)
-        {
-            try
-            {
-                Global.FaXiang16_PWM1_8_OnOff |= 0x0c;
-
-                Global.m_FormBoardII.SetDataIntoPCB();
-
-                {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-大臂油缸\"操作";
-                    sInfo += "\t\n";
-                    richTextBox_InfoShow.AppendText(sInfo);
-                }
-            }
-            catch (Exception ex)
-            { }
-        }
-
-        private void btn_hand34_MouseUp(object sender, MouseEventArgs e)
-        {
-            try
-            {
-                Global.FaXiang16_PWM1_8_OnOff &= (~0x0c & 0xff);
+                Global.FaXiang16_PWM1_8_OnOff &= (~0x01 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11715,16 +11679,16 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_hand56_MouseDown(object sender, MouseEventArgs e)
+        private void btn_jxs_12b_MouseDown(object sender, MouseEventArgs e)
         {
             try
             {
-                Global.FaXiang16_PWM1_8_OnOff |= 0x30;
+                Global.FaXiang16_PWM1_8_OnOff |= 0x02;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
                 {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-小臂油缸\"操作";
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-肩油缸B\"操作";
                     sInfo += "\t\n";
                     richTextBox_InfoShow.AppendText(sInfo);
                 }
@@ -11733,47 +11697,11 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_hand56_MouseUp(object sender, MouseEventArgs e)
+        private void btn_jxs_12b_MouseUp(object sender, MouseEventArgs e)
         {
             try
             {
-                Global.FaXiang16_PWM1_8_OnOff &= (~0x30 & 0xff);
-
-                Global.m_FormBoardII.SetDataIntoPCB();
-
-                {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
-                    sInfo += "\t\n";
-                    richTextBox_InfoShow.AppendText(sInfo);
-                }
-            }
-            catch (Exception ex)
-            { }
-        }
-
-        private void btn_hand78_MouseDown(object sender, MouseEventArgs e)
-        {
-            try
-            {
-                Global.FaXiang16_PWM1_8_OnOff |= 0xc0;
-
-                Global.m_FormBoardII.SetDataIntoPCB();
-
-                {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-肘马达\"操作";
-                    sInfo += "\t\n";
-                    richTextBox_InfoShow.AppendText(sInfo);
-                }
-            }
-            catch (Exception ex)
-            { }
-        }
-
-        private void btn_hand78_MouseUp(object sender, MouseEventArgs e)
-        {
-            try
-            {
-                Global.FaXiang16_PWM1_8_OnOff &= (~0xc0 & 0xff);
+                Global.FaXiang16_PWM1_8_OnOff &= (~0x02 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11787,16 +11715,16 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_hand910_MouseDown(object sender, MouseEventArgs e)
+        private void btn_jxs_34a_MouseDown(object sender, MouseEventArgs e)
         {
             try
             {
-                Global.FaXiang16_PWM9_16_OnOff |= 0x03;
+                Global.FaXiang16_PWM1_8_OnOff |= 0x04;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
                 {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-腕油缸\"操作";
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-大臂油缸A\"操作";
                     sInfo += "\t\n";
                     richTextBox_InfoShow.AppendText(sInfo);
                 }
@@ -11805,47 +11733,11 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_hand910_MouseUp(object sender, MouseEventArgs e)
+        private void btn_jxs_34a_MouseUp(object sender, MouseEventArgs e)
         {
             try
             {
-                Global.FaXiang16_PWM9_16_OnOff &= (~0x03 & 0xff);
-
-                Global.m_FormBoardII.SetDataIntoPCB();
-
-                {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
-                    sInfo += "\t\n";
-                    richTextBox_InfoShow.AppendText(sInfo);
-                }
-            }
-            catch (Exception ex)
-            { }
-        }
-
-        private void btn_hand1112_MouseDown(object sender, MouseEventArgs e)
-        {
-            try
-            {
-                Global.FaXiang16_PWM9_16_OnOff |= 0x0c;
-
-                Global.m_FormBoardII.SetDataIntoPCB();
-
-                {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-腕马达\"操作";
-                    sInfo += "\t\n";
-                    richTextBox_InfoShow.AppendText(sInfo);
-                }
-            }
-            catch (Exception ex)
-            { }
-        }
-
-        private void btn_hand1112_MouseUp(object sender, MouseEventArgs e)
-        {
-            try
-            {
-                Global.FaXiang16_PWM9_16_OnOff &= (~0x0c & 0xff);
+                Global.FaXiang16_PWM1_8_OnOff &= (~0x04 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11859,16 +11751,16 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_hand1314_MouseDown(object sender, MouseEventArgs e)
+        private void btn_jxs_34b_MouseDown(object sender, MouseEventArgs e)
         {
             try
             {
-                Global.FaXiang16_PWM9_16_OnOff |= 0x30;
+                Global.FaXiang16_PWM1_8_OnOff |= 0x08;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
                 {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-手抓油缸\"操作";
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-大臂油缸B\"操作";
                     sInfo += "\t\n";
                     richTextBox_InfoShow.AppendText(sInfo);
                 }
@@ -11877,47 +11769,11 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_hand1314_MouseUp(object sender, MouseEventArgs e)
+        private void btn_jxs_34b_MouseUp(object sender, MouseEventArgs e)
         {
             try
             {
-                Global.FaXiang16_PWM9_16_OnOff &= (~0x30 & 0xff);
-
-                Global.m_FormBoardII.SetDataIntoPCB();
-
-                {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
-                    sInfo += "\t\n";
-                    richTextBox_InfoShow.AppendText(sInfo);
-                }
-            }
-            catch (Exception ex)
-            { }
-        }
-
-        private void btn_yyzc_fl_MouseDown(object sender, MouseEventArgs e)
-        {
-            try
-            {
-                Global.FaXiang16_DOUT1_8_OnOff |= 0x03;
-
-                Global.m_FormBoardII.SetDataIntoPCB();
-
-                {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-前左腿\"操作";
-                    sInfo += "\t\n";
-                    richTextBox_InfoShow.AppendText(sInfo);
-                }
-            }
-            catch (Exception ex)
-            { }
-        }
-
-        private void btn_yyzc_fl_MouseUp(object sender, MouseEventArgs e)
-        {
-            try
-            {
-                Global.FaXiang16_DOUT1_8_OnOff &= (~0x03 & 0xff);
+                Global.FaXiang16_PWM1_8_OnOff &= (~0x08 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -11931,16 +11787,16 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_yyzc_fr_MouseDown(object sender, MouseEventArgs e)
+        private void btn_jxs_56a_MouseDown(object sender, MouseEventArgs e)
         {
             try
             {
-                Global.FaXiang16_PWM9_16_OnOff |= 0xc0;
+                Global.FaXiang16_PWM1_8_OnOff |= 0x10;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
                 {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-前右腿\"操作";
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-小臂油缸A\"操作";
                     sInfo += "\t\n";
                     richTextBox_InfoShow.AppendText(sInfo);
                 }
@@ -11949,47 +11805,11 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_yyzc_fr_MouseUp(object sender, MouseEventArgs e)
+        private void btn_jxs_56a_MouseUp(object sender, MouseEventArgs e)
         {
             try
             {
-                Global.FaXiang16_PWM9_16_OnOff &= (~0xc0 & 0xff);
-
-                Global.m_FormBoardII.SetDataIntoPCB();
-
-                {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
-                    sInfo += "\t\n";
-                    richTextBox_InfoShow.AppendText(sInfo);
-                }
-            }
-            catch (Exception ex)
-            { }
-        }
-
-        private void btn_yyzc_bl_MouseDown(object sender, MouseEventArgs e)
-        {
-            try
-            {
-                Global.FaXiang16_DOUT1_8_OnOff |= 0x30;
-
-                Global.m_FormBoardII.SetDataIntoPCB();
-
-                {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-后左腿\"操作";
-                    sInfo += "\t\n";
-                    richTextBox_InfoShow.AppendText(sInfo);
-                }
-            }
-            catch (Exception ex)
-            { }
-        }
-
-        private void btn_yyzc_bl_MouseUp(object sender, MouseEventArgs e)
-        {
-            try
-            {
-                Global.FaXiang16_DOUT1_8_OnOff &= (~0x30 & 0xff);
+                Global.FaXiang16_PWM1_8_OnOff &= (~0x10 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -12003,16 +11823,16 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_yyzc_br_MouseDown(object sender, MouseEventArgs e)
+        private void btn_jxs_56b_MouseDown(object sender, MouseEventArgs e)
         {
             try
             {
-                Global.FaXiang16_DOUT1_8_OnOff |= 0x0c;
+                Global.FaXiang16_PWM1_8_OnOff |= 0x20;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
                 {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-后右腿\"操作";
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-小臂油缸B\"操作";
                     sInfo += "\t\n";
                     richTextBox_InfoShow.AppendText(sInfo);
                 }
@@ -12021,47 +11841,11 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_yyzc_br_MouseUp(object sender, MouseEventArgs e)
+        private void btn_jxs_56b_MouseUp(object sender, MouseEventArgs e)
         {
             try
             {
-                Global.FaXiang16_DOUT1_8_OnOff &= (~0x0c & 0xff);
-
-                Global.m_FormBoardII.SetDataIntoPCB();
-
-                {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
-                    sInfo += "\t\n";
-                    richTextBox_InfoShow.AppendText(sInfo);
-                }
-            }
-            catch (Exception ex)
-            { }
-        }
-
-        private void btn_cjw_MouseDown(object sender, MouseEventArgs e)
-        {
-            try
-            {
-                Global.FaXiang16_DOUT1_8_OnOff |= 0xc0;
-
-                Global.m_FormBoardII.SetDataIntoPCB();
-
-                {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"沉积物取样\"操作";
-                    sInfo += "\t\n";
-                    richTextBox_InfoShow.AppendText(sInfo);
-                }
-            }
-            catch (Exception ex)
-            { }
-        }
-
-        private void btn_cjw_MouseUp(object sender, MouseEventArgs e)
-        {
-            try
-            {
-                Global.FaXiang16_DOUT1_8_OnOff &= (~0xc0 & 0xff);
+                Global.FaXiang16_PWM1_8_OnOff &= (~0x20 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -12075,16 +11859,16 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_kxs_sc_MouseDown(object sender, MouseEventArgs e)
+        private void btn_jxs_78a_MouseDown(object sender, MouseEventArgs e)
         {
             try
             {
-                Global.FaXiang16_DOUT9_16_OnOff |= 0x03;
+                Global.FaXiang16_PWM1_8_OnOff |= 0x40;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
                 {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"孔隙水取样器-伸出油缸\"操作";
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-肘马达A\"操作";
                     sInfo += "\t\n";
                     richTextBox_InfoShow.AppendText(sInfo);
                 }
@@ -12093,11 +11877,771 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_kxs_sc_MouseUp(object sender, MouseEventArgs e)
+        private void btn_jxs_78a_MouseUp(object sender, MouseEventArgs e)
         {
             try
             {
-                Global.FaXiang16_DOUT9_16_OnOff &= (~0x03 & 0xff);
+                Global.FaXiang16_PWM1_8_OnOff &= (~0x40 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_jxs_78b_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM1_8_OnOff |= 0x80;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-肘马达B\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_jxs_78b_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM1_8_OnOff &= (~0x80 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_jxs_910a_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff |= 0x01;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-腕油缸A\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_jxs_910a_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff &= (~0x01 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_jxs_910b_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff |= 0x02;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-腕油缸B\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_jxs_910b_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff &= (~0x02 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_jxs_1112a_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff |= 0x04;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-腕马达A\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_jxs_1112a_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff &= (~0x04 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_jxs_1112b_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff |= 0x08;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-腕马达B\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_jxs_1112b_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff &= (~0x08 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_jxs_1314a_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff |= 0x10;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-手抓油缸A\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_jxs_1314a_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff &= (~0x10 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_jxs_1314b_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff |= 0x20;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"机械手-手抓油缸B\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_jxs_1314b_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff &= (~0x20 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_fla_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff |= 0x01;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-前左腿A\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_fla_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff &= (~0x01 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_flb_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff |= 0x02;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-前左腿B\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_flb_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff &= (~0x02 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_fra_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff |= 0x40;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-前右腿A\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_fra_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff &= (~0x40 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_frb_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff |= 0x80;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-前右腿B\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_frb_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff &= (~0x80 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_bla_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff |= 0x10;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-后左腿A\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_bla_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff &= (~0x10 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_blb_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff |= 0x20;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-后左腿B\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_blb_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff &= (~0x20 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_bra_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff |= 0x04;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-后右腿A\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_bra_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff &= (~0x04 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_brb_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff |= 0x08;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-后右腿B\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_brb_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff &= (~0x08 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_a_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff |= 0x40;
+                Global.FaXiang16_DOUT1_8_OnOff |= 0x15;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-全放\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_a_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff &= (~0x40 & 0xff);
+                Global.FaXiang16_DOUT1_8_OnOff &= (~0x15 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_b_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff |= 0x80;
+                Global.FaXiang16_DOUT1_8_OnOff |= 0x2a;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"液压支撑腿-全收\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_yyzc_b_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_PWM9_16_OnOff &= (~0x80 & 0xff);
+                Global.FaXiang16_DOUT1_8_OnOff &= (~0x2a & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_cjw_a_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff |= 0x40;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"沉积物取样器-采集\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_cjw_a_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff &= (~0x40 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_cjw_b_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff |= 0x80;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"沉积物取样器-释放\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_cjw_b_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT1_8_OnOff &= (~0x80 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_kxs_sc_a_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT9_16_OnOff |= 0x01;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"孔隙水取样器-伸出油缸A\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_kxs_sc_a_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT9_16_OnOff &= (~0x01 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_kxs_sc_b_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT9_16_OnOff |= 0x02;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"孔隙水取样器-伸出油缸B\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_kxs_sc_b_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT9_16_OnOff &= (~0x02 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -12115,7 +12659,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_DOUT9_16_OnOff |= 0x0c;
+                Global.FaXiang16_DOUT9_16_OnOff |= 0x04;
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
@@ -12133,7 +12677,7 @@ namespace MonitorProj
         {
             try
             {
-                Global.FaXiang16_DOUT9_16_OnOff &= (~0x0c & 0xff);
+                Global.FaXiang16_DOUT9_16_OnOff &= (~0x04 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
