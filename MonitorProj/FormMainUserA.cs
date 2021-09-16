@@ -12655,7 +12655,7 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_kxs_cs_MouseDown(object sender, MouseEventArgs e)
+        private void btn_kxs_cs_a_MouseDown(object sender, MouseEventArgs e)
         {
             try
             {
@@ -12664,7 +12664,7 @@ namespace MonitorProj
                 Global.m_FormBoardII.SetDataIntoPCB();
 
                 {
-                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"孔隙水取样器-抽水油缸\"操作";
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"孔隙水取样器-抽水油缸A\"操作";
                     sInfo += "\t\n";
                     richTextBox_InfoShow.AppendText(sInfo);
                 }
@@ -12673,11 +12673,47 @@ namespace MonitorProj
             { }
         }
 
-        private void btn_kxs_cs_MouseUp(object sender, MouseEventArgs e)
+        private void btn_kxs_cs_a_MouseUp(object sender, MouseEventArgs e)
         {
             try
             {
                 Global.FaXiang16_DOUT9_16_OnOff &= (~0x04 & 0xff);
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"停止\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_kxs_cs_b_MouseDown(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT9_16_OnOff |= 0x08;
+
+                Global.m_FormBoardII.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"孔隙水取样器-抽水油缸B\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_kxs_cs_b_MouseUp(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                Global.FaXiang16_DOUT9_16_OnOff &= (~0x08 & 0xff);
 
                 Global.m_FormBoardII.SetDataIntoPCB();
 
