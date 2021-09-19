@@ -12803,5 +12803,605 @@ namespace MonitorProj
             catch (Exception ex)
             { }
         }
+
+        private void btn_prop_1a_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.H_FR = 1;
+
+                btn_prop_1a.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_prop_1a.Tag = 3;
+                btn_prop_1b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_1b.Tag = 1;
+
+                Global.FaXiang8_A03 = 10.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-1正\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_1b_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.H_FR = 2;
+
+                btn_prop_1a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_1a.Tag = 1;
+                btn_prop_1b.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_prop_1b.Tag = 3;
+
+                Global.FaXiang8_A03 = -10.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-1反\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_1c_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.H_FR = 0;
+
+                btn_prop_1a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_1a.Tag = 1;
+                btn_prop_1b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_1b.Tag = 1;
+
+                Global.FaXiang8_A03 = 0.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-1停\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_2a_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.H_FL = 1;
+
+                btn_prop_2a.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_prop_2a.Tag = 3;
+                btn_prop_2b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_2b.Tag = 1;
+
+                Global.FaXiang8_A01 = 10.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-2正\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_2b_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.H_FL = 2;
+
+                btn_prop_2a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_2a.Tag = 1;
+                btn_prop_2b.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_prop_2b.Tag = 3;
+
+                Global.FaXiang8_A01 = -10.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-2反\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_2c_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.H_FL = 0;
+
+                btn_prop_2a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_2a.Tag = 1;
+                btn_prop_2b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_2b.Tag = 1;
+
+                Global.FaXiang8_A01 = 0.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-2停\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_3a_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.V_FL = 1;
+
+                btn_prop_3a.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_prop_3a.Tag = 3;
+                btn_prop_3b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_3b.Tag = 1;
+
+                Global.FaXiang8_A02 = 10.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-3正\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_3b_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.V_FL = 2;
+
+                btn_prop_3a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_3a.Tag = 1;
+                btn_prop_3b.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_prop_3b.Tag = 3;
+
+                Global.FaXiang8_A02 = -10.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-3反\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_3c_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.V_FL = 0;
+
+                btn_prop_3a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_3a.Tag = 1;
+                btn_prop_3b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_3b.Tag = 1;
+
+                Global.FaXiang8_A02 = 0.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-3停\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_4a_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.V_BL = 1;
+
+                btn_prop_4a.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_prop_4a.Tag = 3;
+                btn_prop_4b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_4b.Tag = 1;
+
+                Global.FaXiang8_A06 = 10.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-4正\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_4b_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.V_BL = 2;
+
+                btn_prop_4a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_4a.Tag = 1;
+                btn_prop_4b.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_prop_4b.Tag = 3;
+
+                Global.FaXiang8_A06 = -10.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-4反\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_4c_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.V_BL = 0;
+
+                btn_prop_4a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_4a.Tag = 1;
+                btn_prop_4b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_4b.Tag = 1;
+
+                Global.FaXiang8_A06 = 0.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-4停\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_5a_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.H_BL = 1;
+
+                btn_prop_5a.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_prop_5a.Tag = 3;
+                btn_prop_5b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_5b.Tag = 1;
+
+                Global.FaXiang8_A05 = 10.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-5正\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_5b_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.H_BL = 2;
+
+                btn_prop_5a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_5a.Tag = 1;
+                btn_prop_5b.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_prop_5b.Tag = 3;
+
+                Global.FaXiang8_A05 = -10.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-5反\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_5c_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.H_BL = 0;
+
+                btn_prop_5a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_5a.Tag = 1;
+                btn_prop_5b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_5b.Tag = 1;
+
+                Global.FaXiang8_A05 = 0.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-5停\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_6a_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.H_BR = 1;
+
+                btn_prop_6a.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_prop_6a.Tag = 3;
+                btn_prop_6b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_6b.Tag = 1;
+
+                Global.FaXiang8_A04 = 10.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-6正\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_6b_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.H_BR = 2;
+
+                btn_prop_6a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_6a.Tag = 1;
+                btn_prop_6b.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_prop_6b.Tag = 3;
+
+                Global.FaXiang8_A04 = -10.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-6反\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_6c_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.H_BR = 0;
+
+                btn_prop_6a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_6a.Tag = 1;
+                btn_prop_6b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_6b.Tag = 1;
+
+                Global.FaXiang8_A04 = 0.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-6停\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_7a_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.V_BR = 1;
+
+                btn_prop_7a.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_prop_7a.Tag = 3;
+                btn_prop_7b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_7b.Tag = 1;
+
+                Global.FaXiang8_A08 = 10.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-7正\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_7b_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.V_BR = 2;
+
+                btn_prop_7a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_7a.Tag = 1;
+                btn_prop_7b.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_prop_7b.Tag = 3;
+
+                Global.FaXiang8_A08 = -10.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-7反\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_7c_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.V_BR = 0;
+
+                btn_prop_7a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_7a.Tag = 1;
+                btn_prop_7b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_7b.Tag = 1;
+
+                Global.FaXiang8_A08 = 0.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-7停\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_8a_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.V_FR = 1;
+
+                btn_prop_8a.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_prop_8a.Tag = 3;
+                btn_prop_8b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_8b.Tag = 1;
+
+                Global.FaXiang8_A07 = 10.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-8正\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_8b_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.V_FR = 2;
+
+                btn_prop_8a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_8a.Tag = 1;
+                btn_prop_8b.BackgroundImage = global::MonitorProj.Properties.Resources.Button3;
+                btn_prop_8b.Tag = 3;
+
+                Global.FaXiang8_A07 = -10.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-8反\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_prop_8c_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                propStatus1.V_FR = 0;
+
+                btn_prop_8a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_8a.Tag = 1;
+                btn_prop_8b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+                btn_prop_8b.Tag = 1;
+
+                Global.FaXiang8_A07 = 0.0;
+
+                Global.m_FormBoardI.SetDataIntoPCB();
+
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "\"阀箱备用通路-8停\"";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
     }
 }
