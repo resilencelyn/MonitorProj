@@ -7301,6 +7301,8 @@ namespace MonitorProj
             try
             {
                 Global.m_FormMobileDrillMonCtl.btn_Perform_Click(Global.m_FormMobileDrillMonCtl.btn_FaBox_72, null);
+                myEnum_HMove_Direction = Enum_HMove_Direction.Stop;
+                flag_TuiJinQi_HMove_Oper = false;
             }
             catch (Exception ex)
             { }
@@ -9451,7 +9453,7 @@ namespace MonitorProj
                             //Global.FaXiang8_A08 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
                             propStatus1.H_FR = 2; Global.FaXiang8_A03 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                            propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0 + 0.1;
                             propStatus1.H_BL = 2; Global.FaXiang8_A05 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
                             propStatus1.H_BR = 1; Global.FaXiang8_A04 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
@@ -9474,7 +9476,7 @@ namespace MonitorProj
                                     //Global.FaXiang8_A08 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
                                     propStatus1.H_FR = 2; Global.FaXiang8_A03 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                                    propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0 + 0.1;
                                     propStatus1.H_BL = 2; Global.FaXiang8_A05 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
                                     propStatus1.H_BR = 1; Global.FaXiang8_A04 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
@@ -9491,7 +9493,7 @@ namespace MonitorProj
                             //Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
                             propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0;
-                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0;
+                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0.1;
                             propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0;
                             propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0;
 
@@ -9515,7 +9517,7 @@ namespace MonitorProj
                             //Global.FaXiang8_A08 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
                             propStatus1.H_FR = 1; Global.FaXiang8_A03 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                            propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0 + 0.1;
                             propStatus1.H_BL = 1; Global.FaXiang8_A05 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
                             propStatus1.H_BR = 2; Global.FaXiang8_A04 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
@@ -9538,7 +9540,7 @@ namespace MonitorProj
                                     //Global.FaXiang8_A08 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
                                     propStatus1.H_FR = 1; Global.FaXiang8_A03 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                                    propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0 + 0.1;
                                     propStatus1.H_BL = 1; Global.FaXiang8_A05 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
                                     propStatus1.H_BR = 2; Global.FaXiang8_A04 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
@@ -9555,7 +9557,7 @@ namespace MonitorProj
                             //Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
                             propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0;
-                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0;
+                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0.1;
                             propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0;
                             propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0;
 
@@ -9580,7 +9582,7 @@ namespace MonitorProj
                             //Global.FaXiang8_A08 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
                             propStatus1.H_FR = 1; Global.FaXiang8_A03 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                            propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0 + 0.1;
                             propStatus1.H_BL = 2; Global.FaXiang8_A05 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
                             propStatus1.H_BR = 2; Global.FaXiang8_A04 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
@@ -9603,7 +9605,7 @@ namespace MonitorProj
                                     //Global.FaXiang8_A08 = 10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
                                     propStatus1.H_FR = 1; Global.FaXiang8_A03 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                                    propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0 + 0.1;
                                     propStatus1.H_BL = 2; Global.FaXiang8_A05 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
                                     propStatus1.H_BR = 2; Global.FaXiang8_A04 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
@@ -9620,7 +9622,7 @@ namespace MonitorProj
                             //Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
                             propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0;
-                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0;
+                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0.1;
                             propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0;
                             propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0;
 
@@ -9644,7 +9646,7 @@ namespace MonitorProj
                             //Global.FaXiang8_A08 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
                             propStatus1.H_FR = 2; Global.FaXiang8_A03 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                            propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                            propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0 + 0.1;
                             propStatus1.H_BL = 1; Global.FaXiang8_A05 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
                             propStatus1.H_BR = 1; Global.FaXiang8_A04 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
@@ -9667,7 +9669,7 @@ namespace MonitorProj
                                     //Global.FaXiang8_A08 = -10.0 * (percent_ZhuanDong_YiDong_Speed + Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
                                     propStatus1.H_FR = 2; Global.FaXiang8_A03 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
-                                    propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
+                                    propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * percent_ZhuanDong_YiDong_Speed / 100.0 + 0.1;
                                     propStatus1.H_BL = 1; Global.FaXiang8_A05 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
                                     propStatus1.H_BR = 1; Global.FaXiang8_A04 = 10.0 * percent_ZhuanDong_YiDong_Speed / 100.0;
 
@@ -9684,7 +9686,7 @@ namespace MonitorProj
                             //Global.FaXiang8_A08 = 10.0 * (Global.TuiJinQiBuChang_HR_Zero + Global.TuiJinQiBuChang_HR) / 100 * Global.TuiJinQiBuChang_Polar_HR;//水平右推进器
 
                             propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0;
-                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0;
+                            propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0.1;
                             propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0;
                             propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0;
 
@@ -9864,7 +9866,7 @@ namespace MonitorProj
                                 btn_TuiJinQi_HMove_YouYi.Tag = 1;
 
                                 propStatus1.H_FR = 1; Global.FaXiang8_A03 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0 + 0.1;
                                 propStatus1.H_BL = 2; Global.FaXiang8_A05 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
                                 propStatus1.H_BR = 2; Global.FaXiang8_A04 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
@@ -9890,7 +9892,7 @@ namespace MonitorProj
                                 btn_TuiJinQi_HMove_YouYi.Tag = 1;
 
                                 propStatus1.H_FR = 2; Global.FaXiang8_A03 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0 + 0.1;
                                 propStatus1.H_BL = 1; Global.FaXiang8_A05 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
                                 propStatus1.H_BR = 1; Global.FaXiang8_A04 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
@@ -9916,7 +9918,7 @@ namespace MonitorProj
                                 btn_TuiJinQi_HMove_YouYi.Tag = 1;
 
                                 propStatus1.H_FR = 1; Global.FaXiang8_A03 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0 + 0.1;
                                 propStatus1.H_BL = 2; Global.FaXiang8_A05 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
                                 propStatus1.H_BR = 1; Global.FaXiang8_A04 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
@@ -9942,7 +9944,7 @@ namespace MonitorProj
                                 btn_TuiJinQi_HMove_YouYi.Tag = 3;
 
                                 propStatus1.H_FR = 2; Global.FaXiang8_A03 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0 + 0.1;
                                 propStatus1.H_BL = 1; Global.FaXiang8_A05 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
                                 propStatus1.H_BR = 2; Global.FaXiang8_A04 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
@@ -9988,7 +9990,7 @@ namespace MonitorProj
                                         //Global.FaXiang8_A06 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
 
                                         propStatus1.H_FR = 1; Global.FaXiang8_A03 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                        propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0 + 0.1;
                                         propStatus1.H_BL = 2; Global.FaXiang8_A05 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
                                         propStatus1.H_BR = 2; Global.FaXiang8_A04 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
@@ -10005,7 +10007,7 @@ namespace MonitorProj
                                         //Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
 
                                         propStatus1.H_FR = 2; Global.FaXiang8_A03 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                        propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0 + 0.1;
                                         propStatus1.H_BL = 1; Global.FaXiang8_A05 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
                                         propStatus1.H_BR = 1; Global.FaXiang8_A04 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
@@ -10022,7 +10024,7 @@ namespace MonitorProj
                                         //Global.FaXiang8_A06 = 10.0 * (dPercent_TuiJinQi_HMove_JiZhun_And_ZengLiang + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
 
                                         propStatus1.H_FR = 1; Global.FaXiang8_A03 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                        propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_FL = 2; Global.FaXiang8_A01 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0 + 0.1;
                                         propStatus1.H_BL = 2; Global.FaXiang8_A05 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
                                         propStatus1.H_BR = 1; Global.FaXiang8_A04 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
@@ -10039,7 +10041,7 @@ namespace MonitorProj
                                         //Global.FaXiang8_A06 = 10.0 * (Global.TuiJinQiBuChang_XuanFu + Global.TuiJinQiBuChang_VRB_Zero + Global.TuiJinQiBuChang_VRB) / 100 * Global.TuiJinQiBuChang_Polar_VRB;//后右垂直推进器
 
                                         propStatus1.H_FR = 2; Global.FaXiang8_A03 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
-                                        propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
+                                        propStatus1.H_FL = 1; Global.FaXiang8_A01 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0 + 0.1;
                                         propStatus1.H_BL = 1; Global.FaXiang8_A05 = 10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
                                         propStatus1.H_BR = 2; Global.FaXiang8_A04 = -10.0 * Zengliang_TuiJinQi_HMove_JiZhun / 100.0;
 
@@ -10073,7 +10075,7 @@ namespace MonitorProj
                                 btn_TuiJinQi_HMove_YouYi.Tag = 1;
 
                                 propStatus1.H_FR = 0; Global.FaXiang8_A03 = 0;
-                                propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0;
+                                propStatus1.H_FL = 0; Global.FaXiang8_A01 = 0.1;
                                 propStatus1.H_BL = 0; Global.FaXiang8_A05 = 0;
                                 propStatus1.H_BR = 0; Global.FaXiang8_A04 = 0;
 
@@ -12940,7 +12942,7 @@ namespace MonitorProj
                 btn_prop_2b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
                 btn_prop_2b.Tag = 1;
 
-                Global.FaXiang8_A01 = 0.0;
+                Global.FaXiang8_A01 = 0.1;
 
                 Global.m_FormBoardI.SetDataIntoPCB();
 
