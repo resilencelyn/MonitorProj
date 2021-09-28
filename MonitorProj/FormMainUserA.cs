@@ -13405,5 +13405,61 @@ namespace MonitorProj
             catch (Exception ex)
             { }
         }
+
+        private void btn_sensor_jw_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"传感器数据采集-甲烷\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_sensor_eyht_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"传感器数据采集-二氧化碳\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_sensor_rjy_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"传感器数据采集-溶解氧\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
+
+        private void btn_sensor_wys_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                {
+                    string sInfo = "【" + DateTime.Now.ToString("HH:mm:ss") + "】" + "执行\"传感器数据采集-温盐深\"操作";
+                    sInfo += "\t\n";
+                    richTextBox_InfoShow.AppendText(sInfo);
+                }
+            }
+            catch (Exception ex)
+            { }
+        }
     }
 }

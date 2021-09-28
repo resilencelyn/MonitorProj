@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMainUserA));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.GroupBox_MainMon = new System.Windows.Forms.GroupBox();
             this.GroupBox_MainCtl = new System.Windows.Forms.GroupBox();
             this.groupBox35 = new System.Windows.Forms.GroupBox();
@@ -85,6 +85,27 @@
             this.btn_yyzc_a = new System.Windows.Forms.Button();
             this.btn_yyzc_b = new System.Windows.Forms.Button();
             this.GroupBox_FaXiang_Space = new System.Windows.Forms.GroupBox();
+            this.btn_prop_5c = new System.Windows.Forms.Button();
+            this.btn_prop_5b = new System.Windows.Forms.Button();
+            this.btn_prop_5a = new System.Windows.Forms.Button();
+            this.btn_prop_3c = new System.Windows.Forms.Button();
+            this.btn_prop_3b = new System.Windows.Forms.Button();
+            this.btn_prop_3a = new System.Windows.Forms.Button();
+            this.btn_prop_2c = new System.Windows.Forms.Button();
+            this.btn_prop_2b = new System.Windows.Forms.Button();
+            this.btn_prop_2a = new System.Windows.Forms.Button();
+            this.btn_prop_6c = new System.Windows.Forms.Button();
+            this.btn_prop_6b = new System.Windows.Forms.Button();
+            this.btn_prop_6a = new System.Windows.Forms.Button();
+            this.btn_prop_7c = new System.Windows.Forms.Button();
+            this.btn_prop_7b = new System.Windows.Forms.Button();
+            this.btn_prop_7a = new System.Windows.Forms.Button();
+            this.btn_prop_8c = new System.Windows.Forms.Button();
+            this.btn_prop_8b = new System.Windows.Forms.Button();
+            this.btn_prop_8a = new System.Windows.Forms.Button();
+            this.btn_prop_4c = new System.Windows.Forms.Button();
+            this.btn_prop_4b = new System.Windows.Forms.Button();
+            this.btn_prop_4a = new System.Windows.Forms.Button();
             this.btn_prop_1c = new System.Windows.Forms.Button();
             this.btn_prop_1b = new System.Windows.Forms.Button();
             this.btn_prop_1a = new System.Windows.Forms.Button();
@@ -784,27 +805,11 @@
             this.label309 = new System.Windows.Forms.Label();
             this.label310 = new System.Windows.Forms.Label();
             this.timer_Communication = new System.Windows.Forms.Timer(this.components);
-            this.btn_prop_4c = new System.Windows.Forms.Button();
-            this.btn_prop_4b = new System.Windows.Forms.Button();
-            this.btn_prop_4a = new System.Windows.Forms.Button();
-            this.btn_prop_8c = new System.Windows.Forms.Button();
-            this.btn_prop_8b = new System.Windows.Forms.Button();
-            this.btn_prop_8a = new System.Windows.Forms.Button();
-            this.btn_prop_7c = new System.Windows.Forms.Button();
-            this.btn_prop_7b = new System.Windows.Forms.Button();
-            this.btn_prop_7a = new System.Windows.Forms.Button();
-            this.btn_prop_6c = new System.Windows.Forms.Button();
-            this.btn_prop_6b = new System.Windows.Forms.Button();
-            this.btn_prop_6a = new System.Windows.Forms.Button();
-            this.btn_prop_2c = new System.Windows.Forms.Button();
-            this.btn_prop_2b = new System.Windows.Forms.Button();
-            this.btn_prop_2a = new System.Windows.Forms.Button();
-            this.btn_prop_3c = new System.Windows.Forms.Button();
-            this.btn_prop_3b = new System.Windows.Forms.Button();
-            this.btn_prop_3a = new System.Windows.Forms.Button();
-            this.btn_prop_5c = new System.Windows.Forms.Button();
-            this.btn_prop_5b = new System.Windows.Forms.Button();
-            this.btn_prop_5a = new System.Windows.Forms.Button();
+            this.groupBox59 = new System.Windows.Forms.GroupBox();
+            this.btn_sensor_rjy = new System.Windows.Forms.Button();
+            this.btn_sensor_jw = new System.Windows.Forms.Button();
+            this.btn_sensor_wys = new System.Windows.Forms.Button();
+            this.btn_sensor_eyht = new System.Windows.Forms.Button();
             this.GroupBox_MainMon.SuspendLayout();
             this.GroupBox_MainCtl.SuspendLayout();
             this.groupBox35.SuspendLayout();
@@ -961,6 +966,7 @@
             this.groupBox2.SuspendLayout();
             this.groupBox23.SuspendLayout();
             this.groupBox27.SuspendLayout();
+            this.groupBox59.SuspendLayout();
             this.SuspendLayout();
             // 
             // GroupBox_MainMon
@@ -996,6 +1002,7 @@
             // GroupBox_MainCtl
             // 
             this.GroupBox_MainCtl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.GroupBox_MainCtl.Controls.Add(this.groupBox59);
             this.GroupBox_MainCtl.Controls.Add(this.groupBox35);
             this.GroupBox_MainCtl.Controls.Add(this.groupBox33);
             this.GroupBox_MainCtl.Controls.Add(this.groupBox31);
@@ -1030,11 +1037,11 @@
             this.groupBox35.Controls.Add(this.btn_yygy1);
             this.groupBox35.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold);
             this.groupBox35.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox35.Location = new System.Drawing.Point(370, 445);
+            this.groupBox35.Location = new System.Drawing.Point(370, 370);
             this.groupBox35.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox35.Name = "groupBox35";
             this.groupBox35.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox35.Size = new System.Drawing.Size(445, 90);
+            this.groupBox35.Size = new System.Drawing.Size(445, 80);
             this.groupBox35.TabIndex = 220;
             this.groupBox35.TabStop = false;
             this.groupBox35.Text = "油源高压";
@@ -1049,7 +1056,7 @@
             this.btn_yygy2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yygy2.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_yygy2.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_yygy2.Location = new System.Drawing.Point(240, 33);
+            this.btn_yygy2.Location = new System.Drawing.Point(240, 28);
             this.btn_yygy2.Margin = new System.Windows.Forms.Padding(2);
             this.btn_yygy2.Name = "btn_yygy2";
             this.btn_yygy2.Size = new System.Drawing.Size(150, 40);
@@ -1068,7 +1075,7 @@
             this.btn_yygy1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yygy1.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_yygy1.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_yygy1.Location = new System.Drawing.Point(60, 33);
+            this.btn_yygy1.Location = new System.Drawing.Point(60, 28);
             this.btn_yygy1.Margin = new System.Windows.Forms.Padding(2);
             this.btn_yygy1.Name = "btn_yygy1";
             this.btn_yygy1.Size = new System.Drawing.Size(150, 40);
@@ -1084,11 +1091,11 @@
             this.groupBox33.Controls.Add(this.groupBox50);
             this.groupBox33.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold);
             this.groupBox33.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox33.Location = new System.Drawing.Point(370, 308);
+            this.groupBox33.Location = new System.Drawing.Point(370, 268);
             this.groupBox33.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox33.Name = "groupBox33";
             this.groupBox33.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox33.Size = new System.Drawing.Size(445, 125);
+            this.groupBox33.Size = new System.Drawing.Size(445, 100);
             this.groupBox33.TabIndex = 219;
             this.groupBox33.TabStop = false;
             this.groupBox33.Text = "孔隙水取样器";
@@ -1103,7 +1110,7 @@
             this.groupBox58.Location = new System.Drawing.Point(240, 25);
             this.groupBox58.Name = "groupBox58";
             this.groupBox58.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.groupBox58.Size = new System.Drawing.Size(150, 82);
+            this.groupBox58.Size = new System.Drawing.Size(150, 65);
             this.groupBox58.TabIndex = 153;
             this.groupBox58.TabStop = false;
             this.groupBox58.Text = "抽水油缸";
@@ -1117,7 +1124,7 @@
             this.btn_kxs_csb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_kxs_csb.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_kxs_csb.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_kxs_csb.Location = new System.Drawing.Point(83, 30);
+            this.btn_kxs_csb.Location = new System.Drawing.Point(83, 22);
             this.btn_kxs_csb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_kxs_csb.Name = "btn_kxs_csb";
             this.btn_kxs_csb.Size = new System.Drawing.Size(50, 35);
@@ -1137,7 +1144,7 @@
             this.btn_kxs_csa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_kxs_csa.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_kxs_csa.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_kxs_csa.Location = new System.Drawing.Point(20, 30);
+            this.btn_kxs_csa.Location = new System.Drawing.Point(20, 22);
             this.btn_kxs_csa.Margin = new System.Windows.Forms.Padding(2);
             this.btn_kxs_csa.Name = "btn_kxs_csa";
             this.btn_kxs_csa.Size = new System.Drawing.Size(50, 35);
@@ -1157,7 +1164,7 @@
             this.groupBox50.Location = new System.Drawing.Point(60, 25);
             this.groupBox50.Name = "groupBox50";
             this.groupBox50.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.groupBox50.Size = new System.Drawing.Size(150, 82);
+            this.groupBox50.Size = new System.Drawing.Size(150, 65);
             this.groupBox50.TabIndex = 152;
             this.groupBox50.TabStop = false;
             this.groupBox50.Text = "伸出油缸";
@@ -1171,7 +1178,7 @@
             this.btn_kxs_scb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_kxs_scb.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_kxs_scb.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_kxs_scb.Location = new System.Drawing.Point(83, 30);
+            this.btn_kxs_scb.Location = new System.Drawing.Point(83, 22);
             this.btn_kxs_scb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_kxs_scb.Name = "btn_kxs_scb";
             this.btn_kxs_scb.Size = new System.Drawing.Size(50, 35);
@@ -1191,7 +1198,7 @@
             this.btn_kxs_sca.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_kxs_sca.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_kxs_sca.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_kxs_sca.Location = new System.Drawing.Point(20, 30);
+            this.btn_kxs_sca.Location = new System.Drawing.Point(20, 22);
             this.btn_kxs_sca.Margin = new System.Windows.Forms.Padding(2);
             this.btn_kxs_sca.Name = "btn_kxs_sca";
             this.btn_kxs_sca.Size = new System.Drawing.Size(50, 35);
@@ -1208,11 +1215,11 @@
             this.groupBox31.Controls.Add(this.btn_cjw_a);
             this.groupBox31.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold);
             this.groupBox31.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox31.Location = new System.Drawing.Point(370, 207);
+            this.groupBox31.Location = new System.Drawing.Point(370, 185);
             this.groupBox31.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox31.Name = "groupBox31";
             this.groupBox31.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox31.Size = new System.Drawing.Size(445, 90);
+            this.groupBox31.Size = new System.Drawing.Size(445, 80);
             this.groupBox31.TabIndex = 218;
             this.groupBox31.TabStop = false;
             this.groupBox31.Text = "沉积物取样器";
@@ -1227,7 +1234,7 @@
             this.btn_cjw_b.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_cjw_b.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_cjw_b.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_cjw_b.Location = new System.Drawing.Point(240, 33);
+            this.btn_cjw_b.Location = new System.Drawing.Point(240, 28);
             this.btn_cjw_b.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cjw_b.Name = "btn_cjw_b";
             this.btn_cjw_b.Size = new System.Drawing.Size(150, 40);
@@ -1247,7 +1254,7 @@
             this.btn_cjw_a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_cjw_a.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_cjw_a.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_cjw_a.Location = new System.Drawing.Point(60, 33);
+            this.btn_cjw_a.Location = new System.Drawing.Point(60, 28);
             this.btn_cjw_a.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cjw_a.Name = "btn_cjw_a";
             this.btn_cjw_a.Size = new System.Drawing.Size(150, 40);
@@ -1542,7 +1549,7 @@
             this.groupBox34.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox34.Name = "groupBox34";
             this.groupBox34.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox34.Size = new System.Drawing.Size(445, 180);
+            this.groupBox34.Size = new System.Drawing.Size(445, 168);
             this.groupBox34.TabIndex = 205;
             this.groupBox34.TabStop = false;
             this.groupBox34.Text = "液压支撑腿";
@@ -1557,7 +1564,7 @@
             this.groupBox48.Location = new System.Drawing.Point(335, 25);
             this.groupBox48.Name = "groupBox48";
             this.groupBox48.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.groupBox48.Size = new System.Drawing.Size(100, 86);
+            this.groupBox48.Size = new System.Drawing.Size(100, 80);
             this.groupBox48.TabIndex = 152;
             this.groupBox48.TabStop = false;
             this.groupBox48.Text = "后右腿";
@@ -1571,7 +1578,7 @@
             this.btn_yyzc_brb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yyzc_brb.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_yyzc_brb.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_yyzc_brb.Location = new System.Drawing.Point(54, 33);
+            this.btn_yyzc_brb.Location = new System.Drawing.Point(54, 30);
             this.btn_yyzc_brb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_yyzc_brb.Name = "btn_yyzc_brb";
             this.btn_yyzc_brb.Size = new System.Drawing.Size(35, 35);
@@ -1591,7 +1598,7 @@
             this.btn_yyzc_bra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yyzc_bra.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_yyzc_bra.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_yyzc_bra.Location = new System.Drawing.Point(10, 33);
+            this.btn_yyzc_bra.Location = new System.Drawing.Point(10, 30);
             this.btn_yyzc_bra.Margin = new System.Windows.Forms.Padding(2);
             this.btn_yyzc_bra.Name = "btn_yyzc_bra";
             this.btn_yyzc_bra.Size = new System.Drawing.Size(35, 35);
@@ -1611,7 +1618,7 @@
             this.groupBox44.Location = new System.Drawing.Point(227, 25);
             this.groupBox44.Name = "groupBox44";
             this.groupBox44.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.groupBox44.Size = new System.Drawing.Size(100, 86);
+            this.groupBox44.Size = new System.Drawing.Size(100, 80);
             this.groupBox44.TabIndex = 152;
             this.groupBox44.TabStop = false;
             this.groupBox44.Text = "后左腿";
@@ -1625,7 +1632,7 @@
             this.btn_yyzc_blb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yyzc_blb.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_yyzc_blb.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_yyzc_blb.Location = new System.Drawing.Point(54, 33);
+            this.btn_yyzc_blb.Location = new System.Drawing.Point(54, 30);
             this.btn_yyzc_blb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_yyzc_blb.Name = "btn_yyzc_blb";
             this.btn_yyzc_blb.Size = new System.Drawing.Size(35, 35);
@@ -1645,7 +1652,7 @@
             this.btn_yyzc_bla.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yyzc_bla.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_yyzc_bla.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_yyzc_bla.Location = new System.Drawing.Point(10, 33);
+            this.btn_yyzc_bla.Location = new System.Drawing.Point(10, 30);
             this.btn_yyzc_bla.Margin = new System.Windows.Forms.Padding(2);
             this.btn_yyzc_bla.Name = "btn_yyzc_bla";
             this.btn_yyzc_bla.Size = new System.Drawing.Size(35, 35);
@@ -1665,7 +1672,7 @@
             this.groupBox40.Location = new System.Drawing.Point(120, 25);
             this.groupBox40.Name = "groupBox40";
             this.groupBox40.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.groupBox40.Size = new System.Drawing.Size(100, 86);
+            this.groupBox40.Size = new System.Drawing.Size(100, 80);
             this.groupBox40.TabIndex = 152;
             this.groupBox40.TabStop = false;
             this.groupBox40.Text = "前右腿";
@@ -1679,7 +1686,7 @@
             this.btn_yyzc_frb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yyzc_frb.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_yyzc_frb.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_yyzc_frb.Location = new System.Drawing.Point(54, 33);
+            this.btn_yyzc_frb.Location = new System.Drawing.Point(54, 30);
             this.btn_yyzc_frb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_yyzc_frb.Name = "btn_yyzc_frb";
             this.btn_yyzc_frb.Size = new System.Drawing.Size(35, 35);
@@ -1699,7 +1706,7 @@
             this.btn_yyzc_fra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yyzc_fra.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_yyzc_fra.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_yyzc_fra.Location = new System.Drawing.Point(10, 33);
+            this.btn_yyzc_fra.Location = new System.Drawing.Point(10, 30);
             this.btn_yyzc_fra.Margin = new System.Windows.Forms.Padding(2);
             this.btn_yyzc_fra.Name = "btn_yyzc_fra";
             this.btn_yyzc_fra.Size = new System.Drawing.Size(35, 35);
@@ -1719,7 +1726,7 @@
             this.groupBox37.Location = new System.Drawing.Point(12, 25);
             this.groupBox37.Name = "groupBox37";
             this.groupBox37.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.groupBox37.Size = new System.Drawing.Size(100, 85);
+            this.groupBox37.Size = new System.Drawing.Size(100, 80);
             this.groupBox37.TabIndex = 151;
             this.groupBox37.TabStop = false;
             this.groupBox37.Text = "前左腿";
@@ -1733,7 +1740,7 @@
             this.btn_yyzc_flb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yyzc_flb.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_yyzc_flb.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_yyzc_flb.Location = new System.Drawing.Point(54, 33);
+            this.btn_yyzc_flb.Location = new System.Drawing.Point(54, 30);
             this.btn_yyzc_flb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_yyzc_flb.Name = "btn_yyzc_flb";
             this.btn_yyzc_flb.Size = new System.Drawing.Size(35, 35);
@@ -1753,7 +1760,7 @@
             this.btn_yyzc_fla.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yyzc_fla.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_yyzc_fla.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_yyzc_fla.Location = new System.Drawing.Point(10, 33);
+            this.btn_yyzc_fla.Location = new System.Drawing.Point(10, 30);
             this.btn_yyzc_fla.Margin = new System.Windows.Forms.Padding(2);
             this.btn_yyzc_fla.Name = "btn_yyzc_fla";
             this.btn_yyzc_fla.Size = new System.Drawing.Size(35, 35);
@@ -1773,7 +1780,7 @@
             this.btn_yyzc_a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yyzc_a.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_yyzc_a.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_yyzc_a.Location = new System.Drawing.Point(60, 125);
+            this.btn_yyzc_a.Location = new System.Drawing.Point(60, 117);
             this.btn_yyzc_a.Margin = new System.Windows.Forms.Padding(2);
             this.btn_yyzc_a.Name = "btn_yyzc_a";
             this.btn_yyzc_a.Size = new System.Drawing.Size(150, 40);
@@ -1793,7 +1800,7 @@
             this.btn_yyzc_b.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yyzc_b.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_yyzc_b.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_yyzc_b.Location = new System.Drawing.Point(240, 125);
+            this.btn_yyzc_b.Location = new System.Drawing.Point(240, 117);
             this.btn_yyzc_b.Margin = new System.Windows.Forms.Padding(2);
             this.btn_yyzc_b.Name = "btn_yyzc_b";
             this.btn_yyzc_b.Size = new System.Drawing.Size(150, 40);
@@ -1841,6 +1848,405 @@
             this.GroupBox_FaXiang_Space.TabStop = false;
             this.GroupBox_FaXiang_Space.Text = "阀箱备用通路";
             this.GroupBox_FaXiang_Space.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint);
+            // 
+            // btn_prop_5c
+            // 
+            this.btn_prop_5c.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_5c.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_5c.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_5c.FlatAppearance.BorderSize = 0;
+            this.btn_prop_5c.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_5c.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_5c.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_5c.Location = new System.Drawing.Point(233, 84);
+            this.btn_prop_5c.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_5c.Name = "btn_prop_5c";
+            this.btn_prop_5c.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_5c.TabIndex = 171;
+            this.btn_prop_5c.Tag = 1;
+            this.btn_prop_5c.Text = "5停";
+            this.btn_prop_5c.UseVisualStyleBackColor = false;
+            this.btn_prop_5c.Click += new System.EventHandler(this.btn_prop_5c_Click);
+            // 
+            // btn_prop_5b
+            // 
+            this.btn_prop_5b.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_5b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_5b.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_5b.FlatAppearance.BorderSize = 0;
+            this.btn_prop_5b.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_5b.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_5b.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_5b.Location = new System.Drawing.Point(233, 53);
+            this.btn_prop_5b.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_5b.Name = "btn_prop_5b";
+            this.btn_prop_5b.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_5b.TabIndex = 170;
+            this.btn_prop_5b.Tag = 1;
+            this.btn_prop_5b.Text = "5反";
+            this.btn_prop_5b.UseVisualStyleBackColor = false;
+            this.btn_prop_5b.Click += new System.EventHandler(this.btn_prop_5b_Click);
+            // 
+            // btn_prop_5a
+            // 
+            this.btn_prop_5a.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_5a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_5a.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_5a.FlatAppearance.BorderSize = 0;
+            this.btn_prop_5a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_5a.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_5a.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_5a.Location = new System.Drawing.Point(233, 22);
+            this.btn_prop_5a.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_5a.Name = "btn_prop_5a";
+            this.btn_prop_5a.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_5a.TabIndex = 169;
+            this.btn_prop_5a.Tag = 1;
+            this.btn_prop_5a.Text = "5正";
+            this.btn_prop_5a.UseVisualStyleBackColor = false;
+            this.btn_prop_5a.Click += new System.EventHandler(this.btn_prop_5a_Click);
+            // 
+            // btn_prop_3c
+            // 
+            this.btn_prop_3c.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_3c.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_3c.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_3c.FlatAppearance.BorderSize = 0;
+            this.btn_prop_3c.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_3c.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_3c.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_3c.Location = new System.Drawing.Point(121, 84);
+            this.btn_prop_3c.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_3c.Name = "btn_prop_3c";
+            this.btn_prop_3c.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_3c.TabIndex = 168;
+            this.btn_prop_3c.Tag = 1;
+            this.btn_prop_3c.Text = "3停";
+            this.btn_prop_3c.UseVisualStyleBackColor = false;
+            this.btn_prop_3c.Click += new System.EventHandler(this.btn_prop_3c_Click);
+            // 
+            // btn_prop_3b
+            // 
+            this.btn_prop_3b.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_3b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_3b.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_3b.FlatAppearance.BorderSize = 0;
+            this.btn_prop_3b.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_3b.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_3b.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_3b.Location = new System.Drawing.Point(121, 53);
+            this.btn_prop_3b.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_3b.Name = "btn_prop_3b";
+            this.btn_prop_3b.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_3b.TabIndex = 167;
+            this.btn_prop_3b.Tag = 1;
+            this.btn_prop_3b.Text = "3反";
+            this.btn_prop_3b.UseVisualStyleBackColor = false;
+            this.btn_prop_3b.Click += new System.EventHandler(this.btn_prop_3b_Click);
+            // 
+            // btn_prop_3a
+            // 
+            this.btn_prop_3a.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_3a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_3a.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_3a.FlatAppearance.BorderSize = 0;
+            this.btn_prop_3a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_3a.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_3a.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_3a.Location = new System.Drawing.Point(121, 22);
+            this.btn_prop_3a.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_3a.Name = "btn_prop_3a";
+            this.btn_prop_3a.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_3a.TabIndex = 166;
+            this.btn_prop_3a.Tag = 1;
+            this.btn_prop_3a.Text = "3正";
+            this.btn_prop_3a.UseVisualStyleBackColor = false;
+            this.btn_prop_3a.Click += new System.EventHandler(this.btn_prop_3a_Click);
+            // 
+            // btn_prop_2c
+            // 
+            this.btn_prop_2c.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_2c.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_2c.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_2c.FlatAppearance.BorderSize = 0;
+            this.btn_prop_2c.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_2c.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_2c.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_2c.Location = new System.Drawing.Point(65, 84);
+            this.btn_prop_2c.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_2c.Name = "btn_prop_2c";
+            this.btn_prop_2c.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_2c.TabIndex = 165;
+            this.btn_prop_2c.Tag = 1;
+            this.btn_prop_2c.Text = "2停";
+            this.btn_prop_2c.UseVisualStyleBackColor = false;
+            this.btn_prop_2c.Click += new System.EventHandler(this.btn_prop_2c_Click);
+            // 
+            // btn_prop_2b
+            // 
+            this.btn_prop_2b.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_2b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_2b.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_2b.FlatAppearance.BorderSize = 0;
+            this.btn_prop_2b.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_2b.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_2b.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_2b.Location = new System.Drawing.Point(65, 53);
+            this.btn_prop_2b.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_2b.Name = "btn_prop_2b";
+            this.btn_prop_2b.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_2b.TabIndex = 164;
+            this.btn_prop_2b.Tag = 1;
+            this.btn_prop_2b.Text = "2反";
+            this.btn_prop_2b.UseVisualStyleBackColor = false;
+            this.btn_prop_2b.Click += new System.EventHandler(this.btn_prop_2b_Click);
+            // 
+            // btn_prop_2a
+            // 
+            this.btn_prop_2a.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_2a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_2a.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_2a.FlatAppearance.BorderSize = 0;
+            this.btn_prop_2a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_2a.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_2a.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_2a.Location = new System.Drawing.Point(65, 22);
+            this.btn_prop_2a.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_2a.Name = "btn_prop_2a";
+            this.btn_prop_2a.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_2a.TabIndex = 163;
+            this.btn_prop_2a.Tag = 1;
+            this.btn_prop_2a.Text = "2正";
+            this.btn_prop_2a.UseVisualStyleBackColor = false;
+            this.btn_prop_2a.Click += new System.EventHandler(this.btn_prop_2a_Click);
+            // 
+            // btn_prop_6c
+            // 
+            this.btn_prop_6c.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_6c.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_6c.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_6c.FlatAppearance.BorderSize = 0;
+            this.btn_prop_6c.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_6c.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_6c.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_6c.Location = new System.Drawing.Point(289, 84);
+            this.btn_prop_6c.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_6c.Name = "btn_prop_6c";
+            this.btn_prop_6c.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_6c.TabIndex = 162;
+            this.btn_prop_6c.Tag = 1;
+            this.btn_prop_6c.Text = "6停";
+            this.btn_prop_6c.UseVisualStyleBackColor = false;
+            this.btn_prop_6c.Click += new System.EventHandler(this.btn_prop_6c_Click);
+            // 
+            // btn_prop_6b
+            // 
+            this.btn_prop_6b.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_6b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_6b.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_6b.FlatAppearance.BorderSize = 0;
+            this.btn_prop_6b.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_6b.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_6b.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_6b.Location = new System.Drawing.Point(289, 53);
+            this.btn_prop_6b.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_6b.Name = "btn_prop_6b";
+            this.btn_prop_6b.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_6b.TabIndex = 161;
+            this.btn_prop_6b.Tag = 1;
+            this.btn_prop_6b.Text = "6反";
+            this.btn_prop_6b.UseVisualStyleBackColor = false;
+            this.btn_prop_6b.Click += new System.EventHandler(this.btn_prop_6b_Click);
+            // 
+            // btn_prop_6a
+            // 
+            this.btn_prop_6a.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_6a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_6a.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_6a.FlatAppearance.BorderSize = 0;
+            this.btn_prop_6a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_6a.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_6a.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_6a.Location = new System.Drawing.Point(289, 22);
+            this.btn_prop_6a.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_6a.Name = "btn_prop_6a";
+            this.btn_prop_6a.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_6a.TabIndex = 160;
+            this.btn_prop_6a.Tag = 1;
+            this.btn_prop_6a.Text = "6正";
+            this.btn_prop_6a.UseVisualStyleBackColor = false;
+            this.btn_prop_6a.Click += new System.EventHandler(this.btn_prop_6a_Click);
+            // 
+            // btn_prop_7c
+            // 
+            this.btn_prop_7c.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_7c.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_7c.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_7c.FlatAppearance.BorderSize = 0;
+            this.btn_prop_7c.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_7c.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_7c.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_7c.Location = new System.Drawing.Point(345, 84);
+            this.btn_prop_7c.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_7c.Name = "btn_prop_7c";
+            this.btn_prop_7c.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_7c.TabIndex = 159;
+            this.btn_prop_7c.Tag = 1;
+            this.btn_prop_7c.Text = "7停";
+            this.btn_prop_7c.UseVisualStyleBackColor = false;
+            this.btn_prop_7c.Click += new System.EventHandler(this.btn_prop_7c_Click);
+            // 
+            // btn_prop_7b
+            // 
+            this.btn_prop_7b.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_7b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_7b.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_7b.FlatAppearance.BorderSize = 0;
+            this.btn_prop_7b.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_7b.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_7b.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_7b.Location = new System.Drawing.Point(345, 53);
+            this.btn_prop_7b.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_7b.Name = "btn_prop_7b";
+            this.btn_prop_7b.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_7b.TabIndex = 158;
+            this.btn_prop_7b.Tag = 1;
+            this.btn_prop_7b.Text = "7反";
+            this.btn_prop_7b.UseVisualStyleBackColor = false;
+            this.btn_prop_7b.Click += new System.EventHandler(this.btn_prop_7b_Click);
+            // 
+            // btn_prop_7a
+            // 
+            this.btn_prop_7a.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_7a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_7a.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_7a.FlatAppearance.BorderSize = 0;
+            this.btn_prop_7a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_7a.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_7a.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_7a.Location = new System.Drawing.Point(345, 22);
+            this.btn_prop_7a.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_7a.Name = "btn_prop_7a";
+            this.btn_prop_7a.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_7a.TabIndex = 157;
+            this.btn_prop_7a.Tag = 1;
+            this.btn_prop_7a.Text = "7正";
+            this.btn_prop_7a.UseVisualStyleBackColor = false;
+            this.btn_prop_7a.Click += new System.EventHandler(this.btn_prop_7a_Click);
+            // 
+            // btn_prop_8c
+            // 
+            this.btn_prop_8c.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_8c.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_8c.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_8c.FlatAppearance.BorderSize = 0;
+            this.btn_prop_8c.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_8c.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_8c.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_8c.Location = new System.Drawing.Point(401, 84);
+            this.btn_prop_8c.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_8c.Name = "btn_prop_8c";
+            this.btn_prop_8c.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_8c.TabIndex = 156;
+            this.btn_prop_8c.Tag = 1;
+            this.btn_prop_8c.Text = "8停";
+            this.btn_prop_8c.UseVisualStyleBackColor = false;
+            this.btn_prop_8c.Click += new System.EventHandler(this.btn_prop_8c_Click);
+            // 
+            // btn_prop_8b
+            // 
+            this.btn_prop_8b.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_8b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_8b.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_8b.FlatAppearance.BorderSize = 0;
+            this.btn_prop_8b.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_8b.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_8b.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_8b.Location = new System.Drawing.Point(401, 53);
+            this.btn_prop_8b.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_8b.Name = "btn_prop_8b";
+            this.btn_prop_8b.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_8b.TabIndex = 155;
+            this.btn_prop_8b.Tag = 1;
+            this.btn_prop_8b.Text = "8反";
+            this.btn_prop_8b.UseVisualStyleBackColor = false;
+            this.btn_prop_8b.Click += new System.EventHandler(this.btn_prop_8b_Click);
+            // 
+            // btn_prop_8a
+            // 
+            this.btn_prop_8a.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_8a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_8a.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_8a.FlatAppearance.BorderSize = 0;
+            this.btn_prop_8a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_8a.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_8a.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_8a.Location = new System.Drawing.Point(401, 22);
+            this.btn_prop_8a.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_8a.Name = "btn_prop_8a";
+            this.btn_prop_8a.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_8a.TabIndex = 154;
+            this.btn_prop_8a.Tag = 1;
+            this.btn_prop_8a.Text = "8正";
+            this.btn_prop_8a.UseVisualStyleBackColor = false;
+            this.btn_prop_8a.Click += new System.EventHandler(this.btn_prop_8a_Click);
+            // 
+            // btn_prop_4c
+            // 
+            this.btn_prop_4c.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_4c.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_4c.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_4c.FlatAppearance.BorderSize = 0;
+            this.btn_prop_4c.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_4c.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_4c.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_4c.Location = new System.Drawing.Point(177, 84);
+            this.btn_prop_4c.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_4c.Name = "btn_prop_4c";
+            this.btn_prop_4c.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_4c.TabIndex = 153;
+            this.btn_prop_4c.Tag = 1;
+            this.btn_prop_4c.Text = "4停";
+            this.btn_prop_4c.UseVisualStyleBackColor = false;
+            this.btn_prop_4c.Click += new System.EventHandler(this.btn_prop_4c_Click);
+            // 
+            // btn_prop_4b
+            // 
+            this.btn_prop_4b.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_4b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_4b.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_4b.FlatAppearance.BorderSize = 0;
+            this.btn_prop_4b.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_4b.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_4b.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_4b.Location = new System.Drawing.Point(177, 53);
+            this.btn_prop_4b.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_4b.Name = "btn_prop_4b";
+            this.btn_prop_4b.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_4b.TabIndex = 152;
+            this.btn_prop_4b.Tag = 1;
+            this.btn_prop_4b.Text = "4反";
+            this.btn_prop_4b.UseVisualStyleBackColor = false;
+            this.btn_prop_4b.Click += new System.EventHandler(this.btn_prop_4b_Click);
+            // 
+            // btn_prop_4a
+            // 
+            this.btn_prop_4a.BackColor = System.Drawing.Color.Transparent;
+            this.btn_prop_4a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_prop_4a.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_prop_4a.FlatAppearance.BorderSize = 0;
+            this.btn_prop_4a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_prop_4a.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_prop_4a.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_prop_4a.Location = new System.Drawing.Point(177, 22);
+            this.btn_prop_4a.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_prop_4a.Name = "btn_prop_4a";
+            this.btn_prop_4a.Size = new System.Drawing.Size(50, 28);
+            this.btn_prop_4a.TabIndex = 151;
+            this.btn_prop_4a.Tag = 1;
+            this.btn_prop_4a.Text = "4正";
+            this.btn_prop_4a.UseVisualStyleBackColor = false;
+            this.btn_prop_4a.Click += new System.EventHandler(this.btn_prop_4a_Click);
             // 
             // btn_prop_1c
             // 
@@ -4060,11 +4466,11 @@
             this.groupBox_SoftRuningInfo.Controls.Add(this.richTextBox_InfoShow);
             this.groupBox_SoftRuningInfo.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Bold);
             this.groupBox_SoftRuningInfo.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox_SoftRuningInfo.Location = new System.Drawing.Point(370, 548);
+            this.groupBox_SoftRuningInfo.Location = new System.Drawing.Point(370, 580);
             this.groupBox_SoftRuningInfo.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox_SoftRuningInfo.Name = "groupBox_SoftRuningInfo";
             this.groupBox_SoftRuningInfo.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox_SoftRuningInfo.Size = new System.Drawing.Size(445, 373);
+            this.groupBox_SoftRuningInfo.Size = new System.Drawing.Size(445, 340);
             this.groupBox_SoftRuningInfo.TabIndex = 153;
             this.groupBox_SoftRuningInfo.TabStop = false;
             this.groupBox_SoftRuningInfo.Text = "运行状态";
@@ -4091,7 +4497,7 @@
             this.richTextBox_InfoShow.Name = "richTextBox_InfoShow";
             this.richTextBox_InfoShow.ReadOnly = true;
             this.richTextBox_InfoShow.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.richTextBox_InfoShow.Size = new System.Drawing.Size(441, 348);
+            this.richTextBox_InfoShow.Size = new System.Drawing.Size(441, 315);
             this.richTextBox_InfoShow.TabIndex = 0;
             this.richTextBox_InfoShow.Text = "";
             // 
@@ -7510,14 +7916,14 @@
             this.DataGridView_SysAlarmInfo.Name = "DataGridView_SysAlarmInfo";
             this.DataGridView_SysAlarmInfo.ReadOnly = true;
             this.DataGridView_SysAlarmInfo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle29.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle29.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle29.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGridView_SysAlarmInfo.RowHeadersDefaultCellStyle = dataGridViewCellStyle29;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridView_SysAlarmInfo.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.DataGridView_SysAlarmInfo.RowHeadersVisible = false;
             this.DataGridView_SysAlarmInfo.RowHeadersWidth = 51;
             this.DataGridView_SysAlarmInfo.RowTemplate.Height = 27;
@@ -7527,10 +7933,10 @@
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle27.BackColor = System.Drawing.Color.DarkSeaGreen;
-            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.DarkSeaGreen;
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle6;
             this.Column1.HeaderText = "";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
@@ -10899,404 +11305,99 @@
             this.timer_Communication.Interval = 7000;
             this.timer_Communication.Tick += new System.EventHandler(this.timer_Communication_Tick);
             // 
-            // btn_prop_4c
+            // groupBox59
             // 
-            this.btn_prop_4c.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_4c.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_4c.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_4c.FlatAppearance.BorderSize = 0;
-            this.btn_prop_4c.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_4c.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_4c.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_4c.Location = new System.Drawing.Point(177, 84);
-            this.btn_prop_4c.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_4c.Name = "btn_prop_4c";
-            this.btn_prop_4c.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_4c.TabIndex = 153;
-            this.btn_prop_4c.Tag = 1;
-            this.btn_prop_4c.Text = "4停";
-            this.btn_prop_4c.UseVisualStyleBackColor = false;
-            this.btn_prop_4c.Click += new System.EventHandler(this.btn_prop_4c_Click);
+            this.groupBox59.Controls.Add(this.btn_sensor_eyht);
+            this.groupBox59.Controls.Add(this.btn_sensor_wys);
+            this.groupBox59.Controls.Add(this.btn_sensor_rjy);
+            this.groupBox59.Controls.Add(this.btn_sensor_jw);
+            this.groupBox59.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Bold);
+            this.groupBox59.ForeColor = System.Drawing.SystemColors.Control;
+            this.groupBox59.Location = new System.Drawing.Point(370, 455);
+            this.groupBox59.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox59.Name = "groupBox59";
+            this.groupBox59.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox59.Size = new System.Drawing.Size(445, 120);
+            this.groupBox59.TabIndex = 221;
+            this.groupBox59.TabStop = false;
+            this.groupBox59.Text = "传感器数据采集";
+            this.groupBox59.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox_Paint);
             // 
-            // btn_prop_4b
+            // btn_sensor_rjy
             // 
-            this.btn_prop_4b.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_4b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_4b.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_4b.FlatAppearance.BorderSize = 0;
-            this.btn_prop_4b.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_4b.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_4b.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_4b.Location = new System.Drawing.Point(177, 53);
-            this.btn_prop_4b.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_4b.Name = "btn_prop_4b";
-            this.btn_prop_4b.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_4b.TabIndex = 152;
-            this.btn_prop_4b.Tag = 1;
-            this.btn_prop_4b.Text = "4反";
-            this.btn_prop_4b.UseVisualStyleBackColor = false;
-            this.btn_prop_4b.Click += new System.EventHandler(this.btn_prop_4b_Click);
+            this.btn_sensor_rjy.BackColor = System.Drawing.Color.Transparent;
+            this.btn_sensor_rjy.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_sensor_rjy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_sensor_rjy.FlatAppearance.BorderSize = 0;
+            this.btn_sensor_rjy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_sensor_rjy.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_sensor_rjy.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_sensor_rjy.Location = new System.Drawing.Point(240, 28);
+            this.btn_sensor_rjy.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_sensor_rjy.Name = "btn_sensor_rjy";
+            this.btn_sensor_rjy.Size = new System.Drawing.Size(150, 40);
+            this.btn_sensor_rjy.TabIndex = 142;
+            this.btn_sensor_rjy.Tag = 1;
+            this.btn_sensor_rjy.Text = "溶解氧";
+            this.btn_sensor_rjy.UseVisualStyleBackColor = false;
+            this.btn_sensor_rjy.Click += new System.EventHandler(this.btn_sensor_rjy_Click);
             // 
-            // btn_prop_4a
+            // btn_sensor_jw
             // 
-            this.btn_prop_4a.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_4a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_4a.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_4a.FlatAppearance.BorderSize = 0;
-            this.btn_prop_4a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_4a.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_4a.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_4a.Location = new System.Drawing.Point(177, 22);
-            this.btn_prop_4a.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_4a.Name = "btn_prop_4a";
-            this.btn_prop_4a.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_4a.TabIndex = 151;
-            this.btn_prop_4a.Tag = 1;
-            this.btn_prop_4a.Text = "4正";
-            this.btn_prop_4a.UseVisualStyleBackColor = false;
-            this.btn_prop_4a.Click += new System.EventHandler(this.btn_prop_4a_Click);
+            this.btn_sensor_jw.BackColor = System.Drawing.Color.Transparent;
+            this.btn_sensor_jw.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_sensor_jw.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_sensor_jw.FlatAppearance.BorderSize = 0;
+            this.btn_sensor_jw.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_sensor_jw.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_sensor_jw.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_sensor_jw.Location = new System.Drawing.Point(60, 28);
+            this.btn_sensor_jw.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_sensor_jw.Name = "btn_sensor_jw";
+            this.btn_sensor_jw.Size = new System.Drawing.Size(150, 40);
+            this.btn_sensor_jw.TabIndex = 141;
+            this.btn_sensor_jw.Tag = 1;
+            this.btn_sensor_jw.Text = "甲烷";
+            this.btn_sensor_jw.UseVisualStyleBackColor = false;
+            this.btn_sensor_jw.Click += new System.EventHandler(this.btn_sensor_jw_Click);
             // 
-            // btn_prop_8c
+            // btn_sensor_wys
             // 
-            this.btn_prop_8c.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_8c.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_8c.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_8c.FlatAppearance.BorderSize = 0;
-            this.btn_prop_8c.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_8c.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_8c.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_8c.Location = new System.Drawing.Point(401, 84);
-            this.btn_prop_8c.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_8c.Name = "btn_prop_8c";
-            this.btn_prop_8c.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_8c.TabIndex = 156;
-            this.btn_prop_8c.Tag = 1;
-            this.btn_prop_8c.Text = "8停";
-            this.btn_prop_8c.UseVisualStyleBackColor = false;
-            this.btn_prop_8c.Click += new System.EventHandler(this.btn_prop_8c_Click);
+            this.btn_sensor_wys.BackColor = System.Drawing.Color.Transparent;
+            this.btn_sensor_wys.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_sensor_wys.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_sensor_wys.FlatAppearance.BorderSize = 0;
+            this.btn_sensor_wys.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_sensor_wys.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_sensor_wys.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_sensor_wys.Location = new System.Drawing.Point(240, 72);
+            this.btn_sensor_wys.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_sensor_wys.Name = "btn_sensor_wys";
+            this.btn_sensor_wys.Size = new System.Drawing.Size(150, 40);
+            this.btn_sensor_wys.TabIndex = 143;
+            this.btn_sensor_wys.Tag = 1;
+            this.btn_sensor_wys.Text = "温盐深";
+            this.btn_sensor_wys.UseVisualStyleBackColor = false;
+            this.btn_sensor_wys.Click += new System.EventHandler(this.btn_sensor_wys_Click);
             // 
-            // btn_prop_8b
+            // btn_sensor_eyht
             // 
-            this.btn_prop_8b.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_8b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_8b.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_8b.FlatAppearance.BorderSize = 0;
-            this.btn_prop_8b.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_8b.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_8b.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_8b.Location = new System.Drawing.Point(401, 53);
-            this.btn_prop_8b.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_8b.Name = "btn_prop_8b";
-            this.btn_prop_8b.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_8b.TabIndex = 155;
-            this.btn_prop_8b.Tag = 1;
-            this.btn_prop_8b.Text = "8反";
-            this.btn_prop_8b.UseVisualStyleBackColor = false;
-            this.btn_prop_8b.Click += new System.EventHandler(this.btn_prop_8b_Click);
-            // 
-            // btn_prop_8a
-            // 
-            this.btn_prop_8a.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_8a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_8a.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_8a.FlatAppearance.BorderSize = 0;
-            this.btn_prop_8a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_8a.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_8a.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_8a.Location = new System.Drawing.Point(401, 22);
-            this.btn_prop_8a.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_8a.Name = "btn_prop_8a";
-            this.btn_prop_8a.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_8a.TabIndex = 154;
-            this.btn_prop_8a.Tag = 1;
-            this.btn_prop_8a.Text = "8正";
-            this.btn_prop_8a.UseVisualStyleBackColor = false;
-            this.btn_prop_8a.Click += new System.EventHandler(this.btn_prop_8a_Click);
-            // 
-            // btn_prop_7c
-            // 
-            this.btn_prop_7c.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_7c.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_7c.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_7c.FlatAppearance.BorderSize = 0;
-            this.btn_prop_7c.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_7c.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_7c.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_7c.Location = new System.Drawing.Point(345, 84);
-            this.btn_prop_7c.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_7c.Name = "btn_prop_7c";
-            this.btn_prop_7c.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_7c.TabIndex = 159;
-            this.btn_prop_7c.Tag = 1;
-            this.btn_prop_7c.Text = "7停";
-            this.btn_prop_7c.UseVisualStyleBackColor = false;
-            this.btn_prop_7c.Click += new System.EventHandler(this.btn_prop_7c_Click);
-            // 
-            // btn_prop_7b
-            // 
-            this.btn_prop_7b.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_7b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_7b.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_7b.FlatAppearance.BorderSize = 0;
-            this.btn_prop_7b.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_7b.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_7b.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_7b.Location = new System.Drawing.Point(345, 53);
-            this.btn_prop_7b.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_7b.Name = "btn_prop_7b";
-            this.btn_prop_7b.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_7b.TabIndex = 158;
-            this.btn_prop_7b.Tag = 1;
-            this.btn_prop_7b.Text = "7反";
-            this.btn_prop_7b.UseVisualStyleBackColor = false;
-            this.btn_prop_7b.Click += new System.EventHandler(this.btn_prop_7b_Click);
-            // 
-            // btn_prop_7a
-            // 
-            this.btn_prop_7a.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_7a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_7a.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_7a.FlatAppearance.BorderSize = 0;
-            this.btn_prop_7a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_7a.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_7a.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_7a.Location = new System.Drawing.Point(345, 22);
-            this.btn_prop_7a.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_7a.Name = "btn_prop_7a";
-            this.btn_prop_7a.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_7a.TabIndex = 157;
-            this.btn_prop_7a.Tag = 1;
-            this.btn_prop_7a.Text = "7正";
-            this.btn_prop_7a.UseVisualStyleBackColor = false;
-            this.btn_prop_7a.Click += new System.EventHandler(this.btn_prop_7a_Click);
-            // 
-            // btn_prop_6c
-            // 
-            this.btn_prop_6c.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_6c.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_6c.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_6c.FlatAppearance.BorderSize = 0;
-            this.btn_prop_6c.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_6c.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_6c.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_6c.Location = new System.Drawing.Point(289, 84);
-            this.btn_prop_6c.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_6c.Name = "btn_prop_6c";
-            this.btn_prop_6c.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_6c.TabIndex = 162;
-            this.btn_prop_6c.Tag = 1;
-            this.btn_prop_6c.Text = "6停";
-            this.btn_prop_6c.UseVisualStyleBackColor = false;
-            this.btn_prop_6c.Click += new System.EventHandler(this.btn_prop_6c_Click);
-            // 
-            // btn_prop_6b
-            // 
-            this.btn_prop_6b.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_6b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_6b.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_6b.FlatAppearance.BorderSize = 0;
-            this.btn_prop_6b.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_6b.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_6b.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_6b.Location = new System.Drawing.Point(289, 53);
-            this.btn_prop_6b.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_6b.Name = "btn_prop_6b";
-            this.btn_prop_6b.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_6b.TabIndex = 161;
-            this.btn_prop_6b.Tag = 1;
-            this.btn_prop_6b.Text = "6反";
-            this.btn_prop_6b.UseVisualStyleBackColor = false;
-            this.btn_prop_6b.Click += new System.EventHandler(this.btn_prop_6b_Click);
-            // 
-            // btn_prop_6a
-            // 
-            this.btn_prop_6a.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_6a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_6a.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_6a.FlatAppearance.BorderSize = 0;
-            this.btn_prop_6a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_6a.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_6a.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_6a.Location = new System.Drawing.Point(289, 22);
-            this.btn_prop_6a.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_6a.Name = "btn_prop_6a";
-            this.btn_prop_6a.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_6a.TabIndex = 160;
-            this.btn_prop_6a.Tag = 1;
-            this.btn_prop_6a.Text = "6正";
-            this.btn_prop_6a.UseVisualStyleBackColor = false;
-            this.btn_prop_6a.Click += new System.EventHandler(this.btn_prop_6a_Click);
-            // 
-            // btn_prop_2c
-            // 
-            this.btn_prop_2c.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_2c.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_2c.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_2c.FlatAppearance.BorderSize = 0;
-            this.btn_prop_2c.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_2c.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_2c.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_2c.Location = new System.Drawing.Point(65, 84);
-            this.btn_prop_2c.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_2c.Name = "btn_prop_2c";
-            this.btn_prop_2c.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_2c.TabIndex = 165;
-            this.btn_prop_2c.Tag = 1;
-            this.btn_prop_2c.Text = "2停";
-            this.btn_prop_2c.UseVisualStyleBackColor = false;
-            this.btn_prop_2c.Click += new System.EventHandler(this.btn_prop_2c_Click);
-            // 
-            // btn_prop_2b
-            // 
-            this.btn_prop_2b.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_2b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_2b.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_2b.FlatAppearance.BorderSize = 0;
-            this.btn_prop_2b.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_2b.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_2b.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_2b.Location = new System.Drawing.Point(65, 53);
-            this.btn_prop_2b.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_2b.Name = "btn_prop_2b";
-            this.btn_prop_2b.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_2b.TabIndex = 164;
-            this.btn_prop_2b.Tag = 1;
-            this.btn_prop_2b.Text = "2反";
-            this.btn_prop_2b.UseVisualStyleBackColor = false;
-            this.btn_prop_2b.Click += new System.EventHandler(this.btn_prop_2b_Click);
-            // 
-            // btn_prop_2a
-            // 
-            this.btn_prop_2a.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_2a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_2a.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_2a.FlatAppearance.BorderSize = 0;
-            this.btn_prop_2a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_2a.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_2a.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_2a.Location = new System.Drawing.Point(65, 22);
-            this.btn_prop_2a.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_2a.Name = "btn_prop_2a";
-            this.btn_prop_2a.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_2a.TabIndex = 163;
-            this.btn_prop_2a.Tag = 1;
-            this.btn_prop_2a.Text = "2正";
-            this.btn_prop_2a.UseVisualStyleBackColor = false;
-            this.btn_prop_2a.Click += new System.EventHandler(this.btn_prop_2a_Click);
-            // 
-            // btn_prop_3c
-            // 
-            this.btn_prop_3c.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_3c.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_3c.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_3c.FlatAppearance.BorderSize = 0;
-            this.btn_prop_3c.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_3c.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_3c.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_3c.Location = new System.Drawing.Point(121, 84);
-            this.btn_prop_3c.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_3c.Name = "btn_prop_3c";
-            this.btn_prop_3c.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_3c.TabIndex = 168;
-            this.btn_prop_3c.Tag = 1;
-            this.btn_prop_3c.Text = "3停";
-            this.btn_prop_3c.UseVisualStyleBackColor = false;
-            this.btn_prop_3c.Click += new System.EventHandler(this.btn_prop_3c_Click);
-            // 
-            // btn_prop_3b
-            // 
-            this.btn_prop_3b.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_3b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_3b.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_3b.FlatAppearance.BorderSize = 0;
-            this.btn_prop_3b.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_3b.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_3b.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_3b.Location = new System.Drawing.Point(121, 53);
-            this.btn_prop_3b.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_3b.Name = "btn_prop_3b";
-            this.btn_prop_3b.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_3b.TabIndex = 167;
-            this.btn_prop_3b.Tag = 1;
-            this.btn_prop_3b.Text = "3反";
-            this.btn_prop_3b.UseVisualStyleBackColor = false;
-            this.btn_prop_3b.Click += new System.EventHandler(this.btn_prop_3b_Click);
-            // 
-            // btn_prop_3a
-            // 
-            this.btn_prop_3a.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_3a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_3a.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_3a.FlatAppearance.BorderSize = 0;
-            this.btn_prop_3a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_3a.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_3a.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_3a.Location = new System.Drawing.Point(121, 22);
-            this.btn_prop_3a.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_3a.Name = "btn_prop_3a";
-            this.btn_prop_3a.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_3a.TabIndex = 166;
-            this.btn_prop_3a.Tag = 1;
-            this.btn_prop_3a.Text = "3正";
-            this.btn_prop_3a.UseVisualStyleBackColor = false;
-            this.btn_prop_3a.Click += new System.EventHandler(this.btn_prop_3a_Click);
-            // 
-            // btn_prop_5c
-            // 
-            this.btn_prop_5c.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_5c.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_5c.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_5c.FlatAppearance.BorderSize = 0;
-            this.btn_prop_5c.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_5c.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_5c.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_5c.Location = new System.Drawing.Point(233, 84);
-            this.btn_prop_5c.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_5c.Name = "btn_prop_5c";
-            this.btn_prop_5c.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_5c.TabIndex = 171;
-            this.btn_prop_5c.Tag = 1;
-            this.btn_prop_5c.Text = "5停";
-            this.btn_prop_5c.UseVisualStyleBackColor = false;
-            this.btn_prop_5c.Click += new System.EventHandler(this.btn_prop_5c_Click);
-            // 
-            // btn_prop_5b
-            // 
-            this.btn_prop_5b.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_5b.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_5b.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_5b.FlatAppearance.BorderSize = 0;
-            this.btn_prop_5b.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_5b.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_5b.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_5b.Location = new System.Drawing.Point(233, 53);
-            this.btn_prop_5b.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_5b.Name = "btn_prop_5b";
-            this.btn_prop_5b.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_5b.TabIndex = 170;
-            this.btn_prop_5b.Tag = 1;
-            this.btn_prop_5b.Text = "5反";
-            this.btn_prop_5b.UseVisualStyleBackColor = false;
-            this.btn_prop_5b.Click += new System.EventHandler(this.btn_prop_5b_Click);
-            // 
-            // btn_prop_5a
-            // 
-            this.btn_prop_5a.BackColor = System.Drawing.Color.Transparent;
-            this.btn_prop_5a.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
-            this.btn_prop_5a.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_prop_5a.FlatAppearance.BorderSize = 0;
-            this.btn_prop_5a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_prop_5a.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_prop_5a.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_prop_5a.Location = new System.Drawing.Point(233, 22);
-            this.btn_prop_5a.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_prop_5a.Name = "btn_prop_5a";
-            this.btn_prop_5a.Size = new System.Drawing.Size(50, 28);
-            this.btn_prop_5a.TabIndex = 169;
-            this.btn_prop_5a.Tag = 1;
-            this.btn_prop_5a.Text = "5正";
-            this.btn_prop_5a.UseVisualStyleBackColor = false;
-            this.btn_prop_5a.Click += new System.EventHandler(this.btn_prop_5a_Click);
+            this.btn_sensor_eyht.BackColor = System.Drawing.Color.Transparent;
+            this.btn_sensor_eyht.BackgroundImage = global::MonitorProj.Properties.Resources.Button1;
+            this.btn_sensor_eyht.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_sensor_eyht.FlatAppearance.BorderSize = 0;
+            this.btn_sensor_eyht.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_sensor_eyht.Font = new System.Drawing.Font("SimSun", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_sensor_eyht.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_sensor_eyht.Location = new System.Drawing.Point(60, 72);
+            this.btn_sensor_eyht.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_sensor_eyht.Name = "btn_sensor_eyht";
+            this.btn_sensor_eyht.Size = new System.Drawing.Size(150, 40);
+            this.btn_sensor_eyht.TabIndex = 144;
+            this.btn_sensor_eyht.Tag = 1;
+            this.btn_sensor_eyht.Text = "二氧化碳";
+            this.btn_sensor_eyht.UseVisualStyleBackColor = false;
+            this.btn_sensor_eyht.Click += new System.EventHandler(this.btn_sensor_eyht_Click);
             // 
             // FormMainUserA
             // 
@@ -11513,6 +11614,7 @@
             this.groupBox23.PerformLayout();
             this.groupBox27.ResumeLayout(false);
             this.groupBox27.PerformLayout();
+            this.groupBox59.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -12291,5 +12393,10 @@
         private System.Windows.Forms.Button btn_prop_4c;
         private System.Windows.Forms.Button btn_prop_4b;
         private System.Windows.Forms.Button btn_prop_4a;
+        private System.Windows.Forms.GroupBox groupBox59;
+        private System.Windows.Forms.Button btn_sensor_eyht;
+        private System.Windows.Forms.Button btn_sensor_wys;
+        private System.Windows.Forms.Button btn_sensor_rjy;
+        private System.Windows.Forms.Button btn_sensor_jw;
     }
 }
